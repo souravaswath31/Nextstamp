@@ -1,0 +1,173 @@
+// NextStamp data model
+//
+// Local dev runs on SQLite so the project works with zero external setup.
+// To deploy on Supabase/Neon, change the datasource below to:
+//   provider = "postgresql"
+//   url      = env("DATABASE_URL")
+// and run `npx prisma db push` against your Postgres connection string.
+// The schema itself needs no other changes to move to Postgres.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String   @id @default(cuid())
+  email           String   @unique
+  name            String
+  passportCountry String
+  homeBaseLocation String?
+  createdAt       DateTime @default(now())
+
+  heldDocuments HeldDocument[]
+  trips         UserTrip[]
+}
+
+// A visa, residency permit, or similar document the user holds beyond
+// their passport — this is what powers the "visa cascade" feature
+// (e.g. an Indian passport + a valid US H1B visa unlocks entry to a
+// third set of countries that neither alone would).
+model HeldDocument {
+  id         String    @id @default(cuid())
+  userId     String
+  type       String    // "visa" | "residency_permit" | "green_card" ...
+  country    String    // issuing country, e.g. "USA"
+  subtype    String?   // e.g. "H1B", "B1/B2", "Schengen"
+  validUntil DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Itinerary {
+  id                 String   @id @default(cuid())
+  title              String
+  category           String   // comma-separated tags, e.g. "nature,splurge"
+  region             String
+  countries          String   // comma-separated ISO-ish country names
+  durationDaysMin    Int
+  durationDaysMax    Int
+  bestTimeDescription String
+  bestTimeMonths     String   // comma-separated month names
+  description        String
+  coverImageUrl      String?
+  costTier           String   // "budget" | "mid" | "splurge"
+  isPublic           Boolean  @default(true)
+  createdBy          String?  // null = seeded/admin content
+  createdAt          DateTime @default(now())
+  relatedStateSlugs  String?  // comma-separated StateGuide.slug values — for
+                               // domestic itineraries whose food/drink/culture
+                               // depth already lives in a state guide, so we
+                               // link out instead of duplicating the research
+
+  days  ItineraryDay[]
+  notes ItineraryNote[]
+  trips UserTrip[]
+}
+
+model ItineraryDay {
+  id               String  @id @default(cuid())
+  itineraryId      String
+  dayNumber        Int
+  title            String
+  activities       String  // pipe-separated list
+  driveTime        String?
+  lodgingSuggestion String?
+  coffeeWifiSpot   String?
+
+  itinerary Itinerary @relation(fields: [itineraryId], references: [id], onDelete: Cascade)
+}
+
+// Same shape and purpose as StatePlace's food_culture entries, scoped to
+// a specific trip's destination country rather than a US state — the
+// international itineraries had zero content here even though the state
+// guides all do, since food/drink/culture was added to the pattern after
+// the itineraries were first built.
+model ItineraryNote {
+  id          String  @id @default(cuid())
+  itineraryId String
+  category    String  // "food_culture" for now
+  placeType   String? // "dish" | "drink" | "tradition" | "culture"
+  name        String
+  description String
+
+  itinerary Itinerary @relation(fields: [itineraryId], references: [id], onDelete: Cascade)
+}
+
+// Rules keyed by (passport, destination). requiresHeldDocumentCountry
+// models the cascade: when set, this rule only applies to a user who
+// also holds a live document issued by that country (e.g. "USA").
+model VisaRule {
+  id                          String   @id @default(cuid())
+  passportCountry             String
+  destinationCountry          String
+  visaType                    String   // "visa-free" | "visa-on-arrival" | "e-visa" | "advance-visa-required"
+  requiresHeldDocumentCountry String?
+  conditionsText              String
+  maxStayDays                 Int?
+  feeNotes                    String?
+  sourceUrl                   String?
+  lastVerifiedDate            DateTime
+
+  @@unique([passportCountry, destinationCountry, requiresHeldDocumentCountry])
+}
+
+model UserTrip {
+  id            String    @id @default(cuid())
+  userId        String
+  itineraryId   String?
+  title         String
+  status        String    @default("idea") // "idea" | "planning" | "booked" | "completed"
+  customDaysJson String   // JSON override of the day-by-day plan (source of truth once a trip is created)
+  costTier      String    @default("mid")
+  coTravelers   String?   // comma-separated names, Phase 2 will make this real
+  shareToken    String?   @unique
+  startedDate   DateTime?
+  completedDate DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  itinerary Itinerary? @relation(fields: [itineraryId], references: [id])
+}
+
+// State/destination guides — a curated place directory, distinct from the
+// day-by-day Itinerary model above. A guide is "here's everything worth
+// knowing about Colorado," not a fixed trip plan; the person builds their
+// own trip from it. One state per StateGuide, many places per state.
+model StateGuide {
+  id               String   @id @default(cuid())
+  name             String   // "Colorado"
+  slug             String   @unique // "colorado"
+  region           String   // "Mountain West"
+  heroTagline      String   // one line capturing the state's character
+  heroDescription  String
+  bestTimeToVisit  String
+  altitudeOrClimateNote String? // e.g. altitude acclimatization, hurricane season — whatever's relevant
+  permitsNote      String?  // timed-entry permits, reservations required, etc.
+  gearNote         String?
+  terrain          String   @default("mountain") // "mountain" | "desert" | "coast" | "plains" | "forest" — picks the hero illustration motif
+  createdAt        DateTime @default(now())
+
+  places StatePlace[]
+}
+
+// category: "amazing" (hiking/adventure/drives) | "common" (top attractions)
+// | "hidden" (hidden gems)
+model StatePlace {
+  id           String @id @default(cuid())
+  stateGuideId String
+  category     String
+  name         String
+  placeType    String? // "hike" | "drive" | "attraction" | "town" | "park" — flavor, optional
+  description String
+  tip          String?
+  nearestTown  String?
+  sortOrder    Int    @default(0)
+
+  stateGuide StateGuide @relation(fields: [stateGuideId], references: [id], onDelete: Cascade)
+}

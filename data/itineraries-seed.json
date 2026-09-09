@@ -1,0 +1,4957 @@
+[
+  {
+    "title": "Alaska: Anchorage \u2192 Seward \u2192 Denali",
+    "category": [
+      "nature",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 10,
+    "best_time_description": "Roads and services fully open, good wildlife visibility, fewer crowds than peak July",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "The most 'once in a lifetime' domestic trip available in the US \u2014 raw wilderness that genuinely feels remote.",
+    "cost_tier": "splurge",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Anchorage",
+        "activities": [
+          "Settle in, short walk on the Tony Knowles Coastal Trail"
+        ],
+        "lodging_suggestion": "Anchorage"
+      },
+      {
+        "day_number": 2,
+        "title": "Anchorage \u2192 Seward",
+        "activities": [
+          "Turnagain Arm scenic drive",
+          "Explore Seward harbor town"
+        ],
+        "drive_time": "2.5 hrs",
+        "lodging_suggestion": "Seward"
+      },
+      {
+        "day_number": 3,
+        "title": "Kenai Fjords",
+        "activities": [
+          "Glacier boat tour",
+          "Exit Glacier short hike"
+        ],
+        "lodging_suggestion": "Seward"
+      },
+      {
+        "day_number": 4,
+        "title": "Seward \u2192 Denali",
+        "activities": [
+          "Long scenic drive north"
+        ],
+        "drive_time": "6-7 hrs",
+        "lodging_suggestion": "Denali area"
+      },
+      {
+        "day_number": 5,
+        "title": "Denali National Park",
+        "activities": [
+          "Wildlife bus tour",
+          "short tundra hike"
+        ],
+        "lodging_suggestion": "Denali area"
+      },
+      {
+        "day_number": 6,
+        "title": "Denali full day",
+        "activities": [
+          "Deeper park access, ranger-led hike"
+        ],
+        "lodging_suggestion": "Denali area"
+      },
+      {
+        "day_number": 7,
+        "title": "Return to Anchorage, fly home",
+        "activities": [
+          "Drive back",
+          "depart"
+        ],
+        "drive_time": "5 hrs"
+      }
+    ],
+    "related_states": [
+      "alaska"
+    ]
+  },
+  {
+    "title": "Hawaii: Kauai + Big Island",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Avoids peak pricing and humidity of summer",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Two very different Hawaiian islands \u2014 dramatic coastal cliffs and active volcano terrain.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Kauai",
+        "activities": [
+          "Settle in, Poipu sunset"
+        ],
+        "lodging_suggestion": "Kauai south shore"
+      },
+      {
+        "day_number": 2,
+        "title": "Waimea Canyon",
+        "activities": [
+          "Waimea Canyon overlooks",
+          "Koke'e State Park"
+        ],
+        "lodging_suggestion": "Kauai"
+      },
+      {
+        "day_number": 3,
+        "title": "Na Pali Coast",
+        "activities": [
+          "Kalalau Trail (as far as permit/fitness allows)"
+        ],
+        "lodging_suggestion": "Kauai"
+      },
+      {
+        "day_number": 4,
+        "title": "Kauai \u2192 Big Island",
+        "activities": [
+          "Fly between islands",
+          "Hanalei Bay morning first"
+        ],
+        "lodging_suggestion": "Big Island - Hilo side"
+      },
+      {
+        "day_number": 5,
+        "title": "Volcanoes NP",
+        "activities": [
+          "Kilauea crater rim hike",
+          "lava tube"
+        ],
+        "lodging_suggestion": "Big Island"
+      },
+      {
+        "day_number": 6,
+        "title": "Black sand beaches + Mauna Kea",
+        "activities": [
+          "Punalu'u black sand beach",
+          "Mauna Kea summit stargazing"
+        ],
+        "lodging_suggestion": "Big Island"
+      },
+      {
+        "day_number": 7,
+        "title": "Fly home",
+        "activities": []
+      }
+    ],
+    "related_states": [
+      "hawaii"
+    ]
+  },
+  {
+    "title": "New Orleans + Nashville",
+    "category": [
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Avoids summer humidity",
+    "best_time_months": [
+      "October",
+      "November",
+      "March",
+      "April"
+    ],
+    "description": "A food and music-driven city trip, very different pace from a nature trip.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive New Orleans",
+        "activities": [
+          "French Quarter walk",
+          "dinner"
+        ],
+        "lodging_suggestion": "New Orleans"
+      },
+      {
+        "day_number": 2,
+        "title": "NOLA food + music",
+        "activities": [
+          "Swamp tour",
+          "live jazz night"
+        ],
+        "lodging_suggestion": "New Orleans"
+      },
+      {
+        "day_number": 3,
+        "title": "NOLA full day",
+        "activities": [
+          "Garden District walk",
+          "more live music"
+        ],
+        "lodging_suggestion": "New Orleans"
+      },
+      {
+        "day_number": 4,
+        "title": "New Orleans \u2192 Nashville",
+        "activities": [
+          "Drive or fly"
+        ],
+        "drive_time": "7-8 hrs drive or short flight",
+        "lodging_suggestion": "Nashville"
+      },
+      {
+        "day_number": 5,
+        "title": "Nashville music",
+        "activities": [
+          "Broadway honky-tonks",
+          "Country Music Hall of Fame"
+        ],
+        "lodging_suggestion": "Nashville"
+      },
+      {
+        "day_number": 6,
+        "title": "Nashville full day",
+        "activities": [
+          "Local food scene",
+          "live show"
+        ],
+        "lodging_suggestion": "Nashville"
+      },
+      {
+        "day_number": 7,
+        "title": "Fly home",
+        "activities": []
+      }
+    ],
+    "related_states": [
+      "louisiana",
+      "tennessee"
+    ]
+  },
+  {
+    "title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
+    "category": [
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Summer is brutally hot in this region",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "A different desert Southwest loop, distinct from the Utah Mighty 5.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Phoenix/Flagstaff, drive to Grand Canyon",
+        "activities": [],
+        "lodging_suggestion": "Grand Canyon South Rim"
+      },
+      {
+        "day_number": 2,
+        "title": "Grand Canyon",
+        "activities": [
+          "Bright Angel Trail partial descent",
+          "rim viewpoints"
+        ],
+        "lodging_suggestion": "Grand Canyon area"
+      },
+      {
+        "day_number": 3,
+        "title": "Grand Canyon \u2192 Page",
+        "activities": [
+          "Horseshoe Bend",
+          "Antelope Canyon tour"
+        ],
+        "drive_time": "2.5 hrs",
+        "lodging_suggestion": "Page, AZ"
+      },
+      {
+        "day_number": 4,
+        "title": "Page \u2192 Monument Valley",
+        "activities": [
+          "Scenic drive, valley overlooks"
+        ],
+        "drive_time": "2 hrs",
+        "lodging_suggestion": "Monument Valley area"
+      },
+      {
+        "day_number": 5,
+        "title": "Monument Valley \u2192 Sedona",
+        "activities": [
+          "Red rock hikes"
+        ],
+        "drive_time": "3.5 hrs",
+        "lodging_suggestion": "Sedona"
+      },
+      {
+        "day_number": 6,
+        "title": "Sedona full day",
+        "activities": [
+          "Cathedral Rock hike",
+          "Oak Creek Canyon"
+        ],
+        "lodging_suggestion": "Sedona"
+      },
+      {
+        "day_number": 7,
+        "title": "Drive to Phoenix, fly home",
+        "activities": [],
+        "drive_time": "2 hrs"
+      }
+    ],
+    "related_states": [
+      "arizona"
+    ]
+  },
+  {
+    "title": "Dubai + Abu Dhabi",
+    "category": [
+      "city",
+      "splurge"
+    ],
+    "region": "International",
+    "countries": [
+      "UAE"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Summer is 110\u00b0F+",
+    "best_time_months": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "description": "The best 'splurge city' pick \u2014 feels expensive, no visa hassle for Indian passport + valid US visa holders.",
+    "cost_tier": "splurge",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Dubai",
+        "activities": [
+          "Dubai Marina walk"
+        ],
+        "lodging_suggestion": "Dubai"
+      },
+      {
+        "day_number": 2,
+        "title": "Old Dubai + Burj Khalifa",
+        "activities": [
+          "Souks",
+          "Burj Khalifa observation deck at sunset"
+        ],
+        "lodging_suggestion": "Dubai"
+      },
+      {
+        "day_number": 3,
+        "title": "Desert safari",
+        "activities": [
+          "Dune bashing",
+          "evening desert camp"
+        ],
+        "lodging_suggestion": "Dubai"
+      },
+      {
+        "day_number": 4,
+        "title": "Dubai \u2192 Abu Dhabi day trip",
+        "activities": [
+          "Sheikh Zayed Mosque",
+          "Louvre Abu Dhabi"
+        ],
+        "drive_time": "1.5 hrs each way",
+        "lodging_suggestion": "Dubai"
+      },
+      {
+        "day_number": 5,
+        "title": "Dubai leisure",
+        "activities": [
+          "Beach day",
+          "shopping"
+        ],
+        "lodging_suggestion": "Dubai"
+      },
+      {
+        "day_number": 6,
+        "title": "Dubai exploration",
+        "activities": [
+          "Modern architecture tour",
+          "fine dining"
+        ],
+        "lodging_suggestion": "Dubai"
+      },
+      {
+        "day_number": 7,
+        "title": "Fly home",
+        "activities": []
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "drink",
+        "name": "Gahwa (Arabic coffee)",
+        "description": "Lightly roasted, brewed with cardamom, and poured from a dallah pot into small handle-less cups \u2014 refusing the first cup is traditionally seen as declining hospitality. UNESCO-recognized Intangible Cultural Heritage since 2015."
+      },
+      {
+        "place_type": "dish",
+        "name": "Machboos",
+        "description": "The UAE's national dish \u2014 fragrant spiced rice with chicken, lamb, or seafood, infused with dried lime (loomi) for a tangy depth."
+      },
+      {
+        "place_type": "drink",
+        "name": "Karak tea",
+        "description": "Sweet, milky tea spiced with cardamom, originally influenced by South Asian chai \u2014 practically Dubai's unofficial daily drink, found from roadside cafeterias to upscale caf\u00e9s."
+      },
+      {
+        "place_type": "dish",
+        "name": "Luqaimat & kunafa",
+        "description": "Luqaimat are sweet fried dumplings drizzled with date syrup; kunafa is a cheese-and-syrup pastry dessert popular across the Gulf and Levant."
+      },
+      {
+        "place_type": "culture",
+        "name": "Al Fahidi Cultural Understanding Centre",
+        "description": "A government-run center in Old Dubai offering meals and cultural sessions specifically designed to teach visitors authentic Emirati customs and Bedouin heritage, beyond the skyline."
+      }
+    ]
+  },
+  {
+    "title": "Bali, Indonesia",
+    "category": [
+      "water",
+      "nature"
+    ],
+    "region": "International",
+    "countries": [
+      "Indonesia"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Dry season",
+    "best_time_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "description": "A jungle-and-island mix in one trip.",
+    "cost_tier": "budget",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Ubud",
+        "activities": [
+          "Settle in"
+        ],
+        "lodging_suggestion": "Ubud"
+      },
+      {
+        "day_number": 2,
+        "title": "Ubud jungle + rice terraces",
+        "activities": [
+          "Tegallalang rice terraces",
+          "Sacred Monkey Forest"
+        ],
+        "lodging_suggestion": "Ubud"
+      },
+      {
+        "day_number": 3,
+        "title": "Mount Batur sunrise hike",
+        "activities": [
+          "Pre-dawn summit hike"
+        ],
+        "lodging_suggestion": "Ubud"
+      },
+      {
+        "day_number": 4,
+        "title": "Waterfalls",
+        "activities": [
+          "Tegenungan, Tibumana waterfalls"
+        ],
+        "lodging_suggestion": "Ubud"
+      },
+      {
+        "day_number": 5,
+        "title": "Ubud \u2192 Nusa Penida",
+        "activities": [
+          "Island day trip, Kelingking Beach"
+        ],
+        "lodging_suggestion": "Uluwatu or Seminyak"
+      },
+      {
+        "day_number": 6,
+        "title": "Uluwatu/Seminyak beach",
+        "activities": [
+          "Beach day",
+          "sunset temple visit"
+        ],
+        "lodging_suggestion": "Uluwatu"
+      },
+      {
+        "day_number": 7,
+        "title": "Fly home",
+        "activities": []
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "Nyepi (Day of Silence)",
+        "description": "The Balinese Hindu New Year, marked not with celebration but a full day of island-wide silence \u2014 airports close, roads empty, and lights go off. Visitors are expected to observe the same restrictions."
+      },
+      {
+        "place_type": "dish",
+        "name": "Babi Guling",
+        "description": "Balinese spit-roasted suckling pig, originally a sacred temple offering \u2014 pork is central to Bali's food identity, distinguishing it from the rest of Muslim-majority Indonesia."
+      },
+      {
+        "place_type": "dish",
+        "name": "Bebek Betutu",
+        "description": "Duck or chicken slow-cooked in banana leaves with a rich spice marinade, traditionally served at Hindu ceremonies \u2014 often requires ordering a day in advance."
+      },
+      {
+        "place_type": "culture",
+        "name": "Canang sari offerings",
+        "description": "Small daily woven-palm offerings of flowers and food left outside homes and businesses to honor the gods \u2014 a visible, constant part of Balinese Hindu life."
+      },
+      {
+        "place_type": "culture",
+        "name": "Base genep",
+        "description": "Bali's foundational spice paste \u2014 garlic, turmeric, ginger, galangal, lemongrass, and chili ground together \u2014 underlying most traditional dishes on the island."
+      }
+    ]
+  },
+  {
+    "title": "Maldives (+ optional Sri Lanka)",
+    "category": [
+      "water",
+      "splurge"
+    ],
+    "region": "International",
+    "countries": [
+      "Maldives",
+      "Sri Lanka"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 7,
+    "best_time_description": "Manta ray season",
+    "best_time_months": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "The ultimate overwater villa splurge trip.",
+    "cost_tier": "splurge",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Male, transfer to resort",
+        "activities": [
+          "Speedboat/seaplane transfer"
+        ],
+        "lodging_suggestion": "Overwater villa resort"
+      },
+      {
+        "day_number": 2,
+        "title": "Resort day",
+        "activities": [
+          "Snorkeling off villa"
+        ],
+        "lodging_suggestion": "Same resort"
+      },
+      {
+        "day_number": 3,
+        "title": "Diving/excursion",
+        "activities": [
+          "Manta ray or reef dive trip"
+        ],
+        "lodging_suggestion": "Same resort"
+      },
+      {
+        "day_number": 4,
+        "title": "Resort leisure",
+        "activities": [
+          "Spa, sandbank picnic"
+        ],
+        "lodging_suggestion": "Same resort"
+      },
+      {
+        "day_number": 5,
+        "title": "Fly home or connect to Sri Lanka",
+        "activities": []
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Mas riha (Maldivian tuna curry)",
+        "description": "A coconut-based curry built on tuna rather than chicken or lamb, since fishing \u2014 not agriculture \u2014 has always defined the Maldivian diet."
+      },
+      {
+        "place_type": "dish",
+        "name": "Hedhikaa (short eats)",
+        "description": "Maldivian tea-time snacks like bajiya (fried tuna-and-coconut pastries) and gulha (fish balls) \u2014 direct relatives of Indian samosas and Sri Lankan cutlets, served the same way at teatime."
+      },
+      {
+        "place_type": "drink",
+        "name": "Ceylon tea",
+        "description": "Sri Lanka is one of the world's great tea producers \u2014 a plantation tour near Kandy showing the withering, rolling, and fermenting process is a genuine highlight if extending into Sri Lanka."
+      },
+      {
+        "place_type": "dish",
+        "name": "Kiribath & watalappam",
+        "description": "Sri Lankan milk rice (kiribath) is the celebratory dish for New Year and auspicious occasions; watalappam, a coconut-jaggery custard, reflects the island's Malay community influence."
+      },
+      {
+        "place_type": "culture",
+        "name": "Spice gardens of Matale",
+        "description": "Sri Lanka's spices \u2014 cinnamon, cardamom, pepper, nutmeg \u2014 are grown here and were historically believed to have medicinal as well as flavoring value, not just culinary ones."
+      }
+    ]
+  },
+  {
+    "title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "International",
+    "countries": [
+      "Turkey"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 10,
+    "best_time_description": "Mild weather, good balloon-flying conditions",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "City history, otherworldly landscape, and coastline in one trip.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Istanbul",
+        "activities": [
+          "Settle in"
+        ],
+        "lodging_suggestion": "Istanbul"
+      },
+      {
+        "day_number": 2,
+        "title": "Istanbul old city",
+        "activities": [
+          "Hagia Sophia",
+          "Blue Mosque",
+          "Grand Bazaar"
+        ],
+        "lodging_suggestion": "Istanbul"
+      },
+      {
+        "day_number": 3,
+        "title": "Istanbul \u2192 Cappadocia",
+        "activities": [
+          "Short flight"
+        ],
+        "lodging_suggestion": "Cappadocia (cave hotel)"
+      },
+      {
+        "day_number": 4,
+        "title": "Cappadocia",
+        "activities": [
+          "Sunrise hot air balloon ride",
+          "fairy chimney valleys hike"
+        ],
+        "lodging_suggestion": "Cappadocia"
+      },
+      {
+        "day_number": 5,
+        "title": "Cappadocia \u2192 Turquoise Coast",
+        "activities": [
+          "Fly to Dalaman"
+        ],
+        "lodging_suggestion": "Fethiye/Oludeniz"
+      },
+      {
+        "day_number": 6,
+        "title": "Turquoise Coast",
+        "activities": [
+          "Oludeniz beach",
+          "paragliding optional"
+        ],
+        "lodging_suggestion": "Fethiye"
+      },
+      {
+        "day_number": 7,
+        "title": "Fly home",
+        "activities": []
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "drink",
+        "name": "Turkish tea (\u00e7ay)",
+        "description": "Served in small tulip-shaped glasses, strong and without milk \u2014 offered constantly as a gesture of hospitality, and refusing it is considered impolite."
+      },
+      {
+        "place_type": "drink",
+        "name": "Turkish coffee & fortune telling",
+        "description": "Slow-brewed and unfiltered, traditionally followed by a fortune-teller (falc\u0131) reading the pattern left by the grounds in the empty cup \u2014 a genuine social ritual, not just a novelty."
+      },
+      {
+        "place_type": "dish",
+        "name": "Regional cuisine variety",
+        "description": "Turkish food shifts by region \u2014 olive-oil vegetable dishes on the Aegean coast, fresh fish in Bodrum, baklava-heavy pastry culture in the east, hearty wheat-and-meat stews (ke\u015fkek) in central Anatolia."
+      },
+      {
+        "place_type": "culture",
+        "name": "Turkish hospitality (misafirperverlik)",
+        "description": "Guests are offered food and drink almost immediately upon arrival anywhere \u2014 home, shop, or hotel \u2014 and the phrase 'ho\u015f geldiniz' ('it's good you came') captures a genuinely central cultural value."
+      },
+      {
+        "place_type": "culture",
+        "name": "Whirling dervish ceremony",
+        "description": "A Sufi religious ritual (sema) especially associated with Konya \u2014 meditative spinning dance representing spiritual ascent, still performed as a living tradition, not just a tourist show."
+      }
+    ]
+  },
+  {
+    "title": "Costa Rica",
+    "category": [
+      "nature"
+    ],
+    "region": "International",
+    "countries": [
+      "Costa Rica"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Dry season",
+    "best_time_months": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "Real rainforest immersion, easy visa entry.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive San Jose, drive to La Fortuna",
+        "activities": [],
+        "lodging_suggestion": "La Fortuna"
+      },
+      {
+        "day_number": 2,
+        "title": "Arenal Volcano",
+        "activities": [
+          "Volcano hike",
+          "hot springs"
+        ],
+        "lodging_suggestion": "La Fortuna"
+      },
+      {
+        "day_number": 3,
+        "title": "La Fortuna \u2192 Monteverde",
+        "activities": [
+          "Cloud forest zip-lining",
+          "hanging bridges"
+        ],
+        "lodging_suggestion": "Monteverde"
+      },
+      {
+        "day_number": 4,
+        "title": "Monteverde \u2192 Manuel Antonio",
+        "activities": [
+          "Travel day"
+        ],
+        "drive_time": "4-5 hrs",
+        "lodging_suggestion": "Manuel Antonio"
+      },
+      {
+        "day_number": 5,
+        "title": "Manuel Antonio NP",
+        "activities": [
+          "Wildlife hike",
+          "beach"
+        ],
+        "lodging_suggestion": "Manuel Antonio"
+      },
+      {
+        "day_number": 6,
+        "title": "Manuel Antonio leisure",
+        "activities": [
+          "Beach day"
+        ],
+        "lodging_suggestion": "Manuel Antonio"
+      },
+      {
+        "day_number": 7,
+        "title": "Drive to San Jose, fly home",
+        "activities": []
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "culture",
+        "name": "Pura Vida",
+        "description": "Literally 'pure life' \u2014 more than a greeting, it's a whole philosophy of living simply, gratefully, and in the moment that genuinely shapes the pace of daily life."
+      },
+      {
+        "place_type": "dish",
+        "name": "Gallo pinto",
+        "description": "Costa Rica's everyday breakfast \u2014 rice and black beans saut\u00e9ed with Salsa Lizano, a tangy brown sauce found on nearly every table in the country."
+      },
+      {
+        "place_type": "dish",
+        "name": "Casado",
+        "description": "The classic Costa Rican lunch plate \u2014 rice, beans, plantains, salad, and a choice of protein \u2014 named for resembling 'what my wife would make.'"
+      },
+      {
+        "place_type": "drink",
+        "name": "Costa Rican coffee",
+        "description": "Grown in the misty Central Valley highlands and traditionally brewed through a cloth chorreador filter \u2014 genuinely high-quality, and a point of national pride."
+      },
+      {
+        "place_type": "culture",
+        "name": "Sodas",
+        "description": "Small, family-run diners serving home-style Tico food at low prices \u2014 eating at a soda is a more authentic introduction to the culture than most restaurants aimed at tourists."
+      }
+    ]
+  },
+  {
+    "title": "Georgia + Armenia",
+    "category": [
+      "nature",
+      "city"
+    ],
+    "region": "International",
+    "countries": [
+      "Georgia",
+      "Armenia"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 10,
+    "best_time_description": "Mild mountain weather",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "The 'nobody I know has been here' pick \u2014 off the radar for most travelers.",
+    "cost_tier": "budget",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Tbilisi",
+        "activities": [
+          "Old town walk"
+        ],
+        "lodging_suggestion": "Tbilisi"
+      },
+      {
+        "day_number": 2,
+        "title": "Tbilisi full day",
+        "activities": [
+          "Sulfur baths",
+          "Narikala Fortress"
+        ],
+        "lodging_suggestion": "Tbilisi"
+      },
+      {
+        "day_number": 3,
+        "title": "Kazbegi",
+        "activities": [
+          "Gergeti Trinity Church hike"
+        ],
+        "drive_time": "3 hrs",
+        "lodging_suggestion": "Kazbegi"
+      },
+      {
+        "day_number": 4,
+        "title": "Kakheti wine region",
+        "activities": [
+          "Wine tasting, vineyard visits"
+        ],
+        "drive_time": "3 hrs",
+        "lodging_suggestion": "Kakheti"
+      },
+      {
+        "day_number": 5,
+        "title": "Tbilisi \u2192 Yerevan, Armenia",
+        "activities": [
+          "Cross border"
+        ],
+        "drive_time": "6 hrs",
+        "lodging_suggestion": "Yerevan"
+      },
+      {
+        "day_number": 6,
+        "title": "Yerevan + monasteries",
+        "activities": [
+          "Geghard Monastery",
+          "Garni Temple"
+        ],
+        "lodging_suggestion": "Yerevan"
+      },
+      {
+        "day_number": 7,
+        "title": "Fly home",
+        "activities": []
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "The Georgian supra",
+        "description": "A ceremonial feast that can run for hours, led by a tamada (toastmaster) whose toasts \u2014 to family, guests, ancestors, and peace \u2014 set the rhythm of the entire meal. An empty table is considered shameful."
+      },
+      {
+        "place_type": "dish",
+        "name": "Khachapuri & khinkali",
+        "description": "Khachapuri is Georgia's cheese-filled bread, with a dozen regional varieties (the boat-shaped Adjarian version topped with a raw egg is the most photographed); khinkali are pleated dumplings eaten by the knob, which is traditionally left uneaten."
+      },
+      {
+        "place_type": "drink",
+        "name": "Qvevri wine",
+        "description": "Georgia calls itself the cradle of viticulture \u2014 evidence at Gadachrili Gora suggests winemaking here 8,000 years ago, still using the same qvevri clay-vessel fermentation method."
+      },
+      {
+        "place_type": "dish",
+        "name": "Lavash & khorovats",
+        "description": "Armenia's UNESCO-protected paper-thin flatbread, baked in a clay tonir oven, is the universal utensil for wrapping khorovats \u2014 Armenian charcoal-grilled meat skewers."
+      },
+      {
+        "place_type": "dish",
+        "name": "Dolma",
+        "description": "Grape leaves or vegetables stuffed with spiced meat and rice \u2014 claimed by Armenia as a national dish, though variations of it appear across the Caucasus, Balkans, and Levant."
+      }
+    ]
+  },
+  {
+    "title": "Seattle \u2192 Denver: Rainier to the Rockies",
+    "category": [
+      "nature",
+      "road-trip",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 9,
+    "duration_days_max": 9,
+    "best_time_description": "Beartooth Highway is only open roughly Memorial Day to mid-October; late June through early September gives the widest margin against snow closures and lingering road work.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "description": "A camping/budget-conscious national-parks traverse from the Pacific Northwest into the northern Rockies \u2014 five parks, one legendary high-altitude drive, and enough distance each day to make it feel like a real journey rather than a highlight reel.",
+    "cost_tier": "budget",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Seattle \u2192 Mount Rainier",
+        "activities": [
+          "Skyline Trail loop from Paradise",
+          "Sunset at Reflection Lakes if the sky cooperates"
+        ],
+        "drive_time": "2 hrs",
+        "lodging_suggestion": "Ashford or Paradise-area campground",
+        "coffee_wifi_spot": "Wildberry Restaurant, Ashford \u2014 weak signal, worth topping up devices before you head further in"
+      },
+      {
+        "day_number": 2,
+        "title": "Rainier \u2192 Spokane (staging day)",
+        "activities": [
+          "Morning hike near Sunrise if road is open",
+          "Long drive east, easy evening"
+        ],
+        "drive_time": "5.5 hrs",
+        "lodging_suggestion": "Spokane",
+        "coffee_wifi_spot": "Indaba Coffee, Spokane \u2014 reliable wifi for a remote-work morning before the border-adjacent stretch"
+      },
+      {
+        "day_number": 3,
+        "title": "Spokane \u2192 Glacier National Park",
+        "activities": [
+          "Enter via West Glacier",
+          "Drive Going-to-the-Sun Road if fully open (check dates \u2014 often not clear until June)"
+        ],
+        "drive_time": "4.5 hrs",
+        "lodging_suggestion": "West Glacier / Apgar campground"
+      },
+      {
+        "day_number": 4,
+        "title": "Glacier full day",
+        "activities": [
+          "Hidden Lake Overlook from Logan Pass",
+          "Avalanche Lake trail"
+        ],
+        "lodging_suggestion": "West Glacier / Apgar campground"
+      },
+      {
+        "day_number": 5,
+        "title": "Glacier \u2192 Beartooth Highway \u2192 Red Lodge",
+        "activities": [
+          "Drive the Beartooth Highway (one of the highest paved roads in the US \u2014 build in extra time for pull-offs)",
+          "Arrive Red Lodge, MT for the night"
+        ],
+        "drive_time": "6 hrs",
+        "lodging_suggestion": "Red Lodge, MT",
+        "coffee_wifi_spot": "Red Lodge Books & Tea \u2014 small-town wifi, good enough for email"
+      },
+      {
+        "day_number": 6,
+        "title": "Red Lodge \u2192 Yellowstone (north)",
+        "activities": [
+          "Enter via the Beartooth's southern descent",
+          "Mammoth Hot Springs terraces",
+          "Lamar Valley wildlife drive at dusk"
+        ],
+        "drive_time": "2 hrs",
+        "lodging_suggestion": "Mammoth or Roosevelt-area campground"
+      },
+      {
+        "day_number": 7,
+        "title": "Yellowstone full day",
+        "activities": [
+          "Old Faithful and the Upper Geyser Basin",
+          "Grand Prismatic Spring overlook"
+        ],
+        "lodging_suggestion": "Old Faithful-area or Grant Village campground"
+      },
+      {
+        "day_number": 8,
+        "title": "Yellowstone \u2192 Grand Teton",
+        "activities": [
+          "Exit south through Yellowstone",
+          "Jenny Lake shoreline walk",
+          "String Lake for a quieter alternative"
+        ],
+        "drive_time": "2.5 hrs",
+        "lodging_suggestion": "Colter Bay or Gros Ventre campground"
+      },
+      {
+        "day_number": 9,
+        "title": "Grand Teton \u2192 Denver (or fly out of Jackson)",
+        "activities": [
+          "Early Snake River overlook stop",
+          "Long drive south, or fly out of Jackson Hole to skip the final leg"
+        ],
+        "drive_time": "8 hrs to Denver / 20 min to Jackson airport"
+      }
+    ],
+    "related_states": [
+      "washington",
+      "colorado"
+    ]
+  },
+  {
+    "title": "Cartagena + Medell\u00edn, Colombia",
+    "category": [
+      "city",
+      "off-the-beaten-path"
+    ],
+    "region": "International",
+    "countries": [
+      "Colombia"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "December to April is Colombia's dry season on both the Caribbean coast and in the Andes \u2014 the most comfortable window for walking Cartagena's Old Town and day-tripping from Medell\u00edn.",
+    "best_time_months": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "Colonial color on the Caribbean coast, then spring-like mountain air in the 'City of Eternal Spring' \u2014 colonial history and Pablo-Escobar-era transformation, back to back.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Cartagena",
+        "activities": [
+          "Settle into the Walled City",
+          "Sunset from the ramparts at Caf\u00e9 del Mar"
+        ],
+        "lodging_suggestion": "Cartagena Old Town"
+      },
+      {
+        "day_number": 2,
+        "title": "Cartagena Old Town",
+        "activities": [
+          "Castillo San Felipe de Barajas",
+          "Wander Getseman\u00ed's street art",
+          "Walking tour of the Walled City"
+        ],
+        "lodging_suggestion": "Cartagena Old Town"
+      },
+      {
+        "day_number": 3,
+        "title": "Rosario Islands day trip",
+        "activities": [
+          "Speedboat to Islas del Rosario",
+          "Snorkeling and beach time"
+        ],
+        "lodging_suggestion": "Cartagena Old Town"
+      },
+      {
+        "day_number": 4,
+        "title": "Cartagena \u2192 Medell\u00edn (fly)",
+        "activities": [
+          "Morning flight to Medell\u00edn",
+          "Explore El Poblado in the evening"
+        ],
+        "lodging_suggestion": "Medell\u00edn (El Poblado)"
+      },
+      {
+        "day_number": 5,
+        "title": "Medell\u00edn city + Comuna 13",
+        "activities": [
+          "Metrocable ride over the city",
+          "Comuna 13 graffiti tour and outdoor escalators"
+        ],
+        "lodging_suggestion": "Medell\u00edn (El Poblado)"
+      },
+      {
+        "day_number": 6,
+        "title": "Guatap\u00e9 day trip",
+        "activities": [
+          "Climb El Pe\u00f1ol rock for the reservoir view",
+          "Wander Guatap\u00e9's colorful z\u00f3calo houses"
+        ],
+        "drive_time": "2 hrs each way",
+        "lodging_suggestion": "Medell\u00edn (El Poblado)"
+      },
+      {
+        "day_number": 7,
+        "title": "Coffee region taste of Antioquia",
+        "activities": [
+          "Day trip to a working coffee farm",
+          "Fly home in the evening"
+        ],
+        "lodging_suggestion": "Medell\u00edn (El Poblado)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Arepa",
+        "description": "A simple maize flatbread that varies by region \u2014 thin and plain in Bogot\u00e1, cheese-stuffed and fried in Cartagena, sweetened in Medell\u00edn \u2014 found at every meal, on every street corner."
+      },
+      {
+        "place_type": "dish",
+        "name": "Bandeja paisa",
+        "description": "A hearty Medell\u00edn specialty piled with ground beef, chorizo, pork belly, beans, plantain, avocado, and an arepa \u2014 originally built to sustain farm laborers."
+      },
+      {
+        "place_type": "drink",
+        "name": "Colombian coffee culture",
+        "description": "Coffee is central to daily social life, typically paired with afternoon desserts like enyucado (a cassava-coconut cake) in a ritual that bridges the country's coastal and inland food traditions."
+      },
+      {
+        "place_type": "dish",
+        "name": "Coastal ceviche",
+        "description": "The Caribbean coast (Cartagena) favors citrus-forward raw fish dishes and fried seafood, distinct from the heartier, meat-focused cuisine of inland Medell\u00edn and Bogot\u00e1."
+      }
+    ]
+  },
+  {
+    "title": "Cusco, Sacred Valley + Machu Picchu, Peru",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "International",
+    "countries": [
+      "Peru"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "The dry season (April to October) gives clearer skies over Machu Picchu and easier trekking; book Machu Picchu entry tickets 2-3 months ahead regardless of season.",
+    "best_time_months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "The classic Inca-empire arc: acclimatize in Cusco, ease into altitude through the Sacred Valley, then the citadel itself at dawn.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Cusco",
+        "activities": [
+          "Take it slow for altitude",
+          "Short walk through the Plaza de Armas"
+        ],
+        "lodging_suggestion": "Cusco"
+      },
+      {
+        "day_number": 2,
+        "title": "Cusco city + the '4 Ruins'",
+        "activities": [
+          "Sacsayhuam\u00e1n, Q'enqo, Puka Pukara, Tambomachay",
+          "San Pedro Market"
+        ],
+        "lodging_suggestion": "Cusco"
+      },
+      {
+        "day_number": 3,
+        "title": "Sacred Valley classic tour",
+        "activities": [
+          "Chinchero weaving village",
+          "Moray agricultural terraces",
+          "Maras salt mines"
+        ],
+        "drive_time": "Full day loop from Cusco",
+        "lodging_suggestion": "Ollantaytambo or Urubamba"
+      },
+      {
+        "day_number": 4,
+        "title": "Ollantaytambo \u2192 Aguas Calientes",
+        "activities": [
+          "Explore Ollantaytambo's Inca fortress",
+          "Scenic train to Aguas Calientes"
+        ],
+        "lodging_suggestion": "Aguas Calientes"
+      },
+      {
+        "day_number": 5,
+        "title": "Machu Picchu",
+        "activities": [
+          "Early entry to beat the crowds and heat",
+          "Optional Huayna Picchu climb (book well ahead)"
+        ],
+        "lodging_suggestion": "Aguas Calientes or back to Cusco"
+      },
+      {
+        "day_number": 6,
+        "title": "Return to Cusco",
+        "activities": [
+          "Train back through the valley",
+          "Rest afternoon, San Blas neighborhood for coffee"
+        ],
+        "coffee_wifi_spot": "La Bodega 138, San Blas \u2014 reliable wifi for a remote-work afternoon",
+        "lodging_suggestion": "Cusco"
+      },
+      {
+        "day_number": 7,
+        "title": "Cusco leisure day",
+        "activities": [
+          "Last-minute textile and market shopping",
+          "Fly home"
+        ],
+        "lodging_suggestion": "Cusco"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Ceviche",
+        "description": "Peru's national dish and a UNESCO-recognized piece of intangible cultural heritage since 2004 \u2014 raw fish cured in lime with chili and onion, at its best in Lima but found nationwide."
+      },
+      {
+        "place_type": "drink",
+        "name": "Pisco sour",
+        "description": "Peru's national cocktail \u2014 pisco brandy, lime juice, syrup, and egg white \u2014 a genuine point of pride and rivalry with Chile, which also claims pisco as its own."
+      },
+      {
+        "place_type": "dish",
+        "name": "Lomo saltado",
+        "description": "A stir-fried beef dish with soy sauce and french fries, reflecting Peru's significant Chinese (chifa) immigrant influence on everyday cooking."
+      },
+      {
+        "place_type": "dish",
+        "name": "Cuy (guinea pig)",
+        "description": "A traditional Andean dish, especially associated with the Cusco region \u2014 crispy skin, tender meat, served with native potatoes. A genuinely adventurous try for most visitors."
+      },
+      {
+        "place_type": "dish",
+        "name": "Aji de gallina",
+        "description": "Shredded chicken in a creamy sauce built on aj\u00ed amarillo, a native yellow chili with fruity heat rather than sharp spice \u2014 a signature dish of the Andean highlands."
+      }
+    ]
+  },
+  {
+    "title": "El Nido, Palawan, Philippines",
+    "category": [
+      "water",
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "International",
+    "countries": [
+      "Philippines"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 7,
+    "best_time_description": "Dry season is December to May; February to April brings the clearest skies and calmest seas for island hopping, though it's also the busiest stretch.",
+    "best_time_months": [
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "Limestone karsts, hidden lagoons, and reef straight off the boat \u2014 genuinely one of the most dramatic island-hopping stretches anywhere, and a 14-day visa-free entry on an Indian passport alone.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive El Nido",
+        "activities": [
+          "Fly into El Nido (Lio) or via Puerto Princesa plus a 5-6 hr van transfer",
+          "Sunset at Las Caba\u00f1as Beach"
+        ],
+        "lodging_suggestion": "El Nido town"
+      },
+      {
+        "day_number": 2,
+        "title": "Island Hopping Tour A",
+        "activities": [
+          "Big Lagoon",
+          "Small Lagoon",
+          "Shimizu Island",
+          "7 Commando Beach"
+        ],
+        "lodging_suggestion": "El Nido town"
+      },
+      {
+        "day_number": 3,
+        "title": "Island Hopping Tour C",
+        "activities": [
+          "Hidden Beach",
+          "Secret Beach",
+          "Matinloc Shrine"
+        ],
+        "lodging_suggestion": "El Nido town"
+      },
+      {
+        "day_number": 4,
+        "title": "Nacpan Beach",
+        "activities": [
+          "Rent a scooter to Nacpan and Calitang twin beaches",
+          "Beachside lunch"
+        ],
+        "drive_time": "45 min each way",
+        "lodging_suggestion": "El Nido town"
+      },
+      {
+        "day_number": 5,
+        "title": "Free day or Tour B/D",
+        "activities": [
+          "Optional multi-day sailing expedition toward Coron",
+          "Or a slower day: snorkeling gear rental and a quiet cove"
+        ],
+        "lodging_suggestion": "El Nido town"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Adobo",
+        "description": "Meat slow-stewed in vinegar, soy sauce, garlic, and peppercorns \u2014 the Philippines' most iconic dish, with every family keeping its own version."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Fiesta & lechon",
+        "description": "Every town holds its own fiesta honoring a patron saint, centered on lechon \u2014 a whole roasted pig, spit-roasted for hours, that functions as a genuine symbol of abundance and community."
+      },
+      {
+        "place_type": "culture",
+        "name": "Bayanihan",
+        "description": "A core Filipino value of community and mutual aid \u2014 showing up with food for someone, whether they asked or not, is a direct expression of it."
+      },
+      {
+        "place_type": "culture",
+        "name": "Kamayan",
+        "description": "Eating with bare hands directly off banana leaves, shared family-style \u2014 a tradition that emphasizes the communal, connective role food plays in Filipino life."
+      },
+      {
+        "place_type": "dish",
+        "name": "Sinigang",
+        "description": "A sour tamarind-based soup loaded with vegetables and meat or seafood \u2014 considered the ultimate Filipino comfort food."
+      }
+    ]
+  },
+  {
+    "title": "Belgrade + Novi Sad, Serbia",
+    "category": [
+      "city",
+      "off-the-beaten-path",
+      "budget"
+    ],
+    "region": "International",
+    "countries": [
+      "Serbia"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Late spring (May-June) and early fall (September) have the mildest weather; summer gets hot in concrete-heavy Belgrade.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "An unpolished, underrated Balkan capital plus a laid-back river city 35 minutes away by train \u2014 genuine off-the-beaten-path Europe at budget prices.",
+    "cost_tier": "budget",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Belgrade",
+        "activities": [
+          "Settle in, evening walk through Skadarlija's bohemian quarter"
+        ],
+        "lodging_suggestion": "Belgrade city center"
+      },
+      {
+        "day_number": 2,
+        "title": "Belgrade fortress + center",
+        "activities": [
+          "Kalemegdan Fortress at the Sava/Danube confluence",
+          "Nikola Tesla Museum",
+          "Republic Square"
+        ],
+        "lodging_suggestion": "Belgrade city center"
+      },
+      {
+        "day_number": 3,
+        "title": "Belgrade neighborhoods",
+        "activities": [
+          "Zemun waterfront",
+          "Floating river bars (splavovi) in the evening"
+        ],
+        "lodging_suggestion": "Belgrade city center"
+      },
+      {
+        "day_number": 4,
+        "title": "Day trip to Novi Sad",
+        "activities": [
+          "35-min high-speed train each way",
+          "Petrovaradin Fortress",
+          "Old Town and the Name of Mary Church"
+        ],
+        "drive_time": "35 min by train each way",
+        "lodging_suggestion": "Belgrade city center"
+      },
+      {
+        "day_number": 5,
+        "title": "Novi Sad overnight or Belgrade leisure",
+        "activities": [
+          "Optional: stay overnight in Novi Sad for a second, slower day",
+          "Otherwise a relaxed final day in Belgrade's cafes"
+        ],
+        "coffee_wifi_spot": "Kafeterija, Belgrade \u2014 solid wifi for a remote-work morning",
+        "lodging_suggestion": "Belgrade or Novi Sad"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "drink",
+        "name": "Rakija",
+        "description": "Serbia's fruit brandy \u2014 plum (\u0161ljivovica) is the most common \u2014 offered as a welcome drink to any guest and central to nearly every celebration."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Slava",
+        "description": "A uniquely Serbian Orthodox custom where each family celebrates its own patron saint once a year with a large feast for friends \u2014 being invited to one is a genuine sign you've been welcomed as family."
+      },
+      {
+        "place_type": "dish",
+        "name": "Meze & ajvar",
+        "description": "Shared small-plate spreads of cured meats, cheeses like kajmak, and ajvar (a roasted red pepper relish) typically accompanied by rakija or wine, especially at slavas and gatherings."
+      },
+      {
+        "place_type": "culture",
+        "name": "Kafana coffee culture",
+        "description": "Strong, Turkish-style coffee enjoyed at length in traditional kafanas (taverns) \u2014 a genuine social institution for long, unhurried conversation."
+      },
+      {
+        "place_type": "dish",
+        "name": "Pasulj & punjena paprika",
+        "description": "White bean stew and stuffed peppers are Serbian home-cooking staples \u2014 hearty, slow-cooked dishes central to everyday family meals."
+      }
+    ]
+  },
+  {
+    "title": "Mexico City + Riviera Maya",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "Mexico"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "November to April is the dry season across both the highlands and the Yucat\u00e1n coast \u2014 warm, low humidity, and outside hurricane season.",
+    "best_time_months": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "description": "Two very different Mexicos back to back \u2014 high-altitude capital with world-class food and museums, then Caribbean cenotes and Maya ruins on the coast.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Mexico City",
+        "activities": [
+          "Settle into Roma or Condesa",
+          "Evening tacos al pastor"
+        ],
+        "lodging_suggestion": "Mexico City (Roma/Condesa)"
+      },
+      {
+        "day_number": 2,
+        "title": "Historic center + museums",
+        "activities": [
+          "Z\u00f3calo and Templo Mayor",
+          "Palacio de Bellas Artes",
+          "Frida Kahlo Museum in Coyoac\u00e1n"
+        ],
+        "lodging_suggestion": "Mexico City"
+      },
+      {
+        "day_number": 3,
+        "title": "Teotihuac\u00e1n day trip",
+        "activities": [
+          "Climb the Pyramid of the Sun",
+          "Walk the Avenue of the Dead"
+        ],
+        "drive_time": "1 hr each way",
+        "lodging_suggestion": "Mexico City"
+      },
+      {
+        "day_number": 4,
+        "title": "Mexico City \u2192 Canc\u00fan \u2192 Playa del Carmen",
+        "activities": [
+          "Morning flight to Canc\u00fan",
+          "Transfer to Playa del Carmen, stroll Quinta Avenida"
+        ],
+        "lodging_suggestion": "Playa del Carmen"
+      },
+      {
+        "day_number": 5,
+        "title": "Cenotes + Akumal",
+        "activities": [
+          "Swim Gran Cenote or Cenote Azul",
+          "Snorkel with sea turtles at Akumal (certified guide)"
+        ],
+        "lodging_suggestion": "Playa del Carmen"
+      },
+      {
+        "day_number": 6,
+        "title": "Tulum",
+        "activities": [
+          "Tulum ruins at opening (8am) to beat the heat and crowds",
+          "Beach club afternoon"
+        ],
+        "drive_time": "1 hr each way",
+        "lodging_suggestion": "Playa del Carmen or Tulum"
+      },
+      {
+        "day_number": 7,
+        "title": "Chich\u00e9n Itz\u00e1 day trip",
+        "activities": [
+          "Early departure to Chich\u00e9n Itz\u00e1",
+          "Cenote stop on the way back"
+        ],
+        "drive_time": "2.5 hrs each way",
+        "lodging_suggestion": "Playa del Carmen"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "D\u00eda de los Muertos",
+        "description": "Not Mexican Halloween \u2014 a UNESCO-recognized celebration of loved ones who have passed, with ofrenda altars, marigolds, and the belief that spirits return to join the living for the day."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Hanal Pix\u00e1n",
+        "description": "The Yucat\u00e1n Peninsula's own two-day version of Day of the Dead, with region-specific food like mucbipollo \u2014 a large tamale baked in an underground pit, distinct from the rest of the country's traditions."
+      },
+      {
+        "place_type": "dish",
+        "name": "Pan de muerto",
+        "description": "Sweet bread baked in the shape of skulls or bones for D\u00eda de los Muertos, believed to comfort the souls of the departed when placed on the ofrenda."
+      },
+      {
+        "place_type": "dish",
+        "name": "Mexico City street food",
+        "description": "Tacos al pastor, elote, and tamales define the capital's street food scene \u2014 genuinely central to daily life, not just tourist novelty."
+      },
+      {
+        "place_type": "drink",
+        "name": "Mezcal & tequila regions",
+        "description": "Both distilled from agave but genuinely distinct \u2014 tequila from blue agave near Jalisco, mezcal from a wider variety of agave with a signature smokiness from roasting the plant underground."
+      }
+    ]
+  },
+  {
+    "title": "Montana: West Glacier \u2192 Lake McDonald \u2192 Logan Pass \u2192 Many Glacier \u2192 East Glacier",
+    "category": [
+      "nature",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 8,
+    "best_time_description": "Late June through mid-September for full Going-to-the-Sun Road access and open trails. Bear spray required on every hike.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A one-directional traverse of Glacier National Park's most iconic sections, west entrance to east \u2014 the 'Crown of the Continent' earns the name.",
+    "cost_tier": "mid",
+    "related_states": [
+      "montana"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "West Glacier",
+        "activities": [
+          "Settle in, short valley walk"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "West Glacier",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Lake McDonald & Avalanche Lake",
+        "activities": [
+          "Avalanche Lake Trail hike",
+          "Lake McDonald shoreline"
+        ],
+        "drive_time": "20 min from West Glacier",
+        "lodging_suggestion": "Lake McDonald",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Going-to-the-Sun Road \u2192 Logan Pass",
+        "activities": [
+          "Drive Going-to-the-Sun Road",
+          "Hidden Lake Overlook Trail"
+        ],
+        "drive_time": "Full-day drive with stops, ~2.5 hrs without",
+        "lodging_suggestion": "Rising Sun / St. Mary",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Many Glacier",
+        "activities": [
+          "Grinnell Glacier Trail hike"
+        ],
+        "drive_time": "~1 hr from St. Mary",
+        "lodging_suggestion": "Many Glacier",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Two Medicine / East Glacier",
+        "activities": [
+          "Two Medicine Valley hike or lake cruise"
+        ],
+        "drive_time": "~1.5 hrs from Many Glacier",
+        "lodging_suggestion": "East Glacier",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Return drive or fly out of Glacier Park International (FCA)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "New Mexico: Santa Fe \u2192 Taos \u2192 Los Alamos \u2192 Albuquerque",
+    "category": [
+      "city",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "Spring (April-May) or fall (September-October) for mild weather. Late summer is chile harvest season if food is a priority.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Northern New Mexico's compact core \u2014 adobe architecture, Ancestral Puebloan cliff dwellings, and green-or-red chile at every stop. (White Sands and Carlsbad Caverns sit 4+ hours south and are their own separate trip, not part of this loop.)",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-mexico"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Santa Fe",
+        "activities": [
+          "Santa Fe Plaza and historic district",
+          "Canyon Road galleries"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Santa Fe",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Santa Fe \u2192 Bandelier \u2192 Los Alamos",
+        "activities": [
+          "Bandelier National Monument cliff dwellings"
+        ],
+        "drive_time": "~1 hr from Santa Fe",
+        "lodging_suggestion": "Los Alamos or back to Santa Fe",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Taos",
+        "activities": [
+          "Taos Pueblo (check visiting protocols)",
+          "Taos historic plaza"
+        ],
+        "drive_time": "~1.5 hrs from Santa Fe",
+        "lodging_suggestion": "Taos",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Chimay\u00f3",
+        "activities": [
+          "Chimay\u00f3 red chile and El Santuario"
+        ],
+        "drive_time": "~45 min from Taos toward Santa Fe",
+        "lodging_suggestion": "Santa Fe",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Albuquerque",
+        "activities": [
+          "Old Town Albuquerque",
+          "Sandia Peak Tramway"
+        ],
+        "drive_time": "~1 hr from Santa Fe",
+        "lodging_suggestion": "Albuquerque",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Fly out of Albuquerque (ABQ)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Michigan: Traverse City \u2192 Leland \u2192 Empire \u2192 Mackinac Island",
+    "category": [
+      "water",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "June-August for full beach and dune access; visit Traverse City in July-August for peak cherry season.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "description": "A south-to-north Michigan run through Leelanau Peninsula wine country and the Sleeping Bear Dunes, ending on the car-free Mackinac Island.",
+    "cost_tier": "mid",
+    "related_states": [
+      "michigan"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Traverse City",
+        "activities": [
+          "Settle in, cherry country orientation"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Traverse City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Leland & M-22",
+        "activities": [
+          "Fishtown, Leland",
+          "M-22 Scenic Highway drive"
+        ],
+        "drive_time": "~30 min from Traverse City",
+        "lodging_suggestion": "Traverse City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Sleeping Bear Dunes",
+        "activities": [
+          "Pierce Stocking Scenic Drive",
+          "Dune Climb"
+        ],
+        "drive_time": "~30 min from Leland",
+        "lodging_suggestion": "Empire",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive north to Mackinaw City",
+        "activities": [
+          "Mackinac Bridge Bridge View Park"
+        ],
+        "drive_time": "~3 hrs from Empire",
+        "lodging_suggestion": "Mackinaw City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Mackinac Island",
+        "activities": [
+          "Ferry to Mackinac Island",
+          "Bike the perimeter road"
+        ],
+        "drive_time": "Ferry from Mackinaw City",
+        "lodging_suggestion": "Mackinac Island",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Ferry back, return drive"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "North Georgia Mountains: Blue Ridge \u2192 Helen \u2192 Dahlonega \u2192 Tallulah Falls",
+    "category": [
+      "nature",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Fall (October-November) for foliage, or spring for wildflowers and waterfall flow. This loop stays entirely in North Georgia's mountains \u2014 Savannah and the coast are 4+ hours away and a separate trip.",
+    "best_time_months": [
+      "October",
+      "November",
+      "April",
+      "May"
+    ],
+    "description": "A compact North Georgia mountain loop \u2014 waterfalls, a Bavarian-style alpine village, and wine country, all within about an hour of each other.",
+    "cost_tier": "budget",
+    "related_states": [
+      "georgia"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Blue Ridge",
+        "activities": [
+          "Fall Branch Falls waterfall hike",
+          "Blue Ridge Scenic Railway"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Blue Ridge",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Blairsville & the AT",
+        "activities": [
+          "Blood Mountain day-hike section of the Appalachian Trail"
+        ],
+        "drive_time": "~30 min from Blue Ridge",
+        "lodging_suggestion": "Blairsville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Helen",
+        "activities": [
+          "Alpine village and river tubing"
+        ],
+        "drive_time": "~45 min from Blairsville",
+        "lodging_suggestion": "Helen",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Dahlonega wine country",
+        "activities": [
+          "Vineyard tasting",
+          "Historic gold-rush downtown"
+        ],
+        "drive_time": "~30 min from Helen",
+        "lodging_suggestion": "Dahlonega",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Tallulah Gorge",
+        "activities": [
+          "Tallulah Gorge suspension bridge and overlooks"
+        ],
+        "drive_time": "~45 min from Dahlonega",
+        "lodging_suggestion": "Tallulah Falls",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Oregon: Crater Lake \u2192 McKenzie Bridge \u2192 Columbia River Gorge \u2192 Portland",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "Late June through September for the most reliable weather and full mountain-pass access. The Wallowas and the far south coast are separate trips, not part of this central/north route.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A south-to-north drive through Oregon's volcanic centerpiece, old-growth forest swimming holes, and the waterfall-lined Columbia River Gorge, ending in Portland.",
+    "cost_tier": "mid",
+    "related_states": [
+      "oregon"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Crater Lake",
+        "activities": [
+          "Rim Drive overlooks",
+          "Cleetwood Cove Trail (seasonal)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Crater Lake area",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Crater Lake sunrise",
+        "activities": [
+          "Garfield Peak or Watchman Peak hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Crater Lake area",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "McKenzie Bridge",
+        "activities": [
+          "Tamolitch Blue Pool hike"
+        ],
+        "drive_time": "~2.5 hrs from Crater Lake",
+        "lodging_suggestion": "McKenzie Bridge",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to the Gorge",
+        "activities": [
+          "Travel day toward Columbia River Gorge"
+        ],
+        "drive_time": "~3 hrs from McKenzie Bridge",
+        "lodging_suggestion": "Hood River or Corbett",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Columbia River Gorge",
+        "activities": [
+          "Multnomah Falls",
+          "Historic Columbia River Highway"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Corbett",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Portland",
+        "activities": [
+          "Food cart pods",
+          "Independent coffee roasters"
+        ],
+        "drive_time": "~30 min from Corbett",
+        "lodging_suggestion": "Portland",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "North Alabama: Huntsville \u2192 Fort Payne \u2192 Cheaha",
+    "category": [
+      "nature",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Spring or fall for mild hiking weather. Gulf Shores and the coast are 5+ hours south and a separate trip.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "Northeast Alabama's Appalachian foothills \u2014 a rocket-science museum, a canyon deeper than expected, and the state's highest point.",
+    "cost_tier": "budget",
+    "related_states": [
+      "alabama"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Huntsville",
+        "activities": [
+          "U.S. Space & Rocket Center"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Huntsville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Fort Payne",
+        "activities": [
+          "Little River Canyon National Preserve hike"
+        ],
+        "drive_time": "~1 hr from Huntsville",
+        "lodging_suggestion": "Fort Payne",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Cheaha State Park",
+        "activities": [
+          "Hike to Alabama's highest point"
+        ],
+        "drive_time": "~2 hrs from Fort Payne",
+        "lodging_suggestion": "Cheaha State Park",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Birmingham",
+        "activities": [
+          "Civil Rights Institute and landmarks"
+        ],
+        "drive_time": "~1.5 hrs from Cheaha",
+        "lodging_suggestion": "Birmingham",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Fly out of Birmingham (BHM)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Northwest Arkansas Ozarks: Bentonville \u2192 Eureka Springs \u2192 Jasper",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Spring for waterfalls at peak flow, fall for foliage. Crater of Diamonds and Hot Springs are 3+ hours south and a separate trip.",
+    "best_time_months": [
+      "March",
+      "April",
+      "October"
+    ],
+    "description": "A tight Ozark Mountains loop \u2014 world-class art in Bentonville, Victorian charm in Eureka Springs, and the wildest stretch of the Buffalo National River.",
+    "cost_tier": "mid",
+    "related_states": [
+      "arkansas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Bentonville",
+        "activities": [
+          "Crystal Bridges Museum of American Art"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bentonville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Eureka Springs",
+        "activities": [
+          "Victorian downtown"
+        ],
+        "drive_time": "~1 hr from Bentonville",
+        "lodging_suggestion": "Eureka Springs",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Jasper & Ponca",
+        "activities": [
+          "Buffalo National River",
+          "Whitaker Point hike"
+        ],
+        "drive_time": "~1 hr from Eureka Springs",
+        "lodging_suggestion": "Jasper",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Hemmed-In Hollow Falls",
+        "activities": [
+          "Hike to the tallest waterfall between the Rockies and Appalachians"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Jasper",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Bentonville/XNA airport"
+        ],
+        "drive_time": "~1.5 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "California: Yosemite & the Sierra Nevada",
+    "category": [
+      "nature",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "Late May-June for peak waterfall flow, or September for thinner crowds. Tioga Road is snow-closed roughly November-May. Big Sur, San Francisco, and LA are separate trips \u2014 this stays in the Sierra.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "California's High Sierra at its most concentrated \u2014 granite domes, waterfalls, and giant sequoias, without the 6-hour detour to the coast or LA.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "california"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Yosemite Valley",
+        "activities": [
+          "Mist Trail to Vernal & Nevada Falls"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Yosemite Valley",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Half Dome or Valley floor",
+        "activities": [
+          "Half Dome (permit required) or an easier Valley loop"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Yosemite Valley",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Tioga Road \u2192 Tuolumne Meadows",
+        "activities": [
+          "Drive Tioga Road",
+          "Tuolumne Meadows high country"
+        ],
+        "drive_time": "~1.5 hrs from the Valley",
+        "lodging_suggestion": "Lee Vining",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to Kings Canyon",
+        "activities": [
+          "Kings Canyon Scenic Byway"
+        ],
+        "drive_time": "~3.5 hrs from Lee Vining",
+        "lodging_suggestion": "Grant Grove Village",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Kings Canyon & Sequoia",
+        "activities": [
+          "Giant sequoia groves",
+          "Mist Falls Trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Grant Grove Village",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Drive out via Fresno (FAT)"
+        ],
+        "drive_time": "~1.5 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Connecticut & the Litchfield Hills",
+    "category": [
+      "off-the-beaten-path",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Fall for foliage in the Litchfield Hills, or summer for Mystic's waterfront.",
+    "best_time_months": [
+      "June",
+      "July",
+      "September",
+      "October"
+    ],
+    "description": "Connecticut is small enough to genuinely span in one trip \u2014 quiet Taconic Range hiking and wine country in the northwest corner, then a historic seafaring town on the coast.",
+    "cost_tier": "mid",
+    "related_states": [
+      "connecticut"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Salisbury & the Taconic Range",
+        "activities": [
+          "Taconic Range hikes"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Salisbury",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Litchfield Hills",
+        "activities": [
+          "Connecticut Wine Trail",
+          "Farm-country drive"
+        ],
+        "drive_time": "~40 min from Salisbury",
+        "lodging_suggestion": "Litchfield",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Drive to Mystic",
+        "activities": [
+          "Travel day across the state"
+        ],
+        "drive_time": "~2 hrs from Litchfield",
+        "lodging_suggestion": "Mystic",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Mystic",
+        "activities": [
+          "Mystic Seaport",
+          "Downtown and the drawbridge"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Mystic",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Delaware: Wilmington \u2192 Rehoboth Beach",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Late spring or early fall for smaller crowds; summer for full beach-town energy at Rehoboth.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "Delaware's small size means a genuine north-to-south crossing fits in a long weekend \u2014 du Pont-family estates up north, boardwalk beach town down south.",
+    "cost_tier": "mid",
+    "related_states": [
+      "delaware"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Wilmington",
+        "activities": [
+          "Nemours Estate",
+          "Winterthur Museum & Garden"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Wilmington",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "New Castle",
+        "activities": [
+          "Historic New Castle walking tour"
+        ],
+        "drive_time": "~20 min from Wilmington",
+        "lodging_suggestion": "Wilmington",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Drive south to the coast",
+        "activities": [
+          "Bombay Hook National Wildlife Refuge (en route)"
+        ],
+        "drive_time": "~1.5 hrs total to Rehoboth",
+        "lodging_suggestion": "Rehoboth Beach",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Rehoboth Beach",
+        "activities": [
+          "Boardwalk",
+          "Cape Henlopen State Park"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Rehoboth Beach",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "South Florida & the Keys: Miami \u2192 Everglades \u2192 Key West",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "December-April, Florida's dry season \u2014 far more comfortable Everglades hiking and lower hurricane risk than summer.",
+    "best_time_months": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "The Everglades' 'river of grass' and the Overseas Highway's island-hopping, back to back \u2014 two completely different sides of South Florida in one trip.",
+    "cost_tier": "mid",
+    "related_states": [
+      "florida"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Miami",
+        "activities": [
+          "South Beach",
+          "Little Havana"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Miami",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Everglades National Park",
+        "activities": [
+          "Anhinga Trail",
+          "Shark Valley"
+        ],
+        "drive_time": "~1 hr from Miami",
+        "lodging_suggestion": "Homestead",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Big Cypress & Everglades City",
+        "activities": [
+          "Tamiami Trail drive",
+          "Ten Thousand Islands kayaking"
+        ],
+        "drive_time": "~1 hr from Homestead",
+        "lodging_suggestion": "Everglades City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive the Overseas Highway",
+        "activities": [
+          "Key Largo",
+          "Blue Hole, Big Pine Key"
+        ],
+        "drive_time": "~3 hrs from Everglades City to the Lower Keys",
+        "lodging_suggestion": "Big Pine Key",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Key West",
+        "activities": [
+          "Duval Street",
+          "Sunset at Mallory Square"
+        ],
+        "drive_time": "~40 min from Big Pine Key",
+        "lodging_suggestion": "Key West",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Fly out of Key West (EYW) or drive back to Miami"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Idaho: Sawtooth Mountains \u2192 Sun Valley",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Late July-early August for peak wildflowers and stable weather, or late September for aspen color against the granite peaks.",
+    "best_time_months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Over 400 alpine lakes in a mountain range most people outside Idaho have never heard of \u2014 genuinely uncrowded compared to any comparably scenic range.",
+    "cost_tier": "mid",
+    "related_states": [
+      "idaho"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Boise \u2192 Stanley",
+        "activities": [
+          "Scenic drive into the Sawtooths"
+        ],
+        "drive_time": "~2.5 hrs from Boise",
+        "lodging_suggestion": "Stanley",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Sawtooth Lake",
+        "activities": [
+          "Sawtooth Lake Trail hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Stanley",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Iron Creek & Hell Roaring Lakes",
+        "activities": [
+          "Quieter alpine-lake hikes"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Stanley",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Sun Valley & Ketchum",
+        "activities": [
+          "Wood River Valley",
+          "Town wandering"
+        ],
+        "drive_time": "~1 hr from Stanley",
+        "lodging_suggestion": "Ketchum",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Boise (BOI)"
+        ],
+        "drive_time": "~2.5 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Chicago & Starved Rock",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "May-October for the best Chicago weather and full waterfall flow at Starved Rock (peaks in spring).",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "World-class city food and architecture, with genuine sandstone-canyon wilderness less than two hours away.",
+    "cost_tier": "mid",
+    "related_states": [
+      "illinois"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Chicago",
+        "activities": [
+          "Architecture river tour",
+          "Deep-dish pizza"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chicago",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Chicago lakefront",
+        "activities": [
+          "Lakefront trail",
+          "Lincoln Park Zoo"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chicago",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Starved Rock State Park",
+        "activities": [
+          "Starved Rock canyon trails",
+          "Matthiessen State Park"
+        ],
+        "drive_time": "~1.5 hrs from Chicago",
+        "lodging_suggestion": "Utica",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Galena",
+        "activities": [
+          "Historic river-town streetscapes"
+        ],
+        "drive_time": "~2.5 hrs from Utica",
+        "lodging_suggestion": "Galena",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Chicago (ORD)"
+        ],
+        "drive_time": "~2.5 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Central Indiana: Indianapolis \u2192 Brown County",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Fall for Brown County foliage, or race weekend (late May) if the Indy 500 is a priority.",
+    "best_time_months": [
+      "May",
+      "October"
+    ],
+    "description": "Indianapolis's motorsports history and museums, paired with Brown County's genuinely hilly, un-flat-Indiana hiking an hour south.",
+    "cost_tier": "budget",
+    "related_states": [
+      "indiana"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Indianapolis",
+        "activities": [
+          "Indianapolis Motor Speedway Museum",
+          "Cultural Trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Indianapolis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Indianapolis museums",
+        "activities": [
+          "Children's Museum of Indianapolis"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Indianapolis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Brown County State Park",
+        "activities": [
+          "Hiking Indiana's hilliest state park"
+        ],
+        "drive_time": "~1 hr from Indianapolis",
+        "lodging_suggestion": "Nashville, IN",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Indianapolis (IND)"
+        ],
+        "drive_time": "~1 hr",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Northeast Iowa: Decorah \u2192 Dubuque",
+    "category": [
+      "off-the-beaten-path",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Fall for driftless-region foliage, or summer for the full waterfall hikes.",
+    "best_time_months": [
+      "June",
+      "July",
+      "September",
+      "October"
+    ],
+    "description": "Iowa's genuinely hilly 'driftless' northeast corner \u2014 waterfalls, a year-round ice cave, and a Mississippi River town, nothing like the flat-farmland stereotype.",
+    "cost_tier": "budget",
+    "related_states": [
+      "iowa"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Decorah",
+        "activities": [
+          "Malanaphy Springs & Dunning's Spring hikes"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Decorah",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Decorah Ice Cave",
+        "activities": [
+          "Decorah Ice Cave",
+          "Trout fishing on local streams"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Decorah",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Dubuque",
+        "activities": [
+          "Mississippi riverfront",
+          "Historic elevator railway"
+        ],
+        "drive_time": "~1.5 hrs from Decorah",
+        "lodging_suggestion": "Dubuque",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Depart",
+        "activities": [
+          "Return drive or connect via Cedar Rapids (CID)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Kansas Flint Hills Loop",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "June-August for wildflowers, warm evenings, and the Symphony in the Flint Hills outdoor performance if the dates align.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "description": "The largest intact tallgrass prairie left on Earth \u2014 free-roaming bison, limestone ledges, and small towns where ranching is still a living tradition.",
+    "cost_tier": "budget",
+    "related_states": [
+      "kansas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Manhattan",
+        "activities": [
+          "Konza Prairie Biological Station hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Manhattan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Council Grove",
+        "activities": [
+          "Flint Hills Scenic Byway drive"
+        ],
+        "drive_time": "~45 min from Manhattan",
+        "lodging_suggestion": "Council Grove",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Tallgrass Prairie National Preserve",
+        "activities": [
+          "Prairie bus tour",
+          "Bison viewing"
+        ],
+        "drive_time": "~30 min from Council Grove",
+        "lodging_suggestion": "Cottonwood Falls",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Cottonwood Falls",
+        "activities": [
+          "Chase County historic downtown"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cottonwood Falls",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Central Kentucky: Louisville \u2192 Bardstown \u2192 Lexington \u2192 Mammoth Cave",
+    "category": [
+      "city",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "Spring (Derby season, April-May) or fall for mild weather and thinner crowds at Mammoth Cave.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "The Bourbon Trail's distillery towns bookended by the world's longest cave system \u2014 pace the tastings, don't overpack the day.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "kentucky"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Louisville",
+        "activities": [
+          "Louisville Slugger Museum",
+          "Old Louisville"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Louisville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Bardstown",
+        "activities": [
+          "Kentucky Bourbon Trail distilleries"
+        ],
+        "drive_time": "~45 min from Louisville",
+        "lodging_suggestion": "Bardstown",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Lexington",
+        "activities": [
+          "Horse country",
+          "Keeneland"
+        ],
+        "drive_time": "~1 hr from Bardstown",
+        "lodging_suggestion": "Lexington",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to Mammoth Cave",
+        "activities": [
+          "Travel day"
+        ],
+        "drive_time": "~2 hrs from Lexington",
+        "lodging_suggestion": "Cave City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Mammoth Cave National Park",
+        "activities": [
+          "Cave tour (book ahead)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cave City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Louisville (SDF)"
+        ],
+        "drive_time": "~1.5 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Acadia & Downeast Maine",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "June-August for full trail and Park Loop Road access, or September for foliage and thinner crowds.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Granite cliffs dropping into the Atlantic, Acadia's cliffside hikes, and a lobster roll at the end of every day.",
+    "cost_tier": "mid",
+    "related_states": [
+      "maine"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Bar Harbor",
+        "activities": [
+          "Precipice or Beehive Trail hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bar Harbor",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Park Loop Road",
+        "activities": [
+          "Park Loop Road drive",
+          "Thunder Hole & Otter Cliff"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bar Harbor",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Cadillac Mountain",
+        "activities": [
+          "Sunrise at Cadillac Mountain (reservation required)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bar Harbor",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Schoodic Peninsula",
+        "activities": [
+          "Quieter mainland section of Acadia"
+        ],
+        "drive_time": "~45 min from Bar Harbor",
+        "lodging_suggestion": "Winter Harbor",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Drive to Bangor (BGR) or continue to Portland"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Chesapeake Bay: Annapolis \u2192 Eastern Shore",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Spring or fall for comfortable sailing and walking weather. Summer brings peak crab season if food is a priority.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Sailing culture, steamed blue crab, and pastel Eastern Shore towns \u2014 a tight loop around the Chesapeake's western and eastern banks.",
+    "cost_tier": "mid",
+    "related_states": [
+      "maryland"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Annapolis",
+        "activities": [
+          "Naval Academy and State House",
+          "Waterfront sail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Annapolis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Baltimore",
+        "activities": [
+          "Inner Harbor",
+          "National Aquarium"
+        ],
+        "drive_time": "~40 min from Annapolis",
+        "lodging_suggestion": "Baltimore",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Kent Island",
+        "activities": [
+          "Terrapin Park beach and trail"
+        ],
+        "drive_time": "~45 min from Annapolis (via Bay Bridge)",
+        "lodging_suggestion": "Kent Island",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "St. Michaels",
+        "activities": [
+          "Eastern Shore waterfront town"
+        ],
+        "drive_time": "~45 min from Kent Island",
+        "lodging_suggestion": "St. Michaels",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Cape Cod & Boston",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "Summer for full beach-town energy and whale watching; September for the same coastline with a fraction of the crowds.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Revolutionary history in Boston, then 70 miles of Cape Cod coastline out to Provincetown's dunes.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "massachusetts"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Boston",
+        "activities": [
+          "Freedom Trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Boston",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Gloucester & Rockport",
+        "activities": [
+          "Cape Ann fishing villages"
+        ],
+        "drive_time": "~45 min from Boston",
+        "lodging_suggestion": "Boston",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Drive to the Cape",
+        "activities": [
+          "Hyannis and the Cape Cod beach towns"
+        ],
+        "drive_time": "~1.5 hrs from Boston",
+        "lodging_suggestion": "Hyannis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Woods Hole",
+        "activities": [
+          "Ferry day trip to Martha's Vineyard or Nantucket"
+        ],
+        "drive_time": "~30 min from Hyannis",
+        "lodging_suggestion": "Falmouth",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Provincetown",
+        "activities": [
+          "Cape Cod National Seashore dunes",
+          "Pilgrim Monument"
+        ],
+        "drive_time": "~1 hr from Hyannis",
+        "lodging_suggestion": "Provincetown",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Whale watching",
+        "activities": [
+          "Guided whale-watching tour"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Provincetown",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Minnesota's North Shore & Boundary Waters",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "July-August for full Boundary Waters access \u2014 overnight permits sell out fast, book ahead.",
+    "best_time_months": [
+      "July",
+      "August"
+    ],
+    "description": "Over a million roadless acres reachable only by canoe, plus Lake Superior's dramatic North Shore.",
+    "cost_tier": "mid",
+    "related_states": [
+      "minnesota"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Duluth",
+        "activities": [
+          "Jay Cooke State Park gorge hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Duluth",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "North Shore",
+        "activities": [
+          "Split Rock Lighthouse",
+          "Lake Superior shoreline hikes"
+        ],
+        "drive_time": "~45 min from Duluth",
+        "lodging_suggestion": "Two Harbors",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Ely",
+        "activities": [
+          "Boundary Waters day paddle or guided trip"
+        ],
+        "drive_time": "~1.5 hrs from Two Harbors",
+        "lodging_suggestion": "Ely",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Boundary Waters",
+        "activities": [
+          "Full-day canoe trip"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Ely",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Duluth (DLH)"
+        ],
+        "drive_time": "~2 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Natchez Trace: Vicksburg \u2192 Natchez",
+    "category": [
+      "off-the-beaten-path",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Spring for blooming dogwoods and azaleas along the Trace, or fall for lower humidity.",
+    "best_time_months": [
+      "March",
+      "April",
+      "October"
+    ],
+    "description": "A slow drive down the historic Natchez Trace, antebellum history, and a genuine waterfall surprise in Mississippi's southwest corner.",
+    "cost_tier": "mid",
+    "related_states": [
+      "mississippi"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Vicksburg",
+        "activities": [
+          "Vicksburg National Military Park",
+          "USS Cairo exhibit"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Vicksburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Drive the Natchez Trace",
+        "activities": [
+          "Natchez Trace Parkway"
+        ],
+        "drive_time": "~1.5 hrs to Natchez",
+        "lodging_suggestion": "Natchez",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Natchez",
+        "activities": [
+          "Antebellum home tours"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Natchez",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Clark Creek Natural Area",
+        "activities": [
+          "Waterfall hike near Woodville"
+        ],
+        "drive_time": "~45 min from Natchez",
+        "lodging_suggestion": "Natchez",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Missouri Ozarks: Lake of the Ozarks \u2192 Current River \u2192 Branson",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "Summer for float trips and lake activities; spring/fall for hiking Ha Ha Tonka's trails without the heat.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "Castle ruins over the Lake of the Ozarks, a spring-fed float down the Current River, and Branson's live entertainment to close it out.",
+    "cost_tier": "mid",
+    "related_states": [
+      "missouri"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Ha Ha Tonka State Park",
+        "activities": [
+          "Castle ruins hike over the Lake of the Ozarks"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Camdenton",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Drive to the Current River",
+        "activities": [
+          "Travel day"
+        ],
+        "drive_time": "~2 hrs from Camdenton",
+        "lodging_suggestion": "Eminence",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Current River float trip",
+        "activities": [
+          "Canoe or float the Current River"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Eminence",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Echo Bluff State Park",
+        "activities": [
+          "Spring-fed swimming and trails"
+        ],
+        "drive_time": "~20 min from Eminence",
+        "lodging_suggestion": "Eminence",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Drive to Branson",
+        "activities": [
+          "Travel day"
+        ],
+        "drive_time": "~2.5 hrs from Eminence",
+        "lodging_suggestion": "Branson",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Branson & Table Rock Lake",
+        "activities": [
+          "Live shows",
+          "Lake activities"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Branson",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Nebraska Panhandle & Sandhills",
+    "category": [
+      "off-the-beaten-path",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Late February-April for the spectacular sandhill crane migration, or summer for the full Sandhills byway drive.",
+    "best_time_months": [
+      "March",
+      "April",
+      "July"
+    ],
+    "description": "The Oregon Trail's most iconic landmark and 272 miles of grass-stabilized dunes found nowhere else in this form in North America.",
+    "cost_tier": "budget",
+    "related_states": [
+      "nebraska"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Chimney Rock",
+        "activities": [
+          "Walk to the Rock Trail",
+          "Chimney Rock museum"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bayard",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Scotts Bluff area",
+        "activities": [
+          "Robidoux Pass"
+        ],
+        "drive_time": "~30 min from Bayard",
+        "lodging_suggestion": "Gering",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Sandhills Journey Byway",
+        "activities": [
+          "Drive Highway 2 through the Sandhills"
+        ],
+        "drive_time": "~2 hrs to Alliance/Hyannis area",
+        "lodging_suggestion": "Alliance",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Petrified Wood Gallery & ranch heritage",
+        "activities": [
+          "Petrified Wood & Art Gallery, Hyannis"
+        ],
+        "drive_time": "~45 min from Alliance",
+        "lodging_suggestion": "Alliance",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Las Vegas & Red Rock Country",
+    "category": [
+      "nature",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Spring or fall for comfortable desert hiking temperatures \u2014 summer hiking here can be genuinely dangerous.",
+    "best_time_months": [
+      "March",
+      "April",
+      "October",
+      "November"
+    ],
+    "description": "Neon and casinos fifteen minutes from 200,000 acres of red rock desert most visitors never leave the Strip to see.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "nevada"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Las Vegas Strip",
+        "activities": [
+          "The Strip",
+          "Downtown Fremont Street"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Las Vegas",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Red Rock Canyon",
+        "activities": [
+          "Scenic drive",
+          "Turtlehead Peak hike"
+        ],
+        "drive_time": "~30 min from the Strip",
+        "lodging_suggestion": "Las Vegas",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Valley of Fire State Park",
+        "activities": [
+          "Red sandstone formations"
+        ],
+        "drive_time": "~1 hr from Las Vegas",
+        "lodging_suggestion": "Las Vegas",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Hoover Dam",
+        "activities": [
+          "Dam tour",
+          "Lake Mead"
+        ],
+        "drive_time": "~45 min from Las Vegas",
+        "lodging_suggestion": "Las Vegas",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "White Mountains & Lake Winnipesaukee",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Late September-mid October for peak Kancamagus Highway foliage, or summer for full trail access.",
+    "best_time_months": [
+      "June",
+      "July",
+      "September",
+      "October"
+    ],
+    "description": "1,200 miles of trail and the highest peak in the Northeast, with a lakeside wind-down at Winnipesaukee.",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-hampshire"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Franconia Notch",
+        "activities": [
+          "Franconia Ridge Loop hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Franconia",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Kancamagus Highway",
+        "activities": [
+          "Drive the Kanc",
+          "Short waterfall stops"
+        ],
+        "drive_time": "~1 hr from Franconia",
+        "lodging_suggestion": "Conway",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Mount Washington",
+        "activities": [
+          "Cog Railway or summit drive"
+        ],
+        "drive_time": "~30 min from Conway",
+        "lodging_suggestion": "Gorham",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Carter Notch",
+        "activities": [
+          "Carter Notch Loop hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Gorham",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Lake Winnipesaukee",
+        "activities": [
+          "Lakeside towns",
+          "Boating"
+        ],
+        "drive_time": "~1.5 hrs from Gorham",
+        "lodging_suggestion": "Wolfeboro",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Jersey Shore: Island Beach to Cape May",
+    "category": [
+      "water",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Summer for full boardwalk energy, expecting weekend Parkway traffic; shoulder season (May, September) for the same beaches with fewer crowds.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "130 miles of Jersey coastline from wild barrier-island dunes to Victorian Cape May, boardwalk culture the whole way down.",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-jersey"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Island Beach State Park",
+        "activities": [
+          "Undeveloped barrier-island dunes"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Seaside Park",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Point Pleasant",
+        "activities": [
+          "Boardwalk"
+        ],
+        "drive_time": "~20 min from Seaside Park",
+        "lodging_suggestion": "Point Pleasant",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Drive south to Cape May",
+        "activities": [
+          "Travel day down the coast"
+        ],
+        "drive_time": "~2 hrs from Point Pleasant",
+        "lodging_suggestion": "Cape May",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Cape May",
+        "activities": [
+          "Victorian architecture walking tour"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cape May",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Catskills Waterfalls & Scenic Byway",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Late September-mid October for peak foliage, or spring for waterfalls at full snowmelt flow.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Waterfall hikes and the birthplace of the Hudson River School of painting, under two hours from New York City but genuinely rural.",
+    "cost_tier": "budget",
+    "related_states": [
+      "new-york"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Kaaterskill Falls",
+        "activities": [
+          "New York's tallest cascading waterfall"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Haines Falls",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Catskills Scenic Byway",
+        "activities": [
+          "Scenic drive",
+          "Five State Lookout"
+        ],
+        "drive_time": "~30 min from Haines Falls",
+        "lodging_suggestion": "Hunter",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Sam's Point Preserve",
+        "activities": [
+          "Verkeerderkill Falls hike",
+          "Ice caves"
+        ],
+        "drive_time": "~1 hr from Hunter",
+        "lodging_suggestion": "Cragsmoor",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Giant Ledge",
+        "activities": [
+          "Ridge hike with Catskills views"
+        ],
+        "drive_time": "~45 min from Cragsmoor",
+        "lodging_suggestion": "Big Indian",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Blue Ridge North Carolina: Asheville \u2192 Cherokee \u2192 Boone",
+    "category": [
+      "nature",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Fall (September-November) for Blue Ridge Parkway foliage, or late spring for wildflowers with fewer crowds. The Outer Banks are 7+ hours east and a separate trip.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "'America's Favorite Drive' anchors a loop through craft-beer Asheville, the Smokies, and high mountain towns.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "north-carolina"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Asheville",
+        "activities": [
+          "Downtown breweries",
+          "Blue Ridge Parkway overlooks"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Asheville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Biltmore Estate",
+        "activities": [
+          "America's largest home and gardens"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Asheville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Great Smoky Mountains",
+        "activities": [
+          "Smokies trail (NC side)"
+        ],
+        "drive_time": "~1 hr from Asheville",
+        "lodging_suggestion": "Cherokee",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to Boone",
+        "activities": [
+          "Blue Ridge Parkway northbound"
+        ],
+        "drive_time": "~2.5 hrs from Cherokee",
+        "lodging_suggestion": "Boone",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Boone & Blowing Rock",
+        "activities": [
+          "Mountain-town wandering"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Boone",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Theodore Roosevelt National Park & the Enchanted Highway",
+    "category": [
+      "off-the-beaten-path",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Late spring or fall for mild badlands temperatures and thinner crowds than comparable Western parks.",
+    "best_time_months": [
+      "May",
+      "September"
+    ],
+    "description": "Pastel badlands that genuinely shaped a president's conservation legacy, plus a 32-mile drive of giant folk-art metal sculptures.",
+    "cost_tier": "budget",
+    "related_states": [
+      "north-dakota"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Medora & South Unit",
+        "activities": [
+          "Scenic loop drive",
+          "Buck Hill sunset"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Medora",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Petrified Forest Loop",
+        "activities": [
+          "Backcountry hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Medora",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "North Unit",
+        "activities": [
+          "Caprock Coulee Loop",
+          "Oxbow Overlook"
+        ],
+        "drive_time": "~1.5 hrs from Medora",
+        "lodging_suggestion": "Watford City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Enchanted Highway",
+        "activities": [
+          "Drive the metal-sculpture highway"
+        ],
+        "drive_time": "~2 hrs from Watford City",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Hocking Hills, Ohio",
+    "category": [
+      "nature",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 4,
+    "best_time_description": "Spring for peak waterfall flow, fall for foliage \u2014 both with thinner crowds than summer.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "Sandstone gorges and caves an hour and a half from Columbus \u2014 genuinely surprising terrain for the Midwest.",
+    "cost_tier": "budget",
+    "related_states": [
+      "ohio"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Old Man's Cave",
+        "activities": [
+          "Old Man's Cave gorge trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Logan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Grandma Gatewood Trail",
+        "activities": [
+          "Full loop to Cedar Falls"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Logan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Ash Cave",
+        "activities": [
+          "Ohio's largest recess cave"
+        ],
+        "drive_time": "~20 min from Logan",
+        "lodging_suggestion": "Logan",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Tulsa \u2192 Turner Falls \u2192 Oklahoma City",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Spring or fall for festival season and mild temperatures.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Tulsa's Art Deco skyline and urban wilderness, a swimming-hole waterfall detour, and Oklahoma City's Western heritage.",
+    "cost_tier": "budget",
+    "related_states": [
+      "oklahoma"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Tulsa",
+        "activities": [
+          "Turkey Mountain Urban Wilderness",
+          "Gilcrease Museum"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Tulsa",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Tulsa Arts District",
+        "activities": [
+          "Guthrie Green",
+          "Art Deco walking tour"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Tulsa",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Turner Falls",
+        "activities": [
+          "Swimming hole and waterfall"
+        ],
+        "drive_time": "~1.5 hrs from Tulsa",
+        "lodging_suggestion": "Davis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Oklahoma City",
+        "activities": [
+          "OKC National Memorial",
+          "National Cowboy & Western Heritage Museum"
+        ],
+        "drive_time": "~1.5 hrs from Davis",
+        "lodging_suggestion": "Oklahoma City",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Philadelphia & Lancaster County",
+    "category": [
+      "city",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Spring or fall for comfortable walking weather in Philadelphia and pleasant farm-country drives.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Revolutionary War history, then a genuine slice of Amish Country an hour west \u2014 the Poconos sit in a different corner of the state and aren't part of this loop.",
+    "cost_tier": "mid",
+    "related_states": [
+      "pennsylvania"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Philadelphia",
+        "activities": [
+          "Independence Hall",
+          "Liberty Bell"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Philadelphia",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Longwood Gardens",
+        "activities": [
+          "Formal gardens and greenhouses"
+        ],
+        "drive_time": "~45 min from Philadelphia",
+        "lodging_suggestion": "Philadelphia",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Lancaster County",
+        "activities": [
+          "Amish Country tour"
+        ],
+        "drive_time": "~1.5 hrs from Philadelphia",
+        "lodging_suggestion": "Lancaster",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Kellys Run",
+        "activities": [
+          "Lancaster Conservancy gorge hike"
+        ],
+        "drive_time": "~30 min from Lancaster",
+        "lodging_suggestion": "Lancaster",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Gettysburg",
+        "activities": [
+          "Battlefield tour"
+        ],
+        "drive_time": "~1 hr from Lancaster",
+        "lodging_suggestion": "Gettysburg",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Rhode Island: Providence \u2192 Newport \u2192 Block Island",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "June-early September for warm, swimmable water and full ferry schedules to Block Island.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "description": "America's smallest state, genuinely walkable in one trip \u2014 Gilded Age mansions, then a quiet island getaway by ferry.",
+    "cost_tier": "mid",
+    "related_states": [
+      "rhode-island"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Providence",
+        "activities": [
+          "Federal Hill",
+          "WaterFire (check schedule)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Providence",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Newport",
+        "activities": [
+          "Cliff Walk",
+          "The Breakers"
+        ],
+        "drive_time": "~45 min from Providence",
+        "lodging_suggestion": "Newport",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Watch Hill",
+        "activities": [
+          "Quiet beach town"
+        ],
+        "drive_time": "~45 min from Newport",
+        "lodging_suggestion": "Westerly",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Block Island",
+        "activities": [
+          "Ferry over",
+          "Mohegan Bluffs"
+        ],
+        "drive_time": "Ferry from Point Judith or Newport",
+        "lodging_suggestion": "Block Island",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "South Carolina Lowcountry: Charleston \u2192 Beaufort \u2192 Hilton Head",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Spring for azalea blooms in Charleston, or fall for comfortable coastal temperatures. Myrtle Beach sits in the opposite direction up the coast and isn't part of this southward route.",
+    "best_time_months": [
+      "March",
+      "April",
+      "October",
+      "November"
+    ],
+    "description": "A southward run down the Lowcountry coast \u2014 Charleston's cobblestones, Beaufort's antebellum quiet, and Hilton Head's beaches.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "south-carolina"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Historic Charleston",
+        "activities": [
+          "Battery and historic district"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Charleston",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Fort Sumter",
+        "activities": [
+          "Boat tour to Fort Sumter"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Charleston",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Beaufort",
+        "activities": [
+          "Antebellum walking tour"
+        ],
+        "drive_time": "~1.5 hrs from Charleston",
+        "lodging_suggestion": "Beaufort",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Hilton Head",
+        "activities": [
+          "Beach day"
+        ],
+        "drive_time": "~45 min from Beaufort",
+        "lodging_suggestion": "Hilton Head",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Black Hills & Badlands, South Dakota",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "September is the sweet spot \u2014 warm days, cool nights, and past the early-August Sturgis Motorcycle Rally crowds.",
+    "best_time_months": [
+      "September"
+    ],
+    "description": "Granite spires, an ancient seabed turned badlands, and two mountain carvings, all within about an hour of each other.",
+    "cost_tier": "mid",
+    "related_states": [
+      "south-dakota"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Custer State Park",
+        "activities": [
+          "Needles Highway drive",
+          "Sylvan Lake"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Custer",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Wildlife Loop Road",
+        "activities": [
+          "Bison herds and prairie drive"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Custer",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Mount Rushmore & Crazy Horse",
+        "activities": [
+          "Mount Rushmore",
+          "Crazy Horse Memorial"
+        ],
+        "drive_time": "~30 min from Custer",
+        "lodging_suggestion": "Keystone",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Wind Cave & Jewel Cave",
+        "activities": [
+          "Cave tours"
+        ],
+        "drive_time": "~30 min from Keystone",
+        "lodging_suggestion": "Hot Springs",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Badlands National Park",
+        "activities": [
+          "Badlands Loop Road"
+        ],
+        "drive_time": "~1.5 hrs from Hot Springs",
+        "lodging_suggestion": "Wall",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Spearfish Canyon",
+        "activities": [
+          "Scenic byway and waterfalls"
+        ],
+        "drive_time": "~2 hrs from Wall",
+        "lodging_suggestion": "Spearfish",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Big Bend National Park, Texas",
+    "category": [
+      "off-the-beaten-path",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Spring (March-April) or fall (October-November) \u2014 summer desert heat is genuinely dangerous for hiking here.",
+    "best_time_months": [
+      "March",
+      "April",
+      "October",
+      "November"
+    ],
+    "description": "One of the most remote national parks in the country \u2014 desert, canyons, and the Chisos Mountains along the Rio Grande. A standalone trip; Texas Hill Country is 6+ hours away.",
+    "cost_tier": "mid",
+    "related_states": [
+      "texas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Chisos Basin",
+        "activities": [
+          "Settle in, Window View Trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chisos Basin",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Lost Mine Trail",
+        "activities": [
+          "Lost Mine Trail hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chisos Basin",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Ross Maxwell Scenic Drive",
+        "activities": [
+          "Santa Elena Canyon",
+          "Mule Ears Viewpoint"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Study Butte",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Terlingua",
+        "activities": [
+          "Ghost town",
+          "Starlight Theatre dinner"
+        ],
+        "drive_time": "~20 min from Study Butte",
+        "lodging_suggestion": "Terlingua",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Utah's Mighty 5",
+    "category": [
+      "nature",
+      "road-trip",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 10,
+    "duration_days_max": 12,
+    "best_time_description": "April-May and September-October for mild temperatures across all five parks. Confirm each park's current entry/reservation rules before you go \u2014 they've changed more than once in recent years.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "All five of Utah's national parks in one loop \u2014 genuinely the state's signature road trip, and long enough that it deserves the full 10-12 days rather than a rushed week.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "utah"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Zion \u2014 arrive",
+        "activities": [
+          "Settle in Springdale"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Springdale",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Zion: The Narrows",
+        "activities": [
+          "Wade the Virgin River"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Springdale",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Zion: Angels Landing",
+        "activities": [
+          "Permit-lottery hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Springdale",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to Bryce Canyon",
+        "activities": [
+          "Highway 9 to Highway 12"
+        ],
+        "drive_time": "~1.5-2 hrs from Springdale",
+        "lodging_suggestion": "Bryce Canyon City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Bryce Canyon",
+        "activities": [
+          "Sunrise over the hoodoos",
+          "Rim trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bryce Canyon City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Highway 12 to Escalante",
+        "activities": [
+          "Drive Highway 12, one of the most scenic in the US"
+        ],
+        "drive_time": "~1 hr from Bryce",
+        "lodging_suggestion": "Escalante",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 7,
+        "title": "Capitol Reef",
+        "activities": [
+          "Waterpocket Fold",
+          "Historic orchards"
+        ],
+        "drive_time": "~1.5 hrs from Escalante",
+        "lodging_suggestion": "Torrey",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 8,
+        "title": "Drive to Moab",
+        "activities": [
+          "Travel day via Highway 24/I-70"
+        ],
+        "drive_time": "~3.5-4 hrs from Torrey",
+        "lodging_suggestion": "Moab",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 9,
+        "title": "Arches National Park",
+        "activities": [
+          "Delicate Arch at sunset"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Moab",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 10,
+        "title": "Canyonlands",
+        "activities": [
+          "Island in the Sky overlooks"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Moab",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Vermont: Burlington \u2192 Stowe \u2192 Manchester",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Late September-early October for iconic foliage along Route 100, or late winter for sugarhouse season.",
+    "best_time_months": [
+      "September",
+      "October"
+    ],
+    "description": "Lake Champlain to the Green Mountains \u2014 covered bridges, maple sugarhouses, and small-town Vermont at a slow pace.",
+    "cost_tier": "mid",
+    "related_states": [
+      "vermont"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Burlington",
+        "activities": [
+          "Church Street Marketplace",
+          "Lake Champlain waterfront"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Burlington",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Shelburne Museum",
+        "activities": [
+          "39 historic structures on 45 acres"
+        ],
+        "drive_time": "~20 min from Burlington",
+        "lodging_suggestion": "Burlington",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Stowe",
+        "activities": [
+          "Camel's Hump hike",
+          "Route 100 drive"
+        ],
+        "drive_time": "~45 min from Burlington",
+        "lodging_suggestion": "Stowe",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive south to Manchester",
+        "activities": [
+          "Green Mountain Byway southbound"
+        ],
+        "drive_time": "~2 hrs from Stowe",
+        "lodging_suggestion": "Manchester",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Mount Equinox",
+        "activities": [
+          "Summit drive",
+          "Long Trail day-hike section"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Manchester",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Shenandoah National Park, Virginia",
+    "category": [
+      "nature",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Early-to-mid October for peak Skyline Drive foliage, or spring for wildflowers and fewer crowds. Southwest Virginia and Williamsburg/the coast are each 3+ hours away and separate trips.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "105 miles of ridgeline drive, a genuine rock-scramble summit, and one of the East Coast's biggest cave systems, all inside one national park.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "virginia"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Front Royal & Skyline Drive north",
+        "activities": [
+          "Skyline Drive overlooks"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Front Royal",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Old Rag Mountain",
+        "activities": [
+          "Old Rag rock scramble"
+        ],
+        "drive_time": "~45 min from Front Royal",
+        "lodging_suggestion": "Sperryville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Luray Caverns",
+        "activities": [
+          "Cave tour",
+          "Hawksbill Loop Trail"
+        ],
+        "drive_time": "~30 min from Sperryville",
+        "lodging_suggestion": "Luray",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Shenandoah Valley wine trail",
+        "activities": [
+          "Vineyard tastings"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Luray",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "New River Gorge, West Virginia",
+    "category": [
+      "nature",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "September-October for Gauley Season whitewater and rhododendron-lined trails at their best.",
+    "best_time_months": [
+      "September",
+      "October"
+    ],
+    "description": "America's newest national park \u2014 one of the longest steel arch bridges in the world spanning a genuine whitewater and rock-climbing destination.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "west-virginia"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Fayetteville",
+        "activities": [
+          "New River Gorge Bridge",
+          "Endless Wall Trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fayetteville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Whitewater rafting",
+        "activities": [
+          "Guided rafting trip"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fayetteville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Bridge Walk & climbing",
+        "activities": [
+          "Bridge Walk tour or rock climbing"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fayetteville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Grandview",
+        "activities": [
+          "Castle Rock Trail"
+        ],
+        "drive_time": "~30 min from Fayetteville",
+        "lodging_suggestion": "Beckley",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Door County, Wisconsin",
+    "category": [
+      "water",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Summer for full ferry and orchard-season access, or fall for color and thinner crowds.",
+    "best_time_months": [
+      "June",
+      "July",
+      "September"
+    ],
+    "description": "The 'Cape Cod of the Midwest' \u2014 cherry orchards, uncharacteristically blue Lake Michigan water, and a rooftop of grazing goats.",
+    "cost_tier": "mid",
+    "related_states": [
+      "wisconsin"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Sturgeon Bay",
+        "activities": [
+          "Gateway to the peninsula"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Sturgeon Bay",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Fish Creek",
+        "activities": [
+          "Peninsula State Park trails"
+        ],
+        "drive_time": "~20 min from Sturgeon Bay",
+        "lodging_suggestion": "Fish Creek",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Sister Bay",
+        "activities": [
+          "Al Johnson's rooftop goats",
+          "Fish boil dinner"
+        ],
+        "drive_time": "~15 min from Fish Creek",
+        "lodging_suggestion": "Sister Bay",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Washington Island",
+        "activities": [
+          "Ferry from Northport"
+        ],
+        "drive_time": "~20 min to Northport",
+        "lodging_suggestion": "Washington Island",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Yellowstone & Grand Teton, Wyoming",
+    "category": [
+      "nature",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "Mid-June through early October for full road and trail access. Carry bear spray on every hike.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Two adjacent parks connected by a short drive \u2014 geothermal wonders in Yellowstone, then the jagged Teton skyline just south of it.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "wyoming"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Beartooth Highway",
+        "activities": [
+          "Drive one of the highest paved roads in the US"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cooke City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Lamar Valley & Canyon Village",
+        "activities": [
+          "Wildlife drive",
+          "Grand Canyon of the Yellowstone"
+        ],
+        "drive_time": "~1.5 hrs from Cooke City",
+        "lodging_suggestion": "Canyon Village",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Old Faithful",
+        "activities": [
+          "Upper Geyser Basin",
+          "Grand Prismatic overlook"
+        ],
+        "drive_time": "~1 hr from Canyon Village",
+        "lodging_suggestion": "Old Faithful",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to Grand Teton",
+        "activities": [
+          "Travel day south"
+        ],
+        "drive_time": "~1.5 hrs from Old Faithful",
+        "lodging_suggestion": "Jenny Lake",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Jenny Lake",
+        "activities": [
+          "Hidden Falls",
+          "Inspiration Point"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Jenny Lake",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Jackson Hole",
+        "activities": [
+          "Town wandering"
+        ],
+        "drive_time": "~45 min from Jenny Lake",
+        "lodging_suggestion": "Jackson",
+        "coffee_wifi_spot": null
+      }
+    ]
+  }
+]

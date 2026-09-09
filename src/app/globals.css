@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdf9f0;
+  background-image:
+    radial-gradient(circle at 15% 8%, rgba(255, 90, 95, 0.05), transparent 40%),
+    radial-gradient(circle at 90% 15%, rgba(59, 130, 246, 0.05), transparent 40%),
+    radial-gradient(circle at 85% 85%, rgba(47, 168, 79, 0.05), transparent 45%);
+  color: #242420;
+}
+
+/* A single stamp motif, reused for visa status — a circular ink stamp,
+   not a generic pill badge. */
+.stamp-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid currentColor;
+  border-radius: 9999px;
+  padding: 0.35rem 0.9rem;
+  transform: rotate(-2deg);
+  letter-spacing: 0.02em;
+}
+
+/* Perforated divider — a torn-ticket line between day entries. */
+.ticket-divider {
+  border-top: 1px dashed #e8dfc9;
+  position: relative;
+}
+.ticket-divider::before,
+.ticket-divider::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background: #fdf9f0;
+  border: 1px solid #e8dfc9;
+}
+.ticket-divider::before {
+  left: -6px;
+}
+.ticket-divider::after {
+  right: -6px;
+}
+
+:focus-visible {
+  outline: 2px solid #ff5a5f;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
