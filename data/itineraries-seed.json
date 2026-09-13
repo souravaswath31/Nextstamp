@@ -1,6 +1,6 @@
 [
   {
-    "title": "Alaska: Anchorage \u2192 Seward \u2192 Denali",
+    "title": "Alaska: Anchorage → Seward → Denali",
     "category": [
       "nature",
       "splurge"
@@ -17,7 +17,7 @@
       "June",
       "September"
     ],
-    "description": "The most 'once in a lifetime' domestic trip available in the US \u2014 raw wilderness that genuinely feels remote.",
+    "description": "The most 'once in a lifetime' domestic trip available in the US — raw wilderness that genuinely feels remote.",
     "cost_tier": "splurge",
     "days": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "day_number": 2,
-        "title": "Anchorage \u2192 Seward",
+        "title": "Anchorage → Seward",
         "activities": [
           "Turnagain Arm scenic drive",
           "Explore Seward harbor town"
@@ -49,7 +49,7 @@
       },
       {
         "day_number": 4,
-        "title": "Seward \u2192 Denali",
+        "title": "Seward → Denali",
         "activities": [
           "Long scenic drive north"
         ],
@@ -106,7 +106,7 @@
       "September",
       "October"
     ],
-    "description": "Two very different Hawaiian islands \u2014 dramatic coastal cliffs and active volcano terrain.",
+    "description": "Two very different Hawaiian islands — dramatic coastal cliffs and active volcano terrain.",
     "cost_tier": "mid",
     "days": [
       {
@@ -136,7 +136,7 @@
       },
       {
         "day_number": 4,
-        "title": "Kauai \u2192 Big Island",
+        "title": "Kauai → Big Island",
         "activities": [
           "Fly between islands",
           "Hanalei Bay morning first"
@@ -221,7 +221,7 @@
       },
       {
         "day_number": 4,
-        "title": "New Orleans \u2192 Nashville",
+        "title": "New Orleans → Nashville",
         "activities": [
           "Drive or fly"
         ],
@@ -295,7 +295,7 @@
       },
       {
         "day_number": 3,
-        "title": "Grand Canyon \u2192 Page",
+        "title": "Grand Canyon → Page",
         "activities": [
           "Horseshoe Bend",
           "Antelope Canyon tour"
@@ -305,7 +305,7 @@
       },
       {
         "day_number": 4,
-        "title": "Page \u2192 Monument Valley",
+        "title": "Page → Monument Valley",
         "activities": [
           "Scenic drive, valley overlooks"
         ],
@@ -314,7 +314,7 @@
       },
       {
         "day_number": 5,
-        "title": "Monument Valley \u2192 Sedona",
+        "title": "Monument Valley → Sedona",
         "activities": [
           "Red rock hikes"
         ],
@@ -353,7 +353,7 @@
     ],
     "duration_days_min": 7,
     "duration_days_max": 7,
-    "best_time_description": "Summer is 110\u00b0F+",
+    "best_time_description": "Summer is 110°F+",
     "best_time_months": [
       "November",
       "December",
@@ -361,7 +361,7 @@
       "February",
       "March"
     ],
-    "description": "The best 'splurge city' pick \u2014 feels expensive, no visa hassle for Indian passport + valid US visa holders.",
+    "description": "The best 'splurge city' pick — feels expensive, no visa hassle for Indian passport + valid US visa holders.",
     "cost_tier": "splurge",
     "days": [
       {
@@ -392,7 +392,7 @@
       },
       {
         "day_number": 4,
-        "title": "Dubai \u2192 Abu Dhabi day trip",
+        "title": "Dubai → Abu Dhabi day trip",
         "activities": [
           "Sheikh Zayed Mosque",
           "Louvre Abu Dhabi"
@@ -428,17 +428,17 @@
       {
         "place_type": "drink",
         "name": "Gahwa (Arabic coffee)",
-        "description": "Lightly roasted, brewed with cardamom, and poured from a dallah pot into small handle-less cups \u2014 refusing the first cup is traditionally seen as declining hospitality. UNESCO-recognized Intangible Cultural Heritage since 2015."
+        "description": "Lightly roasted, brewed with cardamom, and poured from a dallah pot into small handle-less cups — refusing the first cup is traditionally seen as declining hospitality. UNESCO-recognized Intangible Cultural Heritage since 2015."
       },
       {
         "place_type": "dish",
         "name": "Machboos",
-        "description": "The UAE's national dish \u2014 fragrant spiced rice with chicken, lamb, or seafood, infused with dried lime (loomi) for a tangy depth."
+        "description": "The UAE's national dish — fragrant spiced rice with chicken, lamb, or seafood, infused with dried lime (loomi) for a tangy depth."
       },
       {
         "place_type": "drink",
         "name": "Karak tea",
-        "description": "Sweet, milky tea spiced with cardamom, originally influenced by South Asian chai \u2014 practically Dubai's unofficial daily drink, found from roadside cafeterias to upscale caf\u00e9s."
+        "description": "Sweet, milky tea spiced with cardamom, originally influenced by South Asian chai — practically Dubai's unofficial daily drink, found from roadside cafeterias to upscale cafés."
       },
       {
         "place_type": "dish",
@@ -512,7 +512,7 @@
       },
       {
         "day_number": 5,
-        "title": "Ubud \u2192 Nusa Penida",
+        "title": "Ubud → Nusa Penida",
         "activities": [
           "Island day trip, Kelingking Beach"
         ],
@@ -537,27 +537,27 @@
       {
         "place_type": "tradition",
         "name": "Nyepi (Day of Silence)",
-        "description": "The Balinese Hindu New Year, marked not with celebration but a full day of island-wide silence \u2014 airports close, roads empty, and lights go off. Visitors are expected to observe the same restrictions."
+        "description": "The Balinese Hindu New Year, marked not with celebration but a full day of island-wide silence — airports close, roads empty, and lights go off. Visitors are expected to observe the same restrictions."
       },
       {
         "place_type": "dish",
         "name": "Babi Guling",
-        "description": "Balinese spit-roasted suckling pig, originally a sacred temple offering \u2014 pork is central to Bali's food identity, distinguishing it from the rest of Muslim-majority Indonesia."
+        "description": "Balinese spit-roasted suckling pig, originally a sacred temple offering — pork is central to Bali's food identity, distinguishing it from the rest of Muslim-majority Indonesia."
       },
       {
         "place_type": "dish",
         "name": "Bebek Betutu",
-        "description": "Duck or chicken slow-cooked in banana leaves with a rich spice marinade, traditionally served at Hindu ceremonies \u2014 often requires ordering a day in advance."
+        "description": "Duck or chicken slow-cooked in banana leaves with a rich spice marinade, traditionally served at Hindu ceremonies — often requires ordering a day in advance."
       },
       {
         "place_type": "culture",
         "name": "Canang sari offerings",
-        "description": "Small daily woven-palm offerings of flowers and food left outside homes and businesses to honor the gods \u2014 a visible, constant part of Balinese Hindu life."
+        "description": "Small daily woven-palm offerings of flowers and food left outside homes and businesses to honor the gods — a visible, constant part of Balinese Hindu life."
       },
       {
         "place_type": "culture",
         "name": "Base genep",
-        "description": "Bali's foundational spice paste \u2014 garlic, turmeric, ginger, galangal, lemongrass, and chili ground together \u2014 underlying most traditional dishes on the island."
+        "description": "Bali's foundational spice paste — garlic, turmeric, ginger, galangal, lemongrass, and chili ground together — underlying most traditional dishes on the island."
       }
     ]
   },
@@ -628,17 +628,17 @@
       {
         "place_type": "dish",
         "name": "Mas riha (Maldivian tuna curry)",
-        "description": "A coconut-based curry built on tuna rather than chicken or lamb, since fishing \u2014 not agriculture \u2014 has always defined the Maldivian diet."
+        "description": "A coconut-based curry built on tuna rather than chicken or lamb, since fishing — not agriculture — has always defined the Maldivian diet."
       },
       {
         "place_type": "dish",
         "name": "Hedhikaa (short eats)",
-        "description": "Maldivian tea-time snacks like bajiya (fried tuna-and-coconut pastries) and gulha (fish balls) \u2014 direct relatives of Indian samosas and Sri Lankan cutlets, served the same way at teatime."
+        "description": "Maldivian tea-time snacks like bajiya (fried tuna-and-coconut pastries) and gulha (fish balls) — direct relatives of Indian samosas and Sri Lankan cutlets, served the same way at teatime."
       },
       {
         "place_type": "drink",
         "name": "Ceylon tea",
-        "description": "Sri Lanka is one of the world's great tea producers \u2014 a plantation tour near Kandy showing the withering, rolling, and fermenting process is a genuine highlight if extending into Sri Lanka."
+        "description": "Sri Lanka is one of the world's great tea producers — a plantation tour near Kandy showing the withering, rolling, and fermenting process is a genuine highlight if extending into Sri Lanka."
       },
       {
         "place_type": "dish",
@@ -648,7 +648,7 @@
       {
         "place_type": "culture",
         "name": "Spice gardens of Matale",
-        "description": "Sri Lanka's spices \u2014 cinnamon, cardamom, pepper, nutmeg \u2014 are grown here and were historically believed to have medicinal as well as flavoring value, not just culinary ones."
+        "description": "Sri Lanka's spices — cinnamon, cardamom, pepper, nutmeg — are grown here and were historically believed to have medicinal as well as flavoring value, not just culinary ones."
       }
     ]
   },
@@ -694,7 +694,7 @@
       },
       {
         "day_number": 3,
-        "title": "Istanbul \u2192 Cappadocia",
+        "title": "Istanbul → Cappadocia",
         "activities": [
           "Short flight"
         ],
@@ -711,7 +711,7 @@
       },
       {
         "day_number": 5,
-        "title": "Cappadocia \u2192 Turquoise Coast",
+        "title": "Cappadocia → Turquoise Coast",
         "activities": [
           "Fly to Dalaman"
         ],
@@ -735,28 +735,28 @@
     "food_culture": [
       {
         "place_type": "drink",
-        "name": "Turkish tea (\u00e7ay)",
-        "description": "Served in small tulip-shaped glasses, strong and without milk \u2014 offered constantly as a gesture of hospitality, and refusing it is considered impolite."
+        "name": "Turkish tea (çay)",
+        "description": "Served in small tulip-shaped glasses, strong and without milk — offered constantly as a gesture of hospitality, and refusing it is considered impolite."
       },
       {
         "place_type": "drink",
         "name": "Turkish coffee & fortune telling",
-        "description": "Slow-brewed and unfiltered, traditionally followed by a fortune-teller (falc\u0131) reading the pattern left by the grounds in the empty cup \u2014 a genuine social ritual, not just a novelty."
+        "description": "Slow-brewed and unfiltered, traditionally followed by a fortune-teller (falcı) reading the pattern left by the grounds in the empty cup — a genuine social ritual, not just a novelty."
       },
       {
         "place_type": "dish",
         "name": "Regional cuisine variety",
-        "description": "Turkish food shifts by region \u2014 olive-oil vegetable dishes on the Aegean coast, fresh fish in Bodrum, baklava-heavy pastry culture in the east, hearty wheat-and-meat stews (ke\u015fkek) in central Anatolia."
+        "description": "Turkish food shifts by region — olive-oil vegetable dishes on the Aegean coast, fresh fish in Bodrum, baklava-heavy pastry culture in the east, hearty wheat-and-meat stews (keşkek) in central Anatolia."
       },
       {
         "place_type": "culture",
         "name": "Turkish hospitality (misafirperverlik)",
-        "description": "Guests are offered food and drink almost immediately upon arrival anywhere \u2014 home, shop, or hotel \u2014 and the phrase 'ho\u015f geldiniz' ('it's good you came') captures a genuinely central cultural value."
+        "description": "Guests are offered food and drink almost immediately upon arrival anywhere — home, shop, or hotel — and the phrase 'hoş geldiniz' ('it's good you came') captures a genuinely central cultural value."
       },
       {
         "place_type": "culture",
         "name": "Whirling dervish ceremony",
-        "description": "A Sufi religious ritual (sema) especially associated with Konya \u2014 meditative spinning dance representing spiritual ascent, still performed as a living tradition, not just a tourist show."
+        "description": "A Sufi religious ritual (sema) especially associated with Konya — meditative spinning dance representing spiritual ascent, still performed as a living tradition, not just a tourist show."
       }
     ]
   },
@@ -799,7 +799,7 @@
       },
       {
         "day_number": 3,
-        "title": "La Fortuna \u2192 Monteverde",
+        "title": "La Fortuna → Monteverde",
         "activities": [
           "Cloud forest zip-lining",
           "hanging bridges"
@@ -808,7 +808,7 @@
       },
       {
         "day_number": 4,
-        "title": "Monteverde \u2192 Manuel Antonio",
+        "title": "Monteverde → Manuel Antonio",
         "activities": [
           "Travel day"
         ],
@@ -842,27 +842,27 @@
       {
         "place_type": "culture",
         "name": "Pura Vida",
-        "description": "Literally 'pure life' \u2014 more than a greeting, it's a whole philosophy of living simply, gratefully, and in the moment that genuinely shapes the pace of daily life."
+        "description": "Literally 'pure life' — more than a greeting, it's a whole philosophy of living simply, gratefully, and in the moment that genuinely shapes the pace of daily life."
       },
       {
         "place_type": "dish",
         "name": "Gallo pinto",
-        "description": "Costa Rica's everyday breakfast \u2014 rice and black beans saut\u00e9ed with Salsa Lizano, a tangy brown sauce found on nearly every table in the country."
+        "description": "Costa Rica's everyday breakfast — rice and black beans sautéed with Salsa Lizano, a tangy brown sauce found on nearly every table in the country."
       },
       {
         "place_type": "dish",
         "name": "Casado",
-        "description": "The classic Costa Rican lunch plate \u2014 rice, beans, plantains, salad, and a choice of protein \u2014 named for resembling 'what my wife would make.'"
+        "description": "The classic Costa Rican lunch plate — rice, beans, plantains, salad, and a choice of protein — named for resembling 'what my wife would make.'"
       },
       {
         "place_type": "drink",
         "name": "Costa Rican coffee",
-        "description": "Grown in the misty Central Valley highlands and traditionally brewed through a cloth chorreador filter \u2014 genuinely high-quality, and a point of national pride."
+        "description": "Grown in the misty Central Valley highlands and traditionally brewed through a cloth chorreador filter — genuinely high-quality, and a point of national pride."
       },
       {
         "place_type": "culture",
         "name": "Sodas",
-        "description": "Small, family-run diners serving home-style Tico food at low prices \u2014 eating at a soda is a more authentic introduction to the culture than most restaurants aimed at tourists."
+        "description": "Small, family-run diners serving home-style Tico food at low prices — eating at a soda is a more authentic introduction to the culture than most restaurants aimed at tourists."
       }
     ]
   },
@@ -886,7 +886,7 @@
       "September",
       "October"
     ],
-    "description": "The 'nobody I know has been here' pick \u2014 off the radar for most travelers.",
+    "description": "The 'nobody I know has been here' pick — off the radar for most travelers.",
     "cost_tier": "budget",
     "days": [
       {
@@ -926,7 +926,7 @@
       },
       {
         "day_number": 5,
-        "title": "Tbilisi \u2192 Yerevan, Armenia",
+        "title": "Tbilisi → Yerevan, Armenia",
         "activities": [
           "Cross border"
         ],
@@ -952,7 +952,7 @@
       {
         "place_type": "tradition",
         "name": "The Georgian supra",
-        "description": "A ceremonial feast that can run for hours, led by a tamada (toastmaster) whose toasts \u2014 to family, guests, ancestors, and peace \u2014 set the rhythm of the entire meal. An empty table is considered shameful."
+        "description": "A ceremonial feast that can run for hours, led by a tamada (toastmaster) whose toasts — to family, guests, ancestors, and peace — set the rhythm of the entire meal. An empty table is considered shameful."
       },
       {
         "place_type": "dish",
@@ -962,22 +962,22 @@
       {
         "place_type": "drink",
         "name": "Qvevri wine",
-        "description": "Georgia calls itself the cradle of viticulture \u2014 evidence at Gadachrili Gora suggests winemaking here 8,000 years ago, still using the same qvevri clay-vessel fermentation method."
+        "description": "Georgia calls itself the cradle of viticulture — evidence at Gadachrili Gora suggests winemaking here 8,000 years ago, still using the same qvevri clay-vessel fermentation method."
       },
       {
         "place_type": "dish",
         "name": "Lavash & khorovats",
-        "description": "Armenia's UNESCO-protected paper-thin flatbread, baked in a clay tonir oven, is the universal utensil for wrapping khorovats \u2014 Armenian charcoal-grilled meat skewers."
+        "description": "Armenia's UNESCO-protected paper-thin flatbread, baked in a clay tonir oven, is the universal utensil for wrapping khorovats — Armenian charcoal-grilled meat skewers."
       },
       {
         "place_type": "dish",
         "name": "Dolma",
-        "description": "Grape leaves or vegetables stuffed with spiced meat and rice \u2014 claimed by Armenia as a national dish, though variations of it appear across the Caucasus, Balkans, and Levant."
+        "description": "Grape leaves or vegetables stuffed with spiced meat and rice — claimed by Armenia as a national dish, though variations of it appear across the Caucasus, Balkans, and Levant."
       }
     ]
   },
   {
-    "title": "Seattle \u2192 Denver: Rainier to the Rockies",
+    "title": "Seattle → Denver: Rainier to the Rockies",
     "category": [
       "nature",
       "road-trip",
@@ -995,37 +995,37 @@
       "July",
       "August"
     ],
-    "description": "A camping/budget-conscious national-parks traverse from the Pacific Northwest into the northern Rockies \u2014 five parks, one legendary high-altitude drive, and enough distance each day to make it feel like a real journey rather than a highlight reel.",
+    "description": "A camping/budget-conscious national-parks traverse from the Pacific Northwest into the northern Rockies — five parks, one legendary high-altitude drive, and enough distance each day to make it feel like a real journey rather than a highlight reel.",
     "cost_tier": "budget",
     "days": [
       {
         "day_number": 1,
-        "title": "Seattle \u2192 Mount Rainier",
+        "title": "Seattle → Mount Rainier",
         "activities": [
           "Skyline Trail loop from Paradise",
           "Sunset at Reflection Lakes if the sky cooperates"
         ],
         "drive_time": "2 hrs",
         "lodging_suggestion": "Ashford or Paradise-area campground",
-        "coffee_wifi_spot": "Wildberry Restaurant, Ashford \u2014 weak signal, worth topping up devices before you head further in"
+        "coffee_wifi_spot": "Wildberry Restaurant, Ashford — weak signal, worth topping up devices before you head further in"
       },
       {
         "day_number": 2,
-        "title": "Rainier \u2192 Spokane (staging day)",
+        "title": "Rainier → Spokane (staging day)",
         "activities": [
           "Morning hike near Sunrise if road is open",
           "Long drive east, easy evening"
         ],
         "drive_time": "5.5 hrs",
         "lodging_suggestion": "Spokane",
-        "coffee_wifi_spot": "Indaba Coffee, Spokane \u2014 reliable wifi for a remote-work morning before the border-adjacent stretch"
+        "coffee_wifi_spot": "Indaba Coffee, Spokane — reliable wifi for a remote-work morning before the border-adjacent stretch"
       },
       {
         "day_number": 3,
-        "title": "Spokane \u2192 Glacier National Park",
+        "title": "Spokane → Glacier National Park",
         "activities": [
           "Enter via West Glacier",
-          "Drive Going-to-the-Sun Road if fully open (check dates \u2014 often not clear until June)"
+          "Drive Going-to-the-Sun Road if fully open (check dates — often not clear until June)"
         ],
         "drive_time": "4.5 hrs",
         "lodging_suggestion": "West Glacier / Apgar campground"
@@ -1041,18 +1041,18 @@
       },
       {
         "day_number": 5,
-        "title": "Glacier \u2192 Beartooth Highway \u2192 Red Lodge",
+        "title": "Glacier → Beartooth Highway → Red Lodge",
         "activities": [
-          "Drive the Beartooth Highway (one of the highest paved roads in the US \u2014 build in extra time for pull-offs)",
+          "Drive the Beartooth Highway (one of the highest paved roads in the US — build in extra time for pull-offs)",
           "Arrive Red Lodge, MT for the night"
         ],
         "drive_time": "6 hrs",
         "lodging_suggestion": "Red Lodge, MT",
-        "coffee_wifi_spot": "Red Lodge Books & Tea \u2014 small-town wifi, good enough for email"
+        "coffee_wifi_spot": "Red Lodge Books & Tea — small-town wifi, good enough for email"
       },
       {
         "day_number": 6,
-        "title": "Red Lodge \u2192 Yellowstone (north)",
+        "title": "Red Lodge → Yellowstone (north)",
         "activities": [
           "Enter via the Beartooth's southern descent",
           "Mammoth Hot Springs terraces",
@@ -1072,7 +1072,7 @@
       },
       {
         "day_number": 8,
-        "title": "Yellowstone \u2192 Grand Teton",
+        "title": "Yellowstone → Grand Teton",
         "activities": [
           "Exit south through Yellowstone",
           "Jenny Lake shoreline walk",
@@ -1083,7 +1083,7 @@
       },
       {
         "day_number": 9,
-        "title": "Grand Teton \u2192 Denver (or fly out of Jackson)",
+        "title": "Grand Teton → Denver (or fly out of Jackson)",
         "activities": [
           "Early Snake River overlook stop",
           "Long drive south, or fly out of Jackson Hole to skip the final leg"
@@ -1097,7 +1097,7 @@
     ]
   },
   {
-    "title": "Cartagena + Medell\u00edn, Colombia",
+    "title": "Cartagena + Medellín, Colombia",
     "category": [
       "city",
       "off-the-beaten-path"
@@ -1108,7 +1108,7 @@
     ],
     "duration_days_min": 7,
     "duration_days_max": 8,
-    "best_time_description": "December to April is Colombia's dry season on both the Caribbean coast and in the Andes \u2014 the most comfortable window for walking Cartagena's Old Town and day-tripping from Medell\u00edn.",
+    "best_time_description": "December to April is Colombia's dry season on both the Caribbean coast and in the Andes — the most comfortable window for walking Cartagena's Old Town and day-tripping from Medellín.",
     "best_time_months": [
       "December",
       "January",
@@ -1116,7 +1116,7 @@
       "March",
       "April"
     ],
-    "description": "Colonial color on the Caribbean coast, then spring-like mountain air in the 'City of Eternal Spring' \u2014 colonial history and Pablo-Escobar-era transformation, back to back.",
+    "description": "Colonial color on the Caribbean coast, then spring-like mountain air in the 'City of Eternal Spring' — colonial history and Pablo-Escobar-era transformation, back to back.",
     "cost_tier": "mid",
     "days": [
       {
@@ -1124,7 +1124,7 @@
         "title": "Arrive Cartagena",
         "activities": [
           "Settle into the Walled City",
-          "Sunset from the ramparts at Caf\u00e9 del Mar"
+          "Sunset from the ramparts at Café del Mar"
         ],
         "lodging_suggestion": "Cartagena Old Town"
       },
@@ -1133,7 +1133,7 @@
         "title": "Cartagena Old Town",
         "activities": [
           "Castillo San Felipe de Barajas",
-          "Wander Getseman\u00ed's street art",
+          "Wander Getsemaní's street art",
           "Walking tour of the Walled City"
         ],
         "lodging_suggestion": "Cartagena Old Town"
@@ -1149,31 +1149,31 @@
       },
       {
         "day_number": 4,
-        "title": "Cartagena \u2192 Medell\u00edn (fly)",
+        "title": "Cartagena → Medellín (fly)",
         "activities": [
-          "Morning flight to Medell\u00edn",
+          "Morning flight to Medellín",
           "Explore El Poblado in the evening"
         ],
-        "lodging_suggestion": "Medell\u00edn (El Poblado)"
+        "lodging_suggestion": "Medellín (El Poblado)"
       },
       {
         "day_number": 5,
-        "title": "Medell\u00edn city + Comuna 13",
+        "title": "Medellín city + Comuna 13",
         "activities": [
           "Metrocable ride over the city",
           "Comuna 13 graffiti tour and outdoor escalators"
         ],
-        "lodging_suggestion": "Medell\u00edn (El Poblado)"
+        "lodging_suggestion": "Medellín (El Poblado)"
       },
       {
         "day_number": 6,
-        "title": "Guatap\u00e9 day trip",
+        "title": "Guatapé day trip",
         "activities": [
-          "Climb El Pe\u00f1ol rock for the reservoir view",
-          "Wander Guatap\u00e9's colorful z\u00f3calo houses"
+          "Climb El Peñol rock for the reservoir view",
+          "Wander Guatapé's colorful zócalo houses"
         ],
         "drive_time": "2 hrs each way",
-        "lodging_suggestion": "Medell\u00edn (El Poblado)"
+        "lodging_suggestion": "Medellín (El Poblado)"
       },
       {
         "day_number": 7,
@@ -1182,19 +1182,19 @@
           "Day trip to a working coffee farm",
           "Fly home in the evening"
         ],
-        "lodging_suggestion": "Medell\u00edn (El Poblado)"
+        "lodging_suggestion": "Medellín (El Poblado)"
       }
     ],
     "food_culture": [
       {
         "place_type": "dish",
         "name": "Arepa",
-        "description": "A simple maize flatbread that varies by region \u2014 thin and plain in Bogot\u00e1, cheese-stuffed and fried in Cartagena, sweetened in Medell\u00edn \u2014 found at every meal, on every street corner."
+        "description": "A simple maize flatbread that varies by region — thin and plain in Bogotá, cheese-stuffed and fried in Cartagena, sweetened in Medellín — found at every meal, on every street corner."
       },
       {
         "place_type": "dish",
         "name": "Bandeja paisa",
-        "description": "A hearty Medell\u00edn specialty piled with ground beef, chorizo, pork belly, beans, plantain, avocado, and an arepa \u2014 originally built to sustain farm laborers."
+        "description": "A hearty Medellín specialty piled with ground beef, chorizo, pork belly, beans, plantain, avocado, and an arepa — originally built to sustain farm laborers."
       },
       {
         "place_type": "drink",
@@ -1204,7 +1204,7 @@
       {
         "place_type": "dish",
         "name": "Coastal ceviche",
-        "description": "The Caribbean coast (Cartagena) favors citrus-forward raw fish dishes and fried seafood, distinct from the heartier, meat-focused cuisine of inland Medell\u00edn and Bogot\u00e1."
+        "description": "The Caribbean coast (Cartagena) favors citrus-forward raw fish dishes and fried seafood, distinct from the heartier, meat-focused cuisine of inland Medellín and Bogotá."
       }
     ]
   },
@@ -1244,7 +1244,7 @@
         "day_number": 2,
         "title": "Cusco city + the '4 Ruins'",
         "activities": [
-          "Sacsayhuam\u00e1n, Q'enqo, Puka Pukara, Tambomachay",
+          "Sacsayhuamán, Q'enqo, Puka Pukara, Tambomachay",
           "San Pedro Market"
         ],
         "lodging_suggestion": "Cusco"
@@ -1262,7 +1262,7 @@
       },
       {
         "day_number": 4,
-        "title": "Ollantaytambo \u2192 Aguas Calientes",
+        "title": "Ollantaytambo → Aguas Calientes",
         "activities": [
           "Explore Ollantaytambo's Inca fortress",
           "Scenic train to Aguas Calientes"
@@ -1285,7 +1285,7 @@
           "Train back through the valley",
           "Rest afternoon, San Blas neighborhood for coffee"
         ],
-        "coffee_wifi_spot": "La Bodega 138, San Blas \u2014 reliable wifi for a remote-work afternoon",
+        "coffee_wifi_spot": "La Bodega 138, San Blas — reliable wifi for a remote-work afternoon",
         "lodging_suggestion": "Cusco"
       },
       {
@@ -1302,12 +1302,12 @@
       {
         "place_type": "dish",
         "name": "Ceviche",
-        "description": "Peru's national dish and a UNESCO-recognized piece of intangible cultural heritage since 2004 \u2014 raw fish cured in lime with chili and onion, at its best in Lima but found nationwide."
+        "description": "Peru's national dish and a UNESCO-recognized piece of intangible cultural heritage since 2004 — raw fish cured in lime with chili and onion, at its best in Lima but found nationwide."
       },
       {
         "place_type": "drink",
         "name": "Pisco sour",
-        "description": "Peru's national cocktail \u2014 pisco brandy, lime juice, syrup, and egg white \u2014 a genuine point of pride and rivalry with Chile, which also claims pisco as its own."
+        "description": "Peru's national cocktail — pisco brandy, lime juice, syrup, and egg white — a genuine point of pride and rivalry with Chile, which also claims pisco as its own."
       },
       {
         "place_type": "dish",
@@ -1317,12 +1317,12 @@
       {
         "place_type": "dish",
         "name": "Cuy (guinea pig)",
-        "description": "A traditional Andean dish, especially associated with the Cusco region \u2014 crispy skin, tender meat, served with native potatoes. A genuinely adventurous try for most visitors."
+        "description": "A traditional Andean dish, especially associated with the Cusco region — crispy skin, tender meat, served with native potatoes. A genuinely adventurous try for most visitors."
       },
       {
         "place_type": "dish",
         "name": "Aji de gallina",
-        "description": "Shredded chicken in a creamy sauce built on aj\u00ed amarillo, a native yellow chili with fruity heat rather than sharp spice \u2014 a signature dish of the Andean highlands."
+        "description": "Shredded chicken in a creamy sauce built on ají amarillo, a native yellow chili with fruity heat rather than sharp spice — a signature dish of the Andean highlands."
       }
     ]
   },
@@ -1345,7 +1345,7 @@
       "March",
       "April"
     ],
-    "description": "Limestone karsts, hidden lagoons, and reef straight off the boat \u2014 genuinely one of the most dramatic island-hopping stretches anywhere, and a 14-day visa-free entry on an Indian passport alone.",
+    "description": "Limestone karsts, hidden lagoons, and reef straight off the boat — genuinely one of the most dramatic island-hopping stretches anywhere, and a 14-day visa-free entry on an Indian passport alone.",
     "cost_tier": "mid",
     "days": [
       {
@@ -1353,7 +1353,7 @@
         "title": "Arrive El Nido",
         "activities": [
           "Fly into El Nido (Lio) or via Puerto Princesa plus a 5-6 hr van transfer",
-          "Sunset at Las Caba\u00f1as Beach"
+          "Sunset at Las Cabañas Beach"
         ],
         "lodging_suggestion": "El Nido town"
       },
@@ -1402,27 +1402,27 @@
       {
         "place_type": "dish",
         "name": "Adobo",
-        "description": "Meat slow-stewed in vinegar, soy sauce, garlic, and peppercorns \u2014 the Philippines' most iconic dish, with every family keeping its own version."
+        "description": "Meat slow-stewed in vinegar, soy sauce, garlic, and peppercorns — the Philippines' most iconic dish, with every family keeping its own version."
       },
       {
         "place_type": "tradition",
         "name": "Fiesta & lechon",
-        "description": "Every town holds its own fiesta honoring a patron saint, centered on lechon \u2014 a whole roasted pig, spit-roasted for hours, that functions as a genuine symbol of abundance and community."
+        "description": "Every town holds its own fiesta honoring a patron saint, centered on lechon — a whole roasted pig, spit-roasted for hours, that functions as a genuine symbol of abundance and community."
       },
       {
         "place_type": "culture",
         "name": "Bayanihan",
-        "description": "A core Filipino value of community and mutual aid \u2014 showing up with food for someone, whether they asked or not, is a direct expression of it."
+        "description": "A core Filipino value of community and mutual aid — showing up with food for someone, whether they asked or not, is a direct expression of it."
       },
       {
         "place_type": "culture",
         "name": "Kamayan",
-        "description": "Eating with bare hands directly off banana leaves, shared family-style \u2014 a tradition that emphasizes the communal, connective role food plays in Filipino life."
+        "description": "Eating with bare hands directly off banana leaves, shared family-style — a tradition that emphasizes the communal, connective role food plays in Filipino life."
       },
       {
         "place_type": "dish",
         "name": "Sinigang",
-        "description": "A sour tamarind-based soup loaded with vegetables and meat or seafood \u2014 considered the ultimate Filipino comfort food."
+        "description": "A sour tamarind-based soup loaded with vegetables and meat or seafood — considered the ultimate Filipino comfort food."
       }
     ]
   },
@@ -1445,7 +1445,7 @@
       "June",
       "September"
     ],
-    "description": "An unpolished, underrated Balkan capital plus a laid-back river city 35 minutes away by train \u2014 genuine off-the-beaten-path Europe at budget prices.",
+    "description": "An unpolished, underrated Balkan capital plus a laid-back river city 35 minutes away by train — genuine off-the-beaten-path Europe at budget prices.",
     "cost_tier": "budget",
     "days": [
       {
@@ -1493,7 +1493,7 @@
           "Optional: stay overnight in Novi Sad for a second, slower day",
           "Otherwise a relaxed final day in Belgrade's cafes"
         ],
-        "coffee_wifi_spot": "Kafeterija, Belgrade \u2014 solid wifi for a remote-work morning",
+        "coffee_wifi_spot": "Kafeterija, Belgrade — solid wifi for a remote-work morning",
         "lodging_suggestion": "Belgrade or Novi Sad"
       }
     ],
@@ -1501,12 +1501,12 @@
       {
         "place_type": "drink",
         "name": "Rakija",
-        "description": "Serbia's fruit brandy \u2014 plum (\u0161ljivovica) is the most common \u2014 offered as a welcome drink to any guest and central to nearly every celebration."
+        "description": "Serbia's fruit brandy — plum (šljivovica) is the most common — offered as a welcome drink to any guest and central to nearly every celebration."
       },
       {
         "place_type": "tradition",
         "name": "Slava",
-        "description": "A uniquely Serbian Orthodox custom where each family celebrates its own patron saint once a year with a large feast for friends \u2014 being invited to one is a genuine sign you've been welcomed as family."
+        "description": "A uniquely Serbian Orthodox custom where each family celebrates its own patron saint once a year with a large feast for friends — being invited to one is a genuine sign you've been welcomed as family."
       },
       {
         "place_type": "dish",
@@ -1516,12 +1516,12 @@
       {
         "place_type": "culture",
         "name": "Kafana coffee culture",
-        "description": "Strong, Turkish-style coffee enjoyed at length in traditional kafanas (taverns) \u2014 a genuine social institution for long, unhurried conversation."
+        "description": "Strong, Turkish-style coffee enjoyed at length in traditional kafanas (taverns) — a genuine social institution for long, unhurried conversation."
       },
       {
         "place_type": "dish",
         "name": "Pasulj & punjena paprika",
-        "description": "White bean stew and stuffed peppers are Serbian home-cooking staples \u2014 hearty, slow-cooked dishes central to everyday family meals."
+        "description": "White bean stew and stuffed peppers are Serbian home-cooking staples — hearty, slow-cooked dishes central to everyday family meals."
       }
     ]
   },
@@ -1537,7 +1537,7 @@
     ],
     "duration_days_min": 7,
     "duration_days_max": 8,
-    "best_time_description": "November to April is the dry season across both the highlands and the Yucat\u00e1n coast \u2014 warm, low humidity, and outside hurricane season.",
+    "best_time_description": "November to April is the dry season across both the highlands and the Yucatán coast — warm, low humidity, and outside hurricane season.",
     "best_time_months": [
       "November",
       "December",
@@ -1545,7 +1545,7 @@
       "February",
       "March"
     ],
-    "description": "Two very different Mexicos back to back \u2014 high-altitude capital with world-class food and museums, then Caribbean cenotes and Maya ruins on the coast.",
+    "description": "Two very different Mexicos back to back — high-altitude capital with world-class food and museums, then Caribbean cenotes and Maya ruins on the coast.",
     "cost_tier": "mid",
     "days": [
       {
@@ -1561,15 +1561,15 @@
         "day_number": 2,
         "title": "Historic center + museums",
         "activities": [
-          "Z\u00f3calo and Templo Mayor",
+          "Zócalo and Templo Mayor",
           "Palacio de Bellas Artes",
-          "Frida Kahlo Museum in Coyoac\u00e1n"
+          "Frida Kahlo Museum in Coyoacán"
         ],
         "lodging_suggestion": "Mexico City"
       },
       {
         "day_number": 3,
-        "title": "Teotihuac\u00e1n day trip",
+        "title": "Teotihuacán day trip",
         "activities": [
           "Climb the Pyramid of the Sun",
           "Walk the Avenue of the Dead"
@@ -1579,9 +1579,9 @@
       },
       {
         "day_number": 4,
-        "title": "Mexico City \u2192 Canc\u00fan \u2192 Playa del Carmen",
+        "title": "Mexico City → Cancún → Playa del Carmen",
         "activities": [
-          "Morning flight to Canc\u00fan",
+          "Morning flight to Cancún",
           "Transfer to Playa del Carmen, stroll Quinta Avenida"
         ],
         "lodging_suggestion": "Playa del Carmen"
@@ -1607,9 +1607,9 @@
       },
       {
         "day_number": 7,
-        "title": "Chich\u00e9n Itz\u00e1 day trip",
+        "title": "Chichén Itzá day trip",
         "activities": [
-          "Early departure to Chich\u00e9n Itz\u00e1",
+          "Early departure to Chichén Itzá",
           "Cenote stop on the way back"
         ],
         "drive_time": "2.5 hrs each way",
@@ -1619,33 +1619,33 @@
     "food_culture": [
       {
         "place_type": "tradition",
-        "name": "D\u00eda de los Muertos",
-        "description": "Not Mexican Halloween \u2014 a UNESCO-recognized celebration of loved ones who have passed, with ofrenda altars, marigolds, and the belief that spirits return to join the living for the day."
+        "name": "Día de los Muertos",
+        "description": "Not Mexican Halloween — a UNESCO-recognized celebration of loved ones who have passed, with ofrenda altars, marigolds, and the belief that spirits return to join the living for the day."
       },
       {
         "place_type": "tradition",
-        "name": "Hanal Pix\u00e1n",
-        "description": "The Yucat\u00e1n Peninsula's own two-day version of Day of the Dead, with region-specific food like mucbipollo \u2014 a large tamale baked in an underground pit, distinct from the rest of the country's traditions."
+        "name": "Hanal Pixán",
+        "description": "The Yucatán Peninsula's own two-day version of Day of the Dead, with region-specific food like mucbipollo — a large tamale baked in an underground pit, distinct from the rest of the country's traditions."
       },
       {
         "place_type": "dish",
         "name": "Pan de muerto",
-        "description": "Sweet bread baked in the shape of skulls or bones for D\u00eda de los Muertos, believed to comfort the souls of the departed when placed on the ofrenda."
+        "description": "Sweet bread baked in the shape of skulls or bones for Día de los Muertos, believed to comfort the souls of the departed when placed on the ofrenda."
       },
       {
         "place_type": "dish",
         "name": "Mexico City street food",
-        "description": "Tacos al pastor, elote, and tamales define the capital's street food scene \u2014 genuinely central to daily life, not just tourist novelty."
+        "description": "Tacos al pastor, elote, and tamales define the capital's street food scene — genuinely central to daily life, not just tourist novelty."
       },
       {
         "place_type": "drink",
         "name": "Mezcal & tequila regions",
-        "description": "Both distilled from agave but genuinely distinct \u2014 tequila from blue agave near Jalisco, mezcal from a wider variety of agave with a signature smokiness from roasting the plant underground."
+        "description": "Both distilled from agave but genuinely distinct — tequila from blue agave near Jalisco, mezcal from a wider variety of agave with a signature smokiness from roasting the plant underground."
       }
     ]
   },
   {
-    "title": "Montana: West Glacier \u2192 Lake McDonald \u2192 Logan Pass \u2192 Many Glacier \u2192 East Glacier",
+    "title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
     "category": [
       "nature",
       "splurge"
@@ -1663,7 +1663,7 @@
       "August",
       "September"
     ],
-    "description": "A one-directional traverse of Glacier National Park's most iconic sections, west entrance to east \u2014 the 'Crown of the Continent' earns the name.",
+    "description": "A one-directional traverse of Glacier National Park's most iconic sections, west entrance to east — the 'Crown of the Continent' earns the name.",
     "cost_tier": "mid",
     "related_states": [
       "montana"
@@ -1692,7 +1692,7 @@
       },
       {
         "day_number": 3,
-        "title": "Going-to-the-Sun Road \u2192 Logan Pass",
+        "title": "Going-to-the-Sun Road → Logan Pass",
         "activities": [
           "Drive Going-to-the-Sun Road",
           "Hidden Lake Overlook Trail"
@@ -1734,7 +1734,7 @@
     ]
   },
   {
-    "title": "New Mexico: Santa Fe \u2192 Taos \u2192 Los Alamos \u2192 Albuquerque",
+    "title": "New Mexico: Santa Fe → Taos → Los Alamos → Albuquerque",
     "category": [
       "city",
       "off-the-beaten-path"
@@ -1752,7 +1752,7 @@
       "September",
       "October"
     ],
-    "description": "Northern New Mexico's compact core \u2014 adobe architecture, Ancestral Puebloan cliff dwellings, and green-or-red chile at every stop. (White Sands and Carlsbad Caverns sit 4+ hours south and are their own separate trip, not part of this loop.)",
+    "description": "Northern New Mexico's compact core — adobe architecture, Ancestral Puebloan cliff dwellings, and green-or-red chile at every stop. (White Sands and Carlsbad Caverns sit 4+ hours south and are their own separate trip, not part of this loop.)",
     "cost_tier": "mid",
     "related_states": [
       "new-mexico"
@@ -1771,7 +1771,7 @@
       },
       {
         "day_number": 2,
-        "title": "Santa Fe \u2192 Bandelier \u2192 Los Alamos",
+        "title": "Santa Fe → Bandelier → Los Alamos",
         "activities": [
           "Bandelier National Monument cliff dwellings"
         ],
@@ -1792,9 +1792,9 @@
       },
       {
         "day_number": 4,
-        "title": "Chimay\u00f3",
+        "title": "Chimayó",
         "activities": [
-          "Chimay\u00f3 red chile and El Santuario"
+          "Chimayó red chile and El Santuario"
         ],
         "drive_time": "~45 min from Taos toward Santa Fe",
         "lodging_suggestion": "Santa Fe",
@@ -1824,7 +1824,7 @@
     ]
   },
   {
-    "title": "Michigan: Traverse City \u2192 Leland \u2192 Empire \u2192 Mackinac Island",
+    "title": "Michigan: Traverse City → Leland → Empire → Mackinac Island",
     "category": [
       "water",
       "nature"
@@ -1913,7 +1913,7 @@
     ]
   },
   {
-    "title": "North Georgia Mountains: Blue Ridge \u2192 Helen \u2192 Dahlonega \u2192 Tallulah Falls",
+    "title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
     "category": [
       "nature",
       "budget"
@@ -1924,14 +1924,14 @@
     ],
     "duration_days_min": 5,
     "duration_days_max": 6,
-    "best_time_description": "Fall (October-November) for foliage, or spring for wildflowers and waterfall flow. This loop stays entirely in North Georgia's mountains \u2014 Savannah and the coast are 4+ hours away and a separate trip.",
+    "best_time_description": "Fall (October-November) for foliage, or spring for wildflowers and waterfall flow. This loop stays entirely in North Georgia's mountains — Savannah and the coast are 4+ hours away and a separate trip.",
     "best_time_months": [
       "October",
       "November",
       "April",
       "May"
     ],
-    "description": "A compact North Georgia mountain loop \u2014 waterfalls, a Bavarian-style alpine village, and wine country, all within about an hour of each other.",
+    "description": "A compact North Georgia mountain loop — waterfalls, a Bavarian-style alpine village, and wine country, all within about an hour of each other.",
     "cost_tier": "budget",
     "related_states": [
       "georgia"
@@ -1992,7 +1992,7 @@
     ]
   },
   {
-    "title": "Oregon: Crater Lake \u2192 McKenzie Bridge \u2192 Columbia River Gorge \u2192 Portland",
+    "title": "Oregon: Crater Lake → McKenzie Bridge → Columbia River Gorge → Portland",
     "category": [
       "nature",
       "road-trip"
@@ -2082,7 +2082,7 @@
     ]
   },
   {
-    "title": "North Alabama: Huntsville \u2192 Fort Payne \u2192 Cheaha",
+    "title": "North Alabama: Huntsville → Fort Payne → Cheaha",
     "category": [
       "nature",
       "budget"
@@ -2099,7 +2099,7 @@
       "May",
       "October"
     ],
-    "description": "Northeast Alabama's Appalachian foothills \u2014 a rocket-science museum, a canyon deeper than expected, and the state's highest point.",
+    "description": "Northeast Alabama's Appalachian foothills — a rocket-science museum, a canyon deeper than expected, and the state's highest point.",
     "cost_tier": "budget",
     "related_states": [
       "alabama"
@@ -2158,7 +2158,7 @@
     ]
   },
   {
-    "title": "Northwest Arkansas Ozarks: Bentonville \u2192 Eureka Springs \u2192 Jasper",
+    "title": "Northwest Arkansas Ozarks: Bentonville → Eureka Springs → Jasper",
     "category": [
       "nature",
       "off-the-beaten-path"
@@ -2175,7 +2175,7 @@
       "April",
       "October"
     ],
-    "description": "A tight Ozark Mountains loop \u2014 world-class art in Bentonville, Victorian charm in Eureka Springs, and the wildest stretch of the Buffalo National River.",
+    "description": "A tight Ozark Mountains loop — world-class art in Bentonville, Victorian charm in Eureka Springs, and the wildest stretch of the Buffalo National River.",
     "cost_tier": "mid",
     "related_states": [
       "arkansas"
@@ -2246,13 +2246,13 @@
     ],
     "duration_days_min": 6,
     "duration_days_max": 7,
-    "best_time_description": "Late May-June for peak waterfall flow, or September for thinner crowds. Tioga Road is snow-closed roughly November-May. Big Sur, San Francisco, and LA are separate trips \u2014 this stays in the Sierra.",
+    "best_time_description": "Late May-June for peak waterfall flow, or September for thinner crowds. Tioga Road is snow-closed roughly November-May. Big Sur, San Francisco, and LA are separate trips — this stays in the Sierra.",
     "best_time_months": [
       "May",
       "June",
       "September"
     ],
-    "description": "California's High Sierra at its most concentrated \u2014 granite domes, waterfalls, and giant sequoias, without the 6-hour detour to the coast or LA.",
+    "description": "California's High Sierra at its most concentrated — granite domes, waterfalls, and giant sequoias, without the 6-hour detour to the coast or LA.",
     "cost_tier": "splurge",
     "related_states": [
       "california"
@@ -2280,7 +2280,7 @@
       },
       {
         "day_number": 3,
-        "title": "Tioga Road \u2192 Tuolumne Meadows",
+        "title": "Tioga Road → Tuolumne Meadows",
         "activities": [
           "Drive Tioga Road",
           "Tuolumne Meadows high country"
@@ -2341,7 +2341,7 @@
       "September",
       "October"
     ],
-    "description": "Connecticut is small enough to genuinely span in one trip \u2014 quiet Taconic Range hiking and wine country in the northwest corner, then a historic seafaring town on the coast.",
+    "description": "Connecticut is small enough to genuinely span in one trip — quiet Taconic Range hiking and wine country in the northwest corner, then a historic seafaring town on the coast.",
     "cost_tier": "mid",
     "related_states": [
       "connecticut"
@@ -2392,7 +2392,7 @@
     ]
   },
   {
-    "title": "Delaware: Wilmington \u2192 Rehoboth Beach",
+    "title": "Delaware: Wilmington → Rehoboth Beach",
     "category": [
       "city",
       "water"
@@ -2409,7 +2409,7 @@
       "June",
       "September"
     ],
-    "description": "Delaware's small size means a genuine north-to-south crossing fits in a long weekend \u2014 du Pont-family estates up north, boardwalk beach town down south.",
+    "description": "Delaware's small size means a genuine north-to-south crossing fits in a long weekend — du Pont-family estates up north, boardwalk beach town down south.",
     "cost_tier": "mid",
     "related_states": [
       "delaware"
@@ -2460,7 +2460,7 @@
     ]
   },
   {
-    "title": "South Florida & the Keys: Miami \u2192 Everglades \u2192 Key West",
+    "title": "South Florida & the Keys: Miami → Everglades → Key West",
     "category": [
       "nature",
       "water"
@@ -2471,7 +2471,7 @@
     ],
     "duration_days_min": 6,
     "duration_days_max": 7,
-    "best_time_description": "December-April, Florida's dry season \u2014 far more comfortable Everglades hiking and lower hurricane risk than summer.",
+    "best_time_description": "December-April, Florida's dry season — far more comfortable Everglades hiking and lower hurricane risk than summer.",
     "best_time_months": [
       "December",
       "January",
@@ -2479,7 +2479,7 @@
       "March",
       "April"
     ],
-    "description": "The Everglades' 'river of grass' and the Overseas Highway's island-hopping, back to back \u2014 two completely different sides of South Florida in one trip.",
+    "description": "The Everglades' 'river of grass' and the Overseas Highway's island-hopping, back to back — two completely different sides of South Florida in one trip.",
     "cost_tier": "mid",
     "related_states": [
       "florida"
@@ -2553,7 +2553,7 @@
     ]
   },
   {
-    "title": "Idaho: Sawtooth Mountains \u2192 Sun Valley",
+    "title": "Idaho: Sawtooth Mountains → Sun Valley",
     "category": [
       "nature",
       "off-the-beaten-path"
@@ -2570,7 +2570,7 @@
       "August",
       "September"
     ],
-    "description": "Over 400 alpine lakes in a mountain range most people outside Idaho have never heard of \u2014 genuinely uncrowded compared to any comparably scenic range.",
+    "description": "Over 400 alpine lakes in a mountain range most people outside Idaho have never heard of — genuinely uncrowded compared to any comparably scenic range.",
     "cost_tier": "mid",
     "related_states": [
       "idaho"
@@ -2578,7 +2578,7 @@
     "days": [
       {
         "day_number": 1,
-        "title": "Boise \u2192 Stanley",
+        "title": "Boise → Stanley",
         "activities": [
           "Scenic drive into the Sawtooths"
         ],
@@ -2710,7 +2710,7 @@
     ]
   },
   {
-    "title": "Central Indiana: Indianapolis \u2192 Brown County",
+    "title": "Central Indiana: Indianapolis → Brown County",
     "category": [
       "city",
       "budget"
@@ -2776,7 +2776,7 @@
     ]
   },
   {
-    "title": "Northeast Iowa: Decorah \u2192 Dubuque",
+    "title": "Northeast Iowa: Decorah → Dubuque",
     "category": [
       "off-the-beaten-path",
       "budget"
@@ -2794,7 +2794,7 @@
       "September",
       "October"
     ],
-    "description": "Iowa's genuinely hilly 'driftless' northeast corner \u2014 waterfalls, a year-round ice cave, and a Mississippi River town, nothing like the flat-farmland stereotype.",
+    "description": "Iowa's genuinely hilly 'driftless' northeast corner — waterfalls, a year-round ice cave, and a Mississippi River town, nothing like the flat-farmland stereotype.",
     "cost_tier": "budget",
     "related_states": [
       "iowa"
@@ -2862,7 +2862,7 @@
       "July",
       "August"
     ],
-    "description": "The largest intact tallgrass prairie left on Earth \u2014 free-roaming bison, limestone ledges, and small towns where ranching is still a living tradition.",
+    "description": "The largest intact tallgrass prairie left on Earth — free-roaming bison, limestone ledges, and small towns where ranching is still a living tradition.",
     "cost_tier": "budget",
     "related_states": [
       "kansas"
@@ -2912,7 +2912,7 @@
     ]
   },
   {
-    "title": "Central Kentucky: Louisville \u2192 Bardstown \u2192 Lexington \u2192 Mammoth Cave",
+    "title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
     "category": [
       "city",
       "splurge"
@@ -2930,7 +2930,7 @@
       "September",
       "October"
     ],
-    "description": "The Bourbon Trail's distillery towns bookended by the world's longest cave system \u2014 pace the tastings, don't overpack the day.",
+    "description": "The Bourbon Trail's distillery towns bookended by the world's longest cave system — pace the tastings, don't overpack the day.",
     "cost_tier": "splurge",
     "related_states": [
       "kentucky"
@@ -3079,7 +3079,7 @@
     ]
   },
   {
-    "title": "Chesapeake Bay: Annapolis \u2192 Eastern Shore",
+    "title": "Chesapeake Bay: Annapolis → Eastern Shore",
     "category": [
       "water",
       "city"
@@ -3097,7 +3097,7 @@
       "September",
       "October"
     ],
-    "description": "Sailing culture, steamed blue crab, and pastel Eastern Shore towns \u2014 a tight loop around the Chesapeake's western and eastern banks.",
+    "description": "Sailing culture, steamed blue crab, and pastel Eastern Shore towns — a tight loop around the Chesapeake's western and eastern banks.",
     "cost_tier": "mid",
     "related_states": [
       "maryland"
@@ -3247,7 +3247,7 @@
     ],
     "duration_days_min": 5,
     "duration_days_max": 6,
-    "best_time_description": "July-August for full Boundary Waters access \u2014 overnight permits sell out fast, book ahead.",
+    "best_time_description": "July-August for full Boundary Waters access — overnight permits sell out fast, book ahead.",
     "best_time_months": [
       "July",
       "August"
@@ -3312,7 +3312,7 @@
     ]
   },
   {
-    "title": "Natchez Trace: Vicksburg \u2192 Natchez",
+    "title": "Natchez Trace: Vicksburg → Natchez",
     "category": [
       "off-the-beaten-path",
       "nature"
@@ -3379,7 +3379,7 @@
     ]
   },
   {
-    "title": "Missouri Ozarks: Lake of the Ozarks \u2192 Current River \u2192 Branson",
+    "title": "Missouri Ozarks: Lake of the Ozarks → Current River → Branson",
     "category": [
       "nature",
       "water"
@@ -3544,7 +3544,7 @@
     ],
     "duration_days_min": 4,
     "duration_days_max": 5,
-    "best_time_description": "Spring or fall for comfortable desert hiking temperatures \u2014 summer hiking here can be genuinely dangerous.",
+    "best_time_description": "Spring or fall for comfortable desert hiking temperatures — summer hiking here can be genuinely dangerous.",
     "best_time_months": [
       "March",
       "April",
@@ -3817,7 +3817,7 @@
     ]
   },
   {
-    "title": "Blue Ridge North Carolina: Asheville \u2192 Cherokee \u2192 Boone",
+    "title": "Blue Ridge North Carolina: Asheville → Cherokee → Boone",
     "category": [
       "nature",
       "splurge"
@@ -3973,13 +3973,13 @@
     ],
     "duration_days_min": 3,
     "duration_days_max": 4,
-    "best_time_description": "Spring for peak waterfall flow, fall for foliage \u2014 both with thinner crowds than summer.",
+    "best_time_description": "Spring for peak waterfall flow, fall for foliage — both with thinner crowds than summer.",
     "best_time_months": [
       "April",
       "May",
       "October"
     ],
-    "description": "Sandstone gorges and caves an hour and a half from Columbus \u2014 genuinely surprising terrain for the Midwest.",
+    "description": "Sandstone gorges and caves an hour and a half from Columbus — genuinely surprising terrain for the Midwest.",
     "cost_tier": "budget",
     "related_states": [
       "ohio"
@@ -4018,7 +4018,7 @@
     ]
   },
   {
-    "title": "Tulsa \u2192 Turner Falls \u2192 Oklahoma City",
+    "title": "Tulsa → Turner Falls → Oklahoma City",
     "category": [
       "city",
       "budget"
@@ -4106,7 +4106,7 @@
       "September",
       "October"
     ],
-    "description": "Revolutionary War history, then a genuine slice of Amish Country an hour west \u2014 the Poconos sit in a different corner of the state and aren't part of this loop.",
+    "description": "Revolutionary War history, then a genuine slice of Amish Country an hour west — the Poconos sit in a different corner of the state and aren't part of this loop.",
     "cost_tier": "mid",
     "related_states": [
       "pennsylvania"
@@ -4166,7 +4166,7 @@
     ]
   },
   {
-    "title": "Rhode Island: Providence \u2192 Newport \u2192 Block Island",
+    "title": "Rhode Island: Providence → Newport → Block Island",
     "category": [
       "water",
       "city"
@@ -4183,7 +4183,7 @@
       "July",
       "August"
     ],
-    "description": "America's smallest state, genuinely walkable in one trip \u2014 Gilded Age mansions, then a quiet island getaway by ferry.",
+    "description": "America's smallest state, genuinely walkable in one trip — Gilded Age mansions, then a quiet island getaway by ferry.",
     "cost_tier": "mid",
     "related_states": [
       "rhode-island"
@@ -4235,7 +4235,7 @@
     ]
   },
   {
-    "title": "South Carolina Lowcountry: Charleston \u2192 Beaufort \u2192 Hilton Head",
+    "title": "South Carolina Lowcountry: Charleston → Beaufort → Hilton Head",
     "category": [
       "city",
       "water"
@@ -4253,7 +4253,7 @@
       "October",
       "November"
     ],
-    "description": "A southward run down the Lowcountry coast \u2014 Charleston's cobblestones, Beaufort's antebellum quiet, and Hilton Head's beaches.",
+    "description": "A southward run down the Lowcountry coast — Charleston's cobblestones, Beaufort's antebellum quiet, and Hilton Head's beaches.",
     "cost_tier": "splurge",
     "related_states": [
       "south-carolina"
@@ -4313,7 +4313,7 @@
     ],
     "duration_days_min": 6,
     "duration_days_max": 7,
-    "best_time_description": "September is the sweet spot \u2014 warm days, cool nights, and past the early-August Sturgis Motorcycle Rally crowds.",
+    "best_time_description": "September is the sweet spot — warm days, cool nights, and past the early-August Sturgis Motorcycle Rally crowds.",
     "best_time_months": [
       "September"
     ],
@@ -4399,14 +4399,14 @@
     ],
     "duration_days_min": 4,
     "duration_days_max": 5,
-    "best_time_description": "Spring (March-April) or fall (October-November) \u2014 summer desert heat is genuinely dangerous for hiking here.",
+    "best_time_description": "Spring (March-April) or fall (October-November) — summer desert heat is genuinely dangerous for hiking here.",
     "best_time_months": [
       "March",
       "April",
       "October",
       "November"
     ],
-    "description": "One of the most remote national parks in the country \u2014 desert, canyons, and the Chisos Mountains along the Rio Grande. A standalone trip; Texas Hill Country is 6+ hours away.",
+    "description": "One of the most remote national parks in the country — desert, canyons, and the Chisos Mountains along the Rio Grande. A standalone trip; Texas Hill Country is 6+ hours away.",
     "cost_tier": "mid",
     "related_states": [
       "texas"
@@ -4469,14 +4469,14 @@
     ],
     "duration_days_min": 10,
     "duration_days_max": 12,
-    "best_time_description": "April-May and September-October for mild temperatures across all five parks. Confirm each park's current entry/reservation rules before you go \u2014 they've changed more than once in recent years.",
+    "best_time_description": "April-May and September-October for mild temperatures across all five parks. Confirm each park's current entry/reservation rules before you go — they've changed more than once in recent years.",
     "best_time_months": [
       "April",
       "May",
       "September",
       "October"
     ],
-    "description": "All five of Utah's national parks in one loop \u2014 genuinely the state's signature road trip, and long enough that it deserves the full 10-12 days rather than a rushed week.",
+    "description": "All five of Utah's national parks in one loop — genuinely the state's signature road trip, and long enough that it deserves the full 10-12 days rather than a rushed week.",
     "cost_tier": "splurge",
     "related_states": [
       "utah"
@@ -4484,7 +4484,7 @@
     "days": [
       {
         "day_number": 1,
-        "title": "Zion \u2014 arrive",
+        "title": "Zion — arrive",
         "activities": [
           "Settle in Springdale"
         ],
@@ -4587,7 +4587,7 @@
     ]
   },
   {
-    "title": "Vermont: Burlington \u2192 Stowe \u2192 Manchester",
+    "title": "Vermont: Burlington → Stowe → Manchester",
     "category": [
       "nature",
       "off-the-beaten-path"
@@ -4603,7 +4603,7 @@
       "September",
       "October"
     ],
-    "description": "Lake Champlain to the Green Mountains \u2014 covered bridges, maple sugarhouses, and small-town Vermont at a slow pace.",
+    "description": "Lake Champlain to the Green Mountains — covered bridges, maple sugarhouses, and small-town Vermont at a slow pace.",
     "cost_tier": "mid",
     "related_states": [
       "vermont"
@@ -4748,7 +4748,7 @@
       "September",
       "October"
     ],
-    "description": "America's newest national park \u2014 one of the longest steel arch bridges in the world spanning a genuine whitewater and rock-climbing destination.",
+    "description": "America's newest national park — one of the longest steel arch bridges in the world spanning a genuine whitewater and rock-climbing destination.",
     "cost_tier": "splurge",
     "related_states": [
       "west-virginia"
@@ -4815,7 +4815,7 @@
       "July",
       "September"
     ],
-    "description": "The 'Cape Cod of the Midwest' \u2014 cherry orchards, uncharacteristically blue Lake Michigan water, and a rooftop of grazing goats.",
+    "description": "The 'Cape Cod of the Midwest' — cherry orchards, uncharacteristically blue Lake Michigan water, and a rooftop of grazing goats.",
     "cost_tier": "mid",
     "related_states": [
       "wisconsin"
@@ -4883,7 +4883,7 @@
       "August",
       "September"
     ],
-    "description": "Two adjacent parks connected by a short drive \u2014 geothermal wonders in Yellowstone, then the jagged Teton skyline just south of it.",
+    "description": "Two adjacent parks connected by a short drive — geothermal wonders in Yellowstone, then the jagged Teton skyline just south of it.",
     "cost_tier": "splurge",
     "related_states": [
       "wyoming"
@@ -4950,6 +4950,1112 @@
         ],
         "drive_time": "~45 min from Jenny Lake",
         "lodging_suggestion": "Jackson",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "New York City: Five Boroughs",
+    "category": [
+      "city",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 6,
+    "best_time_description": "Spring (April-May) and fall (September-October) bring mild, walkable weather without summer's humidity or winter's cold — good for the amount of time this trip spends outdoors moving between boroughs.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Beyond Midtown and Central Park: the real neighborhoods, food, and museums of Manhattan, Brooklyn, Queens, and the Bronx.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "new-york"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Lower Manhattan & the Harbor",
+        "activities": [
+          "9/11 Memorial & Museum",
+          "Ferry to Statue of Liberty & Ellis Island"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Midtown Manhattan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "SoHo, Greenwich Village & the Lower East Side",
+        "activities": [
+          "Tenement Museum tour on Orchard Street",
+          "Washington Square Park and Greenwich Village side streets"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Midtown Manhattan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Midtown & Museum Mile",
+        "activities": [
+          "The Met and a walk through Central Park",
+          "Broadway show in the Theater District"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Midtown Manhattan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Brooklyn: DUMBO to Williamsburg",
+        "activities": [
+          "Walk the Brooklyn Bridge into DUMBO",
+          "Domino Park and Williamsburg's waterfront"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Midtown Manhattan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Queens: Long Island City & Flushing",
+        "activities": [
+          "MoMA PS1 in Long Island City",
+          "Flushing's Chinatown food crawl"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Midtown Manhattan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "The Bronx & Departure",
+        "activities": [
+          "Arthur Avenue's Little Italy market and bakeries",
+          "Bronx Zoo or the New York Botanical Garden"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Napa Valley & San Francisco",
+    "category": [
+      "splurge",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "September and October pair San Francisco's clearest, fog-free weather with Napa's harvest season and warm days in the 70s-80s. Late spring (May-June) is a quieter, greener alternative before summer fog settles over the city.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Golden Gate views and Ferry Building food stalls, then Silverado Trail wineries and a Michelin-studded table in Yountville.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "california"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "San Francisco: Golden Gate & the Waterfront",
+        "activities": [
+          "Golden Gate Bridge and the Presidio",
+          "Ferry Building Marketplace"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "San Francisco (Union Square)",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "San Francisco Neighborhoods",
+        "activities": [
+          "Mission District murals and taquerias",
+          "Golden Gate Park's de Young Museum and Japanese Tea Garden"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "San Francisco (Union Square)",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Into Napa Valley",
+        "activities": [
+          "Oxbow Public Market in downtown Napa",
+          "Wine tasting at Robert Mondavi Winery, Oakville"
+        ],
+        "drive_time": "~1 hr from San Francisco",
+        "lodging_suggestion": "St. Helena",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Silverado Trail & St. Helena",
+        "activities": [
+          "Stag's Leap District wineries",
+          "Culinary Institute of America at Greystone food demo"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "St. Helena",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Calistoga & Departure",
+        "activities": [
+          "Old Faithful Geyser of California",
+          "Calistoga mud baths and mineral springs"
+        ],
+        "drive_time": "~1.5 hrs to San Francisco International Airport",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Texas Hill Country: Austin to San Antonio",
+    "category": [
+      "city",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 6,
+    "best_time_description": "Spring (March-May) brings Hill Country wildflowers and comfortable weather for river tubing, which runs roughly March through October; fall (October-November) offers similar mild temperatures after summer's heat breaks.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "Live music, real barbecue, and German heritage towns strung along US-290 between Austin and San Antonio.",
+    "cost_tier": "mid",
+    "related_states": [
+      "texas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Austin: BBQ & Live Music",
+        "activities": [
+          "Franklin Barbecue (arrive early — the line is famous)",
+          "Live music on Rainey Street or the Continental Club"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Austin",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Congress Avenue Bats & South Austin",
+        "activities": [
+          "Congress Avenue Bridge bat flight at dusk",
+          "Zilker Park and Barton Springs Pool"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Austin",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "US-290 to Fredericksburg via the LBJ Ranch",
+        "activities": [
+          "Lyndon B. Johnson National Historical Park, Stonewall",
+          "Fredericksburg's Wine Road 290 tasting rooms"
+        ],
+        "drive_time": "~1.5 hrs from Austin, with a stop in Stonewall",
+        "lodging_suggestion": "Fredericksburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Fredericksburg's German Heart",
+        "activities": [
+          "Vereins Kirche and Main Street bakeries",
+          "Wildseed Farms and a Hill Country winery"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fredericksburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Gruene & the Guadalupe River",
+        "activities": [
+          "Tubing the Guadalupe River",
+          "Live music at Gruene Hall, Texas' oldest dance hall"
+        ],
+        "drive_time": "~1.5 hrs from Fredericksburg",
+        "lodging_suggestion": "New Braunfels",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "San Antonio: The Alamo & River Walk",
+        "activities": [
+          "The Alamo",
+          "River Walk and the Spanish colonial missions"
+        ],
+        "drive_time": "~40 min from New Braunfels",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Orlando Theme Parks & the Space Coast",
+    "category": [
+      "city",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 6,
+    "best_time_description": "Late January through February and the two weeks after Halloween through mid-November combine mild weather with lower crowds and prices at both Disney and Universal. Summer brings heat, humidity, and near-daily afternoon thunderstorms, and June-November is Florida's hurricane season — a real scheduling risk for the outdoor Space Coast days.",
+    "best_time_months": [
+      "February",
+      "March",
+      "October",
+      "November"
+    ],
+    "description": "Four theme park icons and a real rocket launch pad, planned with actual day counts instead of guesswork.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "florida"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Magic Kingdom",
+        "activities": [
+          "Cinderella Castle and classic Fantasyland rides",
+          "Evening fireworks over the castle"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Lake Buena Vista",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "EPCOT",
+        "activities": [
+          "World Showcase pavilions",
+          "Guardians of the Galaxy: Cosmic Rewind"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Lake Buena Vista",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Universal Studios Florida & Islands of Adventure",
+        "activities": [
+          "Diagon Alley, then the Hogwarts Express to Hogsmeade (park-to-park ticket required)",
+          "Jurassic Park River Adventure"
+        ],
+        "drive_time": "~20 min from Lake Buena Vista",
+        "lodging_suggestion": "International Drive",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Universal's Epic Universe",
+        "activities": [
+          "Super Nintendo World",
+          "The Wizarding World of Harry Potter — Ministry of Magic"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "International Drive",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Kennedy Space Center",
+        "activities": [
+          "Rocket Garden and the Space Shuttle Atlantis exhibit",
+          "Bus tour to the LC-39 Observation Gantry"
+        ],
+        "drive_time": "~1 hr from Orlando",
+        "lodging_suggestion": "Cocoa Beach",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Cocoa Beach & Departure",
+        "activities": [
+          "Ron Jon Surf Shop and a morning on Cocoa Beach",
+          "Drive back to Orlando International (MCO)"
+        ],
+        "drive_time": "~1 hr to Orlando",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
+    "category": [
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Aim for October through April — summer highs regularly top 105°F and make midday walking miserable, while spring (March-April) and fall (October-November) bring comfortable 70s-80s days perfect for patio dining and gallery walks.",
+    "best_time_months": [
+      "March",
+      "April",
+      "October",
+      "November"
+    ],
+    "description": "Old Town galleries, Sonoran hot dogs, and a UNESCO City of Gastronomy — the Arizona trip that skips the canyons for its cities.",
+    "cost_tier": "mid",
+    "related_states": [
+      "arizona"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Downtown Phoenix",
+        "activities": [
+          "Roosevelt Row Arts District mural walk",
+          "Heard Museum",
+          "Dinner at Barrio Café on Calle 16"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Downtown Phoenix",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Papago Park & Arcadia",
+        "activities": [
+          "Desert Botanical Garden in Papago Park",
+          "Sonoran hot dog lunch stop",
+          "Dinner in the Arcadia neighborhood"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Phoenix",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Scottsdale",
+        "activities": [
+          "Old Town Scottsdale galleries and shopping",
+          "Taliesin West guided tour",
+          "Dinner at FnB Scottsdale"
+        ],
+        "drive_time": "~20 min from Phoenix",
+        "lodging_suggestion": "Scottsdale",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Scottsdale to Tucson",
+        "activities": [
+          "Drive south to Tucson",
+          "Mission San Xavier del Bac",
+          "Evening stroll through Barrio Viejo"
+        ],
+        "drive_time": "~1 hr 45 min from Scottsdale",
+        "lodging_suggestion": "Tucson",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Tucson desert & food",
+        "activities": [
+          "Arizona-Sonora Desert Museum",
+          "Lunch at Mercado San Agustín",
+          "Evening on 4th Avenue near the University of Arizona"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Tucson",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Return to Phoenix",
+        "activities": [
+          "Drive back to Phoenix",
+          "Depart from Phoenix Sky Harbor"
+        ],
+        "drive_time": "~1 hr 45 min from Tucson",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
+    "category": [
+      "city",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Late spring through early fall (May-September) is prime for Front Range breweries, mural walks, and Red Rocks' outdoor concert season, while September-October trades a few concert dates for cooler days and thinner crowds.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Craft beer, street murals, and a natural amphitheater carved into the foothills — Denver's city-and-culture side, no fourteener required.",
+    "cost_tier": "mid",
+    "related_states": [
+      "colorado"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Denver",
+        "activities": [
+          "Larimer Square historic block",
+          "Union Station great hall"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Denver (LoDo)",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "RiNo Art District",
+        "activities": [
+          "RiNo mural and street art walk",
+          "Denver Art Museum",
+          "Brewery stops at Ratio Beerworks and Our Mutual Friend Brewing"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Denver",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Golden & Red Rocks",
+        "activities": [
+          "Coors Brewery tour in Golden",
+          "Clear Creek History Park",
+          "Sunset visit to Red Rocks Park and Amphitheatre"
+        ],
+        "drive_time": "~25 min from Denver",
+        "lodging_suggestion": "Denver",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Boulder",
+        "activities": [
+          "Pearl Street Mall",
+          "Chautauqua Park view of the Flatirons",
+          "Boulder brewery stop"
+        ],
+        "drive_time": "~35 min from Denver",
+        "lodging_suggestion": "Denver",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Fort Collins",
+        "activities": [
+          "Drive north to Fort Collins",
+          "Old Town Square",
+          "New Belgium Brewing and Odell Brewing tours"
+        ],
+        "drive_time": "~1 hr from Denver",
+        "lodging_suggestion": "Fort Collins",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Return to Denver",
+        "activities": [
+          "Return drive to Denver",
+          "Depart"
+        ],
+        "drive_time": "~1 hr from Fort Collins",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Reno & Lake Tahoe: Nevada's North Shore",
+    "category": [
+      "water",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "June through September brings warm, sunny days ideal for Sand Harbor's beaches and East Shore hiking and biking, while Reno itself is comfortable April-October — this is a summer lake trip, unlike the spring/fall desert-hiking window that suits the Las Vegas side of the state.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Casino lights on the Strip aren't the only way to see Nevada — this trip trades neon for alpine lake water two hundred miles to the north.",
+    "cost_tier": "mid",
+    "related_states": [
+      "nevada"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Reno",
+        "activities": [
+          "Riverwalk District along the Truckee River",
+          "Nevada Museum of Art"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Reno",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Virginia City",
+        "activities": [
+          "Day trip to Virginia City",
+          "Comstock Lode mining history on C Street",
+          "Virginia & Truckee Railroad excursion"
+        ],
+        "drive_time": "~30 min from Reno",
+        "lodging_suggestion": "Reno",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Incline Village & Sand Harbor",
+        "activities": [
+          "Drive to Incline Village",
+          "Sand Harbor State Park beach and swimming",
+          "Flume Trail hike or bike ride"
+        ],
+        "drive_time": "~45 min from Reno",
+        "lodging_suggestion": "Incline Village",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "East Shore to Zephyr Cove",
+        "activities": [
+          "East Shore Drive south along Highway 28",
+          "Cave Rock",
+          "Zephyr Cove Beach and a Lake Tahoe cruise"
+        ],
+        "drive_time": "~30 min from Incline Village",
+        "lodging_suggestion": "Zephyr Cove / Stateline",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Return to Reno",
+        "activities": [
+          "Return drive to Reno",
+          "Depart"
+        ],
+        "drive_time": "~1 hr from Zephyr Cove",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Savannah & the Georgia Coast",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Spring (March-May) brings mild temperatures and the Historic District's azaleas into bloom without the heaviest tourist crowds. Fall (October-November) is nearly as pleasant, though it falls within Atlantic hurricane season (June-November, peaking August-October) — worth watching the forecast and keeping bookings flexible.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "Spanish moss, shrimp boats, and barrier-island beaches — the coastal Georgia trip the North Georgia mountains loop deliberately leaves out.",
+    "cost_tier": "mid",
+    "related_states": [
+      "georgia"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Savannah Historic District",
+        "activities": [
+          "Walk the Historic District's squares",
+          "Forsyth Park"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Savannah Historic District",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Savannah riverfront & cemeteries",
+        "activities": [
+          "River Street shops and riverfront",
+          "Bonaventure Cemetery",
+          "Owens-Thomas House or Mercer-Williams House tour"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Savannah",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Tybee Island",
+        "activities": [
+          "Day trip to Tybee Island",
+          "Tybee Island Light Station and Museum",
+          "Afternoon at the beach"
+        ],
+        "drive_time": "~30 min from Savannah",
+        "lodging_suggestion": "Savannah",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "St. Simons Island",
+        "activities": [
+          "Drive south to St. Simons Island",
+          "St. Simons Lighthouse",
+          "Pier Village"
+        ],
+        "drive_time": "~1 hr 45 min from Savannah",
+        "lodging_suggestion": "St. Simons Island",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Jekyll Island",
+        "activities": [
+          "Driftwood Beach",
+          "Jekyll Island Historic District"
+        ],
+        "drive_time": "~20 min from St. Simons Island",
+        "lodging_suggestion": "Jekyll Island",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Return to Savannah",
+        "activities": [
+          "Return drive to Savannah",
+          "Depart"
+        ],
+        "drive_time": "~1 hr 45 min from Jekyll Island",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Upstate South Carolina: Greenville & the Blue Ridge Foothills",
+    "category": [
+      "nature",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Fall (mid-October through mid-November) brings peak foliage to the foothills and comfortable hiking temperatures, plus hawk-migration season at Caesars Head; spring (April-May) offers the fullest waterfall flow and blooming mountain laurel. Summer is muggy and popular for tubing the Reedy, while winter strips the leaves for the clearest long-range views from the overlooks.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "Trade the coast for the Blue Ridge foothills — a walkable downtown built around a waterfall, then real mountain trails and cascades less than an hour away.",
+    "cost_tier": "mid",
+    "related_states": [
+      "south-carolina"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Downtown Greenville",
+        "activities": [
+          "Walk Main Street to Falls Park on the Reedy and cross the Liberty Bridge",
+          "Browse the West End Historic District's galleries and shops",
+          "Rent a bike and ride a stretch of the Swamp Rabbit Trail along the river"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Downtown Greenville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Swamp Rabbit Trail North to Travelers Rest",
+        "activities": [
+          "Continue biking or walking the Swamp Rabbit Trail north through Greenville's parks",
+          "Reach Travelers Rest, the trail's northern terminus, for lunch and breweries",
+          "Browse Poinsett Highway's shops before heading back toward Greenville"
+        ],
+        "drive_time": "~20 min from Greenville",
+        "lodging_suggestion": "Travelers Rest or Downtown Greenville",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Table Rock State Park",
+        "activities": [
+          "Hike the Table Rock or Pinnacle Mountain trail for Blue Ridge escarpment views",
+          "Paddle or picnic at Pinnacle Lake",
+          "Check into a park cabin along Lake Oolenoy for the evening"
+        ],
+        "drive_time": "~50 min from Travelers Rest",
+        "lodging_suggestion": "Table Rock State Park, Pickens",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Caesars Head & Raven Cliff Falls",
+        "activities": [
+          "Drive US-276 to Caesars Head State Park's overlook",
+          "Hike toward Raven Cliff Falls and its suspension bridge view of the 420-foot cascade",
+          "Stop at Jones Gap State Park on the way back for a shorter waterfall walk along the Middle Saluda River"
+        ],
+        "drive_time": "~30 min from Table Rock",
+        "lodging_suggestion": "Cleveland or Table Rock area",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Paris Mountain and departure",
+        "activities": [
+          "Morning hike or paddle at Paris Mountain State Park just outside Greenville",
+          "Return downtown for a final walk through Falls Park",
+          "Depart from Greenville"
+        ],
+        "drive_time": "~40 min from Table Rock area",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Pittsburgh & the Laurel Highlands",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 6,
+    "best_time_description": "Late spring through early fall (May-September) is best for whitewater rafting and hiking in the Laurel Highlands, with the Youghiogheny River running reliably for rafting season. October adds fall color to the Ohiopyle gorge and Fallingwater's grounds; Pittsburgh's museums and neighborhoods work well year-round.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A river city of bridges and incline cars, followed by real Frank Lloyd Wright architecture and whitewater country in the Laurel Highlands.",
+    "cost_tier": "mid",
+    "related_states": [
+      "pennsylvania"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Downtown & the Point",
+        "activities": [
+          "Watch the fountain at Point State Park where the three rivers meet",
+          "Wander the Strip District's produce stalls and food vendors",
+          "Dinner in Market Square downtown"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Downtown Pittsburgh",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Mount Washington & the South Side",
+        "activities": [
+          "Ride the 1877 Duquesne Incline up Mount Washington for the skyline overlook",
+          "Walk the South Side's riverside trail past the old Monongahela Incline",
+          "Browse East Carson Street's shops and breweries"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Downtown Pittsburgh",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Northside & Oakland",
+        "activities": [
+          "Visit Randyland, the folk-art house-turned-installation on the North Side",
+          "Tour the Mattress Factory's site-specific art installations nearby",
+          "Spend the afternoon at the Carnegie Museum of Art and Natural History in Oakland"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Downtown Pittsburgh or Oakland",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Into the Laurel Highlands: Fallingwater & Kentuck Knob",
+        "activities": [
+          "Drive southeast to Mill Run for a timed tour of Fallingwater, Frank Lloyd Wright's house over the waterfall",
+          "Continue a few miles to Kentuck Knob, a second, smaller Wright house open for tours",
+          "Settle into lodging near Ohiopyle for the next two nights"
+        ],
+        "drive_time": "~1.5 hr from Pittsburgh",
+        "lodging_suggestion": "Ohiopyle or Farmington",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Ohiopyle State Park",
+        "activities": [
+          "Whitewater raft the Lower Youghiogheny River with an outfitter",
+          "Hike to Cucumber Falls, a 30-foot cascade you can walk behind",
+          "Watch Ohiopyle Falls churn across the full width of the Yough from the town overlook"
+        ],
+        "drive_time": "~10 min from Fallingwater area",
+        "lodging_suggestion": "Ohiopyle",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Return to Pittsburgh",
+        "activities": [
+          "Morning walk or bike ride on the Great Allegheny Passage trail out of Ohiopyle",
+          "Stop in Lawrenceville for lunch and shops on the drive back",
+          "Depart from Pittsburgh"
+        ],
+        "drive_time": "~1.5 hr back to Pittsburgh",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Virginia Beach & the Historic Triangle",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "June through August is peak beach season with the warmest Atlantic water and a full boardwalk events calendar, but mid-April to early June and September-October bring milder weather, fewer crowds, and comfortable walking conditions for Jamestown, Williamsburg, and Yorktown's outdoor sites.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "Atlantic beach days paired with the three colonial sites — Jamestown, Williamsburg, and Yorktown — that trace America's founding along one scenic parkway.",
+    "cost_tier": "mid",
+    "related_states": [
+      "virginia"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Virginia Beach oceanfront",
+        "activities": [
+          "Settle in and walk the 3-mile concrete boardwalk",
+          "Swim and relax on the main oceanfront beach",
+          "Seafood dinner near Rudee Inlet"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Virginia Beach oceanfront",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "First Landing State Park",
+        "activities": [
+          "Hike the Bald Cypress and Osmanthus trails through maritime forest and cypress swamp",
+          "Kayak the calmer Chesapeake Bay side of the park",
+          "Second night on the oceanfront"
+        ],
+        "drive_time": "~20 min from the oceanfront",
+        "lodging_suggestion": "Virginia Beach oceanfront",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Jamestown",
+        "activities": [
+          "Drive north to Historic Jamestowne, the actual 1607 settlement archaeological site",
+          "Tour the recreated ships and Powhatan village at Jamestown Settlement next door",
+          "Check into lodging in Williamsburg"
+        ],
+        "drive_time": "~1 hr from Virginia Beach",
+        "lodging_suggestion": "Williamsburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Colonial Williamsburg",
+        "activities": [
+          "Spend the day in the restored colonial capital's historic area with costumed interpreters",
+          "Tour the Governor's Palace and Capitol building",
+          "Evening in Merchants Square"
+        ],
+        "drive_time": "~15 min from Jamestown",
+        "lodging_suggestion": "Williamsburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Yorktown",
+        "activities": [
+          "Drive the scenic Colonial Parkway along the York River to Yorktown",
+          "Walk Yorktown Battlefield, site of the 1781 British surrender",
+          "Tour the American Revolution Museum at Yorktown"
+        ],
+        "drive_time": "~15 min from Williamsburg",
+        "lodging_suggestion": "Williamsburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Departure",
+        "activities": [
+          "Browse Williamsburg's Merchants Square shops or return to the beach for a final morning",
+          "Depart from the Williamsburg/Virginia Beach area"
+        ],
+        "drive_time": "~1 hr back to Virginia Beach if departing from there",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Great Smoky Mountains: Gatlinburg, Pigeon Forge & the Park",
+    "category": [
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Mid-October to early November brings peak fall color, starting above 4,000 feet in early October and reaching Cades Cove and the gateway towns by late October. Late spring (April-May) offers wildflowers and rushing waterfalls with thinner crowds than summer, which is the park's busiest and most humid season.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "The most-visited national park in the country, paired with the mountain towns at its door — waterfalls, an 11-mile wildlife loop, and the highest point in the Smokies.",
+    "cost_tier": "budget",
+    "related_states": [
+      "tennessee"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Gatlinburg arrival",
+        "activities": [
+          "Settle into Gatlinburg and walk the parkway strip",
+          "Ride the Gatlinburg SkyLift Park for an aerial view over downtown",
+          "Easy evening walk along the Little Pigeon River"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Gatlinburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Newfound Gap Road & Kuwohi",
+        "activities": [
+          "Drive Newfound Gap Road (US-441) up through the park, crossing into North Carolina at the Tennessee-NC state line overlook",
+          "Hike the half-mile paved trail to the Kuwohi (Clingmans Dome) observation tower, the highest point in the Smokies at 6,643 feet",
+          "Stop at Chimney Tops or Alum Cave trailhead for a shorter waterfall or overlook hike on the way down"
+        ],
+        "drive_time": "~30 min each way from Gatlinburg",
+        "lodging_suggestion": "Gatlinburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Cades Cove",
+        "activities": [
+          "Drive the 11-mile Cades Cove Loop Road through the historic valley's homesteads and churches",
+          "Watch for white-tailed deer and black bear along the loop at dawn or dusk",
+          "Hike to Abrams Falls from the loop road, a 5-mile round trip to a 20-foot waterfall"
+        ],
+        "drive_time": "~45 min from Gatlinburg via Townsend",
+        "lodging_suggestion": "Townsend or Gatlinburg",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Waterfalls near Gatlinburg",
+        "activities": [
+          "Hike the short, family-friendly Laurel Falls Trail to an 80-foot waterfall",
+          "Drive the Roaring Fork Motor Nature Trail loop past historic log cabins and Rainbow Falls trailhead",
+          "Afternoon in Pigeon Forge for The Island and dinner"
+        ],
+        "drive_time": "~15 min from Gatlinburg to Pigeon Forge",
+        "lodging_suggestion": "Pigeon Forge",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Foothills Parkway and departure",
+        "activities": [
+          "Drive the Foothills Parkway for wide overlooks of the Smokies' western ridgeline",
+          "Last stop for maple syrup or fudge shopping in Gatlinburg",
+          "Depart from the Gatlinburg/Pigeon Forge area"
+        ],
+        "drive_time": "~30 min from Pigeon Forge",
+        "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
     ]
