@@ -4,6 +4,7 @@ import { getCurrentUser } from "@/lib/currentUser";
 import { createBlankTrip } from "@/lib/actions";
 import StatusPill from "@/components/StatusPill";
 import { TRIP_STATUSES, type TripStatus } from "@/lib/types";
+import { Plus } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
@@ -30,17 +31,17 @@ export default async function MyTripsPage() {
         </div>
       </div>
 
-      <form action={createBlankTrip} className="flex gap-2 border border-line p-3">
+      <form action={createBlankTrip} className="flex gap-2 border border-line bg-paper p-3 shadow-paper">
         <input
           name="title"
           placeholder="Start a trip from scratch..."
-          className="flex-1 border border-line bg-paper px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40"
+          className="flex-1 border border-line bg-paper px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none"
         />
         <button
           type="submit"
-          className="rounded-full border border-coral px-4 py-2 font-body text-sm font-medium text-coralDark hover:bg-coral hover:text-white"
+          className="flex items-center gap-1.5 rounded-full border border-coral px-4 py-2 font-body text-sm font-medium text-coralDark transition-colors hover:bg-coral hover:text-white"
         >
-          Create
+          <Plus size={15} /> Create
         </button>
       </form>
 
@@ -64,7 +65,7 @@ export default async function MyTripsPage() {
                   <Link
                     key={trip.id}
                     href={`/trip/${trip.id}`}
-                    className="flex items-center justify-between border border-line px-4 py-3 hover:border-ink"
+                    className="card-lift flex items-center justify-between border border-line bg-paper px-4 py-3 hover:border-ink"
                   >
                     <span className="font-display text-base text-ink">{trip.title}</span>
                     <StatusPill status={trip.status as TripStatus} />

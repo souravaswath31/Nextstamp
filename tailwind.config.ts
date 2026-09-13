@@ -38,6 +38,11 @@ const config: Config = {
       borderRadius: {
         card: "2px",
       },
+      boxShadow: {
+        // Warm-toned, soft — a lifted card, not a generic gray drop shadow.
+        paper: "0 1px 2px rgba(34, 40, 59, 0.04), 0 6px 16px -4px rgba(34, 40, 59, 0.08)",
+        "paper-lg": "0 4px 8px rgba(34, 40, 59, 0.05), 0 16px 32px -8px rgba(34, 40, 59, 0.12)",
+      },
     },
   },
   plugins: [],

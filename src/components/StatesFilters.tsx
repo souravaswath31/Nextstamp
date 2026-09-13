@@ -2,6 +2,7 @@
 
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
+import { Search } from "lucide-react";
 
 export default function StatesFilters({ regions }: { regions: string[] }) {
   const router = useRouter();
@@ -35,13 +36,16 @@ export default function StatesFilters({ regions }: { regions: string[] }) {
 
   return (
     <div className="flex flex-wrap gap-3">
-      <input
-        type="text"
-        value={q}
-        onChange={(e) => setQ(e.target.value)}
-        placeholder="Search states…"
-        className="min-w-[200px] flex-1 border border-line bg-paper px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none"
-      />
+      <div className="relative min-w-[200px] flex-1">
+        <Search size={15} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-ink/40" />
+        <input
+          type="text"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder="Search states…"
+          className="w-full border border-line bg-paper py-2 pl-9 pr-3 font-body text-sm text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none"
+        />
+      </div>
       <select
         value={activeRegion}
         onChange={(e) => updateRegion(e.target.value)}

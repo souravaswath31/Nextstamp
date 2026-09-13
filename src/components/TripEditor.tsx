@@ -2,6 +2,7 @@
 
 import { useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
+import { ArrowLeft, ArrowUp, ArrowDown, Trash2, Plus, Save, CheckCircle2 } from "lucide-react";
 import { updateTripDays, updateTripStatus, deleteTrip } from "@/lib/actions";
 import { estimateTripCost, getBudgetBreakdown, formatUsd, type CostTier } from "@/lib/costs";
 import { TRIP_STATUSES, type TripDay, type TripStatus } from "@/lib/types";
@@ -80,7 +81,7 @@ export default function TripEditor({
         onClick={() => router.back()}
         className="inline-flex items-center gap-1.5 font-body text-sm text-ink/60 transition-colors hover:text-ink"
       >
-        <span aria-hidden="true">←</span> Back
+        <ArrowLeft size={15} /> Back
       </button>
       <div>
         <input
@@ -104,7 +105,7 @@ export default function TripEditor({
         </div>
       </div>
 
-      <section className="flex flex-wrap items-end gap-6 border border-line p-4">
+      <section className="flex flex-wrap items-end gap-6 border border-line bg-paper p-4 shadow-paper">
         <label className="flex flex-col gap-1">
           <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">
             Budget tier
@@ -148,9 +149,9 @@ export default function TripEditor({
           <h2 className="font-display text-xl text-ink">Day by day</h2>
           <button
             onClick={addDay}
-            className="border border-ink px-3 py-1.5 font-body text-sm text-ink hover:bg-ink hover:text-paper"
+            className="flex items-center gap-1.5 border border-ink px-3 py-1.5 font-body text-sm text-ink transition-colors hover:bg-ink hover:text-paper"
           >
-            + Add day
+            <Plus size={15} /> Add day
           </button>
         </div>
 
@@ -161,31 +162,33 @@ export default function TripEditor({
             </p>
           )}
           {days.map((day, index) => (
-            <div key={index} className="border border-line p-4">
+            <div key={index} className="border border-line bg-paper p-4 shadow-paper">
               <div className="flex items-center justify-between gap-3">
-                <span className="font-stamp text-sm text-stamp">Day {day.dayNumber}</span>
-                <div className="flex gap-2">
+                <span className="stamp-mark flex h-8 w-8 items-center justify-center border-stamp font-stamp text-xs font-bold not-italic text-stamp">
+                  {day.dayNumber}
+                </span>
+                <div className="flex items-center gap-1">
                   <button
                     onClick={() => moveDay(index, -1)}
                     disabled={index === 0}
-                    className="px-2 font-body text-sm text-ink/60 hover:text-ink disabled:opacity-30"
+                    className="rounded p-1.5 text-ink/60 hover:bg-ink/5 hover:text-ink disabled:opacity-30"
                     aria-label="Move day earlier"
                   >
-                    ↑
+                    <ArrowUp size={15} />
                   </button>
                   <button
                     onClick={() => moveDay(index, 1)}
                     disabled={index === days.length - 1}
-                    className="px-2 font-body text-sm text-ink/60 hover:text-ink disabled:opacity-30"
+                    className="rounded p-1.5 text-ink/60 hover:bg-ink/5 hover:text-ink disabled:opacity-30"
                     aria-label="Move day later"
                   >
-                    ↓
+                    <ArrowDown size={15} />
                   </button>
                   <button
                     onClick={() => removeDay(index)}
-                    className="px-2 font-body text-sm text-stampRed hover:underline"
+                    className="flex items-center gap-1 rounded px-2 py-1.5 font-body text-xs text-stampRed hover:bg-stampRed/5"
                   >
-                    Remove
+                    <Trash2 size={14} /> Remove
                   </button>
                 </div>
               </div>
@@ -235,16 +238,20 @@ export default function TripEditor({
         <button
           onClick={save}
           disabled={isPending}
-          className="rounded-full border border-coral bg-coral px-6 py-3 font-body text-sm font-semibold text-white shadow-sm hover:bg-coralDark disabled:opacity-50"
+          className="flex items-center gap-2 rounded-full border border-coral bg-coral px-6 py-3 font-body text-sm font-semibold text-white shadow-paper transition-transform hover:-translate-y-0.5 hover:bg-coralDark hover:shadow-paper-lg disabled:opacity-50"
         >
-          {isPending ? "Saving..." : "Save changes"}
+          <Save size={16} /> {isPending ? "Saving..." : "Save changes"}
         </button>
-        {savedAt && <span className="font-body text-xs text-forest">Saved.</span>}
+        {savedAt && (
+          <span className="flex items-center gap-1 font-body text-xs text-forest">
+            <CheckCircle2 size={14} /> Saved.
+          </span>
+        )}
         <button
           onClick={handleDelete}
-          className="ml-auto font-body text-sm text-stampRed hover:underline"
+          className="ml-auto flex items-center gap-1 font-body text-sm text-stampRed hover:underline"
         >
-          Delete trip
+          <Trash2 size={14} /> Delete trip
         </button>
       </div>
     </div>

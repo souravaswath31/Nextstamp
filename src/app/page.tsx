@@ -6,6 +6,15 @@ import { getExpiryStatus, isUrgent, EXPIRY_SEVERITY_CLASSES } from "@/lib/docume
 import ItineraryCard from "@/components/ItineraryCard";
 import StatusPill from "@/components/StatusPill";
 import type { TripStatus } from "@/lib/types";
+import {
+  Trophy,
+  CalendarCheck,
+  Compass as CompassIcon,
+  ArrowRight,
+  MapPinned,
+  AlertOctagon,
+  type LucideIcon,
+} from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
@@ -53,21 +62,25 @@ export default async function DashboardPage() {
 
   return (
     <div className="space-y-12">
-      <section>
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/50">
-          {user.homeBaseLocation}
+      <section className="relative overflow-hidden border border-line bg-gradient-to-br from-coral/10 via-paper to-teal/10 px-6 py-8 sm:px-10 sm:py-10">
+        <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-stamp/10 blur-2xl" />
+        <div className="pointer-events-none absolute -bottom-14 -left-10 h-40 w-40 rounded-full bg-forest/10 blur-2xl" />
+        <p className="relative flex items-center gap-1.5 font-stamp text-xs uppercase tracking-widest text-ink/50">
+          <MapPinned size={13} /> {user.homeBaseLocation ?? "Home base not set"}
         </p>
-        <h1 className="mt-1 font-display text-3xl italic text-ink sm:text-4xl">
+        <h1 className="relative mt-1 font-display text-3xl italic text-ink sm:text-4xl">
           Where to <span className="text-coral">next</span>, {user.name}?
         </h1>
       </section>
 
       {upcomingDocuments.length > 0 && (
         <section>
-          <h2 className="font-display text-xl text-ink">Coming up</h2>
+          <h2 className="flex items-center gap-2 font-display text-xl text-ink">
+            <AlertOctagon size={19} className="text-stampRed" /> Coming up
+          </h2>
           <div className="mt-3 space-y-2">
             {upcomingDocuments.map(({ doc, expiry, unlocks }) => (
-              <div key={doc.id} className={`border border-line border-l-4 px-4 py-3 ${EXPIRY_SEVERITY_CLASSES[expiry.severity]}`}>
+              <div key={doc.id} className={`border border-line border-l-4 bg-paper px-4 py-3 shadow-paper ${EXPIRY_SEVERITY_CLASSES[expiry.severity]}`}>
                 <p className="font-body text-sm font-semibold text-ink">
                   Your {doc.country} {doc.subtype ?? "document"} {expiry.label.toLowerCase()}
                 </p>
@@ -78,8 +91,8 @@ export default async function DashboardPage() {
                     lapse) keeps that accurate.
                   </p>
                 )}
-                <Link href="/profile" className="mt-1 inline-block font-body text-xs text-ink underline">
-                  Review in Profile →
+                <Link href="/profile" className="mt-1 flex items-center gap-1 font-body text-xs text-ink underline">
+                  Review in Profile <ArrowRight size={12} />
                 </Link>
               </div>
             ))}
@@ -87,17 +100,35 @@ export default async function DashboardPage() {
         </section>
       )}
 
-      <section className="grid grid-cols-3 divide-x divide-line border border-line">
-        <Stat label="Completed trips" value={completedTrips.length} colorClass="text-forest" />
-        <Stat label="Completed this year" value={tripsThisYear} colorClass="text-teal" />
-        <Stat label="In planning" value={activeTrips.length} colorClass="text-coralDark" />
+      <section className="grid grid-cols-3 gap-3">
+        <Stat
+          icon={Trophy}
+          label="Completed trips"
+          value={completedTrips.length}
+          colorClass="text-forest"
+          tintClass="bg-forest/[0.06]"
+        />
+        <Stat
+          icon={CalendarCheck}
+          label="Completed this year"
+          value={tripsThisYear}
+          colorClass="text-teal"
+          tintClass="bg-teal/[0.06]"
+        />
+        <Stat
+          icon={CompassIcon}
+          label="In planning"
+          value={activeTrips.length}
+          colorClass="text-coralDark"
+          tintClass="bg-coral/[0.06]"
+        />
       </section>
 
       <section>
         <div className="flex items-baseline justify-between">
           <h2 className="font-display text-xl text-ink">Active trips</h2>
-          <Link href="/my-trips" className="font-body text-sm text-ink/60 hover:text-ink">
-            View all →
+          <Link href="/my-trips" className="flex items-center gap-1 font-body text-sm text-ink/60 hover:text-ink">
+            View all <ArrowRight size={14} />
           </Link>
         </div>
         {activeTrips.length === 0 ? (
@@ -110,7 +141,7 @@ export default async function DashboardPage() {
               <Link
                 key={trip.id}
                 href={`/trip/${trip.id}`}
-                className="flex items-center justify-between border border-line px-4 py-3 hover:border-ink"
+                className="card-lift flex items-center justify-between border border-line bg-paper px-4 py-3 hover:border-ink"
               >
                 <span className="font-display text-base text-ink">{trip.title}</span>
                 <StatusPill status={trip.status as TripStatus} />
@@ -123,8 +154,8 @@ export default async function DashboardPage() {
       <section>
         <div className="flex items-baseline justify-between">
           <h2 className="font-display text-xl text-ink">From the library</h2>
-          <Link href="/explore" className="font-body text-sm text-ink/60 hover:text-ink">
-            Explore all →
+          <Link href="/explore" className="flex items-center gap-1 font-body text-sm text-ink/60 hover:text-ink">
+            Explore all <ArrowRight size={14} />
           </Link>
         </div>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -148,11 +179,24 @@ export default async function DashboardPage() {
   );
 }
 
-function Stat({ label, value, colorClass }: { label: string; value: number; colorClass: string }) {
+function Stat({
+  icon: Icon,
+  label,
+  value,
+  colorClass,
+  tintClass,
+}: {
+  icon: LucideIcon;
+  label: string;
+  value: number;
+  colorClass: string;
+  tintClass: string;
+}) {
   return (
-    <div className="px-4 py-4 text-center">
-      <div className={`font-display text-3xl ${colorClass}`}>{value}</div>
-      <div className="mt-1 font-body text-xs text-ink/60">{label}</div>
+    <div className={`border border-line px-3 py-4 text-center sm:px-4 ${tintClass}`}>
+      <Icon size={18} className={`mx-auto ${colorClass}`} />
+      <div className={`mt-1.5 font-display text-3xl ${colorClass}`}>{value}</div>
+      <div className="mt-1 font-body text-[11px] leading-tight text-ink/60 sm:text-xs">{label}</div>
     </div>
   );
 }

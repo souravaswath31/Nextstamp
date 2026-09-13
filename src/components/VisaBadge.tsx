@@ -1,3 +1,4 @@
+import { AlertTriangle, ExternalLink } from "lucide-react";
 import type { VisaStatus } from "@/lib/visa";
 import { VISA_STATUS_CLASSES } from "@/lib/types";
 
@@ -31,8 +32,8 @@ export default function VisaBadge({ status }: { status: VisaStatus }) {
         )}
       </div>
       {status.needsVerification ? (
-        <span className="font-body text-xs text-stampRed">
-          Verify before booking — no confirmed source on file
+        <span className="flex items-center gap-1.5 font-body text-xs text-stampRed">
+          <AlertTriangle size={13} /> Verify before booking — no confirmed source on file
         </span>
       ) : (
         status.sourceUrl && (
@@ -40,9 +41,9 @@ export default function VisaBadge({ status }: { status: VisaStatus }) {
             href={status.sourceUrl}
             target="_blank"
             rel="noreferrer"
-            className="font-body text-xs text-forest underline decoration-forest/40 underline-offset-2 hover:decoration-forest"
+            className="flex items-center gap-1.5 font-body text-xs text-forest underline decoration-forest/40 underline-offset-2 hover:decoration-forest"
           >
-            Source verified {formatVerifiedDate(status.lastVerifiedDate)} →
+            Source verified {formatVerifiedDate(status.lastVerifiedDate)} <ExternalLink size={12} />
           </a>
         )
       )}

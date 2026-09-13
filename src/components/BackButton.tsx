@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
 
 // Uses router.back() rather than a static Link to a fixed URL — this way
 // returning from a state guide preserves whatever search/region filter and
@@ -13,7 +14,7 @@ export default function BackButton({ label }: { label: string }) {
       onClick={() => router.back()}
       className="inline-flex items-center gap-1.5 font-body text-sm text-ink/60 transition-colors hover:text-ink"
     >
-      <span aria-hidden="true">←</span> {label}
+      <ArrowLeft size={15} /> {label}
     </button>
   );
 }

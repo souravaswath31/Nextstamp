@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
+import { SlidersHorizontal } from "lucide-react";
 import { CATEGORY_LABELS, CATEGORY_FILLED_CLASSES } from "@/lib/types";
 
 const CATEGORIES = Object.keys(CATEGORY_LABELS);
@@ -40,15 +41,17 @@ export default function Filters({
   }
 
   return (
-    <div className="space-y-4 border border-line bg-paper p-4">
+    <div className="space-y-4 border border-line bg-paper p-4 shadow-paper">
       <div>
-        <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Category</p>
+        <p className="flex items-center gap-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/50">
+          <SlidersHorizontal size={12} /> Category
+        </p>
         <div className="mt-2 flex flex-wrap gap-2">
           {CATEGORIES.map((cat) => (
             <button
               key={cat}
               onClick={() => toggleCategory(cat)}
-              className={`rounded-full border px-2.5 py-1 font-body text-xs font-medium ${
+              className={`rounded-full border px-2.5 py-1 font-body text-xs font-medium transition-colors ${
                 activeCategories.includes(cat)
                   ? CATEGORY_FILLED_CLASSES[cat]
                   : "border-line text-ink/70 hover:border-ink"
@@ -68,7 +71,7 @@ export default function Filters({
           <select
             value={activeRegion}
             onChange={(e) => update("region", e.target.value)}
-            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink"
+            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink focus:border-ink focus:outline-none"
           >
             <option value="">Any</option>
             {regions.map((r) => (
@@ -86,7 +89,7 @@ export default function Filters({
           <select
             value={activeCostTier}
             onChange={(e) => update("cost", e.target.value)}
-            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink"
+            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink focus:border-ink focus:outline-none"
           >
             <option value="">Any</option>
             {COST_TIERS.map((c) => (
@@ -104,7 +107,7 @@ export default function Filters({
           <select
             value={activeVisaEase}
             onChange={(e) => update("visa", e.target.value)}
-            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink"
+            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink focus:border-ink focus:outline-none"
           >
             {VISA_EASE.map((v) => (
               <option key={v.value} value={v.value}>

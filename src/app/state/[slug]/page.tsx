@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import TerrainHero from "@/components/TerrainHero";
 import BackButton from "@/components/BackButton";
+import { CalendarRange, ThermometerSun, TicketCheck, Backpack } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
@@ -64,27 +65,39 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
         <p className="mt-3 max-w-2xl font-body text-sm text-ink/80">{state.heroDescription}</p>
       </div>
 
-      <section className="grid gap-4 border border-line p-5 sm:grid-cols-2">
-        <div>
-          <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Best time to visit</p>
-          <p className="mt-1 font-body text-sm text-ink/80">{state.bestTimeToVisit}</p>
+      <section className="grid gap-5 border border-line bg-paper p-5 shadow-paper sm:grid-cols-2">
+        <div className="flex gap-2.5">
+          <CalendarRange size={16} className="mt-0.5 shrink-0 text-coralDark" />
+          <div>
+            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Best time to visit</p>
+            <p className="mt-1 font-body text-sm text-ink/80">{state.bestTimeToVisit}</p>
+          </div>
         </div>
         {state.altitudeOrClimateNote && (
-          <div>
-            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Know before you go</p>
-            <p className="mt-1 font-body text-sm text-ink/80">{state.altitudeOrClimateNote}</p>
+          <div className="flex gap-2.5">
+            <ThermometerSun size={16} className="mt-0.5 shrink-0 text-stamp" />
+            <div>
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Know before you go</p>
+              <p className="mt-1 font-body text-sm text-ink/80">{state.altitudeOrClimateNote}</p>
+            </div>
           </div>
         )}
         {state.permitsNote && (
-          <div>
-            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Permits & reservations</p>
-            <p className="mt-1 font-body text-sm text-ink/80">{state.permitsNote}</p>
+          <div className="flex gap-2.5">
+            <TicketCheck size={16} className="mt-0.5 shrink-0 text-teal" />
+            <div>
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Permits & reservations</p>
+              <p className="mt-1 font-body text-sm text-ink/80">{state.permitsNote}</p>
+            </div>
           </div>
         )}
         {state.gearNote && (
-          <div>
-            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">What to bring</p>
-            <p className="mt-1 font-body text-sm text-ink/80">{state.gearNote}</p>
+          <div className="flex gap-2.5">
+            <Backpack size={16} className="mt-0.5 shrink-0 text-forest" />
+            <div>
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">What to bring</p>
+              <p className="mt-1 font-body text-sm text-ink/80">{state.gearNote}</p>
+            </div>
           </div>
         )}
       </section>
@@ -99,7 +112,7 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
             <p className="mt-1 font-body text-sm text-ink/60">{meta.blurb}</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               {places.map((p) => (
-                <div key={p.id} className={`border border-line border-t-[3px] bg-paper p-4 ${meta.colorClass}`}>
+                <div key={p.id} className={`card-lift border border-line border-t-[3px] bg-paper p-4 ${meta.colorClass}`}>
                   <div className="flex items-baseline justify-between gap-2">
                     <h3 className="font-display text-base text-ink">{p.name}</h3>
                     {p.placeType && (

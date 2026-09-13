@@ -42,7 +42,7 @@ export default async function StatesPage({
           <Link
             key={s.id}
             href={`/state/${s.slug}`}
-            className="group block overflow-hidden border border-line bg-paper transition-colors hover:border-ink"
+            className="card-lift group block overflow-hidden border border-line bg-paper hover:border-ink"
           >
             <TerrainHero terrain={s.terrain} />
             <div className="p-4">
