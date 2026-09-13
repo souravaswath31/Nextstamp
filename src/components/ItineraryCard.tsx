@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Mountain, Building2, Waves, Gem, Wallet, Route, Compass, type LucideIcon } from "lucide-react";
-import { CATEGORY_LABELS, CATEGORY_COLOR_CLASSES, CATEGORY_BORDER_CLASSES } from "@/lib/types";
+import { CATEGORY_LABELS, CATEGORY_COLOR_CLASSES } from "@/lib/types";
 
 const CATEGORY_ICONS: Record<string, LucideIcon> = {
   nature: Mountain,
@@ -24,36 +24,46 @@ type Props = {
   bestTimeMonths: string;
 };
 
+const TILE_CLASSES: Record<string, string> = {
+  nature: "bg-catNature/10 text-catNature",
+  city: "bg-catCity/10 text-catCity",
+  water: "bg-catWater/10 text-catWater",
+  splurge: "bg-catSplurge/10 text-catSplurge",
+  budget: "bg-catBudget/10 text-catBudget",
+  "road-trip": "bg-catRoadTrip/10 text-catRoadTrip",
+  "off-the-beaten-path": "bg-catBeaten/10 text-catBeaten",
+};
+
 export default function ItineraryCard(props: Props) {
   const cats = props.category.split(",").filter(Boolean);
-  const topBorderClass = CATEGORY_BORDER_CLASSES[cats[0]] ?? "border-t-ink";
   const duration =
     props.durationDaysMin === props.durationDaysMax
       ? `${props.durationDaysMin} days`
       : `${props.durationDaysMin}–${props.durationDaysMax} days`;
 
   const HeadlineIcon = CATEGORY_ICONS[cats[0]] ?? Compass;
+  const tileClass = TILE_CLASSES[cats[0]] ?? "bg-ink/5 text-ink/50";
 
   return (
     <Link
       href={`/itinerary/${props.id}`}
-      className={`card-lift group block border border-line border-t-[3px] bg-paper px-5 py-4 hover:border-ink ${topBorderClass}`}
+      className="card-lift group block rounded-panel bg-paper p-5 shadow-paper"
     >
       <div className="flex items-start justify-between gap-3">
-        <div className="flex items-start gap-2.5">
-          <HeadlineIcon size={18} className="mt-0.5 shrink-0 text-ink/30" />
-          <h3 className="font-display text-lg leading-snug text-ink group-hover:underline">
-            {props.title}
-          </h3>
-        </div>
-        <span className="whitespace-nowrap font-stamp text-xs text-ink/60">
+        <span className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl ${tileClass}`}>
+          <HeadlineIcon size={20} />
+        </span>
+        <span className="mt-1 whitespace-nowrap font-stamp text-xs text-ink/45">
           {duration}
         </span>
       </div>
-      <p className="mt-1 pl-[26px] font-body text-sm text-ink/70">
+      <h3 className="mt-3.5 font-display text-lg leading-snug text-ink">
+        {props.title}
+      </h3>
+      <p className="mt-1 font-body text-sm text-ink/55">
         {props.region} · {props.countries.split(",").join(", ")}
       </p>
-      <div className="mt-3 flex flex-wrap items-center gap-2 pl-[26px]">
+      <div className="mt-3.5 flex flex-wrap items-center gap-2">
         {cats.map((c) => (
           <span
             key={c}
@@ -66,7 +76,7 @@ export default function ItineraryCard(props: Props) {
           {props.costTier}
         </span>
       </div>
-      <p className="mt-2 pl-[26px] font-body text-xs text-ink/50">
+      <p className="mt-3 font-body text-xs text-ink/40">
         Best: {props.bestTimeMonths.split(",").join(", ")}
       </p>
     </Link>

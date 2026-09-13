@@ -1,19 +1,12 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter, IBM_Plex_Mono } from "next/font/google";
+import { Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-fraunces",
-  weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
-});
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 const plexMono = IBM_Plex_Mono({
@@ -35,10 +28,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fraunces.variable} ${inter.variable} ${plexMono.variable} font-body`}
+        className={`${inter.variable} ${plexMono.variable} font-body`}
       >
         <NavBar />
-        <main className="mx-auto max-w-5xl px-5 pb-24 pt-6 sm:px-8">
+        <main className="mx-auto max-w-6xl px-5 pb-28 pt-8 sm:px-8 sm:pt-10">
           {children}
         </main>
       </body>

@@ -56,19 +56,19 @@ export default async function ExplorePage({
   const pageItems = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   return (
-    <div className="space-y-6">
-      <div>
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/50">Library</p>
-        <h1 className="mt-1 font-display text-3xl text-ink">Explore itineraries</h1>
+    <div className="space-y-10">
+      <div className="text-center sm:text-left">
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Library</p>
+        <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">Explore itineraries</h1>
       </div>
 
       <Filters regions={regions} />
 
-      <p className="font-body text-sm text-ink/60">
+      <p className="font-body text-sm text-ink/55">
         {filtered.length} itinerar{filtered.length === 1 ? "y" : "ies"}
       </p>
 
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className="grid gap-4 sm:grid-cols-2">
         {pageItems.map((it) => (
           <ItineraryCard
             key={it.id}
@@ -86,13 +86,13 @@ export default async function ExplorePage({
       </div>
 
       {pageItems.length === 0 && (
-        <p className="font-body text-sm text-ink/60">
+        <p className="font-body text-sm text-ink/55">
           Nothing matches those filters yet — try loosening one.
         </p>
       )}
 
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-4 pt-4 font-body text-sm text-ink/70">
+        <div className="flex items-center justify-center gap-5 pt-4 font-body text-sm text-ink/70">
           <PageLink searchParams={searchParams} page={page - 1} disabled={page <= 1}>
             ← Prev
           </PageLink>

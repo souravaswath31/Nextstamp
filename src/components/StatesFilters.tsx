@@ -37,19 +37,19 @@ export default function StatesFilters({ regions }: { regions: string[] }) {
   return (
     <div className="flex flex-wrap gap-3">
       <div className="relative min-w-[200px] flex-1">
-        <Search size={15} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-ink/40" />
+        <Search size={15} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/40" />
         <input
           type="text"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search states…"
-          className="w-full border border-line bg-paper py-2 pl-9 pr-3 font-body text-sm text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none"
+          className="w-full rounded-full bg-paperDark py-2.5 pl-10 pr-4 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
         />
       </div>
       <select
         value={activeRegion}
         onChange={(e) => updateRegion(e.target.value)}
-        className="border border-line bg-paper px-3 py-2 font-body text-sm text-ink focus:border-ink focus:outline-none"
+        className="rounded-full bg-paperDark px-4 py-2.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
       >
         <option value="">All regions</option>
         {regions.map((r) => (

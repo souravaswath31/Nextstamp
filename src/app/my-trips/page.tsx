@@ -21,34 +21,29 @@ export default async function MyTripsPage() {
   }));
 
   return (
-    <div className="space-y-8">
-      <div className="flex items-baseline justify-between">
-        <div>
-          <p className="font-stamp text-xs uppercase tracking-widest text-ink/50">
-            Trip tracker
-          </p>
-          <h1 className="mt-1 font-display text-3xl text-ink">My Trips</h1>
-        </div>
+    <div className="space-y-10">
+      <div className="text-center sm:text-left">
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">
+          Trip tracker
+        </p>
+        <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">My Trips</h1>
       </div>
 
-      <form action={createBlankTrip} className="flex gap-2 border border-line bg-paper p-3 shadow-paper">
+      <form action={createBlankTrip} className="flex gap-2 rounded-panel bg-paper p-3 shadow-paper">
         <input
           name="title"
           placeholder="Start a trip from scratch..."
-          className="flex-1 border border-line bg-paper px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none"
+          className="flex-1 rounded-card bg-paperDark px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
         />
-        <button
-          type="submit"
-          className="flex items-center gap-1.5 rounded-full border border-coral px-4 py-2 font-body text-sm font-medium text-coralDark transition-colors hover:bg-coral hover:text-white"
-        >
+        <button type="submit" className="btn-pill btn-pill-primary !px-5">
           <Plus size={15} /> Create
         </button>
       </form>
 
       {trips.length === 0 && (
-        <p className="font-body text-sm text-ink/60">
+        <p className="font-body text-sm text-ink/55">
           No trips yet. Start one above, or find one in{" "}
-          <Link href="/explore" className="underline">
+          <Link href="/explore" className="text-coral underline">
             Explore
           </Link>
           .
@@ -59,13 +54,13 @@ export default async function MyTripsPage() {
         ({ status, trips }) =>
           trips.length > 0 && (
             <section key={status}>
-              <h2 className="font-display text-lg capitalize text-ink">{status}</h2>
-              <div className="mt-3 space-y-2">
+              <h2 className="font-display text-xl capitalize text-ink">{status}</h2>
+              <div className="mt-4 space-y-3">
                 {trips.map((trip) => (
                   <Link
                     key={trip.id}
                     href={`/trip/${trip.id}`}
-                    className="card-lift flex items-center justify-between border border-line bg-paper px-4 py-3 hover:border-ink"
+                    className="card-lift flex items-center justify-between rounded-panel bg-paper px-5 py-4 shadow-paper"
                   >
                     <span className="font-display text-base text-ink">{trip.title}</span>
                     <StatusPill status={trip.status as TripStatus} />

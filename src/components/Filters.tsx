@@ -41,20 +41,20 @@ export default function Filters({
   }
 
   return (
-    <div className="space-y-4 border border-line bg-paper p-4 shadow-paper">
+    <div className="space-y-5 rounded-panel bg-paper p-5 shadow-paper sm:p-6">
       <div>
-        <p className="flex items-center gap-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/50">
+        <p className="flex items-center gap-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/45">
           <SlidersHorizontal size={12} /> Category
         </p>
-        <div className="mt-2 flex flex-wrap gap-2">
+        <div className="mt-2.5 flex flex-wrap gap-2">
           {CATEGORIES.map((cat) => (
             <button
               key={cat}
               onClick={() => toggleCategory(cat)}
-              className={`rounded-full border px-2.5 py-1 font-body text-xs font-medium transition-colors ${
+              className={`rounded-full px-3 py-1.5 font-body text-xs font-medium transition-colors ${
                 activeCategories.includes(cat)
                   ? CATEGORY_FILLED_CLASSES[cat]
-                  : "border-line text-ink/70 hover:border-ink"
+                  : "bg-paperDark text-ink/70 hover:bg-line/60"
               }`}
             >
               {CATEGORY_LABELS[cat]}
@@ -64,14 +64,14 @@ export default function Filters({
       </div>
 
       <div className="flex flex-wrap gap-4">
-        <label className="flex flex-col gap-1">
-          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">
+        <label className="flex flex-col gap-1.5">
+          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
             Region
           </span>
           <select
             value={activeRegion}
             onChange={(e) => update("region", e.target.value)}
-            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink focus:border-ink focus:outline-none"
+            className="rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
           >
             <option value="">Any</option>
             {regions.map((r) => (
@@ -82,14 +82,14 @@ export default function Filters({
           </select>
         </label>
 
-        <label className="flex flex-col gap-1">
-          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">
+        <label className="flex flex-col gap-1.5">
+          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
             Budget
           </span>
           <select
             value={activeCostTier}
             onChange={(e) => update("cost", e.target.value)}
-            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink focus:border-ink focus:outline-none"
+            className="rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
           >
             <option value="">Any</option>
             {COST_TIERS.map((c) => (
@@ -100,14 +100,14 @@ export default function Filters({
           </select>
         </label>
 
-        <label className="flex flex-col gap-1">
-          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">
+        <label className="flex flex-col gap-1.5">
+          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
             Visa ease
           </span>
           <select
             value={activeVisaEase}
             onChange={(e) => update("visa", e.target.value)}
-            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink focus:border-ink focus:outline-none"
+            className="rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
           >
             {VISA_EASE.map((v) => (
               <option key={v.value} value={v.value}>

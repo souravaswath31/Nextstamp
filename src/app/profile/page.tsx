@@ -18,48 +18,48 @@ export default async function ProfilePage() {
   );
 
   return (
-    <div className="space-y-10">
-      <div className="relative overflow-hidden border border-line bg-gradient-to-br from-teal/10 via-paper to-coral/10 px-6 py-8 sm:px-8">
-        <div className="flex items-center gap-4">
-          <span className="stamp-mark flex h-14 w-14 shrink-0 items-center justify-center border-ink text-ink">
-            <span className="font-display text-xl not-italic">{user.name.charAt(0).toUpperCase()}</span>
+    <div className="space-y-14">
+      <div className="relative overflow-hidden rounded-hero bg-gradient-to-br from-teal/10 via-paper to-coral/10 px-6 py-10 sm:px-10">
+        <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left">
+          <span className="stamp-mark flex h-16 w-16 shrink-0 items-center justify-center border-ink text-ink">
+            <span className="font-display text-2xl">{user.name.charAt(0).toUpperCase()}</span>
           </span>
           <div>
-            <p className="font-stamp text-xs uppercase tracking-widest text-ink/50">Profile</p>
-            <h1 className="mt-0.5 font-display text-3xl text-ink">{user.name}</h1>
-            <p className="mt-0.5 font-body text-sm text-ink/70">Based in {user.homeBaseLocation ?? "—"}</p>
+            <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Profile</p>
+            <h1 className="mt-0.5 font-display text-4xl tracking-tightest text-ink">{user.name}</h1>
+            <p className="mt-0.5 font-body text-sm text-ink/60">Based in {user.homeBaseLocation ?? "—"}</p>
           </div>
         </div>
 
-        <form action={updatePassportCountry} className="mt-4 flex items-center gap-2">
-          <label className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">
+        <form action={updatePassportCountry} className="mt-6 flex items-center justify-center gap-2 sm:justify-start">
+          <label className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
             Passport
           </label>
           <input
             name="passportCountry"
             defaultValue={user.passportCountry}
-            className="border border-line bg-paper px-2 py-1 font-body text-sm text-ink focus:border-ink focus:outline-none"
+            className="rounded-full bg-paper px-3 py-1.5 font-body text-sm text-ink shadow-paper focus:outline-none focus:ring-2 focus:ring-ink/10"
           />
-          <button className="border border-ink px-3 py-1 font-body text-xs text-ink transition-colors hover:bg-ink hover:text-paper">
+          <button className="btn-pill btn-pill-primary !px-4 !py-1.5 !text-xs">
             Update
           </button>
         </form>
       </div>
 
       <section>
-        <h2 className="flex items-center gap-2 font-display text-xl text-ink">
-          <FileStack size={19} className="text-ink/40" /> Held documents
+        <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
+          <FileStack size={20} className="text-ink/35" /> Held documents
         </h2>
-        <p className="mt-1 font-body text-sm text-ink/60">
+        <p className="mt-1 font-body text-sm text-ink/55">
           Visas and residency permits beyond your passport — this is what the visa
           engine checks for cascade eligibility (e.g. a US visa unlocking a third country).
         </p>
 
-        <div className="mt-4 space-y-2">
+        <div className="mt-5 space-y-3">
           {user.heldDocuments.map((doc) => {
             const expiry = getExpiryStatus(doc.validUntil);
             return (
-              <div key={doc.id} className={`flex items-center justify-between border border-line border-l-4 bg-paper px-4 py-3 shadow-paper ${EXPIRY_SEVERITY_CLASSES[expiry.severity]}`}>
+              <div key={doc.id} className={`flex items-center justify-between rounded-panel border-l-4 bg-paper px-5 py-4 shadow-paper ${EXPIRY_SEVERITY_CLASSES[expiry.severity]}`}>
                 <div>
                   <p className="font-body text-sm text-ink">
                     {doc.country} {doc.subtype ? `— ${doc.subtype}` : ""}
@@ -80,40 +80,40 @@ export default async function ProfilePage() {
           })}
         </div>
 
-        <form action={addHeldDocument} className="mt-4 grid gap-2 border border-line bg-paper p-4 shadow-paper sm:grid-cols-4">
+        <form action={addHeldDocument} className="mt-4 grid gap-2 rounded-panel bg-paper p-5 shadow-paper sm:grid-cols-4">
           <input
             name="country"
             placeholder="Country (e.g. USA)"
             required
-            className="border border-line bg-paper px-2 py-1.5 font-body text-sm text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none"
+            className="rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
           />
           <input
             name="subtype"
             placeholder="Type (e.g. H1B)"
-            className="border border-line bg-paper px-2 py-1.5 font-body text-sm text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none"
+            className="rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
           />
           <input
             name="validUntil"
             type="date"
-            className="border border-line bg-paper px-2 py-1.5 font-body text-sm text-ink focus:border-ink focus:outline-none"
+            className="rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
           />
-          <button className="flex items-center justify-center gap-1.5 border border-ink px-3 py-1.5 font-body text-sm text-ink transition-colors hover:bg-ink hover:text-paper">
+          <button className="btn-pill btn-pill-primary !rounded-card">
             <Plus size={15} /> Add document
           </button>
         </form>
       </section>
 
       <section>
-        <h2 className="flex items-center gap-2 font-display text-xl text-ink">
-          <Unlock size={19} className="text-ink/40" /> What opens up
+        <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
+          <Unlock size={20} className="text-ink/35" /> What opens up
         </h2>
-        <p className="mt-1 font-body text-sm text-ink/60">
+        <p className="mt-1 font-body text-sm text-ink/55">
           Destinations that become easier because of a document you hold — beyond
           what your {user.passportCountry} passport gets you alone.
         </p>
 
         {cascadeSections.map(({ doc, unlocks }) => (
-          <div key={doc.id} className="mt-4">
+          <div key={doc.id} className="mt-5">
             <p className="font-stamp text-[11px] uppercase tracking-wide text-stamp">
               Via your {doc.country} {doc.subtype}
             </p>
@@ -122,9 +122,9 @@ export default async function ProfilePage() {
                 No cascade rules on file for this document yet.
               </p>
             ) : (
-              <div className="mt-2 grid gap-2 sm:grid-cols-2">
+              <div className="mt-3 grid gap-3 sm:grid-cols-2">
                 {unlocks.map((rule) => (
-                  <div key={rule.id} className={`card-lift border-l-2 bg-paper px-3 py-2 ${VISA_STATUS_BORDER_CLASSES[rule.visaType] ?? "border-l-line bg-charcoal/5"}`}>
+                  <div key={rule.id} className={`card-lift rounded-card border-l-2 bg-paper px-4 py-3 shadow-paper ${VISA_STATUS_BORDER_CLASSES[rule.visaType] ?? "border-l-line bg-charcoal/5"}`}>
                     <p className="font-body text-sm text-ink">{rule.destinationCountry}</p>
                     <p className={`font-stamp text-[11px] uppercase ${VISA_STATUS_TEXT_CLASSES[rule.visaType] ?? "text-ink/60"}`}>{rule.visaType}</p>
                   </div>
@@ -135,14 +135,14 @@ export default async function ProfilePage() {
         ))}
       </section>
 
-      <p className="border border-line bg-paperDark px-4 py-3 font-body text-xs text-ink/70">
+      <p className="rounded-panel bg-paperDark px-5 py-4 font-body text-xs text-ink/60">
         Visa rules shown throughout NextStamp are a starter reference set, not a
         maintained legal source — always confirm on the destination's official
         immigration site before booking or traveling.
       </p>
 
       <form action={signOutAction}>
-        <button className="flex items-center gap-1.5 font-body text-xs text-ink/50 hover:text-ink hover:underline">
+        <button className="flex items-center gap-1.5 font-body text-xs text-ink/45 hover:text-ink hover:underline">
           <LogOut size={13} /> Sign out
         </button>
       </form>

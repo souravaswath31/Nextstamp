@@ -5,6 +5,7 @@ import { getCascadeExplorer } from "@/lib/visa";
 import { getExpiryStatus, isUrgent, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
 import ItineraryCard from "@/components/ItineraryCard";
 import StatusPill from "@/components/StatusPill";
+import Reveal from "@/components/Reveal";
 import type { TripStatus } from "@/lib/types";
 import {
   Trophy,
@@ -33,15 +34,6 @@ export default async function DashboardPage() {
     (t) => t.status === "completed" && t.completedDate && new Date(t.completedDate).getFullYear() === thisYear
   ).length;
 
-  const countriesVisited = new Set(
-    completedTrips.flatMap((t) => {
-      // best-effort: we don't join itinerary countries into the trip record,
-      // so this counts distinct trip titles as a stand-in until a real
-      // country field is worth adding to UserTrip.
-      return [t.id];
-    })
-  ).size;
-
   const highlights = await prisma.itinerary.findMany({
     take: 3,
     orderBy: { createdAt: "asc" },
@@ -61,120 +53,126 @@ export default async function DashboardPage() {
   ).then((rows) => rows.filter((r): r is NonNullable<typeof r> => r !== null));
 
   return (
-    <div className="space-y-12">
-      <section className="relative overflow-hidden border border-line bg-gradient-to-br from-coral/10 via-paper to-teal/10 px-6 py-8 sm:px-10 sm:py-10">
-        <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-stamp/10 blur-2xl" />
-        <div className="pointer-events-none absolute -bottom-14 -left-10 h-40 w-40 rounded-full bg-forest/10 blur-2xl" />
-        <p className="relative flex items-center gap-1.5 font-stamp text-xs uppercase tracking-widest text-ink/50">
+    <div className="space-y-20 sm:space-y-28">
+      <section className="pt-6 text-center sm:pt-14">
+        <p className="flex items-center justify-center gap-1.5 font-stamp text-xs uppercase tracking-widest text-ink/45">
           <MapPinned size={13} /> {user.homeBaseLocation ?? "Home base not set"}
         </p>
-        <h1 className="relative mt-1 font-display text-3xl italic text-ink sm:text-4xl">
+        <h1 className="mx-auto mt-3 max-w-2xl font-display text-5xl leading-[1.05] tracking-tightest text-ink sm:text-6xl">
           Where to <span className="text-coral">next</span>, {user.name}?
         </h1>
       </section>
 
       {upcomingDocuments.length > 0 && (
-        <section>
-          <h2 className="flex items-center gap-2 font-display text-xl text-ink">
-            <AlertOctagon size={19} className="text-stampRed" /> Coming up
-          </h2>
-          <div className="mt-3 space-y-2">
-            {upcomingDocuments.map(({ doc, expiry, unlocks }) => (
-              <div key={doc.id} className={`border border-line border-l-4 bg-paper px-4 py-3 shadow-paper ${EXPIRY_SEVERITY_CLASSES[expiry.severity]}`}>
-                <p className="font-body text-sm font-semibold text-ink">
-                  Your {doc.country} {doc.subtype ?? "document"} {expiry.label.toLowerCase()}
-                </p>
-                {unlocks.length > 0 && (
-                  <p className="mt-1 font-body text-xs text-ink/70">
-                    This is what unlocks your visa-free or on-arrival access to{" "}
-                    {unlocks.map((u) => u.destinationCountry).join(", ")} — renewing it (or noting the
-                    lapse) keeps that accurate.
+        <Reveal>
+          <section>
+            <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
+              <AlertOctagon size={20} className="text-stampRed" /> Coming up
+            </h2>
+            <div className="mt-4 space-y-3">
+              {upcomingDocuments.map(({ doc, expiry, unlocks }) => (
+                <div key={doc.id} className={`rounded-panel border-l-4 bg-paper px-5 py-4 shadow-paper ${EXPIRY_SEVERITY_CLASSES[expiry.severity]}`}>
+                  <p className="font-body text-sm font-semibold text-ink">
+                    Your {doc.country} {doc.subtype ?? "document"} {expiry.label.toLowerCase()}
                   </p>
-                )}
-                <Link href="/profile" className="mt-1 flex items-center gap-1 font-body text-xs text-ink underline">
-                  Review in Profile <ArrowRight size={12} />
+                  {unlocks.length > 0 && (
+                    <p className="mt-1 font-body text-sm text-ink/60">
+                      This is what unlocks your visa-free or on-arrival access to{" "}
+                      {unlocks.map((u) => u.destinationCountry).join(", ")} — renewing it (or noting the
+                      lapse) keeps that accurate.
+                    </p>
+                  )}
+                  <Link href="/profile" className="btn-ghost mt-2 text-sm">
+                    Review in Profile <ArrowRight size={13} />
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </section>
+        </Reveal>
+      )}
+
+      <Reveal>
+        <section className="grid grid-cols-3 gap-4">
+          <Stat
+            icon={Trophy}
+            label="Completed trips"
+            value={completedTrips.length}
+            colorClass="text-forest"
+            tintClass="bg-forest/[0.06]"
+          />
+          <Stat
+            icon={CalendarCheck}
+            label="Completed this year"
+            value={tripsThisYear}
+            colorClass="text-teal"
+            tintClass="bg-teal/[0.06]"
+          />
+          <Stat
+            icon={CompassIcon}
+            label="In planning"
+            value={activeTrips.length}
+            colorClass="text-coralDark"
+            tintClass="bg-coral/[0.06]"
+          />
+        </section>
+      </Reveal>
+
+      <Reveal>
+        <section>
+          <div className="flex items-baseline justify-between">
+            <h2 className="font-display text-2xl text-ink">Active trips</h2>
+            <Link href="/my-trips" className="btn-ghost text-sm">
+              View all <ArrowRight size={13} />
+            </Link>
+          </div>
+          {activeTrips.length === 0 ? (
+            <p className="mt-4 font-body text-sm text-ink/50">
+              Nothing in planning yet. Browse the library and start one.
+            </p>
+          ) : (
+            <div className="mt-5 space-y-3">
+              {activeTrips.map((trip) => (
+                <Link
+                  key={trip.id}
+                  href={`/trip/${trip.id}`}
+                  className="card-lift flex items-center justify-between rounded-panel bg-paper px-5 py-4 shadow-paper"
+                >
+                  <span className="font-display text-base text-ink">{trip.title}</span>
+                  <StatusPill status={trip.status as TripStatus} />
                 </Link>
-              </div>
+              ))}
+            </div>
+          )}
+        </section>
+      </Reveal>
+
+      <Reveal>
+        <section>
+          <div className="flex items-baseline justify-between">
+            <h2 className="font-display text-2xl text-ink">From the library</h2>
+            <Link href="/explore" className="btn-ghost text-sm">
+              Explore all <ArrowRight size={13} />
+            </Link>
+          </div>
+          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            {highlights.map((it) => (
+              <ItineraryCard
+                key={it.id}
+                id={it.id}
+                title={it.title}
+                region={it.region}
+                countries={it.countries}
+                category={it.category}
+                durationDaysMin={it.durationDaysMin}
+                durationDaysMax={it.durationDaysMax}
+                costTier={it.costTier}
+                bestTimeMonths={it.bestTimeMonths}
+              />
             ))}
           </div>
         </section>
-      )}
-
-      <section className="grid grid-cols-3 gap-3">
-        <Stat
-          icon={Trophy}
-          label="Completed trips"
-          value={completedTrips.length}
-          colorClass="text-forest"
-          tintClass="bg-forest/[0.06]"
-        />
-        <Stat
-          icon={CalendarCheck}
-          label="Completed this year"
-          value={tripsThisYear}
-          colorClass="text-teal"
-          tintClass="bg-teal/[0.06]"
-        />
-        <Stat
-          icon={CompassIcon}
-          label="In planning"
-          value={activeTrips.length}
-          colorClass="text-coralDark"
-          tintClass="bg-coral/[0.06]"
-        />
-      </section>
-
-      <section>
-        <div className="flex items-baseline justify-between">
-          <h2 className="font-display text-xl text-ink">Active trips</h2>
-          <Link href="/my-trips" className="flex items-center gap-1 font-body text-sm text-ink/60 hover:text-ink">
-            View all <ArrowRight size={14} />
-          </Link>
-        </div>
-        {activeTrips.length === 0 ? (
-          <p className="mt-3 font-body text-sm text-ink/60">
-            Nothing in planning yet. Browse the library and start one.
-          </p>
-        ) : (
-          <div className="mt-4 space-y-3">
-            {activeTrips.map((trip) => (
-              <Link
-                key={trip.id}
-                href={`/trip/${trip.id}`}
-                className="card-lift flex items-center justify-between border border-line bg-paper px-4 py-3 hover:border-ink"
-              >
-                <span className="font-display text-base text-ink">{trip.title}</span>
-                <StatusPill status={trip.status as TripStatus} />
-              </Link>
-            ))}
-          </div>
-        )}
-      </section>
-
-      <section>
-        <div className="flex items-baseline justify-between">
-          <h2 className="font-display text-xl text-ink">From the library</h2>
-          <Link href="/explore" className="flex items-center gap-1 font-body text-sm text-ink/60 hover:text-ink">
-            Explore all <ArrowRight size={14} />
-          </Link>
-        </div>
-        <div className="mt-4 grid gap-3 sm:grid-cols-2">
-          {highlights.map((it) => (
-            <ItineraryCard
-              key={it.id}
-              id={it.id}
-              title={it.title}
-              region={it.region}
-              countries={it.countries}
-              category={it.category}
-              durationDaysMin={it.durationDaysMin}
-              durationDaysMax={it.durationDaysMax}
-              costTier={it.costTier}
-              bestTimeMonths={it.bestTimeMonths}
-            />
-          ))}
-        </div>
-      </section>
+      </Reveal>
     </div>
   );
 }
@@ -193,10 +191,10 @@ function Stat({
   tintClass: string;
 }) {
   return (
-    <div className={`border border-line px-3 py-4 text-center sm:px-4 ${tintClass}`}>
-      <Icon size={18} className={`mx-auto ${colorClass}`} />
-      <div className={`mt-1.5 font-display text-3xl ${colorClass}`}>{value}</div>
-      <div className="mt-1 font-body text-[11px] leading-tight text-ink/60 sm:text-xs">{label}</div>
+    <div className={`rounded-panel px-3 py-6 text-center sm:px-4 ${tintClass}`}>
+      <Icon size={20} className={`mx-auto ${colorClass}`} />
+      <div className={`mt-2 font-display text-4xl ${colorClass}`}>{value}</div>
+      <div className="mt-1.5 font-body text-[11px] leading-tight text-ink/55 sm:text-xs">{label}</div>
     </div>
   );
 }

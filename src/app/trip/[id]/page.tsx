@@ -25,7 +25,7 @@ export default async function TripPage({ params }: { params: { id: string } }) {
   return (
     <div className="space-y-4">
       {corrupted && (
-        <p className="border border-stampRed/40 bg-stampRed/5 px-4 py-3 font-body text-sm text-stampRed">
+        <p className="rounded-panel bg-stampRed/5 px-5 py-4 font-body text-sm text-stampRed">
           This trip's day-by-day plan couldn't be read and was reset to empty — sorry about that.
           Everything else (title, status, budget tier) is intact. Rebuild the days below and save.
         </p>
