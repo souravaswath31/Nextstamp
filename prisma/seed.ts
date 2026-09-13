@@ -6,35 +6,17 @@ import stateGuidesSeed from "../data/state-guides-seed.json";
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("Clearing existing data...");
-  await prisma.userTrip.deleteMany();
-  await prisma.itineraryDay.deleteMany();
+  // This only touches global/shared content — Itinerary, VisaRule, StateGuide
+  // and their children. It never touches User, HeldDocument, or UserTrip:
+  // those belong to real signed-up accounts now, and a content reseed must
+  // be safe to run against production without wiping anyone's data.
+  // (UserTrip.itineraryId is an optional FK with onDelete: SetNull, so a
+  // trip that pointed at a re-seeded itinerary just loses that link — its
+  // own customDaysJson, which is its actual day-by-day plan, is untouched.)
+  console.log("Clearing existing global content...");
   await prisma.itinerary.deleteMany();
   await prisma.visaRule.deleteMany();
-  await prisma.heldDocument.deleteMany();
-  await prisma.user.deleteMany();
-  await prisma.statePlace.deleteMany();
   await prisma.stateGuide.deleteMany();
-
-  console.log("Seeding user (Sourav)...");
-  const user = await prisma.user.create({
-    data: {
-      email: "sourav@nextstamp.local",
-      name: "Sourav",
-      passportCountry: "India",
-      homeBaseLocation: "Tampa, FL",
-      heldDocuments: {
-        create: [
-          {
-            type: "visa",
-            country: "USA",
-            subtype: "H1B",
-            validUntil: new Date("2028-10-01"),
-          },
-        ],
-      },
-    },
-  });
 
   console.log(`Seeding ${itinerariesSeed.length} itineraries...`);
   for (const it of itinerariesSeed as any[]) {
@@ -120,7 +102,7 @@ async function main() {
     });
   }
 
-  console.log(`Done. Seeded user ${user.id}.`);
+  console.log("Done seeding global content.");
 }
 
 main()

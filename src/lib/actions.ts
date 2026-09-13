@@ -2,8 +2,10 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { cookies } from "next/headers";
 import { prisma } from "./prisma";
 import { getCurrentUser } from "./currentUser";
+import { createClient } from "@/utils/supabase/server";
 import type { TripDay, TripStatus } from "./types";
 import { normalizeCountryInput } from "./countries";
 
@@ -135,4 +137,35 @@ export async function removeHeldDocument(documentId: string) {
   await prisma.heldDocument.delete({ where: { id: documentId } });
   revalidatePath("/profile");
   revalidatePath("/explore");
+}
+
+// One-time step after a new magic-link sign-in — creates the User row that
+// getCurrentUser() (src/lib/currentUser.ts) expects to find from then on.
+export async function completeOnboarding(formData: FormData) {
+  const cookieStore = await cookies();
+  const supabase = createClient(cookieStore);
+  const {
+    data: { user: authUser },
+  } = await supabase.auth.getUser();
+  if (!authUser || !authUser.email) redirect("/login");
+
+  const name = String(formData.get("name") ?? "").trim() || authUser.email.split("@")[0];
+  const rawPassport = String(formData.get("passportCountry") ?? "").trim();
+  if (!rawPassport) return;
+  const passportCountry = normalizeCountryInput(rawPassport);
+
+  await prisma.user.upsert({
+    where: { id: authUser.id },
+    update: { name, passportCountry },
+    create: { id: authUser.id, email: authUser.email, name, passportCountry },
+  });
+
+  redirect("/");
+}
+
+export async function signOutAction() {
+  const cookieStore = await cookies();
+  const supabase = createClient(cookieStore);
+  await supabase.auth.signOut();
+  redirect("/login");
 }

@@ -1,6 +1,6 @@
 import { getCurrentUser } from "@/lib/currentUser";
 import { getCascadeExplorer } from "@/lib/visa";
-import { addHeldDocument, removeHeldDocument, updatePassportCountry } from "@/lib/actions";
+import { addHeldDocument, removeHeldDocument, updatePassportCountry, signOutAction } from "@/lib/actions";
 import { VISA_STATUS_BORDER_CLASSES, VISA_STATUS_TEXT_CLASSES } from "@/lib/types";
 import { getExpiryStatus, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
 
@@ -126,6 +126,12 @@ export default async function ProfilePage() {
         maintained legal source — always confirm on the destination's official
         immigration site before booking or traveling.
       </p>
+
+      <form action={signOutAction}>
+        <button className="font-body text-xs text-ink/50 hover:text-ink hover:underline">
+          Sign out
+        </button>
+      </form>
     </div>
   );
 }

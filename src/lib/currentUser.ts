@@ -1,18 +1,31 @@
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
+import { createClient } from "@/utils/supabase/server";
 import { prisma } from "./prisma";
 
-// Phase 1 is single-user by design (see project brief). There's no login —
-// every table already carries a userId so Phase 2 auth drops in without a
-// schema migration. Until then, this is the one seeded user.
+// Resolves the signed-in Supabase user to our own User row. Every call site
+// that used to get the single hardcoded user now gets the real session's
+// user, scoped to their own held documents and trips — the function's
+// return shape hasn't changed, only where it comes from.
 export async function getCurrentUser() {
+  const cookieStore = await cookies();
+  const supabase = createClient(cookieStore);
+  const {
+    data: { user: authUser },
+  } = await supabase.auth.getUser();
+
+  if (!authUser) {
+    redirect("/login");
+  }
+
   const user = await prisma.user.findUnique({
-    where: { email: "sourav@nextstamp.local" },
+    where: { id: authUser.id },
     include: { heldDocuments: true },
   });
 
   if (!user) {
-    throw new Error(
-      "No seeded user found. Run `npm run seed` before starting the app."
-    );
+    // Signed in via Supabase, but hasn't finished the one-time profile step yet.
+    redirect("/onboarding");
   }
 
   return user;

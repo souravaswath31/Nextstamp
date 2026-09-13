@@ -11,8 +11,12 @@ const TABS = [
   { href: "/profile", label: "Profile" },
 ];
 
+const AUTH_ROUTES = ["/login", "/onboarding"];
+
 export default function NavBar() {
   const pathname = usePathname();
+
+  if (AUTH_ROUTES.includes(pathname)) return null;
 
   return (
     <>
