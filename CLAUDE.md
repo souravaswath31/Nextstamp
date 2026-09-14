@@ -96,9 +96,9 @@ leave this route in the deployed app.
 ```
 prisma/schema.prisma        Data model (see below)
 prisma/seed.ts               Seeds global content from data/*.json — never touches users
-data/itineraries-seed.json   109 itineraries: day-by-day, food_culture (international only), related_states (domestic only)
+data/itineraries-seed.json   114 itineraries: day-by-day, food_culture (international only), related_states (domestic only)
 data/state-guides-seed.json  50 states × ~17 places each (amazing/common/hidden/food_culture)
-data/visa-rules-seed.json    114 rules: 8 passports × up to 13 destinations each
+data/visa-rules-seed.json    154 rules: 8 passports × up to 18 destinations each
 scripts/generate_itinerary_draft.py   Draft generator for a state's places (see below)
 scripts/validate_itineraries.py       Content pipeline gate — see "Content pipeline engines"
 scripts/validate_visa_rules.py        Content pipeline gate — see "Content pipeline engines"
@@ -166,9 +166,10 @@ mechanically for anything going through the content pipeline.
 
 An itinerary's `food_culture` and `related_states` fields are **mutually exclusive by
 design**:
-- **International** itineraries (11 of them — UAE, Indonesia, Maldives+Sri Lanka, Turkey,
-  Costa Rica, Georgia+Armenia, Colombia, Peru, Philippines, Serbia, Mexico) carry their own
-  `food_culture` array, because no state guide exists to link to.
+- **International** itineraries (16 of them — UAE, Indonesia, Maldives+Sri Lanka, Turkey,
+  Costa Rica, Georgia+Armenia, Colombia, Peru, Philippines, Serbia, Mexico, Japan, Thailand,
+  Vietnam, Egypt, Morocco) carry their own `food_culture` array, because no state guide
+  exists to link to.
 - **Domestic** itineraries (98 of them across all 50 states — every state has exactly two;
   see "Content pipeline engines" below for how this got finished) set `related_states`
   instead — the itinerary detail page then renders a "this trip's food/culture depth lives in
@@ -205,19 +206,24 @@ job, not yours" — and regardless, after all agents finish, diff the final seed
 title list against every batch's own scratchpad output to confirm nothing was dropped before
 trusting the total count.
 
-**Itinerary engine status:** every state has a second, differently-themed itinerary (109
-total itineraries) — the "second itinerary per state" content-depth goal is done. A natural
-next round: a *third* itinerary for the highest-tourism states, or itineraries for whatever
-new international destinations the visa engine adds next (see below).
+**Itinerary engine status:** every state has a second, differently-themed itinerary, plus 16
+international itineraries (114 total) — the "second itinerary per state" content-depth goal
+is done, and round 4 added itineraries for Japan, Thailand, Vietnam, Egypt, and Morocco to
+pair with that round's new visa destinations. A natural next round: a *third* itinerary for
+the highest-tourism states, or itineraries for whatever new international destinations the
+visa engine adds next (see below).
 
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
-Brazil) × 13 destinations = 114 rules, all cross-checked with `npx tsx` against the live
+Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via
-`src/lib/visa.ts`'s logic, not just that the row exists). One open quality note: 3 of
+`src/lib/visa.ts`'s logic, not just that the row exists). Round 4 added Japan, Thailand,
+Vietnam, Egypt, and Morocco as new destinations across all 8 existing passports (40 new
+rules); Thailand's rules flag a real visa-exemption policy change effective September 15,
+2026, so that source is worth re-checking after that date. One open quality note: 3 of
 Brazil's sources are Wikipedia rather than official government pages (Armenia, Turkey,
-UAE) — structurally valid but below the "official source where possible" bar the other 111
-rules hit. Expanding to new destinations (not just new passports against the existing 13)
-is a natural next step, ideally paired with itineraries for those same new destinations.
+UAE) — structurally valid but below the "official source where possible" bar the rest hit.
+Expanding to new destinations further, or a third itinerary per state, is the natural next
+step through the existing pipeline.
 
 ## The itinerary draft generator (`scripts/generate_itinerary_draft.py`)
 
@@ -301,11 +307,11 @@ deployed at nextstamp-app.vercel.app, as the sole source of truth.
    not a placeholder to feel bad about.
 5. **Payment** — deferred by design until the above are further along.
 6. **Content depth** — the "second itinerary per state" goal is **done** (all 50 states,
-   109 total itineraries). Visa coverage is at 8 passports × 13 destinations (destinations
-   haven't been expanded yet, only passports) — a natural next batch is new destinations
-   (paired with itineraries for those same countries), or a third itinerary per state for
-   the highest-tourism ones. No architecture decision needed, just more research batches
-   through the existing pipeline.
+   114 total itineraries, 16 of them international). Visa coverage is at 8 passports × 18
+   destinations (154 rules) after round 4 added Japan, Thailand, Vietnam, Egypt, and
+   Morocco. A natural next batch is more new destinations (paired with itineraries for
+   those same countries), or a third itinerary per state for the highest-tourism ones. No
+   architecture decision needed, just more research batches through the existing pipeline.
 
 ## Known loose ends
 

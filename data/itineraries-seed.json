@@ -9307,5 +9307,662 @@
         "coffee_wifi_spot": null
       }
     ]
+  },
+  {
+    "title": "Tokyo, Kyoto + Osaka, Japan",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "International",
+    "countries": [
+      "Japan"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "Spring (late March to mid-April) brings cherry blossoms in Tokyo and Kyoto, while autumn (mid-October to late November) brings fiery maple foliage in both cities — the two most comfortable and scenic windows, though also the most crowded and expensive for lodging.",
+    "best_time_months": [
+      "March",
+      "April",
+      "October",
+      "November"
+    ],
+    "description": "Tokyo's neon-lit modernity, then the temples, torii gates, and old wooden streets of Kyoto, with a day trip into Osaka's food-obsessed downtown — Japan's classic first-timer arc, connected by the Shinkansen bullet train.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Tokyo",
+        "activities": [
+          "Narita Express (N'EX) from Narita Airport to Tokyo Station, about 53-60 minutes",
+          "Settle into Shinjuku or Shibuya",
+          "Evening walk through Shinjuku's Omoide Yokocho alleys"
+        ],
+        "lodging_suggestion": "Shinjuku or Shibuya"
+      },
+      {
+        "day_number": 2,
+        "title": "Old Tokyo",
+        "activities": [
+          "Senso-ji Temple and Nakamise shopping street in Asakusa",
+          "Tokyo Skytree observation deck",
+          "Sumida River walk"
+        ],
+        "lodging_suggestion": "Shinjuku or Shibuya"
+      },
+      {
+        "day_number": 3,
+        "title": "Modern Tokyo",
+        "activities": [
+          "Shibuya Scramble Crossing and Shibuya Sky observation deck",
+          "Harajuku's Takeshita Street and Meiji Shrine",
+          "Shopping and dinner in Ginza"
+        ],
+        "lodging_suggestion": "Shinjuku or Shibuya"
+      },
+      {
+        "day_number": 4,
+        "title": "Tsukiji + travel to Kyoto",
+        "activities": [
+          "Early morning at Tsukiji Outer Market for fresh seafood breakfast",
+          "Shinkansen (Nozomi) from Tokyo Station to Kyoto Station, about 2 hours 15 minutes",
+          "Evening stroll through Gion's lantern-lit lanes"
+        ],
+        "drive_time": "Shinkansen, ~2 hrs 15 min",
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+      },
+      {
+        "day_number": 5,
+        "title": "Kyoto shrines and temples",
+        "activities": [
+          "Fushimi Inari Taisha and its thousands of vermilion torii gates",
+          "Kiyomizu-dera Temple and the Higashiyama district's preserved streets",
+          "Evening in Pontocho Alley"
+        ],
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+      },
+      {
+        "day_number": 6,
+        "title": "Arashiyama + northern Kyoto",
+        "activities": [
+          "Arashiyama Bamboo Grove at opening time to beat the crowds",
+          "Tenryu-ji Temple garden",
+          "Kinkaku-ji (the Golden Pavilion)"
+        ],
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+      },
+      {
+        "day_number": 7,
+        "title": "Osaka day trip",
+        "activities": [
+          "JR Special Rapid train from Kyoto Station to Osaka Station, about 28 minutes",
+          "Osaka Castle and its surrounding park",
+          "Dotonbori's neon signs, takoyaki, and okonomiyaki",
+          "Return to Kyoto, or continue to Kansai Airport for a flight home"
+        ],
+        "drive_time": "JR Special Rapid, ~28 min each way",
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+      },
+      {
+        "day_number": 8,
+        "title": "Optional: Nara side trip or departure",
+        "activities": [
+          "Optional day trip to Nara Park to see the free-roaming sika deer and Todai-ji Temple (JR Nara Line, about 45 minutes from Kyoto Station)",
+          "Depart from Kansai International Airport (KIX) or return to Tokyo for a flight home"
+        ],
+        "drive_time": "JR Nara Line, ~45 min each way (optional day)",
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Sushi and Tsukiji-style seafood breakfast",
+        "description": "Tokyo's Tsukiji Outer Market (the old wholesale fish market's surviving retail street, after the wholesale auctions moved to Toyosu in 2018) is packed with stalls serving fresh sushi, grilled seafood skewers, and tamagoyaki for breakfast."
+      },
+      {
+        "place_type": "dish",
+        "name": "Kaiseki",
+        "description": "Kyoto's refined multi-course kaiseki cuisine grew out of the tea ceremony's meal traditions, emphasizing seasonal ingredients and careful presentation — a contrast to Osaka's more casual street food culture."
+      },
+      {
+        "place_type": "dish",
+        "name": "Takoyaki and okonomiyaki",
+        "description": "Osaka calls itself the nation's kitchen (\"tenka no daidokoro\") and is famous for takoyaki (octopus-filled batter balls) and okonomiyaki (savory grilled cabbage pancakes) sold throughout Dotonbori."
+      },
+      {
+        "place_type": "drink",
+        "name": "Matcha and tea ceremony culture",
+        "description": "Kyoto, especially nearby Uji, is one of Japan's historic centers of matcha production, and traditional tea houses around the city offer formal tea ceremony experiences rooted in centuries-old ritual."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Izakaya culture",
+        "description": "After-work izakaya (casual pubs serving small plates and drinks) are central to Tokyo's social life, clustered densely in alleys like Shinjuku's Omoide Yokocho and under railway arches near major stations."
+      },
+      {
+        "place_type": "culture",
+        "name": "Torii gate pilgrimage paths",
+        "description": "Fushimi Inari Taisha's roughly 10,000 vermilion torii gates, donated by individuals and businesses over centuries, form pilgrimage trails up Mount Inari dedicated to the Shinto rice deity Inari."
+      }
+    ]
+  },
+  {
+    "title": "Bangkok + Chiang Mai, Thailand",
+    "category": [
+      "city",
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "International",
+    "countries": [
+      "Thailand"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "November to February is Thailand's cool, dry season — the most comfortable window for temple-hopping in Bangkok's heat and for hiking around Chiang Mai, where northern evenings can turn genuinely chilly.",
+    "best_time_months": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "description": "Bangkok's riverside temples and market chaos, then a short flight north to Chiang Mai's walled Old City, mountain temples, and an ethical elephant sanctuary — Thailand's two most iconic and easiest-to-combine regions.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Bangkok",
+        "activities": [
+          "Settle in near the Chao Phraya riverside",
+          "Evening river cruise past illuminated Wat Arun"
+        ],
+        "lodging_suggestion": "Bangkok (riverside / Old City)"
+      },
+      {
+        "day_number": 2,
+        "title": "Bangkok temples",
+        "activities": [
+          "Grand Palace and Wat Phra Kaew (Temple of the Emerald Buddha)",
+          "Wat Pho's reclining Buddha and traditional Thai massage school",
+          "Cross the river to climb Wat Arun's central prang"
+        ],
+        "lodging_suggestion": "Bangkok (riverside / Old City)"
+      },
+      {
+        "day_number": 3,
+        "title": "Ayutthaya day trip",
+        "activities": [
+          "Train or van to the ruined former capital, Ayutthaya",
+          "Wat Mahathat's tree-entwined Buddha head and Wat Chaiwatthanaram's Khmer-style ruins",
+          "Return to Bangkok by evening"
+        ],
+        "drive_time": "1 to 1.5 hrs each way",
+        "lodging_suggestion": "Bangkok (riverside / Old City)"
+      },
+      {
+        "day_number": 4,
+        "title": "Bangkok markets + fly to Chiang Mai",
+        "activities": [
+          "Morning at Chatuchak Weekend Market (if a weekend) or Talad Rot Fai night market",
+          "Afternoon flight to Chiang Mai (about 1 hour 15 minutes)",
+          "Evening walk through Chiang Mai's walled Old City"
+        ],
+        "lodging_suggestion": "Chiang Mai (Old City)"
+      },
+      {
+        "day_number": 5,
+        "title": "Chiang Mai Old City + Doi Suthep",
+        "activities": [
+          "Wat Phra Singh and Wat Chedi Luang inside the Old City walls",
+          "Drive up to Wat Phra That Doi Suthep, the gold-spired mountain temple overlooking the city",
+          "Sunday Walking Street night market (if timing allows) or the Chiang Mai Night Bazaar"
+        ],
+        "drive_time": "30 to 40 min each way to Doi Suthep",
+        "lodging_suggestion": "Chiang Mai (Old City)"
+      },
+      {
+        "day_number": 6,
+        "title": "Elephant Nature Park",
+        "activities": [
+          "Full-day visit to Elephant Nature Park, an observation-only rescued-elephant sanctuary with no riding or bathing",
+          "Help prepare food for the elephants and watch them from the riverside observation area"
+        ],
+        "lodging_suggestion": "Chiang Mai (Old City)"
+      },
+      {
+        "day_number": 7,
+        "title": "Doi Inthanon National Park",
+        "activities": [
+          "Day trip to Doi Inthanon, Thailand's highest peak",
+          "Wachirathan and Siriphum waterfalls, twin royal chedis, and hill-tribe market stalls"
+        ],
+        "drive_time": "1.5 hrs each way",
+        "lodging_suggestion": "Chiang Mai (Old City)"
+      },
+      {
+        "day_number": 8,
+        "title": "Departure",
+        "activities": [
+          "Last-minute shopping for northern Thai handicrafts at a local market",
+          "Fly home from Chiang Mai or connect back through Bangkok"
+        ],
+        "lodging_suggestion": "Chiang Mai (Old City)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Khao soi",
+        "description": "Chiang Mai's signature dish: curried coconut broth with egg noodles, topped with crispy fried noodles — a northern Thai specialty rarely found in the same form in Bangkok."
+      },
+      {
+        "place_type": "dish",
+        "name": "Pad thai and boat noodles",
+        "description": "Bangkok street-food staples — stir-fried rice noodles with tamarind, egg, and shrimp, and intensely flavored boat noodle soup traditionally sold from canal-side boats."
+      },
+      {
+        "place_type": "drink",
+        "name": "Thai iced tea (cha yen)",
+        "description": "Strongly brewed black tea sweetened with condensed milk, served over ice — a ubiquitous street-stall drink across both cities."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Wai greeting",
+        "description": "The traditional Thai greeting — palms pressed together at chest or forehead height with a slight bow — used as both hello and thank-you, and expected as a sign of respect when entering temples."
+      },
+      {
+        "place_type": "culture",
+        "name": "Lanna heritage of Chiang Mai",
+        "description": "Chiang Mai was capital of the independent Lanna kingdom until the late 1800s, giving it a distinct northern Thai architecture, dialect, and temple style still visible in the Old City's walls and moat."
+      }
+    ]
+  },
+  {
+    "title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
+    "category": [
+      "city",
+      "nature",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "Vietnam"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 8,
+    "best_time_description": "October–November and March–April are the sweet spots for northern Vietnam: the dry season (roughly November–April) keeps rainfall low, but December–February can be gray and chilly (down to the mid-teens Celsius) while May–October brings the southwest monsoon's heaviest rain and occasional typhoons that can cancel Ha Long Bay cruises.",
+    "best_time_months": [
+      "October",
+      "November",
+      "March",
+      "April"
+    ],
+    "description": "Hanoi's Old Quarter chaos, a limestone-karst boat glide through Ninh Binh's Trang An wetlands, and an overnight cruise among the towering islets of Ha Long Bay — the classic northern Vietnam loop, all within a few hours of the capital.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Hanoi",
+        "activities": [
+          "Settle into the Old Quarter",
+          "Evening walk around Hoan Kiem Lake and Ngoc Son Temple",
+          "First bowl of pho at a street-side quan"
+        ],
+        "lodging_suggestion": "Hanoi Old Quarter"
+      },
+      {
+        "day_number": 2,
+        "title": "Hanoi's imperial and colonial layers",
+        "activities": [
+          "Ho Chi Minh Mausoleum complex and the One Pillar Pagoda",
+          "Temple of Literature, Vietnam's first national university",
+          "Walk the tracks at Train Street",
+          "Evening water puppet show at Thang Long Water Puppet Theatre"
+        ],
+        "lodging_suggestion": "Hanoi Old Quarter"
+      },
+      {
+        "day_number": 3,
+        "title": "Ninh Binh day trip: Trang An and Mua Cave",
+        "activities": [
+          "Sampan boat tour through the Trang An Landscape Complex's limestone karsts and river caves",
+          "Climb the roughly 500 steps to the Mua Cave viewpoint over the Tam Coc rice paddies",
+          "Return to Hanoi by early evening"
+        ],
+        "drive_time": "~1.5-2 hrs each way from Hanoi",
+        "lodging_suggestion": "Hanoi Old Quarter"
+      },
+      {
+        "day_number": 4,
+        "title": "Transfer to Ha Long Bay, board overnight cruise",
+        "activities": [
+          "Morning transfer from Hanoi to the Ha Long Bay pier",
+          "Board an overnight junk-style cruise among the bay's limestone islets",
+          "Kayak or bamboo-boat into Luon Cave",
+          "Sunset on the sundeck"
+        ],
+        "drive_time": "~3-3.5 hrs each way from Hanoi",
+        "lodging_suggestion": "Overnight cruise boat, Ha Long Bay"
+      },
+      {
+        "day_number": 5,
+        "title": "Ha Long Bay caves and islands, back to Hanoi",
+        "activities": [
+          "Morning visit to Sung Sot (Surprise) Cave",
+          "Swim or climb for the panoramic view at Ti Top Island",
+          "Disembark and transfer back to Hanoi by evening"
+        ],
+        "drive_time": "~3-3.5 hrs back to Hanoi",
+        "lodging_suggestion": "Hanoi Old Quarter"
+      },
+      {
+        "day_number": 6,
+        "title": "Hanoi crafts and coffee culture",
+        "activities": [
+          "Ferry or bridge crossing to Bat Trang ceramic village to watch potters at work",
+          "Egg coffee (ca phe trung) at Cafe Giang, the Old Quarter cafe that invented it in 1946",
+          "Wander the 36 Streets of the Old Quarter, each still loosely tied to its historic guild trade"
+        ],
+        "lodging_suggestion": "Hanoi Old Quarter"
+      },
+      {
+        "day_number": 7,
+        "title": "Depart Hanoi",
+        "activities": [
+          "Last-minute shopping for lacquerware or silk on Hang Gai street",
+          "Transfer to Noi Bai International Airport"
+        ],
+        "lodging_suggestion": null
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Pho",
+        "description": "Northern Vietnam's clear, delicate beef or chicken noodle soup, believed to have emerged in the Red River Delta region around Hanoi in the early 20th century and still eaten at breakfast as much as any other meal."
+      },
+      {
+        "place_type": "dish",
+        "name": "Bun cha",
+        "description": "Grilled pork patties and belly served in a sweet-tangy fish-sauce broth over rice vermicelli — a Hanoi specialty that gained global attention after Anthony Bourdain and Barack Obama shared a meal of it at a Hanoi restaurant in 2016."
+      },
+      {
+        "place_type": "drink",
+        "name": "Ca phe trung (egg coffee)",
+        "description": "A thick froth of whisked egg yolk, sugar, and condensed milk over hot coffee, invented in 1946 by Nguyen Van Giang during a wartime milk shortage; his family's Cafe Giang in the Old Quarter still serves it."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Water puppetry (mua roi nuoc)",
+        "description": "An art form dating to 11th-century rice-farming villages in the Red River Delta, where puppeteers stood waist-deep in flooded paddies to work wooden figures on rods; Hanoi's Thang Long Water Puppet Theatre performs it nightly for visitors."
+      },
+      {
+        "place_type": "culture",
+        "name": "The 36 Streets of the Old Quarter",
+        "description": "Hanoi's Old Quarter grew from craft guilds that settled near the royal citadel starting in the 11th century, each given a street named for its trade with the prefix \"Hang\" — Hang Bac (silver), Hang Gai (silk), Hang Ma (votive paper) — a layout still visible today."
+      }
+    ]
+  },
+  {
+    "title": "Cairo, Abu Simbel + Nile Cruise, Egypt",
+    "category": [
+      "city",
+      "nature",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "Egypt"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 8,
+    "best_time_description": "October through April is Egypt's comfortable season, with mild daytime temperatures and cool nights across both Cairo and Upper Egypt. February and March are the sweet spot for the Aswan/Luxor leg — warm and sunny without the brutal summer heat of the south — while December and January are the busiest and most expensive weeks on the Nile.",
+    "best_time_months": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "Pyramids and museum treasures in Cairo, a desert dawn run to Abu Simbel, then four days drifting up the Nile by cruise ship through Kom Ombo and Edfu to Luxor's Valley of the Kings — Egypt's classic first-timer route, hitting all three geographic zones (Cairo, Upper Egypt by air, the Nile itself by boat) in one real, commonly-run itinerary.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Cairo",
+        "activities": [
+          "Settle in near Giza or downtown Cairo",
+          "Evening stroll along the Nile Corniche"
+        ],
+        "lodging_suggestion": "Giza / Cairo"
+      },
+      {
+        "day_number": 2,
+        "title": "Giza Plateau",
+        "activities": [
+          "Great Pyramids of Giza and the Sphinx",
+          "Solar Boat Museum",
+          "Optional camel or horseback ride around the plateau"
+        ],
+        "lodging_suggestion": "Giza / Cairo"
+      },
+      {
+        "day_number": 3,
+        "title": "Cairo city",
+        "activities": [
+          "Egyptian Museum in Tahrir Square",
+          "Khan el-Khalili bazaar",
+          "Islamic Cairo: Sultan Hassan Mosque and Al-Azhar"
+        ],
+        "lodging_suggestion": "Giza / Cairo"
+      },
+      {
+        "day_number": 4,
+        "title": "Cairo → Aswan (fly)",
+        "activities": [
+          "Morning EgyptAir flight Cairo to Aswan (about 1 hr 25 min)",
+          "Philae Temple by boat",
+          "Aswan High Dam",
+          "Sunset felucca sail past Elephantine Island"
+        ],
+        "drive_time": "1.5 hr flight from Cairo",
+        "lodging_suggestion": "Aswan"
+      },
+      {
+        "day_number": 5,
+        "title": "Abu Simbel day trip",
+        "activities": [
+          "Pre-dawn departure for the temples of Abu Simbel",
+          "Great Temple of Ramses II and the Temple of Hathor/Nefertari",
+          "Return to Aswan by mid-afternoon"
+        ],
+        "drive_time": "About 3.5-4 hrs each way by road (280 km); a 45-min flight is also available",
+        "lodging_suggestion": "Aswan"
+      },
+      {
+        "day_number": 6,
+        "title": "Board Nile cruise: Aswan → Kom Ombo → Edfu",
+        "activities": [
+          "Board Nile cruise ship in Aswan",
+          "Sail to Kom Ombo, visit the twin temple of Sobek and Horus",
+          "Continue overnight toward Edfu"
+        ],
+        "lodging_suggestion": "Nile cruise ship"
+      },
+      {
+        "day_number": 7,
+        "title": "Edfu → Esna → Luxor",
+        "activities": [
+          "Horse-drawn carriage to the Temple of Horus at Edfu",
+          "Sail through the Esna lock",
+          "Arrive Luxor; sunset felucca or free evening"
+        ],
+        "lodging_suggestion": "Nile cruise ship / Luxor"
+      },
+      {
+        "day_number": 8,
+        "title": "Luxor and depart",
+        "activities": [
+          "Valley of the Kings and the Temple of Hatshepsut on the West Bank",
+          "Karnak Temple and Luxor Temple",
+          "Fly Luxor → Cairo for onward departure"
+        ],
+        "lodging_suggestion": "n/a (departure day)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Koshari",
+        "description": "Widely considered Egypt's national dish: a hearty layered mix of rice, lentils, macaroni and chickpeas, topped with a spiced tomato sauce and crispy fried onions. It arrived in Egypt with 19th-century Indian influence but is now the country's defining street food."
+      },
+      {
+        "place_type": "dish",
+        "name": "Ful wi ta'ameya",
+        "description": "Egypt's classic breakfast duo — ful medames (stewed, mashed fava beans) alongside ta'ameya, Egypt's own fava-bean version of falafel (as opposed to the chickpea falafel found elsewhere in the region), both with roots going back millennia."
+      },
+      {
+        "place_type": "drink",
+        "name": "Karkade (hibiscus tea)",
+        "description": "A deep-red, tart infusion of dried hibiscus petals, served hot or iced. Upper Egypt around Aswan and Qena is one of the country's main hibiscus-growing regions, so karkade is especially associated with the Aswan leg of a Nile trip."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Felucca sailing on the Nile",
+        "description": "The felucca is a traditional wide-sailed wooden boat, unchanged in basic design since Pharaonic times, still used around Aswan and Luxor for sunset sails and short crossings to river islands and Nubian villages."
+      },
+      {
+        "place_type": "culture",
+        "name": "Nubian culture around Aswan",
+        "description": "The Nubian people, whose roots trace back over 4,000 years to ancient kingdoms south of Egypt, live along the Nile around Aswan in villages known for brightly painted homes; many were relocated here after the High Dam's construction flooded their original settlements in the 1960s."
+      }
+    ]
+  },
+  {
+    "title": "Marrakech & the Sahara Desert, Morocco",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "International",
+    "countries": [
+      "Morocco"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "Spring (March to May) and fall (September to November) hit the sweet spot for this route: warm, comfortable days in Marrakech and the High Atlas without the Sahara's brutal mid-summer heat (daytime temps regularly top 45C/113F in Merzouga from June to August, and some desert camps scale back). October and November are especially good for the desert leg — clear skies, cooler nights, and better stargazing at the camp.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November"
+    ],
+    "description": "A classic loop from Marrakech's medina over the High Atlas Mountains to the dunes of the Sahara — the kasbah of Ait Benhaddou, the Dades Valley, and a camel trek into Erg Chebbi to sleep under the stars, before looping back through Ouarzazate's film studios.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Marrakech",
+        "activities": [
+          "Settle into a riad in the Medina",
+          "Evening at Jemaa el-Fnaa — food stalls, snake charmers, and storytellers as the square comes alive after dark"
+        ],
+        "lodging_suggestion": "Marrakech Medina"
+      },
+      {
+        "day_number": 2,
+        "title": "Marrakech city day",
+        "activities": [
+          "Bahia Palace and the Saadian Tombs",
+          "Majorelle Garden and the Yves Saint Laurent Museum",
+          "Wander the souks of the Medina"
+        ],
+        "lodging_suggestion": "Marrakech Medina"
+      },
+      {
+        "day_number": 3,
+        "title": "Over the High Atlas to the Dades Valley",
+        "activities": [
+          "Cross the High Atlas via the Tizi n'Tichka Pass (2,260m)",
+          "Explore the UNESCO-listed kasbah of Ait Benhaddou",
+          "Continue into the Dades Valley, the 'Valley of a Thousand Kasbahs'"
+        ],
+        "drive_time": "~7 hrs total (Marrakech to Ait Benhaddou ~3-4 hrs; Ait Benhaddou to Dades Valley ~3 hrs)",
+        "lodging_suggestion": "Boumalne Dades / Dades Gorge"
+      },
+      {
+        "day_number": 4,
+        "title": "Todra Gorge to the Sahara",
+        "activities": [
+          "Stop at Todra Gorge, a narrow limestone canyon popular with rock climbers",
+          "Drive on to Merzouga at the edge of Erg Chebbi",
+          "Camel trek into the dunes for sunset and an overnight stay at a desert camp"
+        ],
+        "drive_time": "~4-5 hrs (Dades Valley to Merzouga via Tinghir/Todra Gorge)",
+        "lodging_suggestion": "Erg Chebbi desert camp, Merzouga"
+      },
+      {
+        "day_number": 5,
+        "title": "Sahara sunrise to Ouarzazate",
+        "activities": [
+          "Sunrise over the dunes, camel ride back to Merzouga",
+          "Drive back across the Dades Valley to Ouarzazate",
+          "Visit Ouarzazate's Atlas Film Studios and the Taourirt Kasbah"
+        ],
+        "drive_time": "~6 hrs (Merzouga to Ouarzazate)",
+        "lodging_suggestion": "Ouarzazate"
+      },
+      {
+        "day_number": 6,
+        "title": "Back to Marrakech",
+        "activities": [
+          "Cross the Tizi n'Tichka Pass back to Marrakech",
+          "Afternoon at a traditional hammam to unwind after the road trip"
+        ],
+        "drive_time": "~4 hrs (Ouarzazate to Marrakech)",
+        "lodging_suggestion": "Marrakech Medina"
+      },
+      {
+        "day_number": 7,
+        "title": "Depart Marrakech",
+        "activities": [
+          "Last-minute shopping in the souks for lanterns, leather, and spices",
+          "Fly home"
+        ],
+        "lodging_suggestion": "Marrakech Medina"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Tagine",
+        "description": "A slow-cooked stew named for the conical clay pot it simmers in — chicken with preserved lemon and olives, or lamb with prunes and almonds, are two of the most common versions found from Marrakech to the desert."
+      },
+      {
+        "place_type": "dish",
+        "name": "Couscous",
+        "description": "Traditionally served on Fridays after communal prayers, steamed semolina piled with seven vegetables and meat — a weekly family ritual as much as a dish."
+      },
+      {
+        "place_type": "drink",
+        "name": "Moroccan mint tea (atay)",
+        "description": "Green tea brewed with fresh spearmint and sugar, poured from a height to build a froth on top; offering three rounds of tea is a core hospitality ritual across the country, from riads to Berber tents."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Berber desert camps of Erg Chebbi",
+        "description": "Berber guides lead camel treks into the dunes around Merzouga for sunset and sunrise, with communal drumming and singing around the fire at the camp afterward — a tradition rooted in the region's nomadic trading routes across the Sahara."
+      },
+      {
+        "place_type": "culture",
+        "name": "Hammam",
+        "description": "The traditional steam bathhouse, found in nearly every neighborhood, where a black-soap scrub and communal bathing are a weekly ritual rather than a spa indulgence — many riads in Marrakech offer a version for visitors."
+      }
+    ]
   }
 ]
