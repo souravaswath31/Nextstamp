@@ -21,7 +21,7 @@ export type VisaStatus = {
 
 const VERIFICATION_WINDOW_DAYS = 180;
 
-function isDocumentLive(doc: HeldDocument, asOf: Date) {
+export function isDocumentLive(doc: HeldDocument, asOf: Date) {
   return !doc.validUntil || doc.validUntil > asOf;
 }
 
@@ -132,4 +132,47 @@ export async function getCascadeExplorer(passportCountry: string, documentCountr
   return Array.from(byDestination.values()).sort(
     (a, b) => rank[a.visaType] - rank[b.visaType]
   );
+}
+
+const EASY_ACCESS_STATUSES = new Set<VisaStatus["status"]>([
+  "resident",
+  "visa-free",
+  "visa-on-arrival",
+]);
+
+/**
+ * All destinations this specific user (their passport + whatever documents
+ * they hold) can currently enter without arranging a visa in advance —
+ * resident status, visa-free, and visa-on-arrival. e-visa and
+ * advance-visa-required are excluded since both require action before
+ * travel, not just at the border.
+ *
+ * Only covers destinations this user actually has a rule or held document
+ * for, so it's exactly as complete as the visa engine's current coverage —
+ * not every country in the world, just every one NextStamp has researched
+ * for this passport (plus anywhere a held document already grants status).
+ */
+export async function getEasyAccessDestinations(
+  user: User & { heldDocuments: HeldDocument[] },
+  asOf: Date = new Date()
+): Promise<VisaStatus[]> {
+  const ruleDestinations = await prisma.visaRule.findMany({
+    where: { passportCountry: user.passportCountry },
+    distinct: ["destinationCountry"],
+    select: { destinationCountry: true },
+  });
+
+  const destinations = new Set(ruleDestinations.map((d) => d.destinationCountry));
+  for (const doc of user.heldDocuments) {
+    if (isDocumentLive(doc, asOf)) destinations.add(doc.country);
+  }
+  destinations.delete(user.passportCountry);
+
+  const statuses = await Promise.all(
+    Array.from(destinations).map((country) => getVisaStatusForUser(user, country, asOf))
+  );
+
+  return statuses
+    .filter((s) => EASY_ACCESS_STATUSES.has(s.status))
+    .sort((a, b) => a.destinationCountry.localeCompare(b.destinationCountry));
 }

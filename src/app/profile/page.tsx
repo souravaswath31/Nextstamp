@@ -1,21 +1,30 @@
 import { getCurrentUser } from "@/lib/currentUser";
-import { getCascadeExplorer } from "@/lib/visa";
+import { getCascadeExplorer, getEasyAccessDestinations } from "@/lib/visa";
 import { addHeldDocument, removeHeldDocument, updatePassportCountry, signOutAction } from "@/lib/actions";
 import { VISA_STATUS_BORDER_CLASSES, VISA_STATUS_TEXT_CLASSES } from "@/lib/types";
 import { getExpiryStatus, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
-import { FileStack, Unlock, Trash2, Plus, LogOut } from "lucide-react";
+import { FileStack, Unlock, Trash2, Plus, LogOut, Globe2 } from "lucide-react";
 
 export const dynamic = "force-dynamic";
+
+const EASY_ACCESS_LABELS: Record<string, string> = {
+  resident: "Already have status",
+  "visa-free": "Visa-free",
+  "visa-on-arrival": "Visa on arrival",
+};
 
 export default async function ProfilePage() {
   const user = await getCurrentUser();
 
-  const cascadeSections = await Promise.all(
-    user.heldDocuments.map(async (doc) => ({
-      doc,
-      unlocks: await getCascadeExplorer(user.passportCountry, doc.country),
-    }))
-  );
+  const [cascadeSections, easyAccess] = await Promise.all([
+    Promise.all(
+      user.heldDocuments.map(async (doc) => ({
+        doc,
+        unlocks: await getCascadeExplorer(user.passportCountry, doc.country),
+      }))
+    ),
+    getEasyAccessDestinations(user),
+  ]);
 
   return (
     <div className="space-y-14">
@@ -101,6 +110,41 @@ export default async function ProfilePage() {
             <Plus size={15} /> Add document
           </button>
         </form>
+      </section>
+
+      <section>
+        <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
+          <Globe2 size={20} className="text-ink/35" /> Where you can go without a visa hassle
+        </h2>
+        <p className="mt-1 font-body text-sm text-ink/55">
+          Destinations your {user.passportCountry} passport{user.heldDocuments.length > 0 ? " and held documents" : ""}{" "}
+          get you into visa-free, on arrival, or where you already hold status — no advance
+          application needed. Limited to the {easyAccess.length + " "}
+          {easyAccess.length === 1 ? "destination" : "destinations"} NextStamp has researched
+          for this passport so far, not every country in the world.
+        </p>
+
+        {easyAccess.length === 0 ? (
+          <p className="mt-4 font-body text-sm text-ink/50">
+            No easy-access destinations on file yet for this passport — check back as the
+            visa engine's coverage grows.
+          </p>
+        ) : (
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {easyAccess.map((status) => (
+              <div
+                key={status.destinationCountry}
+                className={`rounded-card border-l-2 bg-paper px-4 py-3 shadow-paper ${VISA_STATUS_BORDER_CLASSES[status.status] ?? "border-l-charcoal/30 bg-charcoal/5"}`}
+              >
+                <p className="font-body text-sm text-ink">{status.destinationCountry}</p>
+                <p className={`font-stamp text-[11px] uppercase ${VISA_STATUS_TEXT_CLASSES[status.status] ?? "text-ink/60"}`}>
+                  {EASY_ACCESS_LABELS[status.status] ?? status.status}
+                  {status.viaCascade ? " · via held document" : ""}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
       </section>
 
       <section>
