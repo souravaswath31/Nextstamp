@@ -6059,5 +6059,743 @@
         "coffee_wifi_spot": null
       }
     ]
+  },
+  {
+    "title": "Cajun Country: Lafayette, the Atchafalaya Basin & the Prairie",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Spring (crawfish season, running roughly February through June) puts the region's boils and festivals in full swing, and mild temperatures make swamp tours comfortable; the Breaux Bridge Crawfish Festival runs the first weekend of May.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May"
+    ],
+    "description": "Zydeco dance halls, a paddle through the nation's largest river swamp, and small Acadiana towns that stay well off the New Orleans tourist trail.",
+    "cost_tier": "mid",
+    "related_states": [
+      "louisiana"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Lafayette",
+        "activities": [
+          "Vermilionville living-history village along Bayou Vermilion",
+          "Live Cajun/zydeco music at Blue Moon Saloon"
+        ],
+        "drive_time": "~2.5 hrs from New Orleans",
+        "lodging_suggestion": "Lafayette",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Atchafalaya Basin & Breaux Bridge",
+        "activities": [
+          "Guided swamp tour into the Atchafalaya Basin from Henderson",
+          "Zydeco breakfast at Cafe des Amis in Breaux Bridge",
+          "Stroll downtown Breaux Bridge, the state-declared Crawfish Capital of the World"
+        ],
+        "drive_time": "~20 min from Lafayette to Henderson",
+        "lodging_suggestion": "Breaux Bridge",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "St. Martinville & New Iberia",
+        "activities": [
+          "Evangeline Oak and the Longfellow-Evangeline State Historic Site in St. Martinville",
+          "Shadows-on-the-Teche historic house museum in downtown New Iberia"
+        ],
+        "drive_time": "~20 min from Breaux Bridge to St. Martinville, then ~20 min on to New Iberia",
+        "lodging_suggestion": "New Iberia",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Avery Island",
+        "activities": [
+          "TABASCO factory tour and museum",
+          "Jungle Gardens loop for Bird City's egret rookery"
+        ],
+        "drive_time": "~15 min from New Iberia",
+        "lodging_suggestion": "Lafayette",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Mamou & Ville Platte",
+        "activities": [
+          "Fred's Lounge in Mamou for the Saturday-morning Cajun jam and live KVPI radio broadcast (Saturdays only)",
+          "Boudin stops through Ville Platte on the way back"
+        ],
+        "drive_time": "~1 hr from Lafayette to Mamou",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Seattle & the San Juan Islands",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 6,
+    "best_time_description": "Late May through September brings the driest weather and the best odds of spotting resident orca pods near Lime Kiln Point, and Washington State Ferries run their fullest inter-island schedule.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A city-and-ferry trip north from Seattle through the San Juan archipelago, island-hopping by public ferry instead of driving a mountain loop.",
+    "cost_tier": "mid",
+    "related_states": [
+      "washington"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Seattle",
+        "activities": [
+          "Pike Place Market",
+          "Pioneer Square and the downtown waterfront"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Seattle",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Seattle to Friday Harbor, San Juan Island",
+        "activities": [
+          "Drive north to the Anacortes ferry terminal",
+          "Washington State Ferry crossing to Friday Harbor"
+        ],
+        "drive_time": "~1.5 hrs to Anacortes, then ~1 hr ferry crossing",
+        "lodging_suggestion": "Friday Harbor",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "San Juan Island",
+        "activities": [
+          "Lime Kiln Point State Park for land-based whale watching",
+          "American Camp and English Camp, San Juan Island National Historical Park"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Friday Harbor",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "On to Orcas Island",
+        "activities": [
+          "Inter-island Washington State Ferry from Friday Harbor to Orcas Landing",
+          "Drive up Mount Constitution in Moran State Park for the archipelago's highest viewpoint"
+        ],
+        "drive_time": "~1 hr inter-island ferry",
+        "lodging_suggestion": "Eastsound",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Orcas Island",
+        "activities": [
+          "Eastsound village galleries and waterfront",
+          "Sea kayaking out of Eastsound"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Eastsound",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Return to Seattle",
+        "activities": [
+          "Morning ferry from Orcas back to Anacortes",
+          "Drive south to Seattle for departure"
+        ],
+        "drive_time": "~1 hr ferry, then ~1.5 hrs drive to Seattle",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "St. Louis & Kansas City",
+    "category": [
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 6,
+    "best_time_description": "April-May and September-October give mild temperatures for walking both downtowns and Forest Park, avoiding Missouri's humid mid-summer stretch.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Missouri's two biggest cities, three and a half hours apart across I-70, each with its own historic neighborhoods, museums, and barbecue rivalry.",
+    "cost_tier": "mid",
+    "related_states": [
+      "missouri"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "St. Louis: the Arch",
+        "activities": [
+          "Gateway Arch grounds and riverfront",
+          "Downtown St. Louis walk"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "St. Louis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Forest Park & the Hill",
+        "activities": [
+          "Saint Louis Art Museum and City Museum near Forest Park",
+          "Dinner in the Hill, St. Louis's historic Italian neighborhood"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "St. Louis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Soulard & the Delmar Loop",
+        "activities": [
+          "Soulard Farmers Market and the Soulard historic district",
+          "Delmar Loop shops and music venues"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "St. Louis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to Kansas City",
+        "activities": [
+          "I-70 west across Missouri, with a stop in Columbia at the halfway point"
+        ],
+        "drive_time": "~4 hrs from St. Louis",
+        "lodging_suggestion": "Kansas City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "18th & Vine and the Crossroads",
+        "activities": [
+          "American Jazz Museum and Negro Leagues Baseball Museum in the 18th & Vine Jazz District",
+          "Nelson-Atkins Museum of Art",
+          "Crossroads Arts District galleries"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Kansas City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Country Club Plaza & West Bottoms",
+        "activities": [
+          "Country Club Plaza's Spanish Revival shopping district",
+          "West Bottoms vintage shops",
+          "Kansas City barbecue"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Kansas City",
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "The Berkshires",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Early-to-mid October brings peak fall foliage across the hills; June through early September overlaps with the Tanglewood summer concert season in Lenox.",
+    "best_time_months": [
+      "June",
+      "July",
+      "September",
+      "October"
+    ],
+    "description": "Western Massachusetts hill towns, art museums, and a concert lawn, about two and a half hours from Boston and genuinely another region from Cape Cod.",
+    "cost_tier": "mid",
+    "related_states": [
+      "massachusetts"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Boston to Lenox",
+        "activities": [
+          "Drive west on the Mass Pike into the Berkshires",
+          "Explore downtown Lenox and the Tanglewood grounds"
+        ],
+        "drive_time": "~2.5 hrs from Boston",
+        "lodging_suggestion": "Lenox",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Stockbridge",
+        "activities": [
+          "Norman Rockwell Museum",
+          "Chesterwood, sculptor Daniel Chester French's summer estate"
+        ],
+        "drive_time": "~10 min from Lenox",
+        "lodging_suggestion": "Lenox",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Great Barrington",
+        "activities": [
+          "Main Street shops and galleries",
+          "Monument Mountain hike"
+        ],
+        "drive_time": "~20 min from Stockbridge",
+        "lodging_suggestion": "Great Barrington",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "North Adams",
+        "activities": [
+          "MASS MoCA contemporary art galleries in a former mill complex",
+          "Scenic drive to the summit of Mount Greylock, the state's highest point"
+        ],
+        "drive_time": "~40 min from Great Barrington",
+        "lodging_suggestion": "North Adams",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Williamstown & return",
+        "activities": [
+          "Clark Art Institute",
+          "Drive back to Boston"
+        ],
+        "drive_time": "~10 min from North Adams to Williamstown, then ~3 hrs back to Boston",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Detroit: Midtown, Corktown & the Riverfront",
+    "category": [
+      "city",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "May through September for the Detroit RiverWalk, Belle Isle, and Eastern Market's full outdoor season, though the Detroit Institute of Arts and Motown Museum make this a solid indoor-heavy trip in winter too.",
+    "best_time_months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Detroit's Midtown museums, Corktown's revival, and a Saturday morning at Eastern Market — a city break that has nothing to do with the state's lake shores.",
+    "cost_tier": "mid",
+    "related_states": [
+      "michigan"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Downtown & the Riverfront",
+        "activities": [
+          "Check in downtown",
+          "Detroit RiverWalk along the Detroit River",
+          "Renaissance Center area"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Detroit (Downtown)",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Midtown Museums",
+        "activities": [
+          "Detroit Institute of Arts",
+          "Motown Museum (Hitsville U.S.A.)",
+          "Wayne State University's Cultural Center"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Detroit (Midtown)",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Corktown & Mexicantown",
+        "activities": [
+          "Michigan Central Station plaza, Detroit's oldest neighborhood",
+          "Corktown restaurants and bars",
+          "Dinner in Mexicantown"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Detroit",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Eastern Market & Belle Isle",
+        "activities": [
+          "Saturday market at Eastern Market (6am-4pm)",
+          "Market district murals",
+          "Belle Isle Park: conservatory and aquarium"
+        ],
+        "drive_time": "~10 min from Corktown",
+        "lodging_suggestion": "Detroit",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Dearborn day trip",
+        "activities": [
+          "The Henry Ford Museum of American Innovation",
+          "Greenfield Village"
+        ],
+        "drive_time": "~20 min from Detroit",
+        "lodging_suggestion": "Detroit",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Ann Arbor & depart",
+        "activities": [
+          "University of Michigan campus",
+          "Kerrytown Market & Shops",
+          "Depart from Detroit Metro Airport (DTW)"
+        ],
+        "drive_time": "~55 min from Detroit",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Salt Lake City & Park City",
+    "category": [
+      "city",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "December through March for skiing at Park City Mountain, Deer Valley, and the Cottonwood Canyon resorts — snowfall varies significantly year to year (the 2025-26 season closed roughly three weeks early after a warm, dry winter), so confirm each resort's opening/closing dates before booking. June through September trades the snow for hiking and mountain biking on the same peaks.",
+    "best_time_months": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "description": "Salt Lake City's walkable neighborhoods paired with a ski-town splurge in Park City and the Cottonwood Canyons — the state's other side, away from the national-park road trip.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "utah"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Salt Lake City: Downtown & Capitol Hill",
+        "activities": [
+          "Check in downtown Salt Lake City",
+          "Utah State Capitol grounds",
+          "Marmalade District on Capitol Hill"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Salt Lake City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Salt Lake City Neighborhoods",
+        "activities": [
+          "9th & 9th shops and cafes",
+          "Sugar House neighborhood",
+          "Downtown dinner"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Salt Lake City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Little Cottonwood Canyon",
+        "activities": [
+          "Alta Ski Area",
+          "Snowbird Resort (ski in winter, or the aerial tram in summer)"
+        ],
+        "drive_time": "~40 min from Salt Lake City",
+        "lodging_suggestion": "Salt Lake City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to Park City",
+        "activities": [
+          "Drive to Park City via I-80",
+          "Historic Main Street",
+          "Park City Museum"
+        ],
+        "drive_time": "~40 min from Salt Lake City",
+        "lodging_suggestion": "Park City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Park City Mountain",
+        "activities": [
+          "Ski or ride Park City Mountain Resort",
+          "Main Street dinner"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Park City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Deer Valley & depart",
+        "activities": [
+          "Deer Valley Resort",
+          "Drive to Salt Lake City International Airport"
+        ],
+        "drive_time": "~40 min from Park City",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "North Carolina's Outer Banks",
+    "category": [
+      "water",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "May and September-October for warm water with thinner crowds; June-August is peak beach season but hot, crowded, and priciest. Atlantic hurricane season runs June through November, so watch the forecast for any late-summer or fall trip.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A barrier-island drive from the wild horses of Corolla to the Wright Brothers' dunes and a free ferry out to Ocracoke — a genuinely different coast from Blue Ridge NC, several hours east.",
+    "cost_tier": "mid",
+    "related_states": [
+      "north-carolina"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Corolla",
+        "activities": [
+          "Corolla Wild Horse 4x4 tour",
+          "Currituck Beach Lighthouse"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Corolla",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Duck & Kitty Hawk",
+        "activities": [
+          "Duck's waterfront boardwalk and shops",
+          "Beach time in Kitty Hawk"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Duck",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Kill Devil Hills & Nags Head",
+        "activities": [
+          "Wright Brothers National Memorial",
+          "Jockey's Ridge State Park, the East Coast's tallest natural sand dune system"
+        ],
+        "drive_time": "~50 min from Duck",
+        "lodging_suggestion": "Nags Head",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Down Hatteras Island",
+        "activities": [
+          "Bodie Island Lighthouse",
+          "Pea Island National Wildlife Refuge",
+          "Cape Hatteras Lighthouse grounds (currently closed to climbing for restoration)"
+        ],
+        "drive_time": "~1 hr 40 min from Nags Head via NC-12 and the Marc Basnight Bridge",
+        "lodging_suggestion": "Hatteras Village",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Ferry to Ocracoke",
+        "activities": [
+          "Free vehicle ferry to Ocracoke Island (about 70 minutes)",
+          "Ocracoke Village and the 1823 Ocracoke Lighthouse",
+          "Springer's Point"
+        ],
+        "drive_time": "70-min free ferry from Hatteras",
+        "lodging_suggestion": "Ocracoke Village",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Ferry back to Hatteras",
+          "Drive north toward Norfolk International Airport (~3 hrs) or Raleigh"
+        ],
+        "drive_time": "70-min ferry, then ~3 hrs to Norfolk",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Portland, Maine & the Midcoast",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "June through October for Portland's outdoor dining and the Midcoast harbor towns; September is especially good for foliage starting on the coast with fewer summer crowds. Many Midcoast boat tours and attractions scale back or close after Columbus Day.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "description": "Portland's Old Port food scene and West End rowhouses, then a Route 1 run through Freeport, Brunswick, Boothbay Harbor, and Camden — Maine's city-and-harbor-towns side, not its national park.",
+    "cost_tier": "mid",
+    "related_states": [
+      "maine"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Portland: Old Port",
+        "activities": [
+          "Old Port waterfront and shops",
+          "Dinner at Eventide Oyster Co.",
+          "Portland Head Light in Cape Elizabeth"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Portland",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Portland Neighborhoods",
+        "activities": [
+          "West End rowhouses and Tandem Coffee + Bakery",
+          "Munjoy Hill and the Eastern Promenade",
+          "East Bayside breweries"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Portland",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Freeport & Brunswick",
+        "activities": [
+          "L.L.Bean Flagship Store",
+          "Freeport outlet shopping",
+          "Bowdoin College campus, Brunswick"
+        ],
+        "drive_time": "~20 min from Portland to Freeport",
+        "lodging_suggestion": "Freeport",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Boothbay Harbor",
+        "activities": [
+          "Boothbay Harbor waterfront",
+          "Maine State Aquarium",
+          "Harbor boat tour"
+        ],
+        "drive_time": "~55 min from Brunswick",
+        "lodging_suggestion": "Boothbay Harbor",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Camden",
+        "activities": [
+          "Hike or drive Mount Battie, Camden Hills State Park",
+          "Camden Harbor and the windjammer fleet",
+          "Harbor-front dinner"
+        ],
+        "drive_time": "~1 hr from Boothbay Harbor",
+        "lodging_suggestion": "Camden",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Drive back to Portland for departure"
+        ],
+        "drive_time": "~1 hr 40 min from Camden to Portland",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
   }
 ]
