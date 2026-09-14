@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Image from "next/image";
 import { Mail, Send, CheckCircle2 } from "lucide-react";
 import { createClient } from "@/utils/supabase/client";
 
@@ -27,12 +28,13 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="flex min-h-[80vh] items-center justify-center px-4">
+    <div
+      className="-mx-5 flex min-h-[80vh] items-center justify-center rounded-hero bg-cover bg-center px-4 sm:-mx-8"
+      style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+    >
       <div className="w-full max-w-sm space-y-8 rounded-hero bg-paper p-9 shadow-paper-lg">
         <div className="text-center">
-          <span className="stamp-mark mx-auto flex h-14 w-14 items-center justify-center border-coral text-coral">
-            <span className="font-stamp text-xl font-bold">N</span>
-          </span>
+          <Image src="/icon-badge.png" alt="" width={56} height={56} className="mx-auto h-14 w-14" />
           <h1 className="mt-4 font-display text-3xl tracking-tightest text-ink">
             Next<span className="text-coral">Stamp</span>
           </h1>

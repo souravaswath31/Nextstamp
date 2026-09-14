@@ -19,7 +19,10 @@ export default async function OnboardingPage() {
   }
 
   return (
-    <div className="flex min-h-[80vh] items-center justify-center px-4">
+    <div
+      className="-mx-5 flex min-h-[80vh] items-center justify-center rounded-hero bg-cover bg-center px-4 sm:-mx-8"
+      style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+    >
       <div className="w-full max-w-sm space-y-8 rounded-hero bg-paper p-9 shadow-paper-lg">
         <div className="text-center">
           <span className="stamp-mark mx-auto flex h-14 w-14 items-center justify-center border-stamp text-stamp">
