@@ -96,7 +96,7 @@ leave this route in the deployed app.
 ```
 prisma/schema.prisma        Data model (see below)
 prisma/seed.ts               Seeds global content from data/*.json — never touches users
-data/itineraries-seed.json   79 itineraries: day-by-day, food_culture (international only), related_states (domestic only)
+data/itineraries-seed.json   109 itineraries: day-by-day, food_culture (international only), related_states (domestic only)
 data/state-guides-seed.json  50 states × ~17 places each (amazing/common/hidden/food_culture)
 data/visa-rules-seed.json    114 rules: 8 passports × up to 13 destinations each
 scripts/generate_itinerary_draft.py   Draft generator for a state's places (see below)
@@ -169,12 +169,12 @@ design**:
 - **International** itineraries (11 of them — UAE, Indonesia, Maldives+Sri Lanka, Turkey,
   Costa Rica, Georgia+Armenia, Colombia, Peru, Philippines, Serbia, Mexico) carry their own
   `food_culture` array, because no state guide exists to link to.
-- **Domestic** itineraries (68 of them across all 50 states — 20 states have two, 30 have
-  one) set `related_states` instead — the itinerary detail page then renders a "this trip's
-  food/culture depth lives in the [State] guide" card that links to `/state/[slug]`, rather
-  than re-researching content that already exists. If you add a new domestic itinerary,
-  follow this pattern — do not write a new `food_culture` array for a state that already has
-  a guide.
+- **Domestic** itineraries (98 of them across all 50 states — every state has exactly two;
+  see "Content pipeline engines" below for how this got finished) set `related_states`
+  instead — the itinerary detail page then renders a "this trip's food/culture depth lives in
+  the [State] guide" card that links to `/state/[slug]`, rather than re-researching content
+  that already exists. If you add a new domestic itinerary, follow this pattern — do not
+  write a new `food_culture` array for a state that already has a guide.
 
 ## Content pipeline engines — how new content gets added now
 
@@ -194,10 +194,21 @@ tradeoff). The pattern for both is identical:
    These scripts cannot check facts, only structure — see their docstrings.
 3. **Reseed** — `npm run seed` (safe to run against production; see above).
 
-**Itinerary engine status:** 20 of 50 states have a second, differently-themed itinerary
-(vs. 12 after round 1, this file's stated 30-remaining as of the last update). Pick states
-without a second itinerary, dispatch 4-per-agent research batches (that ratio has worked
-well), validate, merge, reseed.
+**Concurrency note, learned the hard way in round 3:** if you dispatch multiple research
+agents in parallel and any of them have read access to this repo (they generally do), some
+will notice `scripts/validate_itineraries.py` exists and — reasonably, since nothing told
+them not to — run it themselves against the live seed file instead of just writing to their
+assigned scratchpad path. If two agents do a read-modify-write on the same JSON file at
+close to the same time, one's merge can silently clobber the other's. Mitigate by explicitly
+telling each agent "write your output to this scratchpad path; merging is the orchestrator's
+job, not yours" — and regardless, after all agents finish, diff the final seed file's
+title list against every batch's own scratchpad output to confirm nothing was dropped before
+trusting the total count.
+
+**Itinerary engine status:** every state has a second, differently-themed itinerary (109
+total itineraries) — the "second itinerary per state" content-depth goal is done. A natural
+next round: a *third* itinerary for the highest-tourism states, or itineraries for whatever
+new international destinations the visa engine adds next (see below).
 
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 13 destinations = 114 rules, all cross-checked with `npx tsx` against the live
@@ -289,10 +300,12 @@ deployed at nextstamp-app.vercel.app, as the sole source of truth.
    API key. Until then, the hand-built SVG terrain illustrations are the intentional look,
    not a placeholder to feel bad about.
 5. **Payment** — deferred by design until the above are further along.
-6. **Content depth** — in progress via the content pipeline engines (see above): 20/50
-   states have a second itinerary (30 remain), 8 passports × 13 destinations of visa
-   coverage (destinations haven't been expanded yet, only passports). No architecture
-   decision needed here, just more research batches through the existing pipeline.
+6. **Content depth** — the "second itinerary per state" goal is **done** (all 50 states,
+   109 total itineraries). Visa coverage is at 8 passports × 13 destinations (destinations
+   haven't been expanded yet, only passports) — a natural next batch is new destinations
+   (paired with itineraries for those same countries), or a third itinerary per state for
+   the highest-tourism ones. No architecture decision needed, just more research batches
+   through the existing pipeline.
 
 ## Known loose ends
 
