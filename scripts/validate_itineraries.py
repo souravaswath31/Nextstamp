@@ -112,8 +112,13 @@ def validate_one(it, existing_titles, state_slugs):
                 fail(reasons, f"day {i} has day_number={day.get('day_number')} (expected sequential from 1, no gaps)")
             if not day.get("title", "").strip():
                 fail(reasons, f"day {i} has an empty title")
-            if not day.get("activities"):
-                fail(reasons, f"day {i} has no activities")
+            # A day CAN legitimately have zero bulleted activities — a pure
+            # travel day ("Fly home", "Drive to Phoenix, fly home") has
+            # nothing else to list, and several of the original hand-curated
+            # itineraries do exactly this. Don't reject it, and don't ever
+            # fabricate a filler activity just to satisfy this check.
+            if "activities" not in day or not isinstance(day["activities"], list):
+                fail(reasons, f"day {i} is missing an 'activities' list (empty [] is fine, but the field must exist)")
 
     dmin, dmax = it.get("duration_days_min"), it.get("duration_days_max")
     if not isinstance(dmin, int) or not isinstance(dmax, int) or dmin > dmax or dmin < 1:
