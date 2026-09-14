@@ -46,7 +46,12 @@ ALLOWED_MONTHS = {
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December",
 }
-MIN_DAYS, MAX_DAYS = 3, 8
+# Upper bound is 10, not 8 — a full-dataset audit found two legitimate
+# original itineraries (a 9-day Rainier-to-Rockies road trip, a 10-day
+# Utah's Mighty 5 loop) that this check was wrongly flagging. Multi-park
+# road trips genuinely run this long; don't reject real content because
+# the range was guessed too tight the first time.
+MIN_DAYS, MAX_DAYS = 3, 10
 
 
 def fail(reasons, msg):
