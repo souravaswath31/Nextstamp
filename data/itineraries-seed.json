@@ -6797,5 +6797,2515 @@
         "coffee_wifi_spot": null
       }
     ]
+  },
+  {
+    "title": "Western Maryland: Deep Creek Lake & Antietam",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Early-to-mid October delivers peak fall foliage across Garrett County's mountains and coincides with the Autumn Glory Festival; the Western Maryland Scenic Railroad's Frostburg Flyer only runs Thursday-Sunday, April through October, so time a mid-week visit accordingly.",
+    "best_time_months": [
+      "September",
+      "October"
+    ],
+    "description": "The Appalachian half of Maryland that most visitors never see: a Civil War battlefield, a mountain railroad, and the state's largest lake.",
+    "cost_tier": "mid",
+    "related_states": [
+      "maryland"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Antietam National Battlefield",
+        "activities": [
+          "Self-guided driving tour of the Antietam battlefield, site of the bloodiest single day in American history",
+          "Antietam National Cemetery",
+          "Sharpsburg's small historic downtown"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Hagerstown",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "The National Road to Cumberland",
+        "activities": [
+          "Drive the historic National Road (US-40) corridor west, with a stop in Hancock",
+          "Cumberland Narrows mountain gap",
+          "Historic downtown Cumberland and the C&O Canal's western terminus"
+        ],
+        "drive_time": "~1 hr 5 min from Hagerstown to Cumberland",
+        "lodging_suggestion": "Cumberland",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Western Maryland Scenic Railroad",
+        "activities": [
+          "Round-trip steam/diesel excursion through the Cumberland Narrows to Frostburg (about 3.5 hours including a layover)",
+          "Thrasher Carriage Museum in Frostburg",
+          "Drive on to the Deep Creek Lake area"
+        ],
+        "drive_time": "~45 min from Frostburg to McHenry",
+        "lodging_suggestion": "McHenry / Deep Creek Lake",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Swallow Falls & Deep Creek Lake",
+        "activities": [
+          "Swallow Falls State Park loop trail past Muddy Creek Falls, Maryland's tallest waterfall",
+          "Deep Creek Lake State Park",
+          "Boating or kayaking on Deep Creek Lake"
+        ],
+        "drive_time": "~15 min from McHenry",
+        "lodging_suggestion": "McHenry / Deep Creek Lake",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Wisp Resort & Depart",
+        "activities": [
+          "Wisp Resort mountain coaster, scenic chairlift, or aerial ropes course",
+          "Depart"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Minneapolis-St. Paul: The Twin Cities",
+    "category": [
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Late May through September has the warmest, driest weather for walking the riverfront and lake paths; late September into early October adds fall color around the Chain of Lakes without winter cold.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Twin downtowns, a river gorge, and one of the country's great urban lake systems, ten minutes apart by car.",
+    "cost_tier": "mid",
+    "related_states": [
+      "minnesota"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Downtown Minneapolis & the Riverfront",
+        "activities": [
+          "Stone Arch Bridge and St. Anthony Falls on the Mississippi River",
+          "Mill City Museum",
+          "Walker Art Center and the Minneapolis Sculpture Garden"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Minneapolis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Chain of Lakes",
+        "activities": [
+          "Bike or walk the paths around Lake of the Isles, Lake Calhoun/Bde Maka Ska, and Lake Harriet",
+          "Minnehaha Falls and Minnehaha Regional Park",
+          "Uptown neighborhood dinner"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Minneapolis",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Downtown St. Paul",
+        "activities": [
+          "Cathedral of Saint Paul",
+          "Summit Avenue's Victorian mansion row, including the James J. Hill House",
+          "Mississippi River gorge views from Indian Mounds Regional Park"
+        ],
+        "drive_time": "~15 min from Minneapolis to St. Paul",
+        "lodging_suggestion": "St. Paul",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Mall of America & Bloomington",
+        "activities": [
+          "Mall of America, the largest mall in the country",
+          "Nickelodeon Universe indoor theme park"
+        ],
+        "drive_time": "~20 min from St. Paul to Bloomington",
+        "lodging_suggestion": "Bloomington",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Mississippi Gulf Coast & Biloxi",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Early October through early December is the sweet spot — driest conditions, temperatures in the 60s-70s, and after the June-November hurricane season's peak risk in August-September has passed.",
+    "best_time_months": [
+      "October",
+      "November"
+    ],
+    "description": "Casino-town beaches, a Frank Gehry-designed art museum, and a barrier-island ferry ride on Mississippi's 26-mile coastline.",
+    "cost_tier": "mid",
+    "related_states": [
+      "mississippi"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Biloxi",
+        "activities": [
+          "Ohr-O'Keefe Museum of Art, designed by Frank Gehry",
+          "Maritime & Seafood Industry Museum",
+          "Biloxi Lighthouse and the Point Cadet waterfront"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Biloxi",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Ship Island",
+        "activities": [
+          "Ferry to Ship Island (about an hour each way, spring-through-fall service)",
+          "Fort Massachusetts tour",
+          "Beach time on the Gulf Islands National Seashore's barrier island"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Biloxi",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Beauvoir & Gulfport",
+        "activities": [
+          "Beauvoir, the last home of Confederate President Jefferson Davis",
+          "Gulfport's Jones Park waterfront"
+        ],
+        "drive_time": "~25 min from Biloxi to Gulfport",
+        "lodging_suggestion": "Gulfport",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Ocean Springs",
+        "activities": [
+          "Walter Anderson Museum of Art",
+          "Gulf Islands National Seashore's mainland unit and Davis Bayou",
+          "Downtown Ocean Springs galleries and shops"
+        ],
+        "drive_time": "~30 min from Gulfport to Ocean Springs",
+        "lodging_suggestion": "Ocean Springs",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Bay St. Louis & Depart",
+        "activities": [
+          "Old Town Bay St. Louis shops and beach",
+          "Depart"
+        ],
+        "drive_time": "~50 min from Ocean Springs to Bay St. Louis",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Missoula & the Bitterroot Valley",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Late May through September for hiking and boating; late April's arrowleaf balsamroot bloom turns the valley's foothills yellow, and October brings crisp fall color without Glacier's much longer drive north.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A university river town and the Lewis and Clark valley south of it — a genuinely different corner of Montana from Glacier's alpine crowds, over two hours to the north.",
+    "cost_tier": "budget",
+    "related_states": [
+      "montana"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Missoula",
+        "activities": [
+          "Downtown Missoula and Caras Park along the Clark Fork River",
+          "University of Montana campus and the 'M' Trail overlook",
+          "Missoula Art Museum"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Missoula",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Rattlesnake National Recreation Area",
+        "activities": [
+          "Hiking or mountain biking the Rattlesnake Corridor Trail",
+          "Rattlesnake Wilderness views"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Missoula",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Traveler's Rest & the Bitterroot Valley",
+        "activities": [
+          "Traveler's Rest State Park in Lolo, the only archaeologically confirmed Lewis and Clark campsite",
+          "Drive south through the Bitterroot Valley on Highway 93",
+          "Daly Mansion in Hamilton, the Copper King's 50-room summer home"
+        ],
+        "drive_time": "~55 min from Missoula to Hamilton",
+        "lodging_suggestion": "Hamilton",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Painted Rocks State Park",
+        "activities": [
+          "Scenic drive up the West Fork Valley to Painted Rocks Reservoir",
+          "Canoeing, fishing, or a lakeside picnic",
+          "Return to Missoula"
+        ],
+        "drive_time": "~1 hr each way from Hamilton to Painted Rocks, then ~1 hr back to Missoula",
+        "lodging_suggestion": "Missoula",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Omaha & Lincoln",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 4,
+    "best_time_description": "Late spring (May-June) and early fall (September-October) bring mild temperatures for walking the Old Market and Haymarket districts, avoiding both midsummer humidity and winter cold.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Nebraska's two biggest cities, an hour apart on I-80 — riverfront parks, a world-class zoo, and the state capitol dome.",
+    "cost_tier": "budget",
+    "related_states": [
+      "nebraska"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Omaha's Old Market & Riverfront",
+        "activities": [
+          "Omaha's Old Market district, cobblestone streets and converted warehouses",
+          "Gene Leahy Mall and the Bob Kerrey Pedestrian Bridge over the Missouri River",
+          "Durham Museum in Omaha's former Union Station"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Omaha",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Henry Doorly Zoo & Aquarium",
+        "activities": [
+          "Henry Doorly Zoo and Aquarium, home to the world's largest indoor desert and rainforest domes",
+          "Lauritzen Gardens"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Omaha",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Lincoln",
+        "activities": [
+          "Nebraska State Capitol, one of the tallest state capitols in the country",
+          "Sunken Gardens",
+          "Haymarket District near the University of Nebraska campus"
+        ],
+        "drive_time": "~1 hr from Omaha to Lincoln",
+        "lodging_suggestion": "Lincoln",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Pioneers Park & Depart",
+        "activities": [
+          "Pioneers Park Nature Center, prairie and woodland trails with a bison herd",
+          "Depart"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Portsmouth & the NH Seacoast",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 4,
+    "best_time_description": "New Hampshire's coast is only about 13-18 miles long, so this stays a compact, dense trip rather than a long touring route — prime season is May through October, with July and August the warmest for beach days and the Isles of Shoals ferry.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A dense long weekend along the shortest coastline of any U.S. coastal state — a working harbor city, a rocky offshore island, and a handful of beach towns packed into under twenty miles.",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-hampshire"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Portsmouth",
+        "activities": [
+          "Strawbery Banke Museum, a 10-acre outdoor history museum on Portsmouth's original 1630 settlement site",
+          "Market Square and the historic downtown",
+          "Prescott Park along the harbor"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Portsmouth",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Isles of Shoals & New Castle",
+        "activities": [
+          "Isles of Shoals Steamship Company narrated tour to the nine-island cluster six miles offshore, with an option to disembark on Star Island",
+          "Scenic drive over the causeway to New Castle, past Wentworth-by-the-Sea and Fort Constitution"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Portsmouth",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Rye & Hampton Beach",
+        "activities": [
+          "Odiorne Point State Park and the Seacoast Science Center in Rye",
+          "Hampton Beach boardwalk and state beach"
+        ],
+        "drive_time": "~25 min from Portsmouth to Hampton Beach via Route 1A",
+        "lodging_suggestion": "Hampton",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Exeter & Depart",
+        "activities": [
+          "Historic downtown Exeter, one of New Hampshire's four original colonial towns and briefly the state capital during the Revolutionary War",
+          "Depart"
+        ],
+        "drive_time": "~25 min from Hampton to Exeter",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Boise & the Snake River Valley",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Late spring (May-June) and September bring dry skies and comfortable temperatures for touring the valley and hiking the dunes; September also lines up with the Snake River Valley's grape harvest.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "Idaho's capital and the high-desert Snake River Valley beyond it — wine country, a Niagara-sized waterfall, and 470-foot sand dunes under some of the darkest skies in the Lower 48.",
+    "cost_tier": "budget",
+    "related_states": [
+      "idaho"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Boise",
+        "activities": [
+          "Basque Block",
+          "Boise River Greenbelt"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Boise",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Sunnyslope Wine Trail",
+        "activities": [
+          "Sunnyslope Wine Trail tastings near Caldwell",
+          "Farm stands in the Treasure Valley"
+        ],
+        "drive_time": "~30 min from Boise",
+        "lodging_suggestion": "Boise",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Bruneau Dunes State Park",
+        "activities": [
+          "Tallest single-structure sand dune in North America",
+          "Dark-sky observatory stargazing"
+        ],
+        "drive_time": "~1.5 hrs from Boise",
+        "lodging_suggestion": "Bruneau",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Twin Falls",
+        "activities": [
+          "Shoshone Falls (\"Niagara of the West\")",
+          "Perrine Bridge & Snake River Canyon Rim Trail"
+        ],
+        "drive_time": "~1.5 hrs from Bruneau",
+        "lodging_suggestion": "Twin Falls",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Hagerman Valley",
+        "activities": [
+          "Thousand Springs State Park waterfalls",
+          "Hagerman Fossil Beds National Monument"
+        ],
+        "drive_time": "~40 min from Twin Falls",
+        "lodging_suggestion": "Hagerman",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Boise (BOI)"
+        ],
+        "drive_time": "~1.5 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Spring (April-May) for wildflowers and flowing creeks at Little Grand Canyon, or the last two weeks of October for peak fall color at Garden of the Gods.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "Sandstone bluffs, a 300-foot box canyon, and Ohio River outlaw-town history in Illinois's rural, forested southern tip — nothing like Chicago.",
+    "cost_tier": "budget",
+    "related_states": [
+      "illinois"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive & Giant City State Park",
+        "activities": [
+          "Giant City Nature Trail",
+          "Dinner at the historic Giant City Lodge"
+        ],
+        "drive_time": "~2 hrs from St. Louis (STL)",
+        "lodging_suggestion": "Makanda",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Little Grand Canyon",
+        "activities": [
+          "Little Grand Canyon Trail loop hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Carbondale",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Garden of the Gods",
+        "activities": [
+          "Observation Trail rock formations",
+          "Camel Rock"
+        ],
+        "drive_time": "~1.5 hrs from Carbondale",
+        "lodging_suggestion": "Herod",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Cave-in-Rock State Park",
+        "activities": [
+          "Cave-in-Rock cave trail",
+          "Free ferry crossing on the Ohio River"
+        ],
+        "drive_time": "~30 min from Garden of the Gods",
+        "lodging_suggestion": "Cave-in-Rock",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Return drive to St. Louis (STL)"
+        ],
+        "drive_time": "~3.25 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Indiana Dunes National Park & Lake Michigan",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Late June through September for warm-enough Lake Michigan swimming, or October for fall color on the forested dune trails with thinner crowds.",
+    "best_time_months": [
+      "June",
+      "July",
+      "September"
+    ],
+    "description": "200-foot sand dunes, prairie and wetland trails, and Lake Michigan beaches an hour from Chicago — a National Park most Midwesterners have never actually visited.",
+    "cost_tier": "mid",
+    "related_states": [
+      "indiana"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive & West Beach",
+        "activities": [
+          "West Beach Dune Succession Trail",
+          "Lake Michigan swimming"
+        ],
+        "drive_time": "~1 hr from Chicago (ORD)",
+        "lodging_suggestion": "Chesterton",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Cowles Bog Trail",
+        "activities": [
+          "Cowles Bog & Greenbelt Trail loop"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chesterton",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Beverly Shores",
+        "activities": [
+          "Century of Progress Architectural District",
+          "Ranger-led Mount Baldy hike"
+        ],
+        "drive_time": "~20 min from Chesterton",
+        "lodging_suggestion": "Beverly Shores",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Michigan City",
+        "activities": [
+          "Washington Park & the 1904 lighthouse pier walk",
+          "Lake Michigan beach"
+        ],
+        "drive_time": "~15 min from Beverly Shores",
+        "lodging_suggestion": "Michigan City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Chicago (ORD)"
+        ],
+        "drive_time": "~1 hr",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Des Moines & Central Iowa",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Early May for Pella's Tulip Time festival, or early-to-mid October for the Madison County Covered Bridge Festival and fall color on the drives out of Des Moines.",
+    "best_time_months": [
+      "May",
+      "October"
+    ],
+    "description": "Iowa's capital paired with two of its most distinctive small towns — a Dutch heritage village and the covered-bridge county that inspired a bestselling novel and film.",
+    "cost_tier": "budget",
+    "related_states": [
+      "iowa"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Des Moines",
+        "activities": [
+          "Pappajohn Sculpture Park",
+          "Historic East Village & Iowa State Capitol"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Des Moines",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Winterset",
+        "activities": [
+          "Madison County covered bridges driving loop",
+          "John Wayne Birthplace Museum"
+        ],
+        "drive_time": "~40 min from Des Moines",
+        "lodging_suggestion": "Des Moines",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Pella",
+        "activities": [
+          "Pella Historical Village & Vermeer Windmill",
+          "Dutch bakery stops"
+        ],
+        "drive_time": "~50 min from Des Moines",
+        "lodging_suggestion": "Des Moines",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Des Moines",
+        "activities": [
+          "Downtown Des Moines Farmers' Market",
+          "Science Center of Iowa"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Des Moines",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Depart Des Moines (DSM)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Wichita & Western Kansas",
+    "category": [
+      "city",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "April-May or September-early October for comfortable driving temperatures across the open plains, avoiding both summer heat and winter wind.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Wichita's Old West history and a two-day push across the high plains to 80-million-year-old chalk formations rising out of nowhere.",
+    "cost_tier": "budget",
+    "related_states": [
+      "kansas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Wichita",
+        "activities": [
+          "Old Cowtown Museum",
+          "Keeper of the Plains"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Wichita",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Wichita to Dodge City",
+        "activities": [
+          "Botanica Wichita gardens"
+        ],
+        "drive_time": "~2.5 hrs from Wichita",
+        "lodging_suggestion": "Dodge City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Dodge City",
+        "activities": [
+          "Boot Hill Museum",
+          "Front Street 1870s replica"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Dodge City",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Garden City & Oakley",
+        "activities": [
+          "Lee Richardson Zoo, Garden City"
+        ],
+        "drive_time": "~1 hr from Dodge City to Garden City, then ~1.5 hrs to Oakley",
+        "lodging_suggestion": "Oakley",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Monument Rocks",
+        "activities": [
+          "Monument Rocks (Chalk Pyramids) National Natural Landmark"
+        ],
+        "drive_time": "~3.75 hrs back to Wichita",
+        "lodging_suggestion": "Wichita",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Depart Wichita (ICT)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Red River Gorge & Appalachian Kentucky",
+    "category": [
+      "nature",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Mid-to-late October for peak fall foliage and prime rock-climbing conditions in the Gorge, or April-May for high water flow at Cumberland Falls and better odds of the moonbow.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "Sandstone arches, working artisan studios, and a 125-foot waterfall famous for its nighttime moonbow — the Appalachian foothills of eastern Kentucky, far from the Bourbon Trail crowds.",
+    "cost_tier": "budget",
+    "related_states": [
+      "kentucky"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive & Red River Gorge",
+        "activities": [
+          "Nada Tunnel drive-through",
+          "Gorge scenic overlooks"
+        ],
+        "drive_time": "~1.25 hrs from Lexington (LEX)",
+        "lodging_suggestion": "Slade",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Red River Gorge hiking",
+        "activities": [
+          "Sky Bridge Trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Slade",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Natural Bridge State Resort Park",
+        "activities": [
+          "Natural Bridge Skylift",
+          "Original Trail hike"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Slade",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Berea",
+        "activities": [
+          "Kentucky Artisan Center",
+          "Old Town Artisan Village galleries"
+        ],
+        "drive_time": "~1.25 hrs from Slade",
+        "lodging_suggestion": "Berea",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Cumberland Falls State Resort Park",
+        "activities": [
+          "Cumberland Falls overlook",
+          "Eagle Falls hike"
+        ],
+        "drive_time": "~1.1 hrs from Berea",
+        "lodging_suggestion": "Corbin",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Return drive to Lexington (LEX)"
+        ],
+        "drive_time": "~1.75 hrs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Rhode Island: Blackstone Valley & the Quiet Corner",
+    "category": [
+      "off-the-beaten-path",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 4,
+    "best_time_description": "Best in early-to-mid fall, when the Blackstone River Valley's maples turn and the Blackstone Valley Explorer riverboat is still running along the heritage corridor; late spring is a quieter, cooler alternative for the same mill-town and back-road stops.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Rhode Island's inland, industrial and rural side: birthplace-of-the-Industrial-Revolution mill towns in the Blackstone Valley and the quiet farm villages of the state's rural northwest corner.",
+    "cost_tier": "budget",
+    "related_states": [
+      "rhode-island"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Pawtucket: Birthplace of American Industry",
+        "activities": [
+          "Old Slater Mill National Historic Landmark, the first successful water-powered cotton mill in the US (1793)",
+          "Blackstone River Valley National Historical Park visitor contact station",
+          "Stroll the Riverwalk along the Blackstone River"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Pawtucket",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Woonsocket's Mill Heritage",
+        "activities": [
+          "Museum of Work & Culture, telling the story of French-Canadian mill workers who came from Quebec",
+          "Market Square historic district",
+          "Blackstone River Bikeway ride"
+        ],
+        "drive_time": "~15 min from Pawtucket",
+        "lodging_suggestion": "Woonsocket",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Chepachet & the Quiet Corner",
+        "activities": [
+          "Brown & Hopkins Country Store in Chepachet, in continuous operation since 1809",
+          "Wander the historic Chepachet village center",
+          "Jerimoth Hill, Rhode Island's highest point, in nearby Foster"
+        ],
+        "drive_time": "~20 min from Woonsocket",
+        "lodging_suggestion": "Glocester",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Scituate Reservoir Back Roads",
+        "activities": [
+          "Scenic drive around the Scituate Reservoir, Rhode Island's largest inland body of water",
+          "North Scituate historic village and its 19th-century church and seminary buildings",
+          "Drive back to Providence for departure"
+        ],
+        "drive_time": "~15 min from Chepachet",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Sioux Falls & Eastern South Dakota",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 4,
+    "best_time_description": "May, June and September bring warm days without the harshest summer heat or humidity; avoid the depths of winter, when overnight lows regularly drop below freezing on the open prairie.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "A budget-friendly prairie road trip through Sioux Falls and the farmland towns of eastern South Dakota, a world away from the Black Hills' mountains and canyons.",
+    "cost_tier": "budget",
+    "related_states": [
+      "south-dakota"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Downtown Sioux Falls",
+        "activities": [
+          "Falls Park, where the Big Sioux River drops over pink quartzite outcrops",
+          "SculptureWalk, an outdoor gallery of 80-plus rotating sculptures downtown",
+          "Old Courthouse Museum, an 1890s Romanesque building of local quartzite"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Sioux Falls",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Palisades State Park",
+        "activities": [
+          "Hike the quartzite canyon trails above Split Rock Creek",
+          "Rock climbing and scrambling among the palisade formations",
+          "Return to Sioux Falls for the evening"
+        ],
+        "drive_time": "~30 min from Sioux Falls",
+        "lodging_suggestion": "Sioux Falls",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "De Smet: Little House on the Prairie",
+        "activities": [
+          "Ingalls Homestead, the family's claim shanty site",
+          "Laura Ingalls Wilder Historic Homes walking tour of De Smet"
+        ],
+        "drive_time": "~1 hr 40 min from Sioux Falls",
+        "lodging_suggestion": "De Smet",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Mitchell: World's Only Corn Palace",
+        "activities": [
+          "The Corn Palace, a Moorish Revival building re-decorated in corn and grains each year",
+          "Drive back to Sioux Falls for departure"
+        ],
+        "drive_time": "~1 hr 15 min from De Smet",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Vermont's Northeast Kingdom",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Best in late summer and early-to-mid fall, when the Kingdom Trails network is fully open for mountain biking, Lake Willoughby is swimmable, and the region's famously early foliage is at its peak; this is Vermont's least-visited corner even in high season.",
+    "best_time_months": [
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "description": "Vermont's most remote and least-touristed region: glacial lakes, a world-class mountain bike trail network, and one-store villages, far removed from Stowe and Manchester's resort towns.",
+    "cost_tier": "mid",
+    "related_states": [
+      "vermont"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Burlington to St. Johnsbury",
+        "activities": [
+          "Drive northeast from Burlington into the Northeast Kingdom",
+          "Fairbanks Museum and Planetarium in St. Johnsbury"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "St. Johnsbury",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Peacham & Danville",
+        "activities": [
+          "Peacham Congregational Church and village green, one of Vermont's most photographed spots",
+          "Peacham Corner Cemetery overlook",
+          "Danville's town green and general store"
+        ],
+        "drive_time": "~25 min from St. Johnsbury",
+        "lodging_suggestion": "St. Johnsbury",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "East Burke, Kingdom Trails & Lake Willoughby",
+        "activities": [
+          "Ride the Kingdom Trails, a 100-plus-mile mountain bike network",
+          "Swim at Lake Willoughby, a glacially carved lake ringed by cliffs",
+          "Mount Pisgah Trail overlook hike in Willoughby State Forest"
+        ],
+        "drive_time": "~20 min from St. Johnsbury",
+        "lodging_suggestion": "East Burke",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Craftsbury Common",
+        "activities": [
+          "Craftsbury Common's classic Vermont town green",
+          "Craftsbury General Store",
+          "Local farm stands along the back roads"
+        ],
+        "drive_time": "~1 hr from East Burke",
+        "lodging_suggestion": "Craftsbury",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Return to Burlington",
+        "activities": [
+          "Drive back to Burlington for departure"
+        ],
+        "drive_time": "~1 hr 35 min from Craftsbury",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Harpers Ferry & the Eastern Panhandle, West Virginia",
+    "category": [
+      "off-the-beaten-path",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "September through late October brings cooler temperatures, thinner crowds than summer's river-tubing season, and Appalachian fall foliage around the Potomac and Shenandoah confluence.",
+    "best_time_months": [
+      "September",
+      "October"
+    ],
+    "description": "West Virginia's northeastern corner, some five hours from New River Gorge: Civil War history at Harpers Ferry and the small towns and mineral springs of the Eastern Panhandle.",
+    "cost_tier": "mid",
+    "related_states": [
+      "west-virginia"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Harpers Ferry Lower Town",
+        "activities": [
+          "Harpers Ferry National Historical Park's lower town",
+          "Jefferson Rock overlook",
+          "Confluence of the Potomac and Shenandoah Rivers"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Harpers Ferry",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Maryland Heights & John Brown's Fort",
+        "activities": [
+          "Maryland Heights hike for the classic overlook of Harpers Ferry",
+          "John Brown's Fort, site of the 1859 raid",
+          "C&O Canal Towpath walk or bike ride"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Harpers Ferry",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Charles Town & Shepherdstown",
+        "activities": [
+          "Jefferson County Museum in Charles Town, with George Washington family history",
+          "Historic downtown Shepherdstown",
+          "O'Hurley's General Store"
+        ],
+        "drive_time": "~15 min from Harpers Ferry",
+        "lodging_suggestion": "Shepherdstown",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Berkeley Springs",
+        "activities": [
+          "Berkeley Springs State Park and the 1815 Roman Bath House",
+          "George Washington's Bathtub mineral spring",
+          "Historic downtown shops and galleries"
+        ],
+        "drive_time": "~50 min from Shepherdstown",
+        "lodging_suggestion": "Berkeley Springs",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Cacapon Resort State Park",
+        "activities": [
+          "Hiking or golf at Cacapon Resort State Park",
+          "Drive back toward Harpers Ferry / DC-area airports for departure"
+        ],
+        "drive_time": "~15 min from Berkeley Springs",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Milwaukee & Madison, Wisconsin",
+    "category": [
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Early June through September brings warm days, festival season (including Milwaukee's Summerfest and Madison's Memorial Union Terrace season), and full patio and farmers' market weather in both cities.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Wisconsin's two largest cities, a lakefront art-and-industry city and the state capital on its isthmus, a very different Wisconsin from the Door County peninsula.",
+    "cost_tier": "mid",
+    "related_states": [
+      "wisconsin"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Milwaukee's Lakefront",
+        "activities": [
+          "Milwaukee Art Museum and its Calatrava-designed Burke Brise Soleil",
+          "Harley-Davidson Museum",
+          "Lake Michigan lakefront"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Milwaukee",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Historic Third Ward",
+        "activities": [
+          "Milwaukee Public Market",
+          "Historic Third Ward gallery and boutique walk",
+          "Milwaukee Riverwalk"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Milwaukee",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Drive to Madison",
+        "activities": [
+          "Wisconsin State Capitol, with its granite dome on the isthmus",
+          "State Street pedestrian mall",
+          "Memorial Union Terrace on Lake Mendota"
+        ],
+        "drive_time": "~1 hr 20 min from Milwaukee",
+        "lodging_suggestion": "Madison",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Madison's Gardens & Campus",
+        "activities": [
+          "Olbrich Botanical Gardens and the Bolz Conservatory",
+          "UW-Madison Arboretum",
+          "Dane County Farmers' Market on the Capitol Square (Saturdays)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Madison",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Spring Green Day Trip",
+        "activities": [
+          "Taliesin, Frank Lloyd Wright's home and studio",
+          "House on the Rock",
+          "Return to Madison for departure"
+        ],
+        "drive_time": "~45 min from Madison",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Cheyenne, Devils Tower & the Wyoming Plains",
+    "category": [
+      "road-trip",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "June through September brings warm, mostly dry weather across the plains and is the prime season at Devils Tower; late July also coincides with Cheyenne Frontier Days, the world's largest outdoor rodeo.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Wyoming's eastern plains and prairie history, from the state capital to Devils Tower and the Oregon Trail, a completely different Wyoming from the mountains of Yellowstone and Grand Teton.",
+    "cost_tier": "budget",
+    "related_states": [
+      "wyoming"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Cheyenne",
+        "activities": [
+          "Wyoming State Capitol, reopened in 2019 after a full restoration",
+          "Cheyenne Frontier Days Old West Museum",
+          "Cheyenne Depot Museum, in the 1886 Union Pacific depot"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cheyenne",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Fort Laramie & the Oregon Trail",
+        "activities": [
+          "Fort Laramie National Historic Site",
+          "Oregon Trail Ruts near Guernsey, worn five feet deep into sandstone",
+          "Register Cliff, where pioneers carved their names"
+        ],
+        "drive_time": "~2 hrs 45 min from Cheyenne, via Fort Laramie and Guernsey",
+        "lodging_suggestion": "Douglas",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Douglas",
+        "activities": [
+          "Wyoming Pioneer Museum at the state fairgrounds",
+          "Ayres Natural Bridge, one of only three natural bridges in the US with water beneath it"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Douglas",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Drive to Devils Tower",
+        "activities": [
+          "Long drive north across the plains to Devils Tower National Monument",
+          "Evening walk of the Tower Trail loop around the base"
+        ],
+        "drive_time": "~3 hrs 40 min from Douglas",
+        "lodging_suggestion": "Sundance",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Devils Tower & Sundance",
+        "activities": [
+          "Devils Tower visitor center and prairie dog town",
+          "Historic downtown Sundance, Wyoming"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Sundance",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Return to Cheyenne",
+        "activities": [
+          "Drive south across the plains back to Cheyenne for departure"
+        ],
+        "drive_time": "~4 hrs 50 min from Devils Tower",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Gulf Coast Alabama: Beaches, Bay & Mobile",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Spring and fall bring warm Gulf water and comfortable temperatures without the worst of the June 1-November 30 hurricane season's mid-August-to-mid-October peak, and without the near-95°F, 90%-humidity midday heat that hits Bellingrath Gardens and the beaches by June through August.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Barrier-island beaches, a bay-crossing car ferry, and Mobile's port-city history along Alabama's short but distinct stretch of Gulf Coast.",
+    "cost_tier": "mid",
+    "related_states": [
+      "alabama"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Gulf Shores",
+        "activities": [
+          "Settle in and walk the beach",
+          "Sunset at the Gulf State Park Pier"
+        ],
+        "drive_time": "~1 hr from Pensacola International Airport (39 miles)",
+        "lodging_suggestion": "Gulf Shores",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Gulf Shores & Orange Beach nature",
+        "activities": [
+          "Jeff Friend Trail at Bon Secour National Wildlife Refuge",
+          "Hike or bike the Gulf State Park trail network",
+          "Afternoon on the beach"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Gulf Shores / Orange Beach",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Fort Morgan & Dauphin Island",
+        "activities": [
+          "Tour the Fort Morgan Historic Site",
+          "Ferry across Mobile Bay to Dauphin Island (about 35 minutes)",
+          "Estuarium at the Dauphin Island Sea Lab",
+          "Fort Gaines"
+        ],
+        "drive_time": "~40 min from Gulf Shores to Fort Morgan, then a 35-min ferry crossing to Dauphin Island",
+        "lodging_suggestion": "Mobile",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Downtown Mobile",
+        "activities": [
+          "USS Alabama at Battleship Memorial Park",
+          "Historic downtown Mobile architecture",
+          "Bellingrath Gardens and Home in the afternoon"
+        ],
+        "drive_time": "~45 min from Dauphin Island to Mobile",
+        "lodging_suggestion": "Mobile",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Fairhope on the Eastern Shore",
+        "activities": [
+          "Fairhope Municipal Pier and bluff-top park",
+          "Browse downtown Fairhope's shops and galleries",
+          "Sunset over Mobile Bay"
+        ],
+        "drive_time": "~30 min from Mobile via the I-10 Bayway",
+        "lodging_suggestion": "Fairhope",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [],
+        "drive_time": "~1 hr from Fairhope to Pensacola International Airport",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Southeast Alaska: Juneau & Ketchikan",
+    "category": [
+      "water",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Boat tours, floatplane charters, and the Alaska Marine Highway ferry all run their fullest schedules from May through September, and humpback whale sightings peak June through August, in what is otherwise one of the rainiest regions in the country.",
+    "best_time_months": [
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "description": "A fly-in, ferry-linked route through Alaska's roadless Inside Passage, where towns exist only because of the water and glaciers around them.",
+    "cost_tier": "mid",
+    "related_states": [
+      "alaska"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Juneau",
+        "activities": [
+          "Nonstop flight from Seattle on Alaska Airlines — Juneau has no road connection to the rest of Alaska or the Lower 48",
+          "Walk downtown Juneau",
+          "Mount Roberts Tramway for alpine views over the Gastineau Channel"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Juneau",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Mendenhall Glacier",
+        "activities": [
+          "Hike to Nugget Falls at Mendenhall Glacier",
+          "Afternoon whale-watching boat tour out of Auke Bay"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Juneau",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Tracy Arm Fjord",
+        "activities": [
+          "Full-day boat tour into Tracy Arm Fjord to see calving glaciers and harbor seals on the ice"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Juneau",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Juneau to Ketchikan",
+        "activities": [
+          "Fly Alaska Airlines to Ketchikan (about 1 hr nonstop) — no road links the two towns; the Alaska Marine Highway ferry covers the same route in roughly 18-20 hours for travelers with more time",
+          "Walk Creek Street's boardwalk over the water",
+          "Tongass Historical Museum"
+        ],
+        "drive_time": "~1 hr flight, or ~18-20 hrs by Alaska Marine Highway ferry",
+        "lodging_suggestion": "Ketchikan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Misty Fjords & totem poles",
+        "activities": [
+          "Floatplane or boat day trip into Misty Fjords National Monument, about 40 miles east of Ketchikan",
+          "Totem Bight State Historical Park's reconstructed totem poles and clan house"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Ketchikan",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "7-minute ferry across the Tongass Narrows to Ketchikan International Airport, which sits on Gravina Island separate from downtown",
+          "Fly home"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Hot Springs & Central Arkansas",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Spring is lush and cool for hiking and touring Bathhouse Row, and October brings the best weather and smallest crowds of the year; early and late summer add swimming at Lake Ouachita if you don't mind the heat.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "Historic bathhouse culture and civil rights history anchor a compact, low-cost loop through central Arkansas.",
+    "cost_tier": "budget",
+    "related_states": [
+      "arkansas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Hot Springs",
+        "activities": [
+          "Walk Bathhouse Row",
+          "Fordyce Bathhouse Visitor Center and museum",
+          "Soak at one of the working bathhouses (Buckstaff or Quapaw Baths)"
+        ],
+        "drive_time": "~1 hr from Bill and Hillary Clinton National Airport, Little Rock (55 miles)",
+        "lodging_suggestion": "Hot Springs",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Hot Springs National Park",
+        "activities": [
+          "Hike the Grand Promenade to Hot Springs Mountain Tower",
+          "Gulpha Gorge",
+          "Afternoon swim or kayak on Lake Ouachita"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Hot Springs",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Hot Springs to Little Rock",
+        "activities": [
+          "Drive to Little Rock",
+          "Lunch in the River Market District",
+          "William J. Clinton Presidential Library and Museum"
+        ],
+        "drive_time": "~1 hr from Hot Springs (55 miles)",
+        "lodging_suggestion": "Little Rock",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Little Rock civil rights and culture",
+        "activities": [
+          "Ranger-led tour of Little Rock Central High School National Historic Site",
+          "Witt Stephens Jr. Nature Center",
+          "Vogel Schwartz Sculpture Garden"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Little Rock",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Pinnacle Mountain and depart",
+        "activities": [
+          "Morning hike up the West Summit or East Summit Trail at Pinnacle Mountain State Park",
+          "Depart from Little Rock"
+        ],
+        "drive_time": "~30 min from downtown Little Rock to Pinnacle Mountain State Park",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Connecticut Coast: Mystic & New Haven",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Late spring through fall (May-October) is when Mystic Seaport's tall ships and outdoor exhibits, the Mystic Aquarium, and New Haven's campus and street life are all in full swing.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Tall ships and a working drawbridge in Mystic, then Yale and 'birthplace of American pizza' bragging rights in New Haven.",
+    "cost_tier": "mid",
+    "related_states": [
+      "connecticut"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Mystic",
+        "activities": [
+          "Mystic Seaport Museum's tall ships and recreated 19th-century village",
+          "Stroll downtown Mystic and watch the Bascule Drawbridge open"
+        ],
+        "drive_time": "~47 min from T.F. Green Airport (Providence, RI)",
+        "lodging_suggestion": "Mystic",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Mystic Aquarium & New London",
+        "activities": [
+          "Mystic Aquarium's beluga whales and touch tanks",
+          "Afternoon in New London: the U.S. Coast Guard Academy waterfront and Fort Trumbull"
+        ],
+        "drive_time": "~15 min from Mystic to New London",
+        "lodging_suggestion": "Mystic",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "New London to New Haven",
+        "activities": [
+          "Drive the Connecticut coast to New Haven",
+          "Walk the Yale University campus",
+          "Yale University Art Gallery"
+        ],
+        "drive_time": "~50 min from New London to New Haven (47 miles)",
+        "lodging_suggestion": "New Haven",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "New Haven apizza & culture",
+        "activities": [
+          "Yale Peabody Museum of Natural History",
+          "Apizza crawl: Frank Pepe's Pizzeria Napoletana, Sally's Apizza, or Modern Apizza",
+          "Sunset at Long Wharf or a hike up East Rock Park"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "New Haven",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [],
+        "drive_time": "~1 hr from New Haven to Bradley International Airport",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Delaware History & Bayshore: New Castle to Trap Pond",
+    "category": [
+      "off-the-beaten-path",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Early May brings Delaware Bay's horseshoe-crab spawning and the red knot shorebird migration that follows it at Bombay Hook, while spring and fall are also the best times for birding and paddling before summer humidity sets in.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "Colonial streets, the state capital, and a bald-cypress swamp — the quieter, inland Delaware that the ocean-boardwalk itinerary skips entirely.",
+    "cost_tier": "budget",
+    "related_states": [
+      "delaware"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive New Castle",
+        "activities": [
+          "Walk the colonial-era streets of Historic New Castle",
+          "New Castle Court House Museum",
+          "Battery Park on the Delaware River"
+        ],
+        "drive_time": "~40 min from Philadelphia International Airport",
+        "lodging_suggestion": "New Castle",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "New Castle to Dover",
+        "activities": [
+          "First State Heritage Park: Legislative Hall, the Old State House, and The Green",
+          "Air Mobility Command Museum",
+          "Johnson Victrola Museum"
+        ],
+        "drive_time": "~45 min from New Castle to Dover (44 miles)",
+        "lodging_suggestion": "Dover",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Bombay Hook to Trap Pond",
+        "activities": [
+          "Bombay Hook National Wildlife Refuge's 12-mile Wildlife Drive and observation towers",
+          "Drive south to Sussex County's Bald Cypress country"
+        ],
+        "drive_time": "~15 min from Dover to Bombay Hook, then roughly 1-1.25 hr on to Trap Pond State Park near Laurel",
+        "lodging_suggestion": "Laurel / Seaford area",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Trap Pond and depart",
+        "activities": [
+          "Canoe or kayak among the bald cypress trees on Trap Pond",
+          "Walk the Bald Cypress Nature Trail",
+          "Depart"
+        ],
+        "drive_time": "~1.5-2 hr back to Wilmington / Philadelphia International Airport",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Oahu & Maui: Honolulu to Haleakala",
+    "category": [
+      "city",
+      "water",
+      "splurge"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 6,
+    "duration_days_max": 7,
+    "best_time_description": "April-May and September-October are Hawaii's shoulder seasons — dry-season weather with fewer crowds and lower rates than summer; humpback whales are in Maui's waters roughly late November through April if you can time a winter trip instead.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Honolulu's city energy and Pearl Harbor history, then a short flight to Maui for the Road to Hana and a Haleakala sunrise — two islands with almost nothing in common.",
+    "cost_tier": "splurge",
+    "related_states": [
+      "hawaii"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Honolulu",
+        "activities": [
+          "Settle into Waikiki",
+          "Sunset walk on Waikiki Beach"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Waikiki, Honolulu",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Pearl Harbor & downtown Honolulu",
+        "activities": [
+          "USS Arizona Memorial at Pearl Harbor National Memorial (book the free timed ticket on Recreation.gov well ahead — summer slots sell out in minutes)",
+          "Iolani Palace",
+          "Honolulu's Chinatown"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Waikiki, Honolulu",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Diamond Head & the North Shore",
+        "activities": [
+          "Sunrise hike up Diamond Head State Monument (advance reservation required for all non-residents via Hawaii's Go Wild system)",
+          "Afternoon drive to the North Shore: Haleiwa town and Shark's Cove"
+        ],
+        "drive_time": "~45 min from Waikiki to Haleiwa",
+        "lodging_suggestion": "Waikiki, Honolulu",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Fly to Maui",
+        "activities": [
+          "Interisland flight, Honolulu to Kahului (about 35-45 min on Hawaiian Airlines; there is no interisland ferry)",
+          "Afternoon at Kaanapali Beach",
+          "Iao Valley State Monument"
+        ],
+        "drive_time": "~40 min flight (Hawaiian Airlines)",
+        "lodging_suggestion": "Kaanapali / West Maui",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Road to Hana",
+        "activities": [
+          "Full-day round trip on the Hana Highway's 600-plus curves",
+          "Twin Falls",
+          "Black-sand beach at Waianapanapa State Park (day-use reservation required)",
+          "Pipiwai Trail toward Waimoku Falls"
+        ],
+        "drive_time": "~2.5 hrs each way via the Hana Highway",
+        "lodging_suggestion": "Kaanapali / West Maui",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Haleakala sunrise and depart",
+        "activities": [
+          "Pre-dawn drive to the Haleakala National Park summit for sunrise (advance vehicle reservation required for the 3-7am entry window)",
+          "Depart from Kahului"
+        ],
+        "drive_time": "~1.5 hr from Kaanapali to the Haleakala summit",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Northern New Jersey: Princeton, Morristown & the Delaware Water Gap",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 5,
+    "best_time_description": "Spring (April-May) and fall (September-October) bring mild hiking weather and, in fall, color along the ridgelines of the Water Gap; Princeton is liveliest when the university is in session (September-May).",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "An inland loop through Princeton's Ivy League campus, Morristown's Revolutionary War headquarters, and the ridge-and-river scenery of the Delaware Water Gap.",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-jersey"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Princeton",
+        "activities": [
+          "Self-guided walk through Princeton University's campus (FitzRandolph Gate, Nassau Hall)",
+          "Nassau Street shops and Palmer Square",
+          "Coffee at Small World Coffee"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Princeton, NJ",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Princeton to Morristown",
+        "activities": [
+          "Morristown National Historical Park: Washington's Headquarters at the Ford Mansion",
+          "Jockey Hollow soldier huts and trails",
+          "Walk the historic Morristown Green"
+        ],
+        "drive_time": "~1 hr from Princeton",
+        "lodging_suggestion": "Morristown, NJ",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Morristown to the Delaware Water Gap",
+        "activities": [
+          "Drive north into the Kittatinny Ridge",
+          "Hike Mount Tammany (Red Dot/Blue Dot loop) for views over the Gap",
+          "Sunset along the Delaware River"
+        ],
+        "drive_time": "~55 min from Morristown",
+        "lodging_suggestion": "Blairstown, NJ",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Delaware Water Gap National Recreation Area",
+        "activities": [
+          "Buttermilk Falls Trail (New Jersey's tallest waterfall, in Walpack Township)",
+          "Canoe or kayak a stretch of the Delaware River with a local outfitter",
+          "Side trip to High Point State Park, New Jersey's highest point"
+        ],
+        "drive_time": "~1 hr 10 min round trip to High Point State Park",
+        "lodging_suggestion": "Blairstown, NJ",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Drive back to Newark Liberty International Airport (EWR)"
+        ],
+        "drive_time": "~1 hr from Blairstown",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "New Mexico: Carlsbad Caverns & White Sands",
+    "category": [
+      "nature",
+      "off-the-beaten-path",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Spring and fall bring milder desert temperatures for hiking and dune walking; the Carlsbad Caverns Bat Flight Program runs seasonally from May through October, best viewed July through September.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "A far-southern New Mexico loop through the underground chambers of Carlsbad Caverns and the gypsum dunes of White Sands, a desert region distinct from the state's Santa Fe/Taos corridor.",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-mexico"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Fly into El Paso, drive to Carlsbad",
+        "activities": [
+          "Land at El Paso International Airport (ELP) and pick up a rental car",
+          "Drive northeast to Carlsbad, NM",
+          "Afternoon at Living Desert Zoo and Gardens State Park, overlooking the Pecos River"
+        ],
+        "drive_time": "~2 hr 30 min from El Paso",
+        "lodging_suggestion": "Carlsbad, NM",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Carlsbad Caverns National Park",
+        "activities": [
+          "Self-guided walk down the Natural Entrance into the Big Room",
+          "Ranger talk at the Bat Flight Amphitheater and evening bat flight (seasonal, May-October)"
+        ],
+        "drive_time": "~25 min from Carlsbad",
+        "lodging_suggestion": "Carlsbad, NM",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Carlsbad to Alamogordo",
+        "activities": [
+          "Long drive southwest across the Chihuahuan Desert to Alamogordo",
+          "New Mexico Museum of Space History (rocket sled, Space Hall of Fame)"
+        ],
+        "drive_time": "~3 hr 30 min from Carlsbad",
+        "lodging_suggestion": "Alamogordo, NM",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "White Sands National Park",
+        "activities": [
+          "Drive the Dunes Drive into the gypsum dune field",
+          "Sled the dunes (rentals available at the visitor center)",
+          "Ranger-led sunset stroll program"
+        ],
+        "drive_time": "~15 min from Alamogordo",
+        "lodging_suggestion": "Alamogordo, NM",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Las Cruces and depart",
+        "activities": [
+          "Drive to Las Cruces and stroll the Old Mesilla Plaza (San Albino Church, Thunderbird de la Mesilla)",
+          "Drive to El Paso International Airport (ELP) to fly out"
+        ],
+        "drive_time": "~1 hr to Las Cruces, then ~55 min to El Paso",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Fargo & the Red River Valley",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 4,
+    "duration_days_max": 4,
+    "best_time_description": "Early fall (September) brings crisp air and fewer crowds, while summer (June-August) has the warmest weather and Fargo's biggest street festivals.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "An eastern North Dakota loop through Fargo's downtown, Red River Valley pioneer history, and the Sheyenne River Valley, entirely distinct from the badlands of Theodore Roosevelt National Park.",
+    "cost_tier": "budget",
+    "related_states": [
+      "north-dakota"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Downtown Fargo",
+        "activities": [
+          "Walk historic downtown Fargo and the Fargo Theatre marquee",
+          "Plains Art Museum (free admission, Smithsonian-affiliated)",
+          "Stroll the Red River waterfront"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fargo, ND",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "West Fargo: Bonanzaville",
+        "activities": [
+          "Bonanzaville USA, a 40-plus building pioneer village telling the Red River Valley's bonanza-farm history",
+          "See the first house built in the Red River Valley near Fargo"
+        ],
+        "drive_time": "~10 min from Fargo",
+        "lodging_suggestion": "Fargo, ND",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Sheyenne River Valley Scenic Byway",
+        "activities": [
+          "Drive the 63-mile Sheyenne River Valley National Scenic Byway through Valley City and Lisbon",
+          "Standing Rock State Historic Site burial mounds",
+          "Fort Ransom State Park in the wooded Sheyenne Valley"
+        ],
+        "drive_time": "~1 hr 45 min from Fargo",
+        "lodging_suggestion": "Valley City, ND",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Grand Forks and depart",
+        "activities": [
+          "Drive north to Grand Forks",
+          "Walk or bike the Greater Grand Forks Greenway along the Red River",
+          "Depart from Grand Forks International Airport (GFK)"
+        ],
+        "drive_time": "~2 hr from the Sheyenne Valley to Grand Forks",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Cleveland & Cuyahoga Valley National Park",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Fall brings foliage color along the Cuyahoga Valley's gorges, while late spring through summer keeps the Cuyahoga Valley Scenic Railroad and full trail network running.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "description": "A northern Ohio pairing of Cleveland's lakefront museums with the waterfalls, ledges, and scenic railroad of Cuyahoga Valley National Park, distinct from Hocking Hills in the state's south.",
+    "cost_tier": "mid",
+    "related_states": [
+      "ohio"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Cleveland: North Coast Harbor",
+        "activities": [
+          "Rock & Roll Hall of Fame",
+          "Great Lakes Science Center and its NASA Glenn Visitor Center"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cleveland, OH",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Cleveland: Ohio City & Playhouse Square",
+        "activities": [
+          "West Side Market, Cleveland's oldest public market (est. 1912)",
+          "Playhouse Square's restored 1920s theater district"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cleveland, OH",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Cuyahoga Valley National Park",
+        "activities": [
+          "Ledges Trail loop through sandstone outcroppings",
+          "Brandywine Falls, a 65-foot waterfall over Berea sandstone"
+        ],
+        "drive_time": "~30 min from Cleveland",
+        "lodging_suggestion": "Peninsula, OH",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Scenic railroad and towpath",
+        "activities": [
+          "Ride the Cuyahoga Valley Scenic Railroad between Peninsula and Akron",
+          "Bike or walk a stretch of the Ohio & Erie Canal Towpath Trail"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Peninsula, OH",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Drive back to Cleveland Hopkins International Airport (CLE)"
+        ],
+        "drive_time": "~35 min from Peninsula",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Wichita Mountains & Oklahoma's Route 66",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 5,
+    "best_time_description": "Spring and fall bring mild temperatures for hiking and driving; June is calving season for the refuge's bison and longhorn herds. Wichita Mountains hiking trails close to foot traffic after 10 a.m.",
+    "best_time_months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A western Oklahoma road trip along the Mother Road's roadside icons, ending in the granite peaks and free-roaming bison of the Wichita Mountains, distinct from the Tulsa/Turner Falls/OKC route.",
+    "cost_tier": "budget",
+    "related_states": [
+      "oklahoma"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Oklahoma City to Clinton via Route 66",
+        "activities": [
+          "Arcadia Round Barn, a restored 1898 wooden round barn on old Route 66",
+          "POPS 66 Soda Ranch and its 66-foot soda bottle sign",
+          "Onion burger lunch in El Reno, birthplace of the fried onion burger",
+          "Oklahoma Route 66 Museum in Clinton"
+        ],
+        "drive_time": "~2 hr of driving via Route 66 stops from Oklahoma City",
+        "lodging_suggestion": "Clinton, OK",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Clinton to the Wichita Mountains",
+        "activities": [
+          "National Route 66 & Transportation Museum in Elk City",
+          "Drive south to the Wichita Mountains region near Lawton"
+        ],
+        "drive_time": "~2 hr 30 min total, via Elk City",
+        "lodging_suggestion": "Medicine Park, OK",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Wichita Mountains Wildlife Refuge",
+        "activities": [
+          "Early-morning wildlife drive for free-roaming bison and longhorn",
+          "Drive to the summit of Mount Scott for views over the refuge",
+          "Short hike along French Lake before the refuge's 10 a.m. trail cutoff"
+        ],
+        "drive_time": "~20 min from Medicine Park",
+        "lodging_suggestion": "Medicine Park, OK",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Medicine Park",
+        "activities": [
+          "Walk the cobblestone streets of Medicine Park, Oklahoma's first tourist resort town (founded 1908)",
+          "Additional refuge hiking or a visit to the Holy City of the Wichitas"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Medicine Park, OK",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Depart",
+        "activities": [
+          "Drive back to Will Rogers World Airport (OKC) in Oklahoma City"
+        ],
+        "drive_time": "~1 hr 15 min from Lawton/Medicine Park",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
+  },
+  {
+    "title": "Oregon Coast: Cannon Beach to Bandon",
+    "category": [
+      "water",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 5,
+    "duration_days_max": 6,
+    "best_time_description": "Late March through May brings the northbound gray whale migration and thinner crowds; summer has the warmest, driest beach weather, though fog and wind are common on this coast year-round.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September"
+    ],
+    "description": "A full Highway 101 run down the Oregon coast from Haystack Rock to the sea stacks of Bandon, a separate coastal itinerary from the state's inland Columbia River Gorge route.",
+    "cost_tier": "mid",
+    "related_states": [
+      "oregon"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Cannon Beach",
+        "activities": [
+          "Haystack Rock tide pools at low tide",
+          "Ecola State Park viewpoint over the coastline"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cannon Beach, OR",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 2,
+        "title": "Cannon Beach to Newport",
+        "activities": [
+          "Stop at the Tillamook Creamery for a self-guided cheese factory tour",
+          "Yaquina Head Lighthouse and tide pools in Newport",
+          "Watch sea lions on the docks near the Yaquina Bay Bridge"
+        ],
+        "drive_time": "~2 hr 30 min from Cannon Beach",
+        "lodging_suggestion": "Newport, OR",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 3,
+        "title": "Newport to Florence",
+        "activities": [
+          "Sea Lion Caves, the largest sea cave system in the U.S., near Florence",
+          "Walk the dunes at Oregon Dunes National Recreation Area"
+        ],
+        "drive_time": "~1 hr from Newport",
+        "lodging_suggestion": "Florence, OR",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 4,
+        "title": "Florence to Bandon",
+        "activities": [
+          "Drive south along the dunes coastline to Bandon",
+          "Face Rock State Scenic Viewpoint",
+          "Walk Old Town Bandon's harbor boardwalk"
+        ],
+        "drive_time": "~1 hr 30 min from Florence",
+        "lodging_suggestion": "Bandon, OR",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 5,
+        "title": "Bandon",
+        "activities": [
+          "Walk Bandon Beach among the sea stacks at low tide",
+          "Bullards Beach State Park and the Coquille River lighthouse",
+          "Wildlife and seasonal whale watching from Coquille Point"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bandon, OR",
+        "coffee_wifi_spot": null
+      },
+      {
+        "day_number": 6,
+        "title": "Depart",
+        "activities": [
+          "Drive to Southwest Oregon Regional Airport (OTH) in North Bend to fly out"
+        ],
+        "drive_time": "~35 min from Bandon",
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null
+      }
+    ]
   }
 ]
