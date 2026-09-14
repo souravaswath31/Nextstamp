@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
+import { getOptionalUser } from "@/lib/currentUser";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -34,20 +36,23 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const user = await getOptionalUser();
+
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${plexMono.variable} font-body`}
+        className={`${inter.variable} ${plexMono.variable} font-body flex min-h-screen flex-col`}
       >
-        <NavBar />
-        <main className="mx-auto max-w-6xl px-5 pb-28 pt-8 sm:px-8 sm:pt-10">
+        <NavBar isAuthenticated={!!user} />
+        <main className="mx-auto w-full max-w-6xl flex-1 px-5 pb-28 pt-8 sm:px-8 sm:pt-10">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

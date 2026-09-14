@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
-import { getCurrentUser } from "@/lib/currentUser";
-import { getVisaStatusForUser } from "@/lib/visa";
+import { getOptionalUser } from "@/lib/currentUser";
+import { getVisaStatusForUser, type VisaStatus } from "@/lib/visa";
 import { createTripFromItinerary } from "@/lib/actions";
 import VisaBadge from "@/components/VisaBadge";
 import Reveal from "@/components/Reveal";
@@ -21,13 +21,28 @@ import {
   Wifi,
   PackageCheck,
   Sparkles,
+  LogIn,
   type LucideIcon,
 } from "lucide-react";
+import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
 
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const itinerary = await prisma.itinerary.findUnique({ where: { id: params.id } });
+  if (!itinerary) return {};
+  return {
+    title: `${itinerary.title} — NextStamp`,
+    description: itinerary.description,
+    openGraph: { title: `${itinerary.title} — NextStamp`, description: itinerary.description },
+  };
+}
+
 export default async function ItineraryDetailPage({ params }: { params: { id: string } }) {
-  const user = await getCurrentUser();
+  // Part of the free browsable library — no login required to view a trip
+  // plan. Only the "visa status for you" section needs a real passport, so
+  // that's the one part that becomes a sign-in prompt instead of a badge.
+  const user = await getOptionalUser();
   const itinerary = await prisma.itinerary.findUnique({
     where: { id: params.id },
     include: { days: { orderBy: { dayNumber: "asc" } }, notes: true },
@@ -36,9 +51,9 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
   if (!itinerary) notFound();
 
   const countries = itinerary.countries.split(",").filter(Boolean);
-  const visaStatuses = await Promise.all(
-    countries.map((c) => getVisaStatusForUser(user, c))
-  );
+  const visaStatuses: VisaStatus[] | null = user
+    ? await Promise.all(countries.map((c) => getVisaStatusForUser(user, c)))
+    : null;
 
   const relatedStateSlugs = itinerary.relatedStateSlugs ? itinerary.relatedStateSlugs.split(",").filter(Boolean) : [];
   const relatedStates = relatedStateSlugs.length > 0
@@ -136,24 +151,35 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
       <Reveal>
         <section>
           <h2 className="font-display text-2xl text-ink">Visa status for you</h2>
-          <div className="mt-4 space-y-3">
-            {countries.map((country, i) => (
-              <div key={country} className="rounded-panel bg-paper p-5 shadow-paper">
-                <p className="font-body text-sm font-medium text-ink">{country}</p>
-                <div className="mt-2">
-                  <VisaBadge status={visaStatuses[i]} />
+          {visaStatuses ? (
+            <div className="mt-4 space-y-3">
+              {countries.map((country, i) => (
+                <div key={country} className="rounded-panel bg-paper p-5 shadow-paper">
+                  <p className="font-body text-sm font-medium text-ink">{country}</p>
+                  <div className="mt-2">
+                    <VisaBadge status={visaStatuses[i]} />
+                  </div>
+                  {visaStatuses[i].conditionsText && (
+                    <p className="mt-2 font-body text-xs text-ink/55">
+                      {visaStatuses[i].conditionsText}
+                      {visaStatuses[i].maxStayDays
+                        ? ` Max stay: ${visaStatuses[i].maxStayDays} days.`
+                        : ""}
+                    </p>
+                  )}
                 </div>
-                {visaStatuses[i].conditionsText && (
-                  <p className="mt-2 font-body text-xs text-ink/55">
-                    {visaStatuses[i].conditionsText}
-                    {visaStatuses[i].maxStayDays
-                      ? ` Max stay: ${visaStatuses[i].maxStayDays} days.`
-                      : ""}
-                  </p>
-                )}
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          ) : (
+            <div className="mt-4 flex flex-col items-center gap-3 rounded-panel bg-paper p-6 text-center shadow-paper sm:flex-row sm:justify-between sm:text-left">
+              <p className="font-body text-sm text-ink/60">
+                Sign in and set your passport to see whether {countries.join(", ")} needs a visa for you.
+              </p>
+              <Link href="/login" className="btn-pill btn-pill-primary shrink-0">
+                <LogIn size={15} /> Sign in
+              </Link>
+            </div>
+          )}
         </section>
       </Reveal>
 

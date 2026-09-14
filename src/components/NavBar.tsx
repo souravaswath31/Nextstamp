@@ -3,9 +3,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Compass, Map, Luggage, UserRound, LayoutGrid } from "lucide-react";
+import { Compass, Map, Luggage, UserRound, LayoutGrid, LogIn } from "lucide-react";
 
-const TABS = [
+// Explore and States are the free browsable library — no login needed.
+// Dashboard/My Trips/Profile are personal, so a logged-out visitor gets
+// "Sign in" instead of three tabs that would just redirect there anyway.
+const PUBLIC_TABS = [
+  { href: "/explore", label: "Explore", icon: Compass },
+  { href: "/states", label: "States", icon: Map },
+];
+const PRIVATE_TABS = [
   { href: "/", label: "Dashboard", icon: LayoutGrid },
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
@@ -15,10 +22,12 @@ const TABS = [
 
 const AUTH_ROUTES = ["/login", "/onboarding"];
 
-export default function NavBar() {
+export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }) {
   const pathname = usePathname();
 
   if (AUTH_ROUTES.includes(pathname)) return null;
+
+  const TABS = isAuthenticated ? PRIVATE_TABS : PUBLIC_TABS;
 
   return (
     <>
@@ -28,7 +37,7 @@ export default function NavBar() {
           <Link href="/" className="flex items-center">
             <Image src="/logo.png" alt="NextStamp" width={104} height={28} priority className="h-6 w-auto" />
           </Link>
-          <nav className="hidden gap-7 sm:flex">
+          <nav className="hidden items-center gap-7 sm:flex">
             {TABS.map((tab) => {
               const active = pathname === tab.href;
               return (
@@ -43,6 +52,11 @@ export default function NavBar() {
                 </Link>
               );
             })}
+            {!isAuthenticated && (
+              <Link href="/login" className="btn-pill btn-pill-primary !px-4 !py-1.5 !text-xs">
+                <LogIn size={13} /> Sign in
+              </Link>
+            )}
           </nav>
         </div>
       </header>
@@ -66,6 +80,15 @@ export default function NavBar() {
               </Link>
             );
           })}
+          {!isAuthenticated && (
+            <Link
+              href="/login"
+              className="flex flex-1 flex-col items-center gap-0.5 rounded-card px-2 py-1 text-center font-body text-[10px] text-coral"
+            >
+              <LogIn size={22} strokeWidth={1.8} />
+              Sign in
+            </Link>
+          )}
         </div>
       </nav>
     </>

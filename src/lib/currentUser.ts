@@ -30,3 +30,24 @@ export async function getCurrentUser() {
 
   return user;
 }
+
+// Same lookup as getCurrentUser(), but never redirects — returns null for a
+// logged-out visitor or one who hasn't finished onboarding yet. For pages
+// that are part of the free browsable content library (state guides,
+// itineraries, the explore list) and should render for anyone, with
+// personalization (visa status, the cascade filter) simply omitted when
+// there's no user to personalize for.
+export async function getOptionalUser() {
+  const cookieStore = await cookies();
+  const supabase = createClient(cookieStore);
+  const {
+    data: { user: authUser },
+  } = await supabase.auth.getUser();
+
+  if (!authUser) return null;
+
+  return prisma.user.findUnique({
+    where: { id: authUser.id },
+    include: { heldDocuments: true },
+  });
+}

@@ -4,8 +4,20 @@ import TerrainHero from "@/components/TerrainHero";
 import BackButton from "@/components/BackButton";
 import Reveal from "@/components/Reveal";
 import { CalendarRange, ThermometerSun, TicketCheck, Backpack } from "lucide-react";
+import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const state = await prisma.stateGuide.findUnique({ where: { slug: params.slug } });
+  if (!state) return {};
+  const description = `${state.heroTagline} — ${state.heroDescription}`;
+  return {
+    title: `${state.name} — NextStamp`,
+    description,
+    openGraph: { title: `${state.name} — NextStamp`, description },
+  };
+}
 
 const CATEGORY_META: Record<string, { title: string; blurb: string }> = {
   amazing: {

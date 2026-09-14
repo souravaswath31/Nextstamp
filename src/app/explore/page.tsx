@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
-import { getCurrentUser } from "@/lib/currentUser";
+import { getOptionalUser } from "@/lib/currentUser";
 import { getVisaStatusForUser } from "@/lib/visa";
 import ItineraryCard from "@/components/ItineraryCard";
 import Filters from "@/components/Filters";
@@ -14,7 +14,10 @@ export default async function ExplorePage({
 }: {
   searchParams: { [key: string]: string | undefined };
 }) {
-  const user = await getCurrentUser();
+  // Part of the free browsable library — no login required to browse or
+  // filter. The one filter that needs a passport ("visa ease") is simply a
+  // no-op for a logged-out visitor rather than gating the whole page.
+  const user = await getOptionalUser();
   const all = await prisma.itinerary.findMany({ orderBy: { createdAt: "asc" } });
   const regions = Array.from(new Set(all.map((i) => i.region))).sort();
 
@@ -34,7 +37,7 @@ export default async function ExplorePage({
     return true;
   });
 
-  if (visaFilter) {
+  if (visaFilter && user) {
     const withEase = await Promise.all(
       filtered.map(async (it) => {
         const countries = it.countries.split(",").filter(Boolean);
