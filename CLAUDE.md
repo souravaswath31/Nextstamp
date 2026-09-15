@@ -218,10 +218,18 @@ Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against
 database after merging (verify every (passport, destination) pair actually resolves via
 `src/lib/visa.ts`'s logic, not just that the row exists). Round 4 added Japan, Thailand,
 Vietnam, Egypt, and Morocco as new destinations across all 8 existing passports (40 new
-rules); Thailand's rules flag a real visa-exemption policy change effective September 15,
-2026, so that source is worth re-checking after that date. One open quality note: 3 of
-Brazil's sources are Wikipedia rather than official government pages (Armenia, Turkey,
-UAE) — structurally valid but below the "official source where possible" bar the rest hit.
+rules); Thailand's visa-exemption policy change took effect September 15, 2026 — that
+source is worth a fresh check now that the date has passed. A round-5 sourcing audit found
+**49 of the then-154 rules** (India/USA/UK across all 13 original destinations, plus
+Brazil→Armenia/Turkey/UAE) citing an aggregated Wikipedia page rather than an official
+source — far more than the single earlier note here suggested. All 49 were re-researched
+(one research agent per destination, official government/embassy sources only) and patched
+in place; the process caught several real factual errors along the way, not just sourcing
+gaps (Costa Rica's US-passport stay was wrong at 90 days, actually 180; Sri Lanka's US/UK
+rows were misclassified as visa-on-arrival when they're actually a mandatory advance ETA;
+Armenia's UK entry was full visa-free, not "visa-on-arrival effectively visa-free"; the
+Philippines' visa-free start date was off by three weeks). Zero Wikipedia sources remain in
+`data/visa-rules-seed.json` as of this round.
 Expanding to new destinations further, or a third itinerary per state, is the natural next
 step through the existing pipeline.
 
@@ -315,12 +323,34 @@ deployed at nextstamp-app.vercel.app, as the sole source of truth.
 
 ## Known loose ends
 
-- 3 of the 114 visa rules (Brazil → Armenia/Turkey/UAE) cite Wikipedia rather than an
-  official government source — structurally valid, below the project's usual sourcing bar.
-  Flagged, not yet re-researched.
 - The Vercel personal access token used for CLI deploys during development is still active
   on the project owner's account — should be revoked at vercel.com/account/tokens once no
   longer needed for assistant-driven deploys.
+- If you audit sourcing again, don't trust a stale count in this file (see the Wikipedia
+  incident just above — the number here was wrong by 16x for a while) — regrep
+  `data/visa-rules-seed.json` for `wikipedia` yourself rather than assuming this doc is
+  current.
+
+## Incident: `npm run seed` is not actually crash-safe against a mid-run connection drop
+
+Round 5 (the Wikipedia-sourcing fix above) hit this in production. `npm run seed` deletes
+all of `Itinerary`/`VisaRule`/`StateGuide` up front, then recreates everything row by row
+over one long-lived pooled connection (Supabase port 6543, PgBouncer). Twice in a row, that
+connection got dropped mid-script (`P1017 "server has closed the connection"`) — once
+partway through itineraries, once partway through visa rules — each time leaving the
+**live production site** with the already-deleted tables empty (state guides and visa
+rules both hit zero at one point) until a full rerun happened to complete. The doc claim
+above ("safe to rerun against production") was true for idempotency but not for
+reliability — a crash mid-run left production in a worse state than before the run, for as
+long as it took to notice and rerun.
+
+Fixed in `prisma/seed.ts`: a `withRetry()` wrapper around every individual `.create()` call
+reconnects (`$disconnect()` + a fresh `PrismaClient`) and retries up to 3 times on a
+connection-drop error, instead of letting the whole script die. If you see `P1017` again
+even with this in place, the retry count or the delete-then-recreate structure itself
+(e.g. seeding into a staging table and swapping, or batching with `createMany` where nested
+relations allow it) is the next thing to reconsider — this fix addresses the failure mode
+we actually observed, not every possible one.
 
 ## How to verify a change before considering it done
 

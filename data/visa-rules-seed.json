@@ -29,8 +29,8 @@
     "conditions_text": "Indian nationals holding a valid US, UK, Irish, or Schengen visa or residence permit are eligible for Turkey's e-Visa, single entry, applied for online.",
     "max_stay_days": 30,
     "fee_notes": "Paid e-visa, applied for online in advance.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -40,52 +40,52 @@
     "conditions_text": "Turkey does not offer visa on arrival for Indian passport holders. Without a qualifying US/UK/Irish/Schengen visa, a sticker visa from a Turkish mission is required.",
     "max_stay_days": null,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Mexico",
     "visa_type": "visa-free",
     "requires_held_document_country": "USA",
-    "conditions_text": "Indian nationals holding a valid US visa or permanent residence (Green Card) can enter Mexico for tourism without a separate Mexican visa. The FMM tourist permit is completed on arrival.",
+    "conditions_text": "Indian nationals holding a valid, unexpired US visa (any type) or US permanent residence (Green Card) are exempt from obtaining a separate Mexican visa for tourism, business, or transit entry. The FMM (Forma Migratoria Múltiple) tourist permit is completed on arrival — printed and presented at land border crossings, or issued digitally at international airports.",
     "max_stay_days": 180,
-    "fee_notes": "FMM tourist permit fee applies (~$57 USD); length of stay granted is at the immigration officer's discretion, up to this maximum.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "fee_notes": "FMM tourist permit fee applies (~$57 USD / ~983 MXN); length of stay granted is at the immigration officer's discretion, up to this maximum. Land entries of 7 days or less are typically fee-exempt.",
+    "source_url": "https://www.inm.gob.mx/gobmx/word/index.php/paises-requieren-visa-para-mexico/",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Mexico",
     "visa_type": "advance-visa-required",
     "requires_held_document_country": null,
-    "conditions_text": "Without a qualifying US, UK, Canadian, Japanese, or Schengen visa/residence document, Indian nationals must obtain a Mexican visa in advance.",
+    "conditions_text": "Without a qualifying valid visa or permanent residence document from the US, Canada, UK, Japan, or a Schengen Area country, Indian nationals must obtain a Mexican visa in advance from a Mexican embassy or consulate before traveling.",
     "max_stay_days": null,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://www.inm.gob.mx/gobmx/word/index.php/paises-requieren-visa-para-mexico/",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Costa Rica",
     "visa_type": "visa-free",
     "requires_held_document_country": "USA",
-    "conditions_text": "Indian nationals holding a valid multiple-entry US visa (or Canadian/Schengen) are exempt from needing a separate Costa Rican visa. Authorized stay cannot exceed the remaining validity of that US visa.",
-    "max_stay_days": 30,
-    "fee_notes": "Initial stamp is typically 30 days; extendable to a total of 90 days from within Costa Rica.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Costa_Rica",
-    "last_verified_date": "2026-09-06"
+    "conditions_text": "Indian nationals (Costa Rica's Group III, consular-visa-required) may enter without a separate Costa Rican visa if they hold a valid multiple-entry U.S. visa or U.S. residency permit (any category, including refugee/asylum status, and visa types D or C1/D only — transit visas C1/C2/C3 do not qualify) with at least 1 day of remaining validity. The same exception applies with a valid multiple-entry Canadian visa or residency. The stay authorized on arrival cannot exceed the remaining validity of that U.S./Canadian document, as determined by the immigration officer at entry.",
+    "max_stay_days": null,
+    "fee_notes": null,
+    "source_url": "https://migracion.go.cr/wp-content/uploads/2025/11/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N%C2%B0-216-17-11-2025.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Costa Rica",
     "visa_type": "advance-visa-required",
     "requires_held_document_country": null,
-    "conditions_text": "Indian passport alone falls into Costa Rica's restricted-visa group; without a qualifying US/Canada/Schengen document, a visa must be approved in advance.",
-    "max_stay_days": null,
-    "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Costa_Rica",
-    "last_verified_date": "2026-09-06"
+    "conditions_text": "India is listed in Group III (\"visa consular\") of Costa Rica's official visa directive. Without a qualifying multiple-entry U.S./Canadian visa or residency (see the held-document exception), Indian nationals must obtain a Costa Rican consular visa in advance: single entry only, must be stamped within 3 months of approval, and once stamped must be used to enter Costa Rica within 60 business days. Passport must be valid at least 180 days.",
+    "max_stay_days": 30,
+    "fee_notes": "Initial stamp is typically 30 days; extendable to a total of 90 days from within Costa Rica, per the directive's Group III terms.",
+    "source_url": "https://migracion.go.cr/wp-content/uploads/2025/11/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N%C2%B0-216-17-11-2025.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -95,8 +95,8 @@
     "conditions_text": "Georgia grants visa-free entry to holders of a valid visa or residence permit from the US, UK, Japan, Canada, Australia, New Zealand, Israel, South Korea, Ireland, Schengen, or GCC countries.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://matsne.gov.ge/en/document/view/2867377",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -106,30 +106,30 @@
     "conditions_text": "Indian passport holders without a qualifying third-country visa can apply for Georgia's standard e-visa.",
     "max_stay_days": 30,
     "fee_notes": "Paid e-visa, applied for online.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Armenia",
     "visa_type": "visa-on-arrival",
     "requires_held_document_country": "USA",
-    "conditions_text": "Armenia grants visa on arrival to holders of a valid visa or residence permit from the US, EU/Schengen, UK, Australia, Canada, Japan, New Zealand, South Korea, or Russia.",
+    "conditions_text": "Armenia grants visa on arrival at the border to Indian passport holders who present a valid visa or residence permit issued by the US, any EU/Schengen member state, the UK, Australia, Canada, Japan, New Zealand, South Korea, Russia, or the Gulf states (UAE, Saudi Arabia, Kuwait, Qatar, Bahrain, Oman).",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://india.mfa.am/en/visaforindians/",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Armenia",
     "visa_type": "e-visa",
     "requires_held_document_country": null,
-    "conditions_text": "Indian nationals without a qualifying third-country visa can apply for Armenia's standard e-visa.",
+    "conditions_text": "Indian nationals without a qualifying third-country visa or residence permit can apply for Armenia's e-visa online via the Ministry of Foreign Affairs' e-visa portal (evisa.mfa.am), which requires travel insurance plus either a qualifying third-country visa/residence permit or a return ticket, invitation letter, and proof of sufficient funds.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://india.mfa.am/en/visaforindians/",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -139,8 +139,8 @@
     "conditions_text": "A valid US, UK, EU, or Schengen visa or residence permit substitutes for a Serbian visa entirely, for up to 90 days in any 180-day period.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://welcometoserbia.gov.rs/short-term-stay-with-a-visa-of-another-foreign-country",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -150,52 +150,52 @@
     "conditions_text": "Without a qualifying third-country visa, Indian nationals can apply for Serbia's e-visa for the same 90-day allowance.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://welcometoserbia.gov.rs/short-stay-visa-visa-c",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Philippines",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Since 19 May 2025, all Indian nationals get a non-extendable 14-day visa-free stay in the Philippines for tourism, with no other visa required.",
+    "conditions_text": "Since 8 June 2025, Indian nationals travelling to the Philippines for tourism or business may enter without a visa for a non-extendible, non-convertible period of 14 days, provided they hold a passport valid at least 6 months beyond the contemplated stay, a confirmed hotel booking, proof of financial capacity, and a return or onward ticket, and have no derogatory record with the Bureau of Immigration.",
     "max_stay_days": 14,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://newdelhipe.dfa.gov.ph/index.php/newsroom/embassy-news/1144-visa-free-privileges-for-indian-nationals-entering-the-philippines",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Philippines",
     "visa_type": "visa-free",
     "requires_held_document_country": "USA",
-    "conditions_text": "Indian nationals who also hold a valid US (or Australia/Canada/Japan/Schengen/Singapore/UK) visa or resident visa get 30 days visa-free instead of the standard 14.",
+    "conditions_text": "Since 8 June 2025, Indian nationals holding a valid, current American, Japanese, Australian, Canadian, Schengen, Singapore, or UK (AJACSSUK) visa or residence permit may enter the Philippines visa-free for a non-extendible period of 30 days for tourism or business, instead of the standard 14 days, provided their passport is valid at least 6 months beyond the contemplated stay and they hold a return or onward ticket to their next destination.",
     "max_stay_days": 30,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://newdelhipe.dfa.gov.ph/index.php/newsroom/embassy-news/1144-visa-free-privileges-for-indian-nationals-entering-the-philippines",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Colombia",
     "visa_type": "visa-free",
     "requires_held_document_country": "USA",
-    "conditions_text": "A valid US visa with at least 180 days' remaining validity (excluding C1 transit visas) substitutes for a Colombian visa for tourism.",
+    "conditions_text": "Indian nationals may enter Colombia without a Colombian visa if, at the time of entry, they hold a valid US visa (other than an airport-transit visa) with at least 180 days' remaining validity, or a valid US residence permit. This is a conditional visa exemption under Colombia's Resolucion 5488 of 2022, Article 3 Literal C (as amended by Resolucion 3717 of 2023).",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5488_2022.htm",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Colombia",
     "visa_type": "advance-visa-required",
     "requires_held_document_country": null,
-    "conditions_text": "Without a qualifying US or Schengen visa, Indian nationals must apply for Colombia's online visitor visa in advance.",
+    "conditions_text": "Indian nationals who do not hold a qualifying US or Schengen visa (or a residence permit in the US or a Schengen state) do not fall under Colombia's conditional visa exemption (Resolucion 5488 of 2022, Article 3 Literal C) and must obtain a Colombian visa in advance from a Colombian consulate before travel (Article 7), applied for online through the Cancilleria's e-visa portal (visas.cancilleria.gov.co).",
     "max_stay_days": null,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5488_2022.htm",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -205,8 +205,8 @@
     "conditions_text": "Indian nationals holding a valid US, UK, Canada, Australia, or Schengen visa or permanent resident permit (minimum 6 months' validity) can stay visa-free for tourism or business.",
     "max_stay_days": 180,
     "fee_notes": "Up to 180 days within any 365-day period.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://www.consulado.pe/Documents/visas/Requerimientos_de_visa_para_ciudadanos_extranjeros.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -216,19 +216,19 @@
     "conditions_text": "Without a qualifying US/UK/Canada/Australia/Schengen document, Indian nationals must obtain a Peruvian visa in advance.",
     "max_stay_days": null,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://www.consulado.pe/Documents/visas/Requerimientos_de_visa_para_ciudadanos_extranjeros.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
     "destination_country": "Indonesia",
     "visa_type": "visa-on-arrival",
     "requires_held_document_country": null,
-    "conditions_text": "Indian passport holders can get an e-Visa on Arrival for Indonesia (including Bali), independent of any other visa held.",
+    "conditions_text": "Indian passport holders can obtain Indonesia's Visitor Visa (electronic visa on arrival / e-VOA) online via the official evisa.imigrasi.go.id portal, applied for before or on arrival, for tourism, business meetings, government visits, goods purchasing, or transit; independent of any other visa held. Passport must be valid for at least 6 months.",
     "max_stay_days": 30,
-    "fee_notes": "IDR 500,000 (~$32), paid on arrival or pre-purchased online; one extension is usually possible.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "fee_notes": "IDR 500,000 (approx. $32 USD), paid online via evisa.imigrasi.go.id by Visa/Mastercard/JCB credit card; one 30-day extension is possible (total maximum 60 days), processed through the same portal or an immigration office.",
+    "source_url": "https://evisa.imigrasi.go.id/front/info/evoa",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -238,8 +238,8 @@
     "conditions_text": "The Maldives grants visa-free entry on arrival to virtually all nationalities. Indian nationals specifically get 90 days (most nationalities get 30) under a bilateral reciprocity arrangement.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Indian_citizens",
-    "last_verified_date": "2026-09-06"
+    "source_url": "https://foreign.gov.mv/index.php/en/consular/for-foreigners-visiting-maldives/maldives-visa",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "India",
@@ -257,33 +257,33 @@
     "destination_country": "Armenia",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "No visa needed for US passport holders.",
+    "conditions_text": "US passport holders are unilaterally exempt from any visa requirement to enter Armenia and may stay for up to 180 days per calendar year, per Armenia's Ministry of Foreign Affairs list of unilaterally visa-exempt countries.",
     "max_stay_days": 180,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.mfa.am/en/visafreelist",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
     "destination_country": "Colombia",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Extendable up to 180 days within a one-year period.",
+    "conditions_text": "No visa needed for tourism stays of up to 90 days, per Colombia's Resolucion 5488 of 2022 (Article 3, Literal A, which lists Estados Unidos de America among nationalities exempt from the short-stay visa requirement). A one-time extension (Permiso Temporal de Permanencia) can bring the total to a maximum of 180 days, continuous or discontinuous, within the same calendar year, per Migracion Colombia's Resolucion 2061 of 2020.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5488_2022.htm",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
     "destination_country": "Costa Rica",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "90 days out of any 12-month period.",
-    "max_stay_days": 90,
+    "conditions_text": "The United States is in Group I (visa-free) of Costa Rica's official visa directive. The immigration officer sets the authorized stay on arrival, up to a maximum of 180 calendar days, generally non-extendable (an initial grant of under 90 days may be extended to a total of 90 days).",
+    "max_stay_days": 180,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://migracion.go.cr/wp-content/uploads/2025/11/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N%C2%B0-216-17-11-2025.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
@@ -293,19 +293,19 @@
     "conditions_text": "A full year visa-free — one of the most generous allowances Georgia grants.",
     "max_stay_days": 365,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://matsne.gov.ge/en/document/view/2867361",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
     "destination_country": "Indonesia",
     "visa_type": "visa-on-arrival",
     "requires_held_document_country": null,
-    "conditions_text": "Visa on arrival, single entry.",
+    "conditions_text": "US passport holders can obtain Indonesia's Visitor Visa (electronic visa on arrival / e-VOA) online via the official evisa.imigrasi.go.id portal; single-entry, for tourism, business meetings, government visits, goods purchasing, or transit. Passport must be valid for at least 6 months.",
     "max_stay_days": 30,
-    "fee_notes": "Approx. $35 (IDR 500,000), payable on arrival.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "fee_notes": "IDR 500,000 (approx. $33 USD), paid online via evisa.imigrasi.go.id by Visa/Mastercard/JCB credit card; one 30-day extension is possible (total maximum 60 days), processed through the same portal or an immigration office.",
+    "source_url": "https://evisa.imigrasi.go.id/front/info/evoa",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
@@ -315,19 +315,19 @@
     "conditions_text": "Free visa on arrival, extendable up to 90 days.",
     "max_stay_days": 30,
     "fee_notes": "Free.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Maldives.html",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
     "destination_country": "Mexico",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "A Multiple Immigration Form (FMM) is required for all visitors.",
+    "conditions_text": "US citizens do not need a visa for tourism, business, or transit stays. A Forma Migratoria Múltiple (FMM) is required for all visitors: land entrants must complete, print, and present the FMM at the immigration checkpoint; air travelers receive a digital FMM (FMMd) automatically as part of arrival processing.",
     "max_stay_days": 180,
-    "fee_notes": "Included in airfare for air arrivals; ~$40 for land entries staying over 7 days.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "fee_notes": "Included in airfare for air arrivals; FMM fee (~$54-57 USD / ~983 MXN) applies for land entries staying over 7 days, payable at the INM checkpoint or online.",
+    "source_url": "https://www.inm.gob.mx/gobmx/word/index.php/paises-no-requieren-visa-para-mexico/",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
@@ -337,19 +337,19 @@
     "conditions_text": "No visa needed for tourism.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.consulado.pe/Documents/visas/Requerimientos_de_visa_para_ciudadanos_extranjeros.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
     "destination_country": "Philippines",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "No visa needed for tourism stays up to 30 days.",
+    "conditions_text": "US nationals may enter the Philippines without a visa for tourism or business for an initial stay of up to 30 days under Executive Order 408 (as amended), provided they hold a passport valid at least 6 months beyond the contemplated stay and a return or onward ticket to their next destination.",
     "max_stay_days": 30,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://newyorkpcg.org/pcgny/wp-content/uploads/2020/09/EO-408-for-linking.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
@@ -359,19 +359,19 @@
     "conditions_text": "90 days within any 180-day period.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/sjedinjene-americke-drzave",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
     "destination_country": "Sri Lanka",
-    "visa_type": "visa-on-arrival",
+    "visa_type": "e-visa",
     "requires_held_document_country": null,
-    "conditions_text": "ETA or visa on arrival, part of Sri Lanka's expanded 2025/2026 visa-free program for the US and other major markets.",
+    "conditions_text": "Sri Lanka requires an Electronic Travel Authorization (ETA) for US nationals, applied for online at eta.gov.lk before arrival. Since 25 May 2026 the tourist ETA is free of charge for US passport holders as one of 40 eligible nationalities, with double-entry permitted within the 30-day validity window from the date of first arrival. This is a free ETA requirement, not full visa-free entry -- an ETA application before travel remains mandatory.",
     "max_stay_days": 30,
-    "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "fee_notes": "Free as of 25 May 2026 (previously a paid ETA). Stays beyond 30 days require a separate extension at the applicable fee, arranged with the Department of Immigration and Emigration.",
+    "source_url": "https://www.immigration.gov.lk/pages_e.php?id=60",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
@@ -381,52 +381,52 @@
     "conditions_text": "90 days within any 180-day period, tourism purpose only.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "USA",
     "destination_country": "UAE",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Extension possible for a fee.",
+    "conditions_text": "A visa is issued free of charge upon arrival, allowing a maximum stay of 90 days, whether continuous or intermittent, within 180 days calculated from the date of first entry; this 90-day allowance is explicitly non-renewable. A passport valid for at least 6 months beyond arrival and a round-trip or onward ticket are required. Overstaying incurs a fine of AED 50 per day.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.uae-embassy.org/visas-us-citizens",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
     "destination_country": "Armenia",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Visa on arrival available for stays up to 180 days in a year, effectively visa-free for tourism.",
+    "conditions_text": "UK passport holders are unilaterally exempt from any visa requirement to enter Armenia (not merely visa-on-arrival) and may stay for up to 180 days per calendar year, per Armenia's Ministry of Foreign Affairs list of unilaterally visa-exempt countries.",
     "max_stay_days": 180,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.mfa.am/en/visafreelist",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
     "destination_country": "Colombia",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "No visa needed for tourism.",
+    "conditions_text": "No visa needed for tourism stays of up to 90 days, per Colombia's Resolucion 5488 of 2022 (Article 3, Literal A, which lists Reino Unido de la Gran Bretana e Irlanda del Norte among nationalities exempt from the short-stay visa requirement). A one-time extension (Permiso Temporal de Permanencia) can bring the total to a maximum of 180 days, continuous or discontinuous, within the same calendar year, per Migracion Colombia's Resolucion 2061 of 2020.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5488_2022.htm",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
     "destination_country": "Costa Rica",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Exact period at discretion of the immigration officer on arrival.",
+    "conditions_text": "The United Kingdom (England, Wales, Scotland, and Northern Ireland) is in Group I (visa-free) of Costa Rica's official visa directive. The exact period is at the discretion of the immigration officer on arrival, up to a maximum of 180 calendar days, generally non-extendable (an initial grant of under 90 days may be extended to a total of 90 days).",
     "max_stay_days": 180,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://migracion.go.cr/wp-content/uploads/2025/11/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N%C2%B0-216-17-11-2025.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
@@ -436,19 +436,19 @@
     "conditions_text": "A full year visa-free.",
     "max_stay_days": 365,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://matsne.gov.ge/en/document/view/2867361",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
     "destination_country": "Indonesia",
     "visa_type": "visa-on-arrival",
     "requires_held_document_country": null,
-    "conditions_text": "e-VOA or visa on arrival, single entry.",
+    "conditions_text": "UK passport holders can obtain Indonesia's Visitor Visa (electronic visa on arrival / e-VOA) online via the official evisa.imigrasi.go.id portal; single-entry, for tourism, business meetings, government visits, goods purchasing, or transit. Passport must be valid for at least 6 months.",
     "max_stay_days": 30,
-    "fee_notes": "500,000 IDR (approx. £25), cash or card.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "fee_notes": "IDR 500,000 (approx. £25), paid online via evisa.imigrasi.go.id by Visa/Mastercard/JCB credit card; one 30-day extension is possible (total maximum 60 days), processed through the same portal or an immigration office.",
+    "source_url": "https://evisa.imigrasi.go.id/front/info/evoa",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
@@ -458,19 +458,19 @@
     "conditions_text": "Free visa on arrival.",
     "max_stay_days": 30,
     "fee_notes": "Free.",
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.gov.uk/foreign-travel-advice/maldives/entry-requirements",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
     "destination_country": "Mexico",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Stay length stamped on arrival, up to 180 days.",
+    "conditions_text": "British citizens do not need a visa for tourism. Stay length is granted via the FMM and/or stamped on arrival, up to 180 days. Travelers entering by land must complete an FMM (in-person/printed at the border); air travelers receive a digital FMM automatically. No paid or voluntary work is permitted under this status.",
     "max_stay_days": 180,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.inm.gob.mx/gobmx/word/index.php/paises-no-requieren-visa-para-mexico/",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
@@ -480,19 +480,19 @@
     "conditions_text": "Up to 183 accumulated days within a 365-day period.",
     "max_stay_days": 183,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://cdn.www.gob.pe/uploads/document/file/1260642/ley1350_migraciones_reglamento.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
     "destination_country": "Philippines",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Longer visas available in advance from the Philippine Embassy if needed.",
+    "conditions_text": "British passport holders may enter the Philippines without a visa for tourism or business for an initial stay of up to 30 days under Executive Order 408 (as amended), provided they hold a passport valid at least 6 months beyond the contemplated stay and a return or onward ticket. For stays longer than 30 days, a 9(a) Temporary Visitor visa can be obtained in advance from the Philippine Embassy in London.",
     "max_stay_days": 30,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://newyorkpcg.org/pcgny/wp-content/uploads/2020/09/EO-408-for-linking.pdf",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
@@ -502,19 +502,19 @@
     "conditions_text": "No visa needed for tourism.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/ujedinjeno-kraljevstvo",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
     "destination_country": "Sri Lanka",
-    "visa_type": "visa-on-arrival",
+    "visa_type": "e-visa",
     "requires_held_document_country": null,
-    "conditions_text": "ETA or visa on arrival.",
+    "conditions_text": "Sri Lanka requires an Electronic Travel Authorization (ETA) for UK nationals, applied for online at eta.gov.lk before arrival. Since 25 May 2026 the tourist ETA is free of charge for British passport holders as one of 40 eligible nationalities, with double-entry permitted within the 30-day validity window from the date of first arrival. This is a free ETA requirement, not full visa-free entry -- an ETA application before travel remains mandatory.",
     "max_stay_days": 30,
-    "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "fee_notes": "Free as of 25 May 2026 (previously a paid ETA). Stays beyond 30 days require a separate extension at the applicable fee, arranged with the Department of Immigration and Emigration.",
+    "source_url": "https://www.immigration.gov.lk/pages_e.php?id=60",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
@@ -524,19 +524,19 @@
     "conditions_text": "90 days within any 180-day period.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "UK",
     "destination_country": "UAE",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Extension possible by contacting local authorities before expiry.",
+    "conditions_text": "A visitor visa is issued free of charge on arrival and stamped into the passport, allowing a stay of up to 90 days within a 180-day period beginning from the date of first entry (stay may be continuous or split across multiple visits). No advance application is needed. To extend, contact the General Directorate of Residency and Foreigners Affairs (in Dubai) or the Federal Authority for Identity, Citizenship, Customs & Port Security (rest of the UAE) before the visa expires; overstaying incurs accumulating daily fines.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_requirements_for_British_citizens",
-    "last_verified_date": "2026-09-07"
+    "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates/entry-requirements",
+    "last_verified_date": "2026-09-14"
   },
   {
     "passport_country": "Canada",
@@ -1115,10 +1115,10 @@
     "destination_country": "Armenia",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Brazilian passport holders may enter Armenia without a visa for stays of up to 180 days, one of the more generous visa-free allowances Armenia grants to any nationality.",
+    "conditions_text": "Brazilian passport holders (all passport types) may enter Armenia without a visa for stays of up to 180 days, under Armenia's bilateral visa-waiver agreement with Brazil, per Armenia's Ministry of Foreign Affairs list of countries with a visa-free regime under bilateral/multilateral agreements.",
     "max_stay_days": 180,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Armenia",
+    "source_url": "https://www.mfa.am/en/whoneedvisa",
     "last_verified_date": "2026-09-14"
   },
   {
@@ -1239,7 +1239,7 @@
     "conditions_text": "Brazilian passport holders may enter Turkey without a visa for tourism or business, for up to 90 days within any 180-day period, under a visa-exemption arrangement in place since 2004.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Turkey",
+    "source_url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
     "last_verified_date": "2026-09-14"
   },
   {
@@ -1247,10 +1247,10 @@
     "destination_country": "UAE",
     "visa_type": "visa-free",
     "requires_held_document_country": null,
-    "conditions_text": "Under a bilateral visa-waiver agreement in force since July 2018, Brazilian ordinary, official, and diplomatic passport holders may enter the UAE without a visa and stay up to 90 days within any 12-month period.",
+    "conditions_text": "Under a bilateral visa-waiver agreement between Brazil and the UAE in force since 2018, Brazilian ordinary, official, and diplomatic passport holders may enter the UAE without a visa and stay up to 90 days within any 12-month period. A passport valid for at least 6 months is required; the exemption does not cover paid work or study, which require separate authorization.",
     "max_stay_days": 90,
     "fee_notes": null,
-    "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_the_United_Arab_Emirates",
+    "source_url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen",
     "last_verified_date": "2026-09-14"
   },
   {
