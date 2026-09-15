@@ -140,6 +140,38 @@ const EASY_ACCESS_STATUSES = new Set<VisaStatus["status"]>([
   "visa-on-arrival",
 ]);
 
+const VISA_REQUIRED_STATUSES = new Set<VisaStatus["status"]>([
+  "e-visa",
+  "advance-visa-required",
+]);
+
+/**
+ * Resolves status for every destination this user has a rule or held
+ * document for — the shared groundwork for both getEasyAccessDestinations
+ * and getVisaRequiredDestinations, so the profile page (which wants both
+ * lists) doesn't run the resolution twice.
+ */
+async function getAllKnownDestinationStatuses(
+  user: User & { heldDocuments: HeldDocument[] },
+  asOf: Date
+): Promise<VisaStatus[]> {
+  const ruleDestinations = await prisma.visaRule.findMany({
+    where: { passportCountry: user.passportCountry },
+    distinct: ["destinationCountry"],
+    select: { destinationCountry: true },
+  });
+
+  const destinations = new Set(ruleDestinations.map((d) => d.destinationCountry));
+  for (const doc of user.heldDocuments) {
+    if (isDocumentLive(doc, asOf)) destinations.add(doc.country);
+  }
+  destinations.delete(user.passportCountry);
+
+  return Promise.all(
+    Array.from(destinations).map((country) => getVisaStatusForUser(user, country, asOf))
+  );
+}
+
 /**
  * All destinations this specific user (their passport + whatever documents
  * they hold) can currently enter without arranging a visa in advance —
@@ -156,23 +188,24 @@ export async function getEasyAccessDestinations(
   user: User & { heldDocuments: HeldDocument[] },
   asOf: Date = new Date()
 ): Promise<VisaStatus[]> {
-  const ruleDestinations = await prisma.visaRule.findMany({
-    where: { passportCountry: user.passportCountry },
-    distinct: ["destinationCountry"],
-    select: { destinationCountry: true },
-  });
-
-  const destinations = new Set(ruleDestinations.map((d) => d.destinationCountry));
-  for (const doc of user.heldDocuments) {
-    if (isDocumentLive(doc, asOf)) destinations.add(doc.country);
-  }
-  destinations.delete(user.passportCountry);
-
-  const statuses = await Promise.all(
-    Array.from(destinations).map((country) => getVisaStatusForUser(user, country, asOf))
-  );
-
+  const statuses = await getAllKnownDestinationStatuses(user, asOf);
   return statuses
     .filter((s) => EASY_ACCESS_STATUSES.has(s.status))
+    .sort((a, b) => a.destinationCountry.localeCompare(b.destinationCountry));
+}
+
+/**
+ * The complement of getEasyAccessDestinations: destinations this user's
+ * passport can reach, but only by arranging a visa first (e-visa or an
+ * advance in-person/embassy application) — each one carries the sourceUrl
+ * so the profile page can link straight to where that application starts.
+ */
+export async function getVisaRequiredDestinations(
+  user: User & { heldDocuments: HeldDocument[] },
+  asOf: Date = new Date()
+): Promise<VisaStatus[]> {
+  const statuses = await getAllKnownDestinationStatuses(user, asOf);
+  return statuses
+    .filter((s) => VISA_REQUIRED_STATUSES.has(s.status))
     .sort((a, b) => a.destinationCountry.localeCompare(b.destinationCountry));
 }

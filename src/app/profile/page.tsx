@@ -1,9 +1,9 @@
 import { getCurrentUser } from "@/lib/currentUser";
-import { getCascadeExplorer, getEasyAccessDestinations } from "@/lib/visa";
+import { getCascadeExplorer, getEasyAccessDestinations, getVisaRequiredDestinations } from "@/lib/visa";
 import { addHeldDocument, removeHeldDocument, updatePassportCountry, signOutAction } from "@/lib/actions";
 import { VISA_STATUS_BORDER_CLASSES, VISA_STATUS_TEXT_CLASSES } from "@/lib/types";
 import { getExpiryStatus, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
-import { FileStack, Unlock, Trash2, Plus, LogOut, Globe2 } from "lucide-react";
+import { FileStack, Unlock, Trash2, Plus, LogOut, Globe2, FileWarning, ExternalLink } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
@@ -13,10 +13,15 @@ const EASY_ACCESS_LABELS: Record<string, string> = {
   "visa-on-arrival": "Visa on arrival",
 };
 
+const VISA_REQUIRED_LABELS: Record<string, string> = {
+  "e-visa": "e-Visa",
+  "advance-visa-required": "Advance visa needed",
+};
+
 export default async function ProfilePage() {
   const user = await getCurrentUser();
 
-  const [cascadeSections, easyAccess] = await Promise.all([
+  const [cascadeSections, easyAccess, visaRequired] = await Promise.all([
     Promise.all(
       user.heldDocuments.map(async (doc) => ({
         doc,
@@ -24,6 +29,7 @@ export default async function ProfilePage() {
       }))
     ),
     getEasyAccessDestinations(user),
+    getVisaRequiredDestinations(user),
   ]);
 
   return (
@@ -141,6 +147,54 @@ export default async function ProfilePage() {
                   {EASY_ACCESS_LABELS[status.status] ?? status.status}
                   {status.viaCascade ? " · via held document" : ""}
                 </p>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+
+      <section>
+        <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
+          <FileWarning size={20} className="text-ink/35" /> Where you'll need a visa
+        </h2>
+        <p className="mt-1 font-body text-sm text-ink/55">
+          Destinations your {user.passportCountry} passport can reach, but only after
+          arranging a visa first — an e-Visa applied for online, or a full advance
+          application through an embassy or consulate. Each links to the official source
+          so you can start there.
+        </p>
+
+        {visaRequired.length === 0 ? (
+          <p className="mt-4 font-body text-sm text-ink/50">
+            No visa-required destinations on file yet for this passport.
+          </p>
+        ) : (
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {visaRequired.map((status) => (
+              <div
+                key={status.destinationCountry}
+                className={`flex flex-col gap-2 rounded-card border-l-2 bg-paper px-4 py-3 shadow-paper ${VISA_STATUS_BORDER_CLASSES[status.status] ?? "border-l-charcoal/30 bg-charcoal/5"}`}
+              >
+                <div>
+                  <p className="font-body text-sm text-ink">{status.destinationCountry}</p>
+                  <p className={`font-stamp text-[11px] uppercase ${VISA_STATUS_TEXT_CLASSES[status.status] ?? "text-ink/60"}`}>
+                    {VISA_REQUIRED_LABELS[status.status] ?? status.status}
+                    {status.viaCascade ? " · via held document" : ""}
+                  </p>
+                </div>
+                {status.conditionsText && (
+                  <p className="font-body text-xs text-ink/55">{status.conditionsText}</p>
+                )}
+                {status.sourceUrl && (
+                  <a
+                    href={status.sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-auto flex items-center gap-1.5 font-body text-xs text-forest underline decoration-forest/40 underline-offset-2 hover:decoration-forest"
+                  >
+                    Start application <ExternalLink size={12} />
+                  </a>
+                )}
               </div>
             ))}
           </div>
