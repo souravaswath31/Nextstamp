@@ -11,7 +11,10 @@ export const dynamic = "force-dynamic";
 export default async function MyTripsPage() {
   const user = await getCurrentUser();
   const trips = await prisma.userTrip.findMany({
-    where: { userId: user.id },
+    where: {
+      OR: [{ userId: user.id }, { collaborators: { some: { userId: user.id } } }],
+    },
+    include: { user: { select: { name: true } } },
     orderBy: { updatedAt: "desc" },
   });
 
@@ -62,7 +65,12 @@ export default async function MyTripsPage() {
                     href={`/trip/${trip.id}`}
                     className="card-lift flex items-center justify-between rounded-panel bg-paper px-5 py-4 shadow-paper"
                   >
-                    <span className="font-display text-base text-ink">{trip.title}</span>
+                    <div>
+                      <span className="font-display text-base text-ink">{trip.title}</span>
+                      {trip.userId !== user.id && (
+                        <p className="font-body text-xs text-ink/45">Shared by {trip.user.name}</p>
+                      )}
+                    </div>
                     <StatusPill status={trip.status as TripStatus} />
                   </Link>
                 ))}

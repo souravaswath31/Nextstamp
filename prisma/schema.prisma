@@ -27,6 +27,7 @@ model User {
 
   heldDocuments HeldDocument[]
   trips         UserTrip[]
+  tripCollaborations TripCollaborator[]
 }
 
 // A visa, residency permit, or similar document the user holds beyond
@@ -125,7 +126,6 @@ model UserTrip {
   status        String    @default("idea") // "idea" | "planning" | "booked" | "completed"
   customDaysJson String   // JSON override of the day-by-day plan (source of truth once a trip is created)
   costTier      String    @default("mid")
-  coTravelers   String?   // comma-separated names, Phase 2 will make this real
   shareToken    String?   @unique
   startedDate   DateTime?
   completedDate DateTime?
@@ -134,6 +134,23 @@ model UserTrip {
 
   user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
   itinerary Itinerary? @relation(fields: [itineraryId], references: [id])
+  collaborators TripCollaborator[]
+}
+
+// A co-traveler who can view and edit a trip they don't own — added via the
+// trip's shareToken invite link (see joinTripViaToken in actions.ts). Real,
+// linked accounts rather than the old coTravelers free-text field, so
+// editing rights and Realtime access can actually be scoped to them.
+model TripCollaborator {
+  id        String   @id @default(cuid())
+  tripId    String
+  userId    String
+  createdAt DateTime @default(now())
+
+  trip UserTrip @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  user User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([tripId, userId])
 }
 
 // State/destination guides — a curated place directory, distinct from the

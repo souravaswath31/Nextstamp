@@ -2,10 +2,13 @@
 
 import { useState, type FormEvent } from "react";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
 import { Mail, Send, CheckCircle2 } from "lucide-react";
 import { createClient } from "@/utils/supabase/client";
 
 export default function LoginPage() {
+  const searchParams = useSearchParams();
+  const next = searchParams.get("next");
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -16,10 +19,16 @@ export default function LoginPage() {
     setError(null);
     setLoading(true);
 
+    // Preserve where the user was headed (e.g. a trip invite link) through
+    // the magic-link round trip — the callback route reads this same `next`
+    // param and redirects there instead of the homepage once signed in.
+    const callbackUrl = new URL("/auth/callback", window.location.origin);
+    if (next) callbackUrl.searchParams.set("next", next);
+
     const supabase = createClient();
     const { error } = await supabase.auth.signInWithOtp({
       email,
-      options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
+      options: { emailRedirectTo: callbackUrl.toString() },
     });
 
     setLoading(false);

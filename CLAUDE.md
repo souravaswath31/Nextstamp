@@ -139,8 +139,8 @@ public/logo.png, icon-badge.png, hero-bg.jpg, og-image.jpg   Brand assets — se
   passports are strong enough not to need a cascade to most of these 13 destinations).
 - **StateGuide** / **StatePlace** — `StatePlace.category` is one of `amazing` / `common` /
   `hidden` / `food_culture` (see canonical taxonomy below). `StateGuide.terrain` picks which
-  hand-built SVG hero illustration renders (`mountain`/`desert`/`coast`/`forest`/`plains` —
-  all 5 are in use).
+  hero photo renders (`mountain`/`desert`/`coast`/`forest`/`plains` — all 5 are in use; see
+  `TerrainHero.tsx`).
 - **UserTrip** — a saved/customized trip, optionally linked to an `Itinerary`, scoped
   per-user. `customDaysJson` is the live-edited day plan (source of truth once a trip
   exists, independent of the original Itinerary's days). `coTravelers` is a string field
@@ -273,8 +273,9 @@ typography-driven — after starting as a warmer "travel notebook" look. Current
   consistency.
 - **Motifs kept from the original design**: circular "stamp" badges for visa status
   (`.stamp-mark` in `globals.css` — no longer rotated, that read as more "boutique journal"
-  than Apple), ticket-perforation dividers between itinerary days, hand-built SVG terrain
-  illustrations (no photography — see Roadmap) that vary by `StateGuide.terrain`.
+  than Apple), ticket-perforation dividers between itinerary days. State guide hero banners
+  now use real (AI-generated) terrain photography instead of the original hand-built SVGs —
+  see Roadmap and `TerrainHero.tsx`.
 - **Brand assets** (`public/`): `logo.png` (header wordmark), `icon-badge.png` (small
   in-UI badge, e.g. login page), `hero-bg.jpg` (soft abstract background behind the
   login/onboarding card), `og-image.jpg` (social share card, wired into `layout.tsx`
@@ -300,20 +301,32 @@ deployed at nextstamp-app.vercel.app, as the sole source of truth.
 
 1. ~~**Auth.**~~ Done — Supabase Auth, magic link. Every table already had the `userId`
    fields this needed, so it was additive.
-2. **Collaborative trip planning** — real-time shared editing of a `UserTrip` with people
-   you're actually traveling with. Was blocked on auth; **auth now exists, so this is
-   unblocked**. Needs its own architecture decision (polling-based co-editing vs. a realtime
-   channel — Supabase has Realtime built in, which would avoid a new infra dependency) before
-   starting; don't guess on this without checking with the project owner first.
+2. ~~**Collaborative trip planning.**~~ Done — real-time shared editing of a `UserTrip` via
+   Supabase Realtime (the project owner's explicit choice over polling, to avoid new infra).
+   A `TripCollaborator` join table + the trip's `shareToken` power an invite-link flow
+   (`/trip/[id]/join?token=...`); `getTripWithAccess()` in `src/lib/trips.ts` is the single
+   place that decides owner-vs-collaborator-vs-nobody, used by both the page and every
+   trip-mutating server action. Realtime is scoped by Postgres RLS (`UserTrip` has RLS
+   enabled with a SELECT policy limited to the owner or a collaborator) so the live-update
+   channel can't leak a trip's content to someone who isn't on it — see "Known loose ends"
+   for the pre-existing bug this fix closed. TripEditor shows a "co-traveler updated this
+   trip" banner rather than silently overwriting in-progress edits — a full refresh (via a
+   `key={updatedAt}` remount) is one click away but not automatic.
 3. **Booking-email import** (TripIt-style: forward a confirmation, auto-populate the trip) —
-   was blocked on auth; **now unblocked**. Needs a real inbox to receive into (an email
-   webhook provider — e.g. Postmark/SendGrid inbound parsing) plus a parsing pipeline; this
-   is new infrastructure and a new recurring cost, not a code-only change. Check scope before
-   starting.
-4. **Real photography** — blocked on the project owner obtaining a free Unsplash or Pexels
-   API key. Until then, the hand-built SVG terrain illustrations are the intentional look,
-   not a placeholder to feel bad about.
-5. **Payment** — deferred by design until the above are further along.
+   explicitly deferred by the project owner: needs a real inbox to receive into (an email
+   webhook provider — e.g. Postmark/SendGrid inbound parsing) plus a parsing pipeline, which
+   is new infrastructure and a new recurring cost, not a code-only change. Revisit when
+   that cost is worth taking on.
+4. ~~**Real photography.**~~ Done, via AI-generated (Gemini) rather than licensed photography
+   — the project owner's call once an Unsplash/Pexels API key turned out to be more friction
+   than just generating images the same way the brand assets were made. Five terrain photos
+   (`public/terrain-{mountain,desert,coast,forest,plains}.jpg`) replaced the hand-built SVGs
+   in `TerrainHero.tsx`, one per `StateGuide.terrain` value, reused across every state that
+   shares a terrain. Watch for this if you regenerate any of these: the first batch came
+   back from Gemini/Drive with scrambled filenames (content didn't match the requested
+   terrain in the name) — always eyeball each image against its intended terrain before
+   wiring it in, don't trust the filename.
+5. **Payment** — deferred by design; the project owner chose to skip it for this round.
 6. **Content depth** — the "second itinerary per state" goal is **done** (all 50 states,
    114 total itineraries, 16 of them international). Visa coverage is at 8 passports × 18
    destinations (154 rules) after round 4 added Japan, Thailand, Vietnam, Egypt, and
@@ -330,6 +343,13 @@ deployed at nextstamp-app.vercel.app, as the sole source of truth.
   incident just above — the number here was wrong by 16x for a while) — regrep
   `data/visa-rules-seed.json` for `wikipedia` yourself rather than assuming this doc is
   current.
+- **Fixed while building collaborative planning, but worth knowing about**: `/trip/[id]`
+  had no access check at all (any signed-in user, or even a logged-out one, could view and
+  edit any trip by guessing/knowing its cuid), and `updateTripStatus`/`updateTripDays`/
+  `deleteTrip` in `src/lib/actions.ts` took a bare `tripId` with no ownership check either —
+  a real IDOR bug, not a hypothetical. Now everything routes through
+  `getTripWithAccess()`. If you add another trip-mutating action, route it through that
+  helper too rather than trusting a `tripId` parameter on its own.
 
 ## Incident: `npm run seed` is not actually crash-safe against a mid-run connection drop
 

@@ -1,10 +1,12 @@
 "use server";
 
+import { randomUUID } from "crypto";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
 import { prisma } from "./prisma";
 import { getCurrentUser } from "./currentUser";
+import { getTripWithAccess } from "./trips";
 import { createClient } from "@/utils/supabase/server";
 import type { TripDay, TripStatus } from "./types";
 import { normalizeCountryInput } from "./countries";
@@ -38,6 +40,7 @@ export async function createTripFromItinerary(itineraryId: string) {
       status: "idea",
       costTier: itinerary.costTier,
       customDaysJson: JSON.stringify(itineraryDaysToTripDays(itinerary.days)),
+      shareToken: randomUUID(),
     },
   });
 
@@ -58,6 +61,7 @@ export async function createBlankTrip(formData: FormData) {
       customDaysJson: JSON.stringify([
         { dayNumber: 1, title: "Day 1", activities: [] },
       ] satisfies TripDay[]),
+      shareToken: randomUUID(),
     },
   });
 
@@ -66,6 +70,10 @@ export async function createBlankTrip(formData: FormData) {
 }
 
 export async function updateTripStatus(tripId: string, status: TripStatus) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
   const data: { status: TripStatus; completedDate?: Date | null } = { status };
   // Set completedDate when marking complete, and just as importantly, clear
   // it when moving away from "completed" — otherwise a trip un-completed
@@ -80,6 +88,10 @@ export async function updateTripStatus(tripId: string, status: TripStatus) {
 }
 
 export async function updateTripDays(tripId: string, days: TripDay[], costTier: string, title: string) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
   const safeTitle = title.trim() || "Untitled trip";
   await prisma.userTrip.update({
     where: { id: tripId },
@@ -93,10 +105,72 @@ export async function updateTripDays(tripId: string, days: TripDay[], costTier: 
   revalidatePath("/my-trips");
 }
 
+// Trips created before invite links existed have no shareToken yet —
+// backfill one on first visit to the owner's own trip rather than requiring
+// a migration pass over old rows.
+export async function ensureShareToken(tripId: string): Promise<string> {
+  const user = await getCurrentUser();
+  const { trip, isOwner } = await getTripWithAccess(tripId, user.id);
+  if (!trip || !isOwner) throw new Error("Only the trip owner can create an invite link.");
+  if (trip.shareToken) return trip.shareToken;
+
+  const shareToken = randomUUID();
+  await prisma.userTrip.update({ where: { id: tripId }, data: { shareToken } });
+  return shareToken;
+}
+
 export async function deleteTrip(tripId: string) {
+  const user = await getCurrentUser();
+  const { trip, isOwner } = await getTripWithAccess(tripId, user.id);
+  // Deleting (as opposed to editing) is owner-only — a co-traveler removing
+  // the whole trip out from under everyone else is a different, much more
+  // destructive action than editing a day plan.
+  if (!trip || !isOwner) throw new Error("Only the trip owner can delete it.");
+
   await prisma.userTrip.delete({ where: { id: tripId } });
   revalidatePath("/my-trips");
   redirect("/my-trips");
+}
+
+// Invite links use the trip's shareToken (generated at creation) rather
+// than a separate email — no email infrastructure exists yet, so sharing
+// happens by whatever channel the owner likes (text, Slack, etc.).
+export async function joinTripViaToken(tripId: string, token: string) {
+  const user = await getCurrentUser();
+
+  const trip = await prisma.userTrip.findUnique({ where: { id: tripId } });
+  if (!trip || !trip.shareToken || trip.shareToken !== token) {
+    throw new Error("This invite link is invalid.");
+  }
+
+  if (trip.userId === user.id) {
+    redirect(`/trip/${tripId}`);
+  }
+
+  await prisma.tripCollaborator.upsert({
+    where: { tripId_userId: { tripId, userId: user.id } },
+    create: { tripId, userId: user.id },
+    update: {},
+  });
+
+  // Bump updatedAt so everyone already viewing the trip picks up the new
+  // collaborator via the same Realtime subscription used for day-plan edits,
+  // instead of needing a second channel just for membership changes.
+  await prisma.userTrip.update({ where: { id: tripId }, data: { updatedAt: new Date() } });
+
+  revalidatePath(`/trip/${tripId}`);
+  redirect(`/trip/${tripId}`);
+}
+
+export async function removeCollaborator(tripId: string, collaboratorUserId: string) {
+  const user = await getCurrentUser();
+  const { trip, isOwner } = await getTripWithAccess(tripId, user.id);
+  if (!trip || !isOwner) throw new Error("Only the trip owner can remove a co-traveler.");
+
+  await prisma.tripCollaborator.delete({
+    where: { tripId_userId: { tripId, userId: collaboratorUserId } },
+  });
+  revalidatePath(`/trip/${tripId}`);
 }
 
 export async function updatePassportCountry(formData: FormData) {

@@ -1,12 +1,15 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, ArrowUp, ArrowDown, Trash2, Plus, Save, CheckCircle2 } from "lucide-react";
-import { updateTripDays, updateTripStatus, deleteTrip } from "@/lib/actions";
+import { ArrowLeft, ArrowUp, ArrowDown, Trash2, Plus, Save, CheckCircle2, Users, Link2, Copy, RefreshCw } from "lucide-react";
+import { updateTripDays, updateTripStatus, deleteTrip, ensureShareToken, removeCollaborator } from "@/lib/actions";
 import { estimateTripCost, getBudgetBreakdown, formatUsd, type CostTier } from "@/lib/costs";
 import { TRIP_STATUSES, type TripDay, type TripStatus } from "@/lib/types";
+import { createClient } from "@/utils/supabase/client";
 import StatusPill from "./StatusPill";
+
+type Collaborator = { userId: string; name: string; email: string };
 
 type Props = {
   tripId: string;
@@ -14,6 +17,9 @@ type Props = {
   initialStatus: TripStatus;
   initialCostTier: string;
   initialDays: TripDay[];
+  isOwner: boolean;
+  shareToken: string | null;
+  collaborators: Collaborator[];
 };
 
 export default function TripEditor({
@@ -22,6 +28,9 @@ export default function TripEditor({
   initialStatus,
   initialCostTier,
   initialDays,
+  isOwner,
+  shareToken,
+  collaborators,
 }: Props) {
   const router = useRouter();
   const [title, setTitle] = useState(initialTitle);
@@ -30,8 +39,78 @@ export default function TripEditor({
   const [days, setDays] = useState<TripDay[]>(initialDays);
   const [isPending, startTransition] = useTransition();
   const [savedAt, setSavedAt] = useState<number | null>(null);
+  const [remoteUpdate, setRemoteUpdate] = useState(false);
 
   const estimatedCost = useMemo(() => estimateTripCost(days.length, costTier), [days.length, costTier]);
+
+  // Live sync: when a co-traveler saves (or joins), Supabase Realtime fires
+  // an UPDATE event for this trip's row (RLS-scoped to owner+collaborators,
+  // so nobody else can subscribe to it even knowing the trip id). Rather
+  // than silently overwrite whatever this person is mid-typing, surface a
+  // banner and let them pull the latest on their own terms.
+  useEffect(() => {
+    const supabase = createClient();
+    const channel = supabase
+      .channel(`trip-${tripId}`)
+      .on(
+        "postgres_changes",
+        { event: "UPDATE", schema: "public", table: "UserTrip", filter: `id=eq.${tripId}` },
+        () => setRemoteUpdate(true)
+      )
+      .subscribe();
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, [tripId]);
+
+  const [token, setToken] = useState(shareToken);
+  const [collaboratorList, setCollaboratorList] = useState(collaborators);
+  const [copied, setCopied] = useState(false);
+  // Server and the pre-hydration client render both need the *same* markup,
+  // so this starts as the relative path (window isn't available on the
+  // server) and only gains the real origin after mount — a post-hydration
+  // state update, not a mismatch.
+  const [inviteOrigin, setInviteOrigin] = useState("");
+  useEffect(() => {
+    setInviteOrigin(window.location.origin);
+  }, []);
+
+  function createInvite() {
+    startTransition(async () => {
+      const newToken = await ensureShareToken(tripId);
+      setToken(newToken);
+    });
+  }
+
+  function copyInviteLink() {
+    if (!token) return;
+    const url = `${window.location.origin}/trip/${tripId}/join?token=${token}`;
+    navigator.clipboard.writeText(url).then(
+      () => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      },
+      () => {
+        // Clipboard write can be denied by browser/permissions policy —
+        // fall back to a manual copy instead of leaving the click silently
+        // do nothing (or throwing an unhandled rejection).
+        window.prompt("Copy this invite link:", url);
+      }
+    );
+  }
+
+  function removeCoTraveler(userId: string) {
+    if (!confirm("Remove this co-traveler? They'll lose access to edit this trip.")) return;
+    startTransition(async () => {
+      await removeCollaborator(tripId, userId);
+      setCollaboratorList((list) => list.filter((c) => c.userId !== userId));
+    });
+  }
+
+  function refreshFromRemote() {
+    setRemoteUpdate(false);
+    router.refresh();
+  }
 
   function moveDay(index: number, direction: -1 | 1) {
     const target = index + direction;
@@ -83,6 +162,21 @@ export default function TripEditor({
       >
         <ArrowLeft size={15} /> Back
       </button>
+
+      {remoteUpdate && (
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-panel bg-teal/10 px-5 py-3.5">
+          <span className="font-body text-sm text-ink/75">
+            A co-traveler just updated this trip.
+          </span>
+          <button
+            onClick={refreshFromRemote}
+            className="flex items-center gap-1.5 font-body text-xs font-semibold text-teal hover:underline"
+          >
+            <RefreshCw size={13} /> Refresh to see their changes
+          </button>
+        </div>
+      )}
+
       <div>
         <input
           value={title}
@@ -142,6 +236,62 @@ export default function TripEditor({
             })()}
           </div>
         </div>
+      </section>
+
+      <section className="rounded-panel bg-paper p-5 shadow-paper">
+        <h2 className="flex items-center gap-2 font-display text-lg text-ink">
+          <Users size={17} className="text-ink/35" /> Co-travelers
+        </h2>
+
+        {collaboratorList.length > 0 && (
+          <div className="mt-3 space-y-2">
+            {collaboratorList.map((c) => (
+              <div key={c.userId} className="flex items-center justify-between rounded-card bg-paperDark px-3.5 py-2">
+                <div>
+                  <p className="font-body text-sm text-ink">{c.name}</p>
+                  <p className="font-body text-xs text-ink/50">{c.email}</p>
+                </div>
+                {isOwner && (
+                  <button
+                    onClick={() => removeCoTraveler(c.userId)}
+                    className="font-body text-xs text-stampRed hover:underline"
+                  >
+                    Remove
+                  </button>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+
+        {isOwner ? (
+          token ? (
+            <div className="mt-3 flex flex-wrap items-center gap-2">
+              <Link2 size={14} className="text-ink/40" />
+              <span className="truncate font-body text-xs text-ink/55">
+                {inviteOrigin}/trip/{tripId}/join?token={token}
+              </span>
+              <button
+                onClick={copyInviteLink}
+                className="flex shrink-0 items-center gap-1 font-body text-xs font-semibold text-coral hover:underline"
+              >
+                <Copy size={12} /> {copied ? "Copied!" : "Copy link"}
+              </button>
+            </div>
+          ) : (
+            <button
+              onClick={createInvite}
+              disabled={isPending}
+              className="btn-pill btn-pill-primary !mt-3 !px-4 !py-1.5 !text-xs disabled:opacity-50"
+            >
+              <Link2 size={13} /> Create invite link
+            </button>
+          )
+        ) : (
+          collaboratorList.length === 0 && (
+            <p className="mt-2 font-body text-xs text-ink/50">Only the trip owner can invite co-travelers.</p>
+          )
+        )}
       </section>
 
       <section>
@@ -240,12 +390,14 @@ export default function TripEditor({
             <CheckCircle2 size={14} /> Saved.
           </span>
         )}
-        <button
-          onClick={handleDelete}
-          className="ml-auto flex items-center gap-1 font-body text-sm text-stampRed hover:underline"
-        >
-          <Trash2 size={14} /> Delete trip
-        </button>
+        {isOwner && (
+          <button
+            onClick={handleDelete}
+            className="ml-auto flex items-center gap-1 font-body text-sm text-stampRed hover:underline"
+          >
+            <Trash2 size={14} /> Delete trip
+          </button>
+        )}
       </div>
     </div>
   );
