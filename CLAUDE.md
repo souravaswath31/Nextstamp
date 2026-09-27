@@ -350,6 +350,19 @@ deployed at nextstamp-app.vercel.app, as the sole source of truth.
   a real IDOR bug, not a hypothetical. Now everything routes through
   `getTripWithAccess()`. If you add another trip-mutating action, route it through that
   helper too rather than trusting a `tripId` parameter on its own.
+- **Found while fixing the above, and turned out to be pre-existing (not something this
+  round introduced)**: `getCurrentUser()`'s `redirect("/login")` silently failed to produce
+  a real HTTP redirect on `/my-trips` — a fresh, no-JS request just got a blank 200 page
+  forever. Root cause: `/my-trips` has a sibling `loading.tsx`, and Next.js 14's App Router
+  has a known bug where `redirect()` called from a page whose route segment is wrapped in a
+  Suspense boundary (i.e. has a `loading.tsx`) only reaches the client-side router, not the
+  actual HTTP response, for the initial document request. Fixed by gating `/my-trips` in
+  `src/utils/supabase/middleware.ts` instead of relying on the page-level `redirect()` (which
+  is still there as a defense-in-depth backstop, e.g. for direct server-action calls).
+  **If you add a `loading.tsx` to any other route that also does a hard `getCurrentUser()`
+  redirect, it will have this same bug** — check with curl (a real browser hides it, since
+  it does eventually redirect client-side after hydration) and add the same middleware
+  gate rather than assuming the page-level redirect is enough.
 
 ## Incident: `npm run seed` is not actually crash-safe against a mid-run connection drop
 

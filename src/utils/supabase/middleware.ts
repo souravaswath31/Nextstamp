@@ -27,7 +27,22 @@ export async function updateSession(request: NextRequest) {
   });
 
   // Touching getUser() is what actually triggers the token refresh.
-  await supabase.auth.getUser();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  // /my-trips has a sibling loading.tsx, and Next.js 14's App Router has a
+  // known bug where redirect() called from a page in a route segment that
+  // also has a loading.tsx (i.e. gets wrapped in Suspense) never produces a
+  // real HTTP redirect for the initial document request — it only reaches
+  // the client-side router, so a fresh/no-JS request just sees a blank
+  // "loading" shell forever instead of being sent to /login. Gating it here
+  // in middleware sidesteps the Suspense boundary entirely. (getCurrentUser's
+  // own redirect() still fires as a defense-in-depth backstop for
+  // server-action calls that don't go through middleware.)
+  if (!user && request.nextUrl.pathname.startsWith("/my-trips")) {
+    return NextResponse.redirect(new URL("/login", request.url));
+  }
 
   return supabaseResponse;
 }
