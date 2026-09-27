@@ -22,6 +22,7 @@ type Props = {
   durationDaysMax: number;
   costTier: string;
   bestTimeMonths: string;
+  coverImageUrl?: string | null;
 };
 
 const TILE_CLASSES: Record<string, string> = {
@@ -47,15 +48,31 @@ export default function ItineraryCard(props: Props) {
   return (
     <Link
       href={`/itinerary/${props.id}`}
-      className="card-lift group block rounded-panel bg-paper p-5 shadow-paper"
+      className="card-lift group block overflow-hidden rounded-panel bg-paper shadow-paper"
     >
+      {props.coverImageUrl && (
+        <div className="relative h-36 w-full overflow-hidden">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={props.coverImageUrl}
+            alt=""
+            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+          <span className="absolute right-3 top-3 rounded-full bg-ink/60 px-2.5 py-1 font-stamp text-[11px] text-white backdrop-blur-sm">
+            {duration}
+          </span>
+        </div>
+      )}
+      <div className="p-5">
       <div className="flex items-start justify-between gap-3">
         <span className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl ${tileClass}`}>
           <HeadlineIcon size={20} />
         </span>
-        <span className="mt-1 whitespace-nowrap font-stamp text-xs text-ink/45">
-          {duration}
-        </span>
+        {!props.coverImageUrl && (
+          <span className="mt-1 whitespace-nowrap font-stamp text-xs text-ink/45">
+            {duration}
+          </span>
+        )}
       </div>
       <h3 className="mt-3.5 font-display text-lg leading-snug text-ink">
         {props.title}
@@ -79,6 +96,7 @@ export default function ItineraryCard(props: Props) {
       <p className="mt-3 font-body text-xs text-ink/40">
         Best: {props.bestTimeMonths.split(",").join(", ")}
       </p>
+      </div>
     </Link>
   );
 }

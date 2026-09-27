@@ -63,6 +63,17 @@ export default async function DashboardPage() {
         </h1>
       </section>
 
+      <Reveal>
+        <div className="-mx-5 overflow-hidden rounded-hero sm:-mx-8">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/hero-sunrise-runway.jpg"
+            alt=""
+            className="h-40 w-full object-cover sm:h-56"
+          />
+        </div>
+      </Reveal>
+
       {upcomingDocuments.length > 0 && (
         <Reveal>
           <section>
@@ -168,6 +179,7 @@ export default async function DashboardPage() {
                 durationDaysMax={it.durationDaysMax}
                 costTier={it.costTier}
                 bestTimeMonths={it.bestTimeMonths}
+                coverImageUrl={it.coverImageUrl}
               />
             ))}
           </div>

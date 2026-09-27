@@ -120,6 +120,12 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
             <section>
               <h2 className="font-display text-2xl text-ink">{meta.title}</h2>
               <p className="mt-1 font-body text-sm text-ink/55">{meta.blurb}</p>
+              {cat === "food_culture" && (
+                <div className="mt-4 overflow-hidden rounded-panel">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/flatlay-street-snacks.jpg" alt="" className="h-40 w-full object-cover sm:h-56" />
+                </div>
+              )}
               <div className="mt-5 grid gap-4 sm:grid-cols-2">
                 {places.map((p) => (
                   <div key={p.id} className="card-lift rounded-panel bg-paper p-5 shadow-paper">

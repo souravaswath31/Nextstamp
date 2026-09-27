@@ -23,6 +23,15 @@ export default async function StatesPage({
 
   return (
     <div className="space-y-10">
+      <div className="-mx-5 overflow-hidden rounded-hero sm:-mx-8">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/hero-mountain-drive.jpg"
+          alt=""
+          className="h-40 w-full object-cover sm:h-56"
+        />
+      </div>
+
       <div className="text-center sm:text-left">
         <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">
           Destination guides

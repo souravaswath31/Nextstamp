@@ -177,6 +177,18 @@ export default function TripEditor({
         </div>
       )}
 
+      {status === "completed" ? (
+        <div className="-mx-1 flex justify-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/illustration-trip-complete.jpg" alt="" className="h-32 w-auto" />
+        </div>
+      ) : (
+        <div className="-mx-5 overflow-hidden rounded-hero sm:-mx-8">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/flatlay-trip-planning.jpg" alt="" className="h-32 w-full object-cover sm:h-44" />
+        </div>
+      )}
+
       <div>
         <input
           value={title}
@@ -242,6 +254,11 @@ export default function TripEditor({
         <h2 className="flex items-center gap-2 font-display text-lg text-ink">
           <Users size={17} className="text-ink/35" /> Co-travelers
         </h2>
+
+        {collaboratorList.length === 0 && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src="/illustration-collaborative-planning.jpg" alt="" className="mx-auto mt-2 h-28 w-auto" />
+        )}
 
         {collaboratorList.length > 0 && (
           <div className="mt-3 space-y-2">

@@ -85,7 +85,8 @@
     ],
     "related_states": [
       "alaska"
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Hawaii: Kauai + Big Island",
@@ -169,7 +170,8 @@
     ],
     "related_states": [
       "hawaii"
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "New Orleans + Nashville",
@@ -255,7 +257,8 @@
     "related_states": [
       "louisiana",
       "tennessee"
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
@@ -339,7 +342,8 @@
     ],
     "related_states": [
       "arizona"
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Dubai + Abu Dhabi",
@@ -450,7 +454,8 @@
         "name": "Al Fahidi Cultural Understanding Centre",
         "description": "A government-run center in Old Dubai offering meals and cultural sessions specifically designed to teach visitors authentic Emirati customs and Bedouin heritage, beyond the skyline."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Bali, Indonesia",
@@ -559,7 +564,8 @@
         "name": "Base genep",
         "description": "Bali's foundational spice paste — garlic, turmeric, ginger, galangal, lemongrass, and chili ground together — underlying most traditional dishes on the island."
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Maldives (+ optional Sri Lanka)",
@@ -650,7 +656,8 @@
         "name": "Spice gardens of Matale",
         "description": "Sri Lanka's spices — cinnamon, cardamom, pepper, nutmeg — are grown here and were historically believed to have medicinal as well as flavoring value, not just culinary ones."
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
@@ -758,7 +765,8 @@
         "name": "Whirling dervish ceremony",
         "description": "A Sufi religious ritual (sema) especially associated with Konya — meditative spinning dance representing spiritual ascent, still performed as a living tradition, not just a tourist show."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Costa Rica",
@@ -864,7 +872,8 @@
         "name": "Sodas",
         "description": "Small, family-run diners serving home-style Tico food at low prices — eating at a soda is a more authentic introduction to the culture than most restaurants aimed at tourists."
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Georgia + Armenia",
@@ -974,7 +983,8 @@
         "name": "Dolma",
         "description": "Grape leaves or vegetables stuffed with spiced meat and rice — claimed by Armenia as a national dish, though variations of it appear across the Caucasus, Balkans, and Levant."
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Seattle → Denver: Rainier to the Rockies",
@@ -1094,7 +1104,8 @@
     "related_states": [
       "washington",
       "colorado"
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Cartagena + Medellín, Colombia",
@@ -1206,7 +1217,8 @@
         "name": "Coastal ceviche",
         "description": "The Caribbean coast (Cartagena) favors citrus-forward raw fish dishes and fried seafood, distinct from the heartier, meat-focused cuisine of inland Medellín and Bogotá."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Cusco, Sacred Valley + Machu Picchu, Peru",
@@ -1324,7 +1336,8 @@
         "name": "Aji de gallina",
         "description": "Shredded chicken in a creamy sauce built on ají amarillo, a native yellow chili with fruity heat rather than sharp spice — a signature dish of the Andean highlands."
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "El Nido, Palawan, Philippines",
@@ -1424,7 +1437,8 @@
         "name": "Sinigang",
         "description": "A sour tamarind-based soup loaded with vegetables and meat or seafood — considered the ultimate Filipino comfort food."
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Belgrade + Novi Sad, Serbia",
@@ -1523,7 +1537,8 @@
         "name": "Pasulj & punjena paprika",
         "description": "White bean stew and stuffed peppers are Serbian home-cooking staples — hearty, slow-cooked dishes central to everyday family meals."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Mexico City + Riviera Maya",
@@ -1642,7 +1657,8 @@
         "name": "Mezcal & tequila regions",
         "description": "Both distilled from agave but genuinely distinct — tequila from blue agave near Jalisco, mezcal from a wider variety of agave with a signature smokiness from roasting the plant underground."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
@@ -1731,7 +1747,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "New Mexico: Santa Fe → Taos → Los Alamos → Albuquerque",
@@ -1821,7 +1838,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Michigan: Traverse City → Leland → Empire → Mackinac Island",
@@ -1910,7 +1928,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
@@ -1989,7 +2008,8 @@
         "lodging_suggestion": "Tallulah Falls",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Oregon: Crater Lake → McKenzie Bridge → Columbia River Gorge → Portland",
@@ -2079,7 +2099,8 @@
         "lodging_suggestion": "Portland",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "North Alabama: Huntsville → Fort Payne → Cheaha",
@@ -2155,7 +2176,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Northwest Arkansas Ozarks: Bentonville → Eureka Springs → Jasper",
@@ -2232,7 +2254,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "California: Yosemite & the Sierra Nevada",
@@ -2320,7 +2343,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Connecticut & the Litchfield Hills",
@@ -2389,7 +2413,8 @@
         "lodging_suggestion": "Mystic",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Delaware: Wilmington → Rehoboth Beach",
@@ -2457,7 +2482,8 @@
         "lodging_suggestion": "Rehoboth Beach",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "South Florida & the Keys: Miami → Everglades → Key West",
@@ -2550,7 +2576,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Idaho: Sawtooth Mountains → Sun Valley",
@@ -2627,7 +2654,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Chicago & Starved Rock",
@@ -2707,7 +2735,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Central Indiana: Indianapolis → Brown County",
@@ -2773,7 +2802,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Northeast Iowa: Decorah → Dubuque",
@@ -2842,7 +2872,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Kansas Flint Hills Loop",
@@ -2909,7 +2940,8 @@
         "lodging_suggestion": "Cottonwood Falls",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
@@ -2998,7 +3030,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Acadia & Downeast Maine",
@@ -3076,7 +3109,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Chesapeake Bay: Annapolis → Eastern Shore",
@@ -3145,7 +3179,8 @@
         "lodging_suggestion": "St. Michaels",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Cape Cod & Boston",
@@ -3233,7 +3268,8 @@
         "lodging_suggestion": "Provincetown",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Minnesota's North Shore & Boundary Waters",
@@ -3309,7 +3345,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Natchez Trace: Vicksburg → Natchez",
@@ -3376,7 +3413,8 @@
         "lodging_suggestion": "Natchez",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Missouri Ozarks: Lake of the Ozarks → Current River → Branson",
@@ -3463,7 +3501,8 @@
         "lodging_suggestion": "Branson",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Nebraska Panhandle & Sandhills",
@@ -3530,7 +3569,8 @@
         "lodging_suggestion": "Alliance",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Las Vegas & Red Rock Country",
@@ -3600,7 +3640,8 @@
         "lodging_suggestion": "Las Vegas",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "White Mountains & Lake Winnipesaukee",
@@ -3679,7 +3720,8 @@
         "lodging_suggestion": "Wolfeboro",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Jersey Shore: Island Beach to Cape May",
@@ -3745,7 +3787,8 @@
         "lodging_suggestion": "Cape May",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Catskills Waterfalls & Scenic Byway",
@@ -3814,7 +3857,8 @@
         "lodging_suggestion": "Big Indian",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Blue Ridge North Carolina: Asheville → Cherokee → Boone",
@@ -3892,7 +3936,8 @@
         "lodging_suggestion": "Boone",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Theodore Roosevelt National Park & the Enchanted Highway",
@@ -3959,7 +4004,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Hocking Hills, Ohio",
@@ -4015,7 +4061,8 @@
         "lodging_suggestion": "Logan",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Tulsa → Turner Falls → Oklahoma City",
@@ -4085,7 +4132,8 @@
         "lodging_suggestion": "Oklahoma City",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Philadelphia & Lancaster County",
@@ -4163,7 +4211,8 @@
         "lodging_suggestion": "Gettysburg",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Rhode Island: Providence → Newport → Block Island",
@@ -4232,7 +4281,8 @@
         "lodging_suggestion": "Block Island",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "South Carolina Lowcountry: Charleston → Beaufort → Hilton Head",
@@ -4299,7 +4349,8 @@
         "lodging_suggestion": "Hilton Head",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Black Hills & Badlands, South Dakota",
@@ -4385,7 +4436,8 @@
         "lodging_suggestion": "Spearfish",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Big Bend National Park, Texas",
@@ -4454,7 +4506,8 @@
         "lodging_suggestion": "Terlingua",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Utah's Mighty 5",
@@ -4584,7 +4637,8 @@
         "lodging_suggestion": "Moab",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Vermont: Burlington → Stowe → Manchester",
@@ -4662,7 +4716,8 @@
         "lodging_suggestion": "Manchester",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Shenandoah National Park, Virginia",
@@ -4729,7 +4784,8 @@
         "lodging_suggestion": "Luray",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "New River Gorge, West Virginia",
@@ -4795,7 +4851,8 @@
         "lodging_suggestion": "Beckley",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Door County, Wisconsin",
@@ -4862,7 +4919,8 @@
         "lodging_suggestion": "Washington Island",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Yellowstone & Grand Teton, Wyoming",
@@ -4952,7 +5010,8 @@
         "lodging_suggestion": "Jackson",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "New York City: Five Boroughs",
@@ -5045,7 +5104,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Napa Valley & San Francisco",
@@ -5127,7 +5187,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-splurge.jpg"
   },
   {
     "title": "Texas Hill Country: Austin to San Antonio",
@@ -5221,7 +5282,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Orlando Theme Parks & the Space Coast",
@@ -5314,7 +5376,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
@@ -5411,7 +5474,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
@@ -5508,7 +5572,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Reno & Lake Tahoe: Nevada's North Shore",
@@ -5593,7 +5658,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Savannah & the Georgia Coast",
@@ -5690,7 +5756,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Upstate South Carolina: Greenville & the Blue Ridge Foothills",
@@ -5777,7 +5844,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Pittsburgh & the Laurel Highlands",
@@ -5876,7 +5944,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Virginia Beach & the Historic Triangle",
@@ -5973,7 +6042,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Great Smoky Mountains: Gatlinburg, Pigeon Forge & the Park",
@@ -6058,7 +6128,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Cajun Country: Lafayette, the Atchafalaya Basin & the Prairie",
@@ -6140,7 +6211,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Seattle & the San Juan Islands",
@@ -6233,7 +6305,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "St. Louis & Kansas City",
@@ -6326,7 +6399,8 @@
         "lodging_suggestion": "Kansas City",
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "The Berkshires",
@@ -6408,7 +6482,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Detroit: Midtown, Corktown & the Riverfront",
@@ -6507,7 +6582,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Salt Lake City & Park City",
@@ -6603,7 +6679,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "North Carolina's Outer Banks",
@@ -6698,7 +6775,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Portland, Maine & the Midcoast",
@@ -6796,7 +6874,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Western Maryland: Deep Creek Lake & Antietam",
@@ -6880,7 +6959,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Minneapolis-St. Paul: The Twin Cities",
@@ -6961,7 +7041,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Mississippi Gulf Coast & Biloxi",
@@ -7044,7 +7125,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Missoula & the Bitterroot Valley",
@@ -7126,7 +7208,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Omaha & Lincoln",
@@ -7199,7 +7282,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Portsmouth & the NH Seacoast",
@@ -7271,7 +7355,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Boise & the Snake River Valley",
@@ -7362,7 +7447,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
@@ -7441,7 +7527,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Indiana Dunes National Park & Lake Michigan",
@@ -7520,7 +7607,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Des Moines & Central Iowa",
@@ -7599,7 +7687,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Wichita & Western Kansas",
@@ -7688,7 +7777,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Red River Gorge & Appalachian Kentucky",
@@ -7778,7 +7868,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Rhode Island: Blackstone Valley & the Quiet Corner",
@@ -7853,7 +7944,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Sioux Falls & Eastern South Dakota",
@@ -7925,7 +8017,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Vermont's Northeast Kingdom",
@@ -8009,7 +8102,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Harpers Ferry & the Eastern Panhandle, West Virginia",
@@ -8093,7 +8187,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Milwaukee & Madison, Wisconsin",
@@ -8179,7 +8274,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Cheyenne, Devils Tower & the Wyoming Plains",
@@ -8273,7 +8369,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-road-trip.jpg"
   },
   {
     "title": "Gulf Coast Alabama: Beaches, Bay & Mobile",
@@ -8368,7 +8465,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Southeast Alaska: Juneau & Ketchikan",
@@ -8462,7 +8560,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Hot Springs & Central Arkansas",
@@ -8547,7 +8646,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Connecticut Coast: Mystic & New Haven",
@@ -8628,7 +8728,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Delaware History & Bayshore: New Castle to Trap Pond",
@@ -8701,7 +8802,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-off-the-beaten-path.jpg"
   },
   {
     "title": "Oahu & Maui: Honolulu to Haleakala",
@@ -8799,7 +8901,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Northern New Jersey: Princeton, Morristown & the Delaware Water Gap",
@@ -8884,7 +8987,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "New Mexico: Carlsbad Caverns & White Sands",
@@ -8969,7 +9073,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Fargo & the Red River Valley",
@@ -9043,7 +9148,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Cleveland & Cuyahoga Valley National Park",
@@ -9125,7 +9231,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Wichita Mountains & Oklahoma's Route 66",
@@ -9210,7 +9317,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   },
   {
     "title": "Oregon Coast: Cannon Beach to Bandon",
@@ -9306,7 +9414,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null
       }
-    ]
+    ],
+    "cover_image_url": "/category-water.jpg"
   },
   {
     "title": "Tokyo, Kyoto + Osaka, Japan",
@@ -9445,7 +9554,8 @@
         "name": "Torii gate pilgrimage paths",
         "description": "Fushimi Inari Taisha's roughly 10,000 vermilion torii gates, donated by individuals and businesses over centuries, form pilgrimage trails up Mount Inari dedicated to the Shinto rice deity Inari."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Bangkok + Chiang Mai, Thailand",
@@ -9576,7 +9686,8 @@
         "name": "Lanna heritage of Chiang Mai",
         "description": "Chiang Mai was capital of the independent Lanna kingdom until the late 1800s, giving it a distinct northern Thai architecture, dialect, and temple style still visible in the Old City's walls and moat."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
@@ -9702,7 +9813,8 @@
         "name": "The 36 Streets of the Old Quarter",
         "description": "Hanoi's Old Quarter grew from craft guilds that settled near the royal citadel starting in the 11th century, each given a street named for its trade with the prefix \"Hang\" — Hang Bac (silver), Hang Gai (silk), Hang Ma (votive paper) — a layout still visible today."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Cairo, Abu Simbel + Nile Cruise, Egypt",
@@ -9839,7 +9951,8 @@
         "name": "Nubian culture around Aswan",
         "description": "The Nubian people, whose roots trace back over 4,000 years to ancient kingdoms south of Egypt, live along the Nile around Aswan in villages known for brightly painted homes; many were relocated here after the High Dam's construction flooded their original settlements in the 1960s."
       }
-    ]
+    ],
+    "cover_image_url": "/category-city.jpg"
   },
   {
     "title": "Marrakech & the Sahara Desert, Morocco",
@@ -9963,6 +10076,7 @@
         "name": "Hammam",
         "description": "The traditional steam bathhouse, found in nearly every neighborhood, where a black-soap scrub and communal bathing are a weekly ritual rather than a spa indulgence — many riads in Marrakech offer a version for visitors."
       }
-    ]
+    ],
+    "cover_image_url": "/category-nature.jpg"
   }
 ]

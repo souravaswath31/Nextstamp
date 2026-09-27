@@ -44,13 +44,17 @@ export default async function MyTripsPage() {
       </form>
 
       {trips.length === 0 && (
-        <p className="font-body text-sm text-ink/55">
-          No trips yet. Start one above, or find one in{" "}
-          <Link href="/explore" className="text-coral underline">
-            Explore
-          </Link>
-          .
-        </p>
+        <div className="flex flex-col items-center gap-3 rounded-panel bg-paper py-10 text-center shadow-paper">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/illustration-empty-trips.jpg" alt="" className="h-32 w-auto" />
+          <p className="font-body text-sm text-ink/55">
+            No trips yet. Start one above, or find one in{" "}
+            <Link href="/explore" className="text-coral underline">
+              Explore
+            </Link>
+            .
+          </p>
+        </div>
       )}
 
       {byStatus.map(

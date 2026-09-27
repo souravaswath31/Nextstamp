@@ -55,6 +55,7 @@ async function main() {
         description: it.description,
         costTier: it.cost_tier,
         relatedStateSlugs: it.related_states ? it.related_states.join(",") : null,
+        coverImageUrl: it.cover_image_url ?? null,
         isPublic: true,
         days: {
           create: it.days.map((d: any) => ({

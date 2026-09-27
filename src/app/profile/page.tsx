@@ -34,9 +34,16 @@ export default async function ProfilePage() {
 
   return (
     <div className="space-y-14">
-      <div className="relative overflow-hidden rounded-hero bg-gradient-to-br from-teal/10 via-paper to-coral/10 px-6 py-10 sm:px-10">
-        <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left">
-          <span className="stamp-mark flex h-16 w-16 shrink-0 items-center justify-center border-ink text-ink">
+      <div className="relative overflow-hidden rounded-hero px-6 py-10 sm:px-10">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/flatlay-passport-stamps.jpg"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-paper/80" />
+        <div className="relative flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left">
+          <span className="stamp-mark flex h-16 w-16 shrink-0 items-center justify-center border-ink text-ink bg-paper">
             <span className="font-display text-2xl">{user.name.charAt(0).toUpperCase()}</span>
           </span>
           <div>
@@ -46,7 +53,7 @@ export default async function ProfilePage() {
           </div>
         </div>
 
-        <form action={updatePassportCountry} className="mt-6 flex items-center justify-center gap-2 sm:justify-start">
+        <form action={updatePassportCountry} className="relative mt-6 flex items-center justify-center gap-2 sm:justify-start">
           <label className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
             Passport
           </label>
@@ -202,13 +209,19 @@ export default async function ProfilePage() {
       </section>
 
       <section>
-        <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
-          <Unlock size={20} className="text-ink/35" /> What opens up
-        </h2>
-        <p className="mt-1 font-body text-sm text-ink/55">
-          Destinations that become easier because of a document you hold — beyond
-          what your {user.passportCountry} passport gets you alone.
-        </p>
+        <div className="flex flex-col items-center gap-4 sm:flex-row">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/illustration-visa-cascade.jpg" alt="" className="h-24 w-auto shrink-0" />
+          <div>
+            <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
+              <Unlock size={20} className="text-ink/35" /> What opens up
+            </h2>
+            <p className="mt-1 font-body text-sm text-ink/55">
+              Destinations that become easier because of a document you hold — beyond
+              what your {user.passportCountry} passport gets you alone.
+            </p>
+          </div>
+        </div>
 
         {cascadeSections.map(({ doc, unlocks }) => (
           <div key={doc.id} className="mt-5">

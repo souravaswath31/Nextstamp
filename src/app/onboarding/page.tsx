@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import { Stamp, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { createClient } from "@/utils/supabase/server";
 import { completeOnboarding } from "@/lib/actions";
 
@@ -25,10 +25,13 @@ export default async function OnboardingPage() {
     >
       <div className="w-full max-w-sm space-y-8 rounded-hero bg-paper p-9 shadow-paper-lg">
         <div className="text-center">
-          <span className="stamp-mark mx-auto flex h-14 w-14 items-center justify-center border-stamp text-stamp">
-            <Stamp size={22} />
-          </span>
-          <p className="mt-4 font-stamp text-xs uppercase tracking-widest text-ink/45">Welcome</p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/illustration-onboarding-welcome.jpg"
+            alt=""
+            className="mx-auto h-28 w-auto"
+          />
+          <p className="mt-2 font-stamp text-xs uppercase tracking-widest text-ink/45">Welcome</p>
           <h1 className="mt-1 font-display text-3xl tracking-tightest text-ink">One more thing</h1>
           <p className="mt-2 font-body text-sm text-ink/55">
             The visa engine checks status against your actual passport — tell us which one you

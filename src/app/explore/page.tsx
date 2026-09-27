@@ -60,6 +60,15 @@ export default async function ExplorePage({
 
   return (
     <div className="space-y-10">
+      <div className="-mx-5 overflow-hidden rounded-hero sm:-mx-8">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/hero-tropical.jpg"
+          alt=""
+          className="h-40 w-full object-cover sm:h-56"
+        />
+      </div>
+
       <div className="text-center sm:text-left">
         <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Library</p>
         <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">Explore itineraries</h1>
@@ -84,6 +93,7 @@ export default async function ExplorePage({
             durationDaysMax={it.durationDaysMax}
             costTier={it.costTier}
             bestTimeMonths={it.bestTimeMonths}
+            coverImageUrl={it.coverImageUrl}
           />
         ))}
       </div>

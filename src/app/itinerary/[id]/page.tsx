@@ -28,6 +28,37 @@ import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
 
+// Best-effort regional match for the food/culture section's banner photo —
+// approximate by design (only 4 scene photos exist), not meant to be a
+// precise claim about any specific country.
+const COUNTRY_SCENE: Record<string, string> = {
+  Indonesia: "/scene-market-asia.jpg",
+  Japan: "/scene-market-asia.jpg",
+  Thailand: "/scene-market-asia.jpg",
+  Vietnam: "/scene-market-asia.jpg",
+  Philippines: "/scene-market-asia.jpg",
+  Maldives: "/scene-market-asia.jpg",
+  "Sri Lanka": "/scene-market-asia.jpg",
+  Turkey: "/scene-cafe-mediterranean.jpg",
+  Georgia: "/scene-cafe-mediterranean.jpg",
+  Armenia: "/scene-cafe-mediterranean.jpg",
+  UAE: "/scene-cafe-mediterranean.jpg",
+  Egypt: "/scene-cafe-mediterranean.jpg",
+  Morocco: "/scene-cafe-mediterranean.jpg",
+  Mexico: "/scene-market-latin-america.jpg",
+  Colombia: "/scene-market-latin-america.jpg",
+  Peru: "/scene-market-latin-america.jpg",
+  "Costa Rica": "/scene-market-latin-america.jpg",
+  Serbia: "/scene-alley-europe.jpg",
+};
+
+function sceneImageFor(countries: string[]): string | null {
+  for (const c of countries) {
+    if (COUNTRY_SCENE[c]) return COUNTRY_SCENE[c];
+  }
+  return null;
+}
+
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const itinerary = await prisma.itinerary.findUnique({ where: { id: params.id } });
   if (!itinerary) return {};
@@ -61,11 +92,22 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
     : [];
 
   const createTrip = createTripFromItinerary.bind(null, itinerary.id);
+  const sceneImage = sceneImageFor(countries);
 
   return (
     <div className="space-y-14">
       <div>
         <BackButton label="Back to Explore" />
+        {itinerary.coverImageUrl && (
+          <div className="-mx-5 mt-6 overflow-hidden rounded-hero sm:-mx-8">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={itinerary.coverImageUrl}
+              alt=""
+              className="h-48 w-full object-cover sm:h-72"
+            />
+          </div>
+        )}
         <div className="mt-6 text-center sm:text-left">
           <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">
             {itinerary.region} · {countries.join(", ")}
@@ -227,6 +269,12 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
             <p className="mt-1 font-body text-sm text-ink/55">
               What the place actually tastes and sounds like, not just how it looks.
             </p>
+            {sceneImage && (
+              <div className="mt-4 overflow-hidden rounded-panel">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={sceneImage} alt="" className="h-40 w-full object-cover sm:h-56" />
+              </div>
+            )}
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
               {itinerary.notes.map((note) => (
                 <div key={note.id} className="card-lift rounded-panel bg-paper p-5 shadow-paper">
@@ -277,6 +325,10 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
           <p className="mt-1 font-body text-sm text-ink/55">
             Based on what this trip actually involves — not a generic everything-list.
           </p>
+          <div className="mt-4 overflow-hidden rounded-panel">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/flatlay-packing.jpg" alt="" className="h-40 w-full object-cover sm:h-56" />
+          </div>
           <div className="mt-5 grid gap-4 sm:grid-cols-2">
             {generatePackingList(itinerary.category.split(",").filter(Boolean)).map((section) => (
               <div key={section.title} className="card-lift rounded-panel bg-paper p-5 shadow-paper">
