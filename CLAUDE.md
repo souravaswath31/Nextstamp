@@ -74,9 +74,18 @@ npm run seed      # loads data/*.json into the database — see prisma/seed.ts
 npm run dev       # http://localhost:3000 — you'll land on /login (real auth, not a stub)
 ```
 
-`npm run seed` is **safe to rerun against production** — it only touches global content
-(Itinerary/VisaRule/StateGuide and their children), never User/HeldDocument/UserTrip. See
-"Data model" below for why.
+`npm run seed` is **safe to rerun against production** in the sense that it never touches
+User/HeldDocument/UserTrip — but it gets there by deleting and recreating all global
+content, and a mid-run connection drop leaves the site with empty tables until a rerun
+finishes (this has happened twice; see the incident section). Prefer the targeted seeders
+when you only changed part of the content:
+
+```bash
+npm run seed              # everything — the destructive full refresh
+npm run seed:countries    # country guides only, one transaction per country
+npm run seed:countries Japan
+npm run seed:coords       # just the geocoded place coordinates, updates in place
+```
 
 There's also `npm run build` — always run this (not just `dev`) before considering a change
 done. Several real bugs in this project's history only surfaced at build time (TypeScript
@@ -99,10 +108,20 @@ prisma/seed.ts               Seeds global content from data/*.json — never tou
 data/itineraries-seed.json   114 itineraries: day-by-day, food_culture (international only), related_states (domestic only)
 data/state-guides-seed.json  50 states × ~17 places each (amazing/common/hidden/food_culture)
 data/visa-rules-seed.json    154 rules: 8 passports × up to 18 destinations each
+data/country-facts-seed.json Country guides: entry rules, health, money, power, emergency numbers, transit, connectivity, 12-month climate, phrasebook
 scripts/generate_itinerary_draft.py   Draft generator for a state's places (see below)
 scripts/validate_itineraries.py       Content pipeline gate — see "Content pipeline engines"
 scripts/validate_visa_rules.py        Content pipeline gate — see "Content pipeline engines"
+scripts/validate_country_facts.py     Content pipeline gate for country guides
 src/lib/visa.ts               Visa status resolution + cascade logic (the core differentiator)
+src/lib/readiness.ts          Entry-readiness engine — the trip-shaped layer on top of visa.ts
+src/lib/countryFacts.ts       Read side of the country-guide data set (+ parsers for its packed string columns)
+src/lib/holidays.ts           Nager.Date — public holidays during a trip's dates (no key)
+src/lib/currency.ts           Frankfurter/ECB rates + minor-unit money helpers (no key)
+src/lib/advisories.ts         UK FCDO + US State Dept travel advisories (no key) — read the country-code warning in it
+src/lib/timezones.ts          Destination local time, offset vs the viewer, jet-lag note
+src/lib/expenses.ts           Trip spend totals and settle-up math (integer minor units)
+src/lib/flights.ts            Deep links out to flight/stay search — deliberately not an API, see the file
 src/lib/currentUser.ts        Resolves the Supabase session to a User row; redirects to
                                /login (no session) or /onboarding (session, no User row yet)
 src/lib/documents.ts          Document-expiry severity calculation (dashboard "Coming up" widget)
@@ -143,8 +162,29 @@ public/logo.png, icon-badge.png, hero-bg.jpg, og-image.jpg   Brand assets — se
   `TerrainHero.tsx`).
 - **UserTrip** — a saved/customized trip, optionally linked to an `Itinerary`, scoped
   per-user. `customDaysJson` is the live-edited day plan (source of truth once a trip
-  exists, independent of the original Itinerary's days). `coTravelers` is a string field
-  sitting unused, intentionally, for when collaborative planning gets built.
+  exists, independent of the original Itinerary's days).
+  - **`startDate` / `endDate` / `destinationCountry` are the forward-looking planning
+    fields, and are not the same thing as `startedDate` / `completedDate`**, which are
+    retrospective ("I went", "I got back") and predate them. Everything date- or
+    place-aware reads the first three. Don't conflate them; the names are unfortunately
+    close.
+  - `shareToken` grants **edit** access via `/trip/[id]/join?token=`. `publicToken` +
+    `isPublic` grant **read-only** access via `/t/[token]`. They are deliberately two
+    different secrets — posting a shareToken publicly would hand everyone edit rights.
+- **User.passportExpiry** — optional, and the thing the entry-readiness check is built
+  around. Every user predates the field, so the UI has to handle null everywhere.
+- **TripPackingItem** — state laid over the generated list in `src/lib/packing.ts`. Rows
+  are created lazily on first tick/claim (upsert on `(tripId, label)`), not materialized
+  at trip creation, so the generated list stays the source of truth until someone acts.
+- **TripExpense** — `amountMinor` is an integer in the currency's minor unit, never a
+  float. `amountMinorUsd` is stored at log time rather than recomputed, because the rate
+  that applied on the day you spent it is the honest one; it's null when Frankfurter
+  doesn't carry that currency (see below), and the UI reports those separately instead of
+  dropping them from the total.
+- **CountryFact / CountryClimate / CountryPhrase** — the country-guide data set. Same
+  packed-string convention as the rest of this schema (comma-separated lists, pipe-
+  separated source URLs, one JSON blob for transit passes); `src/lib/countryFacts.ts`
+  owns all the parsing, don't split those strings inline in a component.
 
 ## Canonical taxonomies — do not invent new values without updating the label/color maps
 
@@ -212,6 +252,93 @@ is done, and round 4 added itineraries for Japan, Thailand, Vietnam, Egypt, and 
 pair with that round's new visa destinations. A natural next round: a *third* itinerary for
 the highest-tourism states, or itineraries for whatever new international destinations the
 visa engine adds next (see below).
+
+**Country-guide engine status:** a third pipeline, same shape as the two above, feeding
+`data/country-facts-seed.json` through `scripts/validate_country_facts.py`. One research
+agent per country, one JSON object out, covering entry/passport rules, health, money
+norms, plugs, emergency numbers, transit passes, connectivity, a 12-month climate table
+and a 12-16 phrase phrasebook. The validator is stricter than the other two because the
+payload is: it rejects a record whose emergency numbers aren't dialable strings, whose
+climate table isn't exactly twelve named months in order, whose phrasebook is missing the
+phrases people actually need, or whose sources include Wikipedia or an aggregator. It
+still cannot check whether a fact is *true* — read its docstring before assuming a green
+run means anything more than that.
+
+**Status: all 19 countries done** — the 18 visa destinations plus the USA — carrying ~270
+official sources, a 12-month climate table each, and a 14–16 phrase phrasebook each.
+**Check `data/country-facts-seed.json` for what's actually there rather than trusting this
+count** — the Wikipedia incident below is what happens when you trust a number in this
+file. `python3 scripts/validate_country_facts.py --check-existing` re-runs the full gate
+over everything already merged; do that rather than assuming.
+
+**`onward_ticket_required` is tri-state and the null means something.** `true` = the
+destination's own rules state it, `false` = confirmed not required, `null` = nobody could
+confirm either way (Peru, where migraciones.gob.pe returns 418 to fetchers and FCDO is
+silent). The column is nullable and the seeders pass null through rather than coercing it
+— an earlier version had `Boolean(value)`, which turned "we don't know" into "not
+required", i.e. silently telling someone they don't need a return booking on the strength
+of a failed search. `readiness.ts` renders null as its own "couldn't confirm, carry one
+anyway" check. Don't "tidy" this back into a plain boolean.
+
+**Recurring gaps, so nobody re-litigates them per country.** These are fields where the
+"official sources only" rule genuinely can't be satisfied, and the right answer is `null`
+rather than a plausible guess:
+
+- **Plugs and voltage.** Almost no government publishes this. The canonical authority is
+  the IEC's *World Plugs*, which is not an aggregator and is perfectly acceptable to cite
+  — but iec.ch serves 403 to automated fetches, so agents often can't reach it. Where a
+  tourism board or embassy states it, use that; otherwise leave the whole `power` block
+  null. The UI hides the Power card entirely when there's nothing in it.
+- **Tipping, card acceptance, cash culture.** Governments don't publish social norms.
+  Several records have these null, correctly. Don't let an agent "fill them in".
+- **eSIM support and SIM pricing.** Carrier marketing pages are not official sources and
+  prices move; `null` is the honest answer more often than not.
+- **Crowd notes and season ratings** in the climate table are editorial judgment, not
+  sourced measurement, and the records say so. Temperatures and precipitation are hard
+  met-service data; the `rating` is a call.
+- **Climate normals are often old** (one country's are a 1974–1991 base period) because
+  that's the newest the national met service supplies to the WMO. Records disclose the
+  base period where it's unusual. Don't "correct" them against a weather app.
+
+**Not every country has a six-month rule, and assuming one is its own kind of
+fabrication.** Only **10 of the 19** researched countries actually impose six months or
+more. Costa Rica's DGME sets the minimum at **one day** beyond the intended stay for
+first-group nationalities (US, Canada, UK, Australia, Brazil, most of the EU); Japan and
+Armenia require only validity for the length of the stay; the Maldives wants **one month**;
+Serbia wants **90 days beyond departure**; Turkey's is 60 days beyond the *permitted*
+stay, which works out at 150 days from entry and is encoded as 5 months from entry rather
+than 2 from exit precisely because the literal reading under-warns on short trips. `validate_country_facts.py` emits a *warning*
+(not an error) for `basis: "exit"` with `months: 0`, which is exactly Costa Rica's shape —
+that warning is expected there and should not be "fixed" by inventing months. Costa Rica
+has now been corrected twice in this project's history (the US-passport stay length, and
+this); treat anything you "already know" about it with suspicion.
+
+**Timezone labels must agree with the IANA database, not with press reports.** Morocco
+announced in June 2026 that it was abandoning GMT+1 and returning to GMT, and Moroccan
+press reported the switch landing on 20 September 2026 — but no government page confirms
+the date and the IANA tz database still places Morocco at UTC+1. `timezone_label` is
+therefore UTC+1, with the whole story in `timezone_note`. The reason this matters beyond
+accuracy: `LocalTime` computes the clock from `primary_timezone` through the IANA database,
+so a label that disagrees with IANA puts a contradiction on the same card — the header says
+UTC+0 and the clock next to it says GMT+1. Follow IANA for the label; it also means the
+live clock corrects itself automatically once a real change is recorded there.
+
+**When two official sources disagree, surface both — don't pick silently.** This has come
+up for real. Egypt's emergency numbers differ between the US Embassy in Cairo (police 122,
+tourist police 126, ambulance 123) and Global Affairs Canada (112 / 113 / 110). The record
+carries the in-country mission's numbers in the structured fields, names the Canadian set
+in `emergency.notes` with "if 122 or 123 don't connect, those are worth trying", and leaves
+`fire` **null** because no official source confirmed one — the aggregators all say 180 and
+that is exactly the field where a guess gets somebody hurt. Same pattern for Thailand's
+proof-of-funds figure (embassy says 20,000 THB, FCDO says 10,000 — the record states both
+and says carry the higher). The rule: structured field gets the best-supported value,
+`notes` carries the conflict, and a life-safety field with no confirmation stays null.
+
+Several government domains block automated fetches outright (mofa.go.jp and the Japanese
+consulates, travel.state.gov, immigration.go.th, mohap.gov.ae, tmd.go.th fails TLS). When
+the destination's own site is unreachable, a *foreign* government's page about that
+country — UK FCDO, Global Affairs Canada — is an acceptable fallback, and the record is
+expected to say so in the field rather than implying a first-hand citation.
 
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
@@ -312,12 +439,21 @@ deployed at nextstamp-app.vercel.app, as the sole source of truth.
    for the pre-existing bug this fix closed. TripEditor shows a "co-traveler updated this
    trip" banner rather than silently overwriting in-progress edits — a full refresh (via a
    `key={updatedAt}` remount) is one click away but not automatic.
-3. **Booking-email import** (TripIt-style: forward a confirmation, auto-populate the trip) —
+3. ~~**Trip lifecycle beyond "can I go".**~~ Done. A trip now carries real travel dates
+   and a destination, and a user carries a passport expiry — three fields that were
+   missing and that blocked almost everything else. On top of them: the entry-readiness
+   check (`src/lib/readiness.ts`), public holidays during the stay, month-by-month climate
+   for the travel month, live currency, both governments' travel advisories, destination
+   local time and jet lag, a stateful packing list co-travelers can claim items on,
+   expenses with settle-up, a read-only public trip link (`/t/[token]`), browsable country
+   guides (`/countries`, `/country/[slug]`), and deep links out to flight/stay search.
+   See "External APIs" and "Entry readiness" above for the parts with teeth.
+4. **Booking-email import** (TripIt-style: forward a confirmation, auto-populate the trip) —
    explicitly deferred by the project owner: needs a real inbox to receive into (an email
    webhook provider — e.g. Postmark/SendGrid inbound parsing) plus a parsing pipeline, which
    is new infrastructure and a new recurring cost, not a code-only change. Revisit when
    that cost is worth taking on.
-4. ~~**Real photography.**~~ Done, via AI-generated (Gemini) rather than licensed photography
+5. ~~**Real photography.**~~ Done, via AI-generated (Gemini) rather than licensed photography
    — the project owner's call once an Unsplash/Pexels API key turned out to be more friction
    than just generating images the same way the brand assets were made. Five terrain photos
    (`public/terrain-{mountain,desert,coast,forest,plains}.jpg`) replaced the hand-built SVGs
@@ -326,13 +462,111 @@ deployed at nextstamp-app.vercel.app, as the sole source of truth.
    back from Gemini/Drive with scrambled filenames (content didn't match the requested
    terrain in the name) — always eyeball each image against its intended terrain before
    wiring it in, don't trust the filename.
-5. **Payment** — deferred by design; the project owner chose to skip it for this round.
-6. **Content depth** — the "second itinerary per state" goal is **done** (all 50 states,
+6. **Payment** — deferred by design; the project owner chose to skip it for this round.
+   Worth revisiting now that there's materially more behind a login than there was.
+7. ~~**Weather and maps.**~~ Built, and both **ship dark until a key is set** — the app is
+   fully functional without either, so adding a key is the only remaining step.
+   - **Weather** (`src/lib/weather.ts`, `WeatherPanel`): **WeatherAPI.com**, env var
+     `WEATHER_API_KEY`. Deliberately *not* Open-Meteo, which needs no key at all but
+     whose free tier is explicitly **non-commercial** and collides with the eventual
+     paid tier. The nice part: a real forecast only exists ~2 weeks out, and rather than
+     buy WeatherAPI's long-range `future.json` to paper over that, the module falls back
+     to the country guide's own met-service climate normals and *says* they're averages.
+     So the free tier is genuinely sufficient.
+   - **Maps** (`src/components/PlaceMap.tsx`): **MapLibre GL** (open source) rendering
+     **MapTiler** tiles, env var `NEXT_PUBLIC_MAPTILER_KEY`. Raw OSM tiles aren't
+     permitted at app scale and Google now requires a billing account. The library is
+     `import()`ed lazily so its ~200KB stays off every page that has no map.
+   - **Coordinates** come from `scripts/geocode_places.py`, run **once at authoring
+     time** into `data/state-guides-seed.json` — Nominatim allows 1 req/sec, demands a
+     real User-Agent, and forbids autocomplete, so a request-time lookup is out. Two
+     things that script does which matter: it rejects any hit outside the state's
+     bounding box (a naive first-hit lookup drops Montana trailheads in Florida), and it
+     skips `food_culture` rows entirely because dishes and traditions have no location.
+     Unresolved places keep `latitude: null` and are simply **left off the map** rather
+     than approximated. It shells out to `curl` rather than using `urllib`, which
+     measured ~45s per request against Nominatim versus ~0.4s — the difference between a
+     half-hour job and a 35-hour one.
+   - See `.env.example` for both keys and what happens without them.
+8. **Content depth** — the "second itinerary per state" goal is **done** (all 50 states,
    114 total itineraries, 16 of them international). Visa coverage is at 8 passports × 18
    destinations (154 rules) after round 4 added Japan, Thailand, Vietnam, Egypt, and
    Morocco. A natural next batch is more new destinations (paired with itineraries for
    those same countries), or a third itinerary per state for the highest-tourism ones. No
    architecture decision needed, just more research batches through the existing pipeline.
+
+## External APIs — what we use, and what we deliberately don't
+
+Four external data sources, all free and none requiring a key, credit card, or signup.
+Every one of them degrades to null/empty rather than throwing: a trip page must never
+fail because gov.uk was slow.
+
+| What | Source | Key? | Notes |
+|---|---|---|---|
+| Public holidays | Nager.Date | none | ISO 3166-1 alpha-2 codes. Cached 24h. |
+| Exchange rates | Frankfurter (ECB) | none | **Only ~30 currencies.** See below. |
+| UK advisories | gov.uk Content API | none | OGL v3.0 — attribution is required and is rendered in `DestinationBriefing`. Don't remove it. |
+| US advisories | travel.state.gov RSS | none | **Country codes are FIPS, not ISO.** See below. |
+
+Three things here that are easy to get wrong, all found by testing against the live
+services rather than by reading their docs:
+
+- **The US State Department feed's `Country-Tag` is FIPS 10-4 / GENC, not ISO 3166-1.**
+  Japan is `JA`, Vietnam `VM`, Serbia `RI`, Sri Lanka `CE`, Turkey `TU`, Philippines
+  `RP`, Georgia `GG`. This doesn't merely fail to match — the two schemes *collide*, and
+  the collisions are silent and wrong. Matching on ISO codes returned **Madagascar's**
+  advisory for Morocco and **Russia's Level 4 "Do not travel"** for Serbia. So
+  `getStateDeptAdvisory` matches on the country **name**, exact comparison only, with no
+  prefix fallback (that's how Niger matches Nigeria and Sudan matches South Sudan).
+  There are regression tests pinning this in `src/lib/advisories.test.ts` — keep them.
+- **That feed is one ~1MB document for every country, and travel.state.gov throttles.**
+  A throttled response comes back HTTP 200 with a short body containing no items, which
+  would read as "no advisory anywhere" rather than as an error. `advisories.ts` shares
+  one in-flight fetch process-wide, validates the body actually contains `<item>`, and
+  doesn't cache a bad response.
+- **Frankfurter only carries the ~30 currencies the ECB publishes.** Most NextStamp
+  destinations aren't among them (VND, EGP, MAD, LKR, MVR, GEL, AMD, RSD, PEN, COP, CRC,
+  AED). The UI says so explicitly rather than showing a guessed rate, and unconvertible
+  expenses are reported separately rather than silently excluded from a total.
+
+**Not built, on purpose:** flight and hotel *search*. There is no genuinely free
+production flight API — Amadeus's self-service environment returns cached fares that
+won't match reality, Duffel is priced for selling seats ($3/order + 1%), Kiwi closed
+self-serve access in 2024, Skyscanner is partner-application only, and the "Skyscanner"
+listings on RapidAPI are unofficial scrapers. `src/lib/flights.ts` deep-links out to
+Google Flights / Kayak / Google Hotels with the trip's dates and route prefilled instead.
+Showing a fare we can't stand behind would break the one rule at the top of this file.
+
+**Also deliberately absent: visa processing lead times.** The entry-readiness check tells
+you a visa must be arranged in advance and counts down the days to departure, but it does
+not say "allow 2-3 weeks" — nobody has researched a per-destination lead time into
+`CountryFact`, and inventing a plausible one is exactly the fabrication this project
+refuses. If you want that feature, add a researched field; don't add a heuristic.
+
+## Entry readiness (`src/lib/readiness.ts`)
+
+The layer that turns "does this passport need a visa for that country" into "is anything
+going to stop *this trip*". It needs `UserTrip.startDate`/`.endDate`/`.destinationCountry`
+and `User.passportExpiry`, which is why those four fields exist.
+
+Checks, in the order they fire: destination set, dates set, passport validity against the
+destination's own rule, the visa answer as a deadline, rule freshness, whether a
+cascade-supporting document stays valid *across the travel dates* (not merely today),
+length of stay vs the permitted maximum, blank pages, onward ticket, required
+vaccinations, and any other stated entry requirement.
+
+`passportValidityVerdict()` is pulled out as a pure function and tested directly, because
+it's the one calculation here where being wrong has a real cost — someone books a
+non-refundable trip they can't take, or cancels one they could have. Two subtleties worth
+not "simplifying" away:
+
+- Months are added by calendar, clamped to the end of a shorter month (Aug 31 + 6 months
+  is Feb 28/29, not Mar 2/3). Treating a month as 30 days makes a borderline passport read
+  as fine when it isn't.
+- A margin under 30 days is a **warning, not a pass** — including where the rule is only
+  "duration of stay". A passport expiring days after you land home leaves nothing for a
+  delayed flight, and plenty of airlines apply a six-month rule at check-in regardless of
+  what the destination requires.
 
 ## Known loose ends
 
@@ -384,6 +618,19 @@ even with this in place, the retry count or the delete-then-recreate structure i
 (e.g. seeding into a staging table and swapping, or batching with `createMany` where nested
 relations allow it) is the next thing to reconsider — this fix addresses the failure mode
 we actually observed, not every possible one.
+
+## Tests
+
+`npm test` (vitest). `vitest.config.mts` exists for two reasons worth knowing: it maps the
+`@/` path alias (every test used to live in `src/lib` with relative imports, so vitest
+never needed it until a component test did), and it turns on the automatic JSX runtime.
+It has to be `.mts` rather than `.ts` — this package isn't `"type": "module"`, so a `.ts`
+config gets `require()`d and vitest 4's config entry point is ESM-only.
+
+Component tests render server components straight to a string with
+`renderToStaticMarkup` (see `EntryReadiness.test.tsx`). That's deliberate: the trip page
+is behind a real login, so a browser pass on it means holding a live session, and these
+components take finished data as props anyway.
 
 ## How to verify a change before considering it done
 

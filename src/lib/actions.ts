@@ -10,6 +10,8 @@ import { getTripWithAccess } from "./trips";
 import { createClient } from "@/utils/supabase/server";
 import type { TripDay, TripStatus } from "./types";
 import { normalizeCountryInput } from "./countries";
+import { EXPENSE_CATEGORIES, type ExpenseCategory } from "./expenses";
+import { fromMinor, getRate, toMinor } from "./currency";
 
 function itineraryDaysToTripDays(days: { dayNumber: number; title: string; activities: string; driveTime: string | null; lodgingSuggestion: string | null; coffeeWifiSpot: string | null }[]): TripDay[] {
   return days
@@ -41,6 +43,11 @@ export async function createTripFromItinerary(itineraryId: string) {
       costTier: itinerary.costTier,
       customDaysJson: JSON.stringify(itineraryDaysToTripDays(itinerary.days)),
       shareToken: randomUUID(),
+      // An itinerary already knows where it goes, so don't make the user
+      // retype it. Multi-country itineraries (e.g. "Maldives, Sri Lanka")
+      // take the first — entry rules have to resolve against one country,
+      // and the user can change it.
+      destinationCountry: itinerary.countries.split(",")[0]?.trim() || null,
     },
   });
 
@@ -173,6 +180,241 @@ export async function removeCollaborator(tripId: string, collaboratorUserId: str
   revalidatePath(`/trip/${tripId}`);
 }
 
+// --- Trip planning: dates + destination ------------------------------------
+// These three fields (startDate, endDate, destinationCountry) are what every
+// date- or place-aware feature reads — entry readiness, holidays during the
+// stay, climate for the travel month, currency, advisories, flight links.
+// Before they existed a trip was just a title and a day list.
+export async function updateTripPlanning(tripId: string, formData: FormData) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
+  const startRaw = String(formData.get("startDate") ?? "").trim();
+  const endRaw = String(formData.get("endDate") ?? "").trim();
+  const destinationRaw = String(formData.get("destinationCountry") ?? "").trim();
+
+  // Dates come from <input type="date"> as yyyy-mm-dd. Parsed as UTC noon so
+  // the stored instant lands on the intended calendar day in every timezone —
+  // a bare "2027-03-14" parsed as UTC midnight displays as March 13 for
+  // anyone west of Greenwich.
+  const parseDay = (v: string): Date | null => {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(v)) return null;
+    return new Date(`${v}T12:00:00.000Z`);
+  };
+
+  const startDate = startRaw ? parseDay(startRaw) : null;
+  let endDate = endRaw ? parseDay(endRaw) : null;
+  // An end before the start is a typo, not an instruction. Drop it rather
+  // than storing a negative-length trip that every downstream calculation
+  // then has to defend against.
+  if (startDate && endDate && endDate < startDate) endDate = null;
+
+  await prisma.userTrip.update({
+    where: { id: tripId },
+    data: {
+      startDate,
+      endDate,
+      destinationCountry: destinationRaw ? normalizeCountryInput(destinationRaw) : null,
+    },
+  });
+
+  revalidatePath(`/trip/${tripId}`);
+  revalidatePath("/my-trips");
+  revalidatePath("/");
+}
+
+// --- Public read-only sharing ----------------------------------------------
+// publicToken is a separate secret from shareToken on purpose: shareToken
+// grants edit access to whoever follows it, so it must never be the thing
+// posted publicly. See the UserTrip model comment.
+export async function setTripPublic(tripId: string, isPublic: boolean): Promise<string | null> {
+  const user = await getCurrentUser();
+  const { trip, isOwner } = await getTripWithAccess(tripId, user.id);
+  if (!trip || !isOwner) throw new Error("Only the trip owner can publish a trip.");
+
+  if (!isPublic) {
+    // Rotate the token off as well as flipping the flag, so a previously
+    // shared link is dead rather than dormant.
+    await prisma.userTrip.update({
+      where: { id: tripId },
+      data: { isPublic: false, publicToken: null },
+    });
+    revalidatePath(`/trip/${tripId}`);
+    return null;
+  }
+
+  const publicToken = trip.publicToken ?? randomUUID();
+  await prisma.userTrip.update({
+    where: { id: tripId },
+    data: { isPublic: true, publicToken },
+  });
+  revalidatePath(`/trip/${tripId}`);
+  return publicToken;
+}
+
+// --- Packing list ----------------------------------------------------------
+// Rows are created on first interaction rather than materialised up front, so
+// the generated list in src/lib/packing.ts stays the source of truth until
+// somebody actually ticks or claims something. An upsert keyed on
+// (tripId, label) is what makes that work.
+export async function setPackingItemPacked(
+  tripId: string,
+  label: string,
+  category: string,
+  packed: boolean
+) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
+  const clean = label.trim();
+  if (!clean) return;
+
+  await prisma.tripPackingItem.upsert({
+    where: { tripId_label: { tripId, label: clean } },
+    create: { tripId, label: clean, category, packed },
+    update: { packed },
+  });
+  revalidatePath(`/trip/${tripId}`);
+}
+
+export async function setPackingItemClaim(
+  tripId: string,
+  label: string,
+  category: string,
+  claim: boolean
+) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
+  const clean = label.trim();
+  if (!clean) return;
+
+  await prisma.tripPackingItem.upsert({
+    where: { tripId_label: { tripId, label: clean } },
+    create: { tripId, label: clean, category, claimedBy: claim ? user.id : null },
+    update: { claimedBy: claim ? user.id : null },
+  });
+  revalidatePath(`/trip/${tripId}`);
+}
+
+export async function addPackingItem(tripId: string, formData: FormData) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
+  const label = String(formData.get("label") ?? "").trim();
+  if (!label) return;
+
+  await prisma.tripPackingItem.upsert({
+    where: { tripId_label: { tripId, label } },
+    create: { tripId, label, category: "custom", isCustom: true },
+    update: {},
+  });
+  revalidatePath(`/trip/${tripId}`);
+}
+
+export async function removePackingItem(tripId: string, itemId: string) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
+  // Scoped by tripId as well as id so a valid item id from another trip
+  // can't be deleted through a trip the caller does have access to.
+  await prisma.tripPackingItem.deleteMany({ where: { id: itemId, tripId } });
+  revalidatePath(`/trip/${tripId}`);
+}
+
+// --- Expenses --------------------------------------------------------------
+export async function addExpense(tripId: string, formData: FormData) {
+  const user = await getCurrentUser();
+  const { trip, canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!trip || !canEdit) throw new Error("You don't have access to this trip.");
+
+  const label = String(formData.get("label") ?? "").trim();
+  const category = String(formData.get("category") ?? "other").trim();
+  const currency = (String(formData.get("currency") ?? "USD").trim() || "USD").toUpperCase();
+  const amountRaw = String(formData.get("amount") ?? "").trim();
+  const spentOnRaw = String(formData.get("spentOn") ?? "").trim();
+
+  const amount = Number(amountRaw);
+  if (!label || !Number.isFinite(amount) || amount <= 0) return;
+  if (!EXPENSE_CATEGORIES.includes(category as ExpenseCategory)) return;
+
+  const amountMinor = toMinor(amount, currency);
+
+  // The rate that applied on the day it was spent is the honest one, so it's
+  // stored rather than recomputed at read time. A currency the ECB feed
+  // doesn't carry stores null — summarizeExpenses reports those separately
+  // instead of quietly excluding them.
+  let amountMinorUsd: number | null = amountMinor;
+  let fxRate: number | null = 1;
+  if (currency !== "USD") {
+    const rate = await getRate(currency, "USD");
+    if (rate.supported && rate.rate) {
+      fxRate = rate.rate;
+      amountMinorUsd = Math.round(fromMinor(amountMinor, currency) * rate.rate * 100);
+    } else {
+      fxRate = null;
+      amountMinorUsd = null;
+    }
+  }
+
+  // Everyone on the trip splits it by default — owner plus collaborators.
+  const participantIds = [trip.userId, ...trip.collaborators.map((c) => c.userId)];
+  const requested = formData.getAll("splitWith").map(String).filter(Boolean);
+  const split = requested.length > 0
+    ? requested.filter((id) => participantIds.includes(id))
+    : participantIds;
+
+  await prisma.tripExpense.create({
+    data: {
+      tripId,
+      paidById: user.id,
+      label,
+      category,
+      amountMinor,
+      currency,
+      amountMinorUsd,
+      fxRate,
+      spentOn: /^\d{4}-\d{2}-\d{2}$/.test(spentOnRaw)
+        ? new Date(`${spentOnRaw}T12:00:00.000Z`)
+        : new Date(),
+      splitBetween: (split.length > 0 ? split : [user.id]).join(","),
+    },
+  });
+
+  revalidatePath(`/trip/${tripId}`);
+}
+
+export async function removeExpense(tripId: string, expenseId: string) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
+  await prisma.tripExpense.deleteMany({ where: { id: expenseId, tripId } });
+  revalidatePath(`/trip/${tripId}`);
+}
+
+export async function updatePassportExpiry(formData: FormData) {
+  const user = await getCurrentUser();
+  const raw = String(formData.get("passportExpiry") ?? "").trim();
+
+  await prisma.user.update({
+    where: { id: user.id },
+    data: {
+      passportExpiry: /^\d{4}-\d{2}-\d{2}$/.test(raw)
+        ? new Date(`${raw}T12:00:00.000Z`)
+        : null,
+    },
+  });
+  revalidatePath("/profile");
+  revalidatePath("/my-trips");
+  revalidatePath("/");
+}
+
 export async function updatePassportCountry(formData: FormData) {
   const user = await getCurrentUser();
   const raw = String(formData.get("passportCountry") ?? "").trim();
@@ -228,10 +470,16 @@ export async function completeOnboarding(formData: FormData) {
   if (!rawPassport) return;
   const passportCountry = normalizeCountryInput(rawPassport);
 
+  // Optional at signup — see the note on the field in the onboarding page.
+  const rawExpiry = String(formData.get("passportExpiry") ?? "").trim();
+  const passportExpiry = /^\d{4}-\d{2}-\d{2}$/.test(rawExpiry)
+    ? new Date(`${rawExpiry}T12:00:00.000Z`)
+    : null;
+
   await prisma.user.upsert({
     where: { id: authUser.id },
-    update: { name, passportCountry },
-    create: { id: authUser.id, email: authUser.email, name, passportCountry },
+    update: { name, passportCountry, passportExpiry },
+    create: { id: authUser.id, email: authUser.email, name, passportCountry, passportExpiry },
   });
 
   redirect("/");

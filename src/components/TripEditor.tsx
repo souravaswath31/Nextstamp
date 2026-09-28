@@ -2,8 +2,8 @@
 
 import { useEffect, useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, ArrowUp, ArrowDown, Trash2, Plus, Save, CheckCircle2, Users, Link2, Copy, RefreshCw } from "lucide-react";
-import { updateTripDays, updateTripStatus, deleteTrip, ensureShareToken, removeCollaborator } from "@/lib/actions";
+import { ArrowLeft, ArrowUp, ArrowDown, Trash2, Plus, Save, CheckCircle2, Users, Link2, Copy, RefreshCw, CalendarRange, MapPin, Globe, EyeOff } from "lucide-react";
+import { updateTripDays, updateTripStatus, deleteTrip, ensureShareToken, removeCollaborator, updateTripPlanning, setTripPublic } from "@/lib/actions";
 import { estimateTripCost, getBudgetBreakdown, formatUsd, type CostTier } from "@/lib/costs";
 import { TRIP_STATUSES, type TripDay, type TripStatus } from "@/lib/types";
 import { createClient } from "@/utils/supabase/client";
@@ -20,6 +20,15 @@ type Props = {
   isOwner: boolean;
   shareToken: string | null;
   collaborators: Collaborator[];
+  /** yyyy-mm-dd, ready for <input type="date">, or "" when unset. */
+  initialStartDate: string;
+  initialEndDate: string;
+  initialDestination: string;
+  /** Countries we have researched visa rules or country facts for — offered
+   *  as suggestions so a typo doesn't silently break every entry check. */
+  knownDestinations: string[];
+  initialIsPublic: boolean;
+  initialPublicToken: string | null;
 };
 
 export default function TripEditor({
@@ -31,6 +40,12 @@ export default function TripEditor({
   isOwner,
   shareToken,
   collaborators,
+  initialStartDate,
+  initialEndDate,
+  initialDestination,
+  knownDestinations,
+  initialIsPublic,
+  initialPublicToken,
 }: Props) {
   const router = useRouter();
   const [title, setTitle] = useState(initialTitle);
@@ -110,6 +125,75 @@ export default function TripEditor({
   function refreshFromRemote() {
     setRemoteUpdate(false);
     router.refresh();
+  }
+
+  // --- Dates + destination. Saved on their own rather than with the day plan:
+  // --- they change what the whole page can compute, so the page needs to
+  // --- re-render server-side afterwards, and router.refresh() does that.
+  const [startDate, setStartDate] = useState(initialStartDate);
+  const [endDate, setEndDate] = useState(initialEndDate);
+  const [destination, setDestination] = useState(initialDestination);
+  const [planningSaved, setPlanningSaved] = useState(false);
+
+  const dateError =
+    startDate && endDate && endDate < startDate ? "End date is before the start date." : null;
+
+  function savePlanning() {
+    if (dateError) return;
+    startTransition(async () => {
+      const fd = new FormData();
+      fd.set("startDate", startDate);
+      fd.set("endDate", endDate);
+      fd.set("destinationCountry", destination);
+      await updateTripPlanning(tripId, fd);
+      setPlanningSaved(true);
+      setTimeout(() => setPlanningSaved(false), 2500);
+      router.refresh();
+    });
+  }
+
+  const nights = useMemo(() => {
+    if (!startDate || !endDate) return null;
+    const a = Date.parse(`${startDate}T00:00:00Z`);
+    const b = Date.parse(`${endDate}T00:00:00Z`);
+    if (Number.isNaN(a) || Number.isNaN(b) || b < a) return null;
+    return Math.round((b - a) / 86_400_000);
+  }, [startDate, endDate]);
+
+  // --- Read-only public link.
+  const [isPublic, setIsPublic] = useState(initialIsPublic);
+  const [publicToken, setPublicToken] = useState(initialPublicToken);
+  const [publicCopied, setPublicCopied] = useState(false);
+
+  function togglePublic() {
+    const next = !isPublic;
+    if (
+      next &&
+      !confirm(
+        "Publish a read-only link to this trip? Anyone with the link will be able to see the day plan, dates and destination — but not edit it, and not your expenses."
+      )
+    ) {
+      return;
+    }
+    startTransition(async () => {
+      const token = await setTripPublic(tripId, next);
+      setIsPublic(next);
+      setPublicToken(token);
+    });
+  }
+
+  function copyPublicLink() {
+    if (!publicToken) return;
+    const url = `${window.location.origin}/t/${publicToken}`;
+    navigator.clipboard.writeText(url).then(
+      () => {
+        setPublicCopied(true);
+        setTimeout(() => setPublicCopied(false), 2000);
+      },
+      () => {
+        window.prompt("Copy this public link:", url);
+      }
+    );
   }
 
   function moveDay(index: number, direction: -1 | 1) {
@@ -211,6 +295,86 @@ export default function TripEditor({
         </div>
       </div>
 
+      <section className="rounded-panel bg-paper p-5 shadow-paper">
+        <h2 className="flex items-center gap-2 font-display text-lg text-ink">
+          <CalendarRange size={17} className="text-ink/35" /> Dates &amp; destination
+        </h2>
+        <p className="mt-1 font-body text-xs text-ink/50">
+          Entry requirements, holidays, climate and currency all key off these — they&apos;re what
+          turns a wish list into a trip.
+        </p>
+
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          <label className="flex flex-col gap-1.5">
+            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              Leaving
+            </span>
+            <input
+              id="trip-start-date"
+              type="date"
+              value={startDate}
+              onChange={(e) => setStartDate(e.target.value)}
+              className="rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
+            />
+          </label>
+          <label className="flex flex-col gap-1.5">
+            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              Coming home
+            </span>
+            <input
+              id="trip-end-date"
+              type="date"
+              value={endDate}
+              min={startDate || undefined}
+              onChange={(e) => setEndDate(e.target.value)}
+              className="rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
+            />
+          </label>
+          <label className="flex flex-col gap-1.5">
+            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              Destination country
+            </span>
+            <input
+              id="trip-destination"
+              list="known-destinations"
+              value={destination}
+              onChange={(e) => setDestination(e.target.value)}
+              placeholder="e.g. Japan"
+              className="rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+            />
+            <datalist id="known-destinations">
+              {knownDestinations.map((c) => (
+                <option key={c} value={c} />
+              ))}
+            </datalist>
+          </label>
+        </div>
+
+        {dateError && (
+          <p className="mt-2 font-body text-xs text-stampRed">{dateError}</p>
+        )}
+
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          <button
+            onClick={savePlanning}
+            disabled={isPending || Boolean(dateError)}
+            className="btn-pill btn-pill-primary !px-4 !py-1.5 !text-xs disabled:opacity-50"
+          >
+            <MapPin size={13} /> Save dates &amp; destination
+          </button>
+          {nights !== null && (
+            <span className="font-body text-xs text-ink/55">
+              {nights} night{nights === 1 ? "" : "s"}
+            </span>
+          )}
+          {planningSaved && (
+            <span className="flex items-center gap-1 font-body text-xs text-forest">
+              <CheckCircle2 size={13} /> Saved.
+            </span>
+          )}
+        </div>
+      </section>
+
       <section className="flex flex-wrap items-end gap-6 rounded-panel bg-paper p-5 shadow-paper">
         <label className="flex flex-col gap-1.5">
           <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
@@ -308,6 +472,49 @@ export default function TripEditor({
           collaboratorList.length === 0 && (
             <p className="mt-2 font-body text-xs text-ink/50">Only the trip owner can invite co-travelers.</p>
           )
+        )}
+
+        {isOwner && (
+          <div className="mt-5 border-t border-line pt-4">
+            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              Public link
+            </p>
+            <p className="mt-1 font-body text-xs text-ink/55">
+              A read-only page anyone can open — no account needed. Different from the invite
+              link above, which lets whoever follows it edit the trip.
+            </p>
+            {isPublic && publicToken ? (
+              <div className="mt-3 space-y-2">
+                <div className="flex flex-wrap items-center gap-2">
+                  <Globe size={14} className="text-forest" />
+                  <span className="truncate font-body text-xs text-ink/55">
+                    {inviteOrigin}/t/{publicToken}
+                  </span>
+                  <button
+                    onClick={copyPublicLink}
+                    className="flex shrink-0 items-center gap-1 font-body text-xs font-semibold text-coral hover:underline"
+                  >
+                    <Copy size={12} /> {publicCopied ? "Copied!" : "Copy link"}
+                  </button>
+                </div>
+                <button
+                  onClick={togglePublic}
+                  disabled={isPending}
+                  className="flex items-center gap-1 font-body text-xs text-stampRed hover:underline disabled:opacity-50"
+                >
+                  <EyeOff size={12} /> Unpublish — the link stops working for everyone
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={togglePublic}
+                disabled={isPending}
+                className="btn-pill btn-pill-primary !mt-3 !px-4 !py-1.5 !text-xs disabled:opacity-50"
+              >
+                <Globe size={13} /> Publish a read-only link
+              </button>
+            )}
+          </div>
         )}
       </section>
 

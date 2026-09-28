@@ -52,15 +52,41 @@ export default async function OnboardingPage() {
             />
           </div>
           <div>
-            <label className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <label
+              htmlFor="onboarding-passport-country"
+              className="font-stamp text-[11px] uppercase tracking-wide text-ink/45"
+            >
               Passport country
             </label>
             <input
+              id="onboarding-passport-country"
               name="passportCountry"
               placeholder="e.g. India"
               required
               className="mt-1.5 w-full rounded-full bg-paperDark px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
             />
+          </div>
+          {/* Optional on purpose: asking for an expiry date at signup is a
+              reasonable amount of friction to add, but making it required
+              would turn a two-field form into a "go find your passport"
+              errand. It can be filled in later on the profile page. */}
+          <div>
+            <label
+              htmlFor="onboarding-passport-expiry"
+              className="font-stamp text-[11px] uppercase tracking-wide text-ink/45"
+            >
+              Passport expiry <span className="normal-case tracking-normal">(optional)</span>
+            </label>
+            <input
+              id="onboarding-passport-expiry"
+              name="passportExpiry"
+              type="date"
+              className="mt-1.5 w-full rounded-full bg-paperDark px-4 py-2.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
+            />
+            <p className="mt-1.5 font-body text-xs text-ink/45">
+              Lets us check each trip against the destination&apos;s own validity rule — the thing
+              that actually stops people at check-in.
+            </p>
           </div>
           <button className="btn-pill btn-pill-primary w-full">
             Continue <ArrowRight size={15} />

@@ -1,8 +1,10 @@
 import { getCurrentUser } from "@/lib/currentUser";
 import { getCascadeExplorer, getEasyAccessDestinations, getVisaRequiredDestinations } from "@/lib/visa";
-import { addHeldDocument, removeHeldDocument, updatePassportCountry, signOutAction } from "@/lib/actions";
+import Link from "next/link";
+import { addHeldDocument, removeHeldDocument, updatePassportCountry, updatePassportExpiry, signOutAction } from "@/lib/actions";
 import { VISA_STATUS_BORDER_CLASSES, VISA_STATUS_TEXT_CLASSES } from "@/lib/types";
 import { getExpiryStatus, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
+import { listCountriesWithFacts } from "@/lib/countryFacts";
 import { FileStack, Unlock, Trash2, Plus, LogOut, Globe2, FileWarning, ExternalLink } from "lucide-react";
 
 export const dynamic = "force-dynamic";
@@ -32,6 +34,17 @@ export default async function ProfilePage() {
     getVisaRequiredDestinations(user),
   ]);
 
+  // Which of those destinations we have a researched country guide for, so the
+  // card can link through instead of dead-ending at a status label.
+  const guideCountries = new Set(await listCountriesWithFacts());
+
+  // Reuses the held-document expiry engine — a passport is just the document
+  // everything else hangs off, so the same severity thresholds apply.
+  const passportExpiry = getExpiryStatus(user.passportExpiry);
+  const passportExpiryValue = user.passportExpiry
+    ? user.passportExpiry.toISOString().slice(0, 10)
+    : "";
+
   return (
     <div className="space-y-14">
       <div className="relative overflow-hidden rounded-hero px-6 py-10 sm:px-10">
@@ -53,19 +66,69 @@ export default async function ProfilePage() {
           </div>
         </div>
 
-        <form action={updatePassportCountry} className="relative mt-6 flex items-center justify-center gap-2 sm:justify-start">
-          <label className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
-            Passport
-          </label>
-          <input
-            name="passportCountry"
-            defaultValue={user.passportCountry}
-            className="rounded-full bg-paper px-3 py-1.5 font-body text-sm text-ink shadow-paper focus:outline-none focus:ring-2 focus:ring-ink/10"
-          />
-          <button className="btn-pill btn-pill-primary !px-4 !py-1.5 !text-xs">
-            Update
-          </button>
-        </form>
+        <div className="relative mt-6 flex flex-wrap items-end justify-center gap-4 sm:justify-start">
+          <form action={updatePassportCountry} className="flex items-center gap-2">
+            <label
+              htmlFor="passport-country"
+              className="font-stamp text-[11px] uppercase tracking-wide text-ink/45"
+            >
+              Passport
+            </label>
+            <input
+              id="passport-country"
+              name="passportCountry"
+              defaultValue={user.passportCountry}
+              className="rounded-full bg-paper px-3 py-1.5 font-body text-sm text-ink shadow-paper focus:outline-none focus:ring-2 focus:ring-ink/10"
+            />
+            <button className="btn-pill btn-pill-primary !px-4 !py-1.5 !text-xs">
+              Update
+            </button>
+          </form>
+
+          {/* Passport expiry: the single most common reason someone gets turned
+              away at check-in, and unknowable to us unless they tell us. Fed
+              into every trip's entry-readiness check (src/lib/readiness.ts). */}
+          <form action={updatePassportExpiry} className="flex items-center gap-2">
+            <label
+              htmlFor="passport-expiry"
+              className="font-stamp text-[11px] uppercase tracking-wide text-ink/45"
+            >
+              Expires
+            </label>
+            <input
+              id="passport-expiry"
+              name="passportExpiry"
+              type="date"
+              defaultValue={passportExpiryValue}
+              className="rounded-full bg-paper px-3 py-1.5 font-body text-sm text-ink shadow-paper focus:outline-none focus:ring-2 focus:ring-ink/10"
+            />
+            <button className="btn-pill btn-pill-primary !px-4 !py-1.5 !text-xs">
+              Save
+            </button>
+          </form>
+        </div>
+
+        <div className="relative mt-3">
+          {user.passportExpiry ? (
+            <p
+              className={`font-body text-xs ${
+                passportExpiry.severity === "ok" || passportExpiry.severity === "none"
+                  ? "text-ink/55"
+                  : "font-semibold text-stampRed"
+              }`}
+            >
+              {passportExpiry.label}
+              {passportExpiry.severity === "ok" &&
+                " — most destinations want six months' validity beyond your arrival date, so we check each trip against its own rule."}
+            </p>
+          ) : (
+            <p className="flex items-center gap-1.5 font-body text-xs text-stamp">
+              <FileWarning size={13} /> Add your passport&apos;s expiry date and every trip gets
+              checked against the destination&apos;s own validity rule — the thing that stops people
+              at check-in.
+            </p>
+          )}
+        </div>
       </div>
 
       <section>
@@ -154,6 +217,14 @@ export default async function ProfilePage() {
                   {EASY_ACCESS_LABELS[status.status] ?? status.status}
                   {status.viaCascade ? " · via held document" : ""}
                 </p>
+                {guideCountries.has(status.destinationCountry) && (
+                  <Link
+                    href={`/country/${status.destinationCountry.toLowerCase().replace(/\s+/g, "-")}`}
+                    className="mt-1.5 inline-block font-body text-xs font-semibold text-coralDark hover:underline"
+                  >
+                    Country guide
+                  </Link>
+                )}
               </div>
             ))}
           </div>
