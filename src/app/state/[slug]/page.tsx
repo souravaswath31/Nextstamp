@@ -3,6 +3,7 @@ import { prisma } from "@/lib/prisma";
 import TerrainHero from "@/components/TerrainHero";
 import BackButton from "@/components/BackButton";
 import Reveal from "@/components/Reveal";
+import PlaceMap from "@/components/PlaceMap";
 import { CalendarRange, ThermometerSun, TicketCheck, Backpack } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -110,6 +111,26 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
           </div>
         )}
       </section>
+
+      <Reveal>
+        <PlaceMap
+          title={state.name}
+          places={state.places
+            .filter(
+              (p): p is typeof p & { latitude: number; longitude: number } =>
+                p.latitude !== null && p.longitude !== null
+            )
+            .map((p) => ({
+              id: p.id,
+              name: p.name,
+              category: p.category,
+              latitude: p.latitude,
+              longitude: p.longitude,
+              nearestTown: p.nearestTown,
+            }))}
+          omittedCount={state.places.filter((p) => p.latitude === null).length}
+        />
+      </Reveal>
 
       {(["amazing", "common", "hidden", "food_culture"] as const).map((cat) => {
         const places = byCategory(cat);

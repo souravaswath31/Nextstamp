@@ -21,3 +21,6 @@ out
 *.log
 .vercel
 .env*
+# ...but the template with no values in it should be committed, so a fresh
+# clone knows which variables exist and which are optional.
+!.env.example

@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import itinerariesSeed from "../data/itineraries-seed.json";
 import visaRulesSeed from "../data/visa-rules-seed.json";
 import stateGuidesSeed from "../data/state-guides-seed.json";
+import countryFactsSeed from "../data/country-facts-seed.json";
 
 let prisma = new PrismaClient();
 
@@ -39,6 +40,7 @@ async function main() {
   await prisma.itinerary.deleteMany();
   await prisma.visaRule.deleteMany();
   await prisma.stateGuide.deleteMany();
+  await prisma.countryFact.deleteMany();
 
   console.log(`Seeding ${itinerariesSeed.length} itineraries...`);
   for (const it of itinerariesSeed as any[]) {
@@ -119,10 +121,109 @@ async function main() {
             tip: p.tip ?? null,
             nearestTown: p.nearest_town ?? null,
             sortOrder: i,
+            latitude: p.latitude ?? null,
+            longitude: p.longitude ?? null,
           })),
         },
       },
     }), `state guide "${s.name}"`);
+  }
+
+  console.log(`Seeding ${countryFactsSeed.length} country guides...`);
+  const MONTHS = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+  ];
+  for (const c of countryFactsSeed as any[]) {
+    await withRetry(() => prisma.countryFact.create({
+      data: {
+        country: c.country,
+        iso2: c.iso2,
+        currencyCode: c.currency_code,
+        currencyName: c.currency_name,
+        primaryTimezone: c.primary_timezone,
+        timezoneLabel: c.timezone_label,
+        timezoneNote: c.timezone_note ?? null,
+
+        passportValidityRule: c.passport_validity_rule,
+        passportValidityMonthsBeyondEntry: c.passport_validity_months_beyond_entry ?? 0,
+        passportValidityBasis: c.passport_validity_basis ?? "none",
+        blankPagesRequired: c.blank_pages_required ?? null,
+        onwardTicketRequired: c.onward_ticket_required ?? null,
+        entryRequirementNotes: c.entry_requirement_notes ?? null,
+        passportSourceUrl: c.passport_source_url ?? null,
+
+        // Arrays collapse to comma-separated strings and the source-URL list
+        // to a pipe-separated one, matching the convention the rest of this
+        // schema already uses (Itinerary.countries, .category). src/lib/
+        // countryFacts.ts owns the parsing on the way back out.
+        healthRequiredVaccinations: (c.health?.required_vaccinations ?? []).join(","),
+        healthRecommendedVaccinations: (c.health?.recommended_vaccinations ?? []).join(","),
+        healthMalariaRisk: c.health?.malaria_risk ?? null,
+        healthNotes: c.health?.notes ?? null,
+        healthSourceUrl: c.health?.source_url ?? null,
+
+        moneyCardAcceptance: c.money?.card_acceptance ?? null,
+        moneyCashCulture: c.money?.cash_culture ?? null,
+        moneyTipping: c.money?.tipping ?? null,
+        moneyAtmNotes: c.money?.atm_notes ?? null,
+        moneySourceUrl: c.money?.source_url ?? null,
+
+        powerPlugTypes: (c.power?.plug_types ?? []).join(","),
+        powerVoltage: c.power?.voltage ?? null,
+        powerFrequency: c.power?.frequency ?? null,
+        powerAdapterNote: c.power?.adapter_note ?? null,
+        powerSourceUrl: c.power?.source_url ?? null,
+
+        emergencyPolice: c.emergency?.police ?? null,
+        emergencyAmbulance: c.emergency?.ambulance ?? null,
+        emergencyFire: c.emergency?.fire ?? null,
+        emergencyUniversal: c.emergency?.universal ?? null,
+        emergencyTouristPolice: c.emergency?.tourist_police ?? null,
+        emergencyNotes: c.emergency?.notes ?? null,
+        emergencySourceUrl: c.emergency?.source_url ?? null,
+
+        transitSummary: c.getting_around?.summary ?? null,
+        transitPassesJson: JSON.stringify(c.getting_around?.passes ?? []),
+        transitSourceUrl: c.getting_around?.source_url ?? null,
+
+        esimSupported: c.connectivity?.esim_supported ?? null,
+        localSimNotes: c.connectivity?.local_sim_notes ?? null,
+        connectivityCost: c.connectivity?.typical_cost ?? null,
+        simRegistrationRequired: c.connectivity?.registration_required ?? null,
+        connectivitySourceUrl: c.connectivity?.source_url ?? null,
+
+        climateReferenceCity: c.climate_reference_city ?? null,
+        climateSourceUrl: c.climate_source_url ?? null,
+        phrasesLanguage: c.phrases_language ?? null,
+
+        sources: (c.sources ?? []).join("|"),
+        lastVerifiedDate: new Date(c.last_verified_date),
+
+        climate: {
+          create: (c.climate ?? []).map((m: any) => ({
+            // monthNumber is derived from position in the canonical month list
+            // rather than trusted from the input, so ordering can't depend on
+            // a research agent having spelled the month consistently.
+            monthNumber: MONTHS.indexOf(m.month) + 1,
+            month: m.month,
+            avgHighC: m.avg_high_c ?? null,
+            avgLowC: m.avg_low_c ?? null,
+            precipitationNote: m.precipitation_note ?? null,
+            crowdNote: m.crowd_note ?? null,
+            rating: m.rating ?? "shoulder",
+          })),
+        },
+        phrases: {
+          create: (c.phrases ?? []).map((p: any, i: number) => ({
+            phraseEn: p.phrase_en,
+            local: p.local,
+            romanization: p.romanization ?? null,
+            sortOrder: i,
+          })),
+        },
+      },
+    }), `country guide "${c.country}"`);
   }
 
   console.log("Done seeding global content.");

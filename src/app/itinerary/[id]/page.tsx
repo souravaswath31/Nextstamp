@@ -22,6 +22,7 @@ import {
   PackageCheck,
   Sparkles,
   LogIn,
+  ArrowRight,
   type LucideIcon,
 } from "lucide-react";
 import type { Metadata } from "next";
@@ -85,6 +86,17 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
   const visaStatuses: VisaStatus[] | null = user
     ? await Promise.all(countries.map((c) => getVisaStatusForUser(user, c)))
     : null;
+
+  // Which of this itinerary's countries have a researched country guide, so
+  // the visa card can link through to the rest of what you need to know.
+  const guideCountries = new Set(
+    (
+      await prisma.countryFact.findMany({
+        where: { country: { in: countries } },
+        select: { country: true },
+      })
+    ).map((f) => f.country)
+  );
 
   const relatedStateSlugs = itinerary.relatedStateSlugs ? itinerary.relatedStateSlugs.split(",").filter(Boolean) : [];
   const relatedStates = relatedStateSlugs.length > 0
@@ -208,6 +220,14 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
                         ? ` Max stay: ${visaStatuses[i].maxStayDays} days.`
                         : ""}
                     </p>
+                  )}
+                  {guideCountries.has(country) && (
+                    <Link
+                      href={`/country/${country.toLowerCase().replace(/\s+/g, "-")}`}
+                      className="btn-ghost !mt-3 !text-xs"
+                    >
+                      {country} country guide <ArrowRight size={12} />
+                    </Link>
                   )}
                 </div>
               ))}

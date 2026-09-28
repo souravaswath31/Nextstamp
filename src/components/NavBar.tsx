@@ -3,22 +3,31 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Compass, Map, Luggage, UserRound, LayoutGrid, LogIn } from "lucide-react";
+import { Compass, Map, Luggage, UserRound, LayoutGrid, LogIn, Globe2 } from "lucide-react";
 
-// Explore and States are the free browsable library — no login needed.
+// Explore, States and Guides are the free browsable library — no login needed.
 // Dashboard/My Trips/Profile are personal, so a logged-out visitor gets
 // "Sign in" instead of three tabs that would just redirect there anyway.
 const PUBLIC_TABS = [
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
+  { href: "/countries", label: "Guides", icon: Globe2 },
 ];
 const PRIVATE_TABS = [
   { href: "/", label: "Dashboard", icon: LayoutGrid },
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
+  { href: "/countries", label: "Guides", icon: Globe2 },
   { href: "/my-trips", label: "My Trips", icon: Luggage },
   { href: "/profile", label: "Profile", icon: UserRound },
 ];
+
+// A 375px tab bar fits about five items legibly. The signed-out set is three
+// plus "Sign in", so everything fits; the signed-in set is six, so one has to
+// go, and Guides is the one with the most other ways in (the dashboard card,
+// every itinerary's visa section, and every trip's destination). The desktop
+// bar has room and always shows everything.
+const MOBILE_TAB_LIMIT = 5;
 
 const AUTH_ROUTES = ["/login", "/onboarding"];
 
@@ -28,6 +37,10 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
   if (AUTH_ROUTES.includes(pathname)) return null;
 
   const TABS = isAuthenticated ? PRIVATE_TABS : PUBLIC_TABS;
+  // "Sign in" takes a slot of its own in the mobile bar when signed out.
+  const mobileBudget = MOBILE_TAB_LIMIT - (isAuthenticated ? 0 : 1);
+  const MOBILE_TABS =
+    TABS.length <= mobileBudget ? TABS : TABS.filter((t) => t.href !== "/countries");
 
   return (
     <>
@@ -64,7 +77,7 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
       {/* Bottom tabs — iOS-style tab bar, thumb-reachable on mobile */}
       <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-black/5 bg-paper/90 backdrop-blur-xl sm:hidden">
         <div className="mx-auto flex max-w-6xl justify-around px-2 pb-[max(0.375rem,env(safe-area-inset-bottom))] pt-1.5">
-          {TABS.map((tab) => {
+          {MOBILE_TABS.map((tab) => {
             const active = pathname === tab.href;
             const Icon = tab.icon;
             return (
