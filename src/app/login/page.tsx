@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { Mail, Send, CheckCircle2 } from "lucide-react";
 import { createClient } from "@/utils/supabase/client";
+import { friendlyAuthError } from "@/lib/authErrors";
 
 export default function LoginPage() {
   const searchParams = useSearchParams();
@@ -32,7 +33,7 @@ export default function LoginPage() {
     });
 
     setLoading(false);
-    if (error) setError(error.message);
+    if (error) setError(friendlyAuthError(error.message));
     else setSent(true);
   }
 

@@ -568,6 +568,37 @@ not "simplifying" away:
   delayed flight, and plenty of airlines apply a six-month rule at check-in regardless of
   what the destination requires.
 
+## Sign-in email is rate limited — the one thing blocking real users
+
+**Supabase's built-in auth email service sends 2 messages per hour, per
+project.** Not per user — per project. Supabase documents it as "best-effort
+only" and "not intended for production": it exists for testing templates and
+building demos. Hit it and `signInWithOtp` returns `email rate limit exceeded`
+(or the code form `over_email_send_rate_limit`), and nobody can sign in until
+the hour rolls over.
+
+Magic link is currently the *only* way into this app, so this caps the entire
+product at two sign-ins an hour. It is the single highest-priority operational
+fix, and it is a dashboard change rather than a code one:
+
+1. Create an account with an SMTP provider — Resend, Postmark, AWS SES,
+   SendGrid, ZeptoMail and Brevo are all supported; Resend's free tier is the
+   usual choice for a project this size.
+2. Supabase dashboard → Authentication → Emails → SMTP Settings → enable custom
+   SMTP and enter the provider's host, port, user and password.
+3. Authentication → Rate Limits → raise the email limit. Custom SMTP starts at
+   **30 messages per hour** and is adjustable from there.
+
+Until that's done, `friendlyAuthError` in `src/lib/authErrors.ts` at least
+explains the failure in human terms rather than showing Supabase's raw string —
+it tells the person it's our limit, not their mistake, and that retrying won't
+help. That's damage control, not a fix.
+
+A second, larger fix worth considering: add an OAuth provider (Google is the
+obvious one for a travel app) so there's a sign-in path that sends no email at
+all. That's a real code change — `signInWithOAuth`, a provider configured in
+Supabase, and a callback already exists at `src/app/auth/callback/route.ts`.
+
 ## Known loose ends
 
 - The Vercel personal access token used for CLI deploys during development is still active
