@@ -24,3 +24,6 @@ out
 # ...but the template with no values in it should be committed, so a fresh
 # clone knows which variables exist and which are optional.
 !.env.example
+
+# TypeScript incremental build cache — a local artifact, not source.
+tsconfig.tsbuildinfo

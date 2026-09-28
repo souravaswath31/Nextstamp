@@ -38,7 +38,8 @@ export default async function CountriesPage() {
         <p className="mt-3 max-w-2xl font-body text-lg text-ink/65">
           The things you need and nobody aggregates well: how long your passport has to be valid,
           which plug, what the emergency number actually is, whether anyone takes a card, and
-          fourteen phrases worth knowing. Every fact carries its source and the date we checked it.
+          a handful of phrases worth knowing. Every fact carries its source and the date we
+          checked it.
         </p>
       </div>
 
