@@ -568,6 +568,45 @@ not "simplifying" away:
   delayed flight, and plenty of airlines apply a six-month rule at check-in regardless of
   what the destination requires.
 
+## The product-change process (research → design → build → verify)
+
+Content already has a pipeline (research agent → validator → seed). Product and
+UX changes now have one too, because "make the dashboard better" had been
+getting answered from instinct. Four steps, and the first one is the one people
+skip:
+
+**1. Describe the current experience from the user's side, concretely.** Not
+"the dashboard is weak" but "a brand-new user's first screen is a question, a
+decorative photo, three zeros, and the sentence *Nothing in planning yet* — and
+the only route to creating a trip is a text link to a page five tabs away."
+Write it down before opening an editor. Half the time the specific version
+tells you what the fix is.
+
+**2. Find out what's actually known.** There is real research on most interface
+problems and it takes ten minutes to look. For the dashboard rework the
+governing source was Nielsen Norman Group on empty states
+(nngroup.com/articles/empty-state-interface-design/): an empty state has to do
+three things — communicate system status, teach what belongs there, and
+**offer a direct pathway to the task**. Plus the guided-action pattern (one
+line of context, one primary CTA) and, where several actions exist, an explicit
+hierarchy so the primary one is obvious. Cite what you used, the same as any
+other fact in this project.
+
+**3. Build against the finding, and say which rule each change serves.** The
+dashboard changes map one-to-one: `StartTripCard` is the *direct pathway*; the
+subtitle under the headline is the *learning cue*; the three zeros were
+*status with no information* and now appear only once there's something to
+count; browsing is present but visibly subordinate so the hierarchy is legible.
+
+**4. Verify what you can, and say what you couldn't.** Most of this app is
+behind a login, so a browser pass needs a real session. Render the component
+directly instead (`renderToStaticMarkup`, see `StartTripCard.test.tsx` and
+`EntryReadiness.test.tsx`) and assert on the copy and the hierarchy. Then be
+explicit with the project owner about the part you couldn't see.
+
+The trap this exists to avoid: redesigning by taste, shipping it, and having no
+account of why it's better than what was there.
+
 ## Sign-in email is rate limited — the one thing blocking real users
 
 **Supabase's built-in auth email service sends 2 messages per hour, per

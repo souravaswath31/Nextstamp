@@ -13,12 +13,16 @@ const PUBLIC_TABS = [
   { href: "/states", label: "States", icon: Map },
   { href: "/countries", label: "Guides", icon: Globe2 },
 ];
+// My Trips sits second, directly after the dashboard. It used to be fifth of
+// six, behind three browse tabs — so the thing a returning user comes back for
+// was further away than the things they'd already looked at. Browsing is what
+// you do once; your trips are what you return to.
 const PRIVATE_TABS = [
   { href: "/", label: "Dashboard", icon: LayoutGrid },
+  { href: "/my-trips", label: "My Trips", icon: Luggage },
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
   { href: "/countries", label: "Guides", icon: Globe2 },
-  { href: "/my-trips", label: "My Trips", icon: Luggage },
   { href: "/profile", label: "Profile", icon: UserRound },
 ];
 

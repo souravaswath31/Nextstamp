@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import { getCurrentUser } from "@/lib/currentUser";
-import { getCascadeExplorer } from "@/lib/visa";
+import { getCascadeExplorer, getEasyAccessDestinations } from "@/lib/visa";
+import StartTripCard from "@/components/StartTripCard";
 import { getExpiryStatus, isUrgent, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
 import { buildReadinessReport } from "@/lib/readiness";
 import ItineraryCard from "@/components/ItineraryCard";
@@ -98,6 +99,11 @@ export default async function DashboardPage() {
 
   const countryGuideCount = await prisma.countryFact.count();
 
+  // The hook: how many destinations their documents already unlock. This is
+  // the thing NextStamp does that nothing else does, and it was buried on the
+  // profile page where nobody looks unprompted.
+  const easyAccessCount = (await getEasyAccessDestinations(user)).length;
+
   return (
     <div className="space-y-20 sm:space-y-28">
       <section className="pt-6 text-center sm:pt-14">
@@ -107,8 +113,21 @@ export default async function DashboardPage() {
         <h1 className="mx-auto mt-3 max-w-2xl font-display text-5xl leading-[1.05] tracking-tightest text-ink sm:text-6xl">
           Where to <span className="text-coral">next</span>, {user.name}?
         </h1>
+        {/* The headline asks a question; this answers it in one line rather
+            than leaving it rhetorical. */}
+        <p className="mx-auto mt-4 max-w-lg font-body text-base text-ink/60">
+          {easyAccessCount > 0
+            ? `Your ${user.passportCountry} passport${user.heldDocuments.length > 0 ? " and the documents you hold" : ""} already open ${easyAccessCount} ${easyAccessCount === 1 ? "place" : "places"} without arranging a visa first.`
+            : "Plan a trip and we'll check the entry rules, the weather, and what to pack against your actual dates."}
+        </p>
       </section>
 
+      {/* The primary action, directly under the question it answers — not five
+          tabs away in My Trips, which is where it used to live. */}
+      <StartTripCard isFirstTrip={trips.length === 0} easyAccessCount={easyAccessCount} />
+
+      {/* The decorative hero moves below the fold-level action. It was the
+          second thing a new user saw and it did no work. */}
       <Reveal>
         <div className="-mx-5 overflow-hidden rounded-hero sm:-mx-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -223,6 +242,11 @@ export default async function DashboardPage() {
         </Reveal>
       )}
 
+      {/* Three zeros were the first substantive thing a new user saw. They
+          report nothing except that you haven't done anything yet, which is
+          both obvious and discouraging — so they appear once there's something
+          to count. */}
+      {trips.length > 0 && (
       <Reveal>
         <section className="grid grid-cols-3 gap-4">
           <Stat
@@ -248,6 +272,7 @@ export default async function DashboardPage() {
           />
         </section>
       </Reveal>
+      )}
 
       <Reveal>
         <section>
@@ -258,8 +283,14 @@ export default async function DashboardPage() {
             </Link>
           </div>
           {activeTrips.length === 0 ? (
+            // The old copy here ("Browse the library and start one") was the
+            // only route to creating a trip, and it wasn't a control. Now that
+            // the primary action sits at the top of the page, this just says
+            // what the section is for.
             <p className="mt-4 font-body text-sm text-ink/50">
-              Nothing in planning yet. Browse the library and start one.
+              {trips.length === 0
+                ? "Trips you're planning will appear here."
+                : "Nothing in planning right now — your ideas and finished trips are in My Trips."}
             </p>
           ) : (
             <div className="mt-5 space-y-3">
