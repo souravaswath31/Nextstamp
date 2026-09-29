@@ -34,6 +34,25 @@ describe("friendlyAuthError", () => {
     // A real fault has to stay debuggable — hiding it would be worse than terse.
     const out = friendlyAuthError("some unexpected backend failure");
     expect(out).toContain("some unexpected backend failure");
-    expect(out).toContain("couldn't send the link");
+    // Method-agnostic: this path is reached from both the email and Google
+    // flows, so it must not claim we failed to "send a link".
+    expect(out).toContain("couldn't sign you in");
+    expect(out).not.toContain("link");
+  });
+
+  it("tells the user to fall back when Google isn't configured yet", () => {
+    for (const raw of ["Unsupported provider: provider is not enabled", "unsupported provider"]) {
+      expect(friendlyAuthError(raw)).toContain("magic link");
+    }
+  });
+
+  it("treats a cancelled consent screen as a choice, not a failure", () => {
+    expect(friendlyAuthError("access_denied")).toContain("cancelled");
+    expect(friendlyAuthError("access_denied")).toContain("Nothing happened");
+  });
+
+  it("explains a stale magic link", () => {
+    expect(friendlyAuthError("Email link is invalid or has expired")).toContain("expired");
+    expect(friendlyAuthError("Email link is invalid or has expired")).toContain("fresh one");
   });
 });

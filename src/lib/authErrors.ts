@@ -26,7 +26,14 @@ export function friendlyAuthError(message: string): string {
       "not anything you did, and sending again won't get through. Please try again in an hour."
     );
   }
-  if (m.includes("invalid") && m.includes("email")) {
+  // Checked before the malformed-address branch below: Supabase words a stale
+  // magic link as "Email link is invalid or has expired", which contains both
+  // "invalid" and "email" and would otherwise be reported as a typo in the
+  // address the person just typed correctly.
+  if (m.includes("expired") || m.includes("already been used")) {
+    return "That sign-in link has expired or was already used. Request a fresh one below.";
+  }
+  if (m.includes("invalid") && m.includes("email") && !m.includes("link")) {
     return "That doesn't look like a valid email address — check it and try again.";
   }
   if (m.includes("signups not allowed") || m.includes("signup is disabled")) {
@@ -35,7 +42,19 @@ export function friendlyAuthError(message: string): string {
   if (m.includes("fetch") || m.includes("network")) {
     return "We couldn't reach the server. Check your connection and try again.";
   }
+  // Google (or any OAuth provider) not switched on in Supabase. This is a
+  // configuration mistake on our side and the person can't do anything about
+  // it, so point them at the route that does work rather than leaving them
+  // staring at "unsupported provider".
+  if (m.includes("provider is not enabled") || m.includes("unsupported provider")) {
+    return "Google sign-in isn't switched on yet. Use the magic link below instead.";
+  }
+  // The person declined at Google's consent screen — not an error, a choice.
+  if (m.includes("access denied") || m.includes("cancelled") || m.includes("canceled")) {
+    return "Sign-in was cancelled. Nothing happened — try again whenever you like.";
+  }
   // Anything unrecognised: show it, but framed so it doesn't read as the
-  // user's fault. Swallowing it entirely would make real faults undebuggable.
-  return `We couldn't send the link. ${message}`;
+  // user's fault, and without naming a method — this path is reached from both
+  // the email and the Google flows.
+  return `We couldn't sign you in. ${message}`;
 }
