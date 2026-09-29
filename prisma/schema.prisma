@@ -88,6 +88,13 @@ model ItineraryDay {
   driveTime         String?
   lodgingSuggestion String?
   coffeeWifiSpot    String?
+  // Geocoded once at authoring time from the day's title, constrained to the
+  // itinerary's own country (see scripts/geocode_places.py). Null for the many
+  // days whose title is an activity rather than a place ("Arrive and
+  // acclimatise") — those are simply absent from the route map rather than
+  // pinned somewhere plausible-looking.
+  latitude          Float?
+  longitude         Float?
 
   itinerary Itinerary @relation(fields: [itineraryId], references: [id], onDelete: Cascade)
 }
@@ -286,6 +293,11 @@ model CountryFact {
   connectivitySourceUrl   String?
 
   climateReferenceCity String?
+  // Coordinates of climateReferenceCity, geocoded once at authoring time.
+  // Gives the country guide a map anchor and gives a trip a location to centre
+  // on when its destination is a country rather than a place.
+  latitude             Float?
+  longitude            Float?
   climateSourceUrl     String?
   phrasesLanguage      String?
 

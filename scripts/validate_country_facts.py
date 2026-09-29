@@ -266,6 +266,16 @@ def validate(obj, label):
         ) and not node.get("source_url"):
             warnings.append(f"{section} has content but no source_url")
 
+    # climate_reference_city is rendered inline ("averages for ___"), so it has
+    # to be a place label, not prose. One record arrived with an 879-character
+    # essay in it, which the country page then printed mid-sentence.
+    city = obj.get("climate_reference_city")
+    if city is not None and len(str(city)) > 60:
+        errors.append(
+            f"climate_reference_city is {len(str(city))} chars — it must be a short place "
+            "label; explanation belongs in the monthly precipitation_note entries"
+        )
+
     date = obj.get("last_verified_date")
     if not (isinstance(date, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", date or "")):
         errors.append(f"last_verified_date must be yyyy-mm-dd, got {date!r}")

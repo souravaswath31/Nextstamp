@@ -77,6 +77,8 @@ function toRow(c: any) {
     connectivitySourceUrl: c.connectivity?.source_url ?? null,
 
     climateReferenceCity: c.climate_reference_city ?? null,
+    latitude: c.latitude ?? null,
+    longitude: c.longitude ?? null,
     climateSourceUrl: c.climate_source_url ?? null,
     phrasesLanguage: c.phrases_language ?? null,
 

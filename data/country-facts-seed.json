@@ -259,7 +259,9 @@
       "https://worldweather.wmo.int/en/city.html?cityId=66",
       "https://rescue.mia.gov.am/en"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 40.177711,
+    "longitude": 44.512623
   },
   {
     "country": "Colombia",
@@ -539,7 +541,9 @@
       "https://worldweather.wmo.int/en/city.html?cityId=157",
       "https://bogota.gov.co/mi-ciudad/seguridad/para-que-sirve-la-linea-123-de-emergencias-y-cuando-llamar-en-bogota"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 4.653382,
+    "longitude": -74.083633
   },
   {
     "country": "Costa Rica",
@@ -805,7 +809,9 @@
       "https://www.911.go.cr/",
       "https://worldweather.wmo.int/en/city.html?cityId=1113"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 9.932771,
+    "longitude": -84.079614
   },
   {
     "country": "Egypt",
@@ -1069,7 +1075,9 @@
       "https://enr.gov.eg/",
       "https://visa2egypt.gov.eg/eVisa/Home"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 30.125919,
+    "longitude": 31.39927
   },
   {
     "country": "Georgia",
@@ -1332,7 +1340,9 @@
       "https://worldweather.wmo.int/en/city.html?cityId=209",
       "https://nbg.gov.ge/en/monetary-policy/currency"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 41.693459,
+    "longitude": 44.801449
   },
   {
     "country": "Indonesia",
@@ -1608,7 +1618,9 @@
       "https://www.kai.id/",
       "https://worldweather.wmo.int/en/city.html?cityId=649"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": -8.672337,
+    "longitude": 115.226234
   },
   {
     "country": "Japan",
@@ -1905,7 +1917,9 @@
       "https://www.japan.travel/en/see-and-do/cherry-blossom-forecast/",
       "https://www.japan.travel/en/plan/japanese-language/"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 35.67686,
+    "longitude": 139.763895
   },
   {
     "country": "Maldives",
@@ -2167,7 +2181,9 @@
       "https://www.meteorology.gov.mv/climate",
       "https://worldweather.wmo.int/en/city.html?cityId=228"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 4.177988,
+    "longitude": 73.510739
   },
   {
     "country": "Mexico",
@@ -2463,7 +2479,9 @@
       "https://www.nhc.noaa.gov/climo/",
       "https://www.trenmaya.gob.mx/"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 19.320772,
+    "longitude": -99.151468
   },
   {
     "country": "Morocco",
@@ -2727,7 +2745,9 @@
       "https://worldweather.wmo.int/en/city.html?cityId=180",
       "https://www.oncf.ma/en/Al-boraq"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 31.625826,
+    "longitude": -7.989161
   },
   {
     "country": "Peru",
@@ -2999,7 +3019,9 @@
       "https://www.gob.pe/institucion/cultura/noticias/5050-camino-inca-hacia-machupicchu-permanecera-cerrado-durante-febrero-por-labores-de-mantenimiento",
       "https://worldweather.wmo.int/en/city.html?cityId=110"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": -13.517089,
+    "longitude": -71.978536
   },
   {
     "country": "Philippines",
@@ -3263,7 +3285,9 @@
       "https://www.gov.uk/foreign-travel-advice/philippines/entry-requirements",
       "https://www.gov.uk/foreign-travel-advice/philippines/health"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 14.573611,
+    "longitude": 121.032971
   },
   {
     "country": "Serbia",
@@ -3526,7 +3550,9 @@
       "http://www.hidmet.gov.rs/latin/meteorologija/stanica_sr.php?moss_id=13274",
       "http://www.hidmet.gov.rs/latin/meteorologija/klimatologija_srednjaci.php"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 44.815332,
+    "longitude": 20.445659
   },
   {
     "country": "Sri Lanka",
@@ -3692,7 +3718,7 @@
         "rating": "peak"
       }
     ],
-    "climate_reference_city": "Colombo — on the WEST/SOUTHWEST coast, so this table tracks the southwest monsoon cycle. Sri Lanka's defining climate fact is that its two monsoons hit opposite coasts at opposite times: the southwest monsoon (roughly May–September) soaks the southwest coast and hills while the east and north are dry, and the northeast monsoon (roughly December–February) does the reverse. Averaging the island would erase this. Read the Colombo figures as the west/south coast, and each precipitation_note for what the east coast (Trincomalee, Batticaloa, Arugam Bay) and north (Jaffna) are doing at the same time. BASE PERIOD: the temperature and rainfall normals are 1961–1990, supplied to the WMO by Sri Lanka's National Meteorological Centre — that is the newest set the national met service publishes through WMO, so it is old but authoritative. Do not 'correct' it against a weather app.",
+    "climate_reference_city": "Colombo (west and southwest coast)",
     "climate_source_url": "https://worldweather.wmo.int/en/city.html?cityId=227",
     "phrases": [
       {
@@ -3791,7 +3817,9 @@
       "https://www.railway.gov.lk/web/",
       "https://worldweather.wmo.int/en/city.html?cityId=227"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 6.938861,
+    "longitude": 79.854201
   },
   {
     "country": "Thailand",
@@ -4055,7 +4083,9 @@
       "https://www.tatnews.org/2026/03/songkran-festival-2026/",
       "https://www.true.th/en/prepaid/sim/tourist"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 13.752494,
+    "longitude": 100.493509
   },
   {
     "country": "Turkey",
@@ -4337,7 +4367,9 @@
       "https://www.metro.istanbul/en/content/travel-cards",
       "https://www.istanbulkart.istanbul/CardDetail/stanbulkart"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 41.006381,
+    "longitude": 28.975872
   },
   {
     "country": "UAE",
@@ -4635,7 +4667,9 @@
       "https://www.dewa.gov.ae/-/media/Images/d33/EV-Charging-Technical-Regulations_V1.ashx",
       "https://worldweather.wmo.int/en/json/1190_en.json"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 25.074282,
+    "longitude": 55.188562
   },
   {
     "country": "USA",
@@ -4895,7 +4929,9 @@
       "https://www.amtrak.com/multi-ride-rail-passes",
       "https://www.weather.gov/media/okx/Climate/CentralPark/nycnormals.pdf"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 40.779249,
+    "longitude": -73.974304
   },
   {
     "country": "Vietnam",
@@ -5168,6 +5204,8 @@
       "https://data.iana.org/time-zones/tzdb/zone1970.tab",
       "https://my.gov.au/en/languages/vietnamese/help-in-more-languages"
     ],
-    "last_verified_date": "2026-09-28"
+    "last_verified_date": "2026-09-28",
+    "latitude": 21.028333,
+    "longitude": 105.854041
   }
 ]

@@ -67,6 +67,8 @@ async function main() {
             driveTime: d.drive_time ?? null,
             lodgingSuggestion: d.lodging_suggestion ?? null,
             coffeeWifiSpot: d.coffee_wifi_spot ?? null,
+            latitude: d.latitude ?? null,
+            longitude: d.longitude ?? null,
           })),
         },
         notes: {
@@ -194,6 +196,8 @@ async function main() {
         connectivitySourceUrl: c.connectivity?.source_url ?? null,
 
         climateReferenceCity: c.climate_reference_city ?? null,
+        latitude: c.latitude ?? null,
+        longitude: c.longitude ?? null,
         climateSourceUrl: c.climate_source_url ?? null,
         phrasesLanguage: c.phrases_language ?? null,
 

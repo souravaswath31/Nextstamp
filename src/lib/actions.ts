@@ -13,7 +13,7 @@ import { normalizeCountryInput } from "./countries";
 import { EXPENSE_CATEGORIES, type ExpenseCategory } from "./expenses";
 import { fromMinor, getRate, toMinor } from "./currency";
 
-function itineraryDaysToTripDays(days: { dayNumber: number; title: string; activities: string; driveTime: string | null; lodgingSuggestion: string | null; coffeeWifiSpot: string | null }[]): TripDay[] {
+function itineraryDaysToTripDays(days: { dayNumber: number; title: string; activities: string; driveTime: string | null; lodgingSuggestion: string | null; coffeeWifiSpot: string | null; latitude: number | null; longitude: number | null }[]): TripDay[] {
   return days
     .sort((a, b) => a.dayNumber - b.dayNumber)
     .map((d) => ({
@@ -23,6 +23,10 @@ function itineraryDaysToTripDays(days: { dayNumber: number; title: string; activ
       driveTime: d.driveTime,
       lodgingSuggestion: d.lodgingSuggestion,
       coffeeWifiSpot: d.coffeeWifiSpot,
+      // Carried over so the trip can draw its own route map without having to
+      // look back at the itinerary it came from.
+      latitude: d.latitude,
+      longitude: d.longitude,
     }));
 }
 

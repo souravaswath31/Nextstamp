@@ -26,7 +26,9 @@
         "activities": [
           "Settle in, short walk on the Tony Knowles Coastal Trail"
         ],
-        "lodging_suggestion": "Anchorage"
+        "lodging_suggestion": "Anchorage",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -36,7 +38,9 @@
           "Explore Seward harbor town"
         ],
         "drive_time": "2.5 hrs",
-        "lodging_suggestion": "Seward"
+        "lodging_suggestion": "Seward",
+        "latitude": 61.216313,
+        "longitude": -149.894852
       },
       {
         "day_number": 3,
@@ -45,7 +49,9 @@
           "Glacier boat tour",
           "Exit Glacier short hike"
         ],
-        "lodging_suggestion": "Seward"
+        "lodging_suggestion": "Seward",
+        "latitude": 59.868563,
+        "longitude": -150.025771
       },
       {
         "day_number": 4,
@@ -54,7 +60,9 @@
           "Long scenic drive north"
         ],
         "drive_time": "6-7 hrs",
-        "lodging_suggestion": "Denali area"
+        "lodging_suggestion": "Denali area",
+        "latitude": 60.101395,
+        "longitude": -149.440428
       },
       {
         "day_number": 5,
@@ -63,7 +71,9 @@
           "Wildlife bus tour",
           "short tundra hike"
         ],
-        "lodging_suggestion": "Denali area"
+        "lodging_suggestion": "Denali area",
+        "latitude": 63.730206,
+        "longitude": -148.892082
       },
       {
         "day_number": 6,
@@ -71,7 +81,9 @@
         "activities": [
           "Deeper park access, ranger-led hike"
         ],
-        "lodging_suggestion": "Denali area"
+        "lodging_suggestion": "Denali area",
+        "latitude": 63.069115,
+        "longitude": -151.006239
       },
       {
         "day_number": 7,
@@ -80,7 +92,9 @@
           "Drive back",
           "depart"
         ],
-        "drive_time": "5 hrs"
+        "drive_time": "5 hrs",
+        "latitude": 61.433005,
+        "longitude": -149.400222
       }
     ],
     "related_states": [
@@ -116,7 +130,9 @@
         "activities": [
           "Settle in, Poipu sunset"
         ],
-        "lodging_suggestion": "Kauai south shore"
+        "lodging_suggestion": "Kauai south shore",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -125,7 +141,9 @@
           "Waimea Canyon overlooks",
           "Koke'e State Park"
         ],
-        "lodging_suggestion": "Kauai"
+        "lodging_suggestion": "Kauai",
+        "latitude": 22.07079,
+        "longitude": -159.66495
       },
       {
         "day_number": 3,
@@ -133,7 +151,9 @@
         "activities": [
           "Kalalau Trail (as far as permit/fitness allows)"
         ],
-        "lodging_suggestion": "Kauai"
+        "lodging_suggestion": "Kauai",
+        "latitude": 22.167769,
+        "longitude": -159.644087
       },
       {
         "day_number": 4,
@@ -142,7 +162,9 @@
           "Fly between islands",
           "Hanalei Bay morning first"
         ],
-        "lodging_suggestion": "Big Island - Hilo side"
+        "lodging_suggestion": "Big Island - Hilo side",
+        "latitude": 22.050384,
+        "longitude": -159.558862
       },
       {
         "day_number": 5,
@@ -151,7 +173,9 @@
           "Kilauea crater rim hike",
           "lava tube"
         ],
-        "lodging_suggestion": "Big Island"
+        "lodging_suggestion": "Big Island",
+        "latitude": 19.260831,
+        "longitude": -155.357866
       },
       {
         "day_number": 6,
@@ -160,12 +184,16 @@
           "Punalu'u black sand beach",
           "Mauna Kea summit stargazing"
         ],
-        "lodging_suggestion": "Big Island"
+        "lodging_suggestion": "Big Island",
+        "latitude": 19.135296,
+        "longitude": -155.50489
       },
       {
         "day_number": 7,
         "title": "Fly home",
-        "activities": []
+        "activities": [],
+        "latitude": null,
+        "longitude": null
       }
     ],
     "related_states": [
@@ -201,7 +229,9 @@
           "French Quarter walk",
           "dinner"
         ],
-        "lodging_suggestion": "New Orleans"
+        "lodging_suggestion": "New Orleans",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -210,7 +240,9 @@
           "Swamp tour",
           "live jazz night"
         ],
-        "lodging_suggestion": "New Orleans"
+        "lodging_suggestion": "New Orleans",
+        "latitude": 29.956142,
+        "longitude": -90.073393
       },
       {
         "day_number": 3,
@@ -219,7 +251,9 @@
           "Garden District walk",
           "more live music"
         ],
-        "lodging_suggestion": "New Orleans"
+        "lodging_suggestion": "New Orleans",
+        "latitude": 29.956142,
+        "longitude": -90.073393
       },
       {
         "day_number": 4,
@@ -228,7 +262,9 @@
           "Drive or fly"
         ],
         "drive_time": "7-8 hrs drive or short flight",
-        "lodging_suggestion": "Nashville"
+        "lodging_suggestion": "Nashville",
+        "latitude": 29.956142,
+        "longitude": -90.073393
       },
       {
         "day_number": 5,
@@ -237,7 +273,9 @@
           "Broadway honky-tonks",
           "Country Music Hall of Fame"
         ],
-        "lodging_suggestion": "Nashville"
+        "lodging_suggestion": "Nashville",
+        "latitude": 36.219254,
+        "longitude": -86.697952
       },
       {
         "day_number": 6,
@@ -246,12 +284,16 @@
           "Local food scene",
           "live show"
         ],
-        "lodging_suggestion": "Nashville"
+        "lodging_suggestion": "Nashville",
+        "latitude": 36.162277,
+        "longitude": -86.774298
       },
       {
         "day_number": 7,
         "title": "Fly home",
-        "activities": []
+        "activities": [],
+        "latitude": null,
+        "longitude": null
       }
     ],
     "related_states": [
@@ -285,7 +327,9 @@
         "day_number": 1,
         "title": "Arrive Phoenix/Flagstaff, drive to Grand Canyon",
         "activities": [],
-        "lodging_suggestion": "Grand Canyon South Rim"
+        "lodging_suggestion": "Grand Canyon South Rim",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -294,7 +338,9 @@
           "Bright Angel Trail partial descent",
           "rim viewpoints"
         ],
-        "lodging_suggestion": "Grand Canyon area"
+        "lodging_suggestion": "Grand Canyon area",
+        "latitude": 36.307855,
+        "longitude": -112.292896
       },
       {
         "day_number": 3,
@@ -304,7 +350,9 @@
           "Antelope Canyon tour"
         ],
         "drive_time": "2.5 hrs",
-        "lodging_suggestion": "Page, AZ"
+        "lodging_suggestion": "Page, AZ",
+        "latitude": 36.307855,
+        "longitude": -112.292896
       },
       {
         "day_number": 4,
@@ -313,7 +361,9 @@
           "Scenic drive, valley overlooks"
         ],
         "drive_time": "2 hrs",
-        "lodging_suggestion": "Monument Valley area"
+        "lodging_suggestion": "Monument Valley area",
+        "latitude": 36.914831,
+        "longitude": -111.457294
       },
       {
         "day_number": 5,
@@ -322,7 +372,9 @@
           "Red rock hikes"
         ],
         "drive_time": "3.5 hrs",
-        "lodging_suggestion": "Sedona"
+        "lodging_suggestion": "Sedona",
+        "latitude": 36.982388,
+        "longitude": -110.111112
       },
       {
         "day_number": 6,
@@ -331,13 +383,17 @@
           "Cathedral Rock hike",
           "Oak Creek Canyon"
         ],
-        "lodging_suggestion": "Sedona"
+        "lodging_suggestion": "Sedona",
+        "latitude": 34.868861,
+        "longitude": -111.761439
       },
       {
         "day_number": 7,
         "title": "Drive to Phoenix, fly home",
         "activities": [],
-        "drive_time": "2 hrs"
+        "drive_time": "2 hrs",
+        "latitude": 33.448437,
+        "longitude": -112.074141
       }
     ],
     "related_states": [
@@ -374,7 +430,9 @@
         "activities": [
           "Dubai Marina walk"
         ],
-        "lodging_suggestion": "Dubai"
+        "lodging_suggestion": "Dubai",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -383,7 +441,9 @@
           "Souks",
           "Burj Khalifa observation deck at sunset"
         ],
-        "lodging_suggestion": "Dubai"
+        "lodging_suggestion": "Dubai",
+        "latitude": 25.264993,
+        "longitude": 55.295252
       },
       {
         "day_number": 3,
@@ -392,7 +452,9 @@
           "Dune bashing",
           "evening desert camp"
         ],
-        "lodging_suggestion": "Dubai"
+        "lodging_suggestion": "Dubai",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -402,7 +464,9 @@
           "Louvre Abu Dhabi"
         ],
         "drive_time": "1.5 hrs each way",
-        "lodging_suggestion": "Dubai"
+        "lodging_suggestion": "Dubai",
+        "latitude": 25.264723,
+        "longitude": 55.292415
       },
       {
         "day_number": 5,
@@ -411,7 +475,9 @@
           "Beach day",
           "shopping"
         ],
-        "lodging_suggestion": "Dubai"
+        "lodging_suggestion": "Dubai",
+        "latitude": 25.264723,
+        "longitude": 55.292415
       },
       {
         "day_number": 6,
@@ -420,12 +486,16 @@
           "Modern architecture tour",
           "fine dining"
         ],
-        "lodging_suggestion": "Dubai"
+        "lodging_suggestion": "Dubai",
+        "latitude": 25.264723,
+        "longitude": 55.292415
       },
       {
         "day_number": 7,
         "title": "Fly home",
-        "activities": []
+        "activities": [],
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -488,7 +558,9 @@
         "activities": [
           "Settle in"
         ],
-        "lodging_suggestion": "Ubud"
+        "lodging_suggestion": "Ubud",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -497,7 +569,9 @@
           "Tegallalang rice terraces",
           "Sacred Monkey Forest"
         ],
-        "lodging_suggestion": "Ubud"
+        "lodging_suggestion": "Ubud",
+        "latitude": -8.517019,
+        "longitude": 115.255051
       },
       {
         "day_number": 3,
@@ -505,7 +579,9 @@
         "activities": [
           "Pre-dawn summit hike"
         ],
-        "lodging_suggestion": "Ubud"
+        "lodging_suggestion": "Ubud",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -513,7 +589,9 @@
         "activities": [
           "Tegenungan, Tibumana waterfalls"
         ],
-        "lodging_suggestion": "Ubud"
+        "lodging_suggestion": "Ubud",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -521,7 +599,9 @@
         "activities": [
           "Island day trip, Kelingking Beach"
         ],
-        "lodging_suggestion": "Uluwatu or Seminyak"
+        "lodging_suggestion": "Uluwatu or Seminyak",
+        "latitude": -8.517019,
+        "longitude": 115.255051
       },
       {
         "day_number": 6,
@@ -530,12 +610,16 @@
           "Beach day",
           "sunset temple visit"
         ],
-        "lodging_suggestion": "Uluwatu"
+        "lodging_suggestion": "Uluwatu",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 7,
         "title": "Fly home",
-        "activities": []
+        "activities": [],
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -598,7 +682,9 @@
         "activities": [
           "Speedboat/seaplane transfer"
         ],
-        "lodging_suggestion": "Overwater villa resort"
+        "lodging_suggestion": "Overwater villa resort",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -606,7 +692,9 @@
         "activities": [
           "Snorkeling off villa"
         ],
-        "lodging_suggestion": "Same resort"
+        "lodging_suggestion": "Same resort",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -614,7 +702,9 @@
         "activities": [
           "Manta ray or reef dive trip"
         ],
-        "lodging_suggestion": "Same resort"
+        "lodging_suggestion": "Same resort",
+        "latitude": 3.900574,
+        "longitude": 73.466309
       },
       {
         "day_number": 4,
@@ -622,12 +712,16 @@
         "activities": [
           "Spa, sandbank picnic"
         ],
-        "lodging_suggestion": "Same resort"
+        "lodging_suggestion": "Same resort",
+        "latitude": 3.493989,
+        "longitude": 72.76117
       },
       {
         "day_number": 5,
         "title": "Fly home or connect to Sri Lanka",
-        "activities": []
+        "activities": [],
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -687,7 +781,9 @@
         "activities": [
           "Settle in"
         ],
-        "lodging_suggestion": "Istanbul"
+        "lodging_suggestion": "Istanbul",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -697,7 +793,9 @@
           "Blue Mosque",
           "Grand Bazaar"
         ],
-        "lodging_suggestion": "Istanbul"
+        "lodging_suggestion": "Istanbul",
+        "latitude": 41.009111,
+        "longitude": 28.976934
       },
       {
         "day_number": 3,
@@ -705,7 +803,9 @@
         "activities": [
           "Short flight"
         ],
-        "lodging_suggestion": "Cappadocia (cave hotel)"
+        "lodging_suggestion": "Cappadocia (cave hotel)",
+        "latitude": 41.006381,
+        "longitude": 28.975872
       },
       {
         "day_number": 4,
@@ -714,7 +814,9 @@
           "Sunrise hot air balloon ride",
           "fairy chimney valleys hike"
         ],
-        "lodging_suggestion": "Cappadocia"
+        "lodging_suggestion": "Cappadocia",
+        "latitude": 38.638612,
+        "longitude": 34.845518
       },
       {
         "day_number": 5,
@@ -722,7 +824,9 @@
         "activities": [
           "Fly to Dalaman"
         ],
-        "lodging_suggestion": "Fethiye/Oludeniz"
+        "lodging_suggestion": "Fethiye/Oludeniz",
+        "latitude": 38.638612,
+        "longitude": 34.845518
       },
       {
         "day_number": 6,
@@ -731,12 +835,16 @@
           "Oludeniz beach",
           "paragliding optional"
         ],
-        "lodging_suggestion": "Fethiye"
+        "lodging_suggestion": "Fethiye",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 7,
         "title": "Fly home",
-        "activities": []
+        "activities": [],
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -794,7 +902,9 @@
         "day_number": 1,
         "title": "Arrive San Jose, drive to La Fortuna",
         "activities": [],
-        "lodging_suggestion": "La Fortuna"
+        "lodging_suggestion": "La Fortuna",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -803,7 +913,9 @@
           "Volcano hike",
           "hot springs"
         ],
-        "lodging_suggestion": "La Fortuna"
+        "lodging_suggestion": "La Fortuna",
+        "latitude": 10.462084,
+        "longitude": -84.70341
       },
       {
         "day_number": 3,
@@ -812,7 +924,9 @@
           "Cloud forest zip-lining",
           "hanging bridges"
         ],
-        "lodging_suggestion": "Monteverde"
+        "lodging_suggestion": "Monteverde",
+        "latitude": 10.51252,
+        "longitude": -83.791116
       },
       {
         "day_number": 4,
@@ -821,7 +935,9 @@
           "Travel day"
         ],
         "drive_time": "4-5 hrs",
-        "lodging_suggestion": "Manuel Antonio"
+        "lodging_suggestion": "Manuel Antonio",
+        "latitude": 10.100687,
+        "longitude": -83.446263
       },
       {
         "day_number": 5,
@@ -830,7 +946,9 @@
           "Wildlife hike",
           "beach"
         ],
-        "lodging_suggestion": "Manuel Antonio"
+        "lodging_suggestion": "Manuel Antonio",
+        "latitude": 9.060505,
+        "longitude": -84.244992
       },
       {
         "day_number": 6,
@@ -838,12 +956,16 @@
         "activities": [
           "Beach day"
         ],
-        "lodging_suggestion": "Manuel Antonio"
+        "lodging_suggestion": "Manuel Antonio",
+        "latitude": 9.408569,
+        "longitude": -84.154759
       },
       {
         "day_number": 7,
         "title": "Drive to San Jose, fly home",
-        "activities": []
+        "activities": [],
+        "latitude": 9.932771,
+        "longitude": -84.079614
       }
     ],
     "food_culture": [
@@ -904,7 +1026,9 @@
         "activities": [
           "Old town walk"
         ],
-        "lodging_suggestion": "Tbilisi"
+        "lodging_suggestion": "Tbilisi",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -913,7 +1037,9 @@
           "Sulfur baths",
           "Narikala Fortress"
         ],
-        "lodging_suggestion": "Tbilisi"
+        "lodging_suggestion": "Tbilisi",
+        "latitude": 41.693459,
+        "longitude": 44.801449
       },
       {
         "day_number": 3,
@@ -922,7 +1048,9 @@
           "Gergeti Trinity Church hike"
         ],
         "drive_time": "3 hrs",
-        "lodging_suggestion": "Kazbegi"
+        "lodging_suggestion": "Kazbegi",
+        "latitude": 42.65799,
+        "longitude": 44.640808
       },
       {
         "day_number": 4,
@@ -931,7 +1059,9 @@
           "Wine tasting, vineyard visits"
         ],
         "drive_time": "3 hrs",
-        "lodging_suggestion": "Kakheti"
+        "lodging_suggestion": "Kakheti",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -940,7 +1070,9 @@
           "Cross border"
         ],
         "drive_time": "6 hrs",
-        "lodging_suggestion": "Yerevan"
+        "lodging_suggestion": "Yerevan",
+        "latitude": 41.693459,
+        "longitude": 44.801449
       },
       {
         "day_number": 6,
@@ -949,12 +1081,16 @@
           "Geghard Monastery",
           "Garni Temple"
         ],
-        "lodging_suggestion": "Yerevan"
+        "lodging_suggestion": "Yerevan",
+        "latitude": 41.692588,
+        "longitude": 44.814267
       },
       {
         "day_number": 7,
         "title": "Fly home",
-        "activities": []
+        "activities": [],
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -1017,7 +1153,9 @@
         ],
         "drive_time": "2 hrs",
         "lodging_suggestion": "Ashford or Paradise-area campground",
-        "coffee_wifi_spot": "Wildberry Restaurant, Ashford — weak signal, worth topping up devices before you head further in"
+        "coffee_wifi_spot": "Wildberry Restaurant, Ashford — weak signal, worth topping up devices before you head further in",
+        "latitude": 47.603832,
+        "longitude": -122.330062
       },
       {
         "day_number": 2,
@@ -1028,7 +1166,9 @@
         ],
         "drive_time": "5.5 hrs",
         "lodging_suggestion": "Spokane",
-        "coffee_wifi_spot": "Indaba Coffee, Spokane — reliable wifi for a remote-work morning before the border-adjacent stretch"
+        "coffee_wifi_spot": "Indaba Coffee, Spokane — reliable wifi for a remote-work morning before the border-adjacent stretch",
+        "latitude": 46.852203,
+        "longitude": -121.757516
       },
       {
         "day_number": 3,
@@ -1038,7 +1178,9 @@
           "Drive Going-to-the-Sun Road if fully open (check dates — often not clear until June)"
         ],
         "drive_time": "4.5 hrs",
-        "lodging_suggestion": "West Glacier / Apgar campground"
+        "lodging_suggestion": "West Glacier / Apgar campground",
+        "latitude": 47.657193,
+        "longitude": -117.42351
       },
       {
         "day_number": 4,
@@ -1047,7 +1189,9 @@
           "Hidden Lake Overlook from Logan Pass",
           "Avalanche Lake trail"
         ],
-        "lodging_suggestion": "West Glacier / Apgar campground"
+        "lodging_suggestion": "West Glacier / Apgar campground",
+        "latitude": 48.617486,
+        "longitude": -113.760885
       },
       {
         "day_number": 5,
@@ -1058,7 +1202,9 @@
         ],
         "drive_time": "6 hrs",
         "lodging_suggestion": "Red Lodge, MT",
-        "coffee_wifi_spot": "Red Lodge Books & Tea — small-town wifi, good enough for email"
+        "coffee_wifi_spot": "Red Lodge Books & Tea — small-town wifi, good enough for email",
+        "latitude": 48.617486,
+        "longitude": -113.760885
       },
       {
         "day_number": 6,
@@ -1069,7 +1215,9 @@
           "Lamar Valley wildlife drive at dusk"
         ],
         "drive_time": "2 hrs",
-        "lodging_suggestion": "Mammoth or Roosevelt-area campground"
+        "lodging_suggestion": "Mammoth or Roosevelt-area campground",
+        "latitude": 45.185904,
+        "longitude": -109.247062
       },
       {
         "day_number": 7,
@@ -1078,7 +1226,9 @@
           "Old Faithful and the Upper Geyser Basin",
           "Grand Prismatic Spring overlook"
         ],
-        "lodging_suggestion": "Old Faithful-area or Grant Village campground"
+        "lodging_suggestion": "Old Faithful-area or Grant Village campground",
+        "latitude": 44.620089,
+        "longitude": -110.560689
       },
       {
         "day_number": 8,
@@ -1089,7 +1239,9 @@
           "String Lake for a quieter alternative"
         ],
         "drive_time": "2.5 hrs",
-        "lodging_suggestion": "Colter Bay or Gros Ventre campground"
+        "lodging_suggestion": "Colter Bay or Gros Ventre campground",
+        "latitude": 44.620089,
+        "longitude": -110.560689
       },
       {
         "day_number": 9,
@@ -1098,7 +1250,9 @@
           "Early Snake River overlook stop",
           "Long drive south, or fly out of Jackson Hole to skip the final leg"
         ],
-        "drive_time": "8 hrs to Denver / 20 min to Jackson airport"
+        "drive_time": "8 hrs to Denver / 20 min to Jackson airport",
+        "latitude": 43.741042,
+        "longitude": -110.802436
       }
     ],
     "related_states": [
@@ -1137,7 +1291,9 @@
           "Settle into the Walled City",
           "Sunset from the ramparts at Café del Mar"
         ],
-        "lodging_suggestion": "Cartagena Old Town"
+        "lodging_suggestion": "Cartagena Old Town",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -1147,7 +1303,9 @@
           "Wander Getsemaní's street art",
           "Walking tour of the Walled City"
         ],
-        "lodging_suggestion": "Cartagena Old Town"
+        "lodging_suggestion": "Cartagena Old Town",
+        "latitude": 10.42827,
+        "longitude": -75.546224
       },
       {
         "day_number": 3,
@@ -1156,7 +1314,9 @@
           "Speedboat to Islas del Rosario",
           "Snorkeling and beach time"
         ],
-        "lodging_suggestion": "Cartagena Old Town"
+        "lodging_suggestion": "Cartagena Old Town",
+        "latitude": 10.200473,
+        "longitude": -75.763561
       },
       {
         "day_number": 4,
@@ -1165,7 +1325,9 @@
           "Morning flight to Medellín",
           "Explore El Poblado in the evening"
         ],
-        "lodging_suggestion": "Medellín (El Poblado)"
+        "lodging_suggestion": "Medellín (El Poblado)",
+        "latitude": 9.687189,
+        "longitude": -73.262175
       },
       {
         "day_number": 5,
@@ -1174,7 +1336,9 @@
           "Metrocable ride over the city",
           "Comuna 13 graffiti tour and outdoor escalators"
         ],
-        "lodging_suggestion": "Medellín (El Poblado)"
+        "lodging_suggestion": "Medellín (El Poblado)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 6,
@@ -1184,7 +1348,9 @@
           "Wander Guatapé's colorful zócalo houses"
         ],
         "drive_time": "2 hrs each way",
-        "lodging_suggestion": "Medellín (El Poblado)"
+        "lodging_suggestion": "Medellín (El Poblado)",
+        "latitude": 6.234218,
+        "longitude": -75.161745
       },
       {
         "day_number": 7,
@@ -1193,7 +1359,9 @@
           "Day trip to a working coffee farm",
           "Fly home in the evening"
         ],
-        "lodging_suggestion": "Medellín (El Poblado)"
+        "lodging_suggestion": "Medellín (El Poblado)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -1250,7 +1418,9 @@
           "Take it slow for altitude",
           "Short walk through the Plaza de Armas"
         ],
-        "lodging_suggestion": "Cusco"
+        "lodging_suggestion": "Cusco",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -1259,7 +1429,9 @@
           "Sacsayhuamán, Q'enqo, Puka Pukara, Tambomachay",
           "San Pedro Market"
         ],
-        "lodging_suggestion": "Cusco"
+        "lodging_suggestion": "Cusco",
+        "latitude": -13.517089,
+        "longitude": -71.978536
       },
       {
         "day_number": 3,
@@ -1270,7 +1442,9 @@
           "Maras salt mines"
         ],
         "drive_time": "Full day loop from Cusco",
-        "lodging_suggestion": "Ollantaytambo or Urubamba"
+        "lodging_suggestion": "Ollantaytambo or Urubamba",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -1279,7 +1453,9 @@
           "Explore Ollantaytambo's Inca fortress",
           "Scenic train to Aguas Calientes"
         ],
-        "lodging_suggestion": "Aguas Calientes"
+        "lodging_suggestion": "Aguas Calientes",
+        "latitude": -12.600891,
+        "longitude": -74.951288
       },
       {
         "day_number": 5,
@@ -1288,7 +1464,9 @@
           "Early entry to beat the crowds and heat",
           "Optional Huayna Picchu climb (book well ahead)"
         ],
-        "lodging_suggestion": "Aguas Calientes or back to Cusco"
+        "lodging_suggestion": "Aguas Calientes or back to Cusco",
+        "latitude": -13.164341,
+        "longitude": -72.545009
       },
       {
         "day_number": 6,
@@ -1298,7 +1476,9 @@
           "Rest afternoon, San Blas neighborhood for coffee"
         ],
         "coffee_wifi_spot": "La Bodega 138, San Blas — reliable wifi for a remote-work afternoon",
-        "lodging_suggestion": "Cusco"
+        "lodging_suggestion": "Cusco",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 7,
@@ -1307,7 +1487,9 @@
           "Last-minute textile and market shopping",
           "Fly home"
         ],
-        "lodging_suggestion": "Cusco"
+        "lodging_suggestion": "Cusco",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -1368,7 +1550,9 @@
           "Fly into El Nido (Lio) or via Puerto Princesa plus a 5-6 hr van transfer",
           "Sunset at Las Cabañas Beach"
         ],
-        "lodging_suggestion": "El Nido town"
+        "lodging_suggestion": "El Nido town",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -1379,7 +1563,9 @@
           "Shimizu Island",
           "7 Commando Beach"
         ],
-        "lodging_suggestion": "El Nido town"
+        "lodging_suggestion": "El Nido town",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -1389,7 +1575,9 @@
           "Secret Beach",
           "Matinloc Shrine"
         ],
-        "lodging_suggestion": "El Nido town"
+        "lodging_suggestion": "El Nido town",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -1399,7 +1587,9 @@
           "Beachside lunch"
         ],
         "drive_time": "45 min each way",
-        "lodging_suggestion": "El Nido town"
+        "lodging_suggestion": "El Nido town",
+        "latitude": 11.322145,
+        "longitude": 119.428375
       },
       {
         "day_number": 5,
@@ -1408,7 +1598,9 @@
           "Optional multi-day sailing expedition toward Coron",
           "Or a slower day: snorkeling gear rental and a quiet cove"
         ],
-        "lodging_suggestion": "El Nido town"
+        "lodging_suggestion": "El Nido town",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -1468,7 +1660,9 @@
         "activities": [
           "Settle in, evening walk through Skadarlija's bohemian quarter"
         ],
-        "lodging_suggestion": "Belgrade city center"
+        "lodging_suggestion": "Belgrade city center",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -1478,7 +1672,9 @@
           "Nikola Tesla Museum",
           "Republic Square"
         ],
-        "lodging_suggestion": "Belgrade city center"
+        "lodging_suggestion": "Belgrade city center",
+        "latitude": 44.823502,
+        "longitude": 20.449765
       },
       {
         "day_number": 3,
@@ -1487,7 +1683,9 @@
           "Zemun waterfront",
           "Floating river bars (splavovi) in the evening"
         ],
-        "lodging_suggestion": "Belgrade city center"
+        "lodging_suggestion": "Belgrade city center",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -1498,7 +1696,9 @@
           "Old Town and the Name of Mary Church"
         ],
         "drive_time": "35 min by train each way",
-        "lodging_suggestion": "Belgrade city center"
+        "lodging_suggestion": "Belgrade city center",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -1508,7 +1708,9 @@
           "Otherwise a relaxed final day in Belgrade's cafes"
         ],
         "coffee_wifi_spot": "Kafeterija, Belgrade — solid wifi for a remote-work morning",
-        "lodging_suggestion": "Belgrade or Novi Sad"
+        "lodging_suggestion": "Belgrade or Novi Sad",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -1570,7 +1772,9 @@
           "Settle into Roma or Condesa",
           "Evening tacos al pastor"
         ],
-        "lodging_suggestion": "Mexico City (Roma/Condesa)"
+        "lodging_suggestion": "Mexico City (Roma/Condesa)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -1580,7 +1784,9 @@
           "Palacio de Bellas Artes",
           "Frida Kahlo Museum in Coyoacán"
         ],
-        "lodging_suggestion": "Mexico City"
+        "lodging_suggestion": "Mexico City",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -1590,7 +1796,9 @@
           "Walk the Avenue of the Dead"
         ],
         "drive_time": "1 hr each way",
-        "lodging_suggestion": "Mexico City"
+        "lodging_suggestion": "Mexico City",
+        "latitude": 19.68753,
+        "longitude": -98.87574
       },
       {
         "day_number": 4,
@@ -1599,7 +1807,9 @@
           "Morning flight to Cancún",
           "Transfer to Playa del Carmen, stroll Quinta Avenida"
         ],
-        "lodging_suggestion": "Playa del Carmen"
+        "lodging_suggestion": "Playa del Carmen",
+        "latitude": 19.320772,
+        "longitude": -99.151468
       },
       {
         "day_number": 5,
@@ -1608,7 +1818,9 @@
           "Swim Gran Cenote or Cenote Azul",
           "Snorkel with sea turtles at Akumal (certified guide)"
         ],
-        "lodging_suggestion": "Playa del Carmen"
+        "lodging_suggestion": "Playa del Carmen",
+        "latitude": 17.634043,
+        "longitude": -91.038068
       },
       {
         "day_number": 6,
@@ -1618,7 +1830,9 @@
           "Beach club afternoon"
         ],
         "drive_time": "1 hr each way",
-        "lodging_suggestion": "Playa del Carmen or Tulum"
+        "lodging_suggestion": "Playa del Carmen or Tulum",
+        "latitude": 20.429647,
+        "longitude": -87.652931
       },
       {
         "day_number": 7,
@@ -1628,7 +1842,9 @@
           "Cenote stop on the way back"
         ],
         "drive_time": "2.5 hrs each way",
-        "lodging_suggestion": "Playa del Carmen"
+        "lodging_suggestion": "Playa del Carmen",
+        "latitude": 20.682876,
+        "longitude": -88.568718
       }
     ],
     "food_culture": [
@@ -1693,7 +1909,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "West Glacier",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.496337,
+        "longitude": -113.982443
       },
       {
         "day_number": 2,
@@ -1704,7 +1922,9 @@
         ],
         "drive_time": "20 min from West Glacier",
         "lodging_suggestion": "Lake McDonald",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.58397,
+        "longitude": -113.919061
       },
       {
         "day_number": 3,
@@ -1715,7 +1935,9 @@
         ],
         "drive_time": "Full-day drive with stops, ~2.5 hrs without",
         "lodging_suggestion": "Rising Sun / St. Mary",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.516227,
+        "longitude": -113.989452
       },
       {
         "day_number": 4,
@@ -1725,7 +1947,9 @@
         ],
         "drive_time": "~1 hr from St. Mary",
         "lodging_suggestion": "Many Glacier",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.800418,
+        "longitude": -113.657568
       },
       {
         "day_number": 5,
@@ -1735,7 +1959,9 @@
         ],
         "drive_time": "~1.5 hrs from Many Glacier",
         "lodging_suggestion": "East Glacier",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.440099,
+        "longitude": -113.194916
       },
       {
         "day_number": 6,
@@ -1745,7 +1971,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -1784,7 +2012,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Santa Fe",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.68761,
+        "longitude": -105.938456
       },
       {
         "day_number": 2,
@@ -1794,7 +2024,9 @@
         ],
         "drive_time": "~1 hr from Santa Fe",
         "lodging_suggestion": "Los Alamos or back to Santa Fe",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.68761,
+        "longitude": -105.938456
       },
       {
         "day_number": 3,
@@ -1805,7 +2037,9 @@
         ],
         "drive_time": "~1.5 hrs from Santa Fe",
         "lodging_suggestion": "Taos",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.407238,
+        "longitude": -105.573284
       },
       {
         "day_number": 4,
@@ -1815,7 +2049,9 @@
         ],
         "drive_time": "~45 min from Taos toward Santa Fe",
         "lodging_suggestion": "Santa Fe",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.003909,
+        "longitude": -105.946866
       },
       {
         "day_number": 5,
@@ -1826,7 +2062,9 @@
         ],
         "drive_time": "~1 hr from Santa Fe",
         "lodging_suggestion": "Albuquerque",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.084103,
+        "longitude": -106.650985
       },
       {
         "day_number": 6,
@@ -1836,7 +2074,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -1873,7 +2113,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Traverse City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.760648,
+        "longitude": -85.616598
       },
       {
         "day_number": 2,
@@ -1884,7 +2126,9 @@
         ],
         "drive_time": "~30 min from Traverse City",
         "lodging_suggestion": "Traverse City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.022875,
+        "longitude": -85.760116
       },
       {
         "day_number": 3,
@@ -1895,7 +2139,9 @@
         ],
         "drive_time": "~30 min from Leland",
         "lodging_suggestion": "Empire",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.883728,
+        "longitude": -86.057476
       },
       {
         "day_number": 4,
@@ -1905,7 +2151,9 @@
         ],
         "drive_time": "~3 hrs from Empire",
         "lodging_suggestion": "Mackinaw City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -1916,7 +2164,9 @@
         ],
         "drive_time": "Ferry from Mackinaw City",
         "lodging_suggestion": "Mackinac Island",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.865761,
+        "longitude": -84.630531
       },
       {
         "day_number": 6,
@@ -1926,7 +2176,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -1965,7 +2217,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Blue Ridge",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.863972,
+        "longitude": -84.324087
       },
       {
         "day_number": 2,
@@ -1975,7 +2229,9 @@
         ],
         "drive_time": "~30 min from Blue Ridge",
         "lodging_suggestion": "Blairsville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.875907,
+        "longitude": -83.958371
       },
       {
         "day_number": 3,
@@ -1985,7 +2241,9 @@
         ],
         "drive_time": "~45 min from Blairsville",
         "lodging_suggestion": "Helen",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.700904,
+        "longitude": -83.729455
       },
       {
         "day_number": 4,
@@ -1996,7 +2254,9 @@
         ],
         "drive_time": "~30 min from Helen",
         "lodging_suggestion": "Dahlonega",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -2006,7 +2266,9 @@
         ],
         "drive_time": "~45 min from Dahlonega",
         "lodging_suggestion": "Tallulah Falls",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.731804,
+        "longitude": -83.382498
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2045,7 +2307,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Crater Lake area",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.941523,
+        "longitude": -122.098771
       },
       {
         "day_number": 2,
@@ -2055,7 +2319,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Crater Lake area",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -2065,7 +2331,9 @@
         ],
         "drive_time": "~2.5 hrs from Crater Lake",
         "lodging_suggestion": "McKenzie Bridge",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.174824,
+        "longitude": -122.163314
       },
       {
         "day_number": 4,
@@ -2075,7 +2343,9 @@
         ],
         "drive_time": "~3 hrs from McKenzie Bridge",
         "lodging_suggestion": "Hood River or Corbett",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.708118,
+        "longitude": -122.582955
       },
       {
         "day_number": 5,
@@ -2086,7 +2356,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Corbett",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.657502,
+        "longitude": -121.074481
       },
       {
         "day_number": 6,
@@ -2097,7 +2369,9 @@
         ],
         "drive_time": "~30 min from Corbett",
         "lodging_suggestion": "Portland",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.520247,
+        "longitude": -122.674194
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2134,7 +2408,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Huntsville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.729847,
+        "longitude": -86.585901
       },
       {
         "day_number": 2,
@@ -2144,7 +2420,9 @@
         ],
         "drive_time": "~1 hr from Huntsville",
         "lodging_suggestion": "Fort Payne",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.444255,
+        "longitude": -85.719689
       },
       {
         "day_number": 3,
@@ -2154,7 +2432,9 @@
         ],
         "drive_time": "~2 hrs from Fort Payne",
         "lodging_suggestion": "Cheaha State Park",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 33.477595,
+        "longitude": -85.811543
       },
       {
         "day_number": 4,
@@ -2164,7 +2444,9 @@
         ],
         "drive_time": "~1.5 hrs from Cheaha",
         "lodging_suggestion": "Birmingham",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 33.520682,
+        "longitude": -86.802433
       },
       {
         "day_number": 5,
@@ -2174,7 +2456,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2211,7 +2495,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Bentonville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.372861,
+        "longitude": -94.208787
       },
       {
         "day_number": 2,
@@ -2221,7 +2507,9 @@
         ],
         "drive_time": "~1 hr from Bentonville",
         "lodging_suggestion": "Eureka Springs",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.40008,
+        "longitude": -93.739242
       },
       {
         "day_number": 3,
@@ -2232,7 +2520,9 @@
         ],
         "drive_time": "~1 hr from Eureka Springs",
         "lodging_suggestion": "Jasper",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.008062,
+        "longitude": -93.186897
       },
       {
         "day_number": 4,
@@ -2242,7 +2532,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Jasper",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.072065,
+        "longitude": -93.3074
       },
       {
         "day_number": 5,
@@ -2252,7 +2544,9 @@
         ],
         "drive_time": "~1.5 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2289,7 +2583,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Yosemite Valley",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.732724,
+        "longitude": -119.605704
       },
       {
         "day_number": 2,
@@ -2299,7 +2595,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Yosemite Valley",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -2310,7 +2608,9 @@
         ],
         "drive_time": "~1.5 hrs from the Valley",
         "lodging_suggestion": "Lee Vining",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.657782,
+        "longitude": -122.082212
       },
       {
         "day_number": 4,
@@ -2320,7 +2620,9 @@
         ],
         "drive_time": "~3.5 hrs from Lee Vining",
         "lodging_suggestion": "Grant Grove Village",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.786676,
+        "longitude": -118.619144
       },
       {
         "day_number": 5,
@@ -2331,7 +2633,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Grant Grove Village",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.786676,
+        "longitude": -118.619144
       },
       {
         "day_number": 6,
@@ -2341,7 +2645,9 @@
         ],
         "drive_time": "~1.5 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2379,7 +2685,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Salisbury",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.983426,
+        "longitude": -73.421232
       },
       {
         "day_number": 2,
@@ -2390,7 +2698,9 @@
         ],
         "drive_time": "~40 min from Salisbury",
         "lodging_suggestion": "Litchfield",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.769309,
+        "longitude": -73.075077
       },
       {
         "day_number": 3,
@@ -2400,7 +2710,9 @@
         ],
         "drive_time": "~2 hrs from Litchfield",
         "lodging_suggestion": "Mystic",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.356037,
+        "longitude": -71.957333
       },
       {
         "day_number": 4,
@@ -2411,7 +2723,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Mystic",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.356037,
+        "longitude": -71.957333
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -2449,7 +2763,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Wilmington",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.745947,
+        "longitude": -75.546589
       },
       {
         "day_number": 2,
@@ -2459,7 +2775,9 @@
         ],
         "drive_time": "~20 min from Wilmington",
         "lodging_suggestion": "Wilmington",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.615985,
+        "longitude": -75.662956
       },
       {
         "day_number": 3,
@@ -2469,7 +2787,9 @@
         ],
         "drive_time": "~1.5 hrs total to Rehoboth",
         "lodging_suggestion": "Rehoboth Beach",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -2480,7 +2800,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Rehoboth Beach",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.716477,
+        "longitude": -75.083511
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -2520,7 +2842,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Miami",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 25.774157,
+        "longitude": -80.193597
       },
       {
         "day_number": 2,
@@ -2531,7 +2855,9 @@
         ],
         "drive_time": "~1 hr from Miami",
         "lodging_suggestion": "Homestead",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 25.367944,
+        "longitude": -80.878307
       },
       {
         "day_number": 3,
@@ -2542,7 +2868,9 @@
         ],
         "drive_time": "~1 hr from Homestead",
         "lodging_suggestion": "Everglades City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 26.320658,
+        "longitude": -80.992578
       },
       {
         "day_number": 4,
@@ -2553,7 +2881,9 @@
         ],
         "drive_time": "~3 hrs from Everglades City to the Lower Keys",
         "lodging_suggestion": "Big Pine Key",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -2564,7 +2894,9 @@
         ],
         "drive_time": "~40 min from Big Pine Key",
         "lodging_suggestion": "Key West",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 24.564589,
+        "longitude": -81.765051
       },
       {
         "day_number": 6,
@@ -2574,7 +2906,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2611,7 +2945,9 @@
         ],
         "drive_time": "~2.5 hrs from Boise",
         "lodging_suggestion": "Stanley",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.616616,
+        "longitude": -116.200886
       },
       {
         "day_number": 2,
@@ -2621,7 +2957,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Stanley",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.173571,
+        "longitude": -115.064609
       },
       {
         "day_number": 3,
@@ -2631,7 +2969,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Stanley",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.216716,
+        "longitude": -114.969217
       },
       {
         "day_number": 4,
@@ -2642,7 +2982,9 @@
         ],
         "drive_time": "~1 hr from Stanley",
         "lodging_suggestion": "Ketchum",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.696215,
+        "longitude": -114.353097
       },
       {
         "day_number": 5,
@@ -2652,7 +2994,9 @@
         ],
         "drive_time": "~2.5 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2691,7 +3035,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Chicago",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.875562,
+        "longitude": -87.624421
       },
       {
         "day_number": 2,
@@ -2702,7 +3048,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Chicago",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.999053,
+        "longitude": -87.655667
       },
       {
         "day_number": 3,
@@ -2713,7 +3061,9 @@
         ],
         "drive_time": "~1.5 hrs from Chicago",
         "lodging_suggestion": "Utica",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.318203,
+        "longitude": -89.039829
       },
       {
         "day_number": 4,
@@ -2723,7 +3073,9 @@
         ],
         "drive_time": "~2.5 hrs from Utica",
         "lodging_suggestion": "Galena",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.41573,
+        "longitude": -90.429473
       },
       {
         "day_number": 5,
@@ -2733,7 +3085,9 @@
         ],
         "drive_time": "~2.5 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -2770,7 +3124,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Indianapolis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.768333,
+        "longitude": -86.15835
       },
       {
         "day_number": 2,
@@ -2780,7 +3136,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Indianapolis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.825988,
+        "longitude": -86.18581
       },
       {
         "day_number": 3,
@@ -2790,7 +3148,9 @@
         ],
         "drive_time": "~1 hr from Indianapolis",
         "lodging_suggestion": "Nashville, IN",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.145572,
+        "longitude": -86.22602
       },
       {
         "day_number": 4,
@@ -2800,7 +3160,9 @@
         ],
         "drive_time": "~1 hr",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -2838,7 +3200,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Decorah",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.304161,
+        "longitude": -91.78591
       },
       {
         "day_number": 2,
@@ -2849,7 +3213,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Decorah",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.311713,
+        "longitude": -91.780552
       },
       {
         "day_number": 3,
@@ -2860,7 +3226,9 @@
         ],
         "drive_time": "~1.5 hrs from Decorah",
         "lodging_suggestion": "Dubuque",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.500624,
+        "longitude": -90.664799
       },
       {
         "day_number": 4,
@@ -2870,7 +3238,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -2907,7 +3277,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Manhattan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.183608,
+        "longitude": -96.571669
       },
       {
         "day_number": 2,
@@ -2917,7 +3289,9 @@
         ],
         "drive_time": "~45 min from Manhattan",
         "lodging_suggestion": "Council Grove",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.660924,
+        "longitude": -96.491958
       },
       {
         "day_number": 3,
@@ -2928,7 +3302,9 @@
         ],
         "drive_time": "~30 min from Council Grove",
         "lodging_suggestion": "Cottonwood Falls",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.446995,
+        "longitude": -96.577501
       },
       {
         "day_number": 4,
@@ -2938,7 +3314,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Cottonwood Falls",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.372236,
+        "longitude": -96.542784
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2977,7 +3355,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Louisville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.254238,
+        "longitude": -85.759407
       },
       {
         "day_number": 2,
@@ -2987,7 +3367,9 @@
         ],
         "drive_time": "~45 min from Louisville",
         "lodging_suggestion": "Bardstown",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.809246,
+        "longitude": -85.466902
       },
       {
         "day_number": 3,
@@ -2998,7 +3380,9 @@
         ],
         "drive_time": "~1 hr from Bardstown",
         "lodging_suggestion": "Lexington",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.046407,
+        "longitude": -84.497039
       },
       {
         "day_number": 4,
@@ -3008,7 +3392,9 @@
         ],
         "drive_time": "~2 hrs from Lexington",
         "lodging_suggestion": "Cave City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.18616,
+        "longitude": -86.099975
       },
       {
         "day_number": 5,
@@ -3018,7 +3404,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Cave City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.184169,
+        "longitude": -86.122991
       },
       {
         "day_number": 6,
@@ -3028,7 +3416,9 @@
         ],
         "drive_time": "~1.5 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -3066,7 +3456,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Bar Harbor",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.386457,
+        "longitude": -68.21187
       },
       {
         "day_number": 2,
@@ -3077,7 +3469,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Bar Harbor",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.349677,
+        "longitude": -68.245944
       },
       {
         "day_number": 3,
@@ -3087,7 +3481,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Bar Harbor",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.352857,
+        "longitude": -68.223902
       },
       {
         "day_number": 4,
@@ -3097,7 +3493,9 @@
         ],
         "drive_time": "~45 min from Bar Harbor",
         "lodging_suggestion": "Winter Harbor",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -3107,7 +3505,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3146,7 +3546,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Annapolis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.97864,
+        "longitude": -76.492786
       },
       {
         "day_number": 2,
@@ -3157,7 +3559,9 @@
         ],
         "drive_time": "~40 min from Annapolis",
         "lodging_suggestion": "Baltimore",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.290882,
+        "longitude": -76.610759
       },
       {
         "day_number": 3,
@@ -3167,7 +3571,9 @@
         ],
         "drive_time": "~45 min from Annapolis (via Bay Bridge)",
         "lodging_suggestion": "Kent Island",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.938127,
+        "longitude": -76.346951
       },
       {
         "day_number": 4,
@@ -3177,7 +3583,9 @@
         ],
         "drive_time": "~45 min from Kent Island",
         "lodging_suggestion": "St. Michaels",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.786584,
+        "longitude": -76.22441
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -3215,7 +3623,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Boston",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.358834,
+        "longitude": -71.05783
       },
       {
         "day_number": 2,
@@ -3225,7 +3635,9 @@
         ],
         "drive_time": "~45 min from Boston",
         "lodging_suggestion": "Boston",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.615359,
+        "longitude": -70.662461
       },
       {
         "day_number": 3,
@@ -3235,7 +3647,9 @@
         ],
         "drive_time": "~1.5 hrs from Boston",
         "lodging_suggestion": "Hyannis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.743344,
+        "longitude": -70.596803
       },
       {
         "day_number": 4,
@@ -3245,7 +3659,9 @@
         ],
         "drive_time": "~30 min from Hyannis",
         "lodging_suggestion": "Falmouth",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.523875,
+        "longitude": -70.669402
       },
       {
         "day_number": 5,
@@ -3256,7 +3672,9 @@
         ],
         "drive_time": "~1 hr from Hyannis",
         "lodging_suggestion": "Provincetown",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.052561,
+        "longitude": -70.185864
       },
       {
         "day_number": 6,
@@ -3266,7 +3684,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Provincetown",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.359385,
+        "longitude": -71.049992
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -3302,7 +3722,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Duluth",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.783829,
+        "longitude": -92.105268
       },
       {
         "day_number": 2,
@@ -3313,7 +3735,9 @@
         ],
         "drive_time": "~45 min from Duluth",
         "lodging_suggestion": "Two Harbors",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.861728,
+        "longitude": -91.96063
       },
       {
         "day_number": 3,
@@ -3323,7 +3747,9 @@
         ],
         "drive_time": "~1.5 hrs from Two Harbors",
         "lodging_suggestion": "Ely",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 47.901571,
+        "longitude": -91.857248
       },
       {
         "day_number": 4,
@@ -3333,7 +3759,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Ely",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.069292,
+        "longitude": -91.108192
       },
       {
         "day_number": 5,
@@ -3343,7 +3771,9 @@
         ],
         "drive_time": "~2 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3381,7 +3811,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Vicksburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.352806,
+        "longitude": -90.877734
       },
       {
         "day_number": 2,
@@ -3391,7 +3823,9 @@
         ],
         "drive_time": "~1.5 hrs to Natchez",
         "lodging_suggestion": "Natchez",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -3401,7 +3835,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Natchez",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 31.560408,
+        "longitude": -91.403171
       },
       {
         "day_number": 4,
@@ -3411,7 +3847,9 @@
         ],
         "drive_time": "~45 min from Natchez",
         "lodging_suggestion": "Natchez",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 31.061273,
+        "longitude": -91.521332
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -3448,7 +3886,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Camdenton",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.970524,
+        "longitude": -92.753856
       },
       {
         "day_number": 2,
@@ -3458,7 +3898,9 @@
         ],
         "drive_time": "~2 hrs from Camdenton",
         "lodging_suggestion": "Eminence",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -3468,7 +3910,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Eminence",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -3478,7 +3922,9 @@
         ],
         "drive_time": "~20 min from Eminence",
         "lodging_suggestion": "Eminence",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.309435,
+        "longitude": -91.404841
       },
       {
         "day_number": 5,
@@ -3488,7 +3934,9 @@
         ],
         "drive_time": "~2.5 hrs from Eminence",
         "lodging_suggestion": "Branson",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.644077,
+        "longitude": -93.216926
       },
       {
         "day_number": 6,
@@ -3499,7 +3947,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Branson",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.644077,
+        "longitude": -93.216926
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3537,7 +3987,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Bayard",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.703845,
+        "longitude": -103.348226
       },
       {
         "day_number": 2,
@@ -3547,7 +3999,9 @@
         ],
         "drive_time": "~30 min from Bayard",
         "lodging_suggestion": "Gering",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.702193,
+        "longitude": -103.667166
       },
       {
         "day_number": 3,
@@ -3557,7 +4011,9 @@
         ],
         "drive_time": "~2 hrs to Alliance/Hyannis area",
         "lodging_suggestion": "Alliance",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.399732,
+        "longitude": -99.613952
       },
       {
         "day_number": 4,
@@ -3567,7 +4023,9 @@
         ],
         "drive_time": "~45 min from Alliance",
         "lodging_suggestion": "Alliance",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.124733,
+        "longitude": -101.714609
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -3606,7 +4064,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Las Vegas",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.119422,
+        "longitude": -115.174254
       },
       {
         "day_number": 2,
@@ -3617,7 +4077,9 @@
         ],
         "drive_time": "~30 min from the Strip",
         "lodging_suggestion": "Las Vegas",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.330173,
+        "longitude": -116.369303
       },
       {
         "day_number": 3,
@@ -3627,7 +4089,9 @@
         ],
         "drive_time": "~1 hr from Las Vegas",
         "lodging_suggestion": "Las Vegas",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.498851,
+        "longitude": -114.534122
       },
       {
         "day_number": 4,
@@ -3638,7 +4102,9 @@
         ],
         "drive_time": "~45 min from Las Vegas",
         "lodging_suggestion": "Las Vegas",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.015719,
+        "longitude": -114.737486
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3676,7 +4142,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Franconia",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.171119,
+        "longitude": -71.68752
       },
       {
         "day_number": 2,
@@ -3687,7 +4155,9 @@
         ],
         "drive_time": "~1 hr from Franconia",
         "lodging_suggestion": "Conway",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.051269,
+        "longitude": -71.568836
       },
       {
         "day_number": 3,
@@ -3697,7 +4167,9 @@
         ],
         "drive_time": "~30 min from Conway",
         "lodging_suggestion": "Gorham",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.270495,
+        "longitude": -71.303304
       },
       {
         "day_number": 4,
@@ -3707,7 +4179,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Gorham",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.261656,
+        "longitude": -71.195613
       },
       {
         "day_number": 5,
@@ -3718,7 +4192,9 @@
         ],
         "drive_time": "~1.5 hrs from Gorham",
         "lodging_suggestion": "Wolfeboro",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.603066,
+        "longitude": -71.323969
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3755,7 +4231,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Seaside Park",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.835059,
+        "longitude": -74.089307
       },
       {
         "day_number": 2,
@@ -3765,7 +4243,9 @@
         ],
         "drive_time": "~20 min from Seaside Park",
         "lodging_suggestion": "Point Pleasant",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.922878,
+        "longitude": -74.657676
       },
       {
         "day_number": 3,
@@ -3775,7 +4255,9 @@
         ],
         "drive_time": "~2 hrs from Point Pleasant",
         "lodging_suggestion": "Cape May",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -3785,7 +4267,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Cape May",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.050348,
+        "longitude": -74.841888
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -3823,7 +4307,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Haines Falls",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.193515,
+        "longitude": -74.063945
       },
       {
         "day_number": 2,
@@ -3834,7 +4320,9 @@
         ],
         "drive_time": "~30 min from Haines Falls",
         "lodging_suggestion": "Hunter",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -3845,7 +4333,9 @@
         ],
         "drive_time": "~1 hr from Hunter",
         "lodging_suggestion": "Cragsmoor",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -3855,7 +4345,9 @@
         ],
         "drive_time": "~45 min from Cragsmoor",
         "lodging_suggestion": "Big Indian",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.039236,
+        "longitude": -74.394806
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3894,7 +4386,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Asheville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.595363,
+        "longitude": -82.550841
       },
       {
         "day_number": 2,
@@ -3904,7 +4398,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Asheville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.545737,
+        "longitude": -82.558173
       },
       {
         "day_number": 3,
@@ -3914,7 +4410,9 @@
         ],
         "drive_time": "~1 hr from Asheville",
         "lodging_suggestion": "Cherokee",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.455498,
+        "longitude": -83.042181
       },
       {
         "day_number": 4,
@@ -3924,7 +4422,9 @@
         ],
         "drive_time": "~2.5 hrs from Cherokee",
         "lodging_suggestion": "Boone",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.218787,
+        "longitude": -81.684004
       },
       {
         "day_number": 5,
@@ -3934,7 +4434,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Boone",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.218787,
+        "longitude": -81.684004
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3971,7 +4473,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Medora",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.913903,
+        "longitude": -103.524354
       },
       {
         "day_number": 2,
@@ -3981,7 +4485,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Medora",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.990838,
+        "longitude": -103.567954
       },
       {
         "day_number": 3,
@@ -3992,7 +4498,9 @@
         ],
         "drive_time": "~1.5 hrs from Medora",
         "lodging_suggestion": "Watford City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.754982,
+        "longitude": -99.492054
       },
       {
         "day_number": 4,
@@ -4002,7 +4510,9 @@
         ],
         "drive_time": "~2 hrs from Watford City",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.529242,
+        "longitude": -102.551052
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -4039,7 +4549,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Logan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.433281,
+        "longitude": -82.543144
       },
       {
         "day_number": 2,
@@ -4049,7 +4561,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Logan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.418406,
+        "longitude": -82.525538
       },
       {
         "day_number": 3,
@@ -4059,7 +4573,9 @@
         ],
         "drive_time": "~20 min from Logan",
         "lodging_suggestion": "Logan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.399368,
+        "longitude": -82.544346
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4098,7 +4614,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Tulsa",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.156312,
+        "longitude": -95.992752
       },
       {
         "day_number": 2,
@@ -4109,7 +4627,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Tulsa",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.159899,
+        "longitude": -95.994855
       },
       {
         "day_number": 3,
@@ -4119,7 +4639,9 @@
         ],
         "drive_time": "~1.5 hrs from Tulsa",
         "lodging_suggestion": "Davis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.425583,
+        "longitude": -97.148138
       },
       {
         "day_number": 4,
@@ -4130,7 +4652,9 @@
         ],
         "drive_time": "~1.5 hrs from Davis",
         "lodging_suggestion": "Oklahoma City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.472989,
+        "longitude": -97.517054
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -4169,7 +4693,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Philadelphia",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.952724,
+        "longitude": -75.163526
       },
       {
         "day_number": 2,
@@ -4179,7 +4705,9 @@
         ],
         "drive_time": "~45 min from Philadelphia",
         "lodging_suggestion": "Philadelphia",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.872042,
+        "longitude": -75.67496
       },
       {
         "day_number": 3,
@@ -4189,7 +4717,9 @@
         ],
         "drive_time": "~1.5 hrs from Philadelphia",
         "lodging_suggestion": "Lancaster",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.08067,
+        "longitude": -76.241128
       },
       {
         "day_number": 4,
@@ -4199,7 +4729,9 @@
         ],
         "drive_time": "~30 min from Lancaster",
         "lodging_suggestion": "Lancaster",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.843036,
+        "longitude": -76.328218
       },
       {
         "day_number": 5,
@@ -4209,7 +4741,9 @@
         ],
         "drive_time": "~1 hr from Lancaster",
         "lodging_suggestion": "Gettysburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.830897,
+        "longitude": -77.231012
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -4247,7 +4781,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Providence",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.823989,
+        "longitude": -71.412834
       },
       {
         "day_number": 2,
@@ -4258,7 +4794,9 @@
         ],
         "drive_time": "~45 min from Providence",
         "lodging_suggestion": "Newport",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.489983,
+        "longitude": -71.313771
       },
       {
         "day_number": 3,
@@ -4268,7 +4806,9 @@
         ],
         "drive_time": "~45 min from Newport",
         "lodging_suggestion": "Westerly",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.314261,
+        "longitude": -71.849017
       },
       {
         "day_number": 4,
@@ -4279,7 +4819,9 @@
         ],
         "drive_time": "Ferry from Point Judith or Newport",
         "lodging_suggestion": "Block Island",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.189577,
+        "longitude": -71.5679
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -4317,7 +4859,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Charleston",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.845617,
+        "longitude": -79.824887
       },
       {
         "day_number": 2,
@@ -4327,7 +4871,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Charleston",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.752098,
+        "longitude": -79.875086
       },
       {
         "day_number": 3,
@@ -4337,7 +4883,9 @@
         ],
         "drive_time": "~1.5 hrs from Charleston",
         "lodging_suggestion": "Beaufort",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.385071,
+        "longitude": -80.692317
       },
       {
         "day_number": 4,
@@ -4347,7 +4895,9 @@
         ],
         "drive_time": "~45 min from Beaufort",
         "lodging_suggestion": "Hilton Head",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.193817,
+        "longitude": -80.738164
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -4383,7 +4933,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Custer",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.742981,
+        "longitude": -103.418709
       },
       {
         "day_number": 2,
@@ -4393,7 +4945,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Custer",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -4404,7 +4958,9 @@
         ],
         "drive_time": "~30 min from Custer",
         "lodging_suggestion": "Keystone",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.880855,
+        "longitude": -103.453823
       },
       {
         "day_number": 4,
@@ -4414,7 +4970,9 @@
         ],
         "drive_time": "~30 min from Keystone",
         "lodging_suggestion": "Hot Springs",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.558051,
+        "longitude": -103.479549
       },
       {
         "day_number": 5,
@@ -4424,7 +4982,9 @@
         ],
         "drive_time": "~1.5 hrs from Hot Springs",
         "lodging_suggestion": "Wall",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.527106,
+        "longitude": -102.361663
       },
       {
         "day_number": 6,
@@ -4434,7 +4994,9 @@
         ],
         "drive_time": "~2 hrs from Wall",
         "lodging_suggestion": "Spearfish",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.346946,
+        "longitude": -103.923346
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4472,7 +5034,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Chisos Basin",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 29.408831,
+        "longitude": -98.706482
       },
       {
         "day_number": 2,
@@ -4482,7 +5046,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Chisos Basin",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 26.201489,
+        "longitude": -98.35524
       },
       {
         "day_number": 3,
@@ -4493,7 +5059,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Study Butte",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 29.138454,
+        "longitude": -103.520782
       },
       {
         "day_number": 4,
@@ -4504,7 +5072,9 @@
         ],
         "drive_time": "~20 min from Study Butte",
         "lodging_suggestion": "Terlingua",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 29.321586,
+        "longitude": -103.616019
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -4543,7 +5113,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Springdale",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.322167,
+        "longitude": -113.004793
       },
       {
         "day_number": 2,
@@ -4553,7 +5125,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Springdale",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -4563,7 +5137,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Springdale",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -4573,7 +5149,9 @@
         ],
         "drive_time": "~1.5-2 hrs from Springdale",
         "lodging_suggestion": "Bryce Canyon City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.618407,
+        "longitude": -112.142179
       },
       {
         "day_number": 5,
@@ -4584,7 +5162,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Bryce Canyon City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.618407,
+        "longitude": -112.142179
       },
       {
         "day_number": 6,
@@ -4594,7 +5174,9 @@
         ],
         "drive_time": "~1 hr from Bryce",
         "lodging_suggestion": "Escalante",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.75721,
+        "longitude": -111.577301
       },
       {
         "day_number": 7,
@@ -4605,7 +5187,9 @@
         ],
         "drive_time": "~1.5 hrs from Escalante",
         "lodging_suggestion": "Torrey",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.067029,
+        "longitude": -111.155256
       },
       {
         "day_number": 8,
@@ -4615,7 +5199,9 @@
         ],
         "drive_time": "~3.5-4 hrs from Torrey",
         "lodging_suggestion": "Moab",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.57381,
+        "longitude": -109.546214
       },
       {
         "day_number": 9,
@@ -4625,7 +5211,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Moab",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.726525,
+        "longitude": -109.563046
       },
       {
         "day_number": 10,
@@ -4635,7 +5223,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Moab",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.233259,
+        "longitude": -109.920663
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4672,7 +5262,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Burlington",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.47616,
+        "longitude": -73.212906
       },
       {
         "day_number": 2,
@@ -4682,7 +5274,9 @@
         ],
         "drive_time": "~20 min from Burlington",
         "lodging_suggestion": "Burlington",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.373682,
+        "longitude": -73.232347
       },
       {
         "day_number": 3,
@@ -4693,7 +5287,9 @@
         ],
         "drive_time": "~45 min from Burlington",
         "lodging_suggestion": "Stowe",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.464377,
+        "longitude": -72.68562
       },
       {
         "day_number": 4,
@@ -4703,7 +5299,9 @@
         ],
         "drive_time": "~2 hrs from Stowe",
         "lodging_suggestion": "Manchester",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -4714,7 +5312,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Manchester",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.117101,
+        "longitude": -73.113418
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4751,7 +5351,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Front Royal",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.917907,
+        "longitude": -78.191808
       },
       {
         "day_number": 2,
@@ -4761,7 +5363,9 @@
         ],
         "drive_time": "~45 min from Front Royal",
         "lodging_suggestion": "Sperryville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.551791,
+        "longitude": -78.31417
       },
       {
         "day_number": 3,
@@ -4772,7 +5376,9 @@
         ],
         "drive_time": "~30 min from Sperryville",
         "lodging_suggestion": "Luray",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.663277,
+        "longitude": -78.483562
       },
       {
         "day_number": 4,
@@ -4782,7 +5388,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Luray",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4819,7 +5427,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Fayetteville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.053129,
+        "longitude": -81.103986
       },
       {
         "day_number": 2,
@@ -4829,7 +5439,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Fayetteville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -4839,7 +5451,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Fayetteville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.067521,
+        "longitude": -81.820858
       },
       {
         "day_number": 4,
@@ -4849,7 +5463,9 @@
         ],
         "drive_time": "~30 min from Fayetteville",
         "lodging_suggestion": "Beckley",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.841765,
+        "longitude": -81.066715
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4886,7 +5502,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Sturgeon Bay",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.854163,
+        "longitude": -87.394543
       },
       {
         "day_number": 2,
@@ -4896,7 +5514,9 @@
         ],
         "drive_time": "~20 min from Sturgeon Bay",
         "lodging_suggestion": "Fish Creek",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.127769,
+        "longitude": -87.246726
       },
       {
         "day_number": 3,
@@ -4907,7 +5527,9 @@
         ],
         "drive_time": "~15 min from Fish Creek",
         "lodging_suggestion": "Sister Bay",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.192058,
+        "longitude": -87.122526
       },
       {
         "day_number": 4,
@@ -4917,7 +5539,9 @@
         ],
         "drive_time": "~20 min to Northport",
         "lodging_suggestion": "Washington Island",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.375836,
+        "longitude": -86.899672
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -4955,7 +5579,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Cooke City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.985735,
+        "longitude": -109.42707
       },
       {
         "day_number": 2,
@@ -4966,7 +5592,9 @@
         ],
         "drive_time": "~1.5 hrs from Cooke City",
         "lodging_suggestion": "Canyon Village",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.859019,
+        "longitude": -110.187967
       },
       {
         "day_number": 3,
@@ -4977,7 +5605,9 @@
         ],
         "drive_time": "~1 hr from Canyon Village",
         "lodging_suggestion": "Old Faithful",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.460464,
+        "longitude": -110.828146
       },
       {
         "day_number": 4,
@@ -4987,7 +5617,9 @@
         ],
         "drive_time": "~1.5 hrs from Old Faithful",
         "lodging_suggestion": "Jenny Lake",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.741042,
+        "longitude": -110.802436
       },
       {
         "day_number": 5,
@@ -4998,7 +5630,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Jenny Lake",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.763477,
+        "longitude": -110.730333
       },
       {
         "day_number": 6,
@@ -5008,7 +5642,9 @@
         ],
         "drive_time": "~45 min from Jenny Lake",
         "lodging_suggestion": "Jackson",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.684017,
+        "longitude": -110.443663
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5047,7 +5683,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Midtown Manhattan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.713548,
+        "longitude": -74.005426
       },
       {
         "day_number": 2,
@@ -5058,7 +5696,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Midtown Manhattan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.72288,
+        "longitude": -73.99875
       },
       {
         "day_number": 3,
@@ -5069,7 +5709,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Midtown Manhattan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.755117,
+        "longitude": -73.98478
       },
       {
         "day_number": 4,
@@ -5080,7 +5722,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Midtown Manhattan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -5091,7 +5735,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Midtown Manhattan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.758243,
+        "longitude": -73.804402
       },
       {
         "day_number": 6,
@@ -5102,7 +5748,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.846651,
+        "longitude": -73.878594
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -5141,7 +5789,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "San Francisco (Union Square)",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.752059,
+        "longitude": -122.476879
       },
       {
         "day_number": 2,
@@ -5152,7 +5802,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "San Francisco (Union Square)",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -5163,7 +5815,9 @@
         ],
         "drive_time": "~1 hr from San Francisco",
         "lodging_suggestion": "St. Helena",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.540524,
+        "longitude": -122.548357
       },
       {
         "day_number": 4,
@@ -5174,7 +5828,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "St. Helena",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.30647,
+        "longitude": -122.277683
       },
       {
         "day_number": 5,
@@ -5185,7 +5841,9 @@
         ],
         "drive_time": "~1.5 hrs to San Francisco International Airport",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.578797,
+        "longitude": -122.579705
       }
     ],
     "cover_image_url": "/category-splurge.jpg"
@@ -5225,7 +5883,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Austin",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.410217,
+        "longitude": -97.849466
       },
       {
         "day_number": 2,
@@ -5236,7 +5896,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Austin",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -5247,7 +5909,9 @@
         ],
         "drive_time": "~1.5 hrs from Austin, with a stop in Stonewall",
         "lodging_suggestion": "Fredericksburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -5258,7 +5922,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Fredericksburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -5269,7 +5935,9 @@
         ],
         "drive_time": "~1.5 hrs from Fredericksburg",
         "lodging_suggestion": "New Braunfels",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 29.738536,
+        "longitude": -98.104267
       },
       {
         "day_number": 6,
@@ -5280,7 +5948,9 @@
         ],
         "drive_time": "~40 min from New Braunfels",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 29.426019,
+        "longitude": -98.485888
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -5319,7 +5989,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Lake Buena Vista",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 28.419075,
+        "longitude": -81.581716
       },
       {
         "day_number": 2,
@@ -5330,7 +6002,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Lake Buena Vista",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 28.371406,
+        "longitude": -81.548959
       },
       {
         "day_number": 3,
@@ -5341,7 +6015,9 @@
         ],
         "drive_time": "~20 min from Lake Buena Vista",
         "lodging_suggestion": "International Drive",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 28.477248,
+        "longitude": -81.469707
       },
       {
         "day_number": 4,
@@ -5352,7 +6028,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "International Drive",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -5363,7 +6041,9 @@
         ],
         "drive_time": "~1 hr from Orlando",
         "lodging_suggestion": "Cocoa Beach",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 28.52428,
+        "longitude": -80.681856
       },
       {
         "day_number": 6,
@@ -5374,7 +6054,9 @@
         ],
         "drive_time": "~1 hr to Orlando",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 28.318411,
+        "longitude": -80.609496
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -5413,7 +6095,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Downtown Phoenix",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 33.447723,
+        "longitude": -112.074509
       },
       {
         "day_number": 2,
@@ -5425,7 +6109,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Phoenix",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 33.456496,
+        "longitude": -111.953685
       },
       {
         "day_number": 3,
@@ -5437,7 +6123,9 @@
         ],
         "drive_time": "~20 min from Phoenix",
         "lodging_suggestion": "Scottsdale",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 33.494219,
+        "longitude": -111.926018
       },
       {
         "day_number": 4,
@@ -5449,7 +6137,9 @@
         ],
         "drive_time": "~1 hr 45 min from Scottsdale",
         "lodging_suggestion": "Tucson",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 33.545587,
+        "longitude": -111.916535
       },
       {
         "day_number": 5,
@@ -5461,7 +6151,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Tucson",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.249935,
+        "longitude": -110.841888
       },
       {
         "day_number": 6,
@@ -5472,7 +6164,9 @@
         ],
         "drive_time": "~1 hr 45 min from Tucson",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -5511,7 +6205,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Denver (LoDo)",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -5523,7 +6219,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Denver",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.765669,
+        "longitude": -104.978413
       },
       {
         "day_number": 3,
@@ -5535,7 +6233,9 @@
         ],
         "drive_time": "~25 min from Denver",
         "lodging_suggestion": "Denver",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.754635,
+        "longitude": -105.22058
       },
       {
         "day_number": 4,
@@ -5547,7 +6247,9 @@
         ],
         "drive_time": "~35 min from Denver",
         "lodging_suggestion": "Denver",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.014986,
+        "longitude": -105.270545
       },
       {
         "day_number": 5,
@@ -5559,7 +6261,9 @@
         ],
         "drive_time": "~1 hr from Denver",
         "lodging_suggestion": "Fort Collins",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.587178,
+        "longitude": -105.077011
       },
       {
         "day_number": 6,
@@ -5570,7 +6274,9 @@
         ],
         "drive_time": "~1 hr from Fort Collins",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.834239,
+        "longitude": -104.692744
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -5609,7 +6315,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Reno",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.526179,
+        "longitude": -119.812658
       },
       {
         "day_number": 2,
@@ -5621,7 +6329,9 @@
         ],
         "drive_time": "~30 min from Reno",
         "lodging_suggestion": "Reno",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.310813,
+        "longitude": -119.649517
       },
       {
         "day_number": 3,
@@ -5633,7 +6343,9 @@
         ],
         "drive_time": "~45 min from Reno",
         "lodging_suggestion": "Incline Village",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.254804,
+        "longitude": -119.953798
       },
       {
         "day_number": 4,
@@ -5645,7 +6357,9 @@
         ],
         "drive_time": "~30 min from Incline Village",
         "lodging_suggestion": "Zephyr Cove / Stateline",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.990351,
+        "longitude": -119.949322
       },
       {
         "day_number": 5,
@@ -5656,7 +6370,9 @@
         ],
         "drive_time": "~1 hr from Zephyr Cove",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -5696,7 +6412,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Savannah Historic District",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.074653,
+        "longitude": -81.092445
       },
       {
         "day_number": 2,
@@ -5708,7 +6426,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Savannah",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.07853,
+        "longitude": -81.08111
       },
       {
         "day_number": 3,
@@ -5720,7 +6440,9 @@
         ],
         "drive_time": "~30 min from Savannah",
         "lodging_suggestion": "Savannah",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.015492,
+        "longitude": -80.861222
       },
       {
         "day_number": 4,
@@ -5732,7 +6454,9 @@
         ],
         "drive_time": "~1 hr 45 min from Savannah",
         "lodging_suggestion": "St. Simons Island",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 31.218286,
+        "longitude": -81.361208
       },
       {
         "day_number": 5,
@@ -5743,7 +6467,9 @@
         ],
         "drive_time": "~20 min from St. Simons Island",
         "lodging_suggestion": "Jekyll Island",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 31.065586,
+        "longitude": -81.41405
       },
       {
         "day_number": 6,
@@ -5754,7 +6480,9 @@
         ],
         "drive_time": "~1 hr 45 min from Jekyll Island",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -5794,7 +6522,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Downtown Greenville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.844078,
+        "longitude": -82.406417
       },
       {
         "day_number": 2,
@@ -5806,7 +6536,9 @@
         ],
         "drive_time": "~20 min from Greenville",
         "lodging_suggestion": "Travelers Rest or Downtown Greenville",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -5818,7 +6550,9 @@
         ],
         "drive_time": "~50 min from Travelers Rest",
         "lodging_suggestion": "Table Rock State Park, Pickens",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.03647,
+        "longitude": -82.713898
       },
       {
         "day_number": 4,
@@ -5830,7 +6564,9 @@
         ],
         "drive_time": "~30 min from Table Rock",
         "lodging_suggestion": "Cleveland or Table Rock area",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.105699,
+        "longitude": -82.627338
       },
       {
         "day_number": 5,
@@ -5842,7 +6578,9 @@
         ],
         "drive_time": "~40 min from Table Rock area",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.941228,
+        "longitude": -82.410676
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5882,7 +6620,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Downtown Pittsburgh",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -5894,7 +6634,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Downtown Pittsburgh",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.760621,
+        "longitude": -80.325619
       },
       {
         "day_number": 3,
@@ -5906,7 +6648,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Downtown Pittsburgh or Oakland",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.110182,
+        "longitude": -80.140762
       },
       {
         "day_number": 4,
@@ -5918,7 +6662,9 @@
         ],
         "drive_time": "~1.5 hr from Pittsburgh",
         "lodging_suggestion": "Ohiopyle or Farmington",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -5930,7 +6676,9 @@
         ],
         "drive_time": "~10 min from Fallingwater area",
         "lodging_suggestion": "Ohiopyle",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.867084,
+        "longitude": -79.42948
       },
       {
         "day_number": 6,
@@ -5942,7 +6690,9 @@
         ],
         "drive_time": "~1.5 hr back to Pittsburgh",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -5981,7 +6731,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Virginia Beach oceanfront",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.870158,
+        "longitude": -75.980869
       },
       {
         "day_number": 2,
@@ -5993,7 +6745,9 @@
         ],
         "drive_time": "~20 min from the oceanfront",
         "lodging_suggestion": "Virginia Beach oceanfront",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.906217,
+        "longitude": -76.013594
       },
       {
         "day_number": 3,
@@ -6005,7 +6759,9 @@
         ],
         "drive_time": "~1 hr from Virginia Beach",
         "lodging_suggestion": "Williamsburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.208918,
+        "longitude": -76.7783
       },
       {
         "day_number": 4,
@@ -6017,7 +6773,9 @@
         ],
         "drive_time": "~15 min from Jamestown",
         "lodging_suggestion": "Williamsburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.272046,
+        "longitude": -76.69677
       },
       {
         "day_number": 5,
@@ -6029,7 +6787,9 @@
         ],
         "drive_time": "~15 min from Williamsburg",
         "lodging_suggestion": "Williamsburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.235666,
+        "longitude": -76.513649
       },
       {
         "day_number": 6,
@@ -6040,7 +6800,9 @@
         ],
         "drive_time": "~1 hr back to Virginia Beach if departing from there",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -6078,7 +6840,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Gatlinburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.714259,
+        "longitude": -83.510164
       },
       {
         "day_number": 2,
@@ -6090,7 +6854,9 @@
         ],
         "drive_time": "~30 min each way from Gatlinburg",
         "lodging_suggestion": "Gatlinburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.017566,
+        "longitude": -89.806279
       },
       {
         "day_number": 3,
@@ -6102,7 +6868,9 @@
         ],
         "drive_time": "~45 min from Gatlinburg via Townsend",
         "lodging_suggestion": "Townsend or Gatlinburg",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.608953,
+        "longitude": -83.804477
       },
       {
         "day_number": 4,
@@ -6114,7 +6882,9 @@
         ],
         "drive_time": "~15 min from Gatlinburg to Pigeon Forge",
         "lodging_suggestion": "Pigeon Forge",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -6126,7 +6896,9 @@
         ],
         "drive_time": "~30 min from Pigeon Forge",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.813203,
+        "longitude": -83.246217
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -6164,7 +6936,9 @@
         ],
         "drive_time": "~2.5 hrs from New Orleans",
         "lodging_suggestion": "Lafayette",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -6176,7 +6950,9 @@
         ],
         "drive_time": "~20 min from Lafayette to Henderson",
         "lodging_suggestion": "Breaux Bridge",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 29.892829,
+        "longitude": -91.494232
       },
       {
         "day_number": 3,
@@ -6187,7 +6963,9 @@
         ],
         "drive_time": "~20 min from Breaux Bridge to St. Martinville, then ~20 min on to New Iberia",
         "lodging_suggestion": "New Iberia",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.125201,
+        "longitude": -91.83345
       },
       {
         "day_number": 4,
@@ -6198,7 +6976,9 @@
         ],
         "drive_time": "~15 min from New Iberia",
         "lodging_suggestion": "Lafayette",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 29.898539,
+        "longitude": -91.906231
       },
       {
         "day_number": 5,
@@ -6209,7 +6989,9 @@
         ],
         "drive_time": "~1 hr from Lafayette to Mamou",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.633708,
+        "longitude": -92.419775
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -6248,7 +7030,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Seattle",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 47.603832,
+        "longitude": -122.330062
       },
       {
         "day_number": 2,
@@ -6259,7 +7043,9 @@
         ],
         "drive_time": "~1.5 hrs to Anacortes, then ~1 hr ferry crossing",
         "lodging_suggestion": "Friday Harbor",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -6270,7 +7056,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Friday Harbor",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.537089,
+        "longitude": -123.09072
       },
       {
         "day_number": 4,
@@ -6281,7 +7069,9 @@
         ],
         "drive_time": "~1 hr inter-island ferry",
         "lodging_suggestion": "Eastsound",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.651558,
+        "longitude": -122.817934
       },
       {
         "day_number": 5,
@@ -6292,7 +7082,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Eastsound",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 48.651558,
+        "longitude": -122.817934
       },
       {
         "day_number": 6,
@@ -6303,7 +7095,9 @@
         ],
         "drive_time": "~1 hr ferry, then ~1.5 hrs drive to Seattle",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6341,7 +7135,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "St. Louis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.62609,
+        "longitude": -90.187743
       },
       {
         "day_number": 2,
@@ -6352,7 +7148,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "St. Louis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.638192,
+        "longitude": -90.284703
       },
       {
         "day_number": 3,
@@ -6363,7 +7161,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "St. Louis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.604492,
+        "longitude": -90.209348
       },
       {
         "day_number": 4,
@@ -6373,7 +7173,9 @@
         ],
         "drive_time": "~4 hrs from St. Louis",
         "lodging_suggestion": "Kansas City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.100105,
+        "longitude": -94.578142
       },
       {
         "day_number": 5,
@@ -6385,7 +7187,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Kansas City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.09444,
+        "longitude": -94.553886
       },
       {
         "day_number": 6,
@@ -6397,7 +7201,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Kansas City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.042044,
+        "longitude": -94.592796
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6436,7 +7242,9 @@
         ],
         "drive_time": "~2.5 hrs from Boston",
         "lodging_suggestion": "Lenox",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.336686,
+        "longitude": -71.08186
       },
       {
         "day_number": 2,
@@ -6447,7 +7255,9 @@
         ],
         "drive_time": "~10 min from Lenox",
         "lodging_suggestion": "Lenox",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.282398,
+        "longitude": -73.312368
       },
       {
         "day_number": 3,
@@ -6458,7 +7268,9 @@
         ],
         "drive_time": "~20 min from Stockbridge",
         "lodging_suggestion": "Great Barrington",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.193936,
+        "longitude": -73.362773
       },
       {
         "day_number": 4,
@@ -6469,7 +7281,9 @@
         ],
         "drive_time": "~40 min from Great Barrington",
         "lodging_suggestion": "North Adams",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.699035,
+        "longitude": -73.1119
       },
       {
         "day_number": 5,
@@ -6480,7 +7294,9 @@
         ],
         "drive_time": "~10 min from North Adams to Williamstown, then ~3 hrs back to Boston",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.713547,
+        "longitude": -73.209457
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -6521,7 +7337,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Detroit (Downtown)",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -6533,7 +7351,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Detroit (Midtown)",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -6545,7 +7365,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Detroit",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.330219,
+        "longitude": -83.07204
       },
       {
         "day_number": 4,
@@ -6557,7 +7379,9 @@
         ],
         "drive_time": "~10 min from Corktown",
         "lodging_suggestion": "Detroit",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.348464,
+        "longitude": -83.039993
       },
       {
         "day_number": 5,
@@ -6568,7 +7392,9 @@
         ],
         "drive_time": "~20 min from Detroit",
         "lodging_suggestion": "Detroit",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.301555,
+        "longitude": -83.263802
       },
       {
         "day_number": 6,
@@ -6580,7 +7406,9 @@
         ],
         "drive_time": "~55 min from Detroit",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.281372,
+        "longitude": -83.748462
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6620,7 +7448,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Salt Lake City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.760845,
+        "longitude": -111.908789
       },
       {
         "day_number": 2,
@@ -6632,7 +7462,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Salt Lake City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -6643,7 +7475,9 @@
         ],
         "drive_time": "~40 min from Salt Lake City",
         "lodging_suggestion": "Salt Lake City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.590434,
+        "longitude": -111.635705
       },
       {
         "day_number": 4,
@@ -6655,7 +7489,9 @@
         ],
         "drive_time": "~40 min from Salt Lake City",
         "lodging_suggestion": "Park City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.646092,
+        "longitude": -111.497996
       },
       {
         "day_number": 5,
@@ -6666,7 +7502,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Park City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.654146,
+        "longitude": -111.562396
       },
       {
         "day_number": 6,
@@ -6677,7 +7515,9 @@
         ],
         "drive_time": "~40 min from Park City",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.612161,
+        "longitude": -111.48232
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6716,7 +7556,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Corolla",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.384746,
+        "longitude": -75.828698
       },
       {
         "day_number": 2,
@@ -6727,7 +7569,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Duck",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.170014,
+        "longitude": -75.755926
       },
       {
         "day_number": 3,
@@ -6738,7 +7582,9 @@
         ],
         "drive_time": "~50 min from Duck",
         "lodging_suggestion": "Nags Head",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 36.016834,
+        "longitude": -75.666287
       },
       {
         "day_number": 4,
@@ -6750,7 +7596,9 @@
         ],
         "drive_time": "~1 hr 40 min from Nags Head via NC-12 and the Marc Basnight Bridge",
         "lodging_suggestion": "Hatteras Village",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -6762,7 +7610,9 @@
         ],
         "drive_time": "70-min free ferry from Hatteras",
         "lodging_suggestion": "Ocracoke Village",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 6,
@@ -6773,7 +7623,9 @@
         ],
         "drive_time": "70-min ferry, then ~3 hrs to Norfolk",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -6814,7 +7666,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Portland",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.653734,
+        "longitude": -70.262033
       },
       {
         "day_number": 2,
@@ -6826,7 +7680,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Portland",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -6838,7 +7694,9 @@
         ],
         "drive_time": "~20 min from Portland to Freeport",
         "lodging_suggestion": "Freeport",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.857329,
+        "longitude": -70.102834
       },
       {
         "day_number": 4,
@@ -6850,7 +7708,9 @@
         ],
         "drive_time": "~55 min from Brunswick",
         "lodging_suggestion": "Boothbay Harbor",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.855882,
+        "longitude": -69.625007
       },
       {
         "day_number": 5,
@@ -6862,7 +7722,9 @@
         ],
         "drive_time": "~1 hr from Boothbay Harbor",
         "lodging_suggestion": "Camden",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.210265,
+        "longitude": -69.065552
       },
       {
         "day_number": 6,
@@ -6872,7 +7734,9 @@
         ],
         "drive_time": "~1 hr 40 min from Camden to Portland",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6910,7 +7774,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Hagerstown",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.467756,
+        "longitude": -77.731319
       },
       {
         "day_number": 2,
@@ -6922,7 +7788,9 @@
         ],
         "drive_time": "~1 hr 5 min from Hagerstown to Cumberland",
         "lodging_suggestion": "Cumberland",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -6934,7 +7802,9 @@
         ],
         "drive_time": "~45 min from Frostburg to McHenry",
         "lodging_suggestion": "McHenry / Deep Creek Lake",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -6946,7 +7816,9 @@
         ],
         "drive_time": "~15 min from McHenry",
         "lodging_suggestion": "McHenry / Deep Creek Lake",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.498918,
+        "longitude": -79.423552
       },
       {
         "day_number": 5,
@@ -6957,7 +7829,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.550505,
+        "longitude": -79.366935
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -6996,7 +7870,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Minneapolis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.979093,
+        "longitude": -93.271646
       },
       {
         "day_number": 2,
@@ -7008,7 +7884,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Minneapolis",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.055839,
+        "longitude": -94.737005
       },
       {
         "day_number": 3,
@@ -7020,7 +7898,9 @@
         ],
         "drive_time": "~15 min from Minneapolis to St. Paul",
         "lodging_suggestion": "St. Paul",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.94975,
+        "longitude": -93.0931
       },
       {
         "day_number": 4,
@@ -7031,7 +7911,9 @@
         ],
         "drive_time": "~20 min from St. Paul to Bloomington",
         "lodging_suggestion": "Bloomington",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.85502,
+        "longitude": -93.24212
       },
       {
         "day_number": 5,
@@ -7039,7 +7921,9 @@
         "activities": [],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7077,7 +7961,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Biloxi",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.400763,
+        "longitude": -88.889382
       },
       {
         "day_number": 2,
@@ -7089,7 +7975,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Biloxi",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.239373,
+        "longitude": -88.885411
       },
       {
         "day_number": 3,
@@ -7100,7 +7988,9 @@
         ],
         "drive_time": "~25 min from Biloxi to Gulfport",
         "lodging_suggestion": "Gulfport",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.39409,
+        "longitude": -88.970176
       },
       {
         "day_number": 4,
@@ -7112,7 +8002,9 @@
         ],
         "drive_time": "~30 min from Gulfport to Ocean Springs",
         "lodging_suggestion": "Ocean Springs",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.41129,
+        "longitude": -88.827917
       },
       {
         "day_number": 5,
@@ -7123,7 +8015,9 @@
         ],
         "drive_time": "~50 min from Ocean Springs to Bay St. Louis",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.310567,
+        "longitude": -89.327548
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -7163,7 +8057,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Missoula",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.870105,
+        "longitude": -113.995267
       },
       {
         "day_number": 2,
@@ -7174,7 +8070,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Missoula",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 47.00935,
+        "longitude": -113.89192
       },
       {
         "day_number": 3,
@@ -7186,7 +8084,9 @@
         ],
         "drive_time": "~55 min from Missoula to Hamilton",
         "lodging_suggestion": "Hamilton",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.752197,
+        "longitude": -114.089683
       },
       {
         "day_number": 4,
@@ -7198,7 +8098,9 @@
         ],
         "drive_time": "~1 hr each way from Hamilton to Painted Rocks, then ~1 hr back to Missoula",
         "lodging_suggestion": "Missoula",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.679376,
+        "longitude": -114.302697
       },
       {
         "day_number": 5,
@@ -7206,7 +8108,9 @@
         "activities": [],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -7246,7 +8150,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Omaha",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.255187,
+        "longitude": -95.928626
       },
       {
         "day_number": 2,
@@ -7257,7 +8163,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Omaha",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.225474,
+        "longitude": -95.926732
       },
       {
         "day_number": 3,
@@ -7269,7 +8177,9 @@
         ],
         "drive_time": "~1 hr from Omaha to Lincoln",
         "lodging_suggestion": "Lincoln",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.808886,
+        "longitude": -96.707775
       },
       {
         "day_number": 4,
@@ -7280,7 +8190,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.775731,
+        "longitude": -96.773208
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7320,7 +8232,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Portsmouth",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.075131,
+        "longitude": -70.760183
       },
       {
         "day_number": 2,
@@ -7331,7 +8245,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Portsmouth",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.982402,
+        "longitude": -70.606085
       },
       {
         "day_number": 3,
@@ -7342,7 +8258,9 @@
         ],
         "drive_time": "~25 min from Portsmouth to Hampton Beach via Route 1A",
         "lodging_suggestion": "Hampton",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.012019,
+        "longitude": -70.771943
       },
       {
         "day_number": 4,
@@ -7353,7 +8271,9 @@
         ],
         "drive_time": "~25 min from Hampton to Exeter",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.981477,
+        "longitude": -70.947834
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7391,7 +8311,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Boise",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.616616,
+        "longitude": -116.200886
       },
       {
         "day_number": 2,
@@ -7402,7 +8324,9 @@
         ],
         "drive_time": "~30 min from Boise",
         "lodging_suggestion": "Boise",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -7413,7 +8337,9 @@
         ],
         "drive_time": "~1.5 hrs from Boise",
         "lodging_suggestion": "Bruneau",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.890901,
+        "longitude": -115.702795
       },
       {
         "day_number": 4,
@@ -7424,7 +8350,9 @@
         ],
         "drive_time": "~1.5 hrs from Bruneau",
         "lodging_suggestion": "Twin Falls",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.555854,
+        "longitude": -114.470068
       },
       {
         "day_number": 5,
@@ -7435,7 +8363,9 @@
         ],
         "drive_time": "~40 min from Twin Falls",
         "lodging_suggestion": "Hagerman",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.820713,
+        "longitude": -114.889318
       },
       {
         "day_number": 6,
@@ -7445,7 +8375,9 @@
         ],
         "drive_time": "~1.5 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7483,7 +8415,9 @@
         ],
         "drive_time": "~2 hrs from St. Louis (STL)",
         "lodging_suggestion": "Makanda",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -7493,7 +8427,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Carbondale",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.680527,
+        "longitude": -89.395447
       },
       {
         "day_number": 3,
@@ -7504,7 +8440,9 @@
         ],
         "drive_time": "~1.5 hrs from Carbondale",
         "lodging_suggestion": "Herod",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.604076,
+        "longitude": -88.384941
       },
       {
         "day_number": 4,
@@ -7515,7 +8453,9 @@
         ],
         "drive_time": "~30 min from Garden of the Gods",
         "lodging_suggestion": "Cave-in-Rock",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.472027,
+        "longitude": -88.155162
       },
       {
         "day_number": 5,
@@ -7525,7 +8465,9 @@
         ],
         "drive_time": "~3.25 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -7563,7 +8505,9 @@
         ],
         "drive_time": "~1 hr from Chicago (ORD)",
         "lodging_suggestion": "Chesterton",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -7573,7 +8517,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Chesterton",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.638139,
+        "longitude": -87.100972
       },
       {
         "day_number": 3,
@@ -7584,7 +8530,9 @@
         ],
         "drive_time": "~20 min from Chesterton",
         "lodging_suggestion": "Beverly Shores",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.692538,
+        "longitude": -86.977532
       },
       {
         "day_number": 4,
@@ -7595,7 +8543,9 @@
         ],
         "drive_time": "~15 min from Beverly Shores",
         "lodging_suggestion": "Michigan City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.707539,
+        "longitude": -86.89503
       },
       {
         "day_number": 5,
@@ -7605,7 +8555,9 @@
         ],
         "drive_time": "~1 hr",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -7642,7 +8594,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Des Moines",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.586865,
+        "longitude": -93.624949
       },
       {
         "day_number": 2,
@@ -7653,7 +8607,9 @@
         ],
         "drive_time": "~40 min from Des Moines",
         "lodging_suggestion": "Des Moines",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.334763,
+        "longitude": -94.013569
       },
       {
         "day_number": 3,
@@ -7664,7 +8620,9 @@
         ],
         "drive_time": "~50 min from Des Moines",
         "lodging_suggestion": "Des Moines",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.407314,
+        "longitude": -92.917407
       },
       {
         "day_number": 4,
@@ -7675,7 +8633,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Des Moines",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.586865,
+        "longitude": -93.624949
       },
       {
         "day_number": 5,
@@ -7685,7 +8645,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7724,7 +8686,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Wichita",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.692236,
+        "longitude": -97.337545
       },
       {
         "day_number": 2,
@@ -7734,7 +8698,9 @@
         ],
         "drive_time": "~2.5 hrs from Wichita",
         "lodging_suggestion": "Dodge City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -7745,7 +8711,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Dodge City",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.752798,
+        "longitude": -100.017079
       },
       {
         "day_number": 4,
@@ -7755,7 +8723,9 @@
         ],
         "drive_time": "~1 hr from Dodge City to Garden City, then ~1.5 hrs to Oakley",
         "lodging_suggestion": "Oakley",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.97169,
+        "longitude": -100.872662
       },
       {
         "day_number": 5,
@@ -7765,7 +8735,9 @@
         ],
         "drive_time": "~3.75 hrs back to Wichita",
         "lodging_suggestion": "Wichita",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.793503,
+        "longitude": -100.762059
       },
       {
         "day_number": 6,
@@ -7775,7 +8747,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7813,7 +8787,9 @@
         ],
         "drive_time": "~1.25 hrs from Lexington (LEX)",
         "lodging_suggestion": "Slade",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -7823,7 +8799,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Slade",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -7834,7 +8812,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Slade",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.768196,
+        "longitude": -83.69698
       },
       {
         "day_number": 4,
@@ -7845,7 +8825,9 @@
         ],
         "drive_time": "~1.25 hrs from Slade",
         "lodging_suggestion": "Berea",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.568694,
+        "longitude": -84.296322
       },
       {
         "day_number": 5,
@@ -7856,7 +8838,9 @@
         ],
         "drive_time": "~1.1 hrs from Berea",
         "lodging_suggestion": "Corbin",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 6,
@@ -7866,7 +8850,9 @@
         ],
         "drive_time": "~1.75 hrs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -7906,7 +8892,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Pawtucket",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -7918,7 +8906,9 @@
         ],
         "drive_time": "~15 min from Pawtucket",
         "lodging_suggestion": "Woonsocket",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -7930,7 +8920,9 @@
         ],
         "drive_time": "~20 min from Woonsocket",
         "lodging_suggestion": "Glocester",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.909763,
+        "longitude": -71.665667
       },
       {
         "day_number": 4,
@@ -7942,7 +8934,9 @@
         ],
         "drive_time": "~15 min from Chepachet",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -7981,7 +8975,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Sioux Falls",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.546645,
+        "longitude": -96.727087
       },
       {
         "day_number": 2,
@@ -7993,7 +8989,9 @@
         ],
         "drive_time": "~30 min from Sioux Falls",
         "lodging_suggestion": "Sioux Falls",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.687763,
+        "longitude": -96.517338
       },
       {
         "day_number": 3,
@@ -8004,7 +9002,9 @@
         ],
         "drive_time": "~1 hr 40 min from Sioux Falls",
         "lodging_suggestion": "De Smet",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -8015,7 +9015,9 @@
         ],
         "drive_time": "~1 hr 15 min from De Smet",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8054,7 +9056,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "St. Johnsbury",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -8066,7 +9070,9 @@
         ],
         "drive_time": "~25 min from St. Johnsbury",
         "lodging_suggestion": "St. Johnsbury",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.329973,
+        "longitude": -72.171234
       },
       {
         "day_number": 3,
@@ -8078,7 +9084,9 @@
         ],
         "drive_time": "~20 min from St. Johnsbury",
         "lodging_suggestion": "East Burke",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.58915,
+        "longitude": -71.940562
       },
       {
         "day_number": 4,
@@ -8090,7 +9098,9 @@
         ],
         "drive_time": "~1 hr from East Burke",
         "lodging_suggestion": "Craftsbury",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.653558,
+        "longitude": -72.382734
       },
       {
         "day_number": 5,
@@ -8100,7 +9110,9 @@
         ],
         "drive_time": "~1 hr 35 min from Craftsbury",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -8138,7 +9150,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Harpers Ferry",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.324516,
+        "longitude": -77.731012
       },
       {
         "day_number": 2,
@@ -8150,7 +9164,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Harpers Ferry",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 37.289683,
+        "longitude": -79.97511
       },
       {
         "day_number": 3,
@@ -8162,7 +9178,9 @@
         ],
         "drive_time": "~15 min from Harpers Ferry",
         "lodging_suggestion": "Shepherdstown",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.289184,
+        "longitude": -77.859581
       },
       {
         "day_number": 4,
@@ -8174,7 +9192,9 @@
         ],
         "drive_time": "~50 min from Shepherdstown",
         "lodging_suggestion": "Berkeley Springs",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.626798,
+        "longitude": -78.227951
       },
       {
         "day_number": 5,
@@ -8185,7 +9205,9 @@
         ],
         "drive_time": "~15 min from Berkeley Springs",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.531335,
+        "longitude": -78.311216
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -8224,7 +9246,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Milwaukee",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -8236,7 +9260,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Milwaukee",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.032772,
+        "longitude": -87.905843
       },
       {
         "day_number": 3,
@@ -8248,7 +9274,9 @@
         ],
         "drive_time": "~1 hr 20 min from Milwaukee",
         "lodging_suggestion": "Madison",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.07469,
+        "longitude": -89.384166
       },
       {
         "day_number": 4,
@@ -8260,7 +9288,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Madison",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.01823,
+        "longitude": -88.052724
       },
       {
         "day_number": 5,
@@ -8272,7 +9302,9 @@
         ],
         "drive_time": "~45 min from Madison",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.176937,
+        "longitude": -90.068048
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8312,7 +9344,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Cheyenne",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.139981,
+        "longitude": -104.820246
       },
       {
         "day_number": 2,
@@ -8324,7 +9358,9 @@
         ],
         "drive_time": "~2 hrs 45 min from Cheyenne, via Fort Laramie and Guernsey",
         "lodging_suggestion": "Douglas",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.21271,
+        "longitude": -104.51774
       },
       {
         "day_number": 3,
@@ -8335,7 +9371,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Douglas",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 42.759571,
+        "longitude": -105.382624
       },
       {
         "day_number": 4,
@@ -8346,7 +9384,9 @@
         ],
         "drive_time": "~3 hrs 40 min from Douglas",
         "lodging_suggestion": "Sundance",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.590612,
+        "longitude": -104.715103
       },
       {
         "day_number": 5,
@@ -8357,7 +9397,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Sundance",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 44.590612,
+        "longitude": -104.715103
       },
       {
         "day_number": 6,
@@ -8367,7 +9409,9 @@
         ],
         "drive_time": "~4 hrs 50 min from Devils Tower",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-road-trip.jpg"
@@ -8406,7 +9450,9 @@
         ],
         "drive_time": "~1 hr from Pensacola International Airport (39 miles)",
         "lodging_suggestion": "Gulf Shores",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -8418,7 +9464,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Gulf Shores / Orange Beach",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.271122,
+        "longitude": -87.689383
       },
       {
         "day_number": 3,
@@ -8431,7 +9479,9 @@
         ],
         "drive_time": "~40 min from Gulf Shores to Fort Morgan, then a 35-min ferry crossing to Dauphin Island",
         "lodging_suggestion": "Mobile",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.228188,
+        "longitude": -88.022911
       },
       {
         "day_number": 4,
@@ -8443,7 +9493,9 @@
         ],
         "drive_time": "~45 min from Dauphin Island to Mobile",
         "lodging_suggestion": "Mobile",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 30.692039,
+        "longitude": -88.047867
       },
       {
         "day_number": 5,
@@ -8455,7 +9507,9 @@
         ],
         "drive_time": "~30 min from Mobile via the I-10 Bayway",
         "lodging_suggestion": "Fairhope",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 6,
@@ -8463,7 +9517,9 @@
         "activities": [],
         "drive_time": "~1 hr from Fairhope to Pensacola International Airport",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -8503,7 +9559,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Juneau",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -8514,7 +9572,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Juneau",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 58.50474,
+        "longitude": -134.553927
       },
       {
         "day_number": 3,
@@ -8524,7 +9584,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Juneau",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -8536,7 +9598,9 @@
         ],
         "drive_time": "~1 hr flight, or ~18-20 hrs by Alaska Marine Highway ferry",
         "lodging_suggestion": "Ketchikan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -8547,7 +9611,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Ketchikan",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 61.216917,
+        "longitude": -149.779934
       },
       {
         "day_number": 6,
@@ -8558,7 +9624,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -8597,7 +9665,9 @@
         ],
         "drive_time": "~1 hr from Bill and Hillary Clinton National Airport, Little Rock (55 miles)",
         "lodging_suggestion": "Hot Springs",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -8609,7 +9679,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Hot Springs",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.529071,
+        "longitude": -93.03014
       },
       {
         "day_number": 3,
@@ -8621,7 +9693,9 @@
         ],
         "drive_time": "~1 hr from Hot Springs (55 miles)",
         "lodging_suggestion": "Little Rock",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.713426,
+        "longitude": -92.285428
       },
       {
         "day_number": 4,
@@ -8633,7 +9707,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Little Rock",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -8644,7 +9720,9 @@
         ],
         "drive_time": "~30 min from downtown Little Rock to Pinnacle Mountain State Park",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 35.213704,
+        "longitude": -94.053261
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8683,7 +9761,9 @@
         ],
         "drive_time": "~47 min from T.F. Green Airport (Providence, RI)",
         "lodging_suggestion": "Mystic",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -8694,7 +9774,9 @@
         ],
         "drive_time": "~15 min from Mystic to New London",
         "lodging_suggestion": "Mystic",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.373407,
+        "longitude": -71.951926
       },
       {
         "day_number": 3,
@@ -8706,7 +9788,9 @@
         ],
         "drive_time": "~50 min from New London to New Haven (47 miles)",
         "lodging_suggestion": "New Haven",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -8718,7 +9802,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "New Haven",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.303057,
+        "longitude": -72.920077
       },
       {
         "day_number": 5,
@@ -8726,7 +9812,9 @@
         "activities": [],
         "drive_time": "~1 hr from New Haven to Bradley International Airport",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -8765,7 +9853,9 @@
         ],
         "drive_time": "~40 min from Philadelphia International Airport",
         "lodging_suggestion": "New Castle",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -8777,7 +9867,9 @@
         ],
         "drive_time": "~45 min from New Castle to Dover (44 miles)",
         "lodging_suggestion": "Dover",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 39.156613,
+        "longitude": -75.514148
       },
       {
         "day_number": 3,
@@ -8788,7 +9880,9 @@
         ],
         "drive_time": "~15 min from Dover to Bombay Hook, then roughly 1-1.25 hr on to Trap Pond State Park near Laurel",
         "lodging_suggestion": "Laurel / Seaford area",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -8800,7 +9894,9 @@
         ],
         "drive_time": "~1.5-2 hr back to Wilmington / Philadelphia International Airport",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 38.52448,
+        "longitude": -75.473238
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -8840,7 +9936,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Waikiki, Honolulu",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -8852,7 +9950,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Waikiki, Honolulu",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 21.355775,
+        "longitude": -157.999149
       },
       {
         "day_number": 3,
@@ -8863,7 +9963,9 @@
         ],
         "drive_time": "~45 min from Waikiki to Haleiwa",
         "lodging_suggestion": "Waikiki, Honolulu",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 21.259752,
+        "longitude": -157.811677
       },
       {
         "day_number": 4,
@@ -8875,7 +9977,9 @@
         ],
         "drive_time": "~40 min flight (Hawaiian Airlines)",
         "lodging_suggestion": "Kaanapali / West Maui",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 20.802957,
+        "longitude": -156.310683
       },
       {
         "day_number": 5,
@@ -8888,7 +9992,9 @@
         ],
         "drive_time": "~2.5 hrs each way via the Hana Highway",
         "lodging_suggestion": "Kaanapali / West Maui",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 20.760031,
+        "longitude": -155.989001
       },
       {
         "day_number": 6,
@@ -8899,7 +10005,9 @@
         ],
         "drive_time": "~1.5 hr from Kaanapali to the Haleakala summit",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8939,7 +10047,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Princeton, NJ",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 40.349695,
+        "longitude": -74.659738
       },
       {
         "day_number": 2,
@@ -8951,7 +10061,9 @@
         ],
         "drive_time": "~1 hr from Princeton",
         "lodging_suggestion": "Morristown, NJ",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -8963,7 +10075,9 @@
         ],
         "drive_time": "~55 min from Morristown",
         "lodging_suggestion": "Blairstown, NJ",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -8975,7 +10089,9 @@
         ],
         "drive_time": "~1 hr 10 min round trip to High Point State Park",
         "lodging_suggestion": "Blairstown, NJ",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.138439,
+        "longitude": -74.911022
       },
       {
         "day_number": 5,
@@ -8985,7 +10101,9 @@
         ],
         "drive_time": "~1 hr from Blairstown",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -9026,7 +10144,9 @@
         ],
         "drive_time": "~2 hr 30 min from El Paso",
         "lodging_suggestion": "Carlsbad, NM",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -9037,7 +10157,9 @@
         ],
         "drive_time": "~25 min from Carlsbad",
         "lodging_suggestion": "Carlsbad, NM",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.121249,
+        "longitude": -104.601231
       },
       {
         "day_number": 3,
@@ -9048,7 +10170,9 @@
         ],
         "drive_time": "~3 hr 30 min from Carlsbad",
         "lodging_suggestion": "Alamogordo, NM",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -9060,7 +10184,9 @@
         ],
         "drive_time": "~15 min from Alamogordo",
         "lodging_suggestion": "Alamogordo, NM",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.764181,
+        "longitude": -106.331193
       },
       {
         "day_number": 5,
@@ -9071,7 +10197,9 @@
         ],
         "drive_time": "~1 hr to Las Cruces, then ~55 min to El Paso",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 32.314035,
+        "longitude": -106.779807
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -9111,7 +10239,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Fargo, ND",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.87621,
+        "longitude": -96.782078
       },
       {
         "day_number": 2,
@@ -9122,7 +10252,9 @@
         ],
         "drive_time": "~10 min from Fargo",
         "lodging_suggestion": "Fargo, ND",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 46.875829,
+        "longitude": -96.928129
       },
       {
         "day_number": 3,
@@ -9134,7 +10266,9 @@
         ],
         "drive_time": "~1 hr 45 min from Fargo",
         "lodging_suggestion": "Valley City, ND",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -9146,7 +10280,9 @@
         ],
         "drive_time": "~2 hr from the Sheyenne Valley to Grand Forks",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 47.92521,
+        "longitude": -97.030632
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -9186,7 +10322,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Cleveland, OH",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.509912,
+        "longitude": -81.696916
       },
       {
         "day_number": 2,
@@ -9197,7 +10335,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Cleveland, OH",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.496747,
+        "longitude": -81.703823
       },
       {
         "day_number": 3,
@@ -9208,7 +10348,9 @@
         ],
         "drive_time": "~30 min from Cleveland",
         "lodging_suggestion": "Peninsula, OH",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.255094,
+        "longitude": -81.537642
       },
       {
         "day_number": 4,
@@ -9219,7 +10361,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Peninsula, OH",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 41.096199,
+        "longitude": -81.526208
       },
       {
         "day_number": 5,
@@ -9229,7 +10373,9 @@
         ],
         "drive_time": "~35 min from Peninsula",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -9271,7 +10417,9 @@
         ],
         "drive_time": "~2 hr of driving via Route 66 stops from Oklahoma City",
         "lodging_suggestion": "Clinton, OK",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -9282,7 +10430,9 @@
         ],
         "drive_time": "~2 hr 30 min total, via Elk City",
         "lodging_suggestion": "Medicine Park, OK",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -9294,7 +10444,9 @@
         ],
         "drive_time": "~20 min from Medicine Park",
         "lodging_suggestion": "Medicine Park, OK",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.766732,
+        "longitude": -98.700344
       },
       {
         "day_number": 4,
@@ -9305,7 +10457,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Medicine Park, OK",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 34.72748,
+        "longitude": -98.501364
       },
       {
         "day_number": 5,
@@ -9315,7 +10469,9 @@
         ],
         "drive_time": "~1 hr 15 min from Lawton/Medicine Park",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -9355,7 +10511,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Cannon Beach, OR",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 45.875268,
+        "longitude": -123.962574
       },
       {
         "day_number": 2,
@@ -9367,7 +10525,9 @@
         ],
         "drive_time": "~2 hr 30 min from Cannon Beach",
         "lodging_suggestion": "Newport, OR",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -9378,7 +10538,9 @@
         ],
         "drive_time": "~1 hr from Newport",
         "lodging_suggestion": "Florence, OR",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -9390,7 +10552,9 @@
         ],
         "drive_time": "~1 hr 30 min from Florence",
         "lodging_suggestion": "Bandon, OR",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -9402,7 +10566,9 @@
         ],
         "drive_time": null,
         "lodging_suggestion": "Bandon, OR",
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": 43.119563,
+        "longitude": -124.409409
       },
       {
         "day_number": 6,
@@ -9412,7 +10578,9 @@
         ],
         "drive_time": "~35 min from Bandon",
         "lodging_suggestion": null,
-        "coffee_wifi_spot": null
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -9447,7 +10615,9 @@
           "Settle into Shinjuku or Shibuya",
           "Evening walk through Shinjuku's Omoide Yokocho alleys"
         ],
-        "lodging_suggestion": "Shinjuku or Shibuya"
+        "lodging_suggestion": "Shinjuku or Shibuya",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -9457,7 +10627,9 @@
           "Tokyo Skytree observation deck",
           "Sumida River walk"
         ],
-        "lodging_suggestion": "Shinjuku or Shibuya"
+        "lodging_suggestion": "Shinjuku or Shibuya",
+        "latitude": 35.30588,
+        "longitude": 135.116025
       },
       {
         "day_number": 3,
@@ -9467,7 +10639,9 @@
           "Harajuku's Takeshita Street and Meiji Shrine",
           "Shopping and dinner in Ginza"
         ],
-        "lodging_suggestion": "Shinjuku or Shibuya"
+        "lodging_suggestion": "Shinjuku or Shibuya",
+        "latitude": 35.690467,
+        "longitude": 139.754511
       },
       {
         "day_number": 4,
@@ -9478,7 +10652,9 @@
           "Evening stroll through Gion's lantern-lit lanes"
         ],
         "drive_time": "Shinkansen, ~2 hrs 15 min",
-        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
+        "latitude": 35.668073,
+        "longitude": 139.772618
       },
       {
         "day_number": 5,
@@ -9488,7 +10664,9 @@
           "Kiyomizu-dera Temple and the Higashiyama district's preserved streets",
           "Evening in Pontocho Alley"
         ],
-        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 6,
@@ -9498,7 +10676,9 @@
           "Tenryu-ji Temple garden",
           "Kinkaku-ji (the Golden Pavilion)"
         ],
-        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
+        "latitude": 35.009047,
+        "longitude": 135.674496
       },
       {
         "day_number": 7,
@@ -9510,7 +10690,9 @@
           "Return to Kyoto, or continue to Kansai Airport for a flight home"
         ],
         "drive_time": "JR Special Rapid, ~28 min each way",
-        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
+        "latitude": 34.693757,
+        "longitude": 135.501454
       },
       {
         "day_number": 8,
@@ -9520,7 +10702,9 @@
           "Depart from Kansai International Airport (KIX) or return to Tokyo for a flight home"
         ],
         "drive_time": "JR Nara Line, ~45 min each way (optional day)",
-        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)"
+        "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -9587,7 +10771,9 @@
           "Settle in near the Chao Phraya riverside",
           "Evening river cruise past illuminated Wat Arun"
         ],
-        "lodging_suggestion": "Bangkok (riverside / Old City)"
+        "lodging_suggestion": "Bangkok (riverside / Old City)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -9597,7 +10783,9 @@
           "Wat Pho's reclining Buddha and traditional Thai massage school",
           "Cross the river to climb Wat Arun's central prang"
         ],
-        "lodging_suggestion": "Bangkok (riverside / Old City)"
+        "lodging_suggestion": "Bangkok (riverside / Old City)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -9608,7 +10796,9 @@
           "Return to Bangkok by evening"
         ],
         "drive_time": "1 to 1.5 hrs each way",
-        "lodging_suggestion": "Bangkok (riverside / Old City)"
+        "lodging_suggestion": "Bangkok (riverside / Old City)",
+        "latitude": 14.318947,
+        "longitude": 100.511168
       },
       {
         "day_number": 4,
@@ -9618,7 +10808,9 @@
           "Afternoon flight to Chiang Mai (about 1 hour 15 minutes)",
           "Evening walk through Chiang Mai's walled Old City"
         ],
-        "lodging_suggestion": "Chiang Mai (Old City)"
+        "lodging_suggestion": "Chiang Mai (Old City)",
+        "latitude": 13.665432,
+        "longitude": 100.650384
       },
       {
         "day_number": 5,
@@ -9629,7 +10821,9 @@
           "Sunday Walking Street night market (if timing allows) or the Chiang Mai Night Bazaar"
         ],
         "drive_time": "30 to 40 min each way to Doi Suthep",
-        "lodging_suggestion": "Chiang Mai (Old City)"
+        "lodging_suggestion": "Chiang Mai (Old City)",
+        "latitude": 18.781198,
+        "longitude": 98.995033
       },
       {
         "day_number": 6,
@@ -9638,7 +10832,9 @@
           "Full-day visit to Elephant Nature Park, an observation-only rescued-elephant sanctuary with no riding or bathing",
           "Help prepare food for the elephants and watch them from the riverside observation area"
         ],
-        "lodging_suggestion": "Chiang Mai (Old City)"
+        "lodging_suggestion": "Chiang Mai (Old City)",
+        "latitude": 19.214683,
+        "longitude": 98.861639
       },
       {
         "day_number": 7,
@@ -9648,7 +10844,9 @@
           "Wachirathan and Siriphum waterfalls, twin royal chedis, and hill-tribe market stalls"
         ],
         "drive_time": "1.5 hrs each way",
-        "lodging_suggestion": "Chiang Mai (Old City)"
+        "lodging_suggestion": "Chiang Mai (Old City)",
+        "latitude": 18.532675,
+        "longitude": 98.557803
       },
       {
         "day_number": 8,
@@ -9657,7 +10855,9 @@
           "Last-minute shopping for northern Thai handicrafts at a local market",
           "Fly home from Chiang Mai or connect back through Bangkok"
         ],
-        "lodging_suggestion": "Chiang Mai (Old City)"
+        "lodging_suggestion": "Chiang Mai (Old City)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -9720,7 +10920,9 @@
           "Evening walk around Hoan Kiem Lake and Ngoc Son Temple",
           "First bowl of pho at a street-side quan"
         ],
-        "lodging_suggestion": "Hanoi Old Quarter"
+        "lodging_suggestion": "Hanoi Old Quarter",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -9731,7 +10933,9 @@
           "Walk the tracks at Train Street",
           "Evening water puppet show at Thang Long Water Puppet Theatre"
         ],
-        "lodging_suggestion": "Hanoi Old Quarter"
+        "lodging_suggestion": "Hanoi Old Quarter",
+        "latitude": 21.031257,
+        "longitude": 105.849998
       },
       {
         "day_number": 3,
@@ -9742,7 +10946,9 @@
           "Return to Hanoi by early evening"
         ],
         "drive_time": "~1.5-2 hrs each way from Hanoi",
-        "lodging_suggestion": "Hanoi Old Quarter"
+        "lodging_suggestion": "Hanoi Old Quarter",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -9754,7 +10960,9 @@
           "Sunset on the sundeck"
         ],
         "drive_time": "~3-3.5 hrs each way from Hanoi",
-        "lodging_suggestion": "Overnight cruise boat, Ha Long Bay"
+        "lodging_suggestion": "Overnight cruise boat, Ha Long Bay",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -9765,7 +10973,9 @@
           "Disembark and transfer back to Hanoi by evening"
         ],
         "drive_time": "~3-3.5 hrs back to Hanoi",
-        "lodging_suggestion": "Hanoi Old Quarter"
+        "lodging_suggestion": "Hanoi Old Quarter",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 6,
@@ -9775,7 +10985,9 @@
           "Egg coffee (ca phe trung) at Cafe Giang, the Old Quarter cafe that invented it in 1946",
           "Wander the 36 Streets of the Old Quarter, each still loosely tied to its historic guild trade"
         ],
-        "lodging_suggestion": "Hanoi Old Quarter"
+        "lodging_suggestion": "Hanoi Old Quarter",
+        "latitude": 21.028884,
+        "longitude": 105.848712
       },
       {
         "day_number": 7,
@@ -9784,7 +10996,9 @@
           "Last-minute shopping for lacquerware or silk on Hang Gai street",
           "Transfer to Noi Bai International Airport"
         ],
-        "lodging_suggestion": null
+        "lodging_suggestion": null,
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -9849,7 +11063,9 @@
           "Settle in near Giza or downtown Cairo",
           "Evening stroll along the Nile Corniche"
         ],
-        "lodging_suggestion": "Giza / Cairo"
+        "lodging_suggestion": "Giza / Cairo",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -9859,7 +11075,9 @@
           "Solar Boat Museum",
           "Optional camel or horseback ride around the plateau"
         ],
-        "lodging_suggestion": "Giza / Cairo"
+        "lodging_suggestion": "Giza / Cairo",
+        "latitude": 29.976023,
+        "longitude": 31.141815
       },
       {
         "day_number": 3,
@@ -9869,7 +11087,9 @@
           "Khan el-Khalili bazaar",
           "Islamic Cairo: Sultan Hassan Mosque and Al-Azhar"
         ],
-        "lodging_suggestion": "Giza / Cairo"
+        "lodging_suggestion": "Giza / Cairo",
+        "latitude": 30.044388,
+        "longitude": 31.235726
       },
       {
         "day_number": 4,
@@ -9881,7 +11101,9 @@
           "Sunset felucca sail past Elephantine Island"
         ],
         "drive_time": "1.5 hr flight from Cairo",
-        "lodging_suggestion": "Aswan"
+        "lodging_suggestion": "Aswan",
+        "latitude": 30.044388,
+        "longitude": 31.235726
       },
       {
         "day_number": 5,
@@ -9892,7 +11114,9 @@
           "Return to Aswan by mid-afternoon"
         ],
         "drive_time": "About 3.5-4 hrs each way by road (280 km); a 45-min flight is also available",
-        "lodging_suggestion": "Aswan"
+        "lodging_suggestion": "Aswan",
+        "latitude": 22.33712,
+        "longitude": 31.625797
       },
       {
         "day_number": 6,
@@ -9902,7 +11126,9 @@
           "Sail to Kom Ombo, visit the twin temple of Sobek and Horus",
           "Continue overnight toward Edfu"
         ],
-        "lodging_suggestion": "Nile cruise ship"
+        "lodging_suggestion": "Nile cruise ship",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 7,
@@ -9912,7 +11138,9 @@
           "Sail through the Esna lock",
           "Arrive Luxor; sunset felucca or free evening"
         ],
-        "lodging_suggestion": "Nile cruise ship / Luxor"
+        "lodging_suggestion": "Nile cruise ship / Luxor",
+        "latitude": 24.980278,
+        "longitude": 32.874722
       },
       {
         "day_number": 8,
@@ -9922,7 +11150,9 @@
           "Karnak Temple and Luxor Temple",
           "Fly Luxor → Cairo for onward departure"
         ],
-        "lodging_suggestion": "n/a (departure day)"
+        "lodging_suggestion": "n/a (departure day)",
+        "latitude": 25.702096,
+        "longitude": 32.647186
       }
     ],
     "food_culture": [

@@ -5,6 +5,13 @@ export type TripDay = {
   driveTime?: string | null;
   lodgingSuggestion?: string | null;
   coffeeWifiSpot?: string | null;
+  // Carried over from the source itinerary when a trip is created from one, so
+  // the trip can draw its own route map. Optional because a from-scratch trip
+  // has no coordinates and a hand-edited day may lose them — the map simply
+  // omits those days. Trips created before this field existed fall back to
+  // their linked itinerary's coordinates at render time.
+  latitude?: number | null;
+  longitude?: number | null;
 };
 
 export type TripStatus = "idea" | "planning" | "booked" | "completed";

@@ -568,6 +568,58 @@ not "simplifying" away:
   delayed flight, and plenty of airlines apply a six-month rule at check-in regardless of
   what the destination requires.
 
+## Geography — where coordinates come from and why they're never live
+
+Three models carry coordinates, all geocoded **once at authoring time** into the
+seed files and never looked up at request time. Nominatim allows 1 req/sec,
+requires a real User-Agent, and forbids autocomplete, so a per-render lookup
+would breach its terms and be unusably slow.
+
+| Model | Source of the query | Script |
+|---|---|---|
+| `StatePlace` | place name + nearest town + state | `scripts/geocode_places.py` |
+| `ItineraryDay` | the day's title, cleaned | `scripts/geocode_itineraries.py` |
+| `CountryFact` | `climate_reference_city` | `scripts/geocode_itineraries.py --countries` |
+
+`TripDay` carries coordinates copied from the source itinerary at trip
+creation; trips predating that fall back to the itinerary's days matched on day
+number, so old trips still get a map.
+
+After re-running either script: **`npm run seed:coords`**, which updates the
+coordinate columns in place rather than going through the destructive full
+reseed.
+
+**The rule everywhere: a wrong pin is worse than no pin.** Anything that can't
+be placed confidently keeps `latitude: null` and is simply left off the map,
+with the count of omissions shown to the reader. Three defences produce that,
+and all three exist because they caught real failures:
+
+1. **State bounding boxes.** A naive first-hit lookup puts Montana trailheads
+   in Florida.
+2. **Nominatim's `countrycodes` filter** on itinerary days, plus the state box
+   for domestic ones — `countrycodes=us` alone still leaves 2,000 miles of room.
+3. **Outlier rejection against the itinerary's own median** (`reject_outliers`,
+   800km). This is the one that matters most: constraining to a *country* is
+   useless for a large one. "Waterfalls" in a Bali itinerary resolved to North
+   Sulawesi, ~2,000km away, and passed every other check. The median is used
+   rather than the mean so a single bad point can't drag the centre toward
+   itself and start rejecting the good stops.
+
+Day titles are also cleaned before lookup, and that cleaning is fussier than it
+looks. `"Seward → Denali"` is a day that *starts* at Seward — querying the whole
+string returned Anchorage, which is neither end. A bare generic noun
+(`"Waterfalls"`, `"Temples"`) is rejected outright rather than queried, because
+it will match *somewhere*. But the trailing-word stripper deliberately does not
+strip `"beaches"`: `"Black sand beaches"` is a real place and stripping it
+produced the meaningless query `"Black sand"`. Be conservative here — the
+outlier check is the safety net, so the cleaner doesn't need to be clever.
+
+Rendering: `PlaceMap` for an unordered set coloured by category (state guides),
+`RouteMap` for an ordered, numbered, connected sequence (itineraries and trips).
+`RouteMap`'s connecting line is dashed and captioned as travel *order*, not a
+driving route — we have no routing data and drawing a road that may not exist
+would be the same class of fabrication as inventing a drive time.
+
 ## The product-change process (research → design → build → verify)
 
 Content already has a pipeline (research agent → validator → seed). Product and

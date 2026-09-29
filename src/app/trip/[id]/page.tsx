@@ -19,6 +19,7 @@ import { generatePackingList } from "@/lib/packing";
 import { estimateTripCost, type CostTier } from "@/lib/costs";
 import { flightSearchLinks, staySearchLink } from "@/lib/flights";
 import { getWeatherOutlook } from "@/lib/weather";
+import RouteMap from "@/components/RouteMap";
 import WeatherPanel from "@/components/WeatherPanel";
 import type { TripDay, TripStatus } from "@/lib/types";
 
@@ -125,6 +126,40 @@ export default async function TripPage({ params }: { params: { id: string } }) {
 
   const climate = climateForDateRange(fact?.climate ?? [], trip.startDate, trip.endDate);
 
+  // Route stops for the map. Trips created from an itinerary carry coordinates
+  // in their own day plan; trips created before that field existed don't, so
+  // fall back to the source itinerary's days matched on day number. A
+  // from-scratch trip has neither and simply gets no map.
+  let routeDays: { dayNumber: number; title: string; latitude: number; longitude: number }[] =
+    days
+      .filter((d): d is TripDay & { latitude: number; longitude: number } =>
+        typeof d.latitude === "number" && typeof d.longitude === "number"
+      )
+      .map((d) => ({
+        dayNumber: d.dayNumber,
+        title: d.title,
+        latitude: d.latitude,
+        longitude: d.longitude,
+      }));
+
+  if (routeDays.length === 0 && trip.itineraryId) {
+    const sourceDays = await prisma.itineraryDay.findMany({
+      where: { itineraryId: trip.itineraryId, latitude: { not: null } },
+      select: { dayNumber: true, title: true, latitude: true, longitude: true },
+      orderBy: { dayNumber: "asc" },
+    });
+    const byDay = new Map(days.map((d) => [d.dayNumber, d.title]));
+    routeDays = sourceDays
+      .filter((d) => byDay.has(d.dayNumber))
+      .map((d) => ({
+        dayNumber: d.dayNumber,
+        // Prefer the trip's own (possibly edited) title over the itinerary's.
+        title: byDay.get(d.dayNumber) ?? d.title,
+        latitude: d.latitude!,
+        longitude: d.longitude!,
+      }));
+  }
+
   // A real forecast when the trip is close enough for one to exist, the
   // destination's climate normals when it isn't — see src/lib/weather.ts for
   // why we don't buy the long-range "forecast" endpoint to paper over that.
@@ -182,6 +217,16 @@ export default async function TripPage({ params }: { params: { id: string } }) {
       <Reveal>
         <EntryReadiness report={report} />
       </Reveal>
+
+      {routeDays.length > 0 && (
+        <Reveal>
+          <RouteMap
+            heading="Your route"
+            stops={routeDays}
+            unmappedCount={days.length - routeDays.length}
+          />
+        </Reveal>
+      )}
 
       {weather && (
         <Reveal>

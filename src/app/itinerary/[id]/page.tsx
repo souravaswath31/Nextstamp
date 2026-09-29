@@ -10,6 +10,7 @@ import { CATEGORY_LABELS, CATEGORY_COLOR_CLASSES } from "@/lib/types";
 import { generatePackingList } from "@/lib/packing";
 import { estimateTripCost, getBudgetBreakdown, formatUsd } from "@/lib/costs";
 import BackButton from "@/components/BackButton";
+import RouteMap from "@/components/RouteMap";
 import {
   CalendarDays,
   Sun,
@@ -243,6 +244,24 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
             </div>
           )}
         </section>
+      </Reveal>
+
+      <Reveal>
+        <RouteMap
+          heading="Where this trip goes"
+          stops={itinerary.days
+            .filter(
+              (d): d is typeof d & { latitude: number; longitude: number } =>
+                d.latitude !== null && d.longitude !== null
+            )
+            .map((d) => ({
+              dayNumber: d.dayNumber,
+              title: d.title,
+              latitude: d.latitude,
+              longitude: d.longitude,
+            }))}
+          unmappedCount={itinerary.days.filter((d) => d.latitude === null).length}
+        />
       </Reveal>
 
       <Reveal>
