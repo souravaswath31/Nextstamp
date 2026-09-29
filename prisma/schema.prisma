@@ -36,6 +36,7 @@ model User {
   tripCollaborations TripCollaborator[]
   expensesPaid       TripExpense[]
   packingClaims      TripPackingItem[]
+  savedPlaces        TripSavedPlace[]
 }
 
 // A visa, residency permit, or similar document the user holds beyond
@@ -170,6 +171,41 @@ model UserTrip {
   collaborators TripCollaborator[]
   packingItems  TripPackingItem[]
   expenses      TripExpense[]
+  savedPlaces   TripSavedPlace[]
+}
+
+// A place pulled into a trip from the content library — a state-guide place,
+// or anything else worth remembering.
+//
+// This is the bridge that was missing: NextStamp had 840 curated places and
+// 114 itineraries, and the only thing a person could actually pull into a plan
+// was a whole itinerary. Reading about Maroon Bells in the Colorado guide and
+// then retyping it into a day was the entire workflow.
+//
+// Deliberately a holding list rather than a direct write into a day: when
+// you're browsing you rarely know yet which day something belongs on, and
+// forcing that choice at save time is what makes people not bother. Slotting a
+// saved place into a day is a separate, later action (addSavedPlaceToDay).
+model TripSavedPlace {
+  id         String   @id @default(cuid())
+  tripId     String
+  name       String
+  note       String?
+  // Where it came from, so the trip can link back to the guide it was read in.
+  sourceKind String? // "state_place" | "country" | "manual"
+  sourceSlug String? // e.g. the StateGuide slug, for a link back
+  latitude   Float?
+  longitude  Float?
+  // Set once it's been slotted into a day, so it can show as used without
+  // disappearing — people want to see what they've already placed.
+  usedOnDay  Int?
+  addedById  String?
+  createdAt  DateTime @default(now())
+
+  trip    UserTrip @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  addedBy User?    @relation(fields: [addedById], references: [id], onDelete: SetNull)
+
+  @@unique([tripId, name])
 }
 
 // The packing list, made stateful. src/lib/packing.ts still generates the
@@ -244,8 +280,8 @@ model CountryFact {
 
   // Entry readiness — the fields src/lib/readiness.ts checks a real trip against.
   passportValidityRule              String
-  passportValidityMonthsBeyondEntry Int     @default(0)
-  passportValidityBasis             String  @default("none") // "entry" | "exit" | "duration-of-stay" | "none"
+  passportValidityMonthsBeyondEntry Int      @default(0)
+  passportValidityBasis             String   @default("none") // "entry" | "exit" | "duration-of-stay" | "none"
   blankPagesRequired                Int?
   // Tri-state on purpose. true = the destination's own rules state it;
   // false = confirmed not required; null = nobody could confirm either way.

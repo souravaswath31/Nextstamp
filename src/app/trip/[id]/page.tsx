@@ -20,6 +20,7 @@ import { estimateTripCost, type CostTier } from "@/lib/costs";
 import { flightSearchLinks, staySearchLink } from "@/lib/flights";
 import { getWeatherOutlook } from "@/lib/weather";
 import RouteMap from "@/components/RouteMap";
+import SavedPlaces from "@/components/SavedPlaces";
 import WeatherPanel from "@/components/WeatherPanel";
 import type { TripDay, TripStatus } from "@/lib/types";
 
@@ -61,7 +62,7 @@ export default async function TripPage({ params }: { params: { id: string } }) {
   // Everything the briefing needs, in parallel — four independent network
   // calls (two advisory sources, a rate, a holiday calendar), none of which
   // should serialize behind the others. All of them degrade to null/[].
-  const [holidays, rate, fcdo, stateDept, savedPacking, expenses, knownDestinations] =
+  const [holidays, rate, fcdo, stateDept, savedPacking, expenses, savedPlaces, knownDestinations] =
     await Promise.all([
       trip.startDate
         ? getHolidaysDuring(fact?.iso2, trip.startDate, trip.endDate)
@@ -78,6 +79,10 @@ export default async function TripPage({ params }: { params: { id: string } }) {
         where: { tripId: trip.id },
         include: { paidBy: { select: { name: true } } },
         orderBy: { spentOn: "desc" },
+      }),
+      prisma.tripSavedPlace.findMany({
+        where: { tripId: trip.id },
+        orderBy: { createdAt: "asc" },
       }),
       // Suggestions for the destination field: anywhere we have a researched
       // visa rule for this passport, plus anywhere we have country facts.
@@ -272,6 +277,22 @@ export default async function TripPage({ params }: { params: { id: string } }) {
           checks above still apply.
         </p>
       )}
+
+      <Reveal>
+        <SavedPlaces
+          tripId={trip.id}
+          places={savedPlaces.map((p) => ({
+            id: p.id,
+            name: p.name,
+            note: p.note,
+            sourceKind: p.sourceKind,
+            sourceSlug: p.sourceSlug,
+            usedOnDay: p.usedOnDay,
+            hasCoords: p.latitude !== null && p.longitude !== null,
+          }))}
+          dayNumbers={days.map((d) => d.dayNumber)}
+        />
+      </Reveal>
 
       <Reveal>
         <PackingChecklist

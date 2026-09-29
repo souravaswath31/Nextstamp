@@ -331,6 +331,102 @@ export async function removePackingItem(tripId: string, itemId: string) {
   revalidatePath(`/trip/${tripId}`);
 }
 
+// --- Saved places ----------------------------------------------------------
+// The bridge between the content library and the planner. Saving is separate
+// from slotting into a day because when you're browsing you rarely know yet
+// which day something belongs on — see the TripSavedPlace model comment.
+
+export type SavePlaceInput = {
+  name: string;
+  note?: string | null;
+  sourceKind?: string | null;
+  sourceSlug?: string | null;
+  latitude?: number | null;
+  longitude?: number | null;
+};
+
+export async function savePlaceToTrip(tripId: string, place: SavePlaceInput) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
+  const name = place.name.trim();
+  if (!name) return;
+
+  // Upsert rather than create: saving the same place twice from the guide is a
+  // thing people do, and it should be a no-op rather than an error.
+  await prisma.tripSavedPlace.upsert({
+    where: { tripId_name: { tripId, name } },
+    create: {
+      tripId,
+      name,
+      note: place.note?.trim() || null,
+      sourceKind: place.sourceKind ?? null,
+      sourceSlug: place.sourceSlug ?? null,
+      latitude: place.latitude ?? null,
+      longitude: place.longitude ?? null,
+      addedById: user.id,
+    },
+    update: {},
+  });
+
+  revalidatePath(`/trip/${tripId}`);
+}
+
+export async function removeSavedPlace(tripId: string, placeId: string) {
+  const user = await getCurrentUser();
+  const { canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!canEdit) throw new Error("You don't have access to this trip.");
+
+  // Scoped by tripId too, so an id from another trip can't be deleted through
+  // one the caller does have access to.
+  await prisma.tripSavedPlace.deleteMany({ where: { id: placeId, tripId } });
+  revalidatePath(`/trip/${tripId}`);
+}
+
+/**
+ * Move a saved place onto a specific day of the plan.
+ *
+ * Appends to that day's activities and marks the saved place as used rather
+ * than deleting it — people want to see what they've already placed, and
+ * making it vanish reads like it was lost.
+ */
+export async function addSavedPlaceToDay(tripId: string, placeId: string, dayNumber: number) {
+  const user = await getCurrentUser();
+  const { trip, canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!trip || !canEdit) throw new Error("You don't have access to this trip.");
+
+  const place = await prisma.tripSavedPlace.findFirst({ where: { id: placeId, tripId } });
+  if (!place) return;
+
+  let days: TripDay[] = [];
+  try {
+    const parsed = JSON.parse(trip.customDaysJson);
+    if (Array.isArray(parsed)) days = parsed;
+  } catch {
+    return; // A corrupted day plan is handled on the page; don't compound it.
+  }
+
+  const target = days.find((d) => d.dayNumber === dayNumber);
+  if (!target) return;
+
+  const entry = place.note ? `${place.name} — ${place.note}` : place.name;
+  if (!target.activities.includes(entry)) {
+    target.activities = [...target.activities, entry];
+  }
+
+  await prisma.userTrip.update({
+    where: { id: tripId },
+    data: { customDaysJson: JSON.stringify(days) },
+  });
+  await prisma.tripSavedPlace.update({
+    where: { id: placeId },
+    data: { usedOnDay: dayNumber },
+  });
+
+  revalidatePath(`/trip/${tripId}`);
+}
+
 // --- Expenses --------------------------------------------------------------
 export async function addExpense(tripId: string, formData: FormData) {
   const user = await getCurrentUser();

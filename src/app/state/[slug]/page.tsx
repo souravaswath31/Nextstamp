@@ -4,6 +4,8 @@ import TerrainHero from "@/components/TerrainHero";
 import BackButton from "@/components/BackButton";
 import Reveal from "@/components/Reveal";
 import PlaceMap from "@/components/PlaceMap";
+import AddToTripButton from "@/components/AddToTripButton";
+import { getOptionalUser } from "@/lib/currentUser";
 import { CalendarRange, ThermometerSun, TicketCheck, Backpack } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -58,6 +60,21 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
   });
 
   if (!state) notFound();
+
+  // State guides are public, so this may be nobody. The add-to-trip control
+  // handles all three cases (signed out / no trips / has trips) itself.
+  const user = await getOptionalUser();
+  const trips = user
+    ? await prisma.userTrip.findMany({
+        where: {
+          OR: [{ userId: user.id }, { collaborators: { some: { userId: user.id } } }],
+          status: { not: "completed" },
+        },
+        select: { id: true, title: true },
+        orderBy: { updatedAt: "desc" },
+        take: 12,
+      })
+    : [];
 
   const byCategory = (cat: string) => state.places.filter((p) => p.category === cat);
 
@@ -167,6 +184,20 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
                     {p.nearestTown && (
                       <p className="mt-1 font-body text-xs text-ink/40">Near {p.nearestTown}</p>
                     )}
+                    <div className="mt-3">
+                      <AddToTripButton
+                        isSignedIn={Boolean(user)}
+                        trips={trips}
+                        place={{
+                          name: p.name,
+                          note: p.tip,
+                          sourceKind: "state_place",
+                          sourceSlug: state.slug,
+                          latitude: p.latitude,
+                          longitude: p.longitude,
+                        }}
+                      />
+                    </div>
                   </div>
                 ))}
               </div>
