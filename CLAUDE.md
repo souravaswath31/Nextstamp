@@ -685,10 +685,14 @@ explains the failure in human terms rather than showing Supabase's raw string �
 it tells the person it's our limit, not their mistake, and that retrying won't
 help. That's damage control, not a fix.
 
-A second, larger fix worth considering: add an OAuth provider (Google is the
-obvious one for a travel app) so there's a sign-in path that sends no email at
-all. That's a real code change — `signInWithOAuth`, a provider configured in
-Supabase, and a callback already exists at `src/app/auth/callback/route.ts`.
+**Done, and this is why nobody is actually locked out today:** Google sign-in
+(`signInWithOAuth`) ships alongside magic link on the login page and sends no
+email at all, so it isn't subject to this cap. It's enabled in Supabase
+(confirmed via the project's own `/auth/v1/settings` endpoint — `google: true`)
+and `/auth/callback` handles both flows through the same PKCE exchange. Magic
+link stays as the fallback for anyone who won't use Google, and *that* path is
+still capped at 2/hour until custom SMTP is set up — this section's fix is
+still worth doing, just no longer urgent.
 
 ## Known loose ends
 
