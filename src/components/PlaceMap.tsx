@@ -6,6 +6,7 @@ import { MapPinned } from "lucide-react";
 // imports from client components and scopes them to the routes that use them;
 // a dynamic import() of CSS has no types and buys nothing here.
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMapLibre } from "@/lib/maplibre";
 
 // Map of a state guide's places.
 //
@@ -70,8 +71,9 @@ export default function PlaceMap({
     (async () => {
       try {
         // The library itself is still loaded lazily — it's ~200KB and most
-        // pages never show a map.
-        const maplibre = await import("maplibre-gl");
+        // pages never show a map. loadMapLibre() also points its worker at a
+        // CDN — see the function's own comment for why that's required.
+        const maplibre = await loadMapLibre();
         if (cancelled || !containerRef.current) return;
 
         const lats = places.map((p) => p.latitude);

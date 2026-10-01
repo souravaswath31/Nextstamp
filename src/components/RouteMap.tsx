@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Route } from "lucide-react";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMapLibre } from "@/lib/maplibre";
 
 /**
  * A trip or itinerary drawn as an ordered route: numbered pins in day order,
@@ -49,7 +50,9 @@ export default function RouteMap({
 
     (async () => {
       try {
-        const maplibre = await import("maplibre-gl");
+        // loadMapLibre() also points the worker at a CDN — see its own
+        // comment for why Next.js's bundling of it breaks otherwise.
+        const maplibre = await loadMapLibre();
         if (cancelled || !containerRef.current) return;
 
         const lons = stops.map((s) => s.longitude);
