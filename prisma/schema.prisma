@@ -96,6 +96,12 @@ model ItineraryDay {
   // pinned somewhere plausible-looking.
   latitude          Float?
   longitude         Float?
+  // The town where you'd actually EAT on this day, matched to a RoadEatStop.
+  // Not the same as the day's title: titles are often an activity ("Lost Mine
+  // Trail", "Cadillac Mountain") and nobody eats on a trail — the answer is the
+  // gateway town (Terlingua, Bar Harbor). Null for days with no realistic
+  // answer, e.g. "Depart".
+  eatTown           String?
 
   itinerary Itinerary @relation(fields: [itineraryId], references: [id], onDelete: Cascade)
 }
@@ -260,6 +266,56 @@ model TripExpense {
 
   trip   UserTrip @relation(fields: [tripId], references: [id], onDelete: Cascade)
   paidBy User     @relation(fields: [paidById], references: [id], onDelete: Cascade)
+}
+
+// Where to eat along a road-trip route.
+//
+// NextStamp had food content, but it answered the wrong question: 222 state
+// entries about what a state TASTES like (green chile, Palisade peaches) and
+// nothing about where to stop for lunch on day 3. A road-tripper — and
+// everything in this app is a road trip — needs a few real eats per stop.
+//
+// regionKey is a state slug ("texas") or a country name for international
+// routes, matching how Itinerary.relatedStateSlugs / .countries already work.
+//
+// This is the most perishable data in the project: restaurants close, change
+// hours and go seasonal. Every eat therefore carries openEvidence (what was
+// seen, and where) and every stop carries lastVerifiedDate, and the UI says so
+// rather than presenting it as permanent. See CLAUDE.md, "Road food".
+model RoadEatStop {
+  id               String   @id @default(cuid())
+  regionKey        String
+  town             String
+  // Logistics where the honest answer is "options are thin" — e.g. no dining
+  // inside a national park, nearest full meal 11 miles on. Sourced.
+  note             String?
+  noteSourceUrl    String?
+  lastVerifiedDate DateTime
+
+  eats RoadEat[]
+
+  @@unique([regionKey, town])
+}
+
+model RoadEat {
+  id           String  @id @default(cuid())
+  stopId       String
+  name         String
+  kind         String // "diner" | "bbq" | "bakery" | "cafe" | "brewery" | "market" | "regional" | "dessert" | "drive_in" | "seafood"
+  meal         String // "breakfast" | "lunch" | "dinner" | "snack" | "any"
+  whatToOrder  String
+  why          String
+  priceTier    String? // "$" | "$$" | "$$$" — only when a source states it
+  // Closed days, seasons, cash-only — only as stated by a source. Null means
+  // nothing was stated, NOT "open year-round".
+  hoursNote    String?
+  // One sentence: what proves it is currently operating, and where it was seen.
+  openEvidence String
+  sourceUrl    String
+  sourceName   String
+  sortOrder    Int     @default(0)
+
+  stop RoadEatStop @relation(fields: [stopId], references: [id], onDelete: Cascade)
 }
 
 // Everything a traveller needs to know about a destination that isn't the

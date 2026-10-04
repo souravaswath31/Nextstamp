@@ -10,6 +10,7 @@
     "seed": "tsx prisma/seed.ts",
     "seed:countries": "tsx prisma/seed-countries.ts",
     "seed:coords": "tsx prisma/seed-place-coords.ts",
+    "seed:eats": "tsx prisma/seed-road-eats.ts",
     "db:push": "prisma db push",
     "postinstall": "prisma generate",
     "test": "vitest run"

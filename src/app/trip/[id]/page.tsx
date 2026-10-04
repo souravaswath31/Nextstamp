@@ -21,6 +21,8 @@ import { flightSearchLinks, staySearchLink } from "@/lib/flights";
 import { getWeatherOutlook } from "@/lib/weather";
 import RouteMap from "@/components/RouteMap";
 import SavedPlaces from "@/components/SavedPlaces";
+import RoadEats from "@/components/RoadEats";
+import { groupEatsByTown, regionKeysForItinerary } from "@/lib/roadEats";
 import WeatherPanel from "@/components/WeatherPanel";
 import type { TripDay, TripStatus } from "@/lib/types";
 
@@ -165,6 +167,37 @@ export default async function TripPage({ params }: { params: { id: string } }) {
       }));
   }
 
+  // Eats along the route. Trips don't store an eat town of their own, so it comes
+  // from the itinerary the trip was built from, matched on day number — and only
+  // for days still in the trip, since people delete days. A from-scratch trip has
+  // no itinerary and so no route-specific eats; the destination guide still
+  // covers it.
+  let eatGroups: ReturnType<typeof groupEatsByTown> = [];
+  if (trip.itineraryId) {
+    const source = await prisma.itinerary.findUnique({
+      where: { id: trip.itineraryId },
+      select: {
+        relatedStateSlugs: true,
+        countries: true,
+        days: { select: { dayNumber: true, eatTown: true } },
+      },
+    });
+    if (source) {
+      const live = new Set(days.map((d) => d.dayNumber));
+      const sourceDays = source.days.filter((d) => live.has(d.dayNumber));
+      const towns = Array.from(
+        new Set(sourceDays.map((d) => d.eatTown).filter((x): x is string => Boolean(x)))
+      );
+      if (towns.length > 0) {
+        const stops = await prisma.roadEatStop.findMany({
+          where: { regionKey: { in: regionKeysForItinerary(source) }, town: { in: towns } },
+          include: { eats: { orderBy: { sortOrder: "asc" } } },
+        });
+        eatGroups = groupEatsByTown(sourceDays, stops);
+      }
+    }
+  }
+
   // A real forecast when the trip is close enough for one to exist, the
   // destination's climate normals when it isn't — see src/lib/weather.ts for
   // why we don't buy the long-range "forecast" endpoint to paper over that.
@@ -276,6 +309,19 @@ export default async function TripPage({ params }: { params: { id: string } }) {
           climate, money, plug, emergency-number or phrasebook data. The visa answer and entry
           checks above still apply.
         </p>
+      )}
+
+      {eatGroups.length > 0 && (
+        <Reveal>
+          <RoadEats
+            groups={eatGroups}
+            heading="Eat along your route"
+            // This trip is the only one that makes sense to save to from here,
+            // and with a single trip the control saves in one click.
+            trips={[{ id: trip.id, title: trip.title }]}
+            isSignedIn
+          />
+        </Reveal>
       )}
 
       <Reveal>

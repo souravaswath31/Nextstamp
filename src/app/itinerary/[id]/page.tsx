@@ -11,6 +11,8 @@ import { generatePackingList } from "@/lib/packing";
 import { estimateTripCost, getBudgetBreakdown, formatUsd } from "@/lib/costs";
 import BackButton from "@/components/BackButton";
 import RouteMap from "@/components/RouteMap";
+import RoadEats from "@/components/RoadEats";
+import { groupEatsByTown, regionKeysForItinerary } from "@/lib/roadEats";
 import {
   CalendarDays,
   Sun,
@@ -102,6 +104,37 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
   const relatedStateSlugs = itinerary.relatedStateSlugs ? itinerary.relatedStateSlugs.split(",").filter(Boolean) : [];
   const relatedStates = relatedStateSlugs.length > 0
     ? await prisma.stateGuide.findMany({ where: { slug: { in: relatedStateSlugs } } })
+    : [];
+
+  // Eats along the route. A day's eatTown is the town you'd actually eat in —
+  // not its title, which is often a trail — matched to a researched stop.
+  const eatTowns = Array.from(
+    new Set(itinerary.days.map((d) => d.eatTown).filter((t): t is string => Boolean(t)))
+  );
+  const eatStops =
+    eatTowns.length > 0
+      ? await prisma.roadEatStop.findMany({
+          where: { regionKey: { in: regionKeysForItinerary(itinerary) }, town: { in: eatTowns } },
+          include: { eats: { orderBy: { sortOrder: "asc" } } },
+        })
+      : [];
+  const eatGroups = groupEatsByTown(
+    itinerary.days.map((d) => ({ dayNumber: d.dayNumber, eatTown: d.eatTown })),
+    eatStops
+  );
+
+  // For the add-to-trip control on each eat. This page is public, so the
+  // control handles signed-out and no-trips itself.
+  const myTrips = user
+    ? await prisma.userTrip.findMany({
+        where: {
+          OR: [{ userId: user.id }, { collaborators: { some: { userId: user.id } } }],
+          status: { not: "completed" },
+        },
+        select: { id: true, title: true },
+        orderBy: { updatedAt: "desc" },
+        take: 12,
+      })
     : [];
 
   const createTrip = createTripFromItinerary.bind(null, itinerary.id);
@@ -301,6 +334,16 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
         </section>
       </Reveal>
 
+
+      {eatGroups.length > 0 && (
+        <Reveal>
+          <RoadEats
+            groups={eatGroups}
+            trips={myTrips}
+            isSignedIn={Boolean(user)}
+          />
+        </Reveal>
+      )}
       {itinerary.notes.length > 0 && (
         <Reveal>
           <section>

@@ -1,0 +1,805 @@
+[
+  {
+    "region_key": "maine",
+    "last_verified_date": "2026-10-03",
+    "stops": [
+      {
+        "town": "Bar Harbor",
+        "eats": [
+          {
+            "name": "Jordan's Restaurant",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Maine blueberry products, which the site says the restaurant specialises in; the site lists breakfast and lunch menus.",
+            "why": "A local, home-style breakfast counter at 80 Cottage Street started by the Paine family in 1976, and one of the earliest openers in town at 5 AM.",
+            "price_tier": null,
+            "hours_note": "Own site lists open daily 5:00 AM-2:00 PM and gives no closing dates; the Bar Harbor chamber listing describes it as open seasonally without stating dates.",
+            "open_evidence": "Own website lists daily hours, a current breakfast/lunch menu with an ordering system, and says it is celebrating its 50th anniversary (1976 + 50 = 2026) (viewed 2026-10-03).",
+            "source_url": "https://jordanswildblueberry.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Trenton Bridge Lobster Pound",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Lobster rolls, which the site calls a fan favorite, or steamed lobsters, clams and mussels.",
+            "why": "A family lobster pound in Trenton on the mainland approach to Mount Desert Island, operating since 1956 per its site.",
+            "price_tier": null,
+            "hours_note": "In-season retail and dine-in dates listed as June 21, 2026 through October 25, 2026; the site lists off-season hours of Monday-Friday 8:30 AM-4:30 PM with Saturday call ahead.",
+            "open_evidence": "Own website lists 2026 in-season dates running through October 25, 2026, plus current off-season hours (viewed 2026-10-03).",
+            "source_url": "https://www.trentonbridgelobster.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Portland",
+        "eats": [
+          {
+            "name": "Becky's Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast, lunch or dinner; the venue's page does not name specific dishes (full menu is a PDF on its site).",
+            "why": "A working-waterfront diner on Commercial Street serving since 1991 and opening at 5 AM.",
+            "price_tier": null,
+            "hours_note": "Open 7 days a week 5AM-9PM; open until noon on July 4th and Christmas Eve; closed Thanksgiving and Christmas.",
+            "open_evidence": "Own website lists current hours and holiday closures (viewed 2026-10-03); the page shows no year.",
+            "source_url": "https://www.beckysdiner.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Tandem Coffee + Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Cinnamon rolls and pies, which the site mentions among its baked goods.",
+            "why": "The Congress Street bakery counterpart to Tandem's Anderson Street roastery, in the Portland neighborhoods the itinerary walks on day 2.",
+            "price_tier": null,
+            "hours_note": "Coffee + Bakery at 742 Congress St listed open 7 days a week 8am-1pm, with same-day online pickup ordering 7:45am-10:15am.",
+            "open_evidence": "Own website lists current hours at both locations and carries a 2026 copyright footer (viewed 2026-10-03).",
+            "source_url": "https://www.tandemcoffee.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Duckfat",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Belgian-style frites, hand-punched and twice-fried in duck fat and served in cones.",
+            "why": "Portland's duck-fat frites spot at 43 Middle Street, operating since 2005 per its site.",
+            "price_tier": null,
+            "hours_note": "Open daily 11AM-10PM; first come, first served.",
+            "open_evidence": "Own website lists current daily hours and both locations (viewed 2026-10-03); the page shows no year.",
+            "source_url": "https://www.duckfat.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Eventide Oyster Co.",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The Brown Butter Lobster Roll, plus oysters and the fish sandwich, all named on the site.",
+            "why": "The oyster bar the Portland itinerary builds its day-1 dinner around, on Middle Street in the Old Port.",
+            "price_tier": null,
+            "hours_note": "Open 7 days a week 11am-11pm; first come, first served with limited reservations through Resy; diners are asked to limit their time to 2 hours.",
+            "open_evidence": "Own Portland page lists hours and says it is currently booking reservations within 2 weeks of today's date (viewed 2026-10-03).",
+            "source_url": "https://www.eventideoysterco.com/portland",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Freeport",
+        "note": "Only two Freeport places are verified here: a lobster pound whose season ends October 12, 2026 and a brewery taproom. Check dates before relying on the lobster pound in autumn.",
+        "note_source_url": "https://www.harraseeketlunchandlobster.com",
+        "eats": [
+          {
+            "name": "Harraseeket Lunch & Lobster Co.",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Lobster rolls, clams and Maine shrimp, with whoopie pies and pies for dessert, all named on the site.",
+            "why": "A family-run waterfront lobster pound and lunch counter in South Freeport, running since 1970 per its site, with indoor and outdoor seating.",
+            "price_tier": null,
+            "hours_note": "Seasonal, May through October: Thursday-Tuesday 11:00am-4:00pm, closed Wednesdays; the site gives the last day of the season as Columbus Day 10/12/2026; cash only (ATM on site).",
+            "open_evidence": "Own website lists current hours and states 'Last Day for Season: Columbus Day 10/12/2026' (viewed 2026-10-03).",
+            "source_url": "https://www.harraseeketlunchandlobster.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Maine Beer Company",
+            "kind": "brewery",
+            "meal": "snack",
+            "what_to_order": "IPAs and pale ales, which the site says it is known for, plus seasonal releases such as Black Barn.",
+            "why": "Freeport's own brewery, founded in 2009, with a tasting room and bottle shop on US Route 1.",
+            "price_tier": null,
+            "hours_note": "Tasting room open daily 11am-8pm Sun-Thurs and 11am-9pm Fri-Sat; bottle shop opens at 10am daily. The page gives no food policy.",
+            "open_evidence": "Own website lists current tasting room hours and carries a 2026 copyright notice (viewed 2026-10-03).",
+            "source_url": "https://www.mainebeercompany.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Boothbay Harbor",
+        "note": "Many Boothbay-area eateries are seasonal; the region's own dining directory tells visitors to check individual listings for hours and seasonal operation. Only two places that state year-round operation are verified here.",
+        "note_source_url": "https://www.boothbayharbor.com/dine/",
+        "eats": [
+          {
+            "name": "Brady's",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Classic American cuisine; the page names no specific dishes.",
+            "why": "A Union Street restaurant that says it is open all year, handy when the harbor's seasonal places have closed.",
+            "price_tier": null,
+            "hours_note": "Site says it is open all year; Monday closed, Tuesday-Saturday 11:30 AM-8:00 PM, Sunday 7:30 AM-4:00 PM.",
+            "open_evidence": "Own website lists current hours and says 'open all year long' (viewed 2026-10-03); the page shows no year.",
+            "source_url": "https://bradysboothbayharbor.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Footbridge Brewery & BBQ",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "Brisket sandwiches, burnt ends and steak pizza, with 20 beers on tap made from 90% Maine-grown ingredients.",
+            "why": "A Granary Way brewpub in the harbor area that states it operates year-round, with a pet-friendly patio.",
+            "price_tier": null,
+            "hours_note": "Site lists open daily Noon-9PM and states it operates year-round.",
+            "open_evidence": "Own website lists daily hours, says its menu was reworked over the summer, and lists an Oktoberfest event for 9/19 (viewed 2026-10-03); the page shows no year.",
+            "source_url": "https://www.footbridgebrewery.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Camden",
+        "eats": [
+          {
+            "name": "Camden Deli",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast pancakes and omelets, or a Reuben, panini or seafood chowder for lunch, all named on the site.",
+            "why": "A Camden landmark on Main Street since 1985 per its site, with a rooftop deck overlooking the harbor.",
+            "price_tier": null,
+            "hours_note": "Open 7 days a week 7am-6pm; online ordering 7am-5:30pm.",
+            "open_evidence": "Own website lists current hours and an active online ordering system (viewed 2026-10-03); the page shows no year.",
+            "source_url": "https://www.camdendeli.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Peter Ott's on the Water",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Fresh seafood with seasonal offerings; the page names no specific dishes.",
+            "why": "A harbor-front dinner spot at 16 Bayview Landing that suits the itinerary's harbor-front dinner.",
+            "price_tier": null,
+            "hours_note": "Seasonal: site says open May-October, daily 11:30am-9:00pm; walk-ins welcome, reservations for groups of eight or more. Its sister Ott's Cafe is marked closed for the 2026 season. The exact October closing date is not stated.",
+            "open_evidence": "Own website says it is open for the 2026 season daily 11:30am-9:00pm and marks Ott's Cafe closed for 2026 (viewed 2026-10-03).",
+            "source_url": "https://www.peterotts.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Salt Wharf",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Oysters and hand-crafted cocktails, which the site mentions.",
+            "why": "A dockside bar-bistro on Camden harbor, opened in 2022, whose site describes year-round harborside dining and a rooftop patio.",
+            "price_tier": null,
+            "hours_note": "Dining room Thursday-Monday 4-8 PM; rooftop/patio Friday-Monday 12-7 PM; closed Tuesday and Wednesday.",
+            "open_evidence": "Own website lists current dining room and rooftop hours and describes year-round harborside dining (viewed 2026-10-03); the page shows no year other than its 2022 opening.",
+            "source_url": "https://www.saltwharf.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Acadia & Downeast Maine",
+        "day_number": 1,
+        "town": "Bar Harbor"
+      },
+      {
+        "itinerary_title": "Acadia & Downeast Maine",
+        "day_number": 2,
+        "town": "Bar Harbor"
+      },
+      {
+        "itinerary_title": "Acadia & Downeast Maine",
+        "day_number": 3,
+        "town": "Bar Harbor"
+      },
+      {
+        "itinerary_title": "Acadia & Downeast Maine",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Acadia & Downeast Maine",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Portland, Maine & the Midcoast",
+        "day_number": 1,
+        "town": "Portland"
+      },
+      {
+        "itinerary_title": "Portland, Maine & the Midcoast",
+        "day_number": 2,
+        "town": "Portland"
+      },
+      {
+        "itinerary_title": "Portland, Maine & the Midcoast",
+        "day_number": 3,
+        "town": "Freeport"
+      },
+      {
+        "itinerary_title": "Portland, Maine & the Midcoast",
+        "day_number": 4,
+        "town": "Boothbay Harbor"
+      },
+      {
+        "itinerary_title": "Portland, Maine & the Midcoast",
+        "day_number": 5,
+        "town": "Camden"
+      },
+      {
+        "itinerary_title": "Portland, Maine & the Midcoast",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "texas",
+    "last_verified_date": "2026-10-03",
+    "stops": [
+      {
+        "town": "Terlingua",
+        "note": "Dining inside Big Bend is thin: the NPS dining page says the Mountain View Restaurant in the Chisos Basin is closed, with a food truck outside the main Lodge building; packaged food and drinks are sold at Castolon, the Chisos Basin and Rio Grande Village, and Hikers Lunches are available for picnicking. Full meals are outside the park in Terlingua and Study Butte. Our advice: plan trail-day food in advance.",
+        "note_source_url": "https://www.nps.gov/bibe/planyourvisit/dininginthepark.htm",
+        "eats": [
+          {
+            "name": "Espresso y Poco Mas",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Espresso drinks and breakfast burritos, with eggs Benedict variations, pancakes and French toast also listed.",
+            "why": "The listing calls it the only place in Terlingua for espresso and offers to-go orders aimed at early park departures.",
+            "price_tier": null,
+            "hours_note": "Listed open daily 7:30 AM to 2 PM, including Christmas morning; to-go orders available",
+            "open_evidence": "Visit Big Bend (Brewster County Tourism Council, page footer 2026) lists current daily hours, phone and menu highlights (viewed 2026-10-03)",
+            "source_url": "https://visitbigbend.com/places/espresso-y-poco-mas/",
+            "source_name": "Visit Big Bend (Brewster County Tourism Council)"
+          },
+          {
+            "name": "DB's Rustic Iron BBQ",
+            "kind": "bbq",
+            "meal": "lunch",
+            "what_to_order": "Prime-grade brisket, St. Louis-style pork ribs, smoked turkey breast, sausage or barbacoa.",
+            "why": "Central Texas-style post oak barbecue served in the Terlingua Ghost Town since 1993, which the listing says moved to a new permanent location in 2024.",
+            "price_tier": null,
+            "hours_note": "Listed open Wednesday through Monday from 11 AM until sellout; closed Tuesdays",
+            "open_evidence": "Visit Big Bend (Brewster County Tourism Council, page footer 2026) lists current hours and notes the 2024 relocation to a new permanent location (viewed 2026-10-03)",
+            "source_url": "https://visitbigbend.com/places/dbs-rustic-iron-bbq/",
+            "source_name": "Visit Big Bend (Brewster County Tourism Council)"
+          },
+          {
+            "name": "Starlight Theatre Restaurant & Saloon",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Antelope tenders, quail, brisket tacos, the Diego burger or bourbon pecan pie.",
+            "why": "Dinner in a restored 1939 Chisos Mining Company movie house in the Terlingua Ghost Town, with live Texas singer-songwriters from around 6 PM.",
+            "price_tier": null,
+            "hours_note": "Own site lists Sun-Fri 5:00 pm-12:00 am and Sat 5:00 pm-1:00 am; reservations recommended October through April",
+            "open_evidence": "Own website lists current hours and phone, and Visit Big Bend (Brewster County Tourism Council, footer 2026) lists dinner nightly from 5 PM with the same menu highlights (both viewed 2026-10-03)",
+            "source_url": "https://visitbigbend.com/places/starlight-theatre-restaurant-saloon/",
+            "source_name": "Visit Big Bend (Brewster County Tourism Council)"
+          }
+        ]
+      },
+      {
+        "town": "Austin",
+        "eats": [
+          {
+            "name": "Joe's Bakery & Coffee Shop",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Huevos Rancheros Plate, Joey Rocha Breakfast or Carne Guisada Plate.",
+            "why": "Family-run East Austin Tex-Mex breakfast counter that the site says has operated since 1962.",
+            "price_tier": null,
+            "hours_note": "Closed Mondays; Tuesday-Sunday 6:00 AM-2:00 PM; closed on holidays; breakfast all day, lunch from 10:30 AM; does not accept Apple Pay or contactless payments",
+            "open_evidence": "Own website lists current hours, menu prices and a 3% packaging fee notice (viewed 2026-10-03)",
+            "source_url": "https://www.joesbakery.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Franklin Barbecue",
+            "kind": "bbq",
+            "meal": "lunch",
+            "what_to_order": "Brisket, pork ribs, pulled pork, turkey or sausage.",
+            "why": "Its site says it uses USDA Prime brisket and heritage-breed pork and sells until sold out, typically 2-3 pm, with advance pre-orders available.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Sunday 11am until sold out (typically 2-3pm); closed Mondays; site lists closures Nov 26-27 and Dec 25-28",
+            "open_evidence": "Own website lists current hours plus upcoming events dated Oct 16-18, 2026 and upcoming holiday closures (viewed 2026-10-03)",
+            "source_url": "https://franklinbbq.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Matt's El Rancho",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Sizzling Angus beef fajitas, cheese enchiladas, pork tamales or Bob's Famous Queso.",
+            "why": "Single-location South Lamar Tex-Mex restaurant founded in 1952 that traces its roots to a 1923 tamale cart, per its own site.",
+            "price_tier": null,
+            "hours_note": "Closed Tuesdays; Mon and Sun 11am-9pm, Wed-Thu 11am-10pm, Fri-Sat 11am-11pm",
+            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer (viewed 2026-10-03)",
+            "source_url": "https://www.mattselrancho.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Fredericksburg",
+        "eats": [
+          {
+            "name": "Old German Bakery & Restaurant",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Authentic German breads and pastries, or breakfast served throughout the day and the daily specials.",
+            "why": "Established in 1975 on West Main Street and owned since 1998 by Lutz Henschel, making traditional German recipes from scratch.",
+            "price_tier": null,
+            "hours_note": "Directory lists Mon-Tue 7AM-2PM, Fri 7AM-2PM, Sat-Sun 7AM-3PM and closed Wednesday-Thursday; confirm before driving",
+            "open_evidence": "Fredericksburg Convention & Visitors Bureau directory (footer 2026) lists current hours, and its bakeries guide, last modified 2026-02-02, includes it (viewed 2026-10-03)",
+            "source_url": "https://www.visitfredericksburgtx.com/directory/old-german-bakery-restaurant/",
+            "source_name": "Visit Fredericksburg (Fredericksburg Convention & Visitors Bureau)"
+          },
+          {
+            "name": "Der Lindenbaum",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Schnitzel, steaks or sandwiches, with apfel strudel, streuselkuchen or Black Forest cake for dessert.",
+            "why": "German cooking in a limestone building built by Fredericksburg's German pioneers; the chef-owner trained in Germany and opened it first as a bakery.",
+            "price_tier": null,
+            "hours_note": "Closed Tuesdays; both the venue and the visitors bureau list lunch and dinner service on other days",
+            "open_evidence": "Own website lists current hours and Rheinland lunch specials, and the Fredericksburg Visitors Bureau directory (footer 2026) lists it with hours (both viewed 2026-10-03)",
+            "source_url": "https://www.derlindenbaum.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "New Braunfels",
+        "eats": [
+          {
+            "name": "Naegelin's Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Kolaches (bratwurst, jalapeno sausage or fruit and cheese) and apple, cherry or peach strudel.",
+            "why": "Calls itself the oldest bakery in Texas, in business since 1868, a few steps off the New Braunfels plaza.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 6:30AM-5:30PM, Saturday 6:30AM-5:00PM, Sunday 8:00AM-2:00PM",
+            "open_evidence": "Own website lists current hours and menus (viewed 2026-10-03); a New Braunfels Herald-Zeitung feature published 2024-11-01 describes it as operating and selling strudels and sweet pretzels",
+            "source_url": "https://www.naegelins.com/menus/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Gristmill River Restaurant & Bar",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Beef Tenderloin Salad, GristBurger or Jack Daniel's Pecan Pie a la mode.",
+            "why": "Dining in the ruins of an 1878 cotton gin under Gruene's water tower above the Guadalupe River, open since 1977.",
+            "price_tier": null,
+            "hours_note": "Sun-Thu 11 am-9 pm, Fri-Sat 11 am-10 pm; live music in the beer garden",
+            "open_evidence": "Own website lists current hours and a full priced menu, with a 2025 copyright footer and current hiring and holiday-party posts (viewed 2026-10-03)",
+            "source_url": "https://gristmillrestaurant.com/menu/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "San Antonio",
+        "eats": [
+          {
+            "name": "Mi Tierra Cafe & Bakery",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The all-day breakfast of Tex-Mex, Mexican and American classics, or the comida corrida lunch specials.",
+            "why": "A Market Square landmark that grew from a three-table cafe in 1941, with a bakery counter.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website (La Familia Cortez) announces La Gran Tamalada for September 22, 2026 at Market Square and lists current happy-hour times (viewed 2026-10-03)",
+            "source_url": "https://lafamiliacortez.com/mi-tierra/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Big Bend National Park, Texas",
+        "day_number": 1,
+        "town": "Terlingua"
+      },
+      {
+        "itinerary_title": "Big Bend National Park, Texas",
+        "day_number": 2,
+        "town": "Terlingua"
+      },
+      {
+        "itinerary_title": "Big Bend National Park, Texas",
+        "day_number": 3,
+        "town": "Terlingua"
+      },
+      {
+        "itinerary_title": "Big Bend National Park, Texas",
+        "day_number": 4,
+        "town": "Terlingua"
+      },
+      {
+        "itinerary_title": "Texas Hill Country: Austin to San Antonio",
+        "day_number": 1,
+        "town": "Austin"
+      },
+      {
+        "itinerary_title": "Texas Hill Country: Austin to San Antonio",
+        "day_number": 2,
+        "town": "Austin"
+      },
+      {
+        "itinerary_title": "Texas Hill Country: Austin to San Antonio",
+        "day_number": 3,
+        "town": "Fredericksburg"
+      },
+      {
+        "itinerary_title": "Texas Hill Country: Austin to San Antonio",
+        "day_number": 4,
+        "town": "Fredericksburg"
+      },
+      {
+        "itinerary_title": "Texas Hill Country: Austin to San Antonio",
+        "day_number": 5,
+        "town": "New Braunfels"
+      },
+      {
+        "itinerary_title": "Texas Hill Country: Austin to San Antonio",
+        "day_number": 6,
+        "town": "San Antonio"
+      }
+    ]
+  },
+  {
+    "region_key": "utah",
+    "last_verified_date": "2026-10-03",
+    "stops": [
+      {
+        "town": "Springdale",
+        "eats": [
+          {
+            "name": "Oscar's Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Pancakes, omelets or the breakfast burrito, all named on the cafe's own site.",
+            "why": "A breakfast, lunch and dinner cafe in Springdale at the mouth of Zion National Park, so it works for a big breakfast before a Narrows or Angels Landing day.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website footer reads 'Copyright 2015-2026 Oscar's Cafe' and announces online gift cards (viewed 2026-10-03); the site lists no hours, so confirm them before going.",
+            "source_url": "https://www.oscarscafe.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Zion Canyon Brew Pub",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "Made-from-scratch pub fare with Zion Brewery beers, per the brewery's site.",
+            "why": "The Zion Brewery's own pub on Zion Park Blvd in Springdale, where the site lists live music, a good post-hike dinner.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website links a 'Winter 2026' menu PDF and shows a 2025 copyright (viewed 2026-10-03); the page does not list Brew Pub hours.",
+            "source_url": "https://www.zionbrewery.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Bryce Canyon City",
+        "eats": [
+          {
+            "name": "Cowboy's Buffet & Steak Room",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "The breakfast buffet (6:30-10:00 AM) or the rotating seasonal buffet; the page also mentions a full menu.",
+            "why": "The old Western dining room at Ruby's Inn, which the Ruby's Inn site says has served Bryce visitors since 1916, with walk-in seating and no reservations needed.",
+            "price_tier": null,
+            "hours_note": "Open daily 6:30 AM-9:30 PM May 1-Oct 15 and 6:30 AM-8:30 PM Oct 16-Apr 30; no reservations needed.",
+            "open_evidence": "Ruby's Inn's own site lists these seasonal hours and Christmas 2026 holiday hours (viewed 2026-10-03).",
+            "source_url": "https://www.rubysinn.com/restaurant-in-bryce-canyon/cowboys-buffet-steak-room/",
+            "source_name": "Ruby's Inn (venue's own website)"
+          },
+          {
+            "name": "The Canyon Diner",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "Burgers, deli sandwiches or a fresh 7 or 15 inch pizza; the page also lists shrimp and halibut baskets.",
+            "why": "Quick, casual lunch about a mile from the park entrance, with online ordering for pickup if you want to eat at an overlook.",
+            "price_tier": null,
+            "hours_note": "Open daily 11:30 AM-9:00 PM May 1-Oct 15; 11:30 AM-7:00 PM with a reduced menu Oct 16-Apr 30; closed Christmas Eve and Christmas Day.",
+            "open_evidence": "Ruby's Inn's own page lists seasonal hours and online ordering (viewed 2026-10-03); the page itself carries no date, but the same site posts Christmas 2026 hours.",
+            "source_url": "https://www.rubysinn.com/restaurant-in-bryce-canyon/canyon-diner/",
+            "source_name": "Ruby's Inn (venue's own website)"
+          },
+          {
+            "name": "Stone Hearth Grille",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Steaks and seafood from the grille; the page mentions rib eye, filet, pork chop and grilled halibut.",
+            "why": "A dinner-only grille in the neighbouring town of Tropic rather than Bryce Canyon City itself, on the way along Highway 12 — a step up from the diners if you want a sit-down evening.",
+            "price_tier": null,
+            "hours_note": "Dinner only, open March 23-October 29, 2026 and closed for winter; reservations recommended (435-679-8923).",
+            "open_evidence": "Own website states 'Open March 23rd - October 29th 2026' and 'Reopening Mid-March 2026' (viewed 2026-10-03).",
+            "source_url": "https://www.stonehearthgrille.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Escalante",
+        "note": "Escalante is a small town, and only one eat here could be confirmed as currently operating for this guide. Visit Utah warns that along this corridor many restaurants are closed during the winter months. Our advice: check hours before relying on any meal, and carry snacks for Highway 12.",
+        "note_source_url": "https://www.visitutah.com/articles/dining-between-the-mighty-five",
+        "eats": [
+          {
+            "name": "Escalante Outfitters",
+            "kind": "cafe",
+            "meal": "dinner",
+            "what_to_order": "The pizza and beer the site features.",
+            "why": "An outfitter store, restaurant and beer stop in the middle of Escalante, so it doubles as a gear and trail-info stop for Grand Staircase-Escalante.",
+            "price_tier": null,
+            "hours_note": "Restaurant 11 AM-9 PM daily and store 9 AM-9 PM daily per the site; it says 'Open for the 2026 Season' and does not state a closing date.",
+            "open_evidence": "Own homepage says 'Open for the 2026 Season!' and lists restaurant hours (viewed 2026-10-03).",
+            "source_url": "https://www.escalanteoutfitters.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Boulder",
+        "note": "Boulder is a very small town on Highway 12 between Escalante and Torrey; only the two Hell's Backbone venues could be verified here. Visit Utah warns that many restaurants in this corridor close for the winter, and Hell's Backbone dinner requires a reservation.",
+        "note_source_url": "https://www.visitutah.com/articles/dining-between-the-mighty-five",
+        "eats": [
+          {
+            "name": "Little Bone Food Truck",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Breakfast or lunch from the truck; the page lists no individual dishes.",
+            "why": "The easy no-reservation option on a Highway 12 driving day, run by the Hell's Backbone Grill and Farm operation and serving from 7 AM.",
+            "price_tier": null,
+            "hours_note": "Breakfast and lunch 7 AM-2 PM seven days a week; dinners Tuesday and Wednesday 4-8 PM.",
+            "open_evidence": "Hell's Backbone's own site lists these hours alongside 2026 events, including an October 14 and a November 2 event (viewed 2026-10-03).",
+            "source_url": "https://hellsbackbonegrill.com/",
+            "source_name": "Hell's Backbone Grill & Farm (venue's own website)"
+          },
+          {
+            "name": "Hell's Backbone Grill",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Dinner service only; the page lists no dishes, and Visit Utah says the kitchen uses vegetables and herbs from the restaurant's own organic farm.",
+            "why": "A destination dinner on the Highway 12 route that pairs a grill with its own farm, worth planning the day around if you reserve ahead.",
+            "price_tier": null,
+            "hours_note": "Dinner Thursday-Monday 4-9 PM; closed Tuesday and Wednesday; reservations required.",
+            "open_evidence": "Own site lists dinner hours, a reservation link and 2026 events (viewed 2026-10-03).",
+            "source_url": "https://hellsbackbonegrill.com/",
+            "source_name": "Hell's Backbone Grill & Farm (venue's own website)"
+          }
+        ]
+      },
+      {
+        "town": "Torrey",
+        "note": "Capitol Reef National Park has no restaurant or lodge, and the Gifford House in the park sells baked goods and snacks only, usually March through October. Our read: Torrey, just outside the park, is the realistic place to eat, so pack a picnic for trail days.",
+        "note_source_url": "https://www.nps.gov/care/planyourvisit/eatingsleeping.htm",
+        "eats": [
+          {
+            "name": "Randy's at The Chuckwagon",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Full breakfast until 11 AM, then lunch; the Torrey town page lists the deli's Reubens and chicken salad sandwiches.",
+            "why": "An early, simple breakfast-and-lunch counter on Torrey's Main Street, handy for a Capitol Reef start or for a picnic lunch.",
+            "price_tier": null,
+            "hours_note": "Open 7 AM-3 PM daily; breakfast served until 11 AM.",
+            "open_evidence": "Own website lists 7 AM-3 PM daily hours and a 2026 copyright footer (viewed 2026-10-03).",
+            "source_url": "https://chuckwagonlodge.com/randys/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Broken Spur Inn & Steakhouse",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Hand-cut steaks; the page mentions the ribeye, sirloin and St. Louis ribs.",
+            "why": "Torrey's sit-down steakhouse about five minutes from Capitol Reef, per the town's own listing.",
+            "price_tier": null,
+            "hours_note": "Dinner 4:30-10:00 PM daily from early March through mid-November; breakfast 7-10 AM daily, free for hotel guests and $12.99 for non-guests.",
+            "open_evidence": "Own website lists seasonal dinner hours and a 2025 guest review (viewed 2026-10-03); the page carries no 2026 date.",
+            "source_url": "https://www.brokenspurinn.com/steakhouse",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Moab",
+        "eats": [
+          {
+            "name": "Moab Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Sourdough French toast or a steak burrito, per Visit Utah.",
+            "why": "A retro diner on Main Street with an ice cream shop attached, serving diner food until 9 PM, so it covers both a pre-Arches breakfast and a late dinner.",
+            "price_tier": "$",
+            "hours_note": "Moab Happenings' restaurant guide lists Mon-Sat 6 AM-9 PM and closed Sundays; the venue's own site could not be fetched, so confirm before going.",
+            "open_evidence": "Visit Utah's Moab restaurants page lists it with a current description (viewed 2026-10-03); that page is undated, and the Moab Happenings guide independently lists its hours.",
+            "source_url": "https://www.visitutah.com/places-to-go/cities-and-towns/moab/restaurants-in-moab",
+            "source_name": "Visit Utah (state tourism board)"
+          },
+          {
+            "name": "Milt's Stop & Eat",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "Per Visit Utah, the loaded Cowboy Burger, onion rings and a chocolate milkshake.",
+            "why": "Moab's oldest restaurant, first opened in September 1954 by Milt Galbraith, per its own site.",
+            "price_tier": null,
+            "hours_note": "Open daily 11 AM to close, between 7 PM and 9 PM depending on the season.",
+            "open_evidence": "Own website says 'Celebrating 71 yrs in business! 1954 to 2025!' and lists current hours (viewed 2026-10-03).",
+            "source_url": "https://www.miltsstopandeat.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Salt Lake City",
+        "eats": [
+          {
+            "name": "Red Iguana",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Any of its moles (the site lists Mole Negro, Amarillo, Poblano, Verde and more), plus the Killer Nachos.",
+            "why": "A Salt Lake City Mexican restaurant built around a long list of house moles, with two locations on the west side of downtown.",
+            "price_tier": null,
+            "hours_note": "Sunday-Thursday 11 AM-9 PM; Friday and Saturday 11 AM-10 PM.",
+            "open_evidence": "Own website lists current hours and the full mole menu, and cites a 2025 local-eats ranking (viewed 2026-10-03)",
+            "source_url": "https://rediguana.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Hires Big H",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "A fresh-ground burger with fresh-cut fries, hand-dipped onion rings and the root beer the site calls 'Frosty'.",
+            "why": "A family-owned burger stand founded in 1959; the original location is at 425 S 700 E near downtown.",
+            "price_tier": null,
+            "hours_note": "Closed Sundays; the site's pages give conflicting Friday and Saturday closing times, so confirm before going.",
+            "open_evidence": "Own website lists current hours and describes the founding commitment 'over 66 years ago' (1959), with the original location listed (viewed 2026-10-03); the pages carry no explicit 2026 date.",
+            "source_url": "https://www.hiresbigh.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Park City",
+        "eats": [
+          {
+            "name": "The Eating Establishment",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Huevos rancheros or the shakshuka skillet, both named in the magazine's listing.",
+            "why": "A Main Street fixture since 1972 serving comfort food and breakfast, which is rare longevity on a street that turns over fast.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Park City Magazine's restaurant guide, updated May 27, 2026, lists it at 317 Main St (viewed 2026-10-03); its own site could not be fetched.",
+            "source_url": "https://www.parkcitymag.com/eat-and-drink/park-city-restaurant-guide",
+            "source_name": "Park City Magazine"
+          },
+          {
+            "name": "No Name Saloon & Grill",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The buffalo burger the site bills as 'World Famous'.",
+            "why": "A Main Street saloon in a building that dates to 1905, known for its buffalo burger.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 11 AM-1 AM, Saturday-Sunday 10 AM-1 AM; no reservations; guests must be 21 or older (under-21s are directed to the Annex Burger next door).",
+            "open_evidence": "Own website lists current hours, menu and no-reservations policy (viewed 2026-10-03); the page carries no year.",
+            "source_url": "https://www.nonamesaloon.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Bangkok Thai on Main",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Tom Kha Gai soup, Pad Thai, Kao Soi, Massaman Curry or Panang Curry, all named on the site.",
+            "why": "A Thai restaurant on Main Street open since 1994, which the site calls the only fine-dining Thai restaurant in Park City.",
+            "price_tier": null,
+            "hours_note": "Own site lists 12-9 PM daily but a Park City restaurants listing shows different weekday hours, so confirm before going; reservations via Resy.",
+            "open_evidence": "Own website lists hours, a menu and a Resy reservation link, and mentions additions 'this summer' (viewed 2026-10-03); the page carries no explicit year.",
+            "source_url": "https://www.bangkokthaionmain.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 1,
+        "town": "Springdale"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 2,
+        "town": "Springdale"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 3,
+        "town": "Springdale"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 4,
+        "town": "Bryce Canyon City"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 5,
+        "town": "Bryce Canyon City"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 6,
+        "town": "Escalante"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 7,
+        "town": "Boulder"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 8,
+        "town": "Torrey"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 9,
+        "town": "Moab"
+      },
+      {
+        "itinerary_title": "Utah's Mighty 5",
+        "day_number": 10,
+        "town": "Moab"
+      },
+      {
+        "itinerary_title": "Salt Lake City & Park City",
+        "day_number": 1,
+        "town": "Salt Lake City"
+      },
+      {
+        "itinerary_title": "Salt Lake City & Park City",
+        "day_number": 2,
+        "town": "Salt Lake City"
+      },
+      {
+        "itinerary_title": "Salt Lake City & Park City",
+        "day_number": 3,
+        "town": "Salt Lake City"
+      },
+      {
+        "itinerary_title": "Salt Lake City & Park City",
+        "day_number": 4,
+        "town": "Park City"
+      },
+      {
+        "itinerary_title": "Salt Lake City & Park City",
+        "day_number": 5,
+        "town": "Park City"
+      },
+      {
+        "itinerary_title": "Salt Lake City & Park City",
+        "day_number": 6,
+        "town": "Park City"
+      }
+    ]
+  }
+]

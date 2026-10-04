@@ -3458,7 +3458,8 @@
         "lodging_suggestion": "Bar Harbor",
         "coffee_wifi_spot": null,
         "latitude": 44.386457,
-        "longitude": -68.21187
+        "longitude": -68.21187,
+        "eat_town": "Bar Harbor"
       },
       {
         "day_number": 2,
@@ -3471,7 +3472,8 @@
         "lodging_suggestion": "Bar Harbor",
         "coffee_wifi_spot": null,
         "latitude": 44.349677,
-        "longitude": -68.245944
+        "longitude": -68.245944,
+        "eat_town": "Bar Harbor"
       },
       {
         "day_number": 3,
@@ -3483,7 +3485,8 @@
         "lodging_suggestion": "Bar Harbor",
         "coffee_wifi_spot": null,
         "latitude": 44.352857,
-        "longitude": -68.223902
+        "longitude": -68.223902,
+        "eat_town": "Bar Harbor"
       },
       {
         "day_number": 4,
@@ -3495,7 +3498,8 @@
         "lodging_suggestion": "Winter Harbor",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -3507,7 +3511,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5036,7 +5041,8 @@
         "lodging_suggestion": "Chisos Basin",
         "coffee_wifi_spot": null,
         "latitude": 29.408831,
-        "longitude": -98.706482
+        "longitude": -98.706482,
+        "eat_town": "Terlingua"
       },
       {
         "day_number": 2,
@@ -5048,7 +5054,8 @@
         "lodging_suggestion": "Chisos Basin",
         "coffee_wifi_spot": null,
         "latitude": 26.201489,
-        "longitude": -98.35524
+        "longitude": -98.35524,
+        "eat_town": "Terlingua"
       },
       {
         "day_number": 3,
@@ -5061,7 +5068,8 @@
         "lodging_suggestion": "Study Butte",
         "coffee_wifi_spot": null,
         "latitude": 29.138454,
-        "longitude": -103.520782
+        "longitude": -103.520782,
+        "eat_town": "Terlingua"
       },
       {
         "day_number": 4,
@@ -5074,7 +5082,8 @@
         "lodging_suggestion": "Terlingua",
         "coffee_wifi_spot": null,
         "latitude": 29.321586,
-        "longitude": -103.616019
+        "longitude": -103.616019,
+        "eat_town": "Terlingua"
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -5115,7 +5124,8 @@
         "lodging_suggestion": "Springdale",
         "coffee_wifi_spot": null,
         "latitude": 37.322167,
-        "longitude": -113.004793
+        "longitude": -113.004793,
+        "eat_town": "Springdale"
       },
       {
         "day_number": 2,
@@ -5127,7 +5137,8 @@
         "lodging_suggestion": "Springdale",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Springdale"
       },
       {
         "day_number": 3,
@@ -5139,7 +5150,8 @@
         "lodging_suggestion": "Springdale",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Springdale"
       },
       {
         "day_number": 4,
@@ -5151,7 +5163,8 @@
         "lodging_suggestion": "Bryce Canyon City",
         "coffee_wifi_spot": null,
         "latitude": 37.618407,
-        "longitude": -112.142179
+        "longitude": -112.142179,
+        "eat_town": "Bryce Canyon City"
       },
       {
         "day_number": 5,
@@ -5164,7 +5177,8 @@
         "lodging_suggestion": "Bryce Canyon City",
         "coffee_wifi_spot": null,
         "latitude": 37.618407,
-        "longitude": -112.142179
+        "longitude": -112.142179,
+        "eat_town": "Bryce Canyon City"
       },
       {
         "day_number": 6,
@@ -5176,7 +5190,8 @@
         "lodging_suggestion": "Escalante",
         "coffee_wifi_spot": null,
         "latitude": 37.75721,
-        "longitude": -111.577301
+        "longitude": -111.577301,
+        "eat_town": "Escalante"
       },
       {
         "day_number": 7,
@@ -5189,7 +5204,8 @@
         "lodging_suggestion": "Torrey",
         "coffee_wifi_spot": null,
         "latitude": 38.067029,
-        "longitude": -111.155256
+        "longitude": -111.155256,
+        "eat_town": "Boulder"
       },
       {
         "day_number": 8,
@@ -5201,7 +5217,8 @@
         "lodging_suggestion": "Moab",
         "coffee_wifi_spot": null,
         "latitude": 38.57381,
-        "longitude": -109.546214
+        "longitude": -109.546214,
+        "eat_town": "Torrey"
       },
       {
         "day_number": 9,
@@ -5213,7 +5230,8 @@
         "lodging_suggestion": "Moab",
         "coffee_wifi_spot": null,
         "latitude": 38.726525,
-        "longitude": -109.563046
+        "longitude": -109.563046,
+        "eat_town": "Moab"
       },
       {
         "day_number": 10,
@@ -5225,7 +5243,8 @@
         "lodging_suggestion": "Moab",
         "coffee_wifi_spot": null,
         "latitude": 38.233259,
-        "longitude": -109.920663
+        "longitude": -109.920663,
+        "eat_town": "Moab"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5885,7 +5904,8 @@
         "lodging_suggestion": "Austin",
         "coffee_wifi_spot": null,
         "latitude": 30.410217,
-        "longitude": -97.849466
+        "longitude": -97.849466,
+        "eat_town": "Austin"
       },
       {
         "day_number": 2,
@@ -5898,7 +5918,8 @@
         "lodging_suggestion": "Austin",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Austin"
       },
       {
         "day_number": 3,
@@ -5911,7 +5932,8 @@
         "lodging_suggestion": "Fredericksburg",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Fredericksburg"
       },
       {
         "day_number": 4,
@@ -5924,7 +5946,8 @@
         "lodging_suggestion": "Fredericksburg",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Fredericksburg"
       },
       {
         "day_number": 5,
@@ -5937,7 +5960,8 @@
         "lodging_suggestion": "New Braunfels",
         "coffee_wifi_spot": null,
         "latitude": 29.738536,
-        "longitude": -98.104267
+        "longitude": -98.104267,
+        "eat_town": "New Braunfels"
       },
       {
         "day_number": 6,
@@ -5950,7 +5974,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 29.426019,
-        "longitude": -98.485888
+        "longitude": -98.485888,
+        "eat_town": "San Antonio"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7450,7 +7475,8 @@
         "lodging_suggestion": "Salt Lake City",
         "coffee_wifi_spot": null,
         "latitude": 40.760845,
-        "longitude": -111.908789
+        "longitude": -111.908789,
+        "eat_town": "Salt Lake City"
       },
       {
         "day_number": 2,
@@ -7464,7 +7490,8 @@
         "lodging_suggestion": "Salt Lake City",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Salt Lake City"
       },
       {
         "day_number": 3,
@@ -7477,7 +7504,8 @@
         "lodging_suggestion": "Salt Lake City",
         "coffee_wifi_spot": null,
         "latitude": 40.590434,
-        "longitude": -111.635705
+        "longitude": -111.635705,
+        "eat_town": "Salt Lake City"
       },
       {
         "day_number": 4,
@@ -7491,7 +7519,8 @@
         "lodging_suggestion": "Park City",
         "coffee_wifi_spot": null,
         "latitude": 40.646092,
-        "longitude": -111.497996
+        "longitude": -111.497996,
+        "eat_town": "Park City"
       },
       {
         "day_number": 5,
@@ -7504,7 +7533,8 @@
         "lodging_suggestion": "Park City",
         "coffee_wifi_spot": null,
         "latitude": 40.654146,
-        "longitude": -111.562396
+        "longitude": -111.562396,
+        "eat_town": "Park City"
       },
       {
         "day_number": 6,
@@ -7517,7 +7547,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 40.612161,
-        "longitude": -111.48232
+        "longitude": -111.48232,
+        "eat_town": "Park City"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7668,7 +7699,8 @@
         "lodging_suggestion": "Portland",
         "coffee_wifi_spot": null,
         "latitude": 43.653734,
-        "longitude": -70.262033
+        "longitude": -70.262033,
+        "eat_town": "Portland"
       },
       {
         "day_number": 2,
@@ -7682,7 +7714,8 @@
         "lodging_suggestion": "Portland",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Portland"
       },
       {
         "day_number": 3,
@@ -7696,7 +7729,8 @@
         "lodging_suggestion": "Freeport",
         "coffee_wifi_spot": null,
         "latitude": 43.857329,
-        "longitude": -70.102834
+        "longitude": -70.102834,
+        "eat_town": "Freeport"
       },
       {
         "day_number": 4,
@@ -7710,7 +7744,8 @@
         "lodging_suggestion": "Boothbay Harbor",
         "coffee_wifi_spot": null,
         "latitude": 43.855882,
-        "longitude": -69.625007
+        "longitude": -69.625007,
+        "eat_town": "Boothbay Harbor"
       },
       {
         "day_number": 5,
@@ -7724,7 +7759,8 @@
         "lodging_suggestion": "Camden",
         "coffee_wifi_spot": null,
         "latitude": 44.210265,
-        "longitude": -69.065552
+        "longitude": -69.065552,
+        "eat_town": "Camden"
       },
       {
         "day_number": 6,
@@ -7736,7 +7772,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"

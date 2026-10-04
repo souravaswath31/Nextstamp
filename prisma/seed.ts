@@ -3,6 +3,7 @@ import itinerariesSeed from "../data/itineraries-seed.json";
 import visaRulesSeed from "../data/visa-rules-seed.json";
 import stateGuidesSeed from "../data/state-guides-seed.json";
 import countryFactsSeed from "../data/country-facts-seed.json";
+import roadEatsSeed from "../data/road-eats-seed.json";
 
 let prisma = new PrismaClient();
 
@@ -41,6 +42,7 @@ async function main() {
   await prisma.visaRule.deleteMany();
   await prisma.stateGuide.deleteMany();
   await prisma.countryFact.deleteMany();
+  await prisma.roadEatStop.deleteMany(); // RoadEat rows go with it via cascade
 
   console.log(`Seeding ${itinerariesSeed.length} itineraries...`);
   for (const it of itinerariesSeed as any[]) {
@@ -69,6 +71,7 @@ async function main() {
             coffeeWifiSpot: d.coffee_wifi_spot ?? null,
             latitude: d.latitude ?? null,
             longitude: d.longitude ?? null,
+            eatTown: d.eat_town ?? null,
           })),
         },
         notes: {
@@ -228,6 +231,36 @@ async function main() {
         },
       },
     }), `country guide "${c.country}"`);
+  }
+
+  console.log(`Seeding road eats for ${roadEatsSeed.length} region(s)...`);
+  for (const r of roadEatsSeed as any[]) {
+    for (const s of r.stops) {
+      await withRetry(() => prisma.roadEatStop.create({
+        data: {
+          regionKey: r.region_key,
+          town: s.town,
+          note: s.note ?? null,
+          noteSourceUrl: s.note_source_url ?? null,
+          lastVerifiedDate: new Date(r.last_verified_date),
+          eats: {
+            create: s.eats.map((e: any, i: number) => ({
+              name: e.name,
+              kind: e.kind,
+              meal: e.meal,
+              whatToOrder: e.what_to_order,
+              why: e.why,
+              priceTier: e.price_tier ?? null,
+              hoursNote: e.hours_note ?? null,
+              openEvidence: e.open_evidence,
+              sourceUrl: e.source_url,
+              sourceName: e.source_name,
+              sortOrder: i,
+            })),
+          },
+        },
+      }), `road eats "${r.region_key} / ${s.town}"`);
+    }
   }
 
   console.log("Done seeding global content.");

@@ -568,6 +568,67 @@ not "simplifying" away:
   delayed flight, and plenty of airlines apply a six-month rule at check-in regardless of
   what the destination requires.
 
+## Road food — the most perishable data in the project
+
+Everything in NextStamp is a road trip, and the food content answered the wrong
+question. The 222 state `food_culture` rows say what a state *tastes like* (green
+chile, Palisade peaches); none has a town, and for all 98 domestic itineraries the
+food section was a card saying "this lives in the state guide — not repeated here
+twice." A road-tripper reading *Day 3: Moab* needs **where to stop for lunch**, and
+research on road-trip habits says people stop 2–3 times per long drive — so the unit
+is a few real eats *per stop on the route*, not a "best food in Texas" list (which is
+what every other site publishes).
+
+**Why this is riskier than every other dataset here.** A visa rule changes a few
+times a year. A restaurant can vanish between the research and the traveller's
+arrival, and someone who drives 40 minutes to a diner that closed in March has been
+actively harmed by us. I searched for an authoritative source on restaurant closure
+rates and seasonality and found none — so the thresholds in `eatFreshness()` are a
+judgement call that errs toward warning early, and are labelled as such.
+
+Data model: `RoadEatStop` (a town in a region, with an optional sourced `note`) →
+`RoadEat` (an eat). `ItineraryDay.eatTown` links a day to a stop. **A day's eat town
+is not its title**: titles are often an activity ("Lost Mine Trail", "Cadillac
+Mountain") and nobody eats on a trail — the answer is the gateway town (Terlingua,
+Bar Harbor), so a research agent assigns it explicitly per day. `regionKey` is a
+state slug, or a country slug for international routes.
+
+The pipeline (`scripts/road-eats-research-contract.md` is the agent's brief — read it,
+it holds the rules and the reasoning):
+
+1. `python3 scripts/road_eats_brief.py <state-slug>` → the region's itineraries and
+   days, with the exact titles/day numbers the validator matches on.
+2. One agent per region, writing to a scratchpad path. Contract: every eat needs
+   `open_evidence` — one sentence saying what was seen that shows it's operating, and
+   where, **with a 2024+ date**. Reputation ("popular with locals") is rejected by the
+   validator as not being evidence.
+3. `python3 scripts/validate_road_eats.py <file.json>` — merges into
+   `data/road-eats-seed.json` and writes `eat_town` onto each day in
+   `data/itineraries-seed.json`.
+4. **`python3 scripts/validate_road_eats.py --liveness`** — a second line of defence
+   the other pipelines don't need. The validator can't check that a restaurant exists
+   or is open; this fetches every source URL and flags dead ones (404/410/no DNS —
+   strong signal the place is gone). 403/429 is bot-blocking and reported separately,
+   not as death. Run it after every merge and periodically afterwards.
+5. `npm run seed:eats` — updates road eats and day links in place; never goes through
+   the destructive full reseed.
+
+What the validator rejects, each because it's a real way this goes wrong: Wikipedia,
+Yelp, TripAdvisor, Google Maps, Foursquare, OpenTable, Reddit, **Facebook and
+Instagram** (a page existing proves nothing about whether the venue is open — many
+were abandoned years ago), and listicles (Cheapism, Food Network, Roadtrippers);
+national chains (Waffle House and Cracker Barrel are genuinely iconic and genuinely
+chains, excluded on purpose); and any `open_evidence` without a recent date.
+
+**`hours_note: null` means "nothing was stated" — NOT "open year-round".** The UI
+renders null as absence, never as a reassurance, and a test pins that. Seasonal places
+(Maine lobster shacks close roughly mid-October to May) are the reason the field
+exists; a traveller must not be sent to a shuttered shack in February.
+
+Where the honest answer is "options are thin" (Big Bend, Capitol Reef, Escalante), the
+stop's `note` says so, sourced — ideally to an NPS page — rather than padding to three
+eats. Fewer verified eats always beats one unverified eat.
+
 ## Geography — where coordinates come from and why they're never live
 
 Three models carry coordinates, all geocoded **once at authoring time** into the
