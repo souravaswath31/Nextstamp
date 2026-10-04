@@ -1,5 +1,1094 @@
 [
   {
+    "region_key": "arizona",
+    "last_verified_date": "2026-10-03",
+    "stops": [
+      {
+        "town": "Grand Canyon South Rim",
+        "note": "The NPS dining page for Grand Canyon says that, due to the 2026 Bright Angel Creek flash flood and Stage 4 water restrictions, many restaurants are closed or have shortened hours until further notice, and it marks the Deli at the Marketplace and the Yavapai Dining Hall as closed. Tusayan, the gateway town 7 miles south of the park, has its own restaurants. Our advice: check the NPS page the morning of your visit, carry lunch on rim and trail days, and treat the Tusayan places below as the dependable fallback.",
+        "note_source_url": "https://www.nps.gov/grca/planyourvisit/restaurants.htm",
+        "eats": [
+          {
+            "name": "Bright Angel Fountain",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Coffee, tea and breakfast in the morning, then ice cream and grab-and-go items in the afternoon, per the NPS listing.",
+            "why": "A canyon-side patio inside Bright Angel Lodge in Grand Canyon Village, handy for a quick bite before a rim walk or the Bright Angel Trail.",
+            "price_tier": null,
+            "hours_note": "NPS lists it as open year-round at Bright Angel Lodge, with the park-wide warning that many restaurants are closed or on shortened hours; grandcanyonlodges.com says carry-out is available from the Fountain. No hours are stated on either page.",
+            "open_evidence": "NPS Grand Canyon dining page, which references the 2026 season, lists it as operating and not closed (viewed 2026-10-03); the lodging concessionaire's dining page also lists it, undated.",
+            "source_url": "https://www.nps.gov/grca/planyourvisit/restaurants.htm",
+            "source_name": "National Park Service, Grand Canyon dining page"
+          },
+          {
+            "name": "Maswik Food Court and Pizza Pub",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The NPS page lists a food court and a pizza pub serving breakfast, lunch and dinner; the lodging concessionaire describes freshly baked pizzas and salads at the Pizza Pub.",
+            "why": "The casual, no-reservation option in the southwest corner of Grand Canyon Village at Maswik Lodge, when El Tovar is booked or you just want a quick meal.",
+            "price_tier": null,
+            "hours_note": "NPS lists it as serving breakfast, lunch and dinner but warns that many restaurants are closed or on shortened hours until further notice; no hours are stated. grandcanyonlodges.com says the Food Court is open for dine-in (page undated).",
+            "open_evidence": "NPS Grand Canyon dining page, which references the 2026 season, lists it without a closure marker (viewed 2026-10-03); grandcanyonlodges.com lists it as open for dine-in, undated.",
+            "source_url": "https://www.nps.gov/grca/planyourvisit/restaurants.htm",
+            "source_name": "National Park Service, Grand Canyon dining page"
+          },
+          {
+            "name": "Plaza Bonita",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Mexican plates across breakfast, lunch and dinner menus; the page lists entrees from about $19.99 at lunch to $30.99 at dinner but names no individual dishes.",
+            "why": "In Tusayan, 7 miles south of the park, not inside it; a sit-down Mexican restaurant with a breakfast menu, useful on a rim-day base.",
+            "price_tier": "$$",
+            "hours_note": null,
+            "open_evidence": "Own website shows current breakfast, lunch and dinner menus with prices and online ordering; the footer shows 2025 and the page states no hours, so this is moderate evidence (viewed 2026-10-03). The NPS dining page also lists Plaza Bonita among Tusayan restaurants.",
+            "source_url": "https://www.plazabonita.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Big E Spaghetti Western",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Pappardelle Elk Ragu, Big E Homestead Lasagna and Campfire Carbonara are named on the menu page; steaks include the Trail Boss Ribeye.",
+            "why": "In Tusayan, 7 miles south of the park, not inside it; an Italian-and-steak dinner stop with a full bar (the NPS page still lists it by its earlier name, Big-E Steakhouse, with the same phone number).",
+            "price_tier": "$$",
+            "hours_note": "Own site says open daily 3PM to 9PM; it notes limited availability of the lasagna.",
+            "open_evidence": "Own website (bigesteakhouse.com redirects to bigespaghettiwestern.com) lists daily hours, a current priced menu and contact details; the page shows no year (viewed 2026-10-03). The NPS dining page lists Big-E Steakhouse at the same phone number.",
+            "source_url": "https://www.bigespaghettiwestern.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Page",
+        "eats": [
+          {
+            "name": "Big John's Texas BBQ",
+            "kind": "bbq",
+            "meal": "any",
+            "what_to_order": "Beef brisket, pork ribs, hot links or BBQ nachos, all named on the restaurant's site.",
+            "why": "A no-reservations barbecue stop in Page with live music nightly from 6:30 to 9 PM, per its own site.",
+            "price_tier": null,
+            "hours_note": "Open 7 days a week 11 AM to 9 PM, first-come first-served with no reservations, per own site.",
+            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer (viewed 2026-10-03).",
+            "source_url": "https://bigjohnstexasbbq.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Dam Bar & Grille",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "San Juan River Jambalaya, Honey Jalapeno Salmon, Prime Rib or a Top Sirloin, all listed with prices on its site.",
+            "why": "A Page dining room with a 30-foot etched glass wall and a scaled-down model of Glen Canyon Dam, per its own site; the Page Chamber of Commerce also lists it.",
+            "price_tier": "$$",
+            "hours_note": "Own site says open 7 days a week, 11am to 11pm.",
+            "open_evidence": "Own website (damplaza.com) lists daily hours and a current priced menu with a 2026 copyright footer (viewed 2026-10-03); the Page Chamber of Commerce dining page also lists it, undated.",
+            "source_url": "https://damplaza.com/dam-bar-and-grille/dam-bar",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Kayenta",
+        "note": "The Navajo Nation Parks page for Monument Valley says the park offers limited food options: a restaurant at the visitor center is listed for summer months only, and Navajo vendors sell native food at roadside stands one mile before the visitor center. Our advice: do not count on eating inside the park in autumn or winter; plan meals in Kayenta, the nearest town with sit-down options I could verify, and carry water and snacks for the scenic drive.",
+        "note_source_url": "https://www.navajonationparks.org/tribal-parks/monument-valley/",
+        "eats": [
+          {
+            "name": "Amigo Cafe",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The cafe's site describes Mexican, Native American and American food and posts a breakfast menu and a coffee menu (as images).",
+            "why": "In the Navajo Nation town of Kayenta, not at Monument Valley itself; a family-run cafe that its own site says was established in 1983.",
+            "price_tier": null,
+            "hours_note": "Open Tuesday to Saturday only, so closed Sunday and Monday. The cafe's home page says 8am to 8pm Tuesday-Saturday; its menu page says 10:30am to 8pm Tuesday-Friday and 8am to 8pm Saturday.",
+            "open_evidence": "Own website lists current hours and posts menu images labelled 2024; the pages show no copyright year, so this is moderate evidence (viewed 2026-10-03).",
+            "source_url": "https://www.amigocafekayenta.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Sedona",
+        "eats": [
+          {
+            "name": "Coffee Pot Restaurant",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "One of its 101 omelette combinations, or huevos rancheros, biscuits and gravy or pancakes, all named on its site.",
+            "why": "A West Sedona breakfast stop on the route toward Oak Creek Canyon, serving breakfast all day.",
+            "price_tier": null,
+            "hours_note": "Open seven days a week, 6:00 AM to 2:00 PM, breakfast all day with lunch from 11:00 AM, per own site.",
+            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer (viewed 2026-10-03).",
+            "source_url": "https://coffeepotsedona.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Indian Gardens Cafe & Market",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "The breakfast burrito or the Dan the Man sandwich, both named in a Feb 2026 Sedona Lifestyles Magazine feature.",
+            "why": "A historic general store and cafe in Oak Creek Canyon, north of Uptown Sedona on State Route 89A, so it fits a day on the canyon's trails and swimming spots.",
+            "price_tier": "$",
+            "hours_note": "Open every day 8am to 4pm with the kitchen closing at 3pm, plus a Friday pizza night 4 to 8pm, per own site; the magazine feature puts most items between $11 and $17.",
+            "open_evidence": "Own website lists current hours and a Friday pizza night (page shows no year); a Sedona Lifestyles Magazine feature dated 2026-02-08 describes the same hours and menu (viewed 2026-10-03).",
+            "source_url": "https://www.indiangardens.com/",
+            "source_name": "Venue's own website, with dishes per Sedona Lifestyles Magazine (2026-02-08)"
+          },
+          {
+            "name": "Mesa Grill",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Grilled steaks, fresh seafood or fish and chips with sidewinders; chilaquiles and biscuits and gravy are on the day menu.",
+            "why": "A full-service grill with a dinner menu from 3 PM, at 1185 Airport Rd in Sedona, a short way outside the Uptown area.",
+            "price_tier": null,
+            "hours_note": "Own site says daily 7:30 AM to 9:00 PM, with breakfast, brunch and lunch to 3:00 PM and dinner from 3:00 PM; reservations by phone or OpenTable.",
+            "open_evidence": "Own website lists current daily hours and menu, takes reservations and shows no closure notice; the page shows no copyright year, so this is moderate evidence (viewed 2026-10-03).",
+            "source_url": "https://www.mesagrillsedona.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Phoenix",
+        "eats": [
+          {
+            "name": "The Fry Bread House",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Fry bread in its red chili, deluxe, chocolate and sugar versions; a second site mentions fry bread tacos.",
+            "why": "A Tohono O'odham-founded fry bread restaurant on N 7th Ave in central Phoenix that calls itself a James Beard Award winner; breads are made to order, so allow 10-15 minutes.",
+            "price_tier": null,
+            "hours_note": "Open 11:00 AM to 8:00 PM Monday through Saturday and closed Sundays, per own site; bread is made to order and takes 10-15 minutes.",
+            "open_evidence": "Own website lists current hours and a made-to-order notice; a second official site, azfrybreadhouse.com, cites New Times Best of Phoenix awards for 2022 to 2024; neither page shows a copyright year (viewed 2026-10-03).",
+            "source_url": "https://www.frybreadhouseaz.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Scottsdale",
+        "eats": [
+          {
+            "name": "FnB",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The homepage names no dishes; the menu is on the restaurant's own site.",
+            "why": "A full-service restaurant on 5th Ave in Old Town Scottsdale, and the dinner named in the itinerary; reservations are taken through Tock.",
+            "price_tier": null,
+            "hours_note": "Full-service dining 5 p.m. to 10 p.m. Tuesday through Saturday, per own site, so closed Sunday and Monday.",
+            "open_evidence": "Own website lists current dining hours and a reservation link with a footer reading 2015-2026 (viewed 2026-10-03).",
+            "source_url": "https://www.fnbrestaurant.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Tucson",
+        "note": "Tucson Foodie reported on 2026-09-30 that Agustin Kitchen at Mercado San Agustin closed permanently, and that Presta Coffee Roasters, Seis Kitchen and La Estrella Bakery remain open in the courtyard. Our advice: the itinerary's Mercado San Agustin lunch still works, but pick one of the open tenants and check hours first.",
+        "note_source_url": "https://tucsonfoodie.com/news/agustn-kitchen-permanently-closes-after-13-years-at-mercado-san-agustn",
+        "eats": [
+          {
+            "name": "El Güero Canelo",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "A Sonoran hot dog or carne asada, which its site calls its famous items, plus tacos, burritos and tortas.",
+            "why": "A Tucson Sonoran-hot-dog institution since 1993 with three Tucson branches, so one is usually on your way.",
+            "price_tier": null,
+            "hours_note": "Own site lists 11 AM to 10 PM Sunday-Thursday and 11 AM to 11 PM Friday-Saturday, with slightly different closing times at some branches.",
+            "open_evidence": "Own website lists three current Tucson locations with hours and online ordering, and mentions James Beard recognition; the page shows no copyright year (viewed 2026-10-03).",
+            "source_url": "https://www.elguerocanelo.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "El Charro Cafe",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Chimichanga, tamales, enchiladas or carne seca, all named on its site.",
+            "why": "Its site says it is the nation's oldest Mexican restaurant in continuous operation by the same family, founded in 1922; the downtown branch is at 311 N Court Ave.",
+            "price_tier": null,
+            "hours_note": "Downtown branch lists Monday to Sunday 11:00am to 9:00pm, per own site.",
+            "open_evidence": "Own website lists current locations and the downtown hours, but its footer shows only 2023, so the year evidence is weak; Visit Tucson's downtown dining page also lists it, undated (viewed 2026-10-03).",
+            "source_url": "https://www.elcharrocafe.com/locations/downtown",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Cup Cafe",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "The dessert carousel, a display of house-made sweets that the hotel's site highlights.",
+            "why": "Inside the historic Hotel Congress, open since 1990 per the hotel's site, so it suits a downtown stop in the evening or at brunch.",
+            "price_tier": null,
+            "hours_note": "Open Monday to Sunday 8 AM to 9 PM and closed 2 to 4 PM daily; reservations are accepted for breakfast and lunch Monday-Thursday only, per own site.",
+            "open_evidence": "Hotel Congress's own page lists current hours and reservation rules with a 2026 copyright footer (viewed 2026-10-03); Visit Tucson's downtown dining page also lists it.",
+            "source_url": "https://hotelcongress.com/cup-cafe/",
+            "source_name": "Hotel Congress (venue's own website)"
+          },
+          {
+            "name": "Seis Kitchen",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The source names no menu items.",
+            "why": "A courtyard business at Mercado San Agustin, the market the itinerary names for lunch, reported by Tucson Foodie on 2026-09-30 as still open after a neighbouring restaurant closed.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Tucson Foodie article dated 2026-09-30 lists Seis Kitchen among the Mercado San Agustin courtyard businesses that remain open (viewed 2026-10-03); its own site returned 403 to my fetch, so no hours were seen.",
+            "source_url": "https://tucsonfoodie.com/news/agustn-kitchen-permanently-closes-after-13-years-at-mercado-san-agustn",
+            "source_name": "Tucson Foodie (local food news site)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
+        "day_number": 1,
+        "town": "Grand Canyon South Rim"
+      },
+      {
+        "itinerary_title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
+        "day_number": 2,
+        "town": "Grand Canyon South Rim"
+      },
+      {
+        "itinerary_title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
+        "day_number": 3,
+        "town": "Page"
+      },
+      {
+        "itinerary_title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
+        "day_number": 4,
+        "town": "Kayenta"
+      },
+      {
+        "itinerary_title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
+        "day_number": 5,
+        "town": "Sedona"
+      },
+      {
+        "itinerary_title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
+        "day_number": 6,
+        "town": "Sedona"
+      },
+      {
+        "itinerary_title": "Southwest Loop: Grand Canyon, Sedona, Antelope Canyon",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
+        "day_number": 1,
+        "town": "Phoenix"
+      },
+      {
+        "itinerary_title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
+        "day_number": 2,
+        "town": "Phoenix"
+      },
+      {
+        "itinerary_title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
+        "day_number": 3,
+        "town": "Scottsdale"
+      },
+      {
+        "itinerary_title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
+        "day_number": 4,
+        "town": "Tucson"
+      },
+      {
+        "itinerary_title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
+        "day_number": 5,
+        "town": "Tucson"
+      },
+      {
+        "itinerary_title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
+        "day_number": 6,
+        "town": "Phoenix"
+      }
+    ]
+  },
+  {
+    "region_key": "california",
+    "last_verified_date": "2026-10-03",
+    "stops": [
+      {
+        "town": "Yosemite Valley",
+        "eats": [
+          {
+            "name": "Degnan's Kitchen",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The Yosemite Hospitality page lists deli sandwiches, artisan pizzas, breakfast favorites, coffee and espresso drinks and baked goods.",
+            "why": "A quick breakfast or trail-lunch stop in Yosemite Village, close to the Valley visitor facilities, with indoor seating and an outdoor deck.",
+            "price_tier": null,
+            "hours_note": "Per travelyosemite.com (no year shown): breakfast daily 7-11am, lunch daily 11:30am-6pm, limited service 11-11:30am. The NPS lists it as year-round.",
+            "open_evidence": "NPS Yosemite dining page, dated June 1, 2026, lists it among Valley options open year-round (the page calls it Degnan's Bakery); the concessioner's yosemite.com page carries a 2026 copyright (viewed 2026-10-03).",
+            "source_url": "https://www.yosemite.com/things-to-do/restaurants/degnans-deli/",
+            "source_name": "Yosemite Hospitality (park concessioner)"
+          },
+          {
+            "name": "Base Camp Eatery",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The NPS describes a food court with a variety of breakfast, lunch and dinner selections; it does not name dishes.",
+            "why": "The year-round food court at Yosemite Valley Lodge, handy for a flexible meal near the Yosemite Falls end of the Valley when you are between trails.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "NPS Yosemite dining page, dated June 1, 2026, lists it as a year-round food court at Yosemite Valley Lodge (viewed 2026-10-03).",
+            "source_url": "https://www.nps.gov/yose/planyourvisit/dining.htm",
+            "source_name": "National Park Service"
+          },
+          {
+            "name": "Mountain Room",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The NPS describes upscale casual dinner; it does not name dishes.",
+            "why": "The sit-down dinner option at Yosemite Valley Lodge for a post-hike meal without leaving the Valley.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "NPS Yosemite dining page, dated June 1, 2026, lists Mountain Room as year-round upscale casual dinner (viewed 2026-10-03). No restaurant-owned page was fetched.",
+            "source_url": "https://www.nps.gov/yose/planyourvisit/dining.htm",
+            "source_name": "National Park Service"
+          }
+        ]
+      },
+      {
+        "town": "Lee Vining",
+        "note": "The NPS says Tioga Road is typically open to vehicles from late May or June until sometime in November and is closed to vehicles for the winter, and that services along it are limited (bring your own food and water). Mono County's tourism listing says Whoa Nellie Deli is open late April through early October. Our advice: do the Tioga Road day in summer or early autumn, and pack lunch for Tuolumne Meadows.",
+        "note_source_url": "https://www.nps.gov/yose/planyourvisit/tioga.htm",
+        "eats": [
+          {
+            "name": "Whoa Nellie Deli",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The deli's own site calls out its world-famous fish tacos; the Mono County listing also mentions sandwiches, pizza and desserts.",
+            "why": "A restaurant inside the Tioga Gas Mart at the junction of Tioga Pass (Hwy 120) and US 395, right at Yosemite's east entrance, with outdoor patio and live music twice weekly per the county listing.",
+            "price_tier": null,
+            "hours_note": "SEASONAL. Mono County's tourism listing says open late April through early October, so it may already be closed or about to close for the winter. The site lists daily 6:30am-9:00pm in season. Call (760) 647-1088 before relying on it.",
+            "open_evidence": "Own website lists daily hours 6:30am-9pm and marks its 30th anniversary (open since 1996, so 2026), with no closure notice (viewed 2026-10-03); the Mono County tourism listing gives the seasonal dates.",
+            "source_url": "https://www.monocounty.org/listing/tioga-gas-mart-whoa-nellie-deli/668/",
+            "source_name": "Mono County Tourism listing (venue's own site also checked)"
+          },
+          {
+            "name": "Nicely's Restaurant",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The chamber page names homemade sausage, soups and classic fried chicken, plus daily specials and desserts.",
+            "why": "A full-service breakfast, lunch and dinner restaurant with a bar and patio at Highway 395 and Fourth Street in the middle of Lee Vining.",
+            "price_tier": null,
+            "hours_note": "Chamber page lists daily 7am-8pm; no seasonal closure is stated on the page.",
+            "open_evidence": "Lee Vining Chamber of Commerce listing shows current hours and menu highlights, but the page carries no year, so this is weaker evidence; confirm hours before a late-season visit (viewed 2026-10-03).",
+            "source_url": "https://www.leevining.com/nicelys",
+            "source_name": "Lee Vining Chamber of Commerce"
+          }
+        ]
+      },
+      {
+        "town": "Grant Grove Village",
+        "note": "The NPS lists Grant Grove Village's food services as a restaurant and a market; no other dining is named on its Goods & Services page. Our advice: the village is where you sleep on both nights, so plan on these two plus anything you bring; pack lunch for Mist Falls and grove days.",
+        "note_source_url": "https://nps.gov/seki/planyourvisit/goodsandservices.htm",
+        "eats": [
+          {
+            "name": "Grant Grove Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The operator's page lists omelets, eggs, pancakes and burritos at breakfast, and salads, burgers, sandwiches and pizzas at lunch and dinner.",
+            "why": "The village's sit-down restaurant, overlooking Bradley Meadow and the giant sequoias, with a walk-up window for to-go items.",
+            "price_tier": null,
+            "hours_note": "Operator page: breakfast 7-10am, lunch and dinner 11:30am-8pm daily; the courtyard walk-up window is seasonal.",
+            "open_evidence": "Operator's page (DNC Parks & Resorts at SEKI) carries a 2026 copyright and lists current hours and menu; NPS Grant Grove Restaurant page updated December 18, 2025 (viewed 2026-10-03).",
+            "source_url": "https://www.visitsequoia.com/kings-canyon-dining/grant-grove-restaurant/",
+            "source_name": "DNC Parks & Resorts at SEKI (park concessioner)"
+          },
+          {
+            "name": "Grant Grove Market",
+            "kind": "market",
+            "meal": "snack",
+            "what_to_order": "The NPS describes a small supermarket selling basic groceries, beer, wine and camping supplies, useful for building a picnic.",
+            "why": "The only other food source in the village, for trail lunches and supplies when you are staying in the park.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "NPS Grant Grove page, last updated August 31, 2025, describes the market; no hours or 2026 confirmation were found, so check ahead (viewed 2026-10-03).",
+            "source_url": "https://www.nps.gov/seki/grant-grove.htm",
+            "source_name": "National Park Service"
+          }
+        ]
+      },
+      {
+        "town": "San Francisco",
+        "eats": [
+          {
+            "name": "Ferry Building Marketplace",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "The site lists merchants including El Porteno Empanadas, Far West Fungi, Imperial Tea Court and Nopa Fish.",
+            "why": "An indoor food hall of nearly 50 local artisan food merchants right on the Embarcadero waterfront, which is on the Day 1 route.",
+            "price_tier": null,
+            "hours_note": "Marketplace open daily 6am-10pm but individual merchants keep their own hours; closed Thanksgiving Day and Christmas Day. Farmers market year-round Tue and Thu 10am-2pm, Sat 8am-2pm.",
+            "open_evidence": "Own website carries a 2026 copyright and lists current hours and merchants, with no closure notice (viewed 2026-10-03).",
+            "source_url": "https://www.ferrybuildingmarketplace.com/visit/",
+            "source_name": "Ferry Building Marketplace website"
+          },
+          {
+            "name": "La Palma Mexicatessen",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The site lists carnitas, chicharron, chile verde, chile colorado and pollo en salsa ranchera, plus handmade tortillas and tamales.",
+            "why": "A Mission District tortilla factory and take-out counter at 2884 24th Street, founded in 1953 per its site, matching the Day 2 Mission taqueria plan.",
+            "price_tier": null,
+            "hours_note": "Site says closed Tuesdays and open daily in December; standard hours 8am-5pm. Outdoor seating weather permitting.",
+            "open_evidence": "Own website carries a 2026 copyright and lists current hours and holiday closures (viewed 2026-10-03).",
+            "source_url": "https://www.lapalmasf.com/",
+            "source_name": "La Palma's own website"
+          },
+          {
+            "name": "Mandalay",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "James Beard Foundation notes tea leaf salad prepared tableside, samusa soup and the Mandalay special noodle in coconut broth.",
+            "why": "A Burmese restaurant in the Richmond District (4348 California St, a short ride from Golden Gate Park) that has operated since 1984.",
+            "price_tier": null,
+            "hours_note": "Own site: Mon and Wed-Thu 4:30-8:30pm; Fri-Sun 11:30am-3pm and 4:30-8:30pm; closed Tuesdays.",
+            "open_evidence": "James Beard Foundation announced it as a 2024 America's Classics winner, and its own website currently lists hours with no closure notice, though the page shows no year (viewed 2026-10-03).",
+            "source_url": "https://www.jamesbeard.org/stories/announcing-the-2024-restaurant-and-chef-americas-classics-winners",
+            "source_name": "James Beard Foundation (restaurant's own site mandalaysf.com also checked)"
+          }
+        ]
+      },
+      {
+        "town": "Napa",
+        "eats": [
+          {
+            "name": "Oxbow Public Market",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "The market's site lists vendors including Hog Island Oyster Bar, Ritual Coffee Roasters, Live Fire Pizza, Loveski Deli, Fieldwork Brewing Company, Roman Holiday Gelato and Johnny Doughnuts.",
+            "why": "The downtown Napa food hall on this itinerary's Day 3, with 20 vendors at 610 and 644 First Street, so a group can each eat something different.",
+            "price_tier": null,
+            "hours_note": "Open daily 7:30am-9pm per the market's site; individual vendors may keep different hours.",
+            "open_evidence": "Own website carries a 2026 copyright and lists current hours and its 20 vendors (viewed 2026-10-03).",
+            "source_url": "https://www.oxbowpublicmarket.com/vendors/",
+            "source_name": "Oxbow Public Market website"
+          }
+        ]
+      },
+      {
+        "town": "St. Helena",
+        "eats": [
+          {
+            "name": "Gillwoods Cafe",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site mentions eggs Benedict and banana pecan pancakes.",
+            "why": "A breakfast and brunch cafe at 1313 Main Street, open since May 1991 per its site, that cooks from scratch.",
+            "price_tier": null,
+            "hours_note": "Per its site: Tue-Wed 7am-2pm; Sun-Mon and Thu-Sat 7am-9pm.",
+            "open_evidence": "Own website lists current hours and ordering links and says it opened May 1991, but the page shows no year; also listed in the City of St. Helena Dining Guide, which is undated (viewed 2026-10-03).",
+            "source_url": "https://gillwoods.com/",
+            "source_name": "Gillwoods Cafe's own website"
+          }
+        ]
+      },
+      {
+        "town": "Calistoga",
+        "eats": [
+          {
+            "name": "Cafe Sarafornia",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site mentions huevos rancheros, omelets and French toast.",
+            "why": "A family-run breakfast-and-lunch diner at 1413 Lincoln Avenue, operated by the Dierkhising family since 1976 per its site, within walking distance of downtown.",
+            "price_tier": null,
+            "hours_note": "Per its site: Mon-Fri 8am-12:30pm; Sat-Sun 7:30am-2pm.",
+            "open_evidence": "Own website lists current hours, online ordering and 45-plus years under the same family, but the page shows no explicit year (viewed 2026-10-03).",
+            "source_url": "https://cafesarafornia.com/",
+            "source_name": "Cafe Sarafornia's own website"
+          },
+          {
+            "name": "Buster's Original Southern BBQ",
+            "kind": "bbq",
+            "meal": "lunch",
+            "what_to_order": "The homepage describes authentic Louisiana barbecue but lists no specific dishes.",
+            "why": "A Calistoga barbecue stop in business since 1965 per its own site, good for lunch before the Old Faithful Geyser and mud bath stops.",
+            "price_tier": null,
+            "hours_note": "Open daily 10am-8pm per its site.",
+            "open_evidence": "Own website carries a 2026 copyright and lists current hours and online ordering (viewed 2026-10-03).",
+            "source_url": "https://www.busterssouthernbbq.com/",
+            "source_name": "Buster's own website"
+          },
+          {
+            "name": "Calistoga Inn Restaurant & Brewery",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "The site gives no dishes; it describes a restaurant, brewery and hotel at 1250 Lincoln Avenue.",
+            "why": "A casual restaurant and brewery in the middle of town, with breakfast, lunch, dinner and weekend brunch served.",
+            "price_tier": null,
+            "hours_note": "Per its site: breakfast daily 9-11am; lunch 11am-4pm; dinner Sun-Thu 4-9pm, Fri-Sat 4-9:30pm; weekend brunch 9am-1pm.",
+            "open_evidence": "Own website lists current hours and Resy booking, but the page shows no year (viewed 2026-10-03).",
+            "source_url": "https://www.calistogainn.com/",
+            "source_name": "Calistoga Inn's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "California: Yosemite & the Sierra Nevada",
+        "day_number": 1,
+        "town": "Yosemite Valley"
+      },
+      {
+        "itinerary_title": "California: Yosemite & the Sierra Nevada",
+        "day_number": 2,
+        "town": "Yosemite Valley"
+      },
+      {
+        "itinerary_title": "California: Yosemite & the Sierra Nevada",
+        "day_number": 3,
+        "town": "Lee Vining"
+      },
+      {
+        "itinerary_title": "California: Yosemite & the Sierra Nevada",
+        "day_number": 4,
+        "town": "Grant Grove Village"
+      },
+      {
+        "itinerary_title": "California: Yosemite & the Sierra Nevada",
+        "day_number": 5,
+        "town": "Grant Grove Village"
+      },
+      {
+        "itinerary_title": "California: Yosemite & the Sierra Nevada",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Napa Valley & San Francisco",
+        "day_number": 1,
+        "town": "San Francisco"
+      },
+      {
+        "itinerary_title": "Napa Valley & San Francisco",
+        "day_number": 2,
+        "town": "San Francisco"
+      },
+      {
+        "itinerary_title": "Napa Valley & San Francisco",
+        "day_number": 3,
+        "town": "Napa"
+      },
+      {
+        "itinerary_title": "Napa Valley & San Francisco",
+        "day_number": 4,
+        "town": "St. Helena"
+      },
+      {
+        "itinerary_title": "Napa Valley & San Francisco",
+        "day_number": 5,
+        "town": "Calistoga"
+      }
+    ]
+  },
+  {
+    "region_key": "colorado",
+    "last_verified_date": "2026-10-03",
+    "stops": [
+      {
+        "town": "Denver",
+        "eats": [
+          {
+            "name": "Sam's No. 3",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The site highlights its pork green chili (made with Hatch, New Mexico chilies), breakfast burritos, pancakes, cheeseburgers and souvlaki.",
+            "why": "A Denver diner that the site says dates to 1927, with a green-chili-and-souvlaki menu of 100+ items that works for any meal of a road-trip day.",
+            "price_tier": null,
+            "hours_note": "Three locations (Glendale, Downtown at 1500 Curtis St, Aurora). Per the site, Downtown is open 7am-2pm Mon-Tue and 7am until 8pm or later Wed-Sun; Glendale runs 7:30am-8:30pm Sun-Thu and to 9pm Fri-Sat. Check the site for the location you pick.",
+            "open_evidence": "Own website lists current hours for each location, online ordering, and recent posts dated 2026 (viewed 2026-10-03).",
+            "source_url": "https://www.samsno3.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Denver Central Market",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "The page lists vendors including Vero (grain bowls, cortados), Izzio (gourmet pizza), Green Seed (salads), Tammens Fish Market and Temper Chocolates.",
+            "why": "A food hall at 2669 Larimer St in the RiNo Art District, so it fits the RiNo mural-walk day and lets a group order from several counters.",
+            "price_tier": null,
+            "hours_note": "Food vendors Sun-Thu 8am-9pm, Fri-Sat 8am-11pm; Curio Bar hours differ. Individual vendors may keep their own hours.",
+            "open_evidence": "Own website lists current food-vendor hours and a named vendor lineup (viewed 2026-10-03); the page shows no clear year.",
+            "source_url": "https://www.denvercentralmarket.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Ratio Beerworks",
+            "kind": "brewery",
+            "meal": "snack",
+            "what_to_order": "The page lists the taproom's beer; it does not name food at the RiNo taproom (food is named only for the separate Overland location).",
+            "why": "A RiNo taproom at 2920 Larimer St, and one of the two breweries the Denver itinerary names for day 2.",
+            "price_tier": null,
+            "hours_note": "RiNo taproom hours per site: Mon-Wed 12pm-11pm, Thu-Fri 12pm-12am, Sat 11am-12am, Sun 11am-11pm.",
+            "open_evidence": "Own website lists current RiNo taproom hours seven days a week (viewed 2026-10-03); the page shows no year.",
+            "source_url": "https://ratiobeerworks.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Hop Alley",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Per Visit Denver, Shanghai rice cakes, beef chow fun and Beijing duck rolls; the venue's own page lists traditional Chinese menus including vegan and vegetarian.",
+            "why": "A RiNo Chinese restaurant, a good sit-down dinner after the day-2 mural and brewery walk.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 5-10pm, closed Sundays; reservations via OpenTable.",
+            "open_evidence": "Own website lists current hours, a Chef's Counter residency, reservation and takeout ordering details, and 2025 award notices (viewed 2026-10-03).",
+            "source_url": "https://www.hopalleydenver.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Golden",
+        "eats": [
+          {
+            "name": "The Golden Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site lists pancakes, omelets and scrambles, Braised Pork Benedict and the Colorado Loco Moco.",
+            "why": "A locally owned breakfast diner at 700 12th St, a few minutes' walk from Washington Avenue, before the Coors tour and Red Rocks.",
+            "price_tier": null,
+            "hours_note": "Open daily 7am-2pm-ish per the site; closes at noon on Christmas Eve and all day Christmas Day.",
+            "open_evidence": "Own website lists daily hours and a Christmas closure notice (viewed 2026-10-03); the page shows no year, only that it has served breakfast 'for the past 15 years'.",
+            "source_url": "https://www.thegoldendiner.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Cafe 13",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "The site lists all-day breakfast, lunch from 11am (sandwiches, salads and soups) and pastries baked daily.",
+            "why": "In the historic Armory building at 1301 Arapahoe St, one block west of Washington Avenue; it is open into the evening on Friday and Saturday.",
+            "price_tier": null,
+            "hours_note": "Per the site: Mon-Thu 6:30am-3pm, Fri 6:30am-8pm, Sat 7:30am-8pm, Sun 7:30am-3pm.",
+            "open_evidence": "Own website lists current hours, online ordering and a '2025' copyright footer (viewed 2026-10-03); Visit Golden also carries a listing.",
+            "source_url": "https://cafe13golden.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Golden City Brewery",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "The page says a food truck is on site but does not name dishes; the brewery describes itself as Golden's original microbrewery.",
+            "why": "A Golden microbrewery that the site says has been pouring since 1993, a few blocks from the Colorado School of Mines.",
+            "price_tier": null,
+            "hours_note": "Opens daily at 11am. The page states summer last-call times of 8:30pm Sun-Thu and 9:30pm Fri-Sat; no winter hours are stated, so check before a cold-season visit.",
+            "open_evidence": "Own website shows hours, a food truck listing and a 2026 copyright footer (viewed 2026-10-03).",
+            "source_url": "https://www.gcbrewery.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Boulder",
+        "eats": [
+          {
+            "name": "Village Coffee Shop",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site lists fluffy pancakes, a green chili smothered breakfast burrito, hand-crafted burgers and French toast.",
+            "why": "A small Boulder diner at 1605 Folsom St that the site says has served the town for over 55 years, with breakfast all day.",
+            "price_tier": null,
+            "hours_note": "Open 7am-2pm daily per the site.",
+            "open_evidence": "Own website lists current daily hours and menu (viewed 2026-10-03); the page shows no year, so this is weaker evidence than a dated page.",
+            "source_url": "https://villagecoffeeshopboulder.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Sink",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The site lists the Texas Onion Straw Burger, Portabella burger, Cowboy Reuben, pizzas and barbecue short ribs.",
+            "why": "A single-location Boulder bar-and-burger landmark at 1165 13th St that the site says dates to 1923, near Pearl Street and the University of Colorado campus.",
+            "price_tier": null,
+            "hours_note": "Sun-Thu 11am-10pm, Fri-Sat 11am-11pm per the site.",
+            "open_evidence": "Own website lists current hours, a menu and current weekly specials such as Pizza Tuesdays (viewed 2026-10-03); the page shows no year.",
+            "source_url": "https://www.thesink.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Boulder Dushanbe Teahouse",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "The site lists brunch, lunch, dinner, tea time and an Afternoon Tea & Dim Sum Tea service; it names no individual dishes on the homepage.",
+            "why": "A teahouse at 1770 13th St, with brunch on weekends and a tea service between lunch and dinner.",
+            "price_tier": null,
+            "hours_note": "Mon-Fri lunch 11am-3pm, teatime 3-5pm, dinner 5-9pm; Sat-Sun brunch 8am-3pm. The page lists private-event closures on October 2, 4, 8, 10 and 24 (no year shown), so check the site for the date you plan to visit.",
+            "open_evidence": "Own website lists current hours, upcoming private-event closure dates and a 'Copyright 2026' footer (viewed 2026-10-03).",
+            "source_url": "https://www.boulderteahouse.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Fort Collins",
+        "eats": [
+          {
+            "name": "Silver Grill Cafe",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site names its cinnamon rolls (with a rotating Roll of the Month), pancakes, hash browns, country fried steak, burgers and skillets.",
+            "why": "A single-location Old Town breakfast place at 218 Walnut St that describes itself as Fort Collins' oldest restaurant, open since 1933.",
+            "price_tier": null,
+            "hours_note": "Open daily 7am-2pm per the site.",
+            "open_evidence": "Own website lists daily hours and a 2025 copyright footer (viewed 2026-10-03); Visit Fort Collins also featured it in an October 2024 dining roundup.",
+            "source_url": "https://www.silvergrill.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "UNION Bar & Soda Fountain",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The site lists a double-patty burger, Monte Cristo sandwiches, French toast, house-made sodas and shakes.",
+            "why": "A soda-fountain-style diner at 250 Jefferson St, a short walk from Old Town Square, with vegan and gluten-free options marked on the menu.",
+            "price_tier": null,
+            "hours_note": "Mon-Fri 11am to close, Sat-Sun 10am to close per the site.",
+            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer (viewed 2026-10-03).",
+            "source_url": "https://www.unionbarsodafountain.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "CooperSmith's Pub & Brewing",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "The site lists full dinners and patio dining with vegetarian options and regional specialties, alongside its house ales, lagers and stouts.",
+            "why": "An Old Town Square brewpub that the site says has operated since 1989, a walkable dinner after the New Belgium and Odell visits.",
+            "price_tier": null,
+            "hours_note": "Brewpub Sun-Wed 11am-9pm, Thu-Sat 11am-10pm per the site; the separate billiards room opens at 3pm.",
+            "open_evidence": "Own website lists current brewpub hours and a 2026 copyright footer (viewed 2026-10-03).",
+            "source_url": "https://www.coopersmithspub.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 8,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 9,
+        "town": "Denver"
+      },
+      {
+        "itinerary_title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
+        "day_number": 1,
+        "town": "Denver"
+      },
+      {
+        "itinerary_title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
+        "day_number": 2,
+        "town": "Denver"
+      },
+      {
+        "itinerary_title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
+        "day_number": 3,
+        "town": "Golden"
+      },
+      {
+        "itinerary_title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
+        "day_number": 4,
+        "town": "Boulder"
+      },
+      {
+        "itinerary_title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
+        "day_number": 5,
+        "town": "Fort Collins"
+      },
+      {
+        "itinerary_title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
+        "day_number": 6,
+        "town": "Denver"
+      }
+    ]
+  },
+  {
+    "region_key": "florida",
+    "last_verified_date": "2026-10-03",
+    "stops": [
+      {
+        "town": "Miami",
+        "eats": [
+          {
+            "name": "Versailles",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Cuban sandwiches, croquetas and vaca frita, plus Cuban coffee from the walk-up ventanita window.",
+            "why": "A Little Havana Cuban restaurant on Calle Ocho (3555 SW 8th St) that says it has served the community since 1971, with a bakery and a coffee window for a quick stop between South Beach and Little Havana.",
+            "price_tier": null,
+            "hours_note": "Own website lists Monday-Thursday 8am-midnight, Friday-Saturday 8am-1am, Sunday 9am-midnight; the Miami tourism board listing gives later closing times, so confirm before a late visit. The tourism board says reservations are not accepted for parties under 15.",
+            "open_evidence": "Own website lists current hours and menu and the Greater Miami tourism board listing carries the same address and ventanita; neither page shows a year (viewed 2026-10-03).",
+            "source_url": "https://www.versaillesrestaurant.com/",
+            "source_name": "Venue's own website; Greater Miami Convention & Visitors Bureau listing"
+          }
+        ]
+      },
+      {
+        "town": "Homestead",
+        "eats": [
+          {
+            "name": "Robert Is Here",
+            "kind": "market",
+            "meal": "snack",
+            "what_to_order": "A hand-blended milkshake or smoothie made with fresh fruit.",
+            "why": "A Homestead fruit stand that says it began in 1959, with tropical fruit you will not find at a supermarket, a free petting zoo and picnic facilities on the way between Miami and the Everglades.",
+            "price_tier": null,
+            "hours_note": "Own website says open every day 9am-6pm, closed Thanksgiving and Christmas Day.",
+            "open_evidence": "Own website lists daily hours and its in-season produce collection shows a last-updated stamp of 2026-09-28 (viewed 2026-10-03).",
+            "source_url": "https://www.robertishere.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Everglades City",
+        "eats": [
+          {
+            "name": "Triad Seafood Market & Café",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Stone crab (its site promotes all-you-can-eat stone crab starting October 15) or the fried-conch sandwich that Florida Rambler mentions.",
+            "why": "A family seafood market and café at 401 W School Dr that says it has operated since 1984, with screened outdoor dining overlooking the river per Florida Rambler.",
+            "price_tier": null,
+            "hours_note": "Seasonal. Its own site gives an opening date of October 1, 2026 and says hours vary with tourist season and seafood availability, and advises calling ahead (239-695-2662) to confirm hours and stone crab availability. Florida Rambler gives stone crab season as October 15 to May 1.",
+            "open_evidence": "Own website states an October 1, 2026 opening date and advertises all-you-can-eat stone crab beginning October 15; Florida Rambler's stone crab article (published September 14, 2026, updated September 27, 2026) also lists it (viewed 2026-10-03).",
+            "source_url": "https://triadseafoodmarketcafe.com/",
+            "source_name": "Venue's own website; Florida Rambler"
+          },
+          {
+            "name": "Camellia Street Grill",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Fresh fish and stone crab; its site says it specializes in fresh stone crab and local seafood.",
+            "why": "An open-air spot at 202 Camellia St with riverside seating and, per Florida Rambler, live bluegrass on Saturday nights.",
+            "price_tier": null,
+            "hours_note": "Own website lists Monday-Sunday 11am-9pm and shows no seasonal notice, but its page carries a 2023 copyright; stone crab season runs October 15 to May 1 per Florida Rambler. Confirm hours by phone (239-695-2003).",
+            "open_evidence": "Listed with its address in Florida Rambler's stone crab article (published September 14, 2026, updated September 27, 2026); own website lists hours and lunch and dinner menus but is copyrighted 2023 (viewed 2026-10-03).",
+            "source_url": "https://camelliastgrill.com/",
+            "source_name": "Venue's own website; Florida Rambler"
+          }
+        ]
+      },
+      {
+        "town": "Big Pine Key",
+        "eats": [
+          {
+            "name": "No Name Pub",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Pizza and fish dip, which its site says it is known best for.",
+            "why": "A Lower Keys landmark at 30813 Watson Blvd that its site says began as a general store and bait shop in 1931 and became a restaurant in 1936, with walls covered in autographed dollar bills.",
+            "price_tier": null,
+            "hours_note": "Own website lists Monday-Sunday 11am-10pm; no closure or storm notice on the page.",
+            "open_evidence": "Own website carries a 2026 copyright and lists current daily hours (viewed 2026-10-03).",
+            "source_url": "https://www.nonamepub.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Key West",
+        "note": "Blue Heaven's own site says it is closed for vacation September 8 to October 15, 2026. Our read: only one Key West eat could be confirmed from a current source in this research pass, so the list is thin. Our advice: if you arrive before mid-October, look up other Old Town options and check their hours first.",
+        "note_source_url": "https://www.blueheavenkw.com/",
+        "eats": [
+          {
+            "name": "Blue Heaven",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "The page we read names no dishes; it lists breakfast and lunch from 8am, a happy hour and a dinner service.",
+            "why": "A Key West restaurant at 729 Thomas St that serves breakfast and lunch on a first-come, first-served basis and takes limited dinner reservations.",
+            "price_tier": null,
+            "hours_note": "CLOSED for vacation September 8 to October 15, 2026 per its own site. Otherwise breakfast and lunch 8am-2:30pm, happy hour 3:30-5pm, dinner 5-10pm; closed Thanksgiving and Christmas Day.",
+            "open_evidence": "Own website posts a 2026 vacation closure with a reopening after October 15 and lists current hours (viewed 2026-10-03).",
+            "source_url": "https://www.blueheavenkw.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Lake Buena Vista",
+        "eats": [
+          {
+            "name": "Gideon's Bakehouse (Disney Springs)",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Cookies; the page currently features The Frankenstein and The Bride of Frankenstein.",
+            "why": "An Orlando-founded bakery with a second shop in Disney Springs, close to the Lake Buena Vista hotels; the page says the Disney Springs shop takes no preorders.",
+            "price_tier": null,
+            "hours_note": "Disney Springs shop: Sunday-Thursday 10am-11pm, Friday-Saturday 10am-11:30pm, listed as open 365 days; no preorders there. The original East End Market shop (3201 Corrine Dr, Orlando) is 10am-7pm daily, closed on major holidays.",
+            "open_evidence": "Own website carries a 2026 copyright and lists current hours for both shops (viewed 2026-10-03).",
+            "source_url": "https://gideonsbakehouse.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "International Drive",
+        "eats": [
+          {
+            "name": "Café Tu Tu Tango",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Small plates such as Jamon Serrano Croquetas, Crispy Brussels Sprouts and Sesame Steak Skewers.",
+            "why": "A single-location tapas restaurant at 8625 International Drive that says it has operated for over 30 years, with live entertainment nightly and during brunch.",
+            "price_tier": null,
+            "hours_note": "Own website lists Monday-Friday 11am-midnight, Saturday 10am-midnight, Sunday 10am-11pm; weekend brunch from 10am.",
+            "open_evidence": "Own website lists current hours and menu (page shows no year); Orlando Weekly's feature on long-running restaurants, published July 2, 2026, lists it at 8625 International Drive (viewed 2026-10-03).",
+            "source_url": "https://www.cafetututango.com/",
+            "source_name": "Venue's own website; Orlando Weekly"
+          }
+        ]
+      },
+      {
+        "town": "Cocoa Beach",
+        "eats": [
+          {
+            "name": "Coconuts On The Beach",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Locally sourced seafood, grilled and seasoned, and its signature tropical cocktails.",
+            "why": "Oceanfront dining in Cocoa Beach with live local bands through the week, per its site.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website carries a 2026 copyright, describes live bands and oceanfront dining, and offers online ordering and gift cards (viewed 2026-10-03).",
+            "source_url": "https://www.coconutsonthebeach.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Florida's Seafood Bar & Grill",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Dynamite Shrimp, Shrimp Volcano or Snow Crab.",
+            "why": "Run since 1997 by owners Nick and Holly Zervos at 480 W Cocoa Beach Causeway, with an oyster bar and a shrimp-focused menu.",
+            "price_tier": null,
+            "hours_note": "Own website lists Monday-Thursday 11:30am-9pm, Friday-Saturday 11:30am-9:30pm, Sunday noon-9pm; lunch service Monday-Saturday only, 11:30am-3pm.",
+            "open_evidence": "Own website lists current hours and menu with no storm or closure notice; the page refers to a 2025 award, so it was edited in 2025 or later (viewed 2026-10-03).",
+            "source_url": "https://www.floridas-seafood.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Dixie Crossroads",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Rock shrimp, bacon shrimp and the corn fritters served with meals.",
+            "why": "In Titusville at 1475 Garden St rather than Cocoa Beach itself; it says it has operated since 1983 and serves wild ocean-caught seafood from Port Canaveral.",
+            "price_tier": null,
+            "hours_note": "Own website lists 11am-9pm daily, closed Thanksgiving, Christmas Eve and Christmas Day.",
+            "open_evidence": "Own website lists daily hours and online ordering (page shows no year); Florida Backroads Travel's page, last updated May 15, 2026, gives the same hours (viewed 2026-10-03).",
+            "source_url": "http://dixiecrossroads.com/",
+            "source_name": "Venue's own website; Florida Backroads Travel"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "South Florida & the Keys: Miami → Everglades → Key West",
+        "day_number": 1,
+        "town": "Miami"
+      },
+      {
+        "itinerary_title": "South Florida & the Keys: Miami → Everglades → Key West",
+        "day_number": 2,
+        "town": "Homestead"
+      },
+      {
+        "itinerary_title": "South Florida & the Keys: Miami → Everglades → Key West",
+        "day_number": 3,
+        "town": "Everglades City"
+      },
+      {
+        "itinerary_title": "South Florida & the Keys: Miami → Everglades → Key West",
+        "day_number": 4,
+        "town": "Big Pine Key"
+      },
+      {
+        "itinerary_title": "South Florida & the Keys: Miami → Everglades → Key West",
+        "day_number": 5,
+        "town": "Key West"
+      },
+      {
+        "itinerary_title": "South Florida & the Keys: Miami → Everglades → Key West",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Orlando Theme Parks & the Space Coast",
+        "day_number": 1,
+        "town": "Lake Buena Vista"
+      },
+      {
+        "itinerary_title": "Orlando Theme Parks & the Space Coast",
+        "day_number": 2,
+        "town": "Lake Buena Vista"
+      },
+      {
+        "itinerary_title": "Orlando Theme Parks & the Space Coast",
+        "day_number": 3,
+        "town": "International Drive"
+      },
+      {
+        "itinerary_title": "Orlando Theme Parks & the Space Coast",
+        "day_number": 4,
+        "town": "International Drive"
+      },
+      {
+        "itinerary_title": "Orlando Theme Parks & the Space Coast",
+        "day_number": 5,
+        "town": "Cocoa Beach"
+      },
+      {
+        "itinerary_title": "Orlando Theme Parks & the Space Coast",
+        "day_number": 6,
+        "town": "Cocoa Beach"
+      }
+    ]
+  },
+  {
     "region_key": "maine",
     "last_verified_date": "2026-10-03",
     "stops": [

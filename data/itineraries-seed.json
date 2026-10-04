@@ -329,7 +329,8 @@
         "activities": [],
         "lodging_suggestion": "Grand Canyon South Rim",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Grand Canyon South Rim"
       },
       {
         "day_number": 2,
@@ -340,7 +341,8 @@
         ],
         "lodging_suggestion": "Grand Canyon area",
         "latitude": 36.307855,
-        "longitude": -112.292896
+        "longitude": -112.292896,
+        "eat_town": "Grand Canyon South Rim"
       },
       {
         "day_number": 3,
@@ -352,7 +354,8 @@
         "drive_time": "2.5 hrs",
         "lodging_suggestion": "Page, AZ",
         "latitude": 36.307855,
-        "longitude": -112.292896
+        "longitude": -112.292896,
+        "eat_town": "Page"
       },
       {
         "day_number": 4,
@@ -363,7 +366,8 @@
         "drive_time": "2 hrs",
         "lodging_suggestion": "Monument Valley area",
         "latitude": 36.914831,
-        "longitude": -111.457294
+        "longitude": -111.457294,
+        "eat_town": "Kayenta"
       },
       {
         "day_number": 5,
@@ -374,7 +378,8 @@
         "drive_time": "3.5 hrs",
         "lodging_suggestion": "Sedona",
         "latitude": 36.982388,
-        "longitude": -110.111112
+        "longitude": -110.111112,
+        "eat_town": "Sedona"
       },
       {
         "day_number": 6,
@@ -385,7 +390,8 @@
         ],
         "lodging_suggestion": "Sedona",
         "latitude": 34.868861,
-        "longitude": -111.761439
+        "longitude": -111.761439,
+        "eat_town": "Sedona"
       },
       {
         "day_number": 7,
@@ -393,7 +399,8 @@
         "activities": [],
         "drive_time": "2 hrs",
         "latitude": 33.448437,
-        "longitude": -112.074141
+        "longitude": -112.074141,
+        "eat_town": null
       }
     ],
     "related_states": [
@@ -1155,7 +1162,8 @@
         "lodging_suggestion": "Ashford or Paradise-area campground",
         "coffee_wifi_spot": "Wildberry Restaurant, Ashford — weak signal, worth topping up devices before you head further in",
         "latitude": 47.603832,
-        "longitude": -122.330062
+        "longitude": -122.330062,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -1168,7 +1176,8 @@
         "lodging_suggestion": "Spokane",
         "coffee_wifi_spot": "Indaba Coffee, Spokane — reliable wifi for a remote-work morning before the border-adjacent stretch",
         "latitude": 46.852203,
-        "longitude": -121.757516
+        "longitude": -121.757516,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -1180,7 +1189,8 @@
         "drive_time": "4.5 hrs",
         "lodging_suggestion": "West Glacier / Apgar campground",
         "latitude": 47.657193,
-        "longitude": -117.42351
+        "longitude": -117.42351,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -1191,7 +1201,8 @@
         ],
         "lodging_suggestion": "West Glacier / Apgar campground",
         "latitude": 48.617486,
-        "longitude": -113.760885
+        "longitude": -113.760885,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -1204,7 +1215,8 @@
         "lodging_suggestion": "Red Lodge, MT",
         "coffee_wifi_spot": "Red Lodge Books & Tea — small-town wifi, good enough for email",
         "latitude": 48.617486,
-        "longitude": -113.760885
+        "longitude": -113.760885,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -1217,7 +1229,8 @@
         "drive_time": "2 hrs",
         "lodging_suggestion": "Mammoth or Roosevelt-area campground",
         "latitude": 45.185904,
-        "longitude": -109.247062
+        "longitude": -109.247062,
+        "eat_town": null
       },
       {
         "day_number": 7,
@@ -1228,7 +1241,8 @@
         ],
         "lodging_suggestion": "Old Faithful-area or Grant Village campground",
         "latitude": 44.620089,
-        "longitude": -110.560689
+        "longitude": -110.560689,
+        "eat_town": null
       },
       {
         "day_number": 8,
@@ -1241,7 +1255,8 @@
         "drive_time": "2.5 hrs",
         "lodging_suggestion": "Colter Bay or Gros Ventre campground",
         "latitude": 44.620089,
-        "longitude": -110.560689
+        "longitude": -110.560689,
+        "eat_town": null
       },
       {
         "day_number": 9,
@@ -1252,7 +1267,8 @@
         ],
         "drive_time": "8 hrs to Denver / 20 min to Jackson airport",
         "latitude": 43.741042,
-        "longitude": -110.802436
+        "longitude": -110.802436,
+        "eat_town": "Denver"
       }
     ],
     "related_states": [
@@ -2585,7 +2601,8 @@
         "lodging_suggestion": "Yosemite Valley",
         "coffee_wifi_spot": null,
         "latitude": 37.732724,
-        "longitude": -119.605704
+        "longitude": -119.605704,
+        "eat_town": "Yosemite Valley"
       },
       {
         "day_number": 2,
@@ -2597,7 +2614,8 @@
         "lodging_suggestion": "Yosemite Valley",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Yosemite Valley"
       },
       {
         "day_number": 3,
@@ -2610,7 +2628,8 @@
         "lodging_suggestion": "Lee Vining",
         "coffee_wifi_spot": null,
         "latitude": 37.657782,
-        "longitude": -122.082212
+        "longitude": -122.082212,
+        "eat_town": "Lee Vining"
       },
       {
         "day_number": 4,
@@ -2622,7 +2641,8 @@
         "lodging_suggestion": "Grant Grove Village",
         "coffee_wifi_spot": null,
         "latitude": 36.786676,
-        "longitude": -118.619144
+        "longitude": -118.619144,
+        "eat_town": "Grant Grove Village"
       },
       {
         "day_number": 5,
@@ -2635,7 +2655,8 @@
         "lodging_suggestion": "Grant Grove Village",
         "coffee_wifi_spot": null,
         "latitude": 36.786676,
-        "longitude": -118.619144
+        "longitude": -118.619144,
+        "eat_town": "Grant Grove Village"
       },
       {
         "day_number": 6,
@@ -2647,7 +2668,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2844,7 +2866,8 @@
         "lodging_suggestion": "Miami",
         "coffee_wifi_spot": null,
         "latitude": 25.774157,
-        "longitude": -80.193597
+        "longitude": -80.193597,
+        "eat_town": "Miami"
       },
       {
         "day_number": 2,
@@ -2857,7 +2880,8 @@
         "lodging_suggestion": "Homestead",
         "coffee_wifi_spot": null,
         "latitude": 25.367944,
-        "longitude": -80.878307
+        "longitude": -80.878307,
+        "eat_town": "Homestead"
       },
       {
         "day_number": 3,
@@ -2870,7 +2894,8 @@
         "lodging_suggestion": "Everglades City",
         "coffee_wifi_spot": null,
         "latitude": 26.320658,
-        "longitude": -80.992578
+        "longitude": -80.992578,
+        "eat_town": "Everglades City"
       },
       {
         "day_number": 4,
@@ -2883,7 +2908,8 @@
         "lodging_suggestion": "Big Pine Key",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Big Pine Key"
       },
       {
         "day_number": 5,
@@ -2896,7 +2922,8 @@
         "lodging_suggestion": "Key West",
         "coffee_wifi_spot": null,
         "latitude": 24.564589,
-        "longitude": -81.765051
+        "longitude": -81.765051,
+        "eat_town": "Key West"
       },
       {
         "day_number": 6,
@@ -2908,7 +2935,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5810,7 +5838,8 @@
         "lodging_suggestion": "San Francisco (Union Square)",
         "coffee_wifi_spot": null,
         "latitude": 37.752059,
-        "longitude": -122.476879
+        "longitude": -122.476879,
+        "eat_town": "San Francisco"
       },
       {
         "day_number": 2,
@@ -5823,7 +5852,8 @@
         "lodging_suggestion": "San Francisco (Union Square)",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "San Francisco"
       },
       {
         "day_number": 3,
@@ -5836,7 +5866,8 @@
         "lodging_suggestion": "St. Helena",
         "coffee_wifi_spot": null,
         "latitude": 38.540524,
-        "longitude": -122.548357
+        "longitude": -122.548357,
+        "eat_town": "Napa"
       },
       {
         "day_number": 4,
@@ -5849,7 +5880,8 @@
         "lodging_suggestion": "St. Helena",
         "coffee_wifi_spot": null,
         "latitude": 38.30647,
-        "longitude": -122.277683
+        "longitude": -122.277683,
+        "eat_town": "St. Helena"
       },
       {
         "day_number": 5,
@@ -5862,7 +5894,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 38.578797,
-        "longitude": -122.579705
+        "longitude": -122.579705,
+        "eat_town": "Calistoga"
       }
     ],
     "cover_image_url": "/category-splurge.jpg"
@@ -6016,7 +6049,8 @@
         "lodging_suggestion": "Lake Buena Vista",
         "coffee_wifi_spot": null,
         "latitude": 28.419075,
-        "longitude": -81.581716
+        "longitude": -81.581716,
+        "eat_town": "Lake Buena Vista"
       },
       {
         "day_number": 2,
@@ -6029,7 +6063,8 @@
         "lodging_suggestion": "Lake Buena Vista",
         "coffee_wifi_spot": null,
         "latitude": 28.371406,
-        "longitude": -81.548959
+        "longitude": -81.548959,
+        "eat_town": "Lake Buena Vista"
       },
       {
         "day_number": 3,
@@ -6042,7 +6077,8 @@
         "lodging_suggestion": "International Drive",
         "coffee_wifi_spot": null,
         "latitude": 28.477248,
-        "longitude": -81.469707
+        "longitude": -81.469707,
+        "eat_town": "International Drive"
       },
       {
         "day_number": 4,
@@ -6055,7 +6091,8 @@
         "lodging_suggestion": "International Drive",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "International Drive"
       },
       {
         "day_number": 5,
@@ -6068,7 +6105,8 @@
         "lodging_suggestion": "Cocoa Beach",
         "coffee_wifi_spot": null,
         "latitude": 28.52428,
-        "longitude": -80.681856
+        "longitude": -80.681856,
+        "eat_town": "Cocoa Beach"
       },
       {
         "day_number": 6,
@@ -6081,7 +6119,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 28.318411,
-        "longitude": -80.609496
+        "longitude": -80.609496,
+        "eat_town": "Cocoa Beach"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6122,7 +6161,8 @@
         "lodging_suggestion": "Downtown Phoenix",
         "coffee_wifi_spot": null,
         "latitude": 33.447723,
-        "longitude": -112.074509
+        "longitude": -112.074509,
+        "eat_town": "Phoenix"
       },
       {
         "day_number": 2,
@@ -6136,7 +6176,8 @@
         "lodging_suggestion": "Phoenix",
         "coffee_wifi_spot": null,
         "latitude": 33.456496,
-        "longitude": -111.953685
+        "longitude": -111.953685,
+        "eat_town": "Phoenix"
       },
       {
         "day_number": 3,
@@ -6150,7 +6191,8 @@
         "lodging_suggestion": "Scottsdale",
         "coffee_wifi_spot": null,
         "latitude": 33.494219,
-        "longitude": -111.926018
+        "longitude": -111.926018,
+        "eat_town": "Scottsdale"
       },
       {
         "day_number": 4,
@@ -6164,7 +6206,8 @@
         "lodging_suggestion": "Tucson",
         "coffee_wifi_spot": null,
         "latitude": 33.545587,
-        "longitude": -111.916535
+        "longitude": -111.916535,
+        "eat_town": "Tucson"
       },
       {
         "day_number": 5,
@@ -6178,7 +6221,8 @@
         "lodging_suggestion": "Tucson",
         "coffee_wifi_spot": null,
         "latitude": 32.249935,
-        "longitude": -110.841888
+        "longitude": -110.841888,
+        "eat_town": "Tucson"
       },
       {
         "day_number": 6,
@@ -6191,7 +6235,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Phoenix"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6232,7 +6277,8 @@
         "lodging_suggestion": "Denver (LoDo)",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Denver"
       },
       {
         "day_number": 2,
@@ -6246,7 +6292,8 @@
         "lodging_suggestion": "Denver",
         "coffee_wifi_spot": null,
         "latitude": 39.765669,
-        "longitude": -104.978413
+        "longitude": -104.978413,
+        "eat_town": "Denver"
       },
       {
         "day_number": 3,
@@ -6260,7 +6307,8 @@
         "lodging_suggestion": "Denver",
         "coffee_wifi_spot": null,
         "latitude": 39.754635,
-        "longitude": -105.22058
+        "longitude": -105.22058,
+        "eat_town": "Golden"
       },
       {
         "day_number": 4,
@@ -6274,7 +6322,8 @@
         "lodging_suggestion": "Denver",
         "coffee_wifi_spot": null,
         "latitude": 40.014986,
-        "longitude": -105.270545
+        "longitude": -105.270545,
+        "eat_town": "Boulder"
       },
       {
         "day_number": 5,
@@ -6288,7 +6337,8 @@
         "lodging_suggestion": "Fort Collins",
         "coffee_wifi_spot": null,
         "latitude": 40.587178,
-        "longitude": -105.077011
+        "longitude": -105.077011,
+        "eat_town": "Fort Collins"
       },
       {
         "day_number": 6,
@@ -6301,7 +6351,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 39.834239,
-        "longitude": -104.692744
+        "longitude": -104.692744,
+        "eat_town": "Denver"
       }
     ],
     "cover_image_url": "/category-city.jpg"

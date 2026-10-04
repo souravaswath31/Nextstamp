@@ -313,6 +313,11 @@ def merge(obj):
         for day in it["days"]:
             k = (it["title"], day["day_number"])
             if k in lookup:
+                # A route that crosses states is in several regions' briefs, and
+                # each region maps the other states' days to null. A null must
+                # never erase a town another region already assigned.
+                if lookup[k] is None and day.get("eat_town"):
+                    continue
                 day["eat_town"] = lookup[k]
                 changed += 1
     write_json(ITINERARIES_PATH, its)
