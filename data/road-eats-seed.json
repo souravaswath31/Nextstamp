@@ -1089,6 +1089,179 @@
     ]
   },
   {
+    "region_key": "georgia",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "Helen",
+        "eats": [
+          {
+            "name": "Hofer's Bakery & Cafe",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Fresh-baked breads and desserts from the in-house bakery, or a breakfast or sandwich from the cafe's grill menu.",
+            "why": "A bakery and cafe at 8758 N Main St in Helen that bakes its own breads and desserts in-house and serves breakfast and lunch from the same counter.",
+            "price_tier": null,
+            "hours_note": "Closed Tuesday and Wednesday. Bakery store 8am-5pm (Saturday 8am-6pm). Cafe breakfast 8-11am Monday and Thursday, 8-11:30am Friday-Sunday; cafe lunch until 3pm (4pm Saturday).",
+            "open_evidence": "Own website cafe page and home page both carry a 2026 copyright footer and list current hours and closed days (viewed 2026-10-14).",
+            "source_url": "https://www.hofers.com/pages/cafe",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Savannah",
+        "eats": [
+          {
+            "name": "Mrs. Wilkes Dining Room",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The Southern home-cooking spread the site describes: fried chicken, sausage, beef stew, and vegetables such as collard greens, black-eyed peas and candied yams.",
+            "why": "A weekday-lunch-only Southern dining room at 107 West Jones Street where diners share communal tables.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 11 AM-2 PM. Closed St. Patrick's Day, Memorial Day, July 4th, Labor Day, Thanksgiving and Christmas, and for an annual winter break from January 1 to mid-February (typically reopens around February 15). Cash or checks only; no credit cards. Dine-in only, no takeout. Own site states $35 per person for ages 13+ and $17.50 for ages 12 and under (tax included).",
+            "open_evidence": "Own website lists current weekday hours, holiday closures, the annual winter-break dates and the per-person price (viewed 2026-10-14); the page shows no copyright year or date, so this is weaker evidence than a dated page.",
+            "source_url": "https://mrswilkes.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Sandfly BBQ",
+            "kind": "bbq",
+            "meal": "any",
+            "what_to_order": "Barbecued meats smoked over pecan and hickory, with Brunswick stew and your pick of the three sauce styles the site lists: Memphis-style sweet, Savannah mustard-based, or Western North Carolina vinegar-based.",
+            "why": "In the Sandfly neighbourhood on Ferguson Ave, outside the Historic District; a barbecue joint that serves three regional sauce styles.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 11 a.m.-8 p.m.; closed Sunday.",
+            "open_evidence": "Own website lists current hours, links a menu PDF dated 2025-08-01 and carries a notice that the Downtown Streamliner location has closed, directing customers to Ferguson Ave (viewed 2026-10-14); the footer shows no copyright year.",
+            "source_url": "https://www.sandflybbq.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "St. Simons Island",
+        "eats": [
+          {
+            "name": "Palmer's Village Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The pancakes, which the site calls award-winning.",
+            "why": "A single-location cafe at 223 Mallery Street serving breakfast and lunch daily and dinner most evenings.",
+            "price_tier": null,
+            "hours_note": "Breakfast and lunch 7:30 AM-2 PM daily; dinner 4-9 PM Tuesday-Saturday.",
+            "open_evidence": "Own website location-and-hours page carries a 2026 copyright footer and lists current hours (viewed 2026-10-14).",
+            "source_url": "https://www.palmersvillagecafessi.com/location-hours",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Dulce Dough Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Donuts, pastries or cinnamon rolls from the daily-changing menu; the site also lists quiches and tea sandwiches.",
+            "why": "On Frederica Road rather than in the Pier Village area; a single-location bakery whose menu changes daily.",
+            "price_tier": null,
+            "hours_note": "Wednesday-Sunday 7 a.m.-2 p.m.; closed Monday and Tuesday. The menu changes daily and is updated in the online ordering system at 4 p.m. for pickup the next day.",
+            "open_evidence": "Own website carries a 2026 copyright footer and lists current hours and closed days (viewed 2026-10-14).",
+            "source_url": "https://dulcedoughbakery.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
+        "day_number": 3,
+        "town": "Helen"
+      },
+      {
+        "itinerary_title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Savannah & the Georgia Coast",
+        "day_number": 1,
+        "town": "Savannah"
+      },
+      {
+        "itinerary_title": "Savannah & the Georgia Coast",
+        "day_number": 2,
+        "town": "Savannah"
+      },
+      {
+        "itinerary_title": "Savannah & the Georgia Coast",
+        "day_number": 3,
+        "town": "Savannah"
+      },
+      {
+        "itinerary_title": "Savannah & the Georgia Coast",
+        "day_number": 4,
+        "town": "St. Simons Island"
+      },
+      {
+        "itinerary_title": "Savannah & the Georgia Coast",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Savannah & the Georgia Coast",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 7,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "hawaii",
     "last_verified_date": "2026-10-14",
     "stops": [

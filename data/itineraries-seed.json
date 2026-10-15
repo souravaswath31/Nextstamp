@@ -1049,7 +1049,8 @@
         ],
         "lodging_suggestion": "Tbilisi",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -1060,7 +1061,8 @@
         ],
         "lodging_suggestion": "Tbilisi",
         "latitude": 41.693459,
-        "longitude": 44.801449
+        "longitude": 44.801449,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -1071,7 +1073,8 @@
         "drive_time": "3 hrs",
         "lodging_suggestion": "Kazbegi",
         "latitude": 42.65799,
-        "longitude": 44.640808
+        "longitude": 44.640808,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -1082,7 +1085,8 @@
         "drive_time": "3 hrs",
         "lodging_suggestion": "Kakheti",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -1093,7 +1097,8 @@
         "drive_time": "6 hrs",
         "lodging_suggestion": "Yerevan",
         "latitude": 41.693459,
-        "longitude": 44.801449
+        "longitude": 44.801449,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -1104,14 +1109,16 @@
         ],
         "lodging_suggestion": "Yerevan",
         "latitude": 41.692588,
-        "longitude": 44.814267
+        "longitude": 44.814267,
+        "eat_town": null
       },
       {
         "day_number": 7,
         "title": "Fly home",
         "activities": [],
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "food_culture": [
@@ -2255,7 +2262,8 @@
         "lodging_suggestion": "Blue Ridge",
         "coffee_wifi_spot": null,
         "latitude": 34.863972,
-        "longitude": -84.324087
+        "longitude": -84.324087,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -2267,7 +2275,8 @@
         "lodging_suggestion": "Blairsville",
         "coffee_wifi_spot": null,
         "latitude": 34.875907,
-        "longitude": -83.958371
+        "longitude": -83.958371,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -2279,7 +2288,8 @@
         "lodging_suggestion": "Helen",
         "coffee_wifi_spot": null,
         "latitude": 34.700904,
-        "longitude": -83.729455
+        "longitude": -83.729455,
+        "eat_town": "Helen"
       },
       {
         "day_number": 4,
@@ -2292,7 +2302,8 @@
         "lodging_suggestion": "Dahlonega",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -2304,7 +2315,8 @@
         "lodging_suggestion": "Tallulah Falls",
         "coffee_wifi_spot": null,
         "latitude": 34.731804,
-        "longitude": -83.382498
+        "longitude": -83.382498,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -6537,7 +6549,8 @@
         "lodging_suggestion": "Savannah Historic District",
         "coffee_wifi_spot": null,
         "latitude": 32.074653,
-        "longitude": -81.092445
+        "longitude": -81.092445,
+        "eat_town": "Savannah"
       },
       {
         "day_number": 2,
@@ -6551,7 +6564,8 @@
         "lodging_suggestion": "Savannah",
         "coffee_wifi_spot": null,
         "latitude": 32.07853,
-        "longitude": -81.08111
+        "longitude": -81.08111,
+        "eat_town": "Savannah"
       },
       {
         "day_number": 3,
@@ -6565,7 +6579,8 @@
         "lodging_suggestion": "Savannah",
         "coffee_wifi_spot": null,
         "latitude": 32.015492,
-        "longitude": -80.861222
+        "longitude": -80.861222,
+        "eat_town": "Savannah"
       },
       {
         "day_number": 4,
@@ -6579,7 +6594,8 @@
         "lodging_suggestion": "St. Simons Island",
         "coffee_wifi_spot": null,
         "latitude": 31.218286,
-        "longitude": -81.361208
+        "longitude": -81.361208,
+        "eat_town": "St. Simons Island"
       },
       {
         "day_number": 5,
@@ -6592,7 +6608,8 @@
         "lodging_suggestion": "Jekyll Island",
         "coffee_wifi_spot": null,
         "latitude": 31.065586,
-        "longitude": -81.41405
+        "longitude": -81.41405,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -6605,7 +6622,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
