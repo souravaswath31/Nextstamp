@@ -1861,6 +1861,393 @@
     ]
   },
   {
+    "region_key": "illinois",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Chicago",
+        "eats": [
+          {
+            "name": "Pequod's Pizza",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Deep dish pan pizza with the caramelized crust, where mozzarella is placed around the pan's rim and caramelizes as the pie bakes.",
+            "why": "A Chicago pan-pizza specialist known for its caramelized cheese crust, at 2207 N. Clybourn Ave in Lincoln Park, an easy stop between the river tour and the lakefront.",
+            "price_tier": null,
+            "hours_note": "Chicago location: Mon-Sat 11am-2am, Sun 11am-12am per the venue's site. It also has a second location in Morton Grove.",
+            "open_evidence": "Own website lists current hours for both locations, promotes reservations and online ordering, and carries a 2025 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://www.pequodspizza.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Superdawg Drive-In",
+            "kind": "drive_in",
+            "meal": "lunch",
+            "what_to_order": "The Superdawg, the Whoopskidawg, or the Superburger, with Superfries and a Supermalt.",
+            "why": "A car-hop drive-in on N. Milwaukee Avenue open since 1948, a different Chicago food tradition from deep dish.",
+            "price_tier": null,
+            "hours_note": "Chicago location: Sun-Thu 11am-1am, Fri-Sat 11am-2am per the venue's site. It has one other location, in Wheeling.",
+            "open_evidence": "Own website and menu page show current hours and prices, a 2026 copyright footer, and a current hiring notice (viewed 2026-10-15).",
+            "source_url": "https://www.superdawg.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Utica",
+        "note": "Starved Rock State Park's own lodge restaurant is open daily, and a few independent places cluster along Mill Street in North Utica. Our advice: for trail days, plan a sit-down meal at the Lodge or in North Utica at the end of the day.",
+        "note_source_url": "https://www.starvedrocklodge.com/dining/dining/lodge-restaurant/",
+        "eats": [
+          {
+            "name": "Starved Rock Lodge Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Fried walleye, fried chicken, or steak with vegetables, as the lodge's own page lists as standouts.",
+            "why": "The historic lodge inside Starved Rock State Park, so no drive after a day on the canyon trails; the Veranda overlooks the Illinois River.",
+            "price_tier": null,
+            "hours_note": "Per the lodge page: breakfast 8-10:30am Mon-Sat (Sunday breakfast buffet only 8-9:30am), lunch 11am-3pm Mon-Sat, Sunday brunch buffet 10:30am-3pm, dinner 5-9pm daily. Reservations recommended; call (815) 220-7321.",
+            "open_evidence": "Own website lists current dining hours and Thanksgiving 2026 holiday menus (viewed 2026-10-15); Shaw Local also lists it among Starved Rock Country restaurants in a 2026 article.",
+            "source_url": "https://www.starvedrocklodge.com/dining/dining/lodge-restaurant/",
+            "source_name": "Starved Rock Lodge website"
+          },
+          {
+            "name": "Skoog's Pub & Grill",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The Skoog Burger or the wings; the menu also lists pork chops and Italian beef sandwiches.",
+            "why": "In North Utica, minutes from the park entrance: a local pub with a burger and wings menu, an easy dinner after the trails.",
+            "price_tier": null,
+            "hours_note": "Site says the dinner menu starts at 4pm and lists a Wednesday wing special from 4pm; full daily hours were not shown on the page, so call (815) 667-5800.",
+            "open_evidence": "Shaw Local's 2026 'restaurants in Starved Rock Country' feature lists it with the Skoog Burger and wings; own website shows a current menu with online ordering but no year (viewed 2026-10-15).",
+            "source_url": "https://www.shawlocal.com/thescene/2026/04/07/14-restaurants-to-check-out-in-starved-rock-country/",
+            "source_name": "Shaw Local (2026 feature)"
+          },
+          {
+            "name": "Bruce & Ollie's Ice Cream, Specialty Coffee & Deli",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast casseroles, sandwiches and cinnamon rolls, deli sandwiches, and Capannari ice cream, with locally roasted Starved Rock Coffee.",
+            "why": "A family-run cafe in North Utica's historic Bickerman Building, a good breakfast or ice cream stop on the way to or from the park.",
+            "price_tier": null,
+            "hours_note": "October hours per its site: Mon and Wed-Thu 7am-8pm, Sun 7am-8pm, Fri-Sat 7am-9pm, closed Tuesdays; the deli closes an hour before posted closing time.",
+            "open_evidence": "Own website lists 'October' hours and a current menu but shows no year (viewed 2026-10-15); Shaw Local's 2026 Starved Rock Country restaurant feature also lists it.",
+            "source_url": "https://www.bruceandollies.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Galena",
+        "eats": [
+          {
+            "name": "Log Cabin Steakhouse",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Prime rib, filet mignon or bone-in ribeye steaks; the Greek starters include flaming saganaki and feta with Kalamata olives.",
+            "why": "On N. Main Street since 1937, billed on its own site as Galena's oldest continuously operating eating establishment, run by the Rigopoulos family with a Greek-influenced menu.",
+            "price_tier": null,
+            "hours_note": "Own site: closed Monday and Tuesday, opens at 4pm Wednesday-Sunday (closing times not shown on the site; Enjoy Illinois lists 9pm Wed-Sat and 8:30pm Sunday). Reservations by phone only: (815) 777-0393.",
+            "open_evidence": "Own website shows current hours and menu with a 2026 copyright footer (a theme-generated year, so weak on its own); BizTimes/Telegraph Herald profile dated March 11, 2025 describes the current owners and operation (viewed 2026-10-15).",
+            "source_url": "https://logcabingalena.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Vinny Vanucchi's 'Little Italy'",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Lasagna or bruschetta; the menu also lists pastas, sandwiches and desserts.",
+            "why": "A sit-down Italian restaurant at the corner of S. Main Street, open from 11am daily, so it works for a lunch between Galena's streetscape walks.",
+            "price_tier": null,
+            "hours_note": "Own site: open daily 11am-9pm. It has one other location, in Dubuque, Iowa.",
+            "open_evidence": "Own website lists current daily hours and menu with a 'Copyright 2008-2026' footer, which may update automatically (viewed 2026-10-15).",
+            "source_url": "https://www.vinnysgalena.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Cannova's Pizzeria",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The Cannova's Classic pizza, lasagna, chicken parmesan, or the Italian lemon creme cake.",
+            "why": "A 38-seat, scratch-made Italian place at 247 N. Main Street that its site says has been family-owned since 1994.",
+            "price_tier": null,
+            "hours_note": "Own site: Sun 4-8:30pm, Mon-Tue and Thu 4:30-8:30pm, Fri-Sat 4-9:30pm, closed Wednesday. Reservations recommended; (815) 777-3735.",
+            "open_evidence": "Own website shows current hours, online ordering and a footer dated July 2026 (viewed 2026-10-15).",
+            "source_url": "https://cannovaspizzeria.pizza/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Makanda",
+        "eats": [
+          {
+            "name": "Makanda Country Store",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Gourmet coffee, sandwiches and hand-dipped ice cream.",
+            "why": "On the historic Makanda Boardwalk just outside Giant City State Park; the visitor site calls it a good spot for lunch or an ice cream stop.",
+            "price_tier": null,
+            "hours_note": "Per Visit Makanda: open daily 9am-5pm year round.",
+            "open_evidence": "Visit Makanda's attractions page (2026 copyright footer) gives current hours and menu, and the Village of Makanda's business page (2026 footer) lists it at 526 Makanda Rd; the store's own website could not be reached (viewed 2026-10-15).",
+            "source_url": "https://www.visitmakanda.com/attractions/",
+            "source_name": "Visit Makanda (community visitor site)"
+          }
+        ]
+      },
+      {
+        "town": "Carbondale",
+        "eats": [
+          {
+            "name": "Harbaugh's Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Biscuits and gravy or the corned beef hash; weekly specials are also posted.",
+            "why": "A breakfast-and-lunch cafe at 901 S. Illinois Ave in Carbondale, the base town for the Little Grand Canyon day.",
+            "price_tier": null,
+            "hours_note": "Own site: Mon-Sat 7am-2pm, Sun 8am-2pm.",
+            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer and no closure notice (viewed 2026-10-15).",
+            "source_url": "https://harbaughscafe.net/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Chicago & Starved Rock",
+        "day_number": 1,
+        "town": "Chicago"
+      },
+      {
+        "itinerary_title": "Chicago & Starved Rock",
+        "day_number": 2,
+        "town": "Chicago"
+      },
+      {
+        "itinerary_title": "Chicago & Starved Rock",
+        "day_number": 3,
+        "town": "Utica"
+      },
+      {
+        "itinerary_title": "Chicago & Starved Rock",
+        "day_number": 4,
+        "town": "Galena"
+      },
+      {
+        "itinerary_title": "Chicago & Starved Rock",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
+        "day_number": 1,
+        "town": "Makanda"
+      },
+      {
+        "itinerary_title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
+        "day_number": 2,
+        "town": "Carbondale"
+      },
+      {
+        "itinerary_title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "kentucky",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Louisville",
+        "eats": [
+          {
+            "name": "Mayan Cafe",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Its own site describes 'Local, Seasonal Mayan Food' and names no individual dishes.",
+            "why": "Chef Bruce Ucan's NuLu restaurant cooks Yucatan Mayan food from his native region, per Louisville Tourism.",
+            "price_tier": null,
+            "hours_note": "Per its own site (no year shown): restaurant Mon-Sat 5-10 PM; carry-out orders Mon-Thu 5-9:30 PM.",
+            "open_evidence": "Own website lists current hours and catering but shows no copyright year (its dated promo says only 'June through the end of August'); Louisville Tourism directory page carries a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "http://themayancafe.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Bardstown",
+        "eats": [
+          {
+            "name": "Mammy's Kitchen & Bar",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Its own site offers separate breakfast and lunch/dinner menus; no specific dishes are named on the page.",
+            "why": "Family-owned downtown Bardstown restaurant operating since 2006; its owner was named 2024 Restaurateur of the Year by the Kentucky Restaurant Association, per its own site.",
+            "price_tier": null,
+            "hours_note": "Per its own site: closed Monday; Tuesday 6:30 AM-3 PM; Wednesday-Thursday 6:30 AM-9 PM; Friday-Saturday 6:30 AM-11 PM; Sunday 8 AM-3 PM.",
+            "open_evidence": "Own website lists current hours and shows a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://www.mammyskitchenbar.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Lexington",
+        "eats": [
+          {
+            "name": "Keeneland Track Kitchen",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Per Visit Lex: Salisbury steak with mashed potatoes, gravy and brussels sprouts, or a cheeseburger and fries.",
+            "why": "A working cafeteria for the horsemen at Keeneland's training facility that is open to the public, so you eat alongside the people who work the horses.",
+            "price_tier": null,
+            "hours_note": "Per Visit Lex: Monday-Friday 5 AM-2 PM, Saturday-Sunday 5 AM-11 AM.",
+            "open_evidence": "Visit Lexington (tourism board) article dated July 2, 2026 says it is open year-round and gives current hours (viewed 2026-10-15).",
+            "source_url": "https://lexingtonky.com/blog/keeneland-track-kitchen-review",
+            "source_name": "Visit Lexington"
+          }
+        ]
+      },
+      {
+        "town": "Campton",
+        "eats": [
+          {
+            "name": "Red River Rockhouse",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Its own site highlights grass-fed burgers, kale and spinach salads, tacos and burritos.",
+            "why": "In the neighbouring town of Campton rather than Slade itself; a family-owned 'Eclectic American Cafe in the Heart of the Red River Gorge' per its own site.",
+            "price_tier": null,
+            "hours_note": "Per its own site (no year shown): Thursday-Sunday noon-9 PM; the page says winter hours will be announced November 1, so expect different hours after that and call ahead.",
+            "open_evidence": "Own website lists current hours and a Labor Day hours notice but shows no year, so this is weak evidence; a second page (cliffviewresort.com) also lists it, also with no year (viewed 2026-10-15).",
+            "source_url": "https://www.redriverrockhouse.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Berea",
+        "eats": [
+          {
+            "name": "Artisan Cafe & Grill",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Its page lists breakfast items, grilled regional favorites, a Burger of the Month, coffee and desserts.",
+            "why": "Inside the state-run Kentucky Artisan Center, which is already on the Berea day's route.",
+            "price_tier": null,
+            "hours_note": "Per its page: cafe open daily 9 AM-4 PM (center open daily 9 AM-6 PM).",
+            "open_evidence": "Kentucky state site shows current daily hours and a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://kentuckyartisancenter.ky.gov/",
+            "source_name": "Kentucky Artisan Center (state site)"
+          }
+        ]
+      },
+      {
+        "town": "Corbin",
+        "eats": [
+          {
+            "name": "The Wrigley Taproom & Eatery",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "Its menu page lists a Big Ass Pretzel, Salmon BLT Taco, Americano Burger and a Fall Buddha Bowl, plus an Ale 8 Fizz cocktail.",
+            "why": "Locally owned downtown Corbin spot run by chef-owner Kristin M Smith serving farm-to-table pub fare, per its own site.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Tuesday-Thursday 11 AM-9 PM, Friday-Saturday 11 AM-10 PM; closed Sunday and Monday.",
+            "open_evidence": "Own website shows current hours and a seasonal 'Fall' menu but no copyright year (its latest dated item is a 2024 whiskey list); Kentucky Tourism's Corbin article (URL path dated 2026/07/21, no date in the page text) also describes it (viewed 2026-10-15).",
+            "source_url": "https://thewrigley.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Folktale Coffee & Bakehouse",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Its own site lists overnight sourdough, buttermilk biscuits, house pastry and smash burgers; Kentucky Tourism's article recommends the lemon blueberry scone with a mocha.",
+            "why": "Single-location scratch bakery and coffee shop on South Main Street in downtown Corbin, open since 2022 per its own site, with Friday-Saturday dinner.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday-Thursday 7 AM-6 PM, Friday 7 AM-9 PM, Saturday 8 AM-9 PM, Sunday 8 AM-3 PM; dinner Friday and Saturday 4-9 PM.",
+            "open_evidence": "Own website lists current hours and a weekly-changing dinner menu but shows no copyright year; Kentucky Tourism's Corbin article (URL path dated 2026/07/21, no date in the page text) also names it (viewed 2026-10-15).",
+            "source_url": "https://folktale.coffee/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
+        "day_number": 1,
+        "town": "Louisville"
+      },
+      {
+        "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
+        "day_number": 2,
+        "town": "Bardstown"
+      },
+      {
+        "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
+        "day_number": 3,
+        "town": "Lexington"
+      },
+      {
+        "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Red River Gorge & Appalachian Kentucky",
+        "day_number": 1,
+        "town": "Campton"
+      },
+      {
+        "itinerary_title": "Red River Gorge & Appalachian Kentucky",
+        "day_number": 2,
+        "town": "Campton"
+      },
+      {
+        "itinerary_title": "Red River Gorge & Appalachian Kentucky",
+        "day_number": 3,
+        "town": "Campton"
+      },
+      {
+        "itinerary_title": "Red River Gorge & Appalachian Kentucky",
+        "day_number": 4,
+        "town": "Berea"
+      },
+      {
+        "itinerary_title": "Red River Gorge & Appalachian Kentucky",
+        "day_number": 5,
+        "town": "Corbin"
+      },
+      {
+        "itinerary_title": "Red River Gorge & Appalachian Kentucky",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "louisiana",
     "last_verified_date": "2026-10-14",
     "stops": [
@@ -2313,6 +2700,168 @@
         "itinerary_title": "Portland, Maine & the Midcoast",
         "day_number": 6,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "maryland",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Annapolis",
+        "eats": [
+          {
+            "name": "Chick & Ruth's Delly",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site lists breakfast, sandwiches, hot platters and colossal and jumbo lump crab cakes.",
+            "why": "An Annapolis institution that its own site dates to 1965, with breakfast through crab cakes under one roof.",
+            "price_tier": null,
+            "hours_note": "Closing time listed as 10pm (11pm Fri/Sat) April-October and 9pm (11pm Fri/Sat) November-March; the page does not state opening hours or days open.",
+            "open_evidence": "Own website carries a '© Chick and Ruth's 2026' footer and a seasonal closing-time schedule (viewed 2026-10-15).",
+            "source_url": "https://www.chickandruths.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Boatyard Bar & Grill",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "The site lists crab cakes, raw bar, fish tacos, crab soups, lobster rolls and burgers.",
+            "why": "A single-location restaurant at 400 Fourth St. in Eastport, across the creek from downtown Annapolis, that markets itself on its crab cakes.",
+            "price_tier": null,
+            "hours_note": "Per its site, hours from April 3, 2026: Mon-Thu 11am-11:30pm, Fri 11am-11:30pm, Sat 10am-11:30pm, Sun 9am-11:30pm (kitchen closes earlier, 10pm-11pm); closed Thanksgiving Day and Christmas Day.",
+            "open_evidence": "Own website lists 2026 hours 'beginning April 3, 2026' and a current menu (viewed 2026-10-15).",
+            "source_url": "https://www.boatyardbarandgrill.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Baltimore",
+        "eats": [
+          {
+            "name": "Faidley's Seafood",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "The site lists Faidley's Famous Crabcakes, mini crab balls and prepared platters.",
+            "why": "A crab-cake counter at 119 N Paca St. (Paca Street entrance of Lexington Market), a short drive from the Inner Harbor.",
+            "price_tier": null,
+            "hours_note": "Per its site: Mon-Thu 10am-5pm, Fri-Sat 10am-5:30pm, closed Sunday.",
+            "open_evidence": "Own website shows '© 2026 Faidley's Seafood', current hours and a priced menu (viewed 2026-10-15).",
+            "source_url": "https://www.faidleyscrabcakes.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Attman's Delicatessen",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The site mentions piled-high sandwiches, a corned beef sandwich and a potato knish.",
+            "why": "A Baltimore deli with its original location at 1019 E. Lombard St.; it has three locations in all (two in Baltimore, one in Potomac).",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website carries 'Copyright © 2026 Attman's Delicatessen' and lists its locations and menu; the pages fetched did not show hours (viewed 2026-10-15).",
+            "source_url": "https://www.attmansdeli.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "St. Michaels",
+        "eats": [
+          {
+            "name": "Corah's Corner",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site lists oysters on the half shell and baked, Elijah's Oyster Stew, a crabcake sandwich, shrimp & grits and a spicy fish sandwich.",
+            "why": "A single-location restaurant at 105 N Talbot St. serving local Eastern Shore oysters and seafood.",
+            "price_tier": null,
+            "hours_note": "Per its site: 'We close for the season after the parade and reopen in March'; its 2026 calendar gives the parade as Saturday, December 12, 2026. Sunday brunch 11am-2pm is mentioned.",
+            "open_evidence": "Own website shows '© 2026 Corah's Corner' and a 2026 event calendar (viewed 2026-10-15).",
+            "source_url": "https://corahs.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Hagerstown",
+        "eats": [
+          {
+            "name": "Schmankerl Stube Bavarian Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The sources mention pork shank, dumplings and spaetzle.",
+            "why": "A Bavarian restaurant at 58 S. Potomac St., downtown, with a single location and the same proprietor-chef since 2008 according to its own site.",
+            "price_tier": null,
+            "hours_note": "Per its site: Wed-Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm; closed Monday and Tuesday; closed July 4, Thanksgiving, Christmas Day and New Year's Day.",
+            "open_evidence": "Own website lists current hours and menus (no copyright year shown) and it is listed with matching hours in Mainstreet Hagerstown's directory, footer '© 2026' (viewed 2026-10-15).",
+            "source_url": "https://schmankerlstube.com/",
+            "source_name": "Venue's own website; Mainstreet Hagerstown directory"
+          }
+        ]
+      },
+      {
+        "town": "McHenry / Deep Creek Lake",
+        "eats": [
+          {
+            "name": "Pine Lodge Steakhouse",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site lists hand-cut steaks, slow-roasted prime rib, a jumbo crab cake and creamy crab soup.",
+            "why": "A steakhouse at 1520 Deep Creek Drive in McHenry that says it has operated since 2002.",
+            "price_tier": null,
+            "hours_note": "Per its site: Mon-Tue 4pm-9pm, Wed-Thu 12pm-9pm, Fri-Sat 12pm-10pm, Sun 12pm-8pm; outside dining is available weather permitting.",
+            "open_evidence": "Own website shows these hours and a menu, and an own-site article dated August 13, 2026 carries the same hours; the home page shows no copyright year (viewed 2026-10-15).",
+            "source_url": "https://pinelodgesteakhouse.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Chesapeake Bay: Annapolis → Eastern Shore",
+        "day_number": 1,
+        "town": "Annapolis"
+      },
+      {
+        "itinerary_title": "Chesapeake Bay: Annapolis → Eastern Shore",
+        "day_number": 2,
+        "town": "Baltimore"
+      },
+      {
+        "itinerary_title": "Chesapeake Bay: Annapolis → Eastern Shore",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Chesapeake Bay: Annapolis → Eastern Shore",
+        "day_number": 4,
+        "town": "St. Michaels"
+      },
+      {
+        "itinerary_title": "Western Maryland: Deep Creek Lake & Antietam",
+        "day_number": 1,
+        "town": "Hagerstown"
+      },
+      {
+        "itinerary_title": "Western Maryland: Deep Creek Lake & Antietam",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Western Maryland: Deep Creek Lake & Antietam",
+        "day_number": 3,
+        "town": "McHenry / Deep Creek Lake"
+      },
+      {
+        "itinerary_title": "Western Maryland: Deep Creek Lake & Antietam",
+        "day_number": 4,
+        "town": "McHenry / Deep Creek Lake"
+      },
+      {
+        "itinerary_title": "Western Maryland: Deep Creek Lake & Antietam",
+        "day_number": 5,
+        "town": "McHenry / Deep Creek Lake"
       }
     ]
   },
@@ -5897,6 +6446,238 @@
         "itinerary_title": "Seattle & the San Juan Islands",
         "day_number": 6,
         "town": "Seattle"
+      }
+    ]
+  },
+  {
+    "region_key": "wisconsin",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Sturgeon Bay",
+        "eats": [
+          {
+            "name": "Scaturo's Baking Co. & Cafe",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The Fisherman's Breakfast, BLT Benedict or The Ultimate Door County Burger from the cafe menu, plus baked goods from the bakery counter.",
+            "why": "A bakery and cafe in Sturgeon Bay where the website says all bakery items are made fresh daily, which makes it a practical first stop before heading up the peninsula.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday-Friday 5:00am-4:00pm dining (bakery/takeout until 7:00pm), Saturday 5:00am-3:00pm, Sunday 7:00am-2:00pm.",
+            "open_evidence": "Own website footer reads 2025 and its menu links are titled april-2026 and august-2026; hours listed (viewed 2026-10-15).",
+            "source_url": "https://www.scaturos.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Fish Creek",
+        "eats": [
+          {
+            "name": "White Gull Inn",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The traditional Door County fish boil, featuring Lake Michigan whitefish.",
+            "why": "The inn says it has operated continuously since 1896 and serves the fish boil, a Door County tradition, to the general public.",
+            "price_tier": null,
+            "hours_note": "Per its own site, fish boils are served Wednesday, Friday, Saturday and Sunday with seatings at 5:00, 6:30 and 8:00 PM; reservations recommended, call (920) 868-3517.",
+            "open_evidence": "Own website describes year-round service and its navigation lists 'Winter Concerts 2026-2027' (viewed 2026-10-15); the page shows no copyright footer year.",
+            "source_url": "https://www.whitegullinn.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Pelletier's Fish Creek",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "The Door County fish boil at night, or the daily breakfast and lunch menus (the page links the menus but lists no individual dishes).",
+            "why": "A Main Street Fish Creek restaurant that does a fish boil every night and serves breakfast and lunch daily, so it covers a morning meal in the town.",
+            "price_tier": null,
+            "hours_note": "Per its own site: breakfast and lunch daily 7:30 am-2:00 pm; fish boil nightly at 5, 6 and 7 pm (8 pm during peak season). The site states the last day of service for the 2026 season is Sunday, October 25.",
+            "open_evidence": "Own website says 'Our last day of service for the 2026 Season will be Sunday, October 25th' and lists current hours (viewed 2026-10-15).",
+            "source_url": "https://www.pelletiersfishboil.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Sister Bay",
+        "eats": [
+          {
+            "name": "Al Johnson's Swedish Restaurant & Butik",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "Swedish pancakes with lingonberries, strawberries or maple syrup, or the Swedish meatballs.",
+            "why": "The Sister Bay restaurant with live goats grazing on its sod roof; its site says Swedish pancakes are served all day.",
+            "price_tier": null,
+            "hours_note": "Per its own site: restaurant 7:00am-3:00pm. The site says the roof goats usually stay from late May through mid-October and stay off the roof in rain or snow.",
+            "open_evidence": "Own website lists current hours and menu with a page timestamp of 2026-09-08 (its footer still reads 2021), and WBAY/WSAW news reported on 2026-06-24 that the restaurant's Goat Cam was relaunched (viewed 2026-10-15).",
+            "source_url": "https://www.aljohnsons.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Washington Island",
+        "eats": [
+          {
+            "name": "Jackson Harbor Soup",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Grammy's Potato Soup, Beer & Cheddar Soup or a panini; The Welcome Basket lets you pick 2 of 3 of soup, salad and sandwich.",
+            "why": "A casual lunch stop at the Jackson Harbor end of the island, near the Rock Island ferry dock according to the island chamber of commerce.",
+            "price_tier": null,
+            "hours_note": "Per its own site: lunch Thursday-Monday 11:00 am-3:00 pm, closed Tuesday and Wednesday. The page does not state when the 2026 season ends; call 920-847-2589 before going in late October.",
+            "open_evidence": "Own website shows 'Season 11 - 2026', current hours and a footer reading (c) 2026 (viewed 2026-10-15).",
+            "source_url": "http://www.jacksonharborsoup.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Red Cup Coffee House",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Organic Fair Trade coffee, espresso drinks, smoothies and gourmet pastries or egg sandwiches.",
+            "why": "Listed by Travel Wisconsin as open year around, one of few island spots not tied to the summer season.",
+            "price_tier": null,
+            "hours_note": "Travel Wisconsin states it is open year around; no hours are given on the pages fetched, so call 920-847-3304.",
+            "open_evidence": "Travel Wisconsin (state tourism) listing says open year around, and the Washington Island Chamber of Commerce site (footer 2026) lists it with the owner family; neither page carries venue-specific dates (viewed 2026-10-15).",
+            "source_url": "https://www.travelwisconsin.com/food-drink/cafes-coffee-shops/red-cup-coffee-house",
+            "source_name": "Travel Wisconsin (state tourism board)"
+          }
+        ]
+      },
+      {
+        "town": "Milwaukee",
+        "eats": [
+          {
+            "name": "Milwaukee Public Market",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "Cheese curds, ready-to-eat meals and the market's bars; the site names no individual dishes, so check merchants on arrival.",
+            "why": "A Historic Third Ward food hall with 19 independently owned merchants, so it suits a mixed group on the Third Ward day.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday-Friday 10am-8pm, Saturday 10am-8pm, Sunday 10am-6pm; individual merchants may keep different hours.",
+            "open_evidence": "Own website footer reads 'Copyright © 2026 Milwaukee Public Market' and lists current hours, with no closure notice (viewed 2026-10-15).",
+            "source_url": "https://milwaukeepublicmarket.org/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Kopp's Frozen Custard",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "The flavor of the day; the site's October 15, 2026 listing named Strawberry and Pralines 'N Caramel 'N Cream, a Butterfinger Shake of the Month and a Caramel Apple Sundae of the Month.",
+            "why": "In the Milwaukee suburbs of Glendale, Greenfield and Brookfield rather than downtown; a three-location local custard stand that publishes its flavor of the day.",
+            "price_tier": null,
+            "hours_note": "Per its own site, all three locations: Sunday-Thursday 10:30am-10:00pm, Friday and Saturday 10:30am-11:00pm; no seasonal closure notice on the page.",
+            "open_evidence": "Own website footer reads 2026 and lists flavors and monthly specials dated October 15, 2026 (viewed 2026-10-15).",
+            "source_url": "https://www.kopps.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Madison",
+        "eats": [
+          {
+            "name": "Monty's Blue Plate Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast, which the site says is served all day; the site also lists sandwiches, soups and salads with vegetarian and vegan options.",
+            "why": "A Schenk-Atwood neighborhood diner a short drive east of the Capitol that serves breakfast all day, handy on a day that starts at the Dane County Farmers' Market or the gardens.",
+            "price_tier": null,
+            "hours_note": "Per its own site: open every day 7:30am-9:00pm (an Isthmus listing gives slightly different hours, so confirm before going).",
+            "open_evidence": "Own website lists current hours and online ordering (no year shown); Cap Times Madison Burger Week 2026 article dated 2026-05-15 lists Monty's Mediterranean Smash Burger at 2089 Atwood Ave (viewed 2026-10-15).",
+            "source_url": "https://www.montysblueplatediner.com/location/montys-blue-plate-diner/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Dane County Farmers' Market (Saturday on the Square)",
+            "kind": "market",
+            "meal": "breakfast",
+            "what_to_order": "Whatever the producers have that morning; the page names no specific foods.",
+            "why": "The Saturday market ringing the Capitol Square is a producer-only market, and it is the listed activity on the Madison gardens and campus day.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Saturdays April 11 through November 14, 2026, 6:15 am-1:45 pm (1:00 pm close on September 5); vendors may sell out early. Only operates on Saturdays.",
+            "open_evidence": "Own website lists the 2026 season dates and a footer reading (c) 2026 (viewed 2026-10-15).",
+            "source_url": "https://dcfm.org/markets/saturday-on-the-square",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Spring Green",
+        "eats": [
+          {
+            "name": "Riverview Terrace Cafe",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Sandwiches, salads and ice cream; the page describes comfort classics with local ingredients but names no individual dishes.",
+            "why": "The cafe is at Frank Lloyd Wright's Taliesin visitor center, so it fits a Taliesin tour day without a drive into town.",
+            "price_tier": null,
+            "hours_note": "Per its own site: breakfast 9:00-11:00 AM, lunch 11:00 AM-3:00 PM; open daily May 1-October 31, then Wednesday-Sunday November 1-April 30; no reservations. The page states no year for this schedule.",
+            "open_evidence": "Taliesin Preservation's homepage links 2026 news (dated September 29, 2026) and lists the cafe as 'Mon - Sun: 9am - 3pm'; the cafe page's schedule carries no year, and the footer shows no year (viewed 2026-10-15).",
+            "source_url": "https://www.taliesinpreservation.org/cafe",
+            "source_name": "Taliesin Preservation (venue's own website)"
+          },
+          {
+            "name": "Spring Green General Store",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Soups, weekend pancake specials, cinnamon twists and vegetarian options; weekend breakfast is served 8 am-noon.",
+            "why": "A cafe and shop in the village of Spring Green itself, with a menu the site describes as old-school comfort food, useful when the tours are done.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Tuesday-Friday 10 am-3 pm, Saturday and Sunday 8 am-3 pm, closed Monday; kitchen closes at 2 pm. The owner's 2026 notice says the store is for sale and continues operating while a buyer is sought, so ownership may change.",
+            "open_evidence": "Own website carries a 2026 owner notice that the store is for sale after 33 years and 'continues operating', with current hours (viewed 2026-10-15).",
+            "source_url": "https://www.springgreengeneralstore.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Door County, Wisconsin",
+        "day_number": 1,
+        "town": "Sturgeon Bay"
+      },
+      {
+        "itinerary_title": "Door County, Wisconsin",
+        "day_number": 2,
+        "town": "Fish Creek"
+      },
+      {
+        "itinerary_title": "Door County, Wisconsin",
+        "day_number": 3,
+        "town": "Sister Bay"
+      },
+      {
+        "itinerary_title": "Door County, Wisconsin",
+        "day_number": 4,
+        "town": "Washington Island"
+      },
+      {
+        "itinerary_title": "Milwaukee & Madison, Wisconsin",
+        "day_number": 1,
+        "town": "Milwaukee"
+      },
+      {
+        "itinerary_title": "Milwaukee & Madison, Wisconsin",
+        "day_number": 2,
+        "town": "Milwaukee"
+      },
+      {
+        "itinerary_title": "Milwaukee & Madison, Wisconsin",
+        "day_number": 3,
+        "town": "Madison"
+      },
+      {
+        "itinerary_title": "Milwaukee & Madison, Wisconsin",
+        "day_number": 4,
+        "town": "Madison"
+      },
+      {
+        "itinerary_title": "Milwaukee & Madison, Wisconsin",
+        "day_number": 5,
+        "town": "Spring Green"
       }
     ]
   },

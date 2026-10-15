@@ -3127,7 +3127,8 @@
         "lodging_suggestion": "Chicago",
         "coffee_wifi_spot": null,
         "latitude": 41.875562,
-        "longitude": -87.624421
+        "longitude": -87.624421,
+        "eat_town": "Chicago"
       },
       {
         "day_number": 2,
@@ -3140,7 +3141,8 @@
         "lodging_suggestion": "Chicago",
         "coffee_wifi_spot": null,
         "latitude": 41.999053,
-        "longitude": -87.655667
+        "longitude": -87.655667,
+        "eat_town": "Chicago"
       },
       {
         "day_number": 3,
@@ -3153,7 +3155,8 @@
         "lodging_suggestion": "Utica",
         "coffee_wifi_spot": null,
         "latitude": 41.318203,
-        "longitude": -89.039829
+        "longitude": -89.039829,
+        "eat_town": "Utica"
       },
       {
         "day_number": 4,
@@ -3165,7 +3168,8 @@
         "lodging_suggestion": "Galena",
         "coffee_wifi_spot": null,
         "latitude": 42.41573,
-        "longitude": -90.429473
+        "longitude": -90.429473,
+        "eat_town": "Galena"
       },
       {
         "day_number": 5,
@@ -3177,7 +3181,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -3447,7 +3452,8 @@
         "lodging_suggestion": "Louisville",
         "coffee_wifi_spot": null,
         "latitude": 38.254238,
-        "longitude": -85.759407
+        "longitude": -85.759407,
+        "eat_town": "Louisville"
       },
       {
         "day_number": 2,
@@ -3459,7 +3465,8 @@
         "lodging_suggestion": "Bardstown",
         "coffee_wifi_spot": null,
         "latitude": 37.809246,
-        "longitude": -85.466902
+        "longitude": -85.466902,
+        "eat_town": "Bardstown"
       },
       {
         "day_number": 3,
@@ -3472,7 +3479,8 @@
         "lodging_suggestion": "Lexington",
         "coffee_wifi_spot": null,
         "latitude": 38.046407,
-        "longitude": -84.497039
+        "longitude": -84.497039,
+        "eat_town": "Lexington"
       },
       {
         "day_number": 4,
@@ -3484,7 +3492,8 @@
         "lodging_suggestion": "Cave City",
         "coffee_wifi_spot": null,
         "latitude": 37.18616,
-        "longitude": -86.099975
+        "longitude": -86.099975,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -3496,7 +3505,8 @@
         "lodging_suggestion": "Cave City",
         "coffee_wifi_spot": null,
         "latitude": 37.184169,
-        "longitude": -86.122991
+        "longitude": -86.122991,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -3508,7 +3518,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -3643,7 +3654,8 @@
         "lodging_suggestion": "Annapolis",
         "coffee_wifi_spot": null,
         "latitude": 38.97864,
-        "longitude": -76.492786
+        "longitude": -76.492786,
+        "eat_town": "Annapolis"
       },
       {
         "day_number": 2,
@@ -3656,7 +3668,8 @@
         "lodging_suggestion": "Baltimore",
         "coffee_wifi_spot": null,
         "latitude": 39.290882,
-        "longitude": -76.610759
+        "longitude": -76.610759,
+        "eat_town": "Baltimore"
       },
       {
         "day_number": 3,
@@ -3668,7 +3681,8 @@
         "lodging_suggestion": "Kent Island",
         "coffee_wifi_spot": null,
         "latitude": 38.938127,
-        "longitude": -76.346951
+        "longitude": -76.346951,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -3680,7 +3694,8 @@
         "lodging_suggestion": "St. Michaels",
         "coffee_wifi_spot": null,
         "latitude": 38.786584,
-        "longitude": -76.22441
+        "longitude": -76.22441,
+        "eat_town": "St. Michaels"
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -5659,7 +5674,8 @@
         "lodging_suggestion": "Sturgeon Bay",
         "coffee_wifi_spot": null,
         "latitude": 44.854163,
-        "longitude": -87.394543
+        "longitude": -87.394543,
+        "eat_town": "Sturgeon Bay"
       },
       {
         "day_number": 2,
@@ -5671,7 +5687,8 @@
         "lodging_suggestion": "Fish Creek",
         "coffee_wifi_spot": null,
         "latitude": 45.127769,
-        "longitude": -87.246726
+        "longitude": -87.246726,
+        "eat_town": "Fish Creek"
       },
       {
         "day_number": 3,
@@ -5684,7 +5701,8 @@
         "lodging_suggestion": "Sister Bay",
         "coffee_wifi_spot": null,
         "latitude": 45.192058,
-        "longitude": -87.122526
+        "longitude": -87.122526,
+        "eat_town": "Sister Bay"
       },
       {
         "day_number": 4,
@@ -5696,7 +5714,8 @@
         "lodging_suggestion": "Washington Island",
         "coffee_wifi_spot": null,
         "latitude": 45.375836,
-        "longitude": -86.899672
+        "longitude": -86.899672,
+        "eat_town": "Washington Island"
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -8045,7 +8064,8 @@
         "lodging_suggestion": "Hagerstown",
         "coffee_wifi_spot": null,
         "latitude": 39.467756,
-        "longitude": -77.731319
+        "longitude": -77.731319,
+        "eat_town": "Hagerstown"
       },
       {
         "day_number": 2,
@@ -8059,7 +8079,8 @@
         "lodging_suggestion": "Cumberland",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -8073,7 +8094,8 @@
         "lodging_suggestion": "McHenry / Deep Creek Lake",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "McHenry / Deep Creek Lake"
       },
       {
         "day_number": 4,
@@ -8087,7 +8109,8 @@
         "lodging_suggestion": "McHenry / Deep Creek Lake",
         "coffee_wifi_spot": null,
         "latitude": 39.498918,
-        "longitude": -79.423552
+        "longitude": -79.423552,
+        "eat_town": "McHenry / Deep Creek Lake"
       },
       {
         "day_number": 5,
@@ -8100,7 +8123,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 39.550505,
-        "longitude": -79.366935
+        "longitude": -79.366935,
+        "eat_town": "McHenry / Deep Creek Lake"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -8702,7 +8726,8 @@
         "lodging_suggestion": "Makanda",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Makanda"
       },
       {
         "day_number": 2,
@@ -8714,7 +8739,8 @@
         "lodging_suggestion": "Carbondale",
         "coffee_wifi_spot": null,
         "latitude": 37.680527,
-        "longitude": -89.395447
+        "longitude": -89.395447,
+        "eat_town": "Carbondale"
       },
       {
         "day_number": 3,
@@ -8727,7 +8753,8 @@
         "lodging_suggestion": "Herod",
         "coffee_wifi_spot": null,
         "latitude": 37.604076,
-        "longitude": -88.384941
+        "longitude": -88.384941,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -8740,7 +8767,8 @@
         "lodging_suggestion": "Cave-in-Rock",
         "coffee_wifi_spot": null,
         "latitude": 37.472027,
-        "longitude": -88.155162
+        "longitude": -88.155162,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -8752,7 +8780,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -9074,7 +9103,8 @@
         "lodging_suggestion": "Slade",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Campton"
       },
       {
         "day_number": 2,
@@ -9086,7 +9116,8 @@
         "lodging_suggestion": "Slade",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Campton"
       },
       {
         "day_number": 3,
@@ -9099,7 +9130,8 @@
         "lodging_suggestion": "Slade",
         "coffee_wifi_spot": null,
         "latitude": 37.768196,
-        "longitude": -83.69698
+        "longitude": -83.69698,
+        "eat_town": "Campton"
       },
       {
         "day_number": 4,
@@ -9112,7 +9144,8 @@
         "lodging_suggestion": "Berea",
         "coffee_wifi_spot": null,
         "latitude": 37.568694,
-        "longitude": -84.296322
+        "longitude": -84.296322,
+        "eat_town": "Berea"
       },
       {
         "day_number": 5,
@@ -9125,7 +9158,8 @@
         "lodging_suggestion": "Corbin",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Corbin"
       },
       {
         "day_number": 6,
@@ -9137,7 +9171,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -9537,7 +9572,8 @@
         "lodging_suggestion": "Milwaukee",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Milwaukee"
       },
       {
         "day_number": 2,
@@ -9551,7 +9587,8 @@
         "lodging_suggestion": "Milwaukee",
         "coffee_wifi_spot": null,
         "latitude": 43.032772,
-        "longitude": -87.905843
+        "longitude": -87.905843,
+        "eat_town": "Milwaukee"
       },
       {
         "day_number": 3,
@@ -9565,7 +9602,8 @@
         "lodging_suggestion": "Madison",
         "coffee_wifi_spot": null,
         "latitude": 43.07469,
-        "longitude": -89.384166
+        "longitude": -89.384166,
+        "eat_town": "Madison"
       },
       {
         "day_number": 4,
@@ -9579,7 +9617,8 @@
         "lodging_suggestion": "Madison",
         "coffee_wifi_spot": null,
         "latitude": 43.01823,
-        "longitude": -88.052724
+        "longitude": -88.052724,
+        "eat_town": "Madison"
       },
       {
         "day_number": 5,
@@ -9593,7 +9632,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 43.176937,
-        "longitude": -90.068048
+        "longitude": -90.068048,
+        "eat_town": "Spring Green"
       }
     ],
     "cover_image_url": "/category-city.jpg"
