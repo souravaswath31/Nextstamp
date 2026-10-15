@@ -1,5 +1,201 @@
 [
   {
+    "region_key": "alaska",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Anchorage",
+        "eats": [
+          {
+            "name": "Fire Island Rustic Bakeshop",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The site lists sourdough and artisan breads, croissants, scones, muffins, cookies, tarts and sandwiches.",
+            "why": "A local bakery whose own site says it is a 2026 James Beard finalist in the Outstanding Bakery category, with a downtown shop on K Street.",
+            "price_tier": null,
+            "hours_note": "Site lists the K Street and Airport Heights bakeshops open Wednesday-Sunday 7am-4pm (closed Monday and Tuesday); the Little Sister Espresso counter is listed open 7 days, 7am-4pm.",
+            "open_evidence": "Own website (fireislandbread.com) lists current hours for its K Street (718 K St) and Airport Heights (2520 E 16th Ave) shops and announces the 2026 James Beard finalist nomination; the page footer reads 2022, but the 2026 announcement is newer (viewed 2026-10-15). Two bakeshops plus an espresso counter at the Airport Heights address.",
+            "source_url": "http://www.fireislandbread.com/",
+            "source_name": "Fire Island Rustic Bakeshop's own website"
+          },
+          {
+            "name": "Sofra Turkish Cuisine",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "Anchorage Daily News names the serpme kahvalti shared Turkish breakfast spread and menemen (eggs with tomatoes and peppers).",
+            "why": "A Turkish breakfast-and-brunch spot in Spenard where the shared breakfast spread is the point; a 2026 opening rather than a long-running institution.",
+            "price_tier": null,
+            "hours_note": "Own page lists Tuesday-Sunday 9am-2pm for breakfast/brunch, with the cafe menu available Tuesday-Friday only; the page shows no year.",
+            "open_evidence": "Own page (turkishdelightalaska.com/sofra) lists current hours at 1443 W Northern Lights Blvd but shows no year (it mentions a soft opening on April 24); Anchorage Daily News 'Open & Shut' of 2026-07-11 reports the restaurant recently opened at the same address with breakfast 9am-1pm (viewed 2026-10-15).",
+            "source_url": "https://turkishdelightalaska.com/sofra",
+            "source_name": "Sofra's own page (with Anchorage Daily News, 2026-07-11)"
+          }
+        ]
+      },
+      {
+        "town": "Seward",
+        "eats": [
+          {
+            "name": "The Highliner",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The site lists halibut, wild Alaskan salmon, king crab, and fish & chips.",
+            "why": "A harbour-town seafood kitchen that, per its own site, stays open through the winter while much of Seward's visitor trade closes for the season.",
+            "price_tier": null,
+            "hours_note": "Site says open daily for lunch and dinner, year-round; specific opening times are not listed on the page.",
+            "open_evidence": "Own website (highlinerseward.com) shows a 'Copyright © 2026' footer, lists 303 Adams Street and a current menu, and states it stays open year-round; single location, described as locally owned and operated (viewed 2026-10-15).",
+            "source_url": "https://highlinerseward.com/",
+            "source_name": "The Highliner's own website"
+          }
+        ]
+      },
+      {
+        "town": "Healy",
+        "note": "The NPS says that in fall, winter and spring (roughly mid-September to mid-May) the nearest restaurants and convenience stores to Denali are in Healy, 11 miles north of the park entrance, and that the Morino Grill, the park's only sit-down restaurant, is seasonal (NPS page last updated 2023-11-15). Our advice: Healy is where meals happen on the Denali days; expect few open places this late in the year and carry food for the park.",
+        "note_source_url": "https://www.nps.gov/dena/planyourvisit/eatingsleeping.htm",
+        "eats": [
+          {
+            "name": "Denali Totem Inn restaurant",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The site lists burgers with hand-pressed patties, fresh-cut fries, pasta, pizzas, and Mediterranean items with house-made gyro loaf, sauces and pitas.",
+            "why": "In Healy, 11 miles north of the Denali park entrance rather than inside the park; the inn states it operates year-round, closing only Christmas and Thanksgiving.",
+            "price_tier": null,
+            "hours_note": "Restaurant page lists open daily 12pm-9pm; closed Christmas and Thanksgiving. The site's homepage gives the facility as 9am-11pm daily.",
+            "open_evidence": "Own website (thetoteminn.com) lists current hours and a menu and mentions air conditioning 'newly added in 2025'; it states it operates year-round (viewed 2026-10-15). Only the 2025 mention dates the page; no 2026 footer.",
+            "source_url": "https://www.thetoteminn.com/restaurant",
+            "source_name": "Denali Totem Inn's own website"
+          }
+        ]
+      },
+      {
+        "town": "Juneau",
+        "eats": [
+          {
+            "name": "The Rookery Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The site mentions scratch-made bread, burgers, pickles and cured salmon, and Stumptown coffee.",
+            "why": "A downtown Juneau coffeehouse and bistro that, per its own site, makes its bread, pickles and cured salmon from scratch.",
+            "price_tier": null,
+            "hours_note": "Site lists Monday-Friday 7am-2pm, Saturday 9am-2pm, closed Sunday.",
+            "open_evidence": "Own website (therookerycafe.com) shows '© 2026, The Rookery Cafe' and current hours at 111 Seward Street; single location (viewed 2026-10-15).",
+            "source_url": "https://therookerycafe.com/",
+            "source_name": "The Rookery Cafe's own website"
+          },
+          {
+            "name": "The Hangar on the Wharf",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The site highlights grilled halibut and fries and Alaskan king crab.",
+            "why": "A pub-restaurant in a 1932 airplane hangar on Juneau's Merchant's Wharf, serving there since 1996 per its own site.",
+            "price_tier": null,
+            "hours_note": "Site lists Sunday-Thursday 11am-9pm and Friday-Saturday 11am-9:30pm.",
+            "open_evidence": "Own website (hangaronthewharf.com) lists current hours and menu and marks '30 years of warm Alaskan hospitality' since 1996, i.e. 2026; single location at 2 Marine Way (viewed 2026-10-15). It shows no copyright footer.",
+            "source_url": "https://www.hangaronthewharf.com/",
+            "source_name": "The Hangar on the Wharf's own website"
+          },
+          {
+            "name": "Sacred Grounds Cafe",
+            "kind": "cafe",
+            "meal": "snack",
+            "what_to_order": "The site mentions fresh coffee, espresso, specialty drinks and baked goods.",
+            "why": "A Tlingit & Haida tribal-enterprise cafe in downtown Juneau for coffee and baked goods.",
+            "price_tier": null,
+            "hours_note": "Site lists Monday-Friday 7am-5pm at 320 West Willoughby Ave; the second location at 219 S. Franklin St is marked 'CLOSED FOR THE SEASON'.",
+            "open_evidence": "Own website (sacredgroundsak.com) shows a 2026 copyright footer and current hours for the Willoughby Ave location (viewed 2026-10-15). Two locations, one closed for the season.",
+            "source_url": "https://sacredgroundsak.com/",
+            "source_name": "Sacred Grounds Cafe's own website"
+          }
+        ]
+      },
+      {
+        "town": "Ketchikan",
+        "eats": [
+          {
+            "name": "Annabelle's Famous Keg and Chowder House",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The site lists red king crab, halibut fish and chips, Cajun crab cakes, seafood chowder and blackened halibut.",
+            "why": "A chowder house on Front Street in Ketchikan with king crab and halibut on the menu.",
+            "price_tier": null,
+            "hours_note": "Site lists Tuesday-Friday 11am-8pm and Saturday 11am-10pm; closed Sunday and Monday.",
+            "open_evidence": "Own website lists current hours and menu at 326 Front Street and shows a '2026' copyright footer (viewed 2026-10-15). Single location; the page does not state ownership.",
+            "source_url": "https://www.annabellesketchikan.com/",
+            "source_name": "Annabelle's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Alaska: Anchorage → Seward → Denali",
+        "day_number": 1,
+        "town": "Anchorage"
+      },
+      {
+        "itinerary_title": "Alaska: Anchorage → Seward → Denali",
+        "day_number": 2,
+        "town": "Seward"
+      },
+      {
+        "itinerary_title": "Alaska: Anchorage → Seward → Denali",
+        "day_number": 3,
+        "town": "Seward"
+      },
+      {
+        "itinerary_title": "Alaska: Anchorage → Seward → Denali",
+        "day_number": 4,
+        "town": "Healy"
+      },
+      {
+        "itinerary_title": "Alaska: Anchorage → Seward → Denali",
+        "day_number": 5,
+        "town": "Healy"
+      },
+      {
+        "itinerary_title": "Alaska: Anchorage → Seward → Denali",
+        "day_number": 6,
+        "town": "Healy"
+      },
+      {
+        "itinerary_title": "Alaska: Anchorage → Seward → Denali",
+        "day_number": 7,
+        "town": "Anchorage"
+      },
+      {
+        "itinerary_title": "Southeast Alaska: Juneau & Ketchikan",
+        "day_number": 1,
+        "town": "Juneau"
+      },
+      {
+        "itinerary_title": "Southeast Alaska: Juneau & Ketchikan",
+        "day_number": 2,
+        "town": "Juneau"
+      },
+      {
+        "itinerary_title": "Southeast Alaska: Juneau & Ketchikan",
+        "day_number": 3,
+        "town": "Juneau"
+      },
+      {
+        "itinerary_title": "Southeast Alaska: Juneau & Ketchikan",
+        "day_number": 4,
+        "town": "Ketchikan"
+      },
+      {
+        "itinerary_title": "Southeast Alaska: Juneau & Ketchikan",
+        "day_number": 5,
+        "town": "Ketchikan"
+      },
+      {
+        "itinerary_title": "Southeast Alaska: Juneau & Ketchikan",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "arizona",
     "last_verified_date": "2026-10-03",
     "stops": [
@@ -2121,6 +2317,393 @@
     ]
   },
   {
+    "region_key": "michigan",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Traverse City",
+        "eats": [
+          {
+            "name": "Sleder's Family Tavern",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Hand-pattied beef burgers, the Bean Soup, or the all-you-can-eat fish on Fridays.",
+            "why": "Founded in 1882 and billed by its own site as Michigan's oldest continuously operated restaurant, in the original building with its tin-stamped ceiling.",
+            "price_tier": null,
+            "hours_note": "Mon-Sat 11am-9pm, Sun noon-9pm; closed Easter, Thanksgiving and Christmas.",
+            "open_evidence": "Own website shows a 2026 copyright footer, current hours and a 2025 holiday-closure post (viewed 2026-10-15).",
+            "source_url": "https://www.sleders.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Folgarelli's Market & Wine Shop",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "A deli sandwich such as the Italian Club, Antipasto Supreme or Doc's Special.",
+            "why": "A family-run Italian deli that has traded on West Front Street since 1978, handy for picnic sandwiches before the M-22 drive.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Saturday 9:30am-5:30pm; closed Sunday and Monday.",
+            "open_evidence": "Own website lists current hours and its online-ordering data shows updates as recent as 2026-09-03; the page itself shows no copyright year (viewed 2026-10-15).",
+            "source_url": "https://folgarellis.net/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Glen Arbor",
+        "eats": [
+          {
+            "name": "Cherry Public House",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "Cherry pie with ice cream, or a flight from the twelve taps of ales, lagers and ciders.",
+            "why": "Run by Cherry Republic on its Glen Arbor campus, so the cherry pie is the local-fruit stop of a Sleeping Bear day.",
+            "price_tier": null,
+            "hours_note": "Daily 11am-8pm, year-round per the venue; call (231) 226-3033 to order a pie 24 hours ahead.",
+            "open_evidence": "Own page shows a 2026 copyright footer and current daily hours and an October-April Quiz Night schedule (viewed 2026-10-15).",
+            "source_url": "https://www.cherryrepublic.com/pages/cherry-republic-public-house",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Mackinaw City",
+        "eats": [
+          {
+            "name": "Darrow's Family Restaurant",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Breakfast is served 8-11am daily, with lunch and dinner entrees after 11am.",
+            "why": "A single-location family restaurant open for all three meals before or after the Mackinac Bridge and ferry.",
+            "price_tier": null,
+            "hours_note": "Closes for the 2026 season on Sunday, October 18. Hours 8am-8pm Sun-Thu and 8am-8:30pm Fri-Sat; no takeout orders after 5pm Mon-Sat or all day Sunday and holidays.",
+            "open_evidence": "Own website states the restaurant will close for the 2026 season on Sunday, October 18 and lists current hours (viewed 2026-10-15).",
+            "source_url": "https://www.darrowsrestaurant.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Audie's Restaurant",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Casual meals in the Family Room (opens 8am) or dinner in the Chippewa Room (opens 5pm).",
+            "why": "Says it has served Mackinaw City since the Mackinac Bridge was built, and unlike many town restaurants stays open all year.",
+            "price_tier": null,
+            "hours_note": "Open 7 days a week, year round per the venue; Family Room from 8am, Chippewa Room from 5pm.",
+            "open_evidence": "Own website lists current hours and a copyright of 2003-26 (viewed 2026-10-15).",
+            "source_url": "https://www.audies.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Mackinac Island",
+        "note": "Per the Mackinac Island Tourism Bureau's 2026 season list, most island restaurants close between October 17 and October 25, and only Doud's Market and the Mustang Lounge stay open year-round. Our advice: if you visit in the last week of October, check each place's closing date first.",
+        "note_source_url": "https://www.mackinacisland.org/season-updates/",
+        "eats": [
+          {
+            "name": "Seabiscuit Cafe",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Breakfast, lunch or dinner on Main Street; the site highlights its Seabiscuit Sangria.",
+            "why": "A Main Street cafe serving all three meals, with online takeout ordering, for a day of cycling the island.",
+            "price_tier": null,
+            "hours_note": "Open 8am to midnight, April 25-October 24, 2026 per its own site; the Tourism Bureau's season list shows a last day of October 25.",
+            "open_evidence": "Own website shows a 2026 copyright and 'April 25-October 24, 2026' hours; the Tourism Bureau 2026 closing list also includes it (viewed 2026-10-15).",
+            "source_url": "https://seabiscuitcafe.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Doud's Market",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "Deli and pizza menus are offered; the site does not name individual items.",
+            "why": "A family-owned island grocery since 1884, a practical place to pick up a picnic lunch for the perimeter-road ride.",
+            "price_tier": null,
+            "hours_note": "Main Street store Monday-Saturday 7:30am-11pm; ferry-dock satellite Sun-Thu 7:30am-6pm, Fri-Sat 7:30am-8pm. The Tourism Bureau's 2026 list shows Doud's Market & Deli closing October 18 and the market itself open year-round.",
+            "open_evidence": "Own website shows a 2026 copyright and current hours, and the Mackinac Island Tourism Bureau's 2026 season list names it (viewed 2026-10-15).",
+            "source_url": "https://doudsmarket.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Midtown Detroit",
+        "eats": [
+          {
+            "name": "Traffic Jam & Snug",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "House-brewed beers such as the Grand Theft Pilsner or Java Porter, plus bakery pies, cakes and ice cream with hot fudge.",
+            "why": "A single-location Midtown restaurant at 511 W Canfield that makes its own bread, beer, cheese and ice cream on site, near the Cultural Center museums.",
+            "price_tier": null,
+            "hours_note": "Listed hours: Wednesday-Saturday 11am-8pm, Sunday 11am-7pm; no Monday or Tuesday hours are listed.",
+            "open_evidence": "Own website shows a 2026 copyright footer and current hours (viewed 2026-10-15).",
+            "source_url": "https://www.trafficjamdetroit.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Eastern Market",
+        "eats": [
+          {
+            "name": "Eastern Market Saturday Market",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "Fresh produce and local goods from the market sheds; the page names no individual vendors.",
+            "why": "The market calls itself one of the oldest continuously running markets in America and holds its main Saturday market in the Eastern Market district.",
+            "price_tier": null,
+            "hours_note": "Saturday Market 6am-4pm at 2934 Russell St; next listed dates include Saturday October 17, 2026.",
+            "open_evidence": "Own website lists 2026 events including the October 17 Saturday Market and current hours (viewed 2026-10-15).",
+            "source_url": "https://easternmarket.org/",
+            "source_name": "Eastern Market's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Michigan: Traverse City → Leland → Empire → Mackinac Island",
+        "day_number": 1,
+        "town": "Traverse City"
+      },
+      {
+        "itinerary_title": "Michigan: Traverse City → Leland → Empire → Mackinac Island",
+        "day_number": 2,
+        "town": "Traverse City"
+      },
+      {
+        "itinerary_title": "Michigan: Traverse City → Leland → Empire → Mackinac Island",
+        "day_number": 3,
+        "town": "Glen Arbor"
+      },
+      {
+        "itinerary_title": "Michigan: Traverse City → Leland → Empire → Mackinac Island",
+        "day_number": 4,
+        "town": "Mackinaw City"
+      },
+      {
+        "itinerary_title": "Michigan: Traverse City → Leland → Empire → Mackinac Island",
+        "day_number": 5,
+        "town": "Mackinac Island"
+      },
+      {
+        "itinerary_title": "Michigan: Traverse City → Leland → Empire → Mackinac Island",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Detroit: Midtown, Corktown & the Riverfront",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Detroit: Midtown, Corktown & the Riverfront",
+        "day_number": 2,
+        "town": "Midtown Detroit"
+      },
+      {
+        "itinerary_title": "Detroit: Midtown, Corktown & the Riverfront",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Detroit: Midtown, Corktown & the Riverfront",
+        "day_number": 4,
+        "town": "Eastern Market"
+      },
+      {
+        "itinerary_title": "Detroit: Midtown, Corktown & the Riverfront",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Detroit: Midtown, Corktown & the Riverfront",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "minnesota",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Duluth",
+        "eats": [
+          {
+            "name": "Uncle Loui's Café",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Stuffed French Toast, the Green Eggs & Ham Omelet or Eggs Benedict, all named on the cafe's own site.",
+            "why": "A single-location Duluth breakfast spot open since November 1993, serving homemade pancakes, omelets and scramblers before a drive up the shore.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Friday 6:00 AM-1:00 PM; Saturday-Sunday 7:00 AM-1:00 PM (Monday not listed as open), per the cafe's own site.",
+            "open_evidence": "Own website shows a 2026 copyright footer, current hours and menu (viewed 2026-10-15).",
+            "source_url": "https://unclelouiscafe.us/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Duluth Grill",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The brunch salad with goat cheese and cilantro lime vinaigrette, or chicken and waffles, both featured on its homepage.",
+            "why": "Family-owned original of a small Duluth restaurant group, serving breakfast and brunch with an emphasis on local and organic ingredients; the Duluthian magazine described it as the group's pioneering restaurant.",
+            "price_tier": null,
+            "hours_note": "Open daily 8 AM-3 PM per its own site and Visit Duluth; the homepage carries no year.",
+            "open_evidence": "Own website shows daily 8 AM-3 PM hours and a live open/closed status (page has no year, viewed 2026-10-15); Duluthian magazine article dated 2026-02-26 describes it as still operating under the Hanson family.",
+            "source_url": "https://duluthgrill.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Two Harbors",
+        "eats": [
+          {
+            "name": "Rustic Inn Café",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "Fresh Lake Superior fish in season (lake trout, bluefin) or its pies, including caramel apple pecan and chocolate, both named on its site.",
+            "why": "On Highway 61 on the North Shore route, a single-location cafe serving breakfast, lunch and dinner; its site says it is open year round.",
+            "price_tier": null,
+            "hours_note": "Its site lists summer hours of Monday-Saturday 8 AM-7 PM and Sunday 8 AM-5 PM and says it is open year round; confirm off-season hours by phone (218-834-2488).",
+            "open_evidence": "Own website shows a 2026 copyright footer, 'open year round' and current menu content (viewed 2026-10-15).",
+            "source_url": "https://rusticinn.cafe/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Ely",
+        "eats": [
+          {
+            "name": "Brainstorm Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The Original Cranberry Apple Crapola granola, the bakery's own product featured on its site.",
+            "why": "Home base of Ely's Crapola granola, handy for stocking up before a Boundary Waters trip.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 7 AM-4 PM per its own site.",
+            "open_evidence": "Own website shows a 2026 copyright footer and lists current storefront hours at 402 E Sheridan St (viewed 2026-10-15).",
+            "source_url": "https://brainstormbakery.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Frisky Otter Pub & Eatery",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The Walleye Basket or the Frisky Otter Famous Smash Burger, both listed on its menu page.",
+            "why": "Pub-style eatery on Ely's Sheridan Street with a menu that includes walleye and Italian beef sandwiches.",
+            "price_tier": null,
+            "hours_note": "2026 fall/winter hours: Sunday 11 AM-8 PM; Monday 11 AM-9 PM; Tuesday-Wednesday closed; Thursday 3-9 PM; Friday-Saturday 11 AM-9 PM. Its breakfast page says breakfast resumes 'in the spring 2027', so do not count on breakfast now.",
+            "open_evidence": "Own website shows a 2026 copyright footer and posted 2026 fall/winter hours (viewed 2026-10-15).",
+            "source_url": "https://friskyotterely.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Minneapolis",
+        "eats": [
+          {
+            "name": "Hell's Kitchen",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "The dinner page names baby back ribs, pan-fried walleye, barbacoa short rib and double smashed burgers, and the menu includes all-day breakfast.",
+            "why": "Single-location, 100% employee-owned restaurant in an underground space at 80 S. 9th St. downtown, handy for the riverfront and Walker Art Center day.",
+            "price_tier": null,
+            "hours_note": "Sunday-Thursday 7:30 AM-8:30 PM; Friday-Saturday 7:30 AM-10 PM; last food orders 30 minutes before closing; dinner service begins at 3 PM.",
+            "open_evidence": "Own website lists current hours, a dinner menu and employee-ownership since 2020, and its text refers to 2026 (viewed 2026-10-15).",
+            "source_url": "https://hellskitcheninc.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Kramarczuk's",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "Sausages, cabbage rolls and baked goods, the Eastern European foods its homepage highlights.",
+            "why": "Single-location Eastern European deli and sausage shop at 215 E. Hennepin Ave., a short walk from St. Anthony Falls and the Stone Arch Bridge.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Saturday 10 AM-8 PM per its own site; credit card only, no cash or checks.",
+            "open_evidence": "Own website shows a 2026 copyright footer, current hours and the card-only payment notice (viewed 2026-10-15).",
+            "source_url": "https://kramarczuks.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "St. Paul",
+        "eats": [
+          {
+            "name": "Cossetta Alimentari",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Pizza, pasta, cannoli pastries and gelato, which its homepage features.",
+            "why": "St. Paul's Little Italy institution at 211 W. 7th St. combining a 300-seat eatery and pizzeria, an Italian market and a pasticceria in one building.",
+            "price_tier": null,
+            "hours_note": "Eatery & Pizzeria 11 AM-9 PM daily; Italian Market 10 AM-8 PM daily; closed New Year's, Easter, Labor Day, Thanksgiving and Christmas.",
+            "open_evidence": "Own website shows a 2025 copyright footer, a current Hours & Location page and a promotion for limited-batch panettone orders (viewed 2026-10-15); footer is 2025 rather than 2026.",
+            "source_url": "https://www.cossettas.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Minnesota's North Shore & Boundary Waters",
+        "day_number": 1,
+        "town": "Duluth"
+      },
+      {
+        "itinerary_title": "Minnesota's North Shore & Boundary Waters",
+        "day_number": 2,
+        "town": "Two Harbors"
+      },
+      {
+        "itinerary_title": "Minnesota's North Shore & Boundary Waters",
+        "day_number": 3,
+        "town": "Ely"
+      },
+      {
+        "itinerary_title": "Minnesota's North Shore & Boundary Waters",
+        "day_number": 4,
+        "town": "Ely"
+      },
+      {
+        "itinerary_title": "Minnesota's North Shore & Boundary Waters",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Minneapolis-St. Paul: The Twin Cities",
+        "day_number": 1,
+        "town": "Minneapolis"
+      },
+      {
+        "itinerary_title": "Minneapolis-St. Paul: The Twin Cities",
+        "day_number": 2,
+        "town": "Minneapolis"
+      },
+      {
+        "itinerary_title": "Minneapolis-St. Paul: The Twin Cities",
+        "day_number": 3,
+        "town": "St. Paul"
+      },
+      {
+        "itinerary_title": "Minneapolis-St. Paul: The Twin Cities",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Minneapolis-St. Paul: The Twin Cities",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "montana",
     "last_verified_date": "2026-10-14",
     "stops": [
@@ -3258,6 +3841,187 @@
         "itinerary_title": "Oregon Coast: Cannon Beach to Bandon",
         "day_number": 6,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "south-carolina",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Charleston",
+        "eats": [
+          {
+            "name": "Callie's Hot Little Biscuit",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Biscuits, pimento cheese, slow-cooked grits and French press coffee, all listed on the Upper King page.",
+            "why": "A grab-and-go biscuit shop on King Street, one of the small grab-and-go eateries the Charleston biscuit company runs, per its own site.",
+            "price_tier": null,
+            "hours_note": "Upper King (476 1/2 King St) lists 'Open daily, 8AM - 2PM'.",
+            "open_evidence": "Own website location page lists current daily hours and online/curbside ordering, and its footer reads 2026 (viewed 2026-10-15).",
+            "source_url": "https://calliesbiscuits.com/pages/hlb-upper-king",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Poogan's Porch",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Southern and Lowcountry cooking; the site describes brunch daily and dinner daily but names no individual dishes.",
+            "why": "A restored Victorian house in the historic district that has been serving Southern food since 1976.",
+            "price_tier": null,
+            "hours_note": "Brunch daily 9:00am-3:00pm; dinner daily 4:30pm-9:30pm. Thanksgiving and Christmas 11am-9pm, prix fixe menu only (2025-2026 holiday schedule on the site).",
+            "open_evidence": "Own website lists current brunch/dinner hours, a 2025-2026 holiday schedule and a Southern Living Legendary Restaurants 2026 mention (viewed 2026-10-15).",
+            "source_url": "https://www.poogansporch.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Bowens Island Restaurant",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Steamed local oysters (from 4:00pm), raw oysters, boiled shrimp and fried shrimp, per the restaurant's own page.",
+            "why": "On Bowens Island off James Island rather than on the peninsula; a waterfront oyster-and-shrimp house that has been open since 1946 per the Charleston City Paper.",
+            "price_tier": null,
+            "hours_note": "Own site lists Tue-Thu 11am-9pm and Fri-Sat 11am-9:30pm, with steamed oysters from 4pm; it lists no Sunday or Monday hours. Own page shows no year.",
+            "open_evidence": "Post and Courier's 2026-27 oyster-roast listing (published 2026-10-01) lists six events hosted at Bowens Island Restaurant from Oct 25 2026 to Jan 24 2027; own site lists current hours but shows no copyright year (viewed 2026-10-15).",
+            "source_url": "https://www.bowensisland.com/",
+            "source_name": "Venue's own website; Post and Courier oyster-roast listing (2026-10-01)"
+          }
+        ]
+      },
+      {
+        "town": "Hilton Head",
+        "eats": [
+          {
+            "name": "Hudson's Seafood House on the Docks",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Oysters (raw and cooked), shrimp and, in season, soft shell crabs, per the site's own annual figures.",
+            "why": "Hilton Head's oldest seafood restaurant, on a working dock, with more than 90% of its seafood from local boats per its own site.",
+            "price_tier": null,
+            "hours_note": "Mon-Sat 11:00am-9:30pm, Sun 10:00am-9:30pm (Sunday brunch 10am-2pm). Closed Thanksgiving, Christmas Eve, Christmas Day and Super Bowl Sunday. First come, first served; no reservations or call-aheads.",
+            "open_evidence": "Own website footer reads 2026 and lists current hours and holiday closures (viewed 2026-10-15).",
+            "source_url": "https://www.hudsonsonthedocks.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Harold's Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast (7:30-11am) and lunch (11am-3pm) are served; the page names no specific dishes.",
+            "why": "A no-frills diner on William Hilton Parkway for an early breakfast on the island.",
+            "price_tier": null,
+            "hours_note": "Mon-Fri 7:30am-3pm (breakfast until 11am, lunch from 11am); Saturday 7:30am-noon, breakfast only.",
+            "open_evidence": "Own website lists current hours and its footer reads 2025 (viewed 2026-10-15); no 2026 date on the page.",
+            "source_url": "https://www.haroldsdinerhiltonhead.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Greenville",
+        "eats": [
+          {
+            "name": "Henry's Smokehouse",
+            "kind": "bbq",
+            "meal": "lunch",
+            "what_to_order": "Hickory-smoked pork butts and ribs; the site says pork cooks about 12 hours and ribs over 8 hours on open pits.",
+            "why": "A local barbecue house on Wade Hampton Blvd. that cooks over hickory logs on open pits; it has two restaurants (Greenville and Simpsonville) plus a food truck.",
+            "price_tier": null,
+            "hours_note": "Mon-Sat 11:00am-8:00pm, Sun 11:00am-3:00pm at both restaurants.",
+            "open_evidence": "Own website lists current hours at both locations and its footer reads 2026 (viewed 2026-10-15).",
+            "source_url": "https://www.henryssmokehouse.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Lewis Barbecue",
+            "kind": "bbq",
+            "meal": "dinner",
+            "what_to_order": "Brisket, ribs and other smoked meats; the site describes counter-order Central Texas-style barbecue.",
+            "why": "Central Texas-style barbecue rather than Carolina-style, from a small group with three locations (Atlanta, Charleston, Greenville) and custom pits visible at the entrance.",
+            "price_tier": null,
+            "hours_note": "Greenville: Sun-Thu 11am-9pm, Fri-Sat 11am-10pm. Counter order, no reservations needed.",
+            "open_evidence": "Own website lists current Greenville hours and states a 2025 Michelin Guide recognition; the page shows no copyright year, so the evidence is weaker than for a dated page (viewed 2026-10-15).",
+            "source_url": "https://www.lewisbarbecue.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Travelers Rest",
+        "eats": [
+          {
+            "name": "Swamp Rabbit Brewery & Taproom",
+            "kind": "brewery",
+            "meal": "snack",
+            "what_to_order": "Its own beers on tap, such as the Honey Bunny amber ale, Swamp Rabbit Trail Pale Ale or the Oktoberfest lager; the page also lists snacks and says food trucks appear at events.",
+            "why": "A craft taproom on Main Street at the northern end of the Swamp Rabbit Trail; it does not run a full kitchen, so pair it with a meal elsewhere in town.",
+            "price_tier": null,
+            "hours_note": "Closed Mondays; Tue-Wed 12-8pm, Thu-Sat 12-9pm, Sun 12-7pm.",
+            "open_evidence": "Own website tap list is marked 'Last Updated October 10, 2026' (viewed 2026-10-15).",
+            "source_url": "https://www.theswamprabbitbrewery.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Whistle Stop at the American Cafe",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Shrimp and grits and fried green tomatoes; the page also names burgers, pizzas and strawberry and carrot cake.",
+            "why": "A family-owned restaurant at 109 S. Main St. on the Swamp Rabbit Trail, in operation since 1945 per its own site.",
+            "price_tier": null,
+            "hours_note": "Own site: Mon-Thu 11am-8:30pm, Fri-Sat 11am-9:30pm, Sun 11am-3pm; live music Friday and Saturday April-October. The Town of Travelers Rest listing gives Sunday as closed, so confirm Sunday hours.",
+            "open_evidence": "Own website lists current hours and menu but shows no copyright year; the Town of Travelers Rest restaurant page (footer 2026) lists it with hours (viewed 2026-10-15).",
+            "source_url": "https://whistlestopattheamericancafe.com/",
+            "source_name": "Venue's own website; Town of Travelers Rest restaurant page"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "South Carolina Lowcountry: Charleston → Beaufort → Hilton Head",
+        "day_number": 1,
+        "town": "Charleston"
+      },
+      {
+        "itinerary_title": "South Carolina Lowcountry: Charleston → Beaufort → Hilton Head",
+        "day_number": 2,
+        "town": "Charleston"
+      },
+      {
+        "itinerary_title": "South Carolina Lowcountry: Charleston → Beaufort → Hilton Head",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "South Carolina Lowcountry: Charleston → Beaufort → Hilton Head",
+        "day_number": 4,
+        "town": "Hilton Head"
+      },
+      {
+        "itinerary_title": "Upstate South Carolina: Greenville & the Blue Ridge Foothills",
+        "day_number": 1,
+        "town": "Greenville"
+      },
+      {
+        "itinerary_title": "Upstate South Carolina: Greenville & the Blue Ridge Foothills",
+        "day_number": 2,
+        "town": "Travelers Rest"
+      },
+      {
+        "itinerary_title": "Upstate South Carolina: Greenville & the Blue Ridge Foothills",
+        "day_number": 3,
+        "town": "Travelers Rest"
+      },
+      {
+        "itinerary_title": "Upstate South Carolina: Greenville & the Blue Ridge Foothills",
+        "day_number": 4,
+        "town": "Travelers Rest"
+      },
+      {
+        "itinerary_title": "Upstate South Carolina: Greenville & the Blue Ridge Foothills",
+        "day_number": 5,
+        "town": "Greenville"
       }
     ]
   },

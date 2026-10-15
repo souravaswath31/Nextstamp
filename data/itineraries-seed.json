@@ -28,7 +28,8 @@
         ],
         "lodging_suggestion": "Anchorage",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Anchorage"
       },
       {
         "day_number": 2,
@@ -40,7 +41,8 @@
         "drive_time": "2.5 hrs",
         "lodging_suggestion": "Seward",
         "latitude": 61.216313,
-        "longitude": -149.894852
+        "longitude": -149.894852,
+        "eat_town": "Seward"
       },
       {
         "day_number": 3,
@@ -51,7 +53,8 @@
         ],
         "lodging_suggestion": "Seward",
         "latitude": 59.868563,
-        "longitude": -150.025771
+        "longitude": -150.025771,
+        "eat_town": "Seward"
       },
       {
         "day_number": 4,
@@ -62,7 +65,8 @@
         "drive_time": "6-7 hrs",
         "lodging_suggestion": "Denali area",
         "latitude": 60.101395,
-        "longitude": -149.440428
+        "longitude": -149.440428,
+        "eat_town": "Healy"
       },
       {
         "day_number": 5,
@@ -73,7 +77,8 @@
         ],
         "lodging_suggestion": "Denali area",
         "latitude": 63.730206,
-        "longitude": -148.892082
+        "longitude": -148.892082,
+        "eat_town": "Healy"
       },
       {
         "day_number": 6,
@@ -83,7 +88,8 @@
         ],
         "lodging_suggestion": "Denali area",
         "latitude": 63.069115,
-        "longitude": -151.006239
+        "longitude": -151.006239,
+        "eat_town": "Healy"
       },
       {
         "day_number": 7,
@@ -94,7 +100,8 @@
         ],
         "drive_time": "5 hrs",
         "latitude": 61.433005,
-        "longitude": -149.400222
+        "longitude": -149.400222,
+        "eat_town": "Anchorage"
       }
     ],
     "related_states": [
@@ -2164,7 +2171,8 @@
         "lodging_suggestion": "Traverse City",
         "coffee_wifi_spot": null,
         "latitude": 44.760648,
-        "longitude": -85.616598
+        "longitude": -85.616598,
+        "eat_town": "Traverse City"
       },
       {
         "day_number": 2,
@@ -2177,7 +2185,8 @@
         "lodging_suggestion": "Traverse City",
         "coffee_wifi_spot": null,
         "latitude": 45.022875,
-        "longitude": -85.760116
+        "longitude": -85.760116,
+        "eat_town": "Traverse City"
       },
       {
         "day_number": 3,
@@ -2190,7 +2199,8 @@
         "lodging_suggestion": "Empire",
         "coffee_wifi_spot": null,
         "latitude": 44.883728,
-        "longitude": -86.057476
+        "longitude": -86.057476,
+        "eat_town": "Glen Arbor"
       },
       {
         "day_number": 4,
@@ -2202,7 +2212,8 @@
         "lodging_suggestion": "Mackinaw City",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Mackinaw City"
       },
       {
         "day_number": 5,
@@ -2215,7 +2226,8 @@
         "lodging_suggestion": "Mackinac Island",
         "coffee_wifi_spot": null,
         "latitude": 45.865761,
-        "longitude": -84.630531
+        "longitude": -84.630531,
+        "eat_town": "Mackinac Island"
       },
       {
         "day_number": 6,
@@ -2227,7 +2239,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -3806,7 +3819,8 @@
         "lodging_suggestion": "Duluth",
         "coffee_wifi_spot": null,
         "latitude": 46.783829,
-        "longitude": -92.105268
+        "longitude": -92.105268,
+        "eat_town": "Duluth"
       },
       {
         "day_number": 2,
@@ -3819,7 +3833,8 @@
         "lodging_suggestion": "Two Harbors",
         "coffee_wifi_spot": null,
         "latitude": 46.861728,
-        "longitude": -91.96063
+        "longitude": -91.96063,
+        "eat_town": "Two Harbors"
       },
       {
         "day_number": 3,
@@ -3831,7 +3846,8 @@
         "lodging_suggestion": "Ely",
         "coffee_wifi_spot": null,
         "latitude": 47.901571,
-        "longitude": -91.857248
+        "longitude": -91.857248,
+        "eat_town": "Ely"
       },
       {
         "day_number": 4,
@@ -3843,7 +3859,8 @@
         "lodging_suggestion": "Ely",
         "coffee_wifi_spot": null,
         "latitude": 48.069292,
-        "longitude": -91.108192
+        "longitude": -91.108192,
+        "eat_town": "Ely"
       },
       {
         "day_number": 5,
@@ -3855,7 +3872,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4956,7 +4974,8 @@
         "lodging_suggestion": "Charleston",
         "coffee_wifi_spot": null,
         "latitude": 32.845617,
-        "longitude": -79.824887
+        "longitude": -79.824887,
+        "eat_town": "Charleston"
       },
       {
         "day_number": 2,
@@ -4968,7 +4987,8 @@
         "lodging_suggestion": "Charleston",
         "coffee_wifi_spot": null,
         "latitude": 32.752098,
-        "longitude": -79.875086
+        "longitude": -79.875086,
+        "eat_town": "Charleston"
       },
       {
         "day_number": 3,
@@ -4980,7 +5000,8 @@
         "lodging_suggestion": "Beaufort",
         "coffee_wifi_spot": null,
         "latitude": 32.385071,
-        "longitude": -80.692317
+        "longitude": -80.692317,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -4992,7 +5013,8 @@
         "lodging_suggestion": "Hilton Head",
         "coffee_wifi_spot": null,
         "latitude": 32.193817,
-        "longitude": -80.738164
+        "longitude": -80.738164,
+        "eat_town": "Hilton Head"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6689,7 +6711,8 @@
         "lodging_suggestion": "Downtown Greenville",
         "coffee_wifi_spot": null,
         "latitude": 34.844078,
-        "longitude": -82.406417
+        "longitude": -82.406417,
+        "eat_town": "Greenville"
       },
       {
         "day_number": 2,
@@ -6703,7 +6726,8 @@
         "lodging_suggestion": "Travelers Rest or Downtown Greenville",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Travelers Rest"
       },
       {
         "day_number": 3,
@@ -6717,7 +6741,8 @@
         "lodging_suggestion": "Table Rock State Park, Pickens",
         "coffee_wifi_spot": null,
         "latitude": 35.03647,
-        "longitude": -82.713898
+        "longitude": -82.713898,
+        "eat_town": "Travelers Rest"
       },
       {
         "day_number": 4,
@@ -6731,7 +6756,8 @@
         "lodging_suggestion": "Cleveland or Table Rock area",
         "coffee_wifi_spot": null,
         "latitude": 35.105699,
-        "longitude": -82.627338
+        "longitude": -82.627338,
+        "eat_town": "Travelers Rest"
       },
       {
         "day_number": 5,
@@ -6745,7 +6771,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 34.941228,
-        "longitude": -82.410676
+        "longitude": -82.410676,
+        "eat_town": "Greenville"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -7526,7 +7553,8 @@
         "lodging_suggestion": "Detroit (Downtown)",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -7540,7 +7568,8 @@
         "lodging_suggestion": "Detroit (Midtown)",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Midtown Detroit"
       },
       {
         "day_number": 3,
@@ -7554,7 +7583,8 @@
         "lodging_suggestion": "Detroit",
         "coffee_wifi_spot": null,
         "latitude": 42.330219,
-        "longitude": -83.07204
+        "longitude": -83.07204,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -7568,7 +7598,8 @@
         "lodging_suggestion": "Detroit",
         "coffee_wifi_spot": null,
         "latitude": 42.348464,
-        "longitude": -83.039993
+        "longitude": -83.039993,
+        "eat_town": "Eastern Market"
       },
       {
         "day_number": 5,
@@ -7581,7 +7612,8 @@
         "lodging_suggestion": "Detroit",
         "coffee_wifi_spot": null,
         "latitude": 42.301555,
-        "longitude": -83.263802
+        "longitude": -83.263802,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -7595,7 +7627,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 42.281372,
-        "longitude": -83.748462
+        "longitude": -83.748462,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8077,7 +8110,8 @@
         "lodging_suggestion": "Minneapolis",
         "coffee_wifi_spot": null,
         "latitude": 44.979093,
-        "longitude": -93.271646
+        "longitude": -93.271646,
+        "eat_town": "Minneapolis"
       },
       {
         "day_number": 2,
@@ -8091,7 +8125,8 @@
         "lodging_suggestion": "Minneapolis",
         "coffee_wifi_spot": null,
         "latitude": 46.055839,
-        "longitude": -94.737005
+        "longitude": -94.737005,
+        "eat_town": "Minneapolis"
       },
       {
         "day_number": 3,
@@ -8105,7 +8140,8 @@
         "lodging_suggestion": "St. Paul",
         "coffee_wifi_spot": null,
         "latitude": 44.94975,
-        "longitude": -93.0931
+        "longitude": -93.0931,
+        "eat_town": "St. Paul"
       },
       {
         "day_number": 4,
@@ -8118,7 +8154,8 @@
         "lodging_suggestion": "Bloomington",
         "coffee_wifi_spot": null,
         "latitude": 44.85502,
-        "longitude": -93.24212
+        "longitude": -93.24212,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -8128,7 +8165,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -9783,7 +9821,8 @@
         "lodging_suggestion": "Juneau",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Juneau"
       },
       {
         "day_number": 2,
@@ -9796,7 +9835,8 @@
         "lodging_suggestion": "Juneau",
         "coffee_wifi_spot": null,
         "latitude": 58.50474,
-        "longitude": -134.553927
+        "longitude": -134.553927,
+        "eat_town": "Juneau"
       },
       {
         "day_number": 3,
@@ -9808,7 +9848,8 @@
         "lodging_suggestion": "Juneau",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Juneau"
       },
       {
         "day_number": 4,
@@ -9822,7 +9863,8 @@
         "lodging_suggestion": "Ketchikan",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ketchikan"
       },
       {
         "day_number": 5,
@@ -9835,7 +9877,8 @@
         "lodging_suggestion": "Ketchikan",
         "coffee_wifi_spot": null,
         "latitude": 61.216917,
-        "longitude": -149.779934
+        "longitude": -149.779934,
+        "eat_town": "Ketchikan"
       },
       {
         "day_number": 6,
@@ -9848,7 +9891,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
