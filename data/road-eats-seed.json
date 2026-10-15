@@ -1,5 +1,218 @@
 [
   {
+    "region_key": "alabama",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Huntsville",
+        "eats": [
+          {
+            "name": "Big Ed's Pizza",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Pizza and calzones, made from scratch and hand tossed per the restaurant's site; it also lists beignets.",
+            "why": "Open since 1961 and family-owned since 1969, still cooking in original 1960s gas ovens, per its own site.",
+            "price_tier": null,
+            "hours_note": "Closed Mondays. Tuesday-Thursday 11am-10pm, Friday-Saturday 11am-11pm, Sunday 11am-10pm (own site).",
+            "open_evidence": "Own website lists current hours and online ordering for its single Huntsville location, and Hville Blast's guide (last updated 2025-02-21) lists it as open with the same hours; the venue's own page shows no year (viewed 2026-10-15).",
+            "source_url": "https://www.bigedspizza.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Fort Payne",
+        "eats": [
+          {
+            "name": "The Bakehouse Downtown",
+            "kind": "bakery",
+            "meal": "lunch",
+            "what_to_order": "The Figgy sandwich (smoked turkey, sharp white cheddar, fig jam on whole grain bread), per Alabama Living; croissants and fresh-baked pastries are also mentioned.",
+            "why": "A small downtown Fort Payne cafe-bakery on First Street West that opened in 2022, per Alabama Living.",
+            "price_tier": null,
+            "hours_note": "Alabama Living says Thursday evenings feature a single-dish dinner on a rotating menu; check the cafe's social media for dates. The article gives no daily hours.",
+            "open_evidence": "Alabama Living Magazine feature published 2025-10-30 says the owner returned to teaching in 2025 while continuing to own and oversee the cafe (viewed 2026-10-15); no official website was found.",
+            "source_url": "https://alabamaliving.coop/articles/the-bakehouse-puts-an-elevated-spin-on-traditional-cafe-fare/",
+            "source_name": "Alabama Living Magazine"
+          },
+          {
+            "name": "Meal & Market",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast until 10:30 then lunch; the site names seasonal sides such as blackeyed peas and collard greens and says fries and chips are fried in tallow.",
+            "why": "A farmer-, veteran- and family-owned restaurant and market at 113 1st St W in downtown Fort Payne that sources locally, per its own site.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday-Friday 6am-2pm, Saturday 7am-2pm (all-day brunch menu Saturdays). Visit Lookout Mountain lists different hours, so call 256-465-7005 to confirm.",
+            "open_evidence": "Own website lists this week's seasonal sides, online ordering and e-gift cards; the page shows no year (viewed 2026-10-15), so this is weaker evidence than a dated page.",
+            "source_url": "https://mealandmarket.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Birmingham",
+        "eats": [
+          {
+            "name": "Pizza Grace",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Sourdough pizza and beef tallow potatoes, per BhamNow's October 2024 James Beard trail article; the restaurant's own site lists food, wine and dessert menus.",
+            "why": "A Morris Ave pizzeria in Birmingham whose own site cites a 2025 Michelin Bib Gourmand designation.",
+            "price_tier": null,
+            "hours_note": "Closed Mondays; Sunday 11am-9pm; open until 10pm Friday and Saturday (own site). Other weekday hours were not stated on the page fetched.",
+            "open_evidence": "Own website lists current hours at 2212 Morris Ave Suite 105 and online ordering, and refers to a 2025 designation, so it was updated in 2025 or later (viewed 2026-10-15).",
+            "source_url": "https://www.pizzagrace.com/",
+            "source_name": "Venue's own website, with BhamNow (2024-10-18)"
+          },
+          {
+            "name": "The Bright Star",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Greek-style snapper and Greek-style steak, the signature dishes named by the Greater Birmingham CVB.",
+            "why": "In Bessemer, which the restaurant's own site places midway between Birmingham and Tuscaloosa, not in Birmingham itself. It calls itself the oldest family-owned restaurant in Alabama, serving Southern and Greek cooking.",
+            "price_tier": null,
+            "hours_note": "Own site (fetched) does not list hours. Greater Birmingham CVB lists Sunday-Wednesday 11am-9pm and Thursday-Saturday 11am-10pm on an undated page; other directories differ, so call (205) 424-9444 before driving.",
+            "open_evidence": "Own website footer reads 2026 and offers online ordering, rewards and reservations; BhamNow (2025-03-13) also reports it remains actively operating (viewed 2026-10-15).",
+            "source_url": "https://thebrightstar.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Gulf Shores",
+        "eats": [
+          {
+            "name": "Doc's Seafood Shack & Oyster Bar",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Seafood and oysters, per the group's locations page.",
+            "why": "In neighbouring Orange Beach (26029 Canal Rd) rather than Gulf Shores itself. A local three-restaurant seafood group that says it has operated for over 34 years.",
+            "price_tier": null,
+            "hours_note": "Own site lists 11am-9pm daily at all three locations. The pages fetched mention no hurricane closure notice.",
+            "open_evidence": "Own website footer reads 2026 and lists current hours and phone numbers for all three locations (viewed 2026-10-15).",
+            "source_url": "https://www.docsseafoodandsteak.com/locations/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Hangout",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Seafood boils with shrimp and crab legs, the Lifeguard Burger and crispy calamari, per its own site.",
+            "why": "A beachfront restaurant with direct beach access and free live music hourly, per its own site; it has two locations (Gulf Shores and Myrtle Beach).",
+            "price_tier": null,
+            "hours_note": "Own site says open daily in Gulf Shores but states no hours. The page fetched mentions no hurricane closure notice.",
+            "open_evidence": "Own website lists upcoming events including Halloween (Oct 30-31), Battle of the Bands (Nov 22, 2026) and an all-you-can-eat Thanksgiving dinner (Nov 26, 2026) (viewed 2026-10-15).",
+            "source_url": "https://www.thehangout.com/hangout-gulf-shores/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Mobile",
+        "eats": [
+          {
+            "name": "Callaghan's Irish Social Club",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Burgers; the menu lists a Conecuh Burger as the Thursday special, plus a Shrimp Po'boy and Bread Pudding with Irish Whiskey Sauce.",
+            "why": "A single-location neighbourhood bar and grill that has operated since 1946 in Mobile's Oakleigh Garden District, per its own site.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 11am-11pm, Sunday 10am-11pm (own site); menu shows no prices.",
+            "open_evidence": "Own website footer reads 2026 and lists current hours and a full menu (viewed 2026-10-15).",
+            "source_url": "https://www.callaghansirishsocialclub.com/menus/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Fairhope",
+        "eats": [
+          {
+            "name": "Panini Pete's",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The Muffaletta panini, beignets and the House Roasted Turkey, all named on the menu page.",
+            "why": "Its own site says the Muffaletta panini was featured on the \"100 Things to Eat in Alabama Before You Die\" list.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website and menu page footers read 2026 and the menu page lists current breakfast, lunch and drink menus (viewed 2026-10-15); hours were not on the pages fetched.",
+            "source_url": "https://paninipetes.com/menu/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Fairhope Inn",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Hand cut steaks and Alabama Gulf seafood, with New Orleans-inspired dishes, per its own site.",
+            "why": "A single-location restaurant and bed-and-breakfast at 63 South Church Street in Fairhope.",
+            "price_tier": null,
+            "hours_note": "Own site lists Thursday-Saturday lunch 11am-2pm and dinner 5pm-10pm, and Sunday brunch 10am-2pm; no hours were shown for Monday-Wednesday.",
+            "open_evidence": "Own website carries 2026-dated posts, a Thanksgiving reservations promotion and dated October events (viewed 2026-10-15); the footer itself shows no year.",
+            "source_url": "https://thefairhopeinn.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "North Alabama: Huntsville → Fort Payne → Cheaha",
+        "day_number": 1,
+        "town": "Huntsville"
+      },
+      {
+        "itinerary_title": "North Alabama: Huntsville → Fort Payne → Cheaha",
+        "day_number": 2,
+        "town": "Fort Payne"
+      },
+      {
+        "itinerary_title": "North Alabama: Huntsville → Fort Payne → Cheaha",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "North Alabama: Huntsville → Fort Payne → Cheaha",
+        "day_number": 4,
+        "town": "Birmingham"
+      },
+      {
+        "itinerary_title": "North Alabama: Huntsville → Fort Payne → Cheaha",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Gulf Coast Alabama: Beaches, Bay & Mobile",
+        "day_number": 1,
+        "town": "Gulf Shores"
+      },
+      {
+        "itinerary_title": "Gulf Coast Alabama: Beaches, Bay & Mobile",
+        "day_number": 2,
+        "town": "Gulf Shores"
+      },
+      {
+        "itinerary_title": "Gulf Coast Alabama: Beaches, Bay & Mobile",
+        "day_number": 3,
+        "town": "Mobile"
+      },
+      {
+        "itinerary_title": "Gulf Coast Alabama: Beaches, Bay & Mobile",
+        "day_number": 4,
+        "town": "Mobile"
+      },
+      {
+        "itinerary_title": "Gulf Coast Alabama: Beaches, Bay & Mobile",
+        "day_number": 5,
+        "town": "Fairhope"
+      },
+      {
+        "itinerary_title": "Gulf Coast Alabama: Beaches, Bay & Mobile",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "alaska",
     "last_verified_date": "2026-10-15",
     "stops": [
@@ -3450,6 +3663,436 @@
         "itinerary_title": "Minneapolis-St. Paul: The Twin Cities",
         "day_number": 5,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "mississippi",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Vicksburg",
+        "eats": [
+          {
+            "name": "Walnut Hills",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Fried chicken and the Pecan Praline Pie, both named on the restaurant's own site.",
+            "why": "A long-running Vicksburg Southern restaurant that Visit Vicksburg calls an icon, serving plantation-style cooking in an 1880s home.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 11am-9pm, Sunday 11am-2pm; closed Tuesdays (Visit Vicksburg listing).",
+            "open_evidence": "Own site walnuthillsms.com lists current hours and dishes but shows no copyright year (viewed 2026-10-15); Visit Vicksburg listing (2026 footer) shows the same hours and says Tuesday closed (viewed 2026-10-15).",
+            "source_url": "https://www.visitvicksburg.com/directory/walnut-hills/",
+            "source_name": "Visit Vicksburg (Vicksburg Convention and Visitors Bureau) and walnuthillsms.com"
+          },
+          {
+            "name": "Main Street Market Cafe",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Betty's Biscuits, gumbo, muffulettas, quiches and homemade pies, per the cafe's site; the menu changes weekly.",
+            "why": "A Cajun- and Creole-leaning downtown lunch cafe at 902 Cherry Street with a menu that changes with what is local and seasonal.",
+            "price_tier": null,
+            "hours_note": "Lunch Monday-Friday 11am-2pm; closed Saturday and Sunday. Visit Vicksburg also lists Monday nights by reservation.",
+            "open_evidence": "Own site mainstreetmarketcafe.com shows a 2025 copyright and current weekly menu (viewed 2026-10-15); Visit Vicksburg listing with 2026 footer shows the same hours (viewed 2026-10-15).",
+            "source_url": "https://mainstreetmarketcafe.com/",
+            "source_name": "Venue's own website; Visit Vicksburg"
+          },
+          {
+            "name": "The Tomato Place",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "The BLT made with fresh tomatoes, po'boys and sandwiches, per the Visit Vicksburg listing.",
+            "why": "On Highway 61 South, a produce stand with a Caribbean- and New Orleans-themed kitchen and open-air seating.",
+            "price_tier": null,
+            "hours_note": "Open daily: market 7am-6pm, kitchen 8am-6pm (Visit Vicksburg).",
+            "open_evidence": "Visit Vicksburg listing with 2026 footer shows current daily hours and menu (viewed 2026-10-15); the venue's own website did not load, so the tourism listing is the only evidence.",
+            "source_url": "https://www.visitvicksburg.com/directory/the-tomato-place/",
+            "source_name": "Visit Vicksburg (Vicksburg Convention and Visitors Bureau)"
+          }
+        ]
+      },
+      {
+        "town": "Natchez",
+        "eats": [
+          {
+            "name": "Fat Mama's Tamales",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Tamales, chili and margaritas, plus nachos, gringo pie, boudin and the Fire and Ice pickles, per the restaurant's site and Visit Natchez.",
+            "why": "A Natchez tamale restaurant at 303 S. Canal Street with a drive-thru, an air-conditioned dining room and a shaded deck.",
+            "price_tier": null,
+            "hours_note": "Monday-Thursday 11am-9pm, Friday-Saturday 11am-10pm, Sunday noon-7pm.",
+            "open_evidence": "Own site fatmamastamales.com lists current hours but its footer shows no year (viewed 2026-10-15); Visit Natchez listing with 2026 footer shows the same hours (viewed 2026-10-15).",
+            "source_url": "https://visitnatchez.org/listing/fat-mamas-tamales/",
+            "source_name": "Visit Natchez; venue's own website"
+          },
+          {
+            "name": "Natchez Coffee Company",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Coffee, espresso and cappuccinos with breakfast and lunch sandwiches and salads; Blue Bell ice cream is also listed.",
+            "why": "A downtown coffee shop at 509 Franklin Street, within walking distance of the downtown hotels and B&Bs, serving full breakfast and lunch.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 6am-5pm, Sunday 6am-2pm.",
+            "open_evidence": "Visit Natchez listing with 2026 footer shows current hours and menu (viewed 2026-10-15); no own website was fetched.",
+            "source_url": "https://visitnatchez.org/listing/natchez-coffee-company/",
+            "source_name": "Visit Natchez"
+          }
+        ]
+      },
+      {
+        "town": "Biloxi",
+        "eats": [
+          {
+            "name": "Port City Café",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Po-boys, red beans and rice with sausage and shrimp spaghetti, per the Coastal Mississippi listing.",
+            "why": "On Pass Road in Biloxi rather than the beachfront, a Southern Gulf-to-table cafe serving breakfast, brunch and home-cooked specialties.",
+            "price_tier": null,
+            "hours_note": "Sunday-Wednesday 7am-3pm, Thursday-Saturday 7am-9pm.",
+            "open_evidence": "Coastal Mississippi directory listing with 2026 footer shows current hours and menu (viewed 2026-10-15); the venue's own site was not fetched.",
+            "source_url": "https://www.coastalmississippi.com/directory/port-city-caf%C3%A9-biloxi/",
+            "source_name": "Coastal Mississippi (regional tourism board)"
+          }
+        ]
+      },
+      {
+        "town": "Ocean Springs",
+        "eats": [
+          {
+            "name": "Blue Dog Bistro",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast and lunch plus drinks from the full-service barista bar; the menu accommodates vegan, keto, paleo and gluten-free diets, per Visit Mississippi.",
+            "why": "On Government Street, billed by Visit Mississippi as the first vegan, keto, paleo and gluten-free friendly restaurant on the Mississippi Gulf Coast.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Sunday 7am-3pm; closed Monday.",
+            "open_evidence": "Visit Mississippi listing with 2026 footer shows current hours (viewed 2026-10-15); the venue's own site returned a 404, so the tourism listing is the only evidence.",
+            "source_url": "https://visitmississippi.org/things-to-do/food-drink/blue-dog-bistro/",
+            "source_name": "Visit Mississippi"
+          },
+          {
+            "name": "Butcher Baker",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Wagyu pastrami sandwich and bacon pizza are named on the site; the menu is printed daily.",
+            "why": "A restaurant on Thorn Street that opened in 2024, with a daily-changing menu and weekend brunch.",
+            "price_tier": null,
+            "hours_note": "Tuesday 10am-2pm, Wednesday-Friday 11am-9pm, Saturday 10am-9pm with brunch from 10am, Sunday brunch 10am-2pm; closed Monday.",
+            "open_evidence": "Own site butcherbakeros.com shows a 2025 copyright, current hours and reservation links (viewed 2026-10-15); the footer is one year old, and it is a recent opening rather than a long-running institution.",
+            "source_url": "https://butcherbakeros.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Maringouin",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site names no dishes; it describes a menu that blends international cultures with local influences.",
+            "why": "A dinner restaurant at 604 Porter Avenue with a modern menu mixing international cooking and local ingredients.",
+            "price_tier": null,
+            "hours_note": "Kitchen Tuesday-Saturday 5-10pm; Tuesday-Friday happy hour 3-5pm; Sunday and Monday 3-9pm bar only.",
+            "open_evidence": "Own site themaringouin.com shows a 2026 copyright and current hours (viewed 2026-10-15).",
+            "source_url": "https://themaringouin.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Bay St. Louis",
+        "eats": [
+          {
+            "name": "Mockingbird Café",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Buttermilk biscuits, pancakes, muffins, jams and omelets with locally roasted coffee, per the Coastal Mississippi listing.",
+            "why": "An Old Town cafe at 110 S. Second Street that its own site says has operated since 2006, after Hurricane Katrina.",
+            "price_tier": null,
+            "hours_note": "Open daily 7am-2pm; no reservations; plastic-free to-go items.",
+            "open_evidence": "Own site mockingbirdcafe.com lists current daily hours but shows no copyright year (viewed 2026-10-15); Coastal Mississippi listing with 2026 footer shows the same hours (viewed 2026-10-15).",
+            "source_url": "https://www.coastalmississippi.com/directory/mockingbird-cafe/",
+            "source_name": "Coastal Mississippi; venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Natchez Trace: Vicksburg → Natchez",
+        "day_number": 1,
+        "town": "Vicksburg"
+      },
+      {
+        "itinerary_title": "Natchez Trace: Vicksburg → Natchez",
+        "day_number": 2,
+        "town": "Natchez"
+      },
+      {
+        "itinerary_title": "Natchez Trace: Vicksburg → Natchez",
+        "day_number": 3,
+        "town": "Natchez"
+      },
+      {
+        "itinerary_title": "Natchez Trace: Vicksburg → Natchez",
+        "day_number": 4,
+        "town": "Natchez"
+      },
+      {
+        "itinerary_title": "Mississippi Gulf Coast & Biloxi",
+        "day_number": 1,
+        "town": "Biloxi"
+      },
+      {
+        "itinerary_title": "Mississippi Gulf Coast & Biloxi",
+        "day_number": 2,
+        "town": "Biloxi"
+      },
+      {
+        "itinerary_title": "Mississippi Gulf Coast & Biloxi",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Mississippi Gulf Coast & Biloxi",
+        "day_number": 4,
+        "town": "Ocean Springs"
+      },
+      {
+        "itinerary_title": "Mississippi Gulf Coast & Biloxi",
+        "day_number": 5,
+        "town": "Bay St. Louis"
+      }
+    ]
+  },
+  {
+    "region_key": "missouri",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Camdenton",
+        "eats": [
+          {
+            "name": "Stewart's Restaurant",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Homemade biscuits and gravy, the pork tenderloin sandwich, the Diet Plate, or the oversized cinnamon roll (shareable, per the article).",
+            "why": "A no-frills lake-area breakfast institution that has been in business since 1953; the Camdenton location is at 98 E. U.S. 54, a short drive from Ha Ha Tonka.",
+            "price_tier": null,
+            "hours_note": "Breakfast and lunch only. Its own website lists 7am-2pm, 7 days a week (that page carries no year); a Lake of the Ozarks visitor-bureau listing says 6am, so confirm the opening time.",
+            "open_evidence": "Springfield Daily Citizen Camdenton dining guide dated 2026-02-24 (updated 2026-04-13) lists the Camdenton location at 98 E. U.S. 54 as open for breakfast and lunch; its own site stewartsrestaurants.com lists three locations plus a fourth coming (viewed 2026-10-15; that page shows no year).",
+            "source_url": "https://sgfcitizen.org/springfield-culture/weekend/lake-ozarks-camdenton-dining/",
+            "source_name": "Springfield Daily Citizen"
+          }
+        ]
+      },
+      {
+        "town": "Eminence",
+        "note": "The NPS dining page for Ozark National Scenic Riverways (last updated December 2017) says there were no restaurants within the park, that the surrounding communities offer everything from formal dining rooms to country diners, and that canoe rentals often have small stores selling convenience foods. Our advice: eat in Eminence town or at Echo Bluff State Park, and pack lunch and snacks for float day.",
+        "note_source_url": "https://www.nps.gov/ozar/planyourvisit/restaurants.htm",
+        "eats": [
+          {
+            "name": "Creekside Grill at Echo Bluff State Park",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Classic American dishes from the breakfast or all-day menu; the page says meat is sourced from sustainable, humane systems.",
+            "why": "Inside the Echo Bluff Lodge in Echo Bluff State Park, outside Eminence town itself (the day-4 stop on this route), with indoor and outdoor seating overlooking Echo Bluff.",
+            "price_tier": null,
+            "hours_note": "Own page lists breakfast 7:30-10am daily and lunch/dinner 11am-8pm Sunday-Thursday, 11am-9pm Friday-Saturday. A search snippet from the same site showed shorter winter hours from November 4 (year not shown), so confirm hours before driving.",
+            "open_evidence": "Echo Bluff State Park's own Creekside Grill page says 'Open daily', lists hours and menus, and has a 2026 footer (viewed 2026-10-15).",
+            "source_url": "https://echobluffstatepark.com/creekside-grill/",
+            "source_name": "Echo Bluff State Park website"
+          }
+        ]
+      },
+      {
+        "town": "Branson",
+        "eats": [
+          {
+            "name": "Billy Gail's",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The 14-inch sweet cream vanilla pancakes, biscuits, or country fried steak; breakfast is served all day.",
+            "why": "A local three-restaurant group (two in Branson, one in nearby Ozark) known for oversized pancakes and Ozarks comfort food.",
+            "price_tier": null,
+            "hours_note": "Own page lists Sunday-Thursday 7am-3pm and Friday-Saturday 7am-9pm; hours may differ by location.",
+            "open_evidence": "Own website shows a 2025 copyright footer, current hours and menu, and was last modified 2026-07-15 per the page metadata (viewed 2026-10-15).",
+            "source_url": "https://billygailsrestaurant.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Jackie B. Goode's Uptown Cafe",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Country fried steak, fish and chips, a Reuben, or starters such as fried pickles and fried green beans.",
+            "why": "Right on the 76 Strip and serving Branson since 1993, under the same ownership since 2008.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Thursday 8am-8pm, Friday-Saturday 8am-11pm, closed Sundays.",
+            "open_evidence": "Own website lists current hours and menu, shows a 2026 footer, and its page metadata gives a publication date of 2026-09-09 (viewed 2026-10-15).",
+            "source_url": "https://www.bransonuptown.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "St. Louis",
+        "eats": [
+          {
+            "name": "Anthonino's Taverna",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Toasted ravioli, its signature dish per the site, or spaghetti from the Italian and Greek scratch-made menu.",
+            "why": "A single-location family restaurant at 2225 Macklind Ave in The Hill, the Italian neighborhood where toasted ravioli is a local specialty; the Explore St. Louis guide to The Hill also lists it.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Saturday 11am-10pm, closed Sundays.",
+            "open_evidence": "Own website lists current hours, an online reserve-a-table option and a 2026 footer (viewed 2026-10-15); Explore St. Louis's Hill guide lists it with the same address.",
+            "source_url": "https://anthoninos.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Blueberry Hill Restaurant & Music Club",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Burgers and sandwiches, or toasted ravioli, cheeseballs and wings from the appetizer list.",
+            "why": "A single-location restaurant and live-music club open since 1972 at 6504 Delmar, in the Delmar Loop that the day-3 plan covers.",
+            "price_tier": null,
+            "hours_note": "Food service 11am-9pm daily, with late-night orders at the bar; 21+ after 9pm except for all-ages shows.",
+            "open_evidence": "Own website shows a 2026 copyright footer and lists upcoming events through October 2026 (viewed 2026-10-15).",
+            "source_url": "https://www.blueberryhill.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Ted Drewes Frozen Custard",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "A concrete, the custard thick enough to turn upside down, with mix-ins from its 30-plus toppings.",
+            "why": "A family business since 1929, now in its fourth generation, on historic Route 66 at 6726 Chippewa.",
+            "price_tier": null,
+            "hours_note": "Chippewa location lists Monday-Sunday 11am-10:30pm. The South Grand location is summer-only and the page shows it 'closed for the season'.",
+            "open_evidence": "Own website carries a 2026 copyright footer and a current seasonal status for each location (viewed 2026-10-15).",
+            "source_url": "https://www.teddrewes.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Columbia",
+        "eats": [
+          {
+            "name": "Shakespeare's Pizza",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The Masterpiece or Panda's Pepper pizza, or pizza by the slice.",
+            "why": "A Columbia tradition since 1973 with three Columbia locations; the downtown one is at 225 S. Ninth Street, about the halfway point on the I-70 drive.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website carries a 2026 copyright footer and lists three Columbia locations with phone numbers and online ordering (viewed 2026-10-15); no hours were shown.",
+            "source_url": "https://shakespeares.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Kansas City",
+        "eats": [
+          {
+            "name": "Stroud's Oak Ridge Manor",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The fried chicken, which the site presents as its specialty.",
+            "why": "Fried chicken in an expanded 1829 log cabin and farmhouse in North Kansas City, north of downtown rather than in the Crossroads or Plaza.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Thursday 4-9pm, Friday 11am-9pm, Saturday 2-9pm, Sunday 11am-9pm.",
+            "open_evidence": "Own website lists current hours, online ordering and a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://www.stroudskc.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Char Bar",
+            "kind": "bbq",
+            "meal": "any",
+            "what_to_order": "Pit-smoked meats; the site also mentions cheesy hushpuppies on the happy-hour menu.",
+            "why": "The Kansas City location is in historic Westport, with a large beer garden and yard games; Char Bar has three locations in total (Kansas City, Parkville, Olathe).",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website carries a 2026 footer and a 2026 Oktoberfest promotion with images uploaded in 2026-10, plus a happy hour Monday-Friday 3-6pm (viewed 2026-10-15); no opening hours were shown.",
+            "source_url": "https://charbarbbq.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Campground",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Burgers (with burger specials every Monday), craft cocktails and its s'mores, per the site.",
+            "why": "A single-location restaurant at 1531 Genessee St in the West Bottoms, the district the day-6 plan visits.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website carries a 2026 footer, a reservation system and carryout ordering, and a banner advertising 'Burger Specials Every Monday' (viewed 2026-10-15); the banner's block-party date shows no year and no hours were shown, so this is moderate evidence.",
+            "source_url": "https://www.thecampgroundkc.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Missouri Ozarks: Lake of the Ozarks → Current River → Branson",
+        "day_number": 1,
+        "town": "Camdenton"
+      },
+      {
+        "itinerary_title": "Missouri Ozarks: Lake of the Ozarks → Current River → Branson",
+        "day_number": 2,
+        "town": "Eminence"
+      },
+      {
+        "itinerary_title": "Missouri Ozarks: Lake of the Ozarks → Current River → Branson",
+        "day_number": 3,
+        "town": "Eminence"
+      },
+      {
+        "itinerary_title": "Missouri Ozarks: Lake of the Ozarks → Current River → Branson",
+        "day_number": 4,
+        "town": "Eminence"
+      },
+      {
+        "itinerary_title": "Missouri Ozarks: Lake of the Ozarks → Current River → Branson",
+        "day_number": 5,
+        "town": "Branson"
+      },
+      {
+        "itinerary_title": "Missouri Ozarks: Lake of the Ozarks → Current River → Branson",
+        "day_number": 6,
+        "town": "Branson"
+      },
+      {
+        "itinerary_title": "St. Louis & Kansas City",
+        "day_number": 1,
+        "town": "St. Louis"
+      },
+      {
+        "itinerary_title": "St. Louis & Kansas City",
+        "day_number": 2,
+        "town": "St. Louis"
+      },
+      {
+        "itinerary_title": "St. Louis & Kansas City",
+        "day_number": 3,
+        "town": "St. Louis"
+      },
+      {
+        "itinerary_title": "St. Louis & Kansas City",
+        "day_number": 4,
+        "town": "Columbia"
+      },
+      {
+        "itinerary_title": "St. Louis & Kansas City",
+        "day_number": 5,
+        "town": "Kansas City"
+      },
+      {
+        "itinerary_title": "St. Louis & Kansas City",
+        "day_number": 6,
+        "town": "Kansas City"
       }
     ]
   },

@@ -2483,7 +2483,8 @@
         "lodging_suggestion": "Huntsville",
         "coffee_wifi_spot": null,
         "latitude": 34.729847,
-        "longitude": -86.585901
+        "longitude": -86.585901,
+        "eat_town": "Huntsville"
       },
       {
         "day_number": 2,
@@ -2495,7 +2496,8 @@
         "lodging_suggestion": "Fort Payne",
         "coffee_wifi_spot": null,
         "latitude": 34.444255,
-        "longitude": -85.719689
+        "longitude": -85.719689,
+        "eat_town": "Fort Payne"
       },
       {
         "day_number": 3,
@@ -2507,7 +2509,8 @@
         "lodging_suggestion": "Cheaha State Park",
         "coffee_wifi_spot": null,
         "latitude": 33.477595,
-        "longitude": -85.811543
+        "longitude": -85.811543,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -2519,7 +2522,8 @@
         "lodging_suggestion": "Birmingham",
         "coffee_wifi_spot": null,
         "latitude": 33.520682,
-        "longitude": -86.802433
+        "longitude": -86.802433,
+        "eat_town": "Birmingham"
       },
       {
         "day_number": 5,
@@ -2531,7 +2535,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3934,7 +3939,8 @@
         "lodging_suggestion": "Vicksburg",
         "coffee_wifi_spot": null,
         "latitude": 32.352806,
-        "longitude": -90.877734
+        "longitude": -90.877734,
+        "eat_town": "Vicksburg"
       },
       {
         "day_number": 2,
@@ -3946,7 +3952,8 @@
         "lodging_suggestion": "Natchez",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Natchez"
       },
       {
         "day_number": 3,
@@ -3958,7 +3965,8 @@
         "lodging_suggestion": "Natchez",
         "coffee_wifi_spot": null,
         "latitude": 31.560408,
-        "longitude": -91.403171
+        "longitude": -91.403171,
+        "eat_town": "Natchez"
       },
       {
         "day_number": 4,
@@ -3970,7 +3978,8 @@
         "lodging_suggestion": "Natchez",
         "coffee_wifi_spot": null,
         "latitude": 31.061273,
-        "longitude": -91.521332
+        "longitude": -91.521332,
+        "eat_town": "Natchez"
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -4009,7 +4018,8 @@
         "lodging_suggestion": "Camdenton",
         "coffee_wifi_spot": null,
         "latitude": 37.970524,
-        "longitude": -92.753856
+        "longitude": -92.753856,
+        "eat_town": "Camdenton"
       },
       {
         "day_number": 2,
@@ -4021,7 +4031,8 @@
         "lodging_suggestion": "Eminence",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Eminence"
       },
       {
         "day_number": 3,
@@ -4033,7 +4044,8 @@
         "lodging_suggestion": "Eminence",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Eminence"
       },
       {
         "day_number": 4,
@@ -4045,7 +4057,8 @@
         "lodging_suggestion": "Eminence",
         "coffee_wifi_spot": null,
         "latitude": 37.309435,
-        "longitude": -91.404841
+        "longitude": -91.404841,
+        "eat_town": "Eminence"
       },
       {
         "day_number": 5,
@@ -4057,7 +4070,8 @@
         "lodging_suggestion": "Branson",
         "coffee_wifi_spot": null,
         "latitude": 36.644077,
-        "longitude": -93.216926
+        "longitude": -93.216926,
+        "eat_town": "Branson"
       },
       {
         "day_number": 6,
@@ -4070,7 +4084,8 @@
         "lodging_suggestion": "Branson",
         "coffee_wifi_spot": null,
         "latitude": 36.644077,
-        "longitude": -93.216926
+        "longitude": -93.216926,
+        "eat_town": "Branson"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -7396,7 +7411,8 @@
         "lodging_suggestion": "St. Louis",
         "coffee_wifi_spot": null,
         "latitude": 38.62609,
-        "longitude": -90.187743
+        "longitude": -90.187743,
+        "eat_town": "St. Louis"
       },
       {
         "day_number": 2,
@@ -7409,7 +7425,8 @@
         "lodging_suggestion": "St. Louis",
         "coffee_wifi_spot": null,
         "latitude": 38.638192,
-        "longitude": -90.284703
+        "longitude": -90.284703,
+        "eat_town": "St. Louis"
       },
       {
         "day_number": 3,
@@ -7422,7 +7439,8 @@
         "lodging_suggestion": "St. Louis",
         "coffee_wifi_spot": null,
         "latitude": 38.604492,
-        "longitude": -90.209348
+        "longitude": -90.209348,
+        "eat_town": "St. Louis"
       },
       {
         "day_number": 4,
@@ -7434,7 +7452,8 @@
         "lodging_suggestion": "Kansas City",
         "coffee_wifi_spot": null,
         "latitude": 39.100105,
-        "longitude": -94.578142
+        "longitude": -94.578142,
+        "eat_town": "Columbia"
       },
       {
         "day_number": 5,
@@ -7448,7 +7467,8 @@
         "lodging_suggestion": "Kansas City",
         "coffee_wifi_spot": null,
         "latitude": 39.09444,
-        "longitude": -94.553886
+        "longitude": -94.553886,
+        "eat_town": "Kansas City"
       },
       {
         "day_number": 6,
@@ -7462,7 +7482,8 @@
         "lodging_suggestion": "Kansas City",
         "coffee_wifi_spot": null,
         "latitude": 39.042044,
-        "longitude": -94.592796
+        "longitude": -94.592796,
+        "eat_town": "Kansas City"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8261,7 +8282,8 @@
         "lodging_suggestion": "Biloxi",
         "coffee_wifi_spot": null,
         "latitude": 30.400763,
-        "longitude": -88.889382
+        "longitude": -88.889382,
+        "eat_town": "Biloxi"
       },
       {
         "day_number": 2,
@@ -8275,7 +8297,8 @@
         "lodging_suggestion": "Biloxi",
         "coffee_wifi_spot": null,
         "latitude": 30.239373,
-        "longitude": -88.885411
+        "longitude": -88.885411,
+        "eat_town": "Biloxi"
       },
       {
         "day_number": 3,
@@ -8288,7 +8311,8 @@
         "lodging_suggestion": "Gulfport",
         "coffee_wifi_spot": null,
         "latitude": 30.39409,
-        "longitude": -88.970176
+        "longitude": -88.970176,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -8302,7 +8326,8 @@
         "lodging_suggestion": "Ocean Springs",
         "coffee_wifi_spot": null,
         "latitude": 30.41129,
-        "longitude": -88.827917
+        "longitude": -88.827917,
+        "eat_town": "Ocean Springs"
       },
       {
         "day_number": 5,
@@ -8315,7 +8340,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 30.310567,
-        "longitude": -89.327548
+        "longitude": -89.327548,
+        "eat_town": "Bay St. Louis"
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -9787,7 +9813,8 @@
         "lodging_suggestion": "Gulf Shores",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Gulf Shores"
       },
       {
         "day_number": 2,
@@ -9801,7 +9828,8 @@
         "lodging_suggestion": "Gulf Shores / Orange Beach",
         "coffee_wifi_spot": null,
         "latitude": 30.271122,
-        "longitude": -87.689383
+        "longitude": -87.689383,
+        "eat_town": "Gulf Shores"
       },
       {
         "day_number": 3,
@@ -9816,7 +9844,8 @@
         "lodging_suggestion": "Mobile",
         "coffee_wifi_spot": null,
         "latitude": 30.228188,
-        "longitude": -88.022911
+        "longitude": -88.022911,
+        "eat_town": "Mobile"
       },
       {
         "day_number": 4,
@@ -9830,7 +9859,8 @@
         "lodging_suggestion": "Mobile",
         "coffee_wifi_spot": null,
         "latitude": 30.692039,
-        "longitude": -88.047867
+        "longitude": -88.047867,
+        "eat_town": "Mobile"
       },
       {
         "day_number": 5,
@@ -9844,7 +9874,8 @@
         "lodging_suggestion": "Fairhope",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Fairhope"
       },
       {
         "day_number": 6,
@@ -9854,7 +9885,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
