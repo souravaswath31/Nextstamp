@@ -2297,6 +2297,363 @@
     ]
   },
   {
+    "region_key": "nevada",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Las Vegas",
+        "eats": [
+          {
+            "name": "Bob Taylor's Original Ranch House",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site lists the half-pound 'Duke' Burger at lunch, Smoked Prime Rib & Lobster Tail at dinner, and Key Lime Pie for dessert.",
+            "why": "In northwest Las Vegas, well away from the casino corridor, a single-location mesquite-grilled steakhouse that has operated since 1955 and won a 2026 James Beard America's Classics award.",
+            "price_tier": null,
+            "hours_note": "Per its website: Monday-Thursday and Sunday 11:00 AM-10:00 PM, Friday-Saturday 11:00 AM-11:00 PM. Site calls itself a 'premiere steak house & fine dining'; call ahead for a table (702-645-1399).",
+            "open_evidence": "Own website shows current hours, menu and a 2026 James Beard Award notice (viewed 2026-10-15); jamesbeard.org's 2026 America's Classics winners page lists it as the only Nevada winner (viewed 2026-10-15).",
+            "source_url": "https://www.bobtaylorsranchhouse.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Boulder City",
+        "note": "Boulder City is the nearest town of independent restaurants to Hoover Dam; the city's dining directory lists 45+ places, many of them national chains, so the entries here are chosen as locally owned. Our advice: eat here before or after the dam rather than at the dam itself.",
+        "note_source_url": "https://bouldercitynv.com/dining/",
+        "eats": [
+          {
+            "name": "Boulder Dam Brewing Company",
+            "kind": "brewery",
+            "meal": "lunch",
+            "what_to_order": "The menu lists a Hatch Chile Burger, Beer Battered Fish 'n Chips, Philly Cheesesteak and Brewpub Nachos, alongside 18 rotating beers and ciders.",
+            "why": "Boulder City's own brewpub on Nevada Way, a single-location operation open since the 2013 copyright date on its site and a few minutes' drive from Hoover Dam.",
+            "price_tier": "$$",
+            "hours_note": "Per its website: Sunday-Thursday 11:00 AM-9:00 PM, Friday-Saturday 11:00 AM-11:00 PM.",
+            "open_evidence": "Own website footer reads 2013-2026, lists current hours, a priced menu with items flagged 'NEW', and September 2026 live-music listings (viewed 2026-10-15).",
+            "source_url": "https://www.boulderdambrewing.com/menu",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Virginia City",
+        "eats": [
+          {
+            "name": "Savage Grill",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "Burgers, steak sandwiches, French dips and fries per the Storey County Chamber listing; the Comstock Chronicle also mentions chili and specialty sausages.",
+            "why": "A family-owned lunch spot at 65 N C Street in a historic building whose basement holds authenticated early-1900s signatures and graffiti, run by local residents David and Sheila.",
+            "price_tier": null,
+            "hours_note": "Chamber listing: Monday, Tuesday, Thursday 11:30 AM-4 PM, Friday-Saturday 11 AM-8 PM, Sunday 11 AM-4 PM, closed Wednesday (the Chamber's hours are undated, and an August 2025 Comstock Chronicle article gave different hours, Thursday-Monday 11 AM-5 PM), so call ahead (775-223-9665).",
+            "open_evidence": "Comstock Chronicle (20 January 2026) lists it among Virginia City ventures launched in Summer 2025, and the Storey County Chamber of Commerce page shows current hours and 2025 founding (viewed 2026-10-15); no first-party site found and the newest dated source is nine months old.",
+            "source_url": "https://www.storeycountychamberofcommerce.com/connections/91418-savage-grill/",
+            "source_name": "Storey County Chamber of Commerce; Comstock Chronicle"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Las Vegas & Red Rock Country",
+        "day_number": 1,
+        "town": "Las Vegas"
+      },
+      {
+        "itinerary_title": "Las Vegas & Red Rock Country",
+        "day_number": 2,
+        "town": "Las Vegas"
+      },
+      {
+        "itinerary_title": "Las Vegas & Red Rock Country",
+        "day_number": 3,
+        "town": "Las Vegas"
+      },
+      {
+        "itinerary_title": "Las Vegas & Red Rock Country",
+        "day_number": 4,
+        "town": "Boulder City"
+      },
+      {
+        "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
+        "day_number": 2,
+        "town": "Virginia City"
+      },
+      {
+        "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "new-mexico",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Santa Fe",
+        "eats": [
+          {
+            "name": "The Shed",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Red chile enchiladas and green chile stew, both named on the restaurant's page.",
+            "why": "Family-owned in Santa Fe since 1953 and run by three generations of the Carswell family, a few steps from the Plaza at 113 1/2 East Palace Ave.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday only (closed Sunday). Lunch 11:00 am-2:30 pm, walk-ins only; dinner 5:00-9:00 pm, reservations available.",
+            "open_evidence": "Own website lists current Monday-Saturday lunch and dinner hours with a 2026 copyright footer and no closure notice (viewed 2026-10-15).",
+            "source_url": "https://sfshed.com/",
+            "source_name": "The Shed's own website"
+          },
+          {
+            "name": "The Pantry",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast burritos, huevos rancheros, chicken fried steak and carne adovada; the page says it serves green chile on everything.",
+            "why": "A Cerrillos Road counter since 1948, still run by the Singley family, which now operates three Pantry restaurants around Santa Fe.",
+            "price_tier": null,
+            "hours_note": "Open daily 7:00 am-8:30 pm.",
+            "open_evidence": "Own website lists daily hours, a 2026 copyright footer and a third location opened in 2026 (viewed 2026-10-15); the Pantry Dos page also loaded with current hours.",
+            "source_url": "https://www.pantrysantafe.com/",
+            "source_name": "The Pantry's own website"
+          },
+          {
+            "name": "Café Pasqual's",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The page references blintzes, a BLT and mole.",
+            "why": "A single-restaurant Santa Fe fixture near the Plaza (121 Don Gaspar Ave) that the site says is marking 47 years since 1979, with breakfast served all day.",
+            "price_tier": null,
+            "hours_note": "Breakfast 8 am-3 pm, lunch 11 am-3 pm; dinner 5:30-9:30 pm Sunday-Thursday and 5:30-10 pm Friday-Saturday. The page says walk-ins are still welcome.",
+            "open_evidence": "Own website lists current hours and a gallery exhibition running through November 13; its '47 years' since 1979 ties the page to 2026 (viewed 2026-10-15). No copyright footer was seen.",
+            "source_url": "https://www.pasquals.com/",
+            "source_name": "Café Pasqual's own website"
+          }
+        ]
+      },
+      {
+        "town": "Los Alamos",
+        "eats": [
+          {
+            "name": "Ruby K's Bagel Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Bagels, croissants and soups; the page names sandwiches including the Turkey Bacon Club, Lots of Lox and a Reuben.",
+            "why": "A single-location bagel cafe at 1789 Central Ave in downtown Los Alamos, handy for breakfast or lunch before or after Bandelier.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 7 am-2 pm; Saturday-Sunday 8 am-2 pm (per the cafe's own site; the page shows no year).",
+            "open_evidence": "Own site lists hours, menu and online ordering but shows no year (weak on its own); the Los Alamos visitor restaurant map stamped 'Updated 9/21/2026' also lists Ruby K's at 1789 Central Ave (both viewed 2026-10-15).",
+            "source_url": "https://rubykscafe.com/",
+            "source_name": "Ruby K's own website"
+          }
+        ]
+      },
+      {
+        "town": "Taos",
+        "eats": [
+          {
+            "name": "Michael's Kitchen",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The pages I fetched describe fresh New Mexican and standard American fare; no individual dish was named.",
+            "why": "On North Pueblo Road since 1974, now owned by Derek and Gina Apodaca, with some original staff still working there per its own site.",
+            "price_tier": null,
+            "hours_note": "Open 7 am-2 pm Wednesday-Sunday; closed Monday and Tuesday.",
+            "open_evidence": "Own website says 'We're open', lists current Wednesday-Sunday hours and has a 2026 copyright footer; Taos.org also lists it (viewed 2026-10-15).",
+            "source_url": "https://www.michaelskitchen.com/",
+            "source_name": "Michael's Kitchen own website"
+          },
+          {
+            "name": "La Cueva Café",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Chicken Mole Enchiladas and Enchiladas de Camarón Enchipotladas, both named on its menu page.",
+            "why": "A later-closing option than Taos's breakfast spots: open until 8 pm on weekdays.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 10 am-8 pm; Saturday 10 am-5 pm; closed Sunday. Breakfast and lunch served Monday-Saturday 10 am-3 pm.",
+            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer and no closure notice (viewed 2026-10-15).",
+            "source_url": "https://www.lacuevacafe.com/",
+            "source_name": "La Cueva Café's own website"
+          }
+        ]
+      },
+      {
+        "town": "Chimayó",
+        "eats": [
+          {
+            "name": "Rancho de Chimayó",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Carne adovada, blue corn enchiladas, hand-rolled tamales and chile rellenos, with sopapillas and honey, are all named on its site.",
+            "why": "The restaurant is in Chimayó itself, so the day's red-chile stop needs no detour; the site also lists hacienda hours.",
+            "price_tier": null,
+            "hours_note": "Open Tuesday-Sunday 11:30 am-8 pm; closed Monday. Weekend breakfast Saturday-Sunday 8:30-10:30 am, with the kitchen closed 10:30-11:30 am on weekends. Its homepage also says \"We look forward to serving you soon\" after the founder's 2025 passing and states it is remaining family-owned, so confirm by phone before driving out.",
+            "open_evidence": "Own website lists 2026 hours and a 2026 hacienda season with a 'Copyright 2026' footer (viewed 2026-10-15). The homepage also carries a memorial to founder Florence Jaramillo (1930-2025) and the line 'We look forward to serving you soon', which I could not tie to a reopening or a change of hours.",
+            "source_url": "https://www.ranchodechimayo.com/",
+            "source_name": "Rancho de Chimayó's own website"
+          }
+        ]
+      },
+      {
+        "town": "Albuquerque",
+        "eats": [
+          {
+            "name": "Church Street Cafe",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Christmas chile enchiladas and sopapillas are named on its page.",
+            "why": "Housed in Casa de Ruiz, which the site calls one of the oldest structures in New Mexico, at 2111 Church St NW in Old Town.",
+            "price_tier": null,
+            "hours_note": "Closed Monday; Tuesday-Saturday 8 am-9 pm; Sunday 8 am-4 pm.",
+            "open_evidence": "Own website lists current hours with a 2026 copyright footer and a dated notice about operating first-come, first-served during Balloon Fiesta, October 3-11 (viewed 2026-10-15).",
+            "source_url": "https://www.churchstreetcafe.com/",
+            "source_name": "Church Street Café's own website"
+          },
+          {
+            "name": "Golden Crown Panaderia",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Baked goods and the 24/7 'Cookie ATM' the site advertises; no individual pastries were named on the pages I fetched.",
+            "why": "A bakery at 1103 Mountain Rd NW whose site advertises a Cookie ATM you can use around the clock.",
+            "price_tier": null,
+            "hours_note": "Wednesday-Saturday 7 am-8 pm; Sunday 10 am-8 pm; closed Monday and Tuesday.",
+            "open_evidence": "Own website has a 2026 copyright footer and live online ordering, and its contact page lists current hours (viewed 2026-10-15).",
+            "source_url": "https://goldencrown.biz/pages/contact",
+            "source_name": "Golden Crown Panaderia's own website"
+          }
+        ]
+      },
+      {
+        "town": "Carlsbad",
+        "note": "Per the NPS, the Carlsbad Caverns Trading Company restaurant in the visitor center has limited food options and is open until 3 pm, and full meals outside the park are in White's City (seven miles from the visitor center) or Carlsbad (about 20 miles). Our advice: plan dinner in Carlsbad town and carry lunch for the cavern day.",
+        "note_source_url": "https://www.nps.gov/cave/planyourvisit/eatingsleeping.htm",
+        "eats": [
+          {
+            "name": "Red Chimney Pit Bar-B-Q",
+            "kind": "bbq",
+            "meal": "dinner",
+            "what_to_order": "The pages I fetched name no individual dishes; the site says meat is slow-cooked in a pit over local pecan wood and mentions cobbler.",
+            "why": "Family barbecue since 1954 at 817 N Canal St, now in its third generation under Jill and Edgar.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 11 am-2 pm and 4:30-8:30 pm; closed Saturday and Sunday (per the restaurant's homepage; the page shows no year).",
+            "open_evidence": "Own website is live with hours, catering and carryout/family-pack ordering but shows no year, so this is weak evidence on its own (viewed 2026-10-15).",
+            "source_url": "https://www.redchimneybbq.com/",
+            "source_name": "Red Chimney's own website"
+          }
+        ]
+      },
+      {
+        "town": "Alamogordo",
+        "note": "Per the NPS, White Sands has only packaged, ready-to-eat food at the White Sands Trading Company gift shop, and Alamogordo is 13 miles away with Las Cruces 50 miles away. Our advice: pack lunch for the dunes and eat in Alamogordo.",
+        "note_source_url": "https://www.nps.gov/whsa/planyourvisit/eatingsleeping.htm",
+        "eats": [
+          {
+            "name": "Oppenheimer Gasthaus",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Schnitzel, bratwurst and cucumber salad are named on its pages.",
+            "why": "A German kitchen at 902 N New York Ave in Alamogordo; Visit Alamogordo lists it among locally owned restaurants.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 3-9 pm; Saturday-Sunday 11 am-9 pm (hours as posted April 7, 2026).",
+            "open_evidence": "Own website 'New Hours' page is dated April 7, 2026 with a 2026 copyright footer; the Visit Alamogordo restaurants page (2026 footer) also lists it (viewed 2026-10-15).",
+            "source_url": "https://oppenheimergasthaus.com/new-hours/",
+            "source_name": "Oppenheimer Gasthaus's own website"
+          }
+        ]
+      },
+      {
+        "town": "Mesilla",
+        "eats": [
+          {
+            "name": "La Posta de Mesilla",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Chili rellenos, fajitas, chili con queso and red enchiladas are named on its site.",
+            "why": "In Mesilla rather than Las Cruces proper: the site says it has operated since 1939 in an 1840s adobe building, a short walk from the Old Mesilla Plaza.",
+            "price_tier": null,
+            "hours_note": "Sunday-Thursday 11 am-9 pm; Friday-Saturday 11 am-9:30 pm; weekend breakfast Saturday-Sunday 8-11 am (hours from the Town of Mesilla's dining page; the page shows no year).",
+            "open_evidence": "Own website is live with menu, online ordering and an 85th-anniversary page, but shows no year; the Town of Mesilla dining page lists current hours, also with no year (both viewed 2026-10-15), so this is weaker than most entries.",
+            "source_url": "https://www.mesillanm.gov/dining/la-posta-restaurant-and-cantina/",
+            "source_name": "Town of Mesilla dining page (own site: lapostademesilla.com)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "New Mexico: Santa Fe → Taos → Los Alamos → Albuquerque",
+        "day_number": 1,
+        "town": "Santa Fe"
+      },
+      {
+        "itinerary_title": "New Mexico: Santa Fe → Taos → Los Alamos → Albuquerque",
+        "day_number": 2,
+        "town": "Los Alamos"
+      },
+      {
+        "itinerary_title": "New Mexico: Santa Fe → Taos → Los Alamos → Albuquerque",
+        "day_number": 3,
+        "town": "Taos"
+      },
+      {
+        "itinerary_title": "New Mexico: Santa Fe → Taos → Los Alamos → Albuquerque",
+        "day_number": 4,
+        "town": "Chimayó"
+      },
+      {
+        "itinerary_title": "New Mexico: Santa Fe → Taos → Los Alamos → Albuquerque",
+        "day_number": 5,
+        "town": "Albuquerque"
+      },
+      {
+        "itinerary_title": "New Mexico: Santa Fe → Taos → Los Alamos → Albuquerque",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "New Mexico: Carlsbad Caverns & White Sands",
+        "day_number": 1,
+        "town": "Carlsbad"
+      },
+      {
+        "itinerary_title": "New Mexico: Carlsbad Caverns & White Sands",
+        "day_number": 2,
+        "town": "Carlsbad"
+      },
+      {
+        "itinerary_title": "New Mexico: Carlsbad Caverns & White Sands",
+        "day_number": 3,
+        "town": "Alamogordo"
+      },
+      {
+        "itinerary_title": "New Mexico: Carlsbad Caverns & White Sands",
+        "day_number": 4,
+        "town": "Alamogordo"
+      },
+      {
+        "itinerary_title": "New Mexico: Carlsbad Caverns & White Sands",
+        "day_number": 5,
+        "town": "Mesilla"
+      }
+    ]
+  },
+  {
     "region_key": "new-york",
     "last_verified_date": "2026-10-14",
     "stops": [
@@ -2453,6 +2810,190 @@
         "itinerary_title": "New York City: Five Boroughs",
         "day_number": 6,
         "town": "Arthur Avenue, Bronx"
+      }
+    ]
+  },
+  {
+    "region_key": "north-carolina",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Asheville",
+        "eats": [
+          {
+            "name": "Early Girl Eatery",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The site singles out its buttermilk biscuits and signature Biscuit French Toast, all made from scratch daily.",
+            "why": "A scratch-made farm-to-table breakfast and brunch spot open since 2001, with three Asheville locations (including 8 Wall Street downtown).",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows live open/closed status for all three Asheville locations, an active online-ordering button and careers page (viewed 2026-10-15); the page prints no year, and its 'thank you for 20 years' text is old.",
+            "source_url": "https://earlygirleatery.com/",
+            "source_name": "Early Girl Eatery's own website"
+          },
+          {
+            "name": "Sunny Point Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The online menu lists carrot hotcakes, huevos rancheros and fried green tomatoes among its dishes.",
+            "why": "Family-owned West Asheville breakfast and lunch spot serving since 2003, on Haywood Road.",
+            "price_tier": null,
+            "hours_note": "Daily 8:30am-2:30pm per its site; no takeout orders on Saturdays and Sundays because of crowds.",
+            "open_evidence": "Own website posts daily hours, a current takeout-order notice and a priced menu, and says it is in the MICHELIN Guide 2025 (viewed 2026-10-15).",
+            "source_url": "https://www.sunnypointcafe.com/",
+            "source_name": "Sunny Point Cafe's own website"
+          },
+          {
+            "name": "Chai Pani",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The Asheville menu lists SPDP, Disco Bhel, Matchstick Okra Fries (called a signature dish) and a Kale Pakora Chaat.",
+            "why": "Indian street-food chaat from a James Beard-recognized Asheville restaurant, now at 32 Banks Avenue downtown.",
+            "price_tier": null,
+            "hours_note": "Asheville: Sun-Thu 11am-3pm and 5-9pm; Fri-Sat 11am-3pm and 5-9:30pm.",
+            "open_evidence": "Own website lists current Asheville hours, a priced Asheville menu with seasonal items, and online ordering (viewed 2026-10-15); the group has three restaurants (Asheville, Decatur, Washington DC).",
+            "source_url": "https://chaipani.com/",
+            "source_name": "Chai Pani's own website"
+          }
+        ]
+      },
+      {
+        "town": "Boone",
+        "eats": [
+          {
+            "name": "Stick Boy Bread Company",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The site mentions Carolina Sourdough made with NC-grown organic flour, plus cookies and sticky buns.",
+            "why": "A Boone bakery since 2001 with a bread schedule posted each month and a sit-down sister cafe, Stick Boy Kitchen.",
+            "price_tier": null,
+            "hours_note": "Bakery (345 Hardin St): Mon-Fri 7am-6:30pm, Sat 7am-5:30pm, closed Sundays. Kitchen (211 Boone Heights Dr): Mon-Sat 7am-4pm, closed Sundays.",
+            "open_evidence": "Own website shows an 'October bread schedule' and current hours for both locations, and says '24 years of history' (viewed 2026-10-15).",
+            "source_url": "https://www.stickboybread.com/",
+            "source_name": "Stick Boy Bread Company's own website"
+          },
+          {
+            "name": "Over Yonder",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The page lists lunch, dinner, brunch and bar menus, but no individual dishes were readable on the fetched page, so check the menu before you go.",
+            "why": "A Boone restaurant now housed inside Rhodes Motor Lodge on Blowing Rock Road, after leaving its old farmhouse.",
+            "price_tier": null,
+            "hours_note": "Per its site: lunch Tue-Fri 11am-2:30pm; brunch Sat-Sun 10am-2:30pm; dinner Tue-Sun 5-8:30pm; bar menu hours vary by day. Reservations via Resy are recommended.",
+            "open_evidence": "Own website carries a current notice taking Thanksgiving reservations, plus a 'we have moved' announcement and posted hours (viewed 2026-10-15); the page prints no year.",
+            "source_url": "https://www.overyondernc.com/",
+            "source_name": "Over Yonder's own website"
+          }
+        ]
+      },
+      {
+        "town": "Kill Devil Hills",
+        "eats": [
+          {
+            "name": "Outer Banks Brewing Station",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "The site mentions Sunday brunch and an October 'Pubkin Patch', but lists no individual dishes.",
+            "why": "A Kill Devil Hills restaurant and brewpub on South Croatan Highway, with a live-music and trivia calendar.",
+            "price_tier": null,
+            "hours_note": "Per its calendar: Sunday brunch 11:30am-3pm; Pubkin Patch daily in October 11:30am-5pm; trivia Thursdays from 9:30pm.",
+            "open_evidence": "Own website lists dated events for 15-18 October 2026 (Oktobeer Dinner, DJ night, Sunday brunch) and carries a 2025 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://www.obbrewing.com/",
+            "source_name": "Outer Banks Brewing Station's own website"
+          }
+        ]
+      },
+      {
+        "town": "Buxton",
+        "eats": [
+          {
+            "name": "Diamond Shoals Restaurant & Sushi Bar",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The site mentions its clam chowder, crab bisque, fried fish, shrimp, oysters and crabcakes, and sushi rolls Tuesday to Saturday.",
+            "why": "In Buxton, on NC-12 north of Hatteras Village; an Outer Banks seafood restaurant on the way down Hatteras Island, with the island's only sushi bar per its site.",
+            "price_tier": null,
+            "hours_note": "Per its site: Mon-Fri breakfast 7-11am, lunch 11am-2pm, dinner 4-9pm; Sat-Sun breakfast 7-11:30am, lunch 11:30am-2pm, dinner 4-9pm; sushi Tue-Sat only. The page states no storm or seasonal closure.",
+            "open_evidence": "Own website shows a 'Copyright 2026' footer, posted hours, a nightly-specials page and a hiring notice (viewed 2026-10-15).",
+            "source_url": "https://diamondshoalsrestaurant.com/",
+            "source_name": "Diamond Shoals' own website"
+          }
+        ]
+      },
+      {
+        "town": "Ocracoke",
+        "eats": [
+          {
+            "name": "Ocracoke Oyster Company",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The listing mentions fresh oysters, local seafood, smoked barbecue, burgers and steaks.",
+            "why": "In the middle of Ocracoke Island, serving seafood, barbecue and burgers after a day at the beach.",
+            "price_tier": null,
+            "hours_note": "Listed as 11am-11pm daily, with the note 'Off-season hours may vary' and 'Call 252-928-0200 for current hours'.",
+            "open_evidence": "Outer Banks Visitors Bureau (OuterBanks.com) listing, on a 2026-dated page, gives phone and hours (viewed 2026-10-15); this is a tourism-board listing, not the venue's own site, and it warns off-season hours vary.",
+            "source_url": "https://www.outerbanks.com/ocracoke-oyster-company.html",
+            "source_name": "OuterBanks.com (Outer Banks Visitors Bureau)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Blue Ridge North Carolina: Asheville → Cherokee → Boone",
+        "day_number": 1,
+        "town": "Asheville"
+      },
+      {
+        "itinerary_title": "Blue Ridge North Carolina: Asheville → Cherokee → Boone",
+        "day_number": 2,
+        "town": "Asheville"
+      },
+      {
+        "itinerary_title": "Blue Ridge North Carolina: Asheville → Cherokee → Boone",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Blue Ridge North Carolina: Asheville → Cherokee → Boone",
+        "day_number": 4,
+        "town": "Boone"
+      },
+      {
+        "itinerary_title": "Blue Ridge North Carolina: Asheville → Cherokee → Boone",
+        "day_number": 5,
+        "town": "Boone"
+      },
+      {
+        "itinerary_title": "North Carolina's Outer Banks",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "North Carolina's Outer Banks",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "North Carolina's Outer Banks",
+        "day_number": 3,
+        "town": "Kill Devil Hills"
+      },
+      {
+        "itinerary_title": "North Carolina's Outer Banks",
+        "day_number": 4,
+        "town": "Buxton"
+      },
+      {
+        "itinerary_title": "North Carolina's Outer Banks",
+        "day_number": 5,
+        "town": "Ocracoke"
+      },
+      {
+        "itinerary_title": "North Carolina's Outer Banks",
+        "day_number": 6,
+        "town": null
       }
     ]
   },
@@ -3472,6 +4013,189 @@
         "itinerary_title": "Salt Lake City & Park City",
         "day_number": 6,
         "town": "Park City"
+      }
+    ]
+  },
+  {
+    "region_key": "virginia",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Front Royal",
+        "eats": [
+          {
+            "name": "Down Home Comfort Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "The cinnamon rolls, which the bakery's own page calls \"famous\", made with homemade brown sugar and house-made cream cheese frosting, or the pecan sticky buns.",
+            "why": "A two-owner, scratch-baking shop on Front Royal's Main Street, a handy pastry stop on the way into Skyline Drive.",
+            "price_tier": null,
+            "hours_note": "Per its site: closed Monday; Tuesday, Thursday-Saturday 9am-6pm; Wednesday 9am-12pm; Sunday 9am-4pm.",
+            "open_evidence": "Own website shows a 2026 copyright footer, a posted weekly hours table and customer reviews dated March-June 2024 (viewed 2026-10-15).",
+            "source_url": "https://downhomecomfortbakery.com",
+            "source_name": "Venue's own website"
+          }
+        ],
+        "note": "Per the NPS operating-hours page (last updated 2026-09-22), Shenandoah's concession dining is seasonal in 2026: Elkwallow Wayside April 29 to November 8, Skyland March 30 to November 8, Big Meadows Lodge May 4 to November 29. The NPS adds that concessionaire hours vary and points to the concessionaire's website for current hours. Our advice: check those hours before relying on a meal on Skyline Drive after November 8, and carry water and a lunch for the overlooks.",
+        "note_source_url": "https://www.nps.gov/shen/planyourvisit/hours.htm"
+      },
+      {
+        "town": "Luray",
+        "eats": [
+          {
+            "name": "Main Street Bakery & Catering",
+            "kind": "bakery",
+            "meal": "lunch",
+            "what_to_order": "Quiches, cinnamon rolls, muffins and pastries; the site also says lunch is served daily.",
+            "why": "A downtown Luray bakery open since December 2003 and run by Chef Chuck Arnaud, per a Page Valley News profile.",
+            "price_tier": null,
+            "hours_note": "Per its site: Tuesday-Friday 8am-5pm, Saturday 8am-3pm; the 2023 Page Valley News profile also says closed Sunday and Monday.",
+            "open_evidence": "Own website shows a 2026 copyright footer and current hours (viewed 2026-10-15); a Page Valley News profile (published 2023-12-07) marks 20 years in business.",
+            "source_url": "https://mainstreetbakery-catering.com",
+            "source_name": "Venue's own website"
+          }
+        ],
+        "note": "Per the NPS operating-hours page (last updated 2026-09-22), in-park dining on Skyline Drive in 2026 runs: Elkwallow Wayside April 29 to November 8, Skyland March 30 to November 8, Big Meadows Lodge May 4 to November 29, with concessionaire hours varying. Our advice: for the Hawksbill Loop Trail day, eat in Luray before or after rather than counting on a park meal, and note that only one Luray place is verified here.",
+        "note_source_url": "https://www.nps.gov/shen/planyourvisit/hours.htm"
+      },
+      {
+        "town": "Virginia Beach oceanfront",
+        "eats": [
+          {
+            "name": "Rudee's Restaurant & Cabana Bar",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Seafood; the site describes fresh seafood delivered daily and also lists a Sunday brunch menu.",
+            "why": "Right on the Rudee Inlet marina, the spot the itinerary's \"seafood dinner near Rudee Inlet\" points to, with glider tables over the water and a restaurant open since 1983 per its own site.",
+            "price_tier": null,
+            "hours_note": "Per its site: closed only on Thanksgiving Day and Christmas Day; Sunday brunch 10am-2pm; the outdoor cabana bar and deck dining are weather permitting, so call 757-425-1777. The site's Monday-Thursday hours line is garbled (\"11:00pm - 8:00pm\"), so confirm by phone.",
+            "open_evidence": "Own website shows a 2026 copyright footer, posted hours and a hiring notice (viewed 2026-10-15).",
+            "source_url": "https://rudees.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Waterman's Surfside Grille",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Seafood and the Original Orange Crush, the cocktail the restaurant says it brought to the oceanfront.",
+            "why": "A family-run oceanfront restaurant (Standing family) that has been in the same building since 1981 and buys under the Sensible Seafood program, per its own About page.",
+            "price_tier": null,
+            "hours_note": "Per its site: Monday-Thursday 11am-10pm, Friday-Saturday 11am-10:30pm, Sunday 9am-10pm.",
+            "open_evidence": "Own website shows a 2026 copyright footer, posted hours, and a reservations policy that it says is updated monthly (viewed 2026-10-15).",
+            "source_url": "https://www.watermans.com/about/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Williamsburg",
+        "eats": [
+          {
+            "name": "Berret's Seafood Restaurant and Taphouse Grill",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "The October dinner special listed on its specials page for October 15-16: herb-crusted triggerfish fillet and buttery shrimp with creamy rice, asparagus and basil-butter sauce; the site also advertises $1 oysters daily 11:30am-6pm.",
+            "why": "A Merchants Square seafood restaurant open since 1983, in a former gas station, one block from the Historic Area.",
+            "price_tier": null,
+            "hours_note": "Per its site: open daily 11:30am-8:30pm; reservations are for indoor dining only, outdoor seating is first-come first-served; the $1 oyster deal excludes special days.",
+            "open_evidence": "Own website specials page lists dinner specials for Thursday October 15 and Friday October 16 (weekdays that match 2026) and an events page lists October live music; viewed 2026-10-15.",
+            "source_url": "https://berrets.com/williamsburg-berret-s-seafood-restaurant-and-taphouse-grill-specials",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Cheese Shop",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "The Cheese Shop sandwich, made to order on bread baked daily, such as the roast beef & cheese or the country ham & cheese.",
+            "why": "A Merchants Square shop run by the Power family since 1971, per the Merchants Square directory, handy for a picnic lunch near the Historic Area.",
+            "price_tier": "$",
+            "hours_note": "Per its site, sandwiches are served Tuesday-Saturday 10am-6pm and Sunday 11am-6pm; the Merchants Square directory lists Monday as closed.",
+            "open_evidence": "Own website shows a sandwich price list and hours with a 2024 copyright footer; the Merchants Square directory (2025 copyright, 2026 events listed) lists it with matching hours; viewed 2026-10-15. The venue's own page has no 2025 or 2026 date.",
+            "source_url": "https://www.cheeseshopwilliamsburg.com/sandwiches",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Yorktown",
+        "eats": [
+          {
+            "name": "Riverwalk Restaurant",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Per Coastal Virginia magazine: the Shrimp Givesti (inspired by Nick's Seafood Pavilion's original), the Riverwalk Burger with a house-made crabcake, or the Seafood Mac & Cheese.",
+            "why": "A York River waterfront restaurant on Water Street that reopened in May 2024 under a local owner who also runs Water Street Grille and Waypoint Seafood.",
+            "price_tier": null,
+            "hours_note": "Per its site: Wednesday-Thursday 4-8pm, Friday-Saturday 4-9pm, Sunday 4-8pm; no Monday or Tuesday hours are listed.",
+            "open_evidence": "Own website events page lists a Halloween fundraiser and a Thanksgiving buffet on Thursday, November 26, 2026 with reservations open (viewed 2026-10-15); Coastal Virginia magazine (2024-07-01) reports the May 2024 reopening.",
+            "source_url": "https://riverwalkrestaurantva.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mobjack Coffee Roasters & Petite Cafe",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Per York County Tourism: the Mobjack Reuben Panini (pastrami, homemade dressing and slaw on rye), the Farmer's BLT, or the Curry Chickpea Salad Wrap.",
+            "why": "A small cafe in a white-washed brick building on Historic Main Street, in the old village near the battlefield rather than down on the waterfront.",
+            "price_tier": null,
+            "hours_note": "Per its site banner: open every day; Sunday 9am-5pm, Monday-Thursday 9am-4pm, Friday 9am-5pm, Saturday 8am-5pm.",
+            "open_evidence": "Own website shows a 2026 copyright footer, a daily hours banner, a Petite Cafe menu link and the 411 Main Street address (viewed 2026-10-15); York County Tourism's Culinary Delights page (undated) describes the cafe menu.",
+            "source_url": "https://mobjackcoffee.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Shenandoah National Park, Virginia",
+        "day_number": 1,
+        "town": "Front Royal"
+      },
+      {
+        "itinerary_title": "Shenandoah National Park, Virginia",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Shenandoah National Park, Virginia",
+        "day_number": 3,
+        "town": "Luray"
+      },
+      {
+        "itinerary_title": "Shenandoah National Park, Virginia",
+        "day_number": 4,
+        "town": "Luray"
+      },
+      {
+        "itinerary_title": "Virginia Beach & the Historic Triangle",
+        "day_number": 1,
+        "town": "Virginia Beach oceanfront"
+      },
+      {
+        "itinerary_title": "Virginia Beach & the Historic Triangle",
+        "day_number": 2,
+        "town": "Virginia Beach oceanfront"
+      },
+      {
+        "itinerary_title": "Virginia Beach & the Historic Triangle",
+        "day_number": 3,
+        "town": "Williamsburg"
+      },
+      {
+        "itinerary_title": "Virginia Beach & the Historic Triangle",
+        "day_number": 4,
+        "town": "Williamsburg"
+      },
+      {
+        "itinerary_title": "Virginia Beach & the Historic Triangle",
+        "day_number": 5,
+        "town": "Yorktown"
+      },
+      {
+        "itinerary_title": "Virginia Beach & the Historic Triangle",
+        "day_number": 6,
+        "town": null
       }
     ]
   },

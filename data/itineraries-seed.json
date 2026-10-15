@@ -2057,7 +2057,8 @@
         "lodging_suggestion": "Santa Fe",
         "coffee_wifi_spot": null,
         "latitude": 35.68761,
-        "longitude": -105.938456
+        "longitude": -105.938456,
+        "eat_town": "Santa Fe"
       },
       {
         "day_number": 2,
@@ -2069,7 +2070,8 @@
         "lodging_suggestion": "Los Alamos or back to Santa Fe",
         "coffee_wifi_spot": null,
         "latitude": 35.68761,
-        "longitude": -105.938456
+        "longitude": -105.938456,
+        "eat_town": "Los Alamos"
       },
       {
         "day_number": 3,
@@ -2082,7 +2084,8 @@
         "lodging_suggestion": "Taos",
         "coffee_wifi_spot": null,
         "latitude": 36.407238,
-        "longitude": -105.573284
+        "longitude": -105.573284,
+        "eat_town": "Taos"
       },
       {
         "day_number": 4,
@@ -2094,7 +2097,8 @@
         "lodging_suggestion": "Santa Fe",
         "coffee_wifi_spot": null,
         "latitude": 36.003909,
-        "longitude": -105.946866
+        "longitude": -105.946866,
+        "eat_town": "Chimayó"
       },
       {
         "day_number": 5,
@@ -2107,7 +2111,8 @@
         "lodging_suggestion": "Albuquerque",
         "coffee_wifi_spot": null,
         "latitude": 35.084103,
-        "longitude": -106.650985
+        "longitude": -106.650985,
+        "eat_town": "Albuquerque"
       },
       {
         "day_number": 6,
@@ -2119,7 +2124,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -4142,7 +4148,8 @@
         "lodging_suggestion": "Las Vegas",
         "coffee_wifi_spot": null,
         "latitude": 36.119422,
-        "longitude": -115.174254
+        "longitude": -115.174254,
+        "eat_town": "Las Vegas"
       },
       {
         "day_number": 2,
@@ -4155,7 +4162,8 @@
         "lodging_suggestion": "Las Vegas",
         "coffee_wifi_spot": null,
         "latitude": 38.330173,
-        "longitude": -116.369303
+        "longitude": -116.369303,
+        "eat_town": "Las Vegas"
       },
       {
         "day_number": 3,
@@ -4167,7 +4175,8 @@
         "lodging_suggestion": "Las Vegas",
         "coffee_wifi_spot": null,
         "latitude": 36.498851,
-        "longitude": -114.534122
+        "longitude": -114.534122,
+        "eat_town": "Las Vegas"
       },
       {
         "day_number": 4,
@@ -4180,7 +4189,8 @@
         "lodging_suggestion": "Las Vegas",
         "coffee_wifi_spot": null,
         "latitude": 36.015719,
-        "longitude": -114.737486
+        "longitude": -114.737486,
+        "eat_town": "Boulder City"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4468,7 +4478,8 @@
         "lodging_suggestion": "Asheville",
         "coffee_wifi_spot": null,
         "latitude": 35.595363,
-        "longitude": -82.550841
+        "longitude": -82.550841,
+        "eat_town": "Asheville"
       },
       {
         "day_number": 2,
@@ -4480,7 +4491,8 @@
         "lodging_suggestion": "Asheville",
         "coffee_wifi_spot": null,
         "latitude": 35.545737,
-        "longitude": -82.558173
+        "longitude": -82.558173,
+        "eat_town": "Asheville"
       },
       {
         "day_number": 3,
@@ -4492,7 +4504,8 @@
         "lodging_suggestion": "Cherokee",
         "coffee_wifi_spot": null,
         "latitude": 35.455498,
-        "longitude": -83.042181
+        "longitude": -83.042181,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -4504,7 +4517,8 @@
         "lodging_suggestion": "Boone",
         "coffee_wifi_spot": null,
         "latitude": 36.218787,
-        "longitude": -81.684004
+        "longitude": -81.684004,
+        "eat_town": "Boone"
       },
       {
         "day_number": 5,
@@ -4516,7 +4530,8 @@
         "lodging_suggestion": "Boone",
         "coffee_wifi_spot": null,
         "latitude": 36.218787,
-        "longitude": -81.684004
+        "longitude": -81.684004,
+        "eat_town": "Boone"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5447,7 +5462,8 @@
         "lodging_suggestion": "Front Royal",
         "coffee_wifi_spot": null,
         "latitude": 38.917907,
-        "longitude": -78.191808
+        "longitude": -78.191808,
+        "eat_town": "Front Royal"
       },
       {
         "day_number": 2,
@@ -5459,7 +5475,8 @@
         "lodging_suggestion": "Sperryville",
         "coffee_wifi_spot": null,
         "latitude": 38.551791,
-        "longitude": -78.31417
+        "longitude": -78.31417,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -5472,7 +5489,8 @@
         "lodging_suggestion": "Luray",
         "coffee_wifi_spot": null,
         "latitude": 38.663277,
-        "longitude": -78.483562
+        "longitude": -78.483562,
+        "eat_town": "Luray"
       },
       {
         "day_number": 4,
@@ -5484,7 +5502,8 @@
         "lodging_suggestion": "Luray",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Luray"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -6452,7 +6471,8 @@
         "lodging_suggestion": "Reno",
         "coffee_wifi_spot": null,
         "latitude": 39.526179,
-        "longitude": -119.812658
+        "longitude": -119.812658,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -6466,7 +6486,8 @@
         "lodging_suggestion": "Reno",
         "coffee_wifi_spot": null,
         "latitude": 39.310813,
-        "longitude": -119.649517
+        "longitude": -119.649517,
+        "eat_town": "Virginia City"
       },
       {
         "day_number": 3,
@@ -6480,7 +6501,8 @@
         "lodging_suggestion": "Incline Village",
         "coffee_wifi_spot": null,
         "latitude": 39.254804,
-        "longitude": -119.953798
+        "longitude": -119.953798,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -6494,7 +6516,8 @@
         "lodging_suggestion": "Zephyr Cove / Stateline",
         "coffee_wifi_spot": null,
         "latitude": 38.990351,
-        "longitude": -119.949322
+        "longitude": -119.949322,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -6507,7 +6530,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -6874,7 +6898,8 @@
         "lodging_suggestion": "Virginia Beach oceanfront",
         "coffee_wifi_spot": null,
         "latitude": 36.870158,
-        "longitude": -75.980869
+        "longitude": -75.980869,
+        "eat_town": "Virginia Beach oceanfront"
       },
       {
         "day_number": 2,
@@ -6888,7 +6913,8 @@
         "lodging_suggestion": "Virginia Beach oceanfront",
         "coffee_wifi_spot": null,
         "latitude": 36.906217,
-        "longitude": -76.013594
+        "longitude": -76.013594,
+        "eat_town": "Virginia Beach oceanfront"
       },
       {
         "day_number": 3,
@@ -6902,7 +6928,8 @@
         "lodging_suggestion": "Williamsburg",
         "coffee_wifi_spot": null,
         "latitude": 37.208918,
-        "longitude": -76.7783
+        "longitude": -76.7783,
+        "eat_town": "Williamsburg"
       },
       {
         "day_number": 4,
@@ -6916,7 +6943,8 @@
         "lodging_suggestion": "Williamsburg",
         "coffee_wifi_spot": null,
         "latitude": 37.272046,
-        "longitude": -76.69677
+        "longitude": -76.69677,
+        "eat_town": "Williamsburg"
       },
       {
         "day_number": 5,
@@ -6930,7 +6958,8 @@
         "lodging_suggestion": "Williamsburg",
         "coffee_wifi_spot": null,
         "latitude": 37.235666,
-        "longitude": -76.513649
+        "longitude": -76.513649,
+        "eat_town": "Yorktown"
       },
       {
         "day_number": 6,
@@ -6943,7 +6972,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -7721,7 +7751,8 @@
         "lodging_suggestion": "Corolla",
         "coffee_wifi_spot": null,
         "latitude": 36.384746,
-        "longitude": -75.828698
+        "longitude": -75.828698,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -7734,7 +7765,8 @@
         "lodging_suggestion": "Duck",
         "coffee_wifi_spot": null,
         "latitude": 36.170014,
-        "longitude": -75.755926
+        "longitude": -75.755926,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -7747,7 +7779,8 @@
         "lodging_suggestion": "Nags Head",
         "coffee_wifi_spot": null,
         "latitude": 36.016834,
-        "longitude": -75.666287
+        "longitude": -75.666287,
+        "eat_town": "Kill Devil Hills"
       },
       {
         "day_number": 4,
@@ -7761,7 +7794,8 @@
         "lodging_suggestion": "Hatteras Village",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Buxton"
       },
       {
         "day_number": 5,
@@ -7775,7 +7809,8 @@
         "lodging_suggestion": "Ocracoke Village",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ocracoke"
       },
       {
         "day_number": 6,
@@ -7788,7 +7823,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -10338,7 +10374,8 @@
         "lodging_suggestion": "Carlsbad, NM",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Carlsbad"
       },
       {
         "day_number": 2,
@@ -10351,7 +10388,8 @@
         "lodging_suggestion": "Carlsbad, NM",
         "coffee_wifi_spot": null,
         "latitude": 32.121249,
-        "longitude": -104.601231
+        "longitude": -104.601231,
+        "eat_town": "Carlsbad"
       },
       {
         "day_number": 3,
@@ -10364,7 +10402,8 @@
         "lodging_suggestion": "Alamogordo, NM",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Alamogordo"
       },
       {
         "day_number": 4,
@@ -10378,7 +10417,8 @@
         "lodging_suggestion": "Alamogordo, NM",
         "coffee_wifi_spot": null,
         "latitude": 32.764181,
-        "longitude": -106.331193
+        "longitude": -106.331193,
+        "eat_town": "Alamogordo"
       },
       {
         "day_number": 5,
@@ -10391,7 +10431,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 32.314035,
-        "longitude": -106.779807
+        "longitude": -106.779807,
+        "eat_town": "Mesilla"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
