@@ -166,3 +166,19 @@ The path you wrote; any stop where you found fewer than two verified eats and wh
 place you dropped because you could not confirm it is operating; and anything in your
 output you are less than confident about. Say plainly which claims rest on a source you
 actually fetched versus a search-result snippet.
+
+## Lessons from the second batch (California, Colorado, Florida, Arizona)
+
+- **A place whose own site is a default server page or a dead template is not verified.**
+  A magazine listing alone shows it was written about, not that it is open. Drop it.
+- **A closure calendar with no year is not evidence of anything.** One page listed
+  "April 17 - October 22" with no year; it could mean closed today. If a page's dates
+  cannot be tied to this year, say so in `hours_note` or drop the place.
+- **Multi-state routes.** If your brief lists a route that crosses other states, map the days
+  spent elsewhere to `null`; another agent covers them. Never invent a stop for them.
+- **If the route text names a restaurant you cannot confirm is open, leave it out and say so
+  in your report** (Barrio Café: named in an itinerary, apparently closed). The itinerary
+  text is fixed separately.
+- **Quote disruptions exactly.** The Grand Canyon in-park dining was closed for a 2026
+  flood; the agent quoted the NPS notice and put it in `hours_note`. Do that.
+- **Report counts exactly as they are in the file.** Two earlier reports miscounted stops.
