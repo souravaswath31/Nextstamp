@@ -3720,7 +3720,8 @@
         "lodging_suggestion": "Boston",
         "coffee_wifi_spot": null,
         "latitude": 42.358834,
-        "longitude": -71.05783
+        "longitude": -71.05783,
+        "eat_town": "Boston"
       },
       {
         "day_number": 2,
@@ -3732,7 +3733,8 @@
         "lodging_suggestion": "Boston",
         "coffee_wifi_spot": null,
         "latitude": 42.615359,
-        "longitude": -70.662461
+        "longitude": -70.662461,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -3744,7 +3746,8 @@
         "lodging_suggestion": "Hyannis",
         "coffee_wifi_spot": null,
         "latitude": 41.743344,
-        "longitude": -70.596803
+        "longitude": -70.596803,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -3756,7 +3759,8 @@
         "lodging_suggestion": "Falmouth",
         "coffee_wifi_spot": null,
         "latitude": 41.523875,
-        "longitude": -70.669402
+        "longitude": -70.669402,
+        "eat_town": "Woods Hole"
       },
       {
         "day_number": 5,
@@ -3769,7 +3773,8 @@
         "lodging_suggestion": "Provincetown",
         "coffee_wifi_spot": null,
         "latitude": 42.052561,
-        "longitude": -70.185864
+        "longitude": -70.185864,
+        "eat_town": "Provincetown"
       },
       {
         "day_number": 6,
@@ -3781,7 +3786,8 @@
         "lodging_suggestion": "Provincetown",
         "coffee_wifi_spot": null,
         "latitude": 42.359385,
-        "longitude": -71.049992
+        "longitude": -71.049992,
+        "eat_town": "Provincetown"
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -4664,7 +4670,8 @@
         "lodging_suggestion": "Logan",
         "coffee_wifi_spot": null,
         "latitude": 39.433281,
-        "longitude": -82.543144
+        "longitude": -82.543144,
+        "eat_town": "Logan"
       },
       {
         "day_number": 2,
@@ -4676,7 +4683,8 @@
         "lodging_suggestion": "Logan",
         "coffee_wifi_spot": null,
         "latitude": 39.418406,
-        "longitude": -82.525538
+        "longitude": -82.525538,
+        "eat_town": "Logan"
       },
       {
         "day_number": 3,
@@ -4688,7 +4696,8 @@
         "lodging_suggestion": "Logan",
         "coffee_wifi_spot": null,
         "latitude": 39.399368,
-        "longitude": -82.544346
+        "longitude": -82.544346,
+        "eat_town": "Logan"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4808,7 +4817,8 @@
         "lodging_suggestion": "Philadelphia",
         "coffee_wifi_spot": null,
         "latitude": 39.952724,
-        "longitude": -75.163526
+        "longitude": -75.163526,
+        "eat_town": "Philadelphia"
       },
       {
         "day_number": 2,
@@ -4820,7 +4830,8 @@
         "lodging_suggestion": "Philadelphia",
         "coffee_wifi_spot": null,
         "latitude": 39.872042,
-        "longitude": -75.67496
+        "longitude": -75.67496,
+        "eat_town": "Philadelphia"
       },
       {
         "day_number": 3,
@@ -4832,7 +4843,8 @@
         "lodging_suggestion": "Lancaster",
         "coffee_wifi_spot": null,
         "latitude": 40.08067,
-        "longitude": -76.241128
+        "longitude": -76.241128,
+        "eat_town": "Lancaster"
       },
       {
         "day_number": 4,
@@ -4844,7 +4856,8 @@
         "lodging_suggestion": "Lancaster",
         "coffee_wifi_spot": null,
         "latitude": 39.843036,
-        "longitude": -76.328218
+        "longitude": -76.328218,
+        "eat_town": "Lancaster"
       },
       {
         "day_number": 5,
@@ -4856,7 +4869,8 @@
         "lodging_suggestion": "Gettysburg",
         "coffee_wifi_spot": null,
         "latitude": 39.830897,
-        "longitude": -77.231012
+        "longitude": -77.231012,
+        "eat_town": "Gettysburg"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -5052,7 +5066,8 @@
         "lodging_suggestion": "Custer",
         "coffee_wifi_spot": null,
         "latitude": 43.742981,
-        "longitude": -103.418709
+        "longitude": -103.418709,
+        "eat_town": "Custer"
       },
       {
         "day_number": 2,
@@ -5064,7 +5079,8 @@
         "lodging_suggestion": "Custer",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Custer"
       },
       {
         "day_number": 3,
@@ -5077,7 +5093,8 @@
         "lodging_suggestion": "Keystone",
         "coffee_wifi_spot": null,
         "latitude": 43.880855,
-        "longitude": -103.453823
+        "longitude": -103.453823,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -5089,7 +5106,8 @@
         "lodging_suggestion": "Hot Springs",
         "coffee_wifi_spot": null,
         "latitude": 43.558051,
-        "longitude": -103.479549
+        "longitude": -103.479549,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -5101,7 +5119,8 @@
         "lodging_suggestion": "Wall",
         "coffee_wifi_spot": null,
         "latitude": 43.527106,
-        "longitude": -102.361663
+        "longitude": -102.361663,
+        "eat_town": "Wall"
       },
       {
         "day_number": 6,
@@ -5113,7 +5132,8 @@
         "lodging_suggestion": "Spearfish",
         "coffee_wifi_spot": null,
         "latitude": 44.346946,
-        "longitude": -103.923346
+        "longitude": -103.923346,
+        "eat_town": "Spearfish"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -6814,7 +6834,8 @@
         "lodging_suggestion": "Downtown Pittsburgh",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Pittsburgh"
       },
       {
         "day_number": 2,
@@ -6828,7 +6849,8 @@
         "lodging_suggestion": "Downtown Pittsburgh",
         "coffee_wifi_spot": null,
         "latitude": 40.760621,
-        "longitude": -80.325619
+        "longitude": -80.325619,
+        "eat_town": "Pittsburgh"
       },
       {
         "day_number": 3,
@@ -6842,7 +6864,8 @@
         "lodging_suggestion": "Downtown Pittsburgh or Oakland",
         "coffee_wifi_spot": null,
         "latitude": 42.110182,
-        "longitude": -80.140762
+        "longitude": -80.140762,
+        "eat_town": "Pittsburgh"
       },
       {
         "day_number": 4,
@@ -6856,7 +6879,8 @@
         "lodging_suggestion": "Ohiopyle or Farmington",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ohiopyle"
       },
       {
         "day_number": 5,
@@ -6870,7 +6894,8 @@
         "lodging_suggestion": "Ohiopyle",
         "coffee_wifi_spot": null,
         "latitude": 39.867084,
-        "longitude": -79.42948
+        "longitude": -79.42948,
+        "eat_town": "Ohiopyle"
       },
       {
         "day_number": 6,
@@ -6884,7 +6909,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Pittsburgh"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -7458,7 +7484,8 @@
         "lodging_suggestion": "Lenox",
         "coffee_wifi_spot": null,
         "latitude": 42.336686,
-        "longitude": -71.08186
+        "longitude": -71.08186,
+        "eat_town": "Lenox"
       },
       {
         "day_number": 2,
@@ -7471,7 +7498,8 @@
         "lodging_suggestion": "Lenox",
         "coffee_wifi_spot": null,
         "latitude": 42.282398,
-        "longitude": -73.312368
+        "longitude": -73.312368,
+        "eat_town": "Lenox"
       },
       {
         "day_number": 3,
@@ -7484,7 +7512,8 @@
         "lodging_suggestion": "Great Barrington",
         "coffee_wifi_spot": null,
         "latitude": 42.193936,
-        "longitude": -73.362773
+        "longitude": -73.362773,
+        "eat_town": "Great Barrington"
       },
       {
         "day_number": 4,
@@ -7497,7 +7526,8 @@
         "lodging_suggestion": "North Adams",
         "coffee_wifi_spot": null,
         "latitude": 42.699035,
-        "longitude": -73.1119
+        "longitude": -73.1119,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -7510,7 +7540,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 42.713547,
-        "longitude": -73.209457
+        "longitude": -73.209457,
+        "eat_town": "Williamstown"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -9231,7 +9262,8 @@
         "lodging_suggestion": "Sioux Falls",
         "coffee_wifi_spot": null,
         "latitude": 43.546645,
-        "longitude": -96.727087
+        "longitude": -96.727087,
+        "eat_town": "Sioux Falls"
       },
       {
         "day_number": 2,
@@ -9245,7 +9277,8 @@
         "lodging_suggestion": "Sioux Falls",
         "coffee_wifi_spot": null,
         "latitude": 43.687763,
-        "longitude": -96.517338
+        "longitude": -96.517338,
+        "eat_town": "Sioux Falls"
       },
       {
         "day_number": 3,
@@ -9258,7 +9291,8 @@
         "lodging_suggestion": "De Smet",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -9271,7 +9305,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Mitchell"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -10601,7 +10636,8 @@
         "lodging_suggestion": "Cleveland, OH",
         "coffee_wifi_spot": null,
         "latitude": 41.509912,
-        "longitude": -81.696916
+        "longitude": -81.696916,
+        "eat_town": "Cleveland"
       },
       {
         "day_number": 2,
@@ -10614,7 +10650,8 @@
         "lodging_suggestion": "Cleveland, OH",
         "coffee_wifi_spot": null,
         "latitude": 41.496747,
-        "longitude": -81.703823
+        "longitude": -81.703823,
+        "eat_town": "Cleveland"
       },
       {
         "day_number": 3,
@@ -10627,7 +10664,8 @@
         "lodging_suggestion": "Peninsula, OH",
         "coffee_wifi_spot": null,
         "latitude": 41.255094,
-        "longitude": -81.537642
+        "longitude": -81.537642,
+        "eat_town": "Peninsula"
       },
       {
         "day_number": 4,
@@ -10640,7 +10678,8 @@
         "lodging_suggestion": "Peninsula, OH",
         "coffee_wifi_spot": null,
         "latitude": 41.096199,
-        "longitude": -81.526208
+        "longitude": -81.526208,
+        "eat_town": "Peninsula"
       },
       {
         "day_number": 5,
@@ -10652,7 +10691,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"

@@ -2317,6 +2317,207 @@
     ]
   },
   {
+    "region_key": "massachusetts",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Boston",
+        "eats": [
+          {
+            "name": "Neptune Oyster",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "The Maine lobster roll, served hot with butter or cold with mayo, or oysters from the raw bar.",
+            "why": "A small raw bar at 63 Salem Street in the North End, known for its lobster roll.",
+            "price_tier": null,
+            "hours_note": "Opens daily at 11:00 AM; walk-ins only, no reservations (per the restaurant's own site; the page shows no year).",
+            "open_evidence": "Own website lists current hours and menu (viewed 2026-10-15; page shows no year); Boston Magazine's 2026-10-14 article on its Taste 2026 event (Nov 4, 2026) names Neptune Oyster as a participating restaurant.",
+            "source_url": "https://www.neptuneoyster.com",
+            "source_name": "Neptune Oyster's own website"
+          },
+          {
+            "name": "Modern Pastry Shop",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Cannoli, cheesecakes, pies, cookies, biscotti, macaroons or torrone.",
+            "why": "A North End pastry shop with one other location, in Medford.",
+            "price_tier": null,
+            "hours_note": "North End shop: Sun-Thurs 7am-11pm, Fri-Sat 7am-midnight (per its own site).",
+            "open_evidence": "Own website shows a 2026 copyright footer, current hours and active ordering (viewed 2026-10-15).",
+            "source_url": "https://www.modernpastry.com",
+            "source_name": "Modern Pastry's own website"
+          }
+        ]
+      },
+      {
+        "town": "Woods Hole",
+        "eats": [
+          {
+            "name": "Pie in the Sky Bakery & Cafe",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Scratch-made pastries, house-roasted coffee, sandwiches, soups and pies.",
+            "why": "A single-location Woods Hole bakery at 10 Water Street that opens at 5am, early enough for a morning ferry day.",
+            "price_tier": null,
+            "hours_note": "Open 7 days a week, 5am-8pm, 364 days a year (per its own site; woodshole.com lists a different closing time, so confirm).",
+            "open_evidence": "Own website shows a 2024 copyright footer, current hours and active ordering (viewed 2026-10-15); woodshole.com's eat page (2026 copyright footer) also lists it.",
+            "source_url": "https://www.piecoffee.com/",
+            "source_name": "Pie in the Sky's own website"
+          }
+        ]
+      },
+      {
+        "town": "Provincetown",
+        "eats": [
+          {
+            "name": "Fanizzi's Restaurant by the Sea",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Fresh fish and chips, mustard nut crusted cod, cucumber-dill salmon, or parmigiana.",
+            "why": "A single-location restaurant at 539 Commercial Street that serves lunch and dinner year-round.",
+            "price_tier": null,
+            "hours_note": "Lunch 11:30 AM-3:30 PM, early bird 4:15-5:30 PM, dinner from 4:15 PM; open year-round, closed Thanksgiving and Christmas (per its own site).",
+            "open_evidence": "Own website shows a 2026 copyright footer and current hours (viewed 2026-10-15); The Provincetown Independent's 2025-12-03 winter guide lists Fanizzi's as open daily.",
+            "source_url": "https://fanizzisrestaurant.com/",
+            "source_name": "Fanizzi's own website"
+          }
+        ]
+      },
+      {
+        "town": "Lenox",
+        "eats": [
+          {
+            "name": "Brava",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Tapas-style plates such as patatas bravas and pimientos, handmade pizza, and cheese and charcuterie.",
+            "why": "A tapas and small-plates restaurant at 65 Church Street, open since 2012.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Saturday 5-9 pm (bar to 10 pm); closed Sunday and Monday (per its own site).",
+            "open_evidence": "Own website shows a 2024 copyright footer and current hours (viewed 2026-10-15); Edible Berkshires' Summer 2026 guide (published 2026-06-23) lists Brava as year-round.",
+            "source_url": "https://www.bravalenox.com",
+            "source_name": "Brava's own website"
+          },
+          {
+            "name": "Pizzeria Boema",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Woodfired Napoletana-style pizza.",
+            "why": "A single-location woodfired pizzeria at 84 Main Street in Lenox.",
+            "price_tier": null,
+            "hours_note": "Closed Tuesday and Wednesday; Mon, Fri 4-9 PM; Thu 4-8:30 PM; Sat 12-9 PM; Sun 12-8:30 PM (per its own site, which flags 'new hours').",
+            "open_evidence": "Own website shows a 2026 copyright footer and a 'please note our new hours' notice (viewed 2026-10-15).",
+            "source_url": "https://www.pizzeriaboema.com",
+            "source_name": "Pizzeria Boema's own website"
+          }
+        ]
+      },
+      {
+        "town": "Great Barrington",
+        "eats": [
+          {
+            "name": "Prairie Whale",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "A weekly-changing seasonal menu of local-farm meat and produce under Chef Daniel Studwell.",
+            "why": "A family-run restaurant at 178 Main Street built around local farms.",
+            "price_tier": null,
+            "hours_note": "Sun, Mon, Thu 5-9:30 pm; Fri and Sat 5-10 pm; closed Tuesday and Wednesday (per its own site).",
+            "open_evidence": "Own website shows a menu for an 'October 8th' week and current hours but no year (viewed 2026-10-15); Edible Berkshires' Summer 2026 guide (published 2026-06-23) lists it.",
+            "source_url": "https://prairiewhale.com",
+            "source_name": "Prairie Whale's own website"
+          }
+        ]
+      },
+      {
+        "town": "Williamstown",
+        "eats": [
+          {
+            "name": "The Spring Street Market & Cafe",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Breakfast and lunch from its menu pages, with house-made baked goods, meats and cheeses.",
+            "why": "A single-location market and cafe at 66 Spring Street run by chef-owners Karen and Benoit Gosselin.",
+            "price_tier": null,
+            "hours_note": "Tue-Sat 8AM-5PM (kitchen closes 4PM); Sun 9AM-3PM (kitchen closes 2:30PM); closed Monday (per its own site).",
+            "open_evidence": "Own website lists current hours (viewed 2026-10-15; page shows no year); Edible Berkshires' Summer 2026 guide (published 2026-06-23) says the owners have served breakfast and lunch for 10 years.",
+            "source_url": "https://www.thespringstreetmarketandcafe.com/",
+            "source_name": "The Spring Street Market & Cafe's own website"
+          },
+          {
+            "name": "Wild Oats Market",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "The hot bar, salad bar, grab-n-go cooler or rotisserie chickens.",
+            "why": "A community-owned grocery at 320 Main Street with a hot bar, handy for picking up lunch.",
+            "price_tier": null,
+            "hours_note": "Open daily 8am-8pm; salad bar 8am-6pm, hot bar 8am-2pm, rotisserie chickens 3-6pm while available (per its own site).",
+            "open_evidence": "Own website lists current hours and seasonal messaging (viewed 2026-10-15; page shows no year); Edible Berkshires' Summer 2026 guide (published 2026-06-23) lists it.",
+            "source_url": "https://www.wildoats.coop",
+            "source_name": "Wild Oats Market's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Cape Cod & Boston",
+        "day_number": 1,
+        "town": "Boston"
+      },
+      {
+        "itinerary_title": "Cape Cod & Boston",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cape Cod & Boston",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cape Cod & Boston",
+        "day_number": 4,
+        "town": "Woods Hole"
+      },
+      {
+        "itinerary_title": "Cape Cod & Boston",
+        "day_number": 5,
+        "town": "Provincetown"
+      },
+      {
+        "itinerary_title": "Cape Cod & Boston",
+        "day_number": 6,
+        "town": "Provincetown"
+      },
+      {
+        "itinerary_title": "The Berkshires",
+        "day_number": 1,
+        "town": "Lenox"
+      },
+      {
+        "itinerary_title": "The Berkshires",
+        "day_number": 2,
+        "town": "Lenox"
+      },
+      {
+        "itinerary_title": "The Berkshires",
+        "day_number": 3,
+        "town": "Great Barrington"
+      },
+      {
+        "itinerary_title": "The Berkshires",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "The Berkshires",
+        "day_number": 5,
+        "town": "Williamstown"
+      }
+    ]
+  },
+  {
     "region_key": "michigan",
     "last_verified_date": "2026-10-15",
     "stops": [
@@ -3581,6 +3782,135 @@
     ]
   },
   {
+    "region_key": "ohio",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Logan",
+        "note": null,
+        "note_source_url": null,
+        "eats": [
+          {
+            "name": "58 West",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Lunch and dinner menus list shareables, salads, soups, flatbreads and entrees; the dinner menu includes a Tomahawk Pork Chop ($35) and Scallop Risotto ($39).",
+            "why": "A single downtown Logan restaurant whose menu is built to pair with wine, beer and spirits made by its local partners, Hocking Hills Winery, Hocking Hills Brewing Company and Motherwell Distilling.",
+            "price_tier": null,
+            "hours_note": "Mon, Wed, Thu and Sun 11am-8pm; Fri-Sat 11am-10pm; closed Tuesday (per own site, viewed 2026-10-15). Online reservations are offered.",
+            "open_evidence": "Own website lists current hours and lunch and dinner menus with a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://www.58west.com/menu",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Peninsula",
+        "note": "Per the National Park Service, Peninsula offers a mid-park location to stop along the Towpath Trail for food, and the two Trail Mix stores in the park are for a quick bite. Our advice: pack water and snacks for trail days and plan sit-down meals in Peninsula.",
+        "note_source_url": "https://www.nps.gov/cuva/planyourvisit/dining-and-eating.htm",
+        "eats": [
+          {
+            "name": "Peninsula Coffee House and Market",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Espresso, cold-brew, drip coffee or tea, with pastries from local bakers.",
+            "why": "A coffee stop in a century-old bank building on Main Street, with views of the Cuyahoga River from the back deck, inside Cuyahoga Valley National Park.",
+            "price_tier": null,
+            "hours_note": "Coffee house Mon-Fri 6am-7pm, Sat-Sun 7am-7pm (per own site, viewed 2026-10-15).",
+            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer (viewed 2026-10-15); a Visit Akron-Summit article dated 2024-07-09 also describes it.",
+            "source_url": "https://peninsulacoffeehouse.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Fisher's Cafe & Pub",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Bar food; the site advertises wing nights and rib nights, and breakfast on weekends.",
+            "why": "A third-generation family place on Main Street, serving the area since 1958, a short walk from the Towpath Trail.",
+            "price_tier": null,
+            "hours_note": "Mon-Fri 11am-9pm; Sat-Sun 8am-9pm (per own site, viewed 2026-10-15).",
+            "open_evidence": "Own website lists hours, wing and rib nights and online ordering but shows no year (viewed 2026-10-15); Visit Akron-Summit article dated 2024-07-09 names it as a dining spot in Peninsula.",
+            "source_url": "https://www.fisherscafe.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Szalay's Farm & Market",
+            "kind": "market",
+            "meal": "snack",
+            "what_to_order": "Locally made and baked goods, plus pumpkins and mums in the fall; the site has an outdoor eateries section.",
+            "why": "Just outside the village, on Riverview Road with a Peninsula address; a single-location family farm market with a fall maze and hayride, per the Summit County Farm Bureau listing.",
+            "price_tier": null,
+            "hours_note": "Open daily 9am-7pm. A Summit County Farm Bureau listing dated 2026-06-01 gives the season as June 1 to October 31, so it closes for the year in about two weeks; the farm's own site does not state season dates.",
+            "open_evidence": "Own website lists daily hours with a 2026 copyright footer, and the Summit County Farm Bureau's 2026 farm-markets feature (published 2026-06-01) lists the June 1-October 31 season (both viewed 2026-10-15).",
+            "source_url": "https://www.szalaysfarm.com/",
+            "source_name": "Venue's own website; Summit County Farm Bureau"
+          }
+        ]
+      },
+      {
+        "town": "Cleveland",
+        "note": null,
+        "note_source_url": null,
+        "eats": [
+          {
+            "name": "Great Lakes Brewing Company Brewpub",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "Great Lakes Fish & Chips made with local walleye; Sunday brunch is also served.",
+            "why": "The brewery's single brewpub sits on Market Avenue in Ohio City, across from the West Side Market.",
+            "price_tier": null,
+            "hours_note": "Mon-Thu 11:30am-9pm, Fri-Sat 11:30am-10pm, Sun 11am-3pm (per own site, viewed 2026-10-15).",
+            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://www.greatlakesbrewing.com/brewpub",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Hocking Hills, Ohio",
+        "day_number": 1,
+        "town": "Logan"
+      },
+      {
+        "itinerary_title": "Hocking Hills, Ohio",
+        "day_number": 2,
+        "town": "Logan"
+      },
+      {
+        "itinerary_title": "Hocking Hills, Ohio",
+        "day_number": 3,
+        "town": "Logan"
+      },
+      {
+        "itinerary_title": "Cleveland & Cuyahoga Valley National Park",
+        "day_number": 1,
+        "town": "Cleveland"
+      },
+      {
+        "itinerary_title": "Cleveland & Cuyahoga Valley National Park",
+        "day_number": 2,
+        "town": "Cleveland"
+      },
+      {
+        "itinerary_title": "Cleveland & Cuyahoga Valley National Park",
+        "day_number": 3,
+        "town": "Peninsula"
+      },
+      {
+        "itinerary_title": "Cleveland & Cuyahoga Valley National Park",
+        "day_number": 4,
+        "town": "Peninsula"
+      },
+      {
+        "itinerary_title": "Cleveland & Cuyahoga Valley National Park",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "oregon",
     "last_verified_date": "2026-10-14",
     "stops": [
@@ -3845,6 +4175,214 @@
     ]
   },
   {
+    "region_key": "pennsylvania",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Philadelphia",
+        "eats": [
+          {
+            "name": "Reading Terminal Market",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "The market's own merchant page lists DiNic's hot roast beef and pork sandwiches, Beiler's Bakery sticky buns and pies, and country cooking at Down Home Diner.",
+            "why": "A working public food hall at 1136 Arch Street where you can eat breakfast, lunch and dessert from separate stalls in one stop.",
+            "price_tier": null,
+            "hours_note": "Open daily 8AM-6PM per the market's own site; it was closed Monday September 7 for Labor Day.",
+            "open_evidence": "Own website lists daily 8AM-6PM hours and an events page with 2026 dates (Scrapple & Apple Festival October 17, 2026; Oyster Fest November 5, 2026) (viewed 2026-10-15)",
+            "source_url": "https://readingterminalmarket.org/",
+            "source_name": "Reading Terminal Market's own website"
+          },
+          {
+            "name": "John's Roast Pork",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The Roast Pork Sandwich, the Ultimate Cheesesteak or the Roast Beef Sandwich, the three items on its menu page.",
+            "why": "In South Philadelphia at Weccacoe and Snyder Avenue rather than Center City; a family-run roast pork sandwich shop that says it has served since 1930 and is run by the third generation of the Bucci family.",
+            "price_tier": null,
+            "hours_note": "Open Tuesday-Saturday 10 AM-5 PM; closed Sunday and Monday.",
+            "open_evidence": "Own website lists current Tuesday-Saturday hours and shows a 2026-dated seasonal promotional image and a 2025 tribute post (viewed 2026-10-15)",
+            "source_url": "https://www.johnsroastpork.com",
+            "source_name": "John's Roast Pork's own website"
+          },
+          {
+            "name": "Oyster House",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Sherried snapper soup and fried oysters, both named on its site; the James Beard Foundation also names crab cakes and butterscotch pudding.",
+            "why": "Named a 2026 James Beard America's Classics winner, family-owned since 1947 and described by the Foundation as the last of Philadelphia's legendary seafood restaurants of its generation.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Thursday 11:30am-9pm, Friday-Saturday 11:30am-10pm; closed Sunday and Monday. Reservations are taken through OpenTable.",
+            "open_evidence": "Own website lists current hours and shows the 2026 America's Classics seal; James Beard Foundation's 2026 America's Classics page names Oyster House (viewed 2026-10-15)",
+            "source_url": "https://www.oysterhousephilly.com",
+            "source_name": "Oyster House's own website"
+          }
+        ]
+      },
+      {
+        "town": "Lancaster",
+        "eats": [
+          {
+            "name": "Lancaster Central Market",
+            "kind": "market",
+            "meal": "breakfast",
+            "what_to_order": "Visit Lancaster's July 2026 guide lists scrapple, smoked sausage, cup cheese, chow-chow, whoopie pies and shoo-fly pie.",
+            "why": "Described by Visit Lancaster as the oldest continuously operated public market in the United States, with about 60 vendors selling Pennsylvania Dutch and international prepared foods.",
+            "price_tier": null,
+            "hours_note": "Open Tuesday, Friday and Saturday only, 6AM-3PM; closed other days.",
+            "open_evidence": "Own website lists Tuesday/Friday/Saturday 6AM-3PM hours; Visit Lancaster County's guide dated July 8, 2026 lists it as open (viewed 2026-10-15)",
+            "source_url": "https://centralmarketlancaster.com/",
+            "source_name": "Lancaster Central Market's own website"
+          },
+          {
+            "name": "Dienner's Country Restaurant",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "Pennsylvania Dutch home cooking; its site names roast beef in gravy, mashed potatoes, buttered noodles, scrapple, sausage gravy and cooked oatmeal, plus themed buffets.",
+            "why": "In the village of Ronks on Route 30 rather than Lancaster city itself; Visit Lancaster's July 2026 guide recommends it for breakfast and its seasonal buffet as a Saturday institution.",
+            "price_tier": null,
+            "hours_note": "Monday-Thursday and Saturday 7am-6pm, Friday 7am-7pm, closed Sunday and select holidays.",
+            "open_evidence": "Own website lists current hours and menu (the page shows no year); Visit Lancaster County's guide dated July 8, 2026 lists it as a recommended place (viewed 2026-10-15)",
+            "source_url": "https://www.dienners.com/",
+            "source_name": "Dienner's own website"
+          },
+          {
+            "name": "Achenbach's Pastries",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Long Johns and daily-flavour donuts, both named on its retail page.",
+            "why": "In Leola, a neighbouring town east of Lancaster rather than the city itself; Visit Lancaster's July 2026 guide points to its long-glazed donuts and sticky buns and an original recipe from 1955.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 5:30am-5pm, Saturday 5:30am-3pm, closed Sunday.",
+            "open_evidence": "Own website lists current hours and products (the page shows no year); Visit Lancaster County's guide dated July 8, 2026 lists it as a recommended place (viewed 2026-10-15)",
+            "source_url": "https://www.achenbachs.com/retail-store",
+            "source_name": "Achenbach's own website"
+          }
+        ]
+      },
+      {
+        "town": "Gettysburg",
+        "eats": [
+          {
+            "name": "Gettysburg Baking Company",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Its site lists the Chocolate Croissant, the Morning Roll (a Danish with vanilla and orange sugar), the Seeded Twist and Levain as best sellers.",
+            "why": "A European-style bakery right on Lincoln Square (it also has a second shop in Biglerville) for a pastry and bread stop before or after the battlefield.",
+            "price_tier": null,
+            "hours_note": "Gettysburg shop at 17 Lincoln Square: Tuesday-Saturday 8am-3pm; closed Sunday and Monday.",
+            "open_evidence": "Own website shows a 2026 copyright and current hours for both shops (viewed 2026-10-15)",
+            "source_url": "https://www.gettysburgbakingcompany.com",
+            "source_name": "Gettysburg Baking Company's own website"
+          },
+          {
+            "name": "Dobbin House Tavern",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Its site does not name specific dishes; it lists the casual Springhouse Tavern and the fine-dining Alexander Dobbin dining rooms, plus an in-house bakery.",
+            "why": "Dines in an 1776 house on the National Register of Historic Places at 89 Steinwehr Avenue, which celebrated its 250th anniversary with events in August 2026.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Springhouse Tavern 11am-9pm daily, first-come first-served; Alexander Dobbin dining rooms Monday-Friday 5-9pm and Saturday-Sunday 4-9pm, reservations recommended.",
+            "open_evidence": "Own website lists current dining hours (the page shows no year); Gettysburg Connection article dated August 24, 2026 reports the house's 250th-anniversary events held in 2026 (viewed 2026-10-15)",
+            "source_url": "https://www.dobbinhouse.com",
+            "source_name": "Dobbin House Tavern's own website"
+          }
+        ]
+      },
+      {
+        "town": "Pittsburgh",
+        "eats": [
+          {
+            "name": "Enrico Biscotti Company",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Its site names hand-shaped biscotti, cookies, macaroons and tortas, plus its own coffee blend.",
+            "why": "A single-location Italian bakery at 2022 Penn Avenue in the Strip District, listed in Visit Pittsburgh's Strip District guide.",
+            "price_tier": null,
+            "hours_note": "Bakery Monday-Saturday 8am-4pm, Sunday 9am-4pm; cafe Friday 11am-2pm and Saturday 11am-3pm, no reservations.",
+            "open_evidence": "Own website lists current bakery and cafe hours (the page shows no year); Visit Pittsburgh's Strip District guide, which carries a 2026 copyright footer, lists it (viewed 2026-10-15)",
+            "source_url": "https://www.enricobiscotti.com",
+            "source_name": "Enrico Biscotti's own website"
+          }
+        ]
+      },
+      {
+        "town": "Ohiopyle",
+        "eats": [
+          {
+            "name": "The Fallingwater Cafe",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Its page names house-made sweets, snacks to go, locally sourced coffee and bagged lunches (Lunch to Go) made with Laurel Highlands ingredients.",
+            "why": "In nearby Mill Run at Fallingwater rather than in Ohiopyle itself, the practical lunch stop for the Fallingwater and Kentuck Knob day.",
+            "price_tier": null,
+            "hours_note": "Closed Wednesdays per Fallingwater's page. Meadow Lunch seatings are at 11am or 1pm for groups of up to six, must be paired with a tour and booked up to 48 hours ahead; the cafe is cashless.",
+            "open_evidence": "Fallingwater's own dining page states the Wednesday closure and current Meadow Lunch and Lunch to Go booking rules and links a menu file labelled 072026 (the page shows no visible date) (viewed 2026-10-15)",
+            "source_url": "https://fallingwater.org/visit/dining/",
+            "source_name": "Fallingwater's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Philadelphia & Lancaster County",
+        "day_number": 1,
+        "town": "Philadelphia"
+      },
+      {
+        "itinerary_title": "Philadelphia & Lancaster County",
+        "day_number": 2,
+        "town": "Philadelphia"
+      },
+      {
+        "itinerary_title": "Philadelphia & Lancaster County",
+        "day_number": 3,
+        "town": "Lancaster"
+      },
+      {
+        "itinerary_title": "Philadelphia & Lancaster County",
+        "day_number": 4,
+        "town": "Lancaster"
+      },
+      {
+        "itinerary_title": "Philadelphia & Lancaster County",
+        "day_number": 5,
+        "town": "Gettysburg"
+      },
+      {
+        "itinerary_title": "Pittsburgh & the Laurel Highlands",
+        "day_number": 1,
+        "town": "Pittsburgh"
+      },
+      {
+        "itinerary_title": "Pittsburgh & the Laurel Highlands",
+        "day_number": 2,
+        "town": "Pittsburgh"
+      },
+      {
+        "itinerary_title": "Pittsburgh & the Laurel Highlands",
+        "day_number": 3,
+        "town": "Pittsburgh"
+      },
+      {
+        "itinerary_title": "Pittsburgh & the Laurel Highlands",
+        "day_number": 4,
+        "town": "Ohiopyle"
+      },
+      {
+        "itinerary_title": "Pittsburgh & the Laurel Highlands",
+        "day_number": 5,
+        "town": "Ohiopyle"
+      },
+      {
+        "itinerary_title": "Pittsburgh & the Laurel Highlands",
+        "day_number": 6,
+        "town": "Pittsburgh"
+      }
+    ]
+  },
+  {
     "region_key": "south-carolina",
     "last_verified_date": "2026-10-15",
     "stops": [
@@ -4022,6 +4560,175 @@
         "itinerary_title": "Upstate South Carolina: Greenville & the Blue Ridge Foothills",
         "day_number": 5,
         "town": "Greenville"
+      }
+    ]
+  },
+  {
+    "region_key": "south-dakota",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Custer",
+        "eats": [
+          {
+            "name": "Skogen Kitchen",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The menu is chef-driven and changes often, so order from whatever the current menu offers.",
+            "why": "A chef-driven Custer kitchen whose own site shows James Beard Award semifinalist seals for 2023 and 2025, a rare find in a small Black Hills town.",
+            "price_tier": null,
+            "hours_note": "Dinner Tuesday-Saturday, 5:00-8:30 PM per its own website; reservations are available through the site.",
+            "open_evidence": "Own website lists current dinner hours and shows a 2025 James Beard semifinalist seal; Travel South Dakota's Custer State Park dining page lists it as year-round (page shows no year) (viewed 2026-10-15).",
+            "source_url": "https://skogenkitchen.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Wall",
+        "note": "Per Travel South Dakota, Cedar Pass Lodge & Restaurant, the only restaurant inside Badlands National Park, is listed with a season of April 15 to October 31 (the page shows no year). Our advice: on a day spent on the Badlands Loop Road, plan to eat in Wall rather than inside the park, and check the lodge's season before counting on it late in the year.",
+        "note_source_url": "https://www.travelsouthdakota.com/iconic-landmarks/badlands/places-to-eat",
+        "eats": [
+          {
+            "name": "Wall Drug Store Cafe",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Buffalo burgers, homemade donuts, hot beef sandwiches and the 5-cent coffee, all named on its own site.",
+            "why": "The roadside institution at the north-east gateway to Badlands National Park, with a 530-seat Western Art Gallery Restaurant.",
+            "price_tier": null,
+            "hours_note": "Cafe 8:00 AM-5:00 PM daily per its own visit page (Travel South Dakota lists longer hours; the venue's own page is followed here).",
+            "open_evidence": "Own website visit page lists current cafe hours and shows a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://www.walldrug.com/plan-your-visit/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Spearfish",
+        "eats": [
+          {
+            "name": "The Latchstring Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The signature Trout Almondine, breakfast skillets, burgers and weekly rotating pasta, per its own site.",
+            "why": "In Spearfish Canyon itself on the scenic byway (mailing address Lead, SD, not Spearfish town); its own site says the restaurant has operated since 1909.",
+            "price_tier": null,
+            "hours_note": "Own site: Sunday-Wednesday 7 AM-8 PM, Thursday-Saturday 7 AM-9 PM, and states it operates year-round (Travel South Dakota's listing gives 7 AM-9 PM daily; the venue's own hours are given here).",
+            "open_evidence": "Own website lists current hours and a weekly specials menu, states year-round operation, and its footer shows 2026 (viewed 2026-10-15).",
+            "source_url": "https://spfcanyon.com/latchstring-restaurant",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Sioux Falls",
+        "eats": [
+          {
+            "name": "Phillips Avenue Diner",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The Pork Fritter from its autumn feature menu (its Downtown Pork Showdown entry), per the October 2026 roundup.",
+            "why": "A retro downtown diner whose own site traces it to the Market Diner on Louise Avenue from 1996 and a silver Airstream trailer.",
+            "price_tier": null,
+            "hours_note": "Travel South Dakota says open seven days a week; specific hours were not confirmed on a fetched page, so check before going. The autumn feature menu is a seasonal special.",
+            "open_evidence": "Pigeon605 restaurant roundup dated 2026-10-05 reports the diner's new autumn feature menu; its own site and Travel South Dakota's listing also describe it as current (viewed 2026-10-15).",
+            "source_url": "https://pigeon605.com/restaurant-roundup-pork-pizza-battles-chick-fil-a-remodeling/",
+            "source_name": "Pigeon605 (SiouxFalls.Business) restaurant roundup, 2026-10-05"
+          },
+          {
+            "name": "M.B. Haskett Delicatessen",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Travel South Dakota's description names crepes, cappuccino, quiche and muffaletta.",
+            "why": "A downtown deli with a rotating menu from breakfast through dinner, a flexible stop for a day split between Falls Park and the downtown sculptures.",
+            "price_tier": null,
+            "hours_note": "Open daily for breakfast, lunch and dinner; kitchen closed 2-5 PM Friday, Saturday and Sunday, per Travel South Dakota (page shows no year).",
+            "open_evidence": "SiouxFalls.Business restaurant roundup dated 2026-06-25 reports a new summer dinner menu; Travel South Dakota's listing gives current hours (page shows no year) (viewed 2026-10-15).",
+            "source_url": "https://travelsouthdakota.com/sioux-falls/food-drink/casual-dining/mb-haskett-delicatessen",
+            "source_name": "Travel South Dakota; SiouxFalls.Business roundup 2026-06-25"
+          }
+        ]
+      },
+      {
+        "town": "Mitchell",
+        "eats": [
+          {
+            "name": "Bread & Vine Bistro",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Sourdough bread (baked Wednesday and Saturday), biscuits and gravy, paninis, scones and cheesecakes, per the Mitchell Republic.",
+            "why": "A downtown Main Street cafe in a space that has been a cafe since 2007, reopened under new owners Jeff and Denise Del Favero on April 11, 2025.",
+            "price_tier": null,
+            "hours_note": "Visit Mitchell lists it closed Sunday; its weekday hours are listed inconsistently (Monday-Friday 7 AM-4 PM and Tuesday and Saturday 8 AM-4 PM), so call 605-990-2233 before going.",
+            "open_evidence": "Mitchell Republic article dated 2025-04-29 reports it opened 2025-04-11; Visit Mitchell's tourism listing shows hours but no year (viewed 2026-10-15).",
+            "source_url": "https://www.mitchellrepublic.com/news/local/bread-and-vine-opens-on-main-street-with-new-owners-and-a-familiar-feel",
+            "source_name": "Mitchell Republic; Visit Mitchell"
+          },
+          {
+            "name": "The Depot",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Burgers, steaks and BBQ, per Visit Mitchell; its own site also names soups and homemade desserts.",
+            "why": "A gastropub in the 1909 Chicago, Milwaukee and St. Paul Railroad depot, seven blocks south of the Corn Palace.",
+            "price_tier": null,
+            "hours_note": "Closed Sunday per both its own site and Visit Mitchell; weekday hours differ between the two (own site 11 AM-9 PM Monday-Thursday, Visit Mitchell 11:30 AM-10 PM), so call 605-996-9417.",
+            "open_evidence": "Mitchell Area Chamber of Commerce events page shows a live-music night at The Depot on 2025-11-26; own website and Visit Mitchell listing show current hours (neither shows a year) (viewed 2026-10-15).",
+            "source_url": "https://www.visitmitchell.com/what-to-do/eat-drink/casual-dining/the-depot/",
+            "source_name": "Visit Mitchell; venue's own website; Mitchell Area Chamber of Commerce"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Black Hills & Badlands, South Dakota",
+        "day_number": 1,
+        "town": "Custer"
+      },
+      {
+        "itinerary_title": "Black Hills & Badlands, South Dakota",
+        "day_number": 2,
+        "town": "Custer"
+      },
+      {
+        "itinerary_title": "Black Hills & Badlands, South Dakota",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Black Hills & Badlands, South Dakota",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Black Hills & Badlands, South Dakota",
+        "day_number": 5,
+        "town": "Wall"
+      },
+      {
+        "itinerary_title": "Black Hills & Badlands, South Dakota",
+        "day_number": 6,
+        "town": "Spearfish"
+      },
+      {
+        "itinerary_title": "Sioux Falls & Eastern South Dakota",
+        "day_number": 1,
+        "town": "Sioux Falls"
+      },
+      {
+        "itinerary_title": "Sioux Falls & Eastern South Dakota",
+        "day_number": 2,
+        "town": "Sioux Falls"
+      },
+      {
+        "itinerary_title": "Sioux Falls & Eastern South Dakota",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Sioux Falls & Eastern South Dakota",
+        "day_number": 4,
+        "town": "Mitchell"
       }
     ]
   },
