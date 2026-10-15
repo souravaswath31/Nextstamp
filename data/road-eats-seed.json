@@ -715,6 +715,175 @@
     ]
   },
   {
+    "region_key": "arkansas",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Bentonville",
+        "eats": [
+          {
+            "name": "Tusk & Trotter",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The weekday lunch menu on its site names an Ozark Cobb Salad and a craft bison burger called 'Where the Buffalo Roam'.",
+            "why": "A locally owned two-location restaurant (Bentonville and Rogers) at 110 SE A Street in downtown Bentonville, open for lunch through dinner every day.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Mon-Fri 11 am-9 pm, Sat-Sun 10 am-9 pm; weekday lunch menu Mon-Fri 11 am-5 pm.",
+            "open_evidence": "Own website lists current hours, weekday lunch and happy-hour details and carries a photo file named for March 2026 (viewed 2026-10-15); the footer text reads Copyright 2024.",
+            "source_url": "https://www.tuskandtrotter.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Eureka Springs",
+        "eats": [
+          {
+            "name": "Local Flavor Cafe",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site describes fresh and creative dishes for lunch, dinner and Sunday brunch; it names no specific dish.",
+            "why": "Locally run restaurant and wine bar at 71 S. Main Street in downtown Eureka Springs, serving lunch, dinner and a Sunday brunch.",
+            "price_tier": null,
+            "hours_note": "New hours as of March 10, 2026 per its site: Tue-Sat lunch 11 am-3 pm; Tue-Thu dinner 5-9 pm; Fri-Sat dinner 5-10 pm; Sun brunch 10 am-2 pm; closed Monday. The site says to call for reservations.",
+            "open_evidence": "Own website shows a 2026 copyright footer and a notice of new hours effective March 10, 2026 (viewed 2026-10-15).",
+            "source_url": "https://www.localflavorcafe.net/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Jasper",
+        "note": "The National Park Service says the only restaurant inside Buffalo National River's boundary is the Buffalo Point concession in the Lower District, open from Memorial Day to Labor Day, and that canoe concessioners sell snacks, prepared food and groceries. Our advice: that restaurant is out of season now (mid-October), so plan meals in Jasper and carry a lunch on trail days (Whitaker Point, Hemmed-In Hollow).",
+        "note_source_url": "https://www.nps.gov/buff/planyourvisit/where-to-eat.htm",
+        "eats": [
+          {
+            "name": "Low Gap Cafe",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Its ordering page lists the cuisine as American (Traditional) Italian and names no specific dish.",
+            "why": "A chef-owned restaurant that moved from a former gas station on Highway 74 into Jasper itself in September 2023, per the Arkansas Times.",
+            "price_tier": null,
+            "hours_note": "Per its own ordering page: Wed-Thu 11 am-7 pm, Fri-Sat 11 am-8 pm, closed Sun-Tue; takeout, no reservations. Another listing gives different Sunday hours, so call (870) 861-5848 before going.",
+            "open_evidence": "Own ordering page showed 'Currently Open' with Thursday 11 am-7 pm hours when fetched on 2026-10-15; the page carries no year and the Arkansas Times relocation report is from September 2023, so this is weaker evidence than a dated page.",
+            "source_url": "https://lowgapcafe.netwaiter.com/",
+            "source_name": "Venue's own ordering page"
+          }
+        ]
+      },
+      {
+        "town": "Hot Springs",
+        "eats": [
+          {
+            "name": "The Pancake Shop",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Pancakes and egg plates, per its own site; the Hot Springs tourism listing adds fresh-squeezed orange juice and homemade sausage.",
+            "why": "Family-owned and serving breakfast only since 1940 at 216 Central Avenue, in the historic downtown across from the bathhouses.",
+            "price_tier": null,
+            "hours_note": "Open daily 7 am-1 pm; no reservations, first come first served; the tourism listing says weekend mornings often have a wait.",
+            "open_evidence": "Own website shows a 2026 copyright footer, daily 7 am-1 pm hours and a parking guide (viewed 2026-10-15).",
+            "source_url": "https://pancakeshop.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "McClard's Bar-B-Q",
+            "kind": "bbq",
+            "meal": "lunch",
+            "what_to_order": "The Sentinel-Record names dry rub ribs and brisket tacos as staff favorites, alongside the house barbecue sauce, baked beans and tamale spread.",
+            "why": "At 505 Albert Pike Road since 1942 (business dates to 1928); passed from the McClard family to local restaurateur Lee Beasley in 2020, per the Sentinel-Record.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Hot Springs Sentinel-Record 'EAT Hot Springs' feature dated 2026-09-04 profiles it as operating, quoting its current general manager; the Hot Springs tourism blog dated 2025-07-09 also says it is open (both viewed 2026-10-15). Hours were not stated on any page I fetched.",
+            "source_url": "https://www.hotsr.com/news/2026/sep/04/watch-eat-hot-springs-mcclards-aims-to-help/",
+            "source_name": "Hot Springs Sentinel-Record"
+          },
+          {
+            "name": "Cafe 1217",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "The Sentinel-Record's feature listing describes salads, sandwiches and pastries, and the site says the chef-driven menu changes on the first Monday of each month.",
+            "why": "A dine-in cafe and gourmet-to-go shop at 1217 Malvern Avenue, a lunch option away from the bathhouse-row breakfast crowd.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Mon-Fri 11 am-6 pm, Sat 11 am-4 pm, closed Sunday.",
+            "open_evidence": "Own website lists current hours and a monthly-rotating menu with a 2025 copyright footer; the Hot Springs Sentinel-Record 'EAT Hot Springs' archive lists a Cafe 1217 feature dated 2026-07-24 (listing page only; viewed 2026-10-15).",
+            "source_url": "https://www.cafe1217.net/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Little Rock",
+        "eats": [
+          {
+            "name": "Cotham's in the City",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The Hubcap Burger family (the menu lists a quadruple hubcap), a daily special such as fried chicken on Thursday, and Mississippi mud or a fried pie for dessert.",
+            "why": "The city location at 1401 W 3rd Street opened in October 1999 and carries on Cotham's Mercantile (1912, Scott), whose original building burned in May 2017, per its own site.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a 2026 copyright footer and a current menu with prices and weekday daily specials (viewed 2026-10-15); the footer is on a site builder and may update automatically, and no page I fetched states hours.",
+            "source_url": "https://www.cothams.com/menu.html",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Northwest Arkansas Ozarks: Bentonville → Eureka Springs → Jasper",
+        "day_number": 1,
+        "town": "Bentonville"
+      },
+      {
+        "itinerary_title": "Northwest Arkansas Ozarks: Bentonville → Eureka Springs → Jasper",
+        "day_number": 2,
+        "town": "Eureka Springs"
+      },
+      {
+        "itinerary_title": "Northwest Arkansas Ozarks: Bentonville → Eureka Springs → Jasper",
+        "day_number": 3,
+        "town": "Jasper"
+      },
+      {
+        "itinerary_title": "Northwest Arkansas Ozarks: Bentonville → Eureka Springs → Jasper",
+        "day_number": 4,
+        "town": "Jasper"
+      },
+      {
+        "itinerary_title": "Northwest Arkansas Ozarks: Bentonville → Eureka Springs → Jasper",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Hot Springs & Central Arkansas",
+        "day_number": 1,
+        "town": "Hot Springs"
+      },
+      {
+        "itinerary_title": "Hot Springs & Central Arkansas",
+        "day_number": 2,
+        "town": "Hot Springs"
+      },
+      {
+        "itinerary_title": "Hot Springs & Central Arkansas",
+        "day_number": 3,
+        "town": "Little Rock"
+      },
+      {
+        "itinerary_title": "Hot Springs & Central Arkansas",
+        "day_number": 4,
+        "town": "Little Rock"
+      },
+      {
+        "itinerary_title": "Hot Springs & Central Arkansas",
+        "day_number": 5,
+        "town": "Little Rock"
+      }
+    ]
+  },
+  {
     "region_key": "california",
     "last_verified_date": "2026-10-03",
     "stops": [
@@ -2273,6 +2442,139 @@
       },
       {
         "itinerary_title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "indiana",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Indianapolis",
+        "eats": [
+          {
+            "name": "Shapiro's Delicatessen",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The corned beef or Reuben sandwiches, or matzo ball soup; 'The Rebecca' is a smaller sandwich with half the meat at half the price.",
+            "why": "A kosher-style deli that describes itself as America's oldest single-family deli, serving downtown Indianapolis since 1905.",
+            "price_tier": null,
+            "hours_note": "Mon-Fri 10am-7:30pm, Sat-Sun 9am-7:30pm; weekend breakfast 9am-noon (may vary on Colts game days); closed Thanksgiving and Christmas.",
+            "open_evidence": "Own website lists current hours, online ordering and catering, and its page data was last updated 2025-10-29 per the page source (viewed 2026-10-15); the page shows no visible copyright year; Visit Indy directory listing matches the address and hours.",
+            "source_url": "https://shapiros.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Nashville",
+        "eats": [
+          {
+            "name": "Brown County Inn - Harvest Dining Room",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Breakfast of pancakes, build-your-own omelets or biscuits and gravy; at lunch and dinner, handcrafted sandwiches and hearty comfort food.",
+            "why": "Open to the public for breakfast, lunch and dinner seven days a week, at 51 State Road 46 East, Nashville.",
+            "price_tier": null,
+            "hours_note": "Breakfast 8-11am daily (made to order Mon-Fri, buffet Sat-Sun); lunch and dinner 11am-9pm Sun-Thu and 11am-10pm Fri-Sat; CornCrib Lounge opens 2pm Mon-Thu, 11am Fri-Sun.",
+            "open_evidence": "Own website dining page lists current hours and menu, footer reads 2026 (viewed 2026-10-15).",
+            "source_url": "https://www.browncountyinn.com/dining",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Chesterton",
+        "eats": [
+          {
+            "name": "Joe's Bread",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Croissants and morning sourdough, or an omelette or Croque monsieur at the cafe.",
+            "why": "A bakery-cafe baking small-batch breads from locally grown, certified organic flours, a short drive from the Dunes.",
+            "price_tier": null,
+            "hours_note": "8am-2pm Wednesday-Monday (closed Tuesday); pastries from 8am, breads typically from 12pm, items available until sold out.",
+            "open_evidence": "Own website lists current hours and menu, footer reads 'Copyright 2019-2026 Joe's Bread LLC' (viewed 2026-10-15).",
+            "source_url": "https://joesbread.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Lucrezia Cafe",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Made-from-scratch sacchetti (per Indiana Dunes Tourism's dining itinerary); the cafe describes its cooking as Northern Italian.",
+            "why": "A local Northern Italian restaurant group (three locations, one on South Calumet Road in Chesterton) in a casual open-seating format.",
+            "price_tier": null,
+            "hours_note": "Chesterton: Sun-Thu 11am-9pm, Fri-Sat 11am-10pm; open seating, first come first served (parties of 8+ should call ahead).",
+            "open_evidence": "Own website lists current Chesterton hours with footer 'Copyright 2026' (viewed 2026-10-15); Indiana Dunes Tourism dining itinerary also lists it (page undated).",
+            "source_url": "https://lucreziacafe.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Michigan City",
+        "eats": [
+          {
+            "name": "Swingbelly's",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Prime rib sandwich, seafood basket with walleye, or the Friday Yellow Lake Perch dinner.",
+            "why": "A family-style restaurant on U.S. 12 in Michigan City, open since 1983 per its own site, with indoor and outdoor dining and daily specials.",
+            "price_tier": null,
+            "hours_note": "Mon-Thu 11am-9pm, Fri 11am-10pm, Sat 11am-9pm; closed Sunday.",
+            "open_evidence": "Own website lists current hours and weekly specials with footer 'Copyright 2026' (viewed 2026-10-15); the footer year may be automatic; also listed by the South Shore CVA tourism board.",
+            "source_url": "https://swingbellys.org/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Central Indiana: Indianapolis → Brown County",
+        "day_number": 1,
+        "town": "Indianapolis"
+      },
+      {
+        "itinerary_title": "Central Indiana: Indianapolis → Brown County",
+        "day_number": 2,
+        "town": "Indianapolis"
+      },
+      {
+        "itinerary_title": "Central Indiana: Indianapolis → Brown County",
+        "day_number": 3,
+        "town": "Nashville"
+      },
+      {
+        "itinerary_title": "Central Indiana: Indianapolis → Brown County",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Indiana Dunes National Park & Lake Michigan",
+        "day_number": 1,
+        "town": "Chesterton"
+      },
+      {
+        "itinerary_title": "Indiana Dunes National Park & Lake Michigan",
+        "day_number": 2,
+        "town": "Chesterton"
+      },
+      {
+        "itinerary_title": "Indiana Dunes National Park & Lake Michigan",
+        "day_number": 3,
+        "town": "Chesterton"
+      },
+      {
+        "itinerary_title": "Indiana Dunes National Park & Lake Michigan",
+        "day_number": 4,
+        "town": "Michigan City"
+      },
+      {
+        "itinerary_title": "Indiana Dunes National Park & Lake Michigan",
         "day_number": 5,
         "town": null
       }
@@ -5097,6 +5399,141 @@
       },
       {
         "itinerary_title": "Cleveland & Cuyahoga Valley National Park",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "oklahoma",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Tulsa",
+        "eats": [
+          {
+            "name": "Arnold's Old Fashioned Hamburgers",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The Tulsa Flyer guide lists cheeseburgers, cherry limeade and malts; NewsOn6 says the patties are ground in-house daily and the menu is unchanged.",
+            "why": "A Tulsa burger counter off Route 66 in the Crystal City Shopping Center, open since 1986 and owned by Frank Arnold.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Tulsa Flyer's 24 March 2026 Route 66 dining guide lists it at 4253 Southwest Blvd as operating since 1986 and celebrating 40 years (viewed 2026-10-15); NewsOn6 feature on the owner's upcoming 40th anniversary also fetched. No venue-owned page was found, and no hours were stated on either page.",
+            "source_url": "https://tulsaflyer.org/2026/03/24/culture/food/post/where-to-eat-route-66-tulsa/",
+            "source_name": "Tulsa Flyer, 24 March 2026"
+          },
+          {
+            "name": "El Rancho Grande",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site names cheese enchiladas and frozen margaritas, with tacos, burritos and fajitas also on the menu.",
+            "why": "Tulsa's oldest Mexican restaurant per its own site, on 11th Street (Route 66) since 1953 and open since 1950.",
+            "price_tier": null,
+            "hours_note": "Open Monday-Saturday 11 a.m.-9 p.m.; closed Sundays (per own site).",
+            "open_evidence": "Own website lists hours and a current menu and its text refers to a 2026 vote, so the page is current (viewed 2026-10-15); also listed in the Tulsa Flyer's 24 March 2026 Route 66 guide.",
+            "source_url": "https://elranchograndemexicanfood.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Oklahoma City",
+        "eats": [
+          {
+            "name": "Cattlemen's Steakhouse",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site describes aged steaks and breakfasts, with breakfast, lunch and dinner all served.",
+            "why": "In Stockyards City, described in a February 2026 news article as Oklahoma City's longest continuously operating restaurant (founded 1910), serving breakfast, lunch and dinner.",
+            "price_tier": null,
+            "hours_note": "Per own site: Sunday-Thursday 6 a.m.-10 p.m., Friday-Saturday 6 a.m.-11 p.m.",
+            "open_evidence": "Own website lists current hours and menu with no copyright year (viewed 2026-10-15); a news article dated 2026-02-26 (viewed 2026-10-15) states it is open and operating under owner Brad Walters.",
+            "source_url": "https://www.cattlemensrestaurant.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "El Reno",
+        "note": "El Reno is where the fried onion burger is said to have started; the festival page says fried onion burgers have been cooked daily in El Reno's diners and cafes since the early 1900s.",
+        "note_source_url": "https://www.travelok.com/listings/view.profile/id.18163",
+        "eats": [
+          {
+            "name": "Sid's Diner",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The site names onion burgers, cheeseburgers and breakfast plates.",
+            "why": "An El Reno diner at 300 S Choctaw Ave built around the town's fried onion burger.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Saturday 7 a.m.-8:30 p.m. (breakfast menu 7-11 a.m.); Sunday hours are not stated on the page.",
+            "open_evidence": "Own website lists hours and live online/app ordering but shows no year or copyright date (viewed 2026-10-15); no stronger dated source was found.",
+            "source_url": "https://www.sidsdinerelreno.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Clinton",
+        "eats": [
+          {
+            "name": "Route 66 Cafe at the Market",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "TravelOK names chicken fried steak, grilled onion burgers and meatloaf; the cafe's site lists French toast, catfish dinners and broasted chicken.",
+            "why": "A locally owned home-style kitchen at 301 W Gary Blvd on Route 66, in operation since 2009 and serving breakfast all day.",
+            "price_tier": null,
+            "hours_note": "Per TravelOK: Sunday-Monday 9 a.m.-2 p.m., Wednesday-Thursday 7 a.m.-2 p.m., Friday 7 a.m.-8 p.m., Saturday 7 a.m.-2 p.m.; closed Tuesdays. The cafe's own contact page does not list hours.",
+            "open_evidence": "Own website footer reads \"2026 by Route 66 Cafe at the Market\" and offers online ordering (viewed 2026-10-15); hours come from the TravelOK listing, which shows no year.",
+            "source_url": "https://www.rte66cafe.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Tulsa → Turner Falls → Oklahoma City",
+        "day_number": 1,
+        "town": "Tulsa"
+      },
+      {
+        "itinerary_title": "Tulsa → Turner Falls → Oklahoma City",
+        "day_number": 2,
+        "town": "Tulsa"
+      },
+      {
+        "itinerary_title": "Tulsa → Turner Falls → Oklahoma City",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Tulsa → Turner Falls → Oklahoma City",
+        "day_number": 4,
+        "town": "Oklahoma City"
+      },
+      {
+        "itinerary_title": "Wichita Mountains & Oklahoma's Route 66",
+        "day_number": 1,
+        "town": "El Reno"
+      },
+      {
+        "itinerary_title": "Wichita Mountains & Oklahoma's Route 66",
+        "day_number": 2,
+        "town": "Clinton"
+      },
+      {
+        "itinerary_title": "Wichita Mountains & Oklahoma's Route 66",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Wichita Mountains & Oklahoma's Route 66",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Wichita Mountains & Oklahoma's Route 66",
         "day_number": 5,
         "town": null
       }

@@ -2575,7 +2575,8 @@
         "lodging_suggestion": "Bentonville",
         "coffee_wifi_spot": null,
         "latitude": 36.372861,
-        "longitude": -94.208787
+        "longitude": -94.208787,
+        "eat_town": "Bentonville"
       },
       {
         "day_number": 2,
@@ -2587,7 +2588,8 @@
         "lodging_suggestion": "Eureka Springs",
         "coffee_wifi_spot": null,
         "latitude": 36.40008,
-        "longitude": -93.739242
+        "longitude": -93.739242,
+        "eat_town": "Eureka Springs"
       },
       {
         "day_number": 3,
@@ -2600,7 +2602,8 @@
         "lodging_suggestion": "Jasper",
         "coffee_wifi_spot": null,
         "latitude": 36.008062,
-        "longitude": -93.186897
+        "longitude": -93.186897,
+        "eat_town": "Jasper"
       },
       {
         "day_number": 4,
@@ -2612,7 +2615,8 @@
         "lodging_suggestion": "Jasper",
         "coffee_wifi_spot": null,
         "latitude": 36.072065,
-        "longitude": -93.3074
+        "longitude": -93.3074,
+        "eat_town": "Jasper"
       },
       {
         "day_number": 5,
@@ -2624,7 +2628,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -3226,7 +3231,8 @@
         "lodging_suggestion": "Indianapolis",
         "coffee_wifi_spot": null,
         "latitude": 39.768333,
-        "longitude": -86.15835
+        "longitude": -86.15835,
+        "eat_town": "Indianapolis"
       },
       {
         "day_number": 2,
@@ -3238,7 +3244,8 @@
         "lodging_suggestion": "Indianapolis",
         "coffee_wifi_spot": null,
         "latitude": 39.825988,
-        "longitude": -86.18581
+        "longitude": -86.18581,
+        "eat_town": "Indianapolis"
       },
       {
         "day_number": 3,
@@ -3250,7 +3257,8 @@
         "lodging_suggestion": "Nashville, IN",
         "coffee_wifi_spot": null,
         "latitude": 39.145572,
-        "longitude": -86.22602
+        "longitude": -86.22602,
+        "eat_town": "Nashville"
       },
       {
         "day_number": 4,
@@ -3262,7 +3270,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -4768,7 +4777,8 @@
         "lodging_suggestion": "Tulsa",
         "coffee_wifi_spot": null,
         "latitude": 36.156312,
-        "longitude": -95.992752
+        "longitude": -95.992752,
+        "eat_town": "Tulsa"
       },
       {
         "day_number": 2,
@@ -4781,7 +4791,8 @@
         "lodging_suggestion": "Tulsa",
         "coffee_wifi_spot": null,
         "latitude": 36.159899,
-        "longitude": -95.994855
+        "longitude": -95.994855,
+        "eat_town": "Tulsa"
       },
       {
         "day_number": 3,
@@ -4793,7 +4804,8 @@
         "lodging_suggestion": "Davis",
         "coffee_wifi_spot": null,
         "latitude": 34.425583,
-        "longitude": -97.148138
+        "longitude": -97.148138,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -4806,7 +4818,8 @@
         "lodging_suggestion": "Oklahoma City",
         "coffee_wifi_spot": null,
         "latitude": 35.472989,
-        "longitude": -97.517054
+        "longitude": -97.517054,
+        "eat_town": "Oklahoma City"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8847,7 +8860,8 @@
         "lodging_suggestion": "Chesterton",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Chesterton"
       },
       {
         "day_number": 2,
@@ -8859,7 +8873,8 @@
         "lodging_suggestion": "Chesterton",
         "coffee_wifi_spot": null,
         "latitude": 41.638139,
-        "longitude": -87.100972
+        "longitude": -87.100972,
+        "eat_town": "Chesterton"
       },
       {
         "day_number": 3,
@@ -8872,7 +8887,8 @@
         "lodging_suggestion": "Beverly Shores",
         "coffee_wifi_spot": null,
         "latitude": 41.692538,
-        "longitude": -86.977532
+        "longitude": -86.977532,
+        "eat_town": "Chesterton"
       },
       {
         "day_number": 4,
@@ -8885,7 +8901,8 @@
         "lodging_suggestion": "Michigan City",
         "coffee_wifi_spot": null,
         "latitude": 41.707539,
-        "longitude": -86.89503
+        "longitude": -86.89503,
+        "eat_town": "Michigan City"
       },
       {
         "day_number": 5,
@@ -8897,7 +8914,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -10040,7 +10058,8 @@
         "lodging_suggestion": "Hot Springs",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Hot Springs"
       },
       {
         "day_number": 2,
@@ -10054,7 +10073,8 @@
         "lodging_suggestion": "Hot Springs",
         "coffee_wifi_spot": null,
         "latitude": 34.529071,
-        "longitude": -93.03014
+        "longitude": -93.03014,
+        "eat_town": "Hot Springs"
       },
       {
         "day_number": 3,
@@ -10068,7 +10088,8 @@
         "lodging_suggestion": "Little Rock",
         "coffee_wifi_spot": null,
         "latitude": 34.713426,
-        "longitude": -92.285428
+        "longitude": -92.285428,
+        "eat_town": "Little Rock"
       },
       {
         "day_number": 4,
@@ -10082,7 +10103,8 @@
         "lodging_suggestion": "Little Rock",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Little Rock"
       },
       {
         "day_number": 5,
@@ -10095,7 +10117,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 35.213704,
-        "longitude": -94.053261
+        "longitude": -94.053261,
+        "eat_town": "Little Rock"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -10808,7 +10831,8 @@
         "lodging_suggestion": "Clinton, OK",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "El Reno"
       },
       {
         "day_number": 2,
@@ -10821,7 +10845,8 @@
         "lodging_suggestion": "Medicine Park, OK",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Clinton"
       },
       {
         "day_number": 3,
@@ -10835,7 +10860,8 @@
         "lodging_suggestion": "Medicine Park, OK",
         "coffee_wifi_spot": null,
         "latitude": 34.766732,
-        "longitude": -98.700344
+        "longitude": -98.700344,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -10848,7 +10874,8 @@
         "lodging_suggestion": "Medicine Park, OK",
         "coffee_wifi_spot": null,
         "latitude": 34.72748,
-        "longitude": -98.501364
+        "longitude": -98.501364,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -10860,7 +10887,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
