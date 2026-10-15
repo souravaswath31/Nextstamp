@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Inter, IBM_Plex_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
-import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
+import Chrome from "@/components/Chrome";
+import { SITE_URL } from "@/lib/siteUrl";
 import { getOptionalUser } from "@/lib/currentUser";
 
 const inter = Inter({
@@ -21,7 +21,7 @@ const plexMono = IBM_Plex_Mono({
 const description = "The trip idea, worked out before you book it.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nextstamp-app.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: "NextStamp",
   description,
   openGraph: {
@@ -49,11 +49,7 @@ export default async function RootLayout({
       <body
         className={`${inter.variable} ${plexMono.variable} font-body flex min-h-screen flex-col`}
       >
-        <NavBar isAuthenticated={!!user} />
-        <main className="mx-auto w-full max-w-6xl flex-1 px-5 pb-28 pt-8 sm:px-8 sm:pt-10">
-          {children}
-        </main>
-        <Footer />
+        <Chrome isAuthenticated={!!user}>{children}</Chrome>
         <Analytics />
       </body>
     </html>

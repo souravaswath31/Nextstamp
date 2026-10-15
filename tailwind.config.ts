@@ -24,6 +24,13 @@ const config: Config = {
         forest: "#2FA84F",
         teal: "#06B6D4",
         line: "#E5E5EA",
+        // Marketing pages go dark (project owner's call, Phase A). The app
+        // stays light. A cool near-black with a faint blue cast, so the coral
+        // accent reads as warm against it rather than as a screen glow.
+        night: "#0B0D12",
+        nightRaised: "#12151C",
+        nightLift: "#1A1E28",
+        bone: "#EDEBE6",
         // Category colors — one distinct hue per itinerary category tag.
         catNature: "#2FA84F",
         catCity: "#3B82F6",

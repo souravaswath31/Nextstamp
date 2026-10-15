@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Compass, Map, Luggage, UserRound, LayoutGrid, LogIn, Globe2 } from "lucide-react";
+import { Compass, Map, Luggage, UserRound, LayoutGrid, LogIn, Globe2, Tag } from "lucide-react";
 
 // Explore, States and Guides are the free browsable library — no login needed.
 // Dashboard/My Trips/Profile are personal, so a logged-out visitor gets
@@ -12,6 +12,7 @@ const PUBLIC_TABS = [
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
   { href: "/countries", label: "Guides", icon: Globe2 },
+  { href: "/pricing", label: "Pricing", icon: Tag },
 ];
 // My Trips sits second, directly after the dashboard. It used to be fifth of
 // six, behind three browse tabs — so the thing a returning user comes back for
@@ -35,7 +36,22 @@ const MOBILE_TAB_LIMIT = 5;
 
 const AUTH_ROUTES = ["/login", "/onboarding"];
 
-export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }) {
+// The dark marketing pages get their own desktop links (product, not library);
+// mobile keeps the same bottom tab bar everywhere, per the project's rule.
+const MARKETING_TABS = [
+  { href: "/features/visa-check", label: "Visa check" },
+  { href: "/explore", label: "Itineraries" },
+  { href: "/states", label: "Destinations" },
+  { href: "/pricing", label: "Pricing" },
+];
+
+export default function NavBar({
+  isAuthenticated,
+  dark = false,
+}: {
+  isAuthenticated: boolean;
+  dark?: boolean;
+}) {
   const pathname = usePathname();
 
   if (AUTH_ROUTES.includes(pathname)) return null;
@@ -49,20 +65,37 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
   return (
     <>
       {/* Top bar — apple.com style: slim, translucent, small text-only links */}
-      <header className="sticky top-0 z-20 border-b border-black/5 bg-paper/75 backdrop-blur-xl">
+      <header
+        className={`sticky top-0 z-20 border-b backdrop-blur-xl ${
+          dark ? "border-white/10 bg-night/80" : "border-black/5 bg-paper/75"
+        }`}
+      >
         <div className="mx-auto flex h-12 max-w-6xl items-center justify-between px-5 sm:px-8">
           <Link href="/" className="flex items-center">
-            <Image src="/logo.png" alt="NextStamp" width={104} height={28} priority className="h-6 w-auto" />
+            <Image
+              src="/logo.png"
+              alt="NextStamp"
+              width={104}
+              height={28}
+              priority
+              className={`h-6 w-auto ${dark ? "brightness-0 invert" : ""}`}
+            />
           </Link>
           <nav className="hidden items-center gap-7 sm:flex">
-            {TABS.map((tab) => {
+            {(dark ? MARKETING_TABS : TABS).map((tab) => {
               const active = pathname === tab.href;
               return (
                 <Link
                   key={tab.href}
                   href={tab.href}
                   className={`font-body text-[12.5px] transition-colors ${
-                    active ? "font-medium text-ink" : "text-ink/60 hover:text-ink"
+                    dark
+                      ? active
+                        ? "font-medium text-white"
+                        : "text-white/60 hover:text-white"
+                      : active
+                        ? "font-medium text-ink"
+                        : "text-ink/60 hover:text-ink"
                   }`}
                 >
                   {tab.label}
@@ -70,7 +103,10 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
               );
             })}
             {!isAuthenticated && (
-              <Link href="/login" className="btn-pill btn-pill-primary !px-4 !py-1.5 !text-xs">
+              <Link
+                href="/login"
+                className={`btn-pill !px-4 !py-1.5 !text-xs ${dark ? "bg-bone text-night" : "btn-pill-primary"}`}
+              >
                 <LogIn size={13} /> Sign in
               </Link>
             )}
@@ -79,7 +115,11 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
       </header>
 
       {/* Bottom tabs — iOS-style tab bar, thumb-reachable on mobile */}
-      <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-black/5 bg-paper/90 backdrop-blur-xl sm:hidden">
+      <nav
+        className={`fixed inset-x-0 bottom-0 z-20 border-t backdrop-blur-xl sm:hidden ${
+          dark ? "border-white/10 bg-night/90" : "border-black/5 bg-paper/90"
+        }`}
+      >
         <div className="mx-auto flex max-w-6xl justify-around px-2 pb-[max(0.375rem,env(safe-area-inset-bottom))] pt-1.5">
           {MOBILE_TABS.map((tab) => {
             const active = pathname === tab.href;
@@ -89,7 +129,7 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
                 key={tab.href}
                 href={tab.href}
                 className={`flex flex-1 flex-col items-center gap-0.5 rounded-card px-2 py-1 text-center font-body text-[10px] transition-colors ${
-                  active ? "font-medium text-coral" : "text-ink/45"
+                  active ? "font-medium text-coral" : dark ? "text-white/50" : "text-ink/45"
                 }`}
               >
                 <Icon size={22} strokeWidth={active ? 2.2 : 1.8} />

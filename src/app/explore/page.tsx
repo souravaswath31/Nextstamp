@@ -85,6 +85,7 @@ export default async function ExplorePage({
           <ItineraryCard
             key={it.id}
             id={it.id}
+            slug={it.slug}
             title={it.title}
             region={it.region}
             countries={it.countries}

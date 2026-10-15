@@ -204,6 +204,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
                 <ItineraryCard
                   key={it.id}
                   id={it.id}
+                  slug={it.slug}
                   title={it.title}
                   region={it.region}
                   countries={it.countries}
