@@ -755,6 +755,100 @@ link stays as the fallback for anyone who won't use Google, and *that* path is
 still capped at 2/hour until custom SMTP is set up — this section's fix is
 still worth doing, just no longer urgent.
 
+## Public site (Phase A) — marketing pages, slugs, waitlist, trip fund
+
+NextStamp has a public front door. Positioning is one question: **"Can I go there
+with my passport and the documents I hold?"** State guides, itineraries, packing and
+budgets support it. `nextstopai.org` was a reference for site structure only; no
+wording or imagery is copied.
+
+**Rules for any marketing copy.** No invented testimonials, user counts, press logos,
+ratings, or "registered"/"licensed" claims. Every number on a marketing page comes
+from the database at request time (`src/lib/siteData.ts` — `getSiteStats`,
+`getPublicRules`, `getFeaturedItineraries`), never typed in. Visa information always
+shows its official source, its last-verified date and a not-legal-advice line. The
+landing page calls the six itineraries "trips to start with", not "popular": there is
+no usage data, so `getFeaturedItineraries` picks for variety.
+
+**Routes.** `/` is the landing page for a logged-out visitor and the dashboard for a
+signed-in one (`src/app/page.tsx` dispatches; the dashboard lives in
+`src/components/Dashboard.tsx`). Also: `/features/visa-check`,
+`/features/trip-from-a-link` (waitlist until Phase B), `/pricing`, `/flights`,
+`/hotels`, `/activities` (waitlists), `/about`, `/wallet` (logged in), and the public
+itinerary pages below. `/terms` and `/privacy` are drafts that say so; both need a
+lawyer. `/about` was written from this file and the project owner has been asked to
+edit it.
+
+**Dark marketing look, light app.** The owner chose dark for marketing pages only.
+`src/components/Chrome.tsx` decides by pathname (`isMarketingPath`): `/features/*`,
+`/pricing`, `/flights`, `/hotels`, `/activities`, `/about`, and `/` when logged out.
+Tokens `night`, `nightRaised`, `nightLift`, `bone` are in `tailwind.config.ts`. The
+app, itinerary pages, guides, wallet, terms and privacy stay light. The mobile bottom
+tab bar is the same everywhere; logged-out gets Explore, States, Guides, Pricing,
+Sign in.
+
+**The checker is pure and runs in the browser.** `src/lib/passportCheck.ts`
+(`resolveCheck`, `cascadeComparison`) takes the rules as plain data so the landing
+checker answers with no network call, and so the tests can pin the cases that define the
+product (India without/with a US visa to UAE, USA to UAE, "usa" normalisation, an
+unsupported passport). Its selection logic deliberately mirrors `getVisaStatusForUser`
+in `visa.ts`; change one, change the other. **A function exported from a `"use client"`
+file cannot be called from a server component** (it arrives as a reference); that
+broke the first build here, which is why `formatVerified` lives in `passportCheck.ts`.
+Coverage is whatever is in `VisaRule` (8 passports x 18 destinations at the time of
+writing) — the original brief said 5 passports; the data had 8, and the page counts
+from the data. Only a US document is modelled as a cascade, though India-to-UAE's
+condition text names other qualifying residences; the text is shown in full.
+
+**Itinerary slugs.** `Itinerary.slug` is unique, derived from the title by
+`src/lib/slug.ts` and assigned in the seed (`assignUniqueSlugs`; a duplicate title gets
+`-2`). The public page is `/itineraries/[slug]` (title/description/canonical/Open Graph,
+JSON-LD `TouristTrip` with only fields the data has, in the sitemap). The old
+`/itinerary/[id]` is a route handler returning a real **301**, not a page `redirect()`
+(which sends 307/308). The page is server-rendered on demand, **not statically
+generated**: it reads the session cookie for the personalised bits, which makes the
+route dynamic, so `generateStaticParams` would be inert. Logged out, the personalised
+visa section becomes a prompt to run the checker.
+
+**Migration was raw SQL, additive.** `prisma/sql/2026-10-phase-a.sql` plus
+`prisma/apply-phase-a.ts` (slug added nullable, backfilled, then NOT NULL + unique).
+`npm run seed` sets slugs; if you create itineraries any other way you must set one.
+
+**Waitlist.** `WaitlistSignup` (email, interest, optional requestedPassport), unique on
+`(email, interest)`. Interests are `flights|hotels|activities|passport|wallet` plus
+`trip-link` and `paid`, added because the feature and pricing pages needed somewhere to
+point. Server action `joinWaitlist`: validated in `src/lib/waitlist.ts`, honeypot field
+(a tripped one gets the success message so a bot learns nothing), and a 5-per-10-minutes
+in-memory limiter keyed on IP. That limiter is best-effort only: serverless instances do
+not share memory. **No email is sent**, and the form says so.
+
+**Trip fund (`/wallet`).** `TripFund` and `TripFundEntry`; integer minor units, pure
+maths in `src/lib/tripFund.ts`. It is a notebook: it never holds money or connects to a
+bank, and the page says so in plain words.
+
+**Tests.** `npm test` (vitest) for logic. `npx playwright test` runs `e2e/*.e2e.ts`
+against `next start -p 3100`, so **run `npm run build` first**. It uses the real
+database; the waitlist tests delete their `@example.test` rows afterwards.
+
+### Later phases (not built) — recorded so they are not rediscovered
+
+- **Phase B, trip from a link.** Public Instagram/TikTok/YouTube URL, pasted caption or
+  uploaded screenshots -> draft `UserTrip` via the Anthropic API. Official oEmbed/public
+  metadata only; never scrape behind a login. Only places the source contains, each
+  labelled "from the post" or "suggested by NextStamp". Match our own guides first.
+  Ordering and drive times only from a real routing API, else stops shown unordered and
+  said so. Don't store third-party video after processing; the user can delete an import
+  and its source data. **Needs a decision first: geocoding and routing provider, and an
+  Anthropic API key.**
+- **Phase C, flights/hotels/activities.** Affiliate deep links only, labelled as links to
+  outside suppliers. No checkout, no payment, no holding of traveller money.
+  **Direct booking is a separate project and is not started.** It would need
+  seller-of-travel registration where required, supplier contracts and legal review.
+- **Phase D, the $5 purchase.** Stripe Checkout, one-time, webhook sets an entitlement.
+  Free: browse, run the checker. Paid: results tied to saved documents, the cascade
+  explorer, saved/customised trips, expiry warnings. **Do not start until A and B are
+  live and the owner confirms; needs Stripe keys.**
+
 ## Known loose ends
 
 - The Vercel personal access token used for CLI deploys during development is still active

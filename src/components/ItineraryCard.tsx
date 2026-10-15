@@ -14,6 +14,7 @@ const CATEGORY_ICONS: Record<string, LucideIcon> = {
 
 type Props = {
   id: string;
+  slug: string;
   title: string;
   region: string;
   countries: string;
@@ -47,7 +48,7 @@ export default function ItineraryCard(props: Props) {
 
   return (
     <Link
-      href={`/itinerary/${props.id}`}
+      href={`/itineraries/${props.slug}`}
       className="card-lift group block overflow-hidden rounded-panel bg-paper shadow-paper"
     >
       {props.coverImageUrl && (

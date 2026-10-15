@@ -29,6 +29,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/siteUrl";
 
 export const dynamic = "force-dynamic";
 
@@ -63,23 +64,40 @@ function sceneImageFor(countries: string[]): string | null {
   return null;
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
-  const itinerary = await prisma.itinerary.findUnique({ where: { id: params.id } });
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const itinerary = await prisma.itinerary.findUnique({ where: { slug: params.slug } });
   if (!itinerary) return {};
+  const title = `${itinerary.title} — NextStamp`;
+  const url = `${SITE_URL}/itineraries/${itinerary.slug}`;
+  const days =
+    itinerary.durationDaysMin === itinerary.durationDaysMax
+      ? `${itinerary.durationDaysMin} days`
+      : `${itinerary.durationDaysMin}–${itinerary.durationDaysMax} days`;
+  // The description is the itinerary's own, with the length appended so two
+  // pages never read identically in a search result.
+  const description = `${itinerary.description} ${days}.`.slice(0, 300);
   return {
-    title: `${itinerary.title} — NextStamp`,
-    description: itinerary.description,
-    openGraph: { title: `${itinerary.title} — NextStamp`, description: itinerary.description },
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      url,
+      title,
+      description,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: itinerary.title }],
+    },
+    twitter: { card: "summary_large_image", title, description, images: ["/og-image.jpg"] },
   };
 }
 
-export default async function ItineraryDetailPage({ params }: { params: { id: string } }) {
+export default async function ItineraryDetailPage({ params }: { params: { slug: string } }) {
   // Part of the free browsable library — no login required to view a trip
   // plan. Only the "visa status for you" section needs a real passport, so
   // that's the one part that becomes a sign-in prompt instead of a badge.
   const user = await getOptionalUser();
   const itinerary = await prisma.itinerary.findUnique({
-    where: { id: params.id },
+    where: { slug: params.slug },
     include: { days: { orderBy: { dayNumber: "asc" } }, notes: true },
   });
 
@@ -140,8 +158,32 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
   const createTrip = createTripFromItinerary.bind(null, itinerary.id);
   const sceneImage = sceneImageFor(countries);
 
+  // schema.org TouristTrip. Only fields the data actually has: a name, the
+  // description, the page URL, and the day titles as an ordered list. No
+  // rating, price or offer, because we hold none and won't invent them.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    name: itinerary.title,
+    description: itinerary.description,
+    url: `${SITE_URL}/itineraries/${itinerary.slug}`,
+    itinerary: {
+      "@type": "ItemList",
+      itemListElement: itinerary.days.map((d) => ({
+        "@type": "ListItem",
+        position: d.dayNumber,
+        name: d.title,
+      })),
+    },
+  };
+
   return (
     <div className="space-y-14">
+      <script
+        type="application/ld+json"
+        // JSON.stringify output with "<" escaped so a title can't close the tag.
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <div>
         <BackButton label="Back to Explore" />
         {itinerary.coverImageUrl && (
@@ -265,14 +307,19 @@ export default async function ItineraryDetailPage({ params }: { params: { id: st
                   )}
                 </div>
               ))}
+              <p className="font-body text-xs text-ink/45">
+                Not legal advice. Rules change; confirm with the official source before you book.
+              </p>
             </div>
           ) : (
             <div className="mt-4 flex flex-col items-center gap-3 rounded-panel bg-paper p-6 text-center shadow-paper sm:flex-row sm:justify-between sm:text-left">
               <p className="font-body text-sm text-ink/60">
-                Sign in and set your passport to see whether {countries.join(", ")} needs a visa for you.
+                Whether {countries.join(", ")} needs a visa depends on your passport and the
+                documents you hold. Run the free check to see it, with the source and the date it was
+                verified.
               </p>
-              <Link href="/login" className="btn-pill btn-pill-primary shrink-0">
-                <LogIn size={15} /> Sign in
+              <Link href="/#check" className="btn-pill btn-pill-primary shrink-0">
+                Check my passport <ArrowRight size={15} />
               </Link>
             </div>
           )}

@@ -57,6 +57,10 @@ model HeldDocument {
 model Itinerary {
   id                  String   @id @default(cuid())
   title               String
+  // URL slug for the public /itineraries/[slug] pages. Derived from the title
+  // (src/lib/slug.ts) and assigned in the seed; unique, so a collision gets a
+  // numeric suffix rather than two pages fighting over one URL.
+  slug                String   @unique
   category            String // comma-separated tags, e.g. "nature,splurge"
   region              String
   countries           String // comma-separated ISO-ish country names
@@ -491,4 +495,48 @@ model StatePlace {
   longitude    Float?
 
   stateGuide StateGuide @relation(fields: [stateGuideId], references: [id], onDelete: Cascade)
+}
+
+// People asking to be told when a feature ships, or when their passport is
+// added. Nothing is emailed from this table yet. `interest` is one of
+// flights | hotels | activities | passport | wallet. The unique key is what
+// makes signing up twice for the same thing a no-op instead of a duplicate row.
+model WaitlistSignup {
+  id               String   @id @default(cuid())
+  email            String
+  interest         String
+  requestedPassport String?
+  createdAt        DateTime @default(now())
+
+  @@unique([email, interest])
+}
+
+// A savings target for a trip. NextStamp never holds this money and never
+// connects to a bank: it is a notebook of what the user says they have set
+// aside, nothing more. Amounts are integers in the minor unit of `currency`.
+model TripFund {
+  id          String   @id @default(cuid())
+  userId      String
+  name        String
+  currency    String   @default("USD")
+  targetMinor Int
+  tripId      String?
+  createdAt   DateTime @default(now())
+
+  entries TripFundEntry[]
+
+  @@index([userId])
+}
+
+// One manual deposit (positive) or withdrawal (negative) the user recorded.
+model TripFundEntry {
+  id          String   @id @default(cuid())
+  fundId      String
+  amountMinor Int
+  note        String?
+  enteredOn   DateTime @default(now())
+
+  fund TripFund @relation(fields: [fundId], references: [id], onDelete: Cascade)
+
+  @@index([fundId])
 }

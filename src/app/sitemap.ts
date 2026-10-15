@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 
-const BASE_URL = "https://nextstamp-app.vercel.app";
+import { SITE_URL } from "@/lib/siteUrl";
+
+const BASE_URL = SITE_URL;
 
 // Only the free browsable library goes in the sitemap — dashboard, profile,
 // my-trips, and trip/[id] are personal pages behind a real login and have
@@ -9,7 +11,7 @@ const BASE_URL = "https://nextstamp-app.vercel.app";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [states, itineraries, countries] = await Promise.all([
     prisma.stateGuide.findMany({ select: { slug: true, createdAt: true } }),
-    prisma.itinerary.findMany({ select: { id: true, createdAt: true } }),
+    prisma.itinerary.findMany({ where: { isPublic: true }, select: { slug: true, createdAt: true } }),
     prisma.countryFact.findMany({ select: { country: true, lastVerifiedDate: true } }),
   ]);
 
@@ -18,6 +20,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE_URL}/states`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/explore`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/countries`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/features/visa-check`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/features/trip-from-a-link`, changeFrequency: "monthly", priority: 0.4 },
+    { url: `${BASE_URL}/pricing`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/about`, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/flights`, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE_URL}/hotels`, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE_URL}/activities`, changeFrequency: "yearly", priority: 0.2 },
     // Country guides carry lastVerifiedDate as lastModified rather than a
     // createdAt: for this content the verification date is the meaningful
     // "how current is this" signal, and it's the same date the page shows.
@@ -34,7 +43,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
     })),
     ...itineraries.map((i) => ({
-      url: `${BASE_URL}/itinerary/${i.id}`,
+      url: `${BASE_URL}/itineraries/${i.slug}`,
       lastModified: i.createdAt,
       changeFrequency: "monthly" as const,
       priority: 0.6,

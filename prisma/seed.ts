@@ -4,6 +4,7 @@ import visaRulesSeed from "../data/visa-rules-seed.json";
 import stateGuidesSeed from "../data/state-guides-seed.json";
 import countryFactsSeed from "../data/country-facts-seed.json";
 import roadEatsSeed from "../data/road-eats-seed.json";
+import { assignUniqueSlugs } from "../src/lib/slug";
 
 let prisma = new PrismaClient();
 
@@ -45,10 +46,12 @@ async function main() {
   await prisma.roadEatStop.deleteMany(); // RoadEat rows go with it via cascade
 
   console.log(`Seeding ${itinerariesSeed.length} itineraries...`);
-  for (const it of itinerariesSeed as any[]) {
+  const itinerarySlugs = assignUniqueSlugs((itinerariesSeed as any[]).map((i) => i.title));
+  for (const [itIndex, it] of (itinerariesSeed as any[]).entries()) {
     await withRetry(() => prisma.itinerary.create({
       data: {
         title: it.title,
+        slug: itinerarySlugs[itIndex],
         category: it.category.join(","),
         region: it.region,
         countries: it.countries.join(","),

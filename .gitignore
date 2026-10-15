@@ -27,3 +27,7 @@ out
 
 # TypeScript incremental build cache — a local artifact, not source.
 tsconfig.tsbuildinfo
+
+# Playwright
+test-results/
+playwright-report/

@@ -12,6 +12,7 @@ export default function TermsPage() {
       <div>
         <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Legal</p>
         <h1 className="mt-2 font-display text-4xl tracking-tightest text-ink">Terms of Service</h1>
+        <p className="mt-3 inline-block rounded-full bg-stampRed/10 px-3 py-1 font-stamp text-xs font-semibold uppercase tracking-widest text-stampRed">Draft — needs a lawyer</p>
         <p className="mt-3 font-body text-sm text-ink/55">Last updated {new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })}.</p>
       </div>
 
@@ -45,7 +46,7 @@ export default function TermsPage() {
       <section className="space-y-3">
         <h2 className="font-display text-xl text-ink">Your account</h2>
         <p className="font-body text-sm text-ink/70">
-          You sign in with an email magic link — no password. Keep access to your email
+          You sign in with an email link or with Google; there is no NextStamp password. Keep access to your email
           account secure, since that's what secures your NextStamp account. You're
           responsible for the accuracy of the passport and document information you enter.
         </p>

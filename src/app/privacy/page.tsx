@@ -12,6 +12,7 @@ export default function PrivacyPage() {
       <div>
         <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Legal</p>
         <h1 className="mt-2 font-display text-4xl tracking-tightest text-ink">Privacy Policy</h1>
+        <p className="mt-3 inline-block rounded-full bg-stampRed/10 px-3 py-1 font-stamp text-xs font-semibold uppercase tracking-widest text-stampRed">Draft — needs a lawyer</p>
         <p className="mt-3 font-body text-sm text-ink/55">Last updated {new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })}.</p>
       </div>
 
@@ -26,7 +27,9 @@ export default function PrivacyPage() {
       <section className="space-y-3">
         <h2 className="font-display text-xl text-ink">What we collect</h2>
         <ul className="list-inside list-disc space-y-2 font-body text-sm text-ink/70">
-          <li><strong className="text-ink">Your email address</strong> — used only to send you a sign-in link. We don't have or store a password.</li>
+          <li><strong className="text-ink">Your email address</strong> — used to sign you in, by email link or through Google. We don't have or store a password.</li>
+          <li><strong className="text-ink">Waitlist signups</strong> — if you join a waitlist we keep your email, what you asked to hear about and, for a passport request, which passport. We don't send email from this list yet.</li>
+          <li><strong className="text-ink">Trip fund entries</strong> — the targets and amounts you type into the trip fund notebook. NextStamp never holds money or connects to a bank.</li>
           <li><strong className="text-ink">Your passport country and any held documents you add</strong> (visas, residency permits, their expiry dates) — used to compute visa status and expiry alerts. This is the core of the product; we don't use it for anything else.</li>
           <li><strong className="text-ink">Trips you save or plan</strong> — the itineraries you start, customize, or mark as booked/completed.</li>
           <li><strong className="text-ink">Nothing else.</strong> No analytics tracking, no advertising identifiers, no third-party trackers, as of this writing.</li>
