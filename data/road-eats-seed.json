@@ -1262,6 +1262,214 @@
     ]
   },
   {
+    "region_key": "louisiana",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "New Orleans",
+        "eats": [
+          {
+            "name": "Willie Mae's NOLA",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Fried chicken and the deviled eggs, both highlighted on the restaurant's own menu pages.",
+            "why": "Fried-chicken restaurant now at 898 Baronne Street in the Warehouse District; its own site says Willie Mae's Scotch House opened in 1957 in Treme and carries that name forward.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday and Wednesday-Friday 11am-9pm; Saturday-Sunday 10am-9pm with brunch 10am-3pm; closed Tuesday.",
+            "open_evidence": "Own website lists current hours, address and menus, with a footer reading 1957-2026 (viewed 2026-10-14).",
+            "source_url": "https://williemaesnola.com/",
+            "source_name": "Willie Mae's NOLA own website"
+          },
+          {
+            "name": "Central Grocery and Deli",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "The muffuletta, which the site describes as house-sliced meats on locally baked handmade bread with the family's Italian olive salad.",
+            "why": "Family-run French Quarter deli on Decatur Street, founded in 1906 by Sicilian immigrant Salvatore Lupo per its own site and now run by the third generation, so a sandwich stop that fits a French Quarter walking day.",
+            "price_tier": null,
+            "hours_note": "Per its own site: open 7 days a week, 9:00am-5:00pm.",
+            "open_evidence": "Own website lists current hours and shows a 2026 copyright footer (viewed 2026-10-14).",
+            "source_url": "https://www.centralgrocery.com",
+            "source_name": "Central Grocery own website"
+          },
+          {
+            "name": "Cafe Reconcile",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Red beans and rice, catfish, po' boys or fried chicken, all named on the cafe's own page.",
+            "why": "Scratch-cooked New Orleans lunch on Oretha Castle Haley Boulevard; the site says everything is made in-house, even the roux.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Tuesday-Friday 11am-2:30pm only, so it is not open on weekends or Mondays.",
+            "open_evidence": "Own website lists current lunch hours and shows a 2026 copyright to Reconcile New Orleans, Inc. (viewed 2026-10-14).",
+            "source_url": "https://cafereconcile.org",
+            "source_name": "Cafe Reconcile own website"
+          }
+        ]
+      },
+      {
+        "town": "Lafayette",
+        "eats": [
+          {
+            "name": "Hub City Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Fried dill pickles, the 3-way hamburger steak with mashed potatoes and broccoli, or the deluxe chicken sandwich, all named in the feature article.",
+            "why": "Locally owned diner at 1412 S. College Rd. (single location); the article says it began as Stansbury's Cafe in 1965 and became Hub City Diner in 1990, and serves breakfast all day on weekends.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday-Saturday 6:30am-9pm, Sunday 6:30am-3pm; breakfast Monday-Friday until 10:30am and Saturday-Sunday until 2pm. The hours page shows no year.",
+            "open_evidence": "Own site lists hours (the page shows no year); The Vermilion, the UL Lafayette student paper, ran a feature dated 2025-10-14 describing it as operating under its current owner (viewed 2026-10-14).",
+            "source_url": "https://thevermilion.net/2025/10/14/retro-comfort-with-cajun-flair-lafayettes-own-hub-city-diner/",
+            "source_name": "The Vermilion (feature dated 2025-10-14) and the diner's own hours page"
+          },
+          {
+            "name": "Poupart's Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "The Shoe-Sole pastry, sourdough, cannolis, croissants or fruit tarts, as listed by the Lafayette tourism guide; king cakes are seasonal.",
+            "why": "French-family bakery in Lafayette that the tourism commission describes as family-owned since the 1960s; its own site says it has been baking since 1967.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Lafayette Convention & Visitors Commission article dated 2026-08-25 lists it among current bakeries; own site describes daily specials but shows no year or hours, so check hours before going (viewed 2026-10-14).",
+            "source_url": "https://www.lafayettetravel.com/blog/stories/post/bakeries-in-lafayette/",
+            "source_name": "Lafayette Convention & Visitors Commission"
+          }
+        ]
+      },
+      {
+        "town": "Breaux Bridge",
+        "note": "Per Louisiana Travel, the first Zydeco Breakfast was held at the former Cafe des Amis in 1998 and the event moved to Buck & Johnny's in 2017. Our advice: do not look for Cafe des Amis; Buck & Johnny's is where the Saturday zydeco breakfast happens now.",
+        "note_source_url": "https://www.explorelouisiana.com/articles/zydeco-music-louisiana",
+        "eats": [
+          {
+            "name": "Buck & Johnny's",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "The Saturday-morning Zydeco Breakfast with live music; the site otherwise describes its food as eclectic Italian with a Cajun flair.",
+            "why": "Home of Breaux Bridge's weekly zydeco breakfast, which Louisiana Travel says moved here in 2017.",
+            "price_tier": null,
+            "hours_note": "Per its own site: closed Sunday-Tuesday; Wednesday-Thursday 11am-2pm and 5pm-9pm; Friday 11am-10pm; Saturday 8am-10pm. The zydeco breakfast is Saturday mornings only.",
+            "open_evidence": "Own website lists current hours and Saturday zydeco breakfast, footer 2024 and a 2025 award mention, no closure notice (viewed 2026-10-14).",
+            "source_url": "https://www.buckandjohnnys.com",
+            "source_name": "Buck & Johnny's own website"
+          }
+        ]
+      },
+      {
+        "town": "New Iberia",
+        "eats": [
+          {
+            "name": "Bon Creole Seafoods",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Gumbo, shrimp, crawfish or seafood po'boys, and the Monday-Friday plate lunch; Sunday is BBQ.",
+            "why": "Single-location New Iberia seafood spot at 1409 E St. Peter St.; its own site says it has operated since 1982, and Louisiana Travel notes boiled crawfish are served seasonally.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday-Thursday 11am-8pm; Friday-Saturday 11am-9pm; Sunday 11am-2pm. Boiled crawfish are seasonal.",
+            "open_evidence": "Own website lists current hours and shows a 2026 copyright footer with no hurricane or closure notice (viewed 2026-10-14).",
+            "source_url": "https://bon-creole.com/",
+            "source_name": "Bon Creole own website"
+          }
+        ]
+      },
+      {
+        "town": "Avery Island",
+        "eats": [
+          {
+            "name": "TABASCO Restaurant 1868",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Crawfish etouffee, boudin with pepper jelly, or chicken and sausage gumbo, the three dishes the page features.",
+            "why": "Lunch on Avery Island itself (Hwy 329), operated by the McIlhenny Company, so no detour from the factory-tour day.",
+            "price_tier": null,
+            "hours_note": "Per its page: 10:30am-2:30pm daily; closed New Year's Eve, New Year's Day, Easter Sunday, Independence Day, Labor Day, Thanksgiving, and Christmas Eve and Day.",
+            "open_evidence": "McIlhenny Company page lists current hours and holiday closures with a 2026 copyright footer (viewed 2026-10-14).",
+            "source_url": "https://www.tabasco.com/visit-avery-island/tabasco-restaurant-1868/",
+            "source_name": "TABASCO / McIlhenny Company official page"
+          }
+        ]
+      },
+      {
+        "town": "Ville Platte",
+        "eats": [
+          {
+            "name": "T-Boy's Boudin & Cracklins",
+            "kind": "market",
+            "meal": "snack",
+            "what_to_order": "Boudin and cracklins, which the site calls award-winning, plus smoked sausage and smoked tasso.",
+            "why": "Boudin stop on Pine Point Road; its own site gives a Ville Platte address (some outside listings say Mamou), between the two towns on this route, and says it was established in 1995.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a 2019-2026 copyright, describes current products and wholesale sign-up, no closure notice; no hours on the page, so call 337-468-3333 before going (viewed 2026-10-14).",
+            "source_url": "https://www.tboysboudin.com/about/",
+            "source_name": "T-Boy's Boudin own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 1,
+        "town": "New Orleans"
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 2,
+        "town": "New Orleans"
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 3,
+        "town": "New Orleans"
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cajun Country: Lafayette, the Atchafalaya Basin & the Prairie",
+        "day_number": 1,
+        "town": "Lafayette"
+      },
+      {
+        "itinerary_title": "Cajun Country: Lafayette, the Atchafalaya Basin & the Prairie",
+        "day_number": 2,
+        "town": "Breaux Bridge"
+      },
+      {
+        "itinerary_title": "Cajun Country: Lafayette, the Atchafalaya Basin & the Prairie",
+        "day_number": 3,
+        "town": "New Iberia"
+      },
+      {
+        "itinerary_title": "Cajun Country: Lafayette, the Atchafalaya Basin & the Prairie",
+        "day_number": 4,
+        "town": "Avery Island"
+      },
+      {
+        "itinerary_title": "Cajun Country: Lafayette, the Atchafalaya Basin & the Prairie",
+        "day_number": 5,
+        "town": "Ville Platte"
+      }
+    ]
+  },
+  {
     "region_key": "maine",
     "last_verified_date": "2026-10-03",
     "stops": [
@@ -1682,6 +1890,630 @@
         "itinerary_title": "Missoula & the Bitterroot Valley",
         "day_number": 5,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "new-york",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "Tannersville",
+        "eats": [
+          {
+            "name": "Last Chance Antiques & Cheese Cafe",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Fondue, burgers or steaks; the site also advertises about 100 imported cheeses and 100-plus beers.",
+            "why": "A restaurant, antique shop and cheese shop in one building at 6009 Main St, Tannersville, with a menu that includes gluten-free, vegan and kids options.",
+            "price_tier": null,
+            "hours_note": "Site's current notice: 'Fall Hours: Open Friday - Tuesday at 11am' (lunch and dinner). Seasonal hours, so check before going on a Wednesday or Thursday.",
+            "open_evidence": "Own website shows a 'Fall Hours' notice and a 2025 copyright footer (viewed 2026-10-14); the footer year is last year's, so confirm hours by phone, (518) 589-6424.",
+            "source_url": "https://www.lastchanceonline.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Phoenicia",
+        "eats": [
+          {
+            "name": "Phoenicia Diner",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Taylor ham & cheese with eggs, everything bagel and potatoes or greens; the Jamon Beurre; or the butternut squash soup, all on the current menu.",
+            "why": "In Phoenicia, on Route 28, rather than Big Indian itself; first-come, first-served with no reservations and a menu that changes.",
+            "price_tier": null,
+            "hours_note": "Open 8am-6pm every day but Wednesday (own site). No reservations.",
+            "open_evidence": "Own website shows a (c) 2026 footer, hours and a current menu with prices (viewed 2026-10-14).",
+            "source_url": "https://phoeniciadiner.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Lower East Side",
+        "eats": [
+          {
+            "name": "Katz's Delicatessen",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The pastrami sandwich, matzoh ball soup or potato latkes, all on its current in-store menu.",
+            "why": "At 205 East Houston Street, the site says it has operated 'Since 1888'; it has one Brooklyn location as well.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a (c) 2026 footer and a current in-store menu with prices (viewed 2026-10-14); its hours page did not load, so opening hours are not stated here.",
+            "source_url": "https://katzsdelicatessen.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Midtown Manhattan",
+        "eats": [
+          {
+            "name": "Grand Central Oyster Bar & Restaurant",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Oyster stew or oyster panroast, Manhattan or New England clam chowder, or the lobster roll, all named on its own page.",
+            "why": "On the lower level of Grand Central Terminal, open since 1913 per its own history page and now 100 percent employee-owned.",
+            "price_tier": null,
+            "hours_note": "Page lists Mon-Fri 11:30AM-9:30PM only (weekend hours not shown); kitchen closes at 10:00 PM; reservations through OpenTable.",
+            "open_evidence": "Own website lists hours, reservations and a menu but shows no year (viewed 2026-10-14), so this is weak evidence; confirm hours before going.",
+            "source_url": "https://www.oysterbarny.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Williamsburg",
+        "eats": [
+          {
+            "name": "Peter Luger Steak House",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "USDA Prime dry-aged beef with Luger Sauce and extra thick-cut bacon, as named on its own page.",
+            "why": "Established 1887 at the foot of the Williamsburg Bridge per its own site, with one other location in Great Neck.",
+            "price_tier": null,
+            "hours_note": "Reservations through its site. Does not accept credit cards at the Brooklyn location; accepts the Peter Luger Card, US checks with ID, US debit cards and cash. Hours were not on the page fetched.",
+            "open_evidence": "Own website shows a (c) 2026 footer, a reservations page and current payment policy (viewed 2026-10-14).",
+            "source_url": "https://peterluger.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Arthur Avenue, Bronx",
+        "eats": [
+          {
+            "name": "Madonia Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Sicilian or European-style bread, cookies, biscotti or cannoli, all named on its own page.",
+            "why": "At 2348 Arthur Avenue in the Belmont neighbourhood; its site says it has baked for over 100 years and is now run by the founder's great-grandson.",
+            "price_tier": null,
+            "hours_note": "Own page lists Monday-Saturday 6:30am-7pm and Sunday 6:30am-6pm.",
+            "open_evidence": "Own website (madoniabakery.com) lists hours and products and says '104 Years of Baking' but shows no calendar year (viewed 2026-10-14), so this is weak evidence; confirm by phone, (718) 295-5573.",
+            "source_url": "https://www.madoniabakery.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Catskills Waterfalls & Scenic Byway",
+        "day_number": 1,
+        "town": "Tannersville"
+      },
+      {
+        "itinerary_title": "Catskills Waterfalls & Scenic Byway",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Catskills Waterfalls & Scenic Byway",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Catskills Waterfalls & Scenic Byway",
+        "day_number": 4,
+        "town": "Phoenicia"
+      },
+      {
+        "itinerary_title": "New York City: Five Boroughs",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "New York City: Five Boroughs",
+        "day_number": 2,
+        "town": "Lower East Side"
+      },
+      {
+        "itinerary_title": "New York City: Five Boroughs",
+        "day_number": 3,
+        "town": "Midtown Manhattan"
+      },
+      {
+        "itinerary_title": "New York City: Five Boroughs",
+        "day_number": 4,
+        "town": "Williamsburg"
+      },
+      {
+        "itinerary_title": "New York City: Five Boroughs",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "New York City: Five Boroughs",
+        "day_number": 6,
+        "town": "Arthur Avenue, Bronx"
+      }
+    ]
+  },
+  {
+    "region_key": "oregon",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "McKenzie Bridge",
+        "eats": [
+          {
+            "name": "Takoda's Restaurant",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Pizza, burgers, sandwiches and house and dinner specialties are the menu sections on its site; Travel Oregon also mentions homemade soups and a salad bar.",
+            "why": "In the neighbouring community of Rainbow (Blue River mailing address, 91806 Mill Creek Road) on the McKenzie Highway, a short drive from McKenzie Bridge itself; family-friendly lunch-and-dinner stop on the McKenzie River route.",
+            "price_tier": null,
+            "hours_note": "Own site shows \"Open today 11:00 am - 08:00 pm\"; Eagle Rock Lodge's dining page also lists it open daily 11 AM-8 PM.",
+            "open_evidence": "Own website shows a \"Copyright 2026\" footer, current menu sections and today's hours (viewed 2026-10-14).",
+            "source_url": "https://www.takodasrainbow.com",
+            "source_name": "Takoda's Rainbow (own website)"
+          }
+        ]
+      },
+      {
+        "town": "Hood River",
+        "eats": [
+          {
+            "name": "Double Mountain Brewery & Cidery",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "New Haven-style pizzas such as the Shroom Hunter (white pie with pancetta and chanterelles), plus salads and sandwiches.",
+            "why": "Hood River brewery and taproom at 8 4th St; a small local group with two taprooms in Portland as well.",
+            "price_tier": null,
+            "hours_note": "Hood River taproom: Sun-Thu 11:30 am-9:00 pm, Fri-Sat 11:30 am-10:00 pm (own site).",
+            "open_evidence": "Own website shows a 2026 copyright footer, current taproom hours and food menu (viewed 2026-10-14).",
+            "source_url": "https://doublemountainbrewery.com",
+            "source_name": "Double Mountain Brewery (own website)"
+          },
+          {
+            "name": "pFriem Family Brewers",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "Beer: the homepage points to its 2026 package beer guide and names no food items.",
+            "why": "Waterfront tasting room at 707 Portway Ave in Hood River; the brewery has just one other tasting room, in Milwaukie.",
+            "price_tier": null,
+            "hours_note": "Both tasting rooms normally open daily 11:30am-9:00pm (own homepage).",
+            "open_evidence": "Own homepage references its 2026 Package Beer Guide and carries a closure notice for \"Tuesday, July 21st\" (a Tuesday in 2026), viewed 2026-10-14.",
+            "source_url": "https://pfriembeer.com",
+            "source_name": "pFriem Family Brewers (own website)"
+          }
+        ]
+      },
+      {
+        "town": "Multnomah Falls",
+        "eats": [
+          {
+            "name": "Multnomah Falls Lodge",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Breakfast, lunch/dinner and Sunday brunch menus are posted on its site; no individual dishes were named in text I could read.",
+            "why": "The lodge restaurant at the falls on the Historic Columbia River Highway, operating under a US Forest Service special use permit inside the Columbia River Gorge National Scenic Area.",
+            "price_tier": null,
+            "hours_note": "Mon-Fri 9am-6pm, Sat-Sun 8am-6pm per own site; reservations encouraged but not required; the site says the elevator to the restaurant is available only intermittently during renovations.",
+            "open_evidence": "Own website shows a 2026 copyright footer, current hours and a renovation notice (viewed 2026-10-14).",
+            "source_url": "https://www.multnomahfallslodge.com",
+            "source_name": "Multnomah Falls Lodge (own website)"
+          }
+        ]
+      },
+      {
+        "town": "Portland",
+        "eats": [
+          {
+            "name": "Dan & Louis Oyster Bar",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Oysters (including baked), clam chowder, Oysters Rockefeller, seafood gumbo and prawn dishes.",
+            "why": "Downtown oyster bar at 208 SW Ankeny St, founded in 1907 and still run by the Wachsmuth family (five generations, per its site).",
+            "price_tier": null,
+            "hours_note": "Site lists Fri-Sat 12:00 PM-10:00 PM and Sun, Mon, Thu 12:00 PM-9:00 PM; no Tuesday or Wednesday hours are listed, so confirm those days.",
+            "open_evidence": "Own website lists current hours, says it has operated \"over 119 years\" (1907 to 2026) and carries a November 2024 community notice (viewed 2026-10-14).",
+            "source_url": "https://www.danandlouis.com",
+            "source_name": "Dan & Louis Oyster Bar (own website)"
+          },
+          {
+            "name": "Cartopia",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "Carts the Travel Oregon guide names there: Potato Champion, El Brasero, Burger Ritual and Pyro Pizza.",
+            "why": "Southeast Portland food-cart pod with a beer garden, listed among the city's classic pods.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Travel Oregon's food-cart pod guide, originally published September 10, 2024 and shown as updated June 11, 2026, lists it as a current pod (viewed 2026-10-14); I did not reach a page from the pod itself, and individual carts change.",
+            "source_url": "https://traveloregon.com/things-to-do/eat-drink/how-to-explore-portlands-food-cart-pods/",
+            "source_name": "Travel Oregon"
+          },
+          {
+            "name": "Brooklyn Carreta",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "Carts the Travel Oregon guide names there: Tierra del Sol, Havana Station, Bollywood Dhaba and Korean Tiger.",
+            "why": "Southeast Portland pod that took in carts relocated from Portland Mercado, which the guide says was fire-damaged in 2024.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Travel Oregon's food-cart pod guide, shown as updated June 11, 2026, lists it among newer and relocated pods (viewed 2026-10-14); I did not reach a page from the pod itself, and individual carts change.",
+            "source_url": "https://traveloregon.com/things-to-do/eat-drink/how-to-explore-portlands-food-cart-pods/",
+            "source_name": "Travel Oregon"
+          }
+        ]
+      },
+      {
+        "town": "Cannon Beach",
+        "eats": [
+          {
+            "name": "Public Coast Brewing Co.",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "Fresh-catch fish and chips, organic burgers or seasonal fresh-catch tacos, with hand-battered sweet onion rings.",
+            "why": "Cannon Beach brewery at 264 Third Street that says it runs its own farm growing blueberries, peaches, lavender and hops for its beverages.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website says the brewery is celebrating its 10th anniversary in 2026 and lists a current food menu (viewed 2026-10-14).",
+            "source_url": "https://publiccoastbrewing.com/food",
+            "source_name": "Public Coast Brewing (own website)"
+          },
+          {
+            "name": "The Lazy Susan Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Omelettes (Travel Oregon says they come in almost every imaginable way), and at lunch warm stews, French baguettes and salads.",
+            "why": "Small downtown cafe at 126 N Hemlock Street whose own tagline is \"Our kitchen is small, but our hearts are BIG!\"",
+            "price_tier": null,
+            "hours_note": "Own site lists Wednesday-Monday 8AM-2:30PM and Tuesday CLOSED.",
+            "open_evidence": "Own website lists hours but shows no year (weak); Travel Oregon's page for it shows visitor reviews from 2026 (viewed 2026-10-14).",
+            "source_url": "https://traveloregon.com/things-to-do/eat-drink/restaurants/lazy-susan-cafe/",
+            "source_name": "Travel Oregon (hours from the cafe's own website)"
+          }
+        ]
+      },
+      {
+        "town": "Newport",
+        "eats": [
+          {
+            "name": "Local Ocean Seafoods",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Fishwives Stew, Crab Cakes, Steamer Clams or Moqueca De Peixe, plus halibut, black cod or albacore when on the menu.",
+            "why": "Restaurant and fish market on the Bayfront at 213 SE Bay Blvd; its site says it runs a 100% Fish Program to use whole fish and is held in a Perpetual Purpose Trust.",
+            "price_tier": null,
+            "hours_note": "Fall and winter hours starting Sept 8, 2026: restaurant 11am-8pm (9pm Fri and Sat), fish market 10am-8pm; closed Thanksgiving and Christmas. The site notes a 4.5% hospitality charge on in-house dining effective July 1, 2026.",
+            "open_evidence": "Own website lists fall/winter hours \"Starting Sept 8, 2026\" and a charge effective July 1, 2026 (viewed 2026-10-14).",
+            "source_url": "https://www.localocean.net/",
+            "source_name": "Local Ocean Seafoods (own website)"
+          }
+        ]
+      },
+      {
+        "town": "Florence",
+        "eats": [
+          {
+            "name": "The Waterfront Depot",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site calls it \"Elevated Coastal Cuisine\"; the dinner menu is posted as images, so I could not read individual dishes.",
+            "why": "Dinner-only restaurant at 1252 Bay Street in Florence.",
+            "price_tier": null,
+            "hours_note": "Own site: \"Open 3-9 pm daily\"; indoor and outdoor seating.",
+            "open_evidence": "Own website shows a dinner menu labelled \"Revised August 2026\" and lists hours (viewed 2026-10-14).",
+            "source_url": "https://www.thewaterfrontdepot.com/hours-location",
+            "source_name": "The Waterfront Depot (own website)"
+          }
+        ]
+      },
+      {
+        "town": "Bandon",
+        "eats": [
+          {
+            "name": "Tony's Crab Shack",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Fish tacos, crab sandwiches, grilled halibut or smoked salmon alfredo.",
+            "why": "Open since 1989 at 155 1st St on the waterfront; the site says David Hisel took over from founder Tony Roszkowski in January 2023, and sister business Port O'Call rents crabbing rings and boats and will clean and cook your catch.",
+            "price_tier": null,
+            "hours_note": "Crab Shack 11 am-7 pm daily (Port O'Call 8 am-7 pm); closed Thanksgiving, Christmas and Easter; limited hours 10:30 am-3 pm on Christmas Eve.",
+            "open_evidence": "Own website lists current hours and holiday closures and describes a January 2023 ownership change, but shows no copyright year (weak) (viewed 2026-10-14).",
+            "source_url": "https://www.tonyscrabshack.com",
+            "source_name": "Tony's Crab Shack (own website)"
+          },
+          {
+            "name": "Face Rock Creamery",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Its own cheeses such as Vampire Slayer Garlic Cheddar, plus Umpqua ice cream, flatbread pizza, sandwiches and giant pretzels with beer cheese.",
+            "why": "Cheesemaker and cafe at 680 2nd Street SE in Bandon; it has one other cafe, in Coos Bay.",
+            "price_tier": null,
+            "hours_note": "Bandon creamery: Daily 9:00am-6:00pm (own site).",
+            "open_evidence": "Own website lists current hours, menu and a Coos Bay cafe, but the footer shows no year (weak) (viewed 2026-10-14).",
+            "source_url": "https://www.facerockcreamery.com",
+            "source_name": "Face Rock Creamery (own website)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Oregon: Crater Lake → McKenzie Bridge → Columbia River Gorge → Portland",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Oregon: Crater Lake → McKenzie Bridge → Columbia River Gorge → Portland",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Oregon: Crater Lake → McKenzie Bridge → Columbia River Gorge → Portland",
+        "day_number": 3,
+        "town": "McKenzie Bridge"
+      },
+      {
+        "itinerary_title": "Oregon: Crater Lake → McKenzie Bridge → Columbia River Gorge → Portland",
+        "day_number": 4,
+        "town": "Hood River"
+      },
+      {
+        "itinerary_title": "Oregon: Crater Lake → McKenzie Bridge → Columbia River Gorge → Portland",
+        "day_number": 5,
+        "town": "Multnomah Falls"
+      },
+      {
+        "itinerary_title": "Oregon: Crater Lake → McKenzie Bridge → Columbia River Gorge → Portland",
+        "day_number": 6,
+        "town": "Portland"
+      },
+      {
+        "itinerary_title": "Oregon Coast: Cannon Beach to Bandon",
+        "day_number": 1,
+        "town": "Cannon Beach"
+      },
+      {
+        "itinerary_title": "Oregon Coast: Cannon Beach to Bandon",
+        "day_number": 2,
+        "town": "Newport"
+      },
+      {
+        "itinerary_title": "Oregon Coast: Cannon Beach to Bandon",
+        "day_number": 3,
+        "town": "Florence"
+      },
+      {
+        "itinerary_title": "Oregon Coast: Cannon Beach to Bandon",
+        "day_number": 4,
+        "town": "Bandon"
+      },
+      {
+        "itinerary_title": "Oregon Coast: Cannon Beach to Bandon",
+        "day_number": 5,
+        "town": "Bandon"
+      },
+      {
+        "itinerary_title": "Oregon Coast: Cannon Beach to Bandon",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "tennessee",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "Nashville",
+        "eats": [
+          {
+            "name": "Arnold's Country Kitchen",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Meat-and-three fare; its own site names roasted beef, long-simmered greens, fried green tomatoes and cornbread.",
+            "why": "A weekday-lunch meat-and-three counter at 605 8th Avenue South that its own site credits with a 2009 James Beard America's Classics award.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday-Friday 10:30 AM-2:45 PM; Saturday 11 AM-3 PM (brunch); closed December 24-27 and January 1. Its hours page shows no year.",
+            "open_evidence": "Own website lists current weekday and Saturday hours and holiday closures but shows no year; a 2026 Nashville Scene readers' poll page names it, which shows it was operating in 2026 (both viewed 2026-10-14).",
+            "source_url": "https://www.arnoldscountrykitchen.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Butter Milk Ranch",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Croissants, cookies and pastries from the bakery counter, or pancakes and breakfast bowls in the dining room, per its visit page.",
+            "why": "A single-location small-batch bakery and day-dining room at 2407 12th Ave S whose site says brunch is served all day, every day.",
+            "price_tier": null,
+            "hours_note": "Own site: bakery and counter service Tuesday-Sunday 8am-4pm; full-service dining room Tuesday-Sunday 8am-3pm; closed Mondays.",
+            "open_evidence": "Own website lists current hours and menu but shows no year; a 2026 Nashville Scene readers' poll page names it, which shows it was operating in 2026 (both viewed 2026-10-14).",
+            "source_url": "https://buttermilkranch.com/visit",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Loveless Cafe",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Fried chicken, country ham, pulled pork BBQ and biscuits, all named on its own site.",
+            "why": "A single cafe that says it has been serving since 1951, open for breakfast through dinner every day.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday-Friday 8am-9pm; Saturday-Sunday 7am-9pm.",
+            "open_evidence": "Own website lists current hours and promotes Thanksgiving meal pre-orders; the page shows no visible copyright year, but its hours graphic was uploaded in 2026/03 per the page source (viewed 2026-10-14).",
+            "source_url": "https://www.lovelesscafe.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Gatlinburg",
+        "note": "Per the National Park Service, limited food and beverage services, groceries, and convenience items are available in the park visitor centers and, during peak season, at the Cades Cove store. Our advice: plan meals in Gatlinburg around park days rather than counting on the park for a sit-down meal.",
+        "note_source_url": "https://www.nps.gov/grsm/planyourvisit/eatingsleeping.htm",
+        "eats": [
+          {
+            "name": "Pancake Pantry",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Its site names no specific dishes; it says the breakfast menu is available all day and the lunch menu starts after 11:30am.",
+            "why": "A pancake house on the Parkway itself (628 Parkway), handy for a morning on the strip before heading into the park.",
+            "price_tier": null,
+            "hours_note": "Own site: open daily 7am-3pm; closed Thanksgiving and Christmas.",
+            "open_evidence": "Own website lists hours and carries a 'Copyright 2026 Pancake Pantry' footer (viewed 2026-10-14).",
+            "source_url": "https://www.pancakepantry.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Wild Plum Tea Room",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Its site lists seafood specials, sandwiches, a signature chicken salad, soups and desserts, and mentions a lobster pie.",
+            "why": "A small lunch-only tea room at 555 Buckhorn Road in Gatlinburg's Arts & Crafts Community, away from the Parkway crowds.",
+            "price_tier": null,
+            "hours_note": "Open Thursday, Friday and Saturday only, 11am-3pm. Advance reservations only (no walk-ins or same-day reservations); text or call 865-436-3808. Closed Thanksgiving Day (Nov 26, 2026) and for the season from Sunday Nov 29, 2026 until mid-March 2027.",
+            "open_evidence": "Own website lists reservations through Nov 28, 2026 and a 2026 season closing date, with a 'Copyright 2026' footer (viewed 2026-10-14).",
+            "source_url": "https://www.wildplumtearoom.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Smoky Mountain Trout House",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Local trout fried, baked, blackened or bacon-stuffed; its site also lists chicken, catfish and shrimp.",
+            "why": "A single-location dinner restaurant at 410 Parkway that calls itself locally owned and operated and says it has served since 1975.",
+            "price_tier": null,
+            "hours_note": "Own site: open daily 3:00 PM-9:00 PM. The page shows no visible year.",
+            "open_evidence": "Own website lists daily hours and a current menu; it shows no visible year, but the page source carries CMS updated-at timestamps of 2026-03-13 (viewed 2026-10-14). This is weaker evidence than a dated footer.",
+            "source_url": "https://smokymountaintrouthousetn.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Pigeon Forge",
+        "eats": [
+          {
+            "name": "The Old Mill Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Pancakes and French toast at breakfast and Southern-style lunch and dinner plates; its site says the kitchen makes 2,500 biscuits and 120 pecan pies daily.",
+            "why": "A riverside Southern restaurant on Old Mill Avenue in Pigeon Forge serving breakfast, lunch and dinner every day.",
+            "price_tier": null,
+            "hours_note": "Own site: breakfast daily 8-11am, lunch 11am-4pm, dinner 4-9:30pm; no reservations accepted. No closure dates were listed for 2026.",
+            "open_evidence": "Own website lists daily meal hours and carries a 2026 copyright footer (viewed 2026-10-14).",
+            "source_url": "http://www.old-mill.com/the-old-mill-restaurant",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Townsend",
+        "note": "Per the National Park Service, limited food and beverage services, groceries, and convenience items are available in the park visitor centers and, during peak season, at the Cades Cove store. Our advice: eat in Townsend before or after the Cades Cove Loop rather than relying on the park for a meal.",
+        "note_source_url": "https://www.nps.gov/grsm/planyourvisit/eatingsleeping.htm",
+        "eats": [
+          {
+            "name": "Burger Master Drive-In",
+            "kind": "drive_in",
+            "meal": "lunch",
+            "what_to_order": "Burgers, hot dogs and Mayfield soft-serve ice cream, milkshakes and banana splits, all listed on its site.",
+            "why": "A single-location drive-in at 8439 State Hwy 73 whose site says it has been a staple of the valley for generations, a quick stop near the Cades Cove end of the park.",
+            "price_tier": null,
+            "hours_note": "Seasonal. Fall hours Sept 8-Nov 1: open Wednesday-Sunday, closed Monday and Tuesday; Wed/Thu/Sun grill and ice cream 11am-8pm; Fri/Sat grill 11am-8pm, ice cream until 9pm. Closed for the season from Nov 2 until March (date TBD); the site says 'See you in March 2027!'.",
+            "open_evidence": "Own website lists the fall 2026 schedule and a March 2027 reopening message (viewed 2026-10-14, a Wednesday inside the Sept 8-Nov 1 window).",
+            "source_url": "https://www.burgermaster.net/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Riverstone Family Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Its site shows burgers, steaks, sandwiches, fried chicken, fish and breakfast items such as French toast.",
+            "why": "A family restaurant at 8503 TN-73 on the national-park end of Townsend that says it has operated since 2004 and serves breakfast, lunch and dinner.",
+            "price_tier": null,
+            "hours_note": "Own site: daily 7:30 AM-10:00 PM, stated as year-round.",
+            "open_evidence": "Own website lists daily hours and address; it shows no visible year, but the page source carries 2026 dates including a 2026-10-06 timestamp (viewed 2026-10-14). This is weaker evidence than a dated footer.",
+            "source_url": "https://www.riverstonefamilyrestaurant.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 4,
+        "town": "Nashville"
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 5,
+        "town": "Nashville"
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 6,
+        "town": "Nashville"
+      },
+      {
+        "itinerary_title": "New Orleans + Nashville",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Great Smoky Mountains: Gatlinburg, Pigeon Forge & the Park",
+        "day_number": 1,
+        "town": "Gatlinburg"
+      },
+      {
+        "itinerary_title": "Great Smoky Mountains: Gatlinburg, Pigeon Forge & the Park",
+        "day_number": 2,
+        "town": "Gatlinburg"
+      },
+      {
+        "itinerary_title": "Great Smoky Mountains: Gatlinburg, Pigeon Forge & the Park",
+        "day_number": 3,
+        "town": "Townsend"
+      },
+      {
+        "itinerary_title": "Great Smoky Mountains: Gatlinburg, Pigeon Forge & the Park",
+        "day_number": 4,
+        "town": "Pigeon Forge"
+      },
+      {
+        "itinerary_title": "Great Smoky Mountains: Gatlinburg, Pigeon Forge & the Park",
+        "day_number": 5,
+        "town": "Gatlinburg"
       }
     ]
   },

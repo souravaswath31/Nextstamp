@@ -231,7 +231,8 @@
         ],
         "lodging_suggestion": "New Orleans",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "New Orleans"
       },
       {
         "day_number": 2,
@@ -242,7 +243,8 @@
         ],
         "lodging_suggestion": "New Orleans",
         "latitude": 29.956142,
-        "longitude": -90.073393
+        "longitude": -90.073393,
+        "eat_town": "New Orleans"
       },
       {
         "day_number": 3,
@@ -253,7 +255,8 @@
         ],
         "lodging_suggestion": "New Orleans",
         "latitude": 29.956142,
-        "longitude": -90.073393
+        "longitude": -90.073393,
+        "eat_town": "New Orleans"
       },
       {
         "day_number": 4,
@@ -264,7 +267,8 @@
         "drive_time": "7-8 hrs drive or short flight",
         "lodging_suggestion": "Nashville",
         "latitude": 29.956142,
-        "longitude": -90.073393
+        "longitude": -90.073393,
+        "eat_town": "Nashville"
       },
       {
         "day_number": 5,
@@ -275,7 +279,8 @@
         ],
         "lodging_suggestion": "Nashville",
         "latitude": 36.219254,
-        "longitude": -86.697952
+        "longitude": -86.697952,
+        "eat_town": "Nashville"
       },
       {
         "day_number": 6,
@@ -286,14 +291,16 @@
         ],
         "lodging_suggestion": "Nashville",
         "latitude": 36.162277,
-        "longitude": -86.774298
+        "longitude": -86.774298,
+        "eat_town": "Nashville"
       },
       {
         "day_number": 7,
         "title": "Fly home",
         "activities": [],
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "related_states": [
@@ -2331,7 +2338,8 @@
         "lodging_suggestion": "Crater Lake area",
         "coffee_wifi_spot": null,
         "latitude": 42.941523,
-        "longitude": -122.098771
+        "longitude": -122.098771,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -2343,7 +2351,8 @@
         "lodging_suggestion": "Crater Lake area",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -2355,7 +2364,8 @@
         "lodging_suggestion": "McKenzie Bridge",
         "coffee_wifi_spot": null,
         "latitude": 44.174824,
-        "longitude": -122.163314
+        "longitude": -122.163314,
+        "eat_town": "McKenzie Bridge"
       },
       {
         "day_number": 4,
@@ -2367,7 +2377,8 @@
         "lodging_suggestion": "Hood River or Corbett",
         "coffee_wifi_spot": null,
         "latitude": 42.708118,
-        "longitude": -122.582955
+        "longitude": -122.582955,
+        "eat_town": "Hood River"
       },
       {
         "day_number": 5,
@@ -2380,7 +2391,8 @@
         "lodging_suggestion": "Corbett",
         "coffee_wifi_spot": null,
         "latitude": 45.657502,
-        "longitude": -121.074481
+        "longitude": -121.074481,
+        "eat_town": "Multnomah Falls"
       },
       {
         "day_number": 6,
@@ -2393,7 +2405,8 @@
         "lodging_suggestion": "Portland",
         "coffee_wifi_spot": null,
         "latitude": 45.520247,
-        "longitude": -122.674194
+        "longitude": -122.674194,
+        "eat_town": "Portland"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4353,7 +4366,8 @@
         "lodging_suggestion": "Haines Falls",
         "coffee_wifi_spot": null,
         "latitude": 42.193515,
-        "longitude": -74.063945
+        "longitude": -74.063945,
+        "eat_town": "Tannersville"
       },
       {
         "day_number": 2,
@@ -4366,7 +4380,8 @@
         "lodging_suggestion": "Hunter",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -4379,7 +4394,8 @@
         "lodging_suggestion": "Cragsmoor",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -4391,7 +4407,8 @@
         "lodging_suggestion": "Big Indian",
         "coffee_wifi_spot": null,
         "latitude": 42.039236,
-        "longitude": -74.394806
+        "longitude": -74.394806,
+        "eat_town": "Phoenicia"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5749,7 +5766,8 @@
         "lodging_suggestion": "Midtown Manhattan",
         "coffee_wifi_spot": null,
         "latitude": 40.713548,
-        "longitude": -74.005426
+        "longitude": -74.005426,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -5762,7 +5780,8 @@
         "lodging_suggestion": "Midtown Manhattan",
         "coffee_wifi_spot": null,
         "latitude": 40.72288,
-        "longitude": -73.99875
+        "longitude": -73.99875,
+        "eat_town": "Lower East Side"
       },
       {
         "day_number": 3,
@@ -5775,7 +5794,8 @@
         "lodging_suggestion": "Midtown Manhattan",
         "coffee_wifi_spot": null,
         "latitude": 40.755117,
-        "longitude": -73.98478
+        "longitude": -73.98478,
+        "eat_town": "Midtown Manhattan"
       },
       {
         "day_number": 4,
@@ -5788,7 +5808,8 @@
         "lodging_suggestion": "Midtown Manhattan",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Williamsburg"
       },
       {
         "day_number": 5,
@@ -5801,7 +5822,8 @@
         "lodging_suggestion": "Midtown Manhattan",
         "coffee_wifi_spot": null,
         "latitude": 40.758243,
-        "longitude": -73.804402
+        "longitude": -73.804402,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -5814,7 +5836,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 40.846651,
-        "longitude": -73.878594
+        "longitude": -73.878594,
+        "eat_town": "Arthur Avenue, Bronx"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -6935,7 +6958,8 @@
         "lodging_suggestion": "Gatlinburg",
         "coffee_wifi_spot": null,
         "latitude": 35.714259,
-        "longitude": -83.510164
+        "longitude": -83.510164,
+        "eat_town": "Gatlinburg"
       },
       {
         "day_number": 2,
@@ -6949,7 +6973,8 @@
         "lodging_suggestion": "Gatlinburg",
         "coffee_wifi_spot": null,
         "latitude": 35.017566,
-        "longitude": -89.806279
+        "longitude": -89.806279,
+        "eat_town": "Gatlinburg"
       },
       {
         "day_number": 3,
@@ -6963,7 +6988,8 @@
         "lodging_suggestion": "Townsend or Gatlinburg",
         "coffee_wifi_spot": null,
         "latitude": 35.608953,
-        "longitude": -83.804477
+        "longitude": -83.804477,
+        "eat_town": "Townsend"
       },
       {
         "day_number": 4,
@@ -6977,7 +7003,8 @@
         "lodging_suggestion": "Pigeon Forge",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Pigeon Forge"
       },
       {
         "day_number": 5,
@@ -6991,7 +7018,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 35.813203,
-        "longitude": -83.246217
+        "longitude": -83.246217,
+        "eat_town": "Gatlinburg"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -7031,7 +7059,8 @@
         "lodging_suggestion": "Lafayette",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Lafayette"
       },
       {
         "day_number": 2,
@@ -7045,7 +7074,8 @@
         "lodging_suggestion": "Breaux Bridge",
         "coffee_wifi_spot": null,
         "latitude": 29.892829,
-        "longitude": -91.494232
+        "longitude": -91.494232,
+        "eat_town": "Breaux Bridge"
       },
       {
         "day_number": 3,
@@ -7058,7 +7088,8 @@
         "lodging_suggestion": "New Iberia",
         "coffee_wifi_spot": null,
         "latitude": 30.125201,
-        "longitude": -91.83345
+        "longitude": -91.83345,
+        "eat_town": "New Iberia"
       },
       {
         "day_number": 4,
@@ -7071,7 +7102,8 @@
         "lodging_suggestion": "Lafayette",
         "coffee_wifi_spot": null,
         "latitude": 29.898539,
-        "longitude": -91.906231
+        "longitude": -91.906231,
+        "eat_town": "Avery Island"
       },
       {
         "day_number": 5,
@@ -7084,7 +7116,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 30.633708,
-        "longitude": -92.419775
+        "longitude": -92.419775,
+        "eat_town": "Ville Platte"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -10641,7 +10674,8 @@
         "lodging_suggestion": "Cannon Beach, OR",
         "coffee_wifi_spot": null,
         "latitude": 45.875268,
-        "longitude": -123.962574
+        "longitude": -123.962574,
+        "eat_town": "Cannon Beach"
       },
       {
         "day_number": 2,
@@ -10655,7 +10689,8 @@
         "lodging_suggestion": "Newport, OR",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Newport"
       },
       {
         "day_number": 3,
@@ -10668,7 +10703,8 @@
         "lodging_suggestion": "Florence, OR",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Florence"
       },
       {
         "day_number": 4,
@@ -10682,7 +10718,8 @@
         "lodging_suggestion": "Bandon, OR",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Bandon"
       },
       {
         "day_number": 5,
@@ -10696,7 +10733,8 @@
         "lodging_suggestion": "Bandon, OR",
         "coffee_wifi_spot": null,
         "latitude": 43.119563,
-        "longitude": -124.409409
+        "longitude": -124.409409,
+        "eat_town": "Bandon"
       },
       {
         "day_number": 6,
@@ -10708,7 +10746,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-water.jpg"
