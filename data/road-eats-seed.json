@@ -1089,6 +1089,179 @@
     ]
   },
   {
+    "region_key": "idaho",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "Stanley",
+        "note": "The Stanley Chamber's dining guide (copyright 2026) tags each listing with the seasons it is open (fall, spring/summer, winter), and some listed places, such as Idaho Rocky Mountain Ranch, are tagged spring/summer only. Our advice: check the closing dates on each card below before you plan a meal here, because the three places we could confirm all end their season between 17 and 25 October 2026.",
+        "note_source_url": "https://stanleycc.org/eat/",
+        "eats": [
+          {
+            "name": "Stanley Baking Company & Cafe",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The Stanley chamber's guide lists croissants and cinnamon rolls among the fresh-baked pastries; the bakery's own site lists breakfast, lunch and baked goods sections.",
+            "why": "A bakery-cafe on Wall Street in Stanley that describes itself as set amid the Sawtooth mountains and the Salmon river, open for breakfast and lunch.",
+            "price_tier": null,
+            "hours_note": "Open daily 7am-2pm. Own site says 'Last day of the Season, Sunday 10/18' (the page shows no year; 18 October is a Sunday in 2026, and its FAQ says the season runs from the second week of May through the third week of October). Closed for the winter after that.",
+            "open_evidence": "Own website homepage shows hours and a 'Last day of the Season, Sunday 10/18' banner, and the Stanley Chamber's 2026 dining guide lists it as open in fall (both viewed 2026-10-14); the bakery's own pages carry no year.",
+            "source_url": "https://stanleybakingco.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Sawtooth Hotel",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The hotel's page describes Northwest comfort food in a rustic setting and does not name dishes; the Stanley chamber's guide notes patio dining with vegan and gluten-free options.",
+            "why": "Dinner at a hotel on Ace of Diamonds Street, Stanley's main road, with a patio and live music per the chamber's guide.",
+            "price_tier": null,
+            "hours_note": "Dinner Thursday-Monday 5-9pm. Own site says 'Last night of the Season, Saturday 10/17' (no year shown; 17 October is a Saturday in 2026, so this is three days after 2026-10-14). Chamber guide lists it as open fall and spring/summer only.",
+            "open_evidence": "Own website homepage lists dinner service Thursday-Monday 5-9pm and 'Last night of the Season, Saturday 10/17'; Stanley Chamber 2026 guide lists it as open in fall (both viewed 2026-10-14); the hotel's page shows no year.",
+            "source_url": "https://www.sawtoothhotel.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Stanley Supper Club",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "No dishes are named on the venue's homepage; the Stanley chamber's guide describes it as elevated dining with James Beard-nominated cuisine.",
+            "why": "A dinner restaurant in Stanley's town square that, unlike the three-season places, has a published winter reopening in January 2027.",
+            "price_tier": null,
+            "hours_note": "Fall hours Friday-Monday 5-9pm, closed Tuesday-Thursday. 'Sunday October 25th: Last Day of the Season', reopening for winter in early January 2027.",
+            "open_evidence": "Own website states fall hours, a last day of Sunday October 25th and a reopening in early January 2027, so it is tied to this season; Stanley Chamber 2026 guide also lists it (both viewed 2026-10-14).",
+            "source_url": "https://www.stanleysupperclub.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Ketchum",
+        "eats": [
+          {
+            "name": "Pioneer Saloon",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The James Beard Foundation's signature dishes, as reported by the Idaho Mountain Express, include the Jim Spud (baked potato with teriyaki beef and cheese), smoked Idaho trout and steamed artichoke; Visit Sun Valley lists steaks, prime rib, seafood and ribs.",
+            "why": "A 2025 James Beard America's Classics winner in a building that has served Ketchum since the 1940s, run by the same family since 1986.",
+            "price_tier": null,
+            "hours_note": "Open daily; bar opens 3:30pm. The dining room opens at 4:30pm per the saloon's own site but 5pm per Visit Sun Valley's listing, so arrive after 5pm. Visit Sun Valley says no reservations are accepted.",
+            "open_evidence": "Idaho Mountain Express (28 Feb 2025) reports its 2025 James Beard America's Classics award; the saloon's own site and Visit Sun Valley's listing both show current daily hours (viewed 2026-10-14); neither listing page carries a year.",
+            "source_url": "https://www.mtexpress.com/news/business/pioneer-saloon-named-an-american-classic/article_51b53cdc-f616-11ef-a0c2-835c1a9f4c59.html",
+            "source_name": "Idaho Mountain Express (local newspaper)"
+          }
+        ]
+      },
+      {
+        "town": "Boise",
+        "note": "Bruneau Dunes State Park's own page says only that its visitor center sells gifts, souvenirs, drinks and snacks, and lists no restaurant. Our advice: for the Bruneau Dunes day, eat in Boise before you drive out and carry lunch and dinner supplies.",
+        "note_source_url": "https://parksandrecreation.idaho.gov/state-park/bruneau-dunes-state-park/",
+        "eats": [
+          {
+            "name": "Bar Gernika",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The menu page lists the Lamb Grinder, Solomo, Lamb Stew, Croquetas and Tortilla de Patatas, with Basque Style Rice Pudding for dessert.",
+            "why": "Basque food on Boise's Basque Block, where the downtown association says it has operated for nearly two decades.",
+            "price_tier": null,
+            "hours_note": "Own site: open until 9pm Tuesday-Thursday and 10pm Friday-Saturday, closed Sunday and Monday; take-out and dine-in, no third-party delivery. The Downtown Boise Association lists different hours (including Monday and later closing), so call (208) 344-2175 to confirm.",
+            "open_evidence": "Own website shows a 2026 copyright footer, 'now open for dine in and take-out' and current hours, and its menu page lists dishes; the Downtown Boise Association (copyright 1987-2026) also lists it (viewed 2026-10-14).",
+            "source_url": "https://www.bargernika.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Basque Market",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "Rotating daily pintxos, croquetas, and paella, which the site says is cooked on the patio on Wednesdays and Fridays at noon.",
+            "why": "A Basque restaurant and imported-goods market on the same block, where the paella is cooked outdoors on set days.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Saturday 11am-5pm, closed Sunday and Monday, holiday hours may differ. Paella Wednesday and Friday at noon and first Thursday of the month at 6pm; the Downtown Boise Association lists $10.99 a plate.",
+            "open_evidence": "Own website lists current hours and a paella schedule with no year on the page; the Downtown Boise Association (site copyright 1987-2026) lists the same hours (both viewed 2026-10-14).",
+            "source_url": "https://www.thebasquemarket.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Twin Falls",
+        "note": "The National Park Service says the monument at Hagerman Fossil Beds has no dining or lodging, and that visitor services there are extremely limited (page last updated 27 April 2022). Our advice: for the Hagerman Valley day, eat in Twin Falls before you drive out; we could not confirm a Hagerman restaurant is open this pass, so check a place's own page or phone before you go.",
+        "note_source_url": "https://www.nps.gov/hafo/planyourvisit/basicinfo.htm",
+        "eats": [
+          {
+            "name": "Milner's Gate",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "The menu page quotes diners praising the Brie and Fig Burger, Ultimate Prime Rib Sandwich and Biscuits and Gravy, and the site advertises a Sunday brunch and its own house brews.",
+            "why": "A downtown Twin Falls brewpub with a 10-barrel in-house brewery, serving lunch and dinner plus Sunday brunch.",
+            "price_tier": null,
+            "hours_note": "Closed Monday. Tuesday-Saturday 11am-closing, Sunday brunch 9:30am-2pm. Closed July 4, New Year's Day and Christmas Day.",
+            "open_evidence": "Own website lists current hours, a happy hour and a Sunday brunch menu (viewed 2026-10-14); the page shows no year, so this is weaker evidence than a dated page.",
+            "source_url": "https://www.milnersgate.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Idaho: Sawtooth Mountains → Sun Valley",
+        "day_number": 1,
+        "town": "Stanley"
+      },
+      {
+        "itinerary_title": "Idaho: Sawtooth Mountains → Sun Valley",
+        "day_number": 2,
+        "town": "Stanley"
+      },
+      {
+        "itinerary_title": "Idaho: Sawtooth Mountains → Sun Valley",
+        "day_number": 3,
+        "town": "Stanley"
+      },
+      {
+        "itinerary_title": "Idaho: Sawtooth Mountains → Sun Valley",
+        "day_number": 4,
+        "town": "Ketchum"
+      },
+      {
+        "itinerary_title": "Idaho: Sawtooth Mountains → Sun Valley",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Boise & the Snake River Valley",
+        "day_number": 1,
+        "town": "Boise"
+      },
+      {
+        "itinerary_title": "Boise & the Snake River Valley",
+        "day_number": 2,
+        "town": "Boise"
+      },
+      {
+        "itinerary_title": "Boise & the Snake River Valley",
+        "day_number": 3,
+        "town": "Boise"
+      },
+      {
+        "itinerary_title": "Boise & the Snake River Valley",
+        "day_number": 4,
+        "town": "Twin Falls"
+      },
+      {
+        "itinerary_title": "Boise & the Snake River Valley",
+        "day_number": 5,
+        "town": "Twin Falls"
+      },
+      {
+        "itinerary_title": "Boise & the Snake River Valley",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "maine",
     "last_verified_date": "2026-10-03",
     "stops": [
@@ -1332,6 +1505,182 @@
       {
         "itinerary_title": "Portland, Maine & the Midcoast",
         "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "montana",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "Columbia Falls",
+        "note": "Per the NPS Operating Hours & Seasons page (last updated September 13, 2022, so confirm current status), the camp store in Apgar Village 'may still be open and provides snacks and drinks' once the park's seasonal services wind down. Our advice: eat in Columbia Falls or Hungry Horse before heading into the park and pack lunch and snacks for park days.",
+        "note_source_url": "https://www.nps.gov/glac/planyourvisit/hours.htm",
+        "eats": [
+          {
+            "name": "Outlaw Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The menu lists scrambles, biscuits n gravy, waffles and local Angus burgers.",
+            "why": "An all-day breakfast and lunch counter on Nucleus Avenue in Columbia Falls, a one-location diner that serves seven days a week.",
+            "price_tier": null,
+            "hours_note": "Open 7 am to 3 pm, seven days a week. Counter service only, and the site says it does not prepare eggs to order.",
+            "open_evidence": "Own website shows 7 am-3 pm daily hours and a current menu with a 2026 copyright footer (viewed 2026-10-14).",
+            "source_url": "https://outlawdiner.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Huckleberry Patch",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "Per Glacier Country's listing, Erna's 'World Famous Homemade Huckleberry Pies'; the business also runs a bakery and restaurant.",
+            "why": "In the neighbouring town of Hungry Horse rather than Columbia Falls itself: Montana's original huckleberry cannery, on US Highway 2 on the way to the park's west entrance.",
+            "price_tier": null,
+            "hours_note": "Open year-round with seasonal hours. Own site: summer 9 am-9 pm, winter 11 am-6 pm; Glacier Country listing: fall 9 am-8 pm, winter 10 am-6 pm. The two pages disagree on the winter opening time and the own site does not say when the winter schedule starts, so check before driving out late in the day. Own site notes closures and reduced hours around Thanksgiving, Christmas and New Year's Day.",
+            "open_evidence": "Own website lists summer and winter hours and holiday hours with a 2026 footer, and the Glacier Country tourism listing states it is open year-round (both viewed 2026-10-14).",
+            "source_url": "https://glaciermt.com/listing/the-huckleberry-patch",
+            "source_name": "Glacier Country tourism listing (own site: huckleberrypatch.com)"
+          },
+          {
+            "name": "Three Forks Grille",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The page shows a dinner menu of appetizers, entrees and desserts but the text we could read named no individual dishes.",
+            "why": "A dinner restaurant on Nucleus Avenue in Columbia Falls that says on its site it has been operating since 2010.",
+            "price_tier": null,
+            "hours_note": "Site says open 7 days a week from 5 pm, seating until 9 pm, first-come first-served.",
+            "open_evidence": "Own website lists current hours and a dinner menu (viewed 2026-10-14), but the page shows no year or copyright date, so this is weaker evidence than the other eats; call 406-892-2900 to confirm.",
+            "source_url": "https://www.threeforksgrille.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Missoula",
+        "eats": [
+          {
+            "name": "Paul's Pancake Parlor",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Pancakes: the menu lists buttermilk, caramel pecan nut, buckwheat, sourdough and blueberry sourdough varieties, and it highlights a sourdough starter described as 'well over 100 years old'.",
+            "why": "An old-school Missoula breakfast diner on Brooks Street that says it has been serving since 1963.",
+            "price_tier": null,
+            "hours_note": "Open every day 6 am-4 pm.",
+            "open_evidence": "Destination Missoula's breakfast guide, updated 11/7/25, lists it at 2305 Brooks Street with daily 6 am-4 pm hours, and its own site shows the same hours and current menu (viewed 2026-10-14; the own site's footer year is not reliable, so the dated tourism page is the main evidence).",
+            "source_url": "https://www.paulspancake.com/menu",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Ruby's Cafe",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The tourism page describes an old-school diner with a classic breakfast menu and names no individual dishes.",
+            "why": "A diner on Regent Street in Missoula that stays open through mid-afternoon, useful for a late breakfast or early lunch.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 6 am-4 pm; Sunday 8 am-3 pm.",
+            "open_evidence": "Destination Missoula's breakfast guide, updated 11/7/25, lists it at 2101 Regent Street with current hours (viewed 2026-10-14); we did not reach its own website.",
+            "source_url": "https://destinationmissoula.org/blog/top-breakfast-brunch-spots",
+            "source_name": "Destination Missoula (tourism board)"
+          },
+          {
+            "name": "Cafe Mimosa",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Chicken and waffles, acai bowls and avocado toast, per the tourism page.",
+            "why": "A breakfast and lunch cafe at 101 S Higgins Ave in Missoula.",
+            "price_tier": null,
+            "hours_note": "Open every day 8 am-3 pm.",
+            "open_evidence": "Destination Missoula's breakfast guide, updated 11/7/25, lists it with daily 8 am-3 pm hours (viewed 2026-10-14); we did not reach its own website.",
+            "source_url": "https://destinationmissoula.org/blog/top-breakfast-brunch-spots",
+            "source_name": "Destination Missoula (tourism board)"
+          }
+        ]
+      },
+      {
+        "town": "Hamilton",
+        "eats": [
+          {
+            "name": "Red Rooster Artisan Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Cranberry walnut bread, lemon bars, carrot cake and a BLT with avocado are named on the site.",
+            "why": "A bakery and cafe on South First Street in Hamilton that bakes hand-shaped artisan loaves in a brick oven, a good breakfast or lunch stop on the Bitterroot Valley day.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 7 am-3 pm (breakfast 7-11 am, lunch 11 am-3 pm); closed Sunday.",
+            "open_evidence": "Own website lists current hours, menu and online ordering with a 2026 copyright footer (viewed 2026-10-14).",
+            "source_url": "https://redroosterhamilton.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "2nd Street Sushi and Asian Grill",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The homepage names no individual dishes; it describes Asian cuisine with dine-in and takeout.",
+            "why": "A Hamilton restaurant that says on its own site it has been serving Asian cuisine since August 2008, and one of the few Hamilton places we could verify for dinner.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Saturday 11 am-9 pm; closed Sunday and Monday, Thanksgiving and Christmas.",
+            "open_evidence": "Own website lists current hours and holiday closures with a 'Copyright 2025' footer (viewed 2026-10-14).",
+            "source_url": "https://2ndstreetsushi.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
+        "day_number": 1,
+        "town": "Columbia Falls"
+      },
+      {
+        "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
+        "day_number": 2,
+        "town": "Columbia Falls"
+      },
+      {
+        "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Missoula & the Bitterroot Valley",
+        "day_number": 1,
+        "town": "Missoula"
+      },
+      {
+        "itinerary_title": "Missoula & the Bitterroot Valley",
+        "day_number": 2,
+        "town": "Missoula"
+      },
+      {
+        "itinerary_title": "Missoula & the Bitterroot Valley",
+        "day_number": 3,
+        "town": "Hamilton"
+      },
+      {
+        "itinerary_title": "Missoula & the Bitterroot Valley",
+        "day_number": 4,
+        "town": "Hamilton"
+      },
+      {
+        "itinerary_title": "Missoula & the Bitterroot Valley",
+        "day_number": 5,
         "town": null
       }
     ]
@@ -1888,6 +2237,395 @@
         "itinerary_title": "Salt Lake City & Park City",
         "day_number": 6,
         "town": "Park City"
+      }
+    ]
+  },
+  {
+    "region_key": "washington",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "Seattle",
+        "eats": [
+          {
+            "name": "Pike Place Chowder",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "The chowders, which its own page describes as award-winning and made with certified sustainable seafood.",
+            "why": "A two-location Seattle business whose flagship is at 1530 Post Alley inside Pike Place Market, right on the Day 1 market stop.",
+            "price_tier": null,
+            "hours_note": "Pike Place Market location: daily 11 AM to 5 PM per its locations page.",
+            "open_evidence": "Own locations page lists the Pike Place Market hours and carries a 2026 copyright footer (viewed 2026-10-14).",
+            "source_url": "https://www.pikeplacechowder.com/locations",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mee Sum Pastry",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Hom bows (BBQ pork, chicken, curried beef or vegetarian) or the BBQ pork-on-a-stick.",
+            "why": "A family-run hom bow and dim sum counter inside Pike Place Market; the Pike Place Market page names owners Jack and Melissa Fong.",
+            "price_tier": null,
+            "hours_note": "Open daily 8am to 6:30pm per the Pike Place Market vendor page.",
+            "open_evidence": "Pike Place Market's vendor page lists current daily hours, has a 2026 copyright footer and blog posts dated through June 2026 (viewed 2026-10-14).",
+            "source_url": "https://www.pikeplacemarket.org/vendor/mee-sum-pastry/",
+            "source_name": "Pike Place Market official site"
+          }
+        ]
+      },
+      {
+        "town": "Ashford",
+        "note": "Per the National Park Service (page last updated December 2024), the National Park Inn at Longmire has a restaurant serving breakfast, lunch and dinner that is \"the only in-park dining facility that is open all year\"; the Paradise Inn restaurant and cafe \"are open only from May to early October\"; and the Sunrise Day Lodge snack bar is usually open July through September. Our advice: for Day 1, eat in Ashford rather than counting on food at Paradise, especially outside summer.",
+        "note_source_url": "https://www.nps.gov/mora/planyourvisit/restaurants.htm",
+        "eats": [
+          {
+            "name": "Copper Creek Inn Restaurant",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The house-made blackberry pie, which the page calls a signature item, or the cinnamon rolls called Copper Toppers.",
+            "why": "On the road to the Nisqually entrance in Ashford, it has operated as a restaurant since 1946 according to Visit Rainier.",
+            "price_tier": null,
+            "hours_note": "Per Visit Rainier: open year-round; Monday and Thursday 11am-6pm, Friday to Sunday 11am-7pm, closed Tuesday and Wednesday.",
+            "open_evidence": "Visit Rainier's restaurant page lists current weekly hours and a 2026 copyright, and the inn's own site (also 2026 copyright) names the blackberry pie; the own site does not list hours (viewed 2026-10-14).",
+            "source_url": "https://visitrainier.com/copper-creek-restaurant/",
+            "source_name": "Visit Rainier (regional tourism site)"
+          },
+          {
+            "name": "Wildberry Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "A Himalayan (Nepalese) special or one of the Summit Burgers, both named on its own page.",
+            "why": "Family-run place in Ashford pairing American mountain fare with a Himalayan specials menu; its page credits owners Angdawa and Lhakpa Gelu Sherpa.",
+            "price_tier": null,
+            "hours_note": "Seasonal: open May through October each year, and no exact closing date is stated. Hours: Friday to Tuesday 12pm-8pm, Wednesday 12pm-7:30pm, closed Thursday; last dine-in order 7:30pm. Call ahead near the end of October.",
+            "open_evidence": "Own website says it is \"NOW open for the 2026 season\" and lists current hours (viewed 2026-10-14).",
+            "source_url": "http://www.rainierwildberry.com/html/wildberry.html",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Spokane",
+        "eats": [
+          {
+            "name": "Domini Sandwiches",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "A deli sandwich such as the Reuben, pastrami or roast beef; the site says the menu is basic, with house-roasted meats and fresh-baked bread.",
+            "why": "A downtown Spokane sandwich shop that dates to 1963; per the Inlander (November 2024) the owner retired and passed it to longtime employees.",
+            "price_tier": null,
+            "hours_note": "Monday to Friday 10am-2:30pm, closed Saturday and Sunday (own website, no year shown).",
+            "open_evidence": "Spokesman-Review (23 September 2026) lists it among current Spokane eats as reopened in 2025 under new ownership; own site lists Monday-Friday hours but shows no year (viewed 2026-10-14).",
+            "source_url": "https://dominispokane.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Cottage Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Chicken fried steak and eggs (per the Spokesman-Review); the cafe's own site says clam chowder is served on Fridays in fall and winter.",
+            "why": "In the neighbouring city of Spokane Valley rather than Spokane itself; a one-location breakfast and lunch cafe open daily.",
+            "price_tier": null,
+            "hours_note": "Open 7 days a week 7am-2pm; closed Thanksgiving Day and Christmas Day, closes early on their eves, opens 8am on New Year's Day (own website).",
+            "open_evidence": "Own website lists current hours and links a menu file named for 2026, and the Spokesman-Review of 23 September 2026 lists it with 7 AM-2 PM daily hours (viewed 2026-10-14).",
+            "source_url": "https://www.cottagecafe.biz/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Friday Harbor",
+        "eats": [
+          {
+            "name": "Riptide Waterfront Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "An island-inspired breakfast sandwich with locally roasted coffee or espresso, or a fresh-baked pastry.",
+            "why": "A waterfront cafe at 10 Front Street in Friday Harbor that has served the island since 2016, a quick breakfast after the Day 2 ferry crossing.",
+            "price_tier": null,
+            "hours_note": "Seasonal hours: the homepage says open 7am to 2pm every day, but its footer says 7am to 5pm daily; the page says it is open for the season.",
+            "open_evidence": "Own website carries a 2026 copyright and says it is open for the season (viewed 2026-10-14).",
+            "source_url": "https://www.riptidesanjuan.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Bakery San Juan",
+            "kind": "bakery",
+            "meal": "lunch",
+            "what_to_order": "Sourdough pizza by the slice, sourdough bread or a sandwich; the page also lists breakfast pastries and pies.",
+            "why": "An island bakery in Friday Harbor, established 2008, baking sourdough breads and pizzas.",
+            "price_tier": null,
+            "hours_note": "Monday to Friday 8am-5pm, closed Saturday and Sunday (own website, no year shown).",
+            "open_evidence": "Own website lists current hours and menu with no seasonal closure notice, but the page shows no year (copyright line has no date); weaker evidence than a dated page (viewed 2026-10-14).",
+            "source_url": "https://www.bakerysanjuan.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Eastsound",
+        "eats": [
+          {
+            "name": "Orcas Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Handmade sourdough bread and baked goods; the page names no specific items beyond that.",
+            "why": "Daily alternative to Brown Bear Baking, which is closed Tuesday to Thursday; the page says it bakes sourdough with local Pacific Northwest ingredients.",
+            "price_tier": null,
+            "hours_note": "Open every day 8am-3pm per its own website; the Orcas Island Chamber food and drink guide (undated) also lists daily 8am-3pm.",
+            "open_evidence": "Own website lists daily hours and the Orcas Island Chamber of Commerce guide agrees, but neither shows a year; weaker evidence than a dated page (viewed 2026-10-14).",
+            "source_url": "https://www.orcasbakery.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Lower Tavern",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "A burger (Best Burger, Black & Bleu, Patty Melt or Salmon Burger are named) or fish & chips.",
+            "why": "A sports tavern at 46 Prune Alley in Eastsound that serves a full kitchen daily; it is one of three local restaurants under the same ownership alongside Blackfish Cafe and Harbor Bar & Grill.",
+            "price_tier": null,
+            "hours_note": "Kitchen 11AM-10PM daily; bar open until 2AM (own website).",
+            "open_evidence": "Own website lists current kitchen hours and carries a 2026 copyright (viewed 2026-10-14).",
+            "source_url": "https://lowertavern.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 1,
+        "town": "Ashford"
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 2,
+        "town": "Spokane"
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 3,
+        "town": "Spokane"
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 8,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
+        "day_number": 9,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seattle & the San Juan Islands",
+        "day_number": 1,
+        "town": "Seattle"
+      },
+      {
+        "itinerary_title": "Seattle & the San Juan Islands",
+        "day_number": 2,
+        "town": "Friday Harbor"
+      },
+      {
+        "itinerary_title": "Seattle & the San Juan Islands",
+        "day_number": 3,
+        "town": "Friday Harbor"
+      },
+      {
+        "itinerary_title": "Seattle & the San Juan Islands",
+        "day_number": 4,
+        "town": "Eastsound"
+      },
+      {
+        "itinerary_title": "Seattle & the San Juan Islands",
+        "day_number": 5,
+        "town": "Eastsound"
+      },
+      {
+        "itinerary_title": "Seattle & the San Juan Islands",
+        "day_number": 6,
+        "town": "Seattle"
+      }
+    ]
+  },
+  {
+    "region_key": "wyoming",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "Jackson",
+        "note": "The NPS lists 2026 in-park dining dates of May 1 to October 12 for the Old Faithful Inn Dining Room and Bear Paw Deli, May 15 to October 25 for the Canyon Lodge Eatery and Lounge, and April 17 to October 31 (then December 15 to March 15) for the Old Faithful Snow Lodge Geyser Grill, and says all dates are subject to change without advance notice. Our advice: the eats below are in and around Jackson, not inside Yellowstone, so on the Lamar Valley, Canyon and Old Faithful days check the NPS dates for the year you travel and bring your own lunch.",
+        "note_source_url": "https://www.nps.gov/yell/planyourvisit/operating-dates.htm",
+        "eats": [
+          {
+            "name": "The Bunnery Bakery & Restaurant",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast or lunch plus items from the bakery, which the site says is fresh daily; the page names no individual dishes.",
+            "why": "A bakery-restaurant at 130 N. Cache Street, half a block from Town Square, so it works as a breakfast stop before a Teton day.",
+            "price_tier": null,
+            "hours_note": "Site lists breakfast 7:00-11:30 and lunch 11:30-3:00; no dinner service is listed on the page.",
+            "open_evidence": "Own website lists breakfast and lunch hours and carries a 2026 copyright footer (viewed 2026-10-14).",
+            "source_url": "https://bunnery.com/pages/restaurant",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Persephone Bakery & Cafe",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Pastries, bread and coffee; the site says the coffee comes from local Jackson Hole Roasters.",
+            "why": "A Jackson Hole bakery group with three sites (Persephone Jackson, Persephone Westbank and Picnic) that says its food is sourced from over 20 regional farms and ranches.",
+            "price_tier": null,
+            "hours_note": "Site says all cafes are open daily; the page fetched gives no hours.",
+            "open_evidence": "Own website says 'ALL CAFES ARE NOW OPEN DAILY', offers online ordering and carries a 'Copyright 2026' footer (viewed 2026-10-14).",
+            "source_url": "https://www.persephonebakery.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Nora's Fish Creek Inn",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Huevos Rancheros, which the site calls the restaurant's famous dish; breakfast is served all day.",
+            "why": "In the neighbouring town of Wilson rather than Jackson itself. A single-location restaurant that serves breakfast, lunch and dinner seven days a week, with daily dinner specials such as Prime Rib and Fish 'n Chips.",
+            "price_tier": null,
+            "hours_note": "Site lists open 7 days a week: breakfast 6:30am-2pm, lunch 11am-2pm, dinner 5pm-9pm. The site's page title reads 'Nora's Homestyle Kitchen & Bar' while its logo and footer say 'Nora's Fish Creek Inn'.",
+            "open_evidence": "Own website lists current hours, daily dinner specials and a live-music schedule, with a 2026 copyright footer and no closure or seasonal notice (viewed 2026-10-14).",
+            "source_url": "https://www.norasfishcreekinn.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Cheyenne",
+        "eats": [
+          {
+            "name": "Ranch Eats Cafe",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "The rotating daily menu; the Wyoming Tribune Eagle article mentions broccoli cheese soup, pulled pork quesadillas, the Cowboy Meets Alien Burger and pastries baked fresh daily.",
+            "why": "A downtown cafe at 1920 Thomes Ave inside the City Center Building that grew out of a 2022 food truck and uses local beef and Josie's Creamery ice cream, per the Wyoming Tribune Eagle.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Friday 8am-2pm (the June 2025 opening article said weekdays from 7am); closed weekends per that article.",
+            "open_evidence": "Own website lists current cafe hours and online ordering but its footer reads 'Copyright 2024'; Wyoming Tribune Eagle article on the downtown opening dated June 3, 2025 (page shows an update of July 9, 2026) (viewed 2026-10-14).",
+            "source_url": "https://www.rancheats.com/ranch-eats-cafe",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Albany Restaurant, Bar & Liquor Mart",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Hand-cut steaks and slow-roasted meats; the Chamber listing says soups, gravies, salad dressings and specials are made from scratch.",
+            "why": "A family-owned downtown restaurant and bar at 1506 Capitol Ave that Cheyenne's tourism board lists as opened in 1942.",
+            "price_tier": null,
+            "hours_note": "Chamber listing: restaurant 11am-2pm lunch and 5pm-9pm dinner; closed Sundays. The listing carries no year, so confirm by phone, (307) 638-3507.",
+            "open_evidence": "Cheyenne Chamber of Commerce member listing gives current hours and phone, and the Cheyenne tourism board's local-eats page lists it as family owned; neither page shows a year, so this is weaker evidence (viewed 2026-10-14).",
+            "source_url": "http://cheyennechamber.chambermaster.com/list/member/albany-restaurant-bar-liquor-mart-1026",
+            "source_name": "Cheyenne Chamber of Commerce member listing"
+          }
+        ]
+      },
+      {
+        "town": "Sundance",
+        "note": "The NPS says there are no restaurants or food options inside Devils Tower National Monument; Hulett is 10 miles north and Sundance 30 miles southeast, and Devils Tower View, one mile south of the monument, is open year round with a small restaurant (page last updated April 24, 2025).",
+        "note_source_url": "https://www.nps.gov/deto/planyourvisit/eating-and-sleeping.htm",
+        "eats": [
+          {
+            "name": "Longhorn Saloon & Grill",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Steak; the site calls it a steakhouse serving the best cuts of local beef.",
+            "why": "A family-run steakhouse at 214 Main in Sundance, run by Charity and Josh McLaughlin, and called Etta's Place until it was renamed in 2013, per the Sundance Times.",
+            "price_tier": null,
+            "hours_note": "Own site lists open daily 11am-9pm.",
+            "open_evidence": "Own website lists daily hours but shows only a 2022 copyright; Sundance Times of Aug 21, 2025 reports the owners and a filming date at the restaurant, and its March 26, 2026 legal notice lists Longhorn Saloon & Grill, LLC applying to renew its 2026/2027 liquor license (viewed 2026-10-14).",
+            "source_url": "https://longhornsaloongrill.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Yellowstone & Grand Teton, Wyoming",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Yellowstone & Grand Teton, Wyoming",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Yellowstone & Grand Teton, Wyoming",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Yellowstone & Grand Teton, Wyoming",
+        "day_number": 4,
+        "town": "Jackson"
+      },
+      {
+        "itinerary_title": "Yellowstone & Grand Teton, Wyoming",
+        "day_number": 5,
+        "town": "Jackson"
+      },
+      {
+        "itinerary_title": "Yellowstone & Grand Teton, Wyoming",
+        "day_number": 6,
+        "town": "Jackson"
+      },
+      {
+        "itinerary_title": "Cheyenne, Devils Tower & the Wyoming Plains",
+        "day_number": 1,
+        "town": "Cheyenne"
+      },
+      {
+        "itinerary_title": "Cheyenne, Devils Tower & the Wyoming Plains",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cheyenne, Devils Tower & the Wyoming Plains",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cheyenne, Devils Tower & the Wyoming Plains",
+        "day_number": 4,
+        "town": "Sundance"
+      },
+      {
+        "itinerary_title": "Cheyenne, Devils Tower & the Wyoming Plains",
+        "day_number": 5,
+        "town": "Sundance"
+      },
+      {
+        "itinerary_title": "Cheyenne, Devils Tower & the Wyoming Plains",
+        "day_number": 6,
+        "town": "Cheyenne"
       }
     ]
   }

@@ -1163,7 +1163,7 @@
         "coffee_wifi_spot": "Wildberry Restaurant, Ashford — weak signal, worth topping up devices before you head further in",
         "latitude": 47.603832,
         "longitude": -122.330062,
-        "eat_town": null
+        "eat_town": "Ashford"
       },
       {
         "day_number": 2,
@@ -1177,7 +1177,7 @@
         "coffee_wifi_spot": "Indaba Coffee, Spokane — reliable wifi for a remote-work morning before the border-adjacent stretch",
         "latitude": 46.852203,
         "longitude": -121.757516,
-        "eat_town": null
+        "eat_town": "Spokane"
       },
       {
         "day_number": 3,
@@ -1190,7 +1190,7 @@
         "lodging_suggestion": "West Glacier / Apgar campground",
         "latitude": 47.657193,
         "longitude": -117.42351,
-        "eat_town": null
+        "eat_town": "Spokane"
       },
       {
         "day_number": 4,
@@ -1927,7 +1927,8 @@
         "lodging_suggestion": "West Glacier",
         "coffee_wifi_spot": null,
         "latitude": 48.496337,
-        "longitude": -113.982443
+        "longitude": -113.982443,
+        "eat_town": "Columbia Falls"
       },
       {
         "day_number": 2,
@@ -1940,7 +1941,8 @@
         "lodging_suggestion": "Lake McDonald",
         "coffee_wifi_spot": null,
         "latitude": 48.58397,
-        "longitude": -113.919061
+        "longitude": -113.919061,
+        "eat_town": "Columbia Falls"
       },
       {
         "day_number": 3,
@@ -1953,7 +1955,8 @@
         "lodging_suggestion": "Rising Sun / St. Mary",
         "coffee_wifi_spot": null,
         "latitude": 48.516227,
-        "longitude": -113.989452
+        "longitude": -113.989452,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -1965,7 +1968,8 @@
         "lodging_suggestion": "Many Glacier",
         "coffee_wifi_spot": null,
         "latitude": 48.800418,
-        "longitude": -113.657568
+        "longitude": -113.657568,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -1977,7 +1981,8 @@
         "lodging_suggestion": "East Glacier",
         "coffee_wifi_spot": null,
         "latitude": 48.440099,
-        "longitude": -113.194916
+        "longitude": -113.194916,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -1989,7 +1994,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -2975,7 +2981,8 @@
         "lodging_suggestion": "Stanley",
         "coffee_wifi_spot": null,
         "latitude": 43.616616,
-        "longitude": -116.200886
+        "longitude": -116.200886,
+        "eat_town": "Stanley"
       },
       {
         "day_number": 2,
@@ -2987,7 +2994,8 @@
         "lodging_suggestion": "Stanley",
         "coffee_wifi_spot": null,
         "latitude": 44.173571,
-        "longitude": -115.064609
+        "longitude": -115.064609,
+        "eat_town": "Stanley"
       },
       {
         "day_number": 3,
@@ -2999,7 +3007,8 @@
         "lodging_suggestion": "Stanley",
         "coffee_wifi_spot": null,
         "latitude": 44.216716,
-        "longitude": -114.969217
+        "longitude": -114.969217,
+        "eat_town": "Stanley"
       },
       {
         "day_number": 4,
@@ -3012,7 +3021,8 @@
         "lodging_suggestion": "Ketchum",
         "coffee_wifi_spot": null,
         "latitude": 43.696215,
-        "longitude": -114.353097
+        "longitude": -114.353097,
+        "eat_town": "Ketchum"
       },
       {
         "day_number": 5,
@@ -3024,7 +3034,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5628,7 +5639,8 @@
         "lodging_suggestion": "Cooke City",
         "coffee_wifi_spot": null,
         "latitude": 44.985735,
-        "longitude": -109.42707
+        "longitude": -109.42707,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -5641,7 +5653,8 @@
         "lodging_suggestion": "Canyon Village",
         "coffee_wifi_spot": null,
         "latitude": 44.859019,
-        "longitude": -110.187967
+        "longitude": -110.187967,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -5654,7 +5667,8 @@
         "lodging_suggestion": "Old Faithful",
         "coffee_wifi_spot": null,
         "latitude": 44.460464,
-        "longitude": -110.828146
+        "longitude": -110.828146,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -5666,7 +5680,8 @@
         "lodging_suggestion": "Jenny Lake",
         "coffee_wifi_spot": null,
         "latitude": 43.741042,
-        "longitude": -110.802436
+        "longitude": -110.802436,
+        "eat_town": "Jackson"
       },
       {
         "day_number": 5,
@@ -5679,7 +5694,8 @@
         "lodging_suggestion": "Jenny Lake",
         "coffee_wifi_spot": null,
         "latitude": 43.763477,
-        "longitude": -110.730333
+        "longitude": -110.730333,
+        "eat_town": "Jackson"
       },
       {
         "day_number": 6,
@@ -5691,7 +5707,8 @@
         "lodging_suggestion": "Jackson",
         "coffee_wifi_spot": null,
         "latitude": 43.684017,
-        "longitude": -110.443663
+        "longitude": -110.443663,
+        "eat_town": "Jackson"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -7108,7 +7125,8 @@
         "lodging_suggestion": "Seattle",
         "coffee_wifi_spot": null,
         "latitude": 47.603832,
-        "longitude": -122.330062
+        "longitude": -122.330062,
+        "eat_town": "Seattle"
       },
       {
         "day_number": 2,
@@ -7121,7 +7139,8 @@
         "lodging_suggestion": "Friday Harbor",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Friday Harbor"
       },
       {
         "day_number": 3,
@@ -7134,7 +7153,8 @@
         "lodging_suggestion": "Friday Harbor",
         "coffee_wifi_spot": null,
         "latitude": 48.537089,
-        "longitude": -123.09072
+        "longitude": -123.09072,
+        "eat_town": "Friday Harbor"
       },
       {
         "day_number": 4,
@@ -7147,7 +7167,8 @@
         "lodging_suggestion": "Eastsound",
         "coffee_wifi_spot": null,
         "latitude": 48.651558,
-        "longitude": -122.817934
+        "longitude": -122.817934,
+        "eat_town": "Eastsound"
       },
       {
         "day_number": 5,
@@ -7160,7 +7181,8 @@
         "lodging_suggestion": "Eastsound",
         "coffee_wifi_spot": null,
         "latitude": 48.651558,
-        "longitude": -122.817934
+        "longitude": -122.817934,
+        "eat_town": "Eastsound"
       },
       {
         "day_number": 6,
@@ -7173,7 +7195,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Seattle"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8147,7 +8170,8 @@
         "lodging_suggestion": "Missoula",
         "coffee_wifi_spot": null,
         "latitude": 46.870105,
-        "longitude": -113.995267
+        "longitude": -113.995267,
+        "eat_town": "Missoula"
       },
       {
         "day_number": 2,
@@ -8160,7 +8184,8 @@
         "lodging_suggestion": "Missoula",
         "coffee_wifi_spot": null,
         "latitude": 47.00935,
-        "longitude": -113.89192
+        "longitude": -113.89192,
+        "eat_town": "Missoula"
       },
       {
         "day_number": 3,
@@ -8174,7 +8199,8 @@
         "lodging_suggestion": "Hamilton",
         "coffee_wifi_spot": null,
         "latitude": 46.752197,
-        "longitude": -114.089683
+        "longitude": -114.089683,
+        "eat_town": "Hamilton"
       },
       {
         "day_number": 4,
@@ -8188,7 +8214,8 @@
         "lodging_suggestion": "Missoula",
         "coffee_wifi_spot": null,
         "latitude": 45.679376,
-        "longitude": -114.302697
+        "longitude": -114.302697,
+        "eat_town": "Hamilton"
       },
       {
         "day_number": 5,
@@ -8198,7 +8225,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -8401,7 +8429,8 @@
         "lodging_suggestion": "Boise",
         "coffee_wifi_spot": null,
         "latitude": 43.616616,
-        "longitude": -116.200886
+        "longitude": -116.200886,
+        "eat_town": "Boise"
       },
       {
         "day_number": 2,
@@ -8414,7 +8443,8 @@
         "lodging_suggestion": "Boise",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Boise"
       },
       {
         "day_number": 3,
@@ -8427,7 +8457,8 @@
         "lodging_suggestion": "Bruneau",
         "coffee_wifi_spot": null,
         "latitude": 42.890901,
-        "longitude": -115.702795
+        "longitude": -115.702795,
+        "eat_town": "Boise"
       },
       {
         "day_number": 4,
@@ -8440,7 +8471,8 @@
         "lodging_suggestion": "Twin Falls",
         "coffee_wifi_spot": null,
         "latitude": 42.555854,
-        "longitude": -114.470068
+        "longitude": -114.470068,
+        "eat_town": "Twin Falls"
       },
       {
         "day_number": 5,
@@ -8453,7 +8485,8 @@
         "lodging_suggestion": "Hagerman",
         "coffee_wifi_spot": null,
         "latitude": 42.820713,
-        "longitude": -114.889318
+        "longitude": -114.889318,
+        "eat_town": "Twin Falls"
       },
       {
         "day_number": 6,
@@ -8465,7 +8498,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -9434,7 +9468,8 @@
         "lodging_suggestion": "Cheyenne",
         "coffee_wifi_spot": null,
         "latitude": 41.139981,
-        "longitude": -104.820246
+        "longitude": -104.820246,
+        "eat_town": "Cheyenne"
       },
       {
         "day_number": 2,
@@ -9448,7 +9483,8 @@
         "lodging_suggestion": "Douglas",
         "coffee_wifi_spot": null,
         "latitude": 42.21271,
-        "longitude": -104.51774
+        "longitude": -104.51774,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -9461,7 +9497,8 @@
         "lodging_suggestion": "Douglas",
         "coffee_wifi_spot": null,
         "latitude": 42.759571,
-        "longitude": -105.382624
+        "longitude": -105.382624,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -9474,7 +9511,8 @@
         "lodging_suggestion": "Sundance",
         "coffee_wifi_spot": null,
         "latitude": 44.590612,
-        "longitude": -104.715103
+        "longitude": -104.715103,
+        "eat_town": "Sundance"
       },
       {
         "day_number": 5,
@@ -9487,7 +9525,8 @@
         "lodging_suggestion": "Sundance",
         "coffee_wifi_spot": null,
         "latitude": 44.590612,
-        "longitude": -104.715103
+        "longitude": -104.715103,
+        "eat_town": "Sundance"
       },
       {
         "day_number": 6,
@@ -9499,7 +9538,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Cheyenne"
       }
     ],
     "cover_image_url": "/category-road-trip.jpg"
