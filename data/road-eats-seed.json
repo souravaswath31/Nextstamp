@@ -1089,6 +1089,236 @@
     ]
   },
   {
+    "region_key": "hawaii",
+    "last_verified_date": "2026-10-14",
+    "stops": [
+      {
+        "town": "Koloa",
+        "eats": [
+          {
+            "name": "Koloa Fish Market",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Poke bowls such as the Korean Ahi Poke or Shoyu Ahi Poke, or a plate lunch.",
+            "why": "A poke and plate-lunch counter at 3390 Poipu Rd in Koloa town, on the way down to the Poipu south-shore beaches.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Wednesday and Friday-Saturday 10am-3pm; Thursday and Sunday not listed (closed). The holiday hours on the page are for 2024, so check before a holiday visit.",
+            "open_evidence": "Own website shows hours, poke and plate-lunch menu and a '2026 Koloa Fish Market, Inc.' copyright footer (viewed 2026-10-14).",
+            "source_url": "https://koloafishmarket.com/",
+            "source_name": "Koloa Fish Market's own website"
+          }
+        ]
+      },
+      {
+        "town": "Hilo",
+        "eats": [
+          {
+            "name": "Cafe 100",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "A loco moco: the menu features the Original Loco, Super Loco and Pork Adobo Loco.",
+            "why": "Hilo restaurant at 969 Kilauea Avenue whose own site says it serves over 30 kinds of loco moco.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday-Thursday 7am-2pm, Sunday 10am-3pm, closed Friday and Saturday.",
+            "open_evidence": "Own website lists current hours, phone and menu hotline, no closure notice, and a '2026 Cafe 100, Inc.' copyright footer (viewed 2026-10-14).",
+            "source_url": "https://www.hilocafe100.com/",
+            "source_name": "Cafe 100's own website"
+          }
+        ]
+      },
+      {
+        "town": "Volcano Village",
+        "eats": [
+          {
+            "name": "Kilauea Lodge Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site posts current weekend brunch and dinner menus; the page describes the food as locally sourced and internationally influenced, and does not name dishes.",
+            "why": "The restaurant of the Kilauea Lodge at 19-3948 Old Volcano Road in Volcano Village, which markets itself as close to Hawaii Volcanoes National Park.",
+            "price_tier": null,
+            "hours_note": "Own site: breakfast Monday-Friday 8am-10am, weekend brunch 9am-2pm (live music 10:30am-1:30pm), dinner daily 5pm-8pm; reservations can be made online.",
+            "open_evidence": "Own website lists current hours, online reservations, gift cards and brunch/dinner menus (viewed 2026-10-14); the page shows no year, so this is weaker evidence than a dated page.",
+            "source_url": "https://www.kilauealodge.com/restaurant/",
+            "source_name": "Kilauea Lodge's own website"
+          }
+        ]
+      },
+      {
+        "town": "Honolulu",
+        "eats": [
+          {
+            "name": "Helena's Hawaiian Food",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Pipikaula and laulau, both named on the restaurant's own page.",
+            "why": "A James Beard America's Classics award holder at 1240 N. School St.; its site says it has served traditional Hawaiian food since 1946.",
+            "price_tier": null,
+            "hours_note": "Open Tuesday-Friday 10am-7:30pm. Own site announces closures November 22-December 1 and December 20-January 5, reopening December 2 and January 6 (the page does not state the year).",
+            "open_evidence": "Own website lists current hours and upcoming holiday closure dates and a '2026' copyright footer (viewed 2026-10-14); the James Beard Foundation page (published 2020) lists it as an America's Classics award holder.",
+            "source_url": "https://www.helenashawaiianfood.com/",
+            "source_name": "Helena's Hawaiian Food's own website"
+          },
+          {
+            "name": "Leonard's Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Malasadas or pao doce; the site features a lilikoi malasada.",
+            "why": "A single-location bakery at 933 Kapahulu Ave that calls itself the home of malasadas and pao doce.",
+            "price_tier": null,
+            "hours_note": "Own site: daily 5:30am-7:00pm.",
+            "open_evidence": "Own website lists current hours, online ordering and a 2026 copyright footer (viewed 2026-10-14).",
+            "source_url": "https://leonardshawaii.com/",
+            "source_name": "Leonard's Bakery's own website"
+          },
+          {
+            "name": "Rainbow Drive-In",
+            "kind": "drive_in",
+            "meal": "lunch",
+            "what_to_order": "A plate lunch (two scoops rice and macaroni salad) or a loco moco; the site also lists chili plates, shoyu chicken, BBQ burgers and saimin.",
+            "why": "A two-location local drive-in; the Kapahulu spot is at 3308 Kanaina Ave, and the other is at Pearlridge in Aiea.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website lists both locations with phone numbers and online ordering, and describes the restaurant's 65th anniversary in 2026 (viewed 2026-10-14); the page shows no copyright year and no hours.",
+            "source_url": "https://www.rainbowdrivein.com/",
+            "source_name": "Rainbow Drive-In's own website"
+          }
+        ]
+      },
+      {
+        "town": "Haleiwa",
+        "eats": [
+          {
+            "name": "Matsumoto Shave Ice",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "Shave ice; the FAQ page lists flavors Mizore, Lilikoi, Lychee and Yuzu.",
+            "why": "Shave-ice shop at 66-111 Kamehameha Hwy in Haleiwa that says it has served the North Shore since 1951.",
+            "price_tier": null,
+            "hours_note": "Own site: daily 10am-6pm; closed Thanksgiving Day, Christmas (12/25) and New Year's Day (1/1).",
+            "open_evidence": "Own website lists current hours, holiday closures, online shop and pre-orders (viewed 2026-10-14); the pages show no year, so this is weaker evidence than a dated page.",
+            "source_url": "https://matsumotoshaveice.com/",
+            "source_name": "Matsumoto Shave Ice's own website"
+          }
+        ]
+      },
+      {
+        "town": "Kahana",
+        "note": "Per Honolulu Magazine (August 11, 2026), of 91 Lahaina food businesses tracked three years after the August 8, 2023 fires, more than three dozen eateries and bars have reopened, though many have left Lahaina; it reports Captain Jack's Island Grill reopened at the Sands of Kahana resort. Our advice: check a venue's current hours before driving, as several reopened places have since closed.",
+        "note_source_url": "https://www.honolulumagazine.com/where-they-are-now-lahaina-restaurants-bars-snack-shops-food-trucks/",
+        "eats": [
+          {
+            "name": "Captain Jack's Island Grill",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site lists breakfast service from 7am, lunch from 11am and dinner from 3pm; the page does not name dishes.",
+            "why": "In Kahana, north of Kaanapali on the West Maui coast, rather than Kaanapali itself. It relocated to the Sands of Kahana Resort after losing its Front Street location in the 2023 Lahaina fire.",
+            "price_tier": null,
+            "hours_note": "Own site: daily 7am-9pm; no reservations accepted.",
+            "open_evidence": "Own website gives the new Kahana address (4299 Lower Honoapiilani Rd), current hours and a 2026 copyright footer; Honolulu Magazine (August 11, 2026) also reports the reopening (both viewed 2026-10-14).",
+            "source_url": "https://www.captainjacksmaui.com/",
+            "source_name": "Captain Jack's Island Grill's own website"
+          }
+        ]
+      },
+      {
+        "town": "Hana",
+        "eats": [
+          {
+            "name": "Braddah Hutts BBQ Grill",
+            "kind": "bbq",
+            "meal": "lunch",
+            "what_to_order": "Kalua pork, the BBQ chicken platter or pork ribs; the site also lists shrimp pasta.",
+            "why": "Local BBQ plates at 5305 Hana Hwy, but weekday lunch only, so time the drive.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday-Friday 11am-2:30pm; closed Saturday and Sunday.",
+            "open_evidence": "Own website lists hours, address, menu and a '2026 Braddah Hutts BBQ Grill' copyright footer (viewed 2026-10-14).",
+            "source_url": "https://braddahhuttsbbqgrill.shop/",
+            "source_name": "Braddah Hutts BBQ Grill's own website"
+          },
+          {
+            "name": "Hana Farms",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "Banana bread from the bakery or wood-fired pizza at the Bamboo Hale restaurant.",
+            "why": "On the Hana Highway at 2910 Hana Hwy, after mile marker 31, on the way in rather than in Hana town itself.",
+            "price_tier": null,
+            "hours_note": "Own site: farm stand Saturday-Thursday 9am-5pm and Friday 9am-8pm; restaurant Saturday-Thursday 10:30am-4:30pm and Friday 10:30am-8pm.",
+            "open_evidence": "Own website lists hours, addresses and phone numbers for the stand and restaurant (viewed 2026-10-14); the page shows no year, so this is weaker evidence than a dated page.",
+            "source_url": "https://www.hanafarms.com/",
+            "source_name": "Hana Farms' own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Hawaii: Kauai + Big Island",
+        "day_number": 1,
+        "town": "Koloa"
+      },
+      {
+        "itinerary_title": "Hawaii: Kauai + Big Island",
+        "day_number": 2,
+        "town": "Koloa"
+      },
+      {
+        "itinerary_title": "Hawaii: Kauai + Big Island",
+        "day_number": 3,
+        "town": "Koloa"
+      },
+      {
+        "itinerary_title": "Hawaii: Kauai + Big Island",
+        "day_number": 4,
+        "town": "Hilo"
+      },
+      {
+        "itinerary_title": "Hawaii: Kauai + Big Island",
+        "day_number": 5,
+        "town": "Volcano Village"
+      },
+      {
+        "itinerary_title": "Hawaii: Kauai + Big Island",
+        "day_number": 6,
+        "town": "Hilo"
+      },
+      {
+        "itinerary_title": "Hawaii: Kauai + Big Island",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Oahu & Maui: Honolulu to Haleakala",
+        "day_number": 1,
+        "town": "Honolulu"
+      },
+      {
+        "itinerary_title": "Oahu & Maui: Honolulu to Haleakala",
+        "day_number": 2,
+        "town": "Honolulu"
+      },
+      {
+        "itinerary_title": "Oahu & Maui: Honolulu to Haleakala",
+        "day_number": 3,
+        "town": "Haleiwa"
+      },
+      {
+        "itinerary_title": "Oahu & Maui: Honolulu to Haleakala",
+        "day_number": 4,
+        "town": "Kahana"
+      },
+      {
+        "itinerary_title": "Oahu & Maui: Honolulu to Haleakala",
+        "day_number": 5,
+        "town": "Hana"
+      },
+      {
+        "itinerary_title": "Oahu & Maui: Honolulu to Haleakala",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "idaho",
     "last_verified_date": "2026-10-14",
     "stops": [

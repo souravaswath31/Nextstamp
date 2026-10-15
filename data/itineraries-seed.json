@@ -132,7 +132,8 @@
         ],
         "lodging_suggestion": "Kauai south shore",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Koloa"
       },
       {
         "day_number": 2,
@@ -143,7 +144,8 @@
         ],
         "lodging_suggestion": "Kauai",
         "latitude": 22.07079,
-        "longitude": -159.66495
+        "longitude": -159.66495,
+        "eat_town": "Koloa"
       },
       {
         "day_number": 3,
@@ -153,7 +155,8 @@
         ],
         "lodging_suggestion": "Kauai",
         "latitude": 22.167769,
-        "longitude": -159.644087
+        "longitude": -159.644087,
+        "eat_town": "Koloa"
       },
       {
         "day_number": 4,
@@ -164,7 +167,8 @@
         ],
         "lodging_suggestion": "Big Island - Hilo side",
         "latitude": 22.050384,
-        "longitude": -159.558862
+        "longitude": -159.558862,
+        "eat_town": "Hilo"
       },
       {
         "day_number": 5,
@@ -175,7 +179,8 @@
         ],
         "lodging_suggestion": "Big Island",
         "latitude": 19.260831,
-        "longitude": -155.357866
+        "longitude": -155.357866,
+        "eat_town": "Volcano Village"
       },
       {
         "day_number": 6,
@@ -186,14 +191,16 @@
         ],
         "lodging_suggestion": "Big Island",
         "latitude": 19.135296,
-        "longitude": -155.50489
+        "longitude": -155.50489,
+        "eat_town": "Hilo"
       },
       {
         "day_number": 7,
         "title": "Fly home",
         "activities": [],
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "related_states": [
@@ -10099,7 +10106,8 @@
         "lodging_suggestion": "Waikiki, Honolulu",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Honolulu"
       },
       {
         "day_number": 2,
@@ -10113,7 +10121,8 @@
         "lodging_suggestion": "Waikiki, Honolulu",
         "coffee_wifi_spot": null,
         "latitude": 21.355775,
-        "longitude": -157.999149
+        "longitude": -157.999149,
+        "eat_town": "Honolulu"
       },
       {
         "day_number": 3,
@@ -10126,7 +10135,8 @@
         "lodging_suggestion": "Waikiki, Honolulu",
         "coffee_wifi_spot": null,
         "latitude": 21.259752,
-        "longitude": -157.811677
+        "longitude": -157.811677,
+        "eat_town": "Haleiwa"
       },
       {
         "day_number": 4,
@@ -10140,7 +10150,8 @@
         "lodging_suggestion": "Kaanapali / West Maui",
         "coffee_wifi_spot": null,
         "latitude": 20.802957,
-        "longitude": -156.310683
+        "longitude": -156.310683,
+        "eat_town": "Kahana"
       },
       {
         "day_number": 5,
@@ -10155,7 +10166,8 @@
         "lodging_suggestion": "Kaanapali / West Maui",
         "coffee_wifi_spot": null,
         "latitude": 20.760031,
-        "longitude": -155.989001
+        "longitude": -155.989001,
+        "eat_town": "Hana"
       },
       {
         "day_number": 6,
@@ -10168,7 +10180,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
