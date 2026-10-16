@@ -3059,6 +3059,161 @@
     ]
   },
   {
+    "region_key": "kansas",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Manhattan",
+        "eats": [
+          {
+            "name": "The Chef Cafe",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Frittatas, PB&J pancakes or The Chef Sunrise.",
+            "why": "A downtown breakfast cafe at 111 S. 4th Street; its own site says the original opened in 1943 and it was reborn in 2008, with a horseshoe counter.",
+            "price_tier": null,
+            "hours_note": "Per its own contact page: Monday-Friday 6am-2pm; Saturday and Sunday 7am-3pm.",
+            "open_evidence": "Own website posted a Daily Special dated 2026-10-14 and lists current hours (viewed 2026-10-16).",
+            "source_url": "https://www.thechefcafe.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Council Grove",
+        "eats": [
+          {
+            "name": "Hays House 1857 Restaurant & Tavern",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Fried chicken dinner or country fried steak; the site also lists prime rib on Friday and Saturday and Snickers cheesecake.",
+            "why": "Its own site calls it the oldest restaurant west of the Mississippi, serving since 1857 at 112 West Main Street.",
+            "price_tier": null,
+            "hours_note": "Per its own site: closed Monday; Tuesday-Thursday 11am-8pm; Friday-Saturday 11am-9pm; Sunday 11am-3pm.",
+            "open_evidence": "Own website shows current hours and menu with a 2026 copyright footer (viewed 2026-10-16).",
+            "source_url": "https://www.hayshouse.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Dodge City",
+        "eats": [
+          {
+            "name": "The Cowboy Capital Saloon & Grill",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Smoked ribs, flame-grilled fajita salads or the Gunslinger Cheeseburger.",
+            "why": "Its own site describes a scratch-made steakhouse using locally sourced beef in a historic early-1900s mercantile building at 301 4th Avenue.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday-Thursday 11am-9pm; Friday-Saturday 11am-10pm; closed Sunday.",
+            "open_evidence": "Own website shows current hours and menu with a 2026 copyright footer (viewed 2026-10-16).",
+            "source_url": "https://cowboycapitalsaloongrill.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Wichita",
+        "eats": [
+          {
+            "name": "Doo-Dah Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Chicken and waffles, meatloaf, corned beef hash or a French dip sandwich.",
+            "why": "Single-location diner at 206 E Kellogg that its own site says opened in 2012, handy for breakfast or an early lunch before the day's sights.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday-Friday 7am-2pm; Saturday-Sunday 8am-2pm.",
+            "open_evidence": "Own website lists current hours and references awards dated November and December 2025 (viewed 2026-10-16).",
+            "source_url": "https://www.doodahdiner.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "NuWay Burgers",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The crumbly NuWay sandwich with homemade onion rings and the house-made root beer.",
+            "why": "A Wichita tradition since July 4, 1930 whose original home is still at 1416 W Douglas; there are two locations (that one and 7301 W Central).",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Visit Wichita's June 25, 2026 burger guide lists NuWay with two locations and Travel Kansas' July 6, 2026 piece names it; the venue's own site shows a 2026 footer and current specials but has an expired TLS certificate (viewed 2026-10-16).",
+            "source_url": "http://www.nuwayburgers.com/history/",
+            "source_name": "Venue's own website; Visit Wichita"
+          }
+        ]
+      },
+      {
+        "town": "Garden City",
+        "eats": [
+          {
+            "name": "El Zarape",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Enchiladas, chimichangas, tacos or chile rellenos; the site names the Pablito, Gordita and Monterrey Special among locals' favourites.",
+            "why": "Its own site says it has been family-owned and operated since 1967, at 2501 US-50.",
+            "price_tier": null,
+            "hours_note": "Per its own site: 11am-9pm (events page lists 11am-9pm on 2026 holiday dates).",
+            "open_evidence": "Own events page lists Halloween (Oct 31, 2026) and New Year's Eve (Dec 31, 2026) opening hours (viewed 2026-10-16).",
+            "source_url": "https://elzarapeofgcks.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Kansas Flint Hills Loop",
+        "day_number": 1,
+        "town": "Manhattan"
+      },
+      {
+        "itinerary_title": "Kansas Flint Hills Loop",
+        "day_number": 2,
+        "town": "Council Grove"
+      },
+      {
+        "itinerary_title": "Kansas Flint Hills Loop",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Kansas Flint Hills Loop",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Wichita & Western Kansas",
+        "day_number": 1,
+        "town": "Wichita"
+      },
+      {
+        "itinerary_title": "Wichita & Western Kansas",
+        "day_number": 2,
+        "town": "Dodge City"
+      },
+      {
+        "itinerary_title": "Wichita & Western Kansas",
+        "day_number": 3,
+        "town": "Dodge City"
+      },
+      {
+        "itinerary_title": "Wichita & Western Kansas",
+        "day_number": 4,
+        "town": "Garden City"
+      },
+      {
+        "itinerary_title": "Wichita & Western Kansas",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Wichita & Western Kansas",
+        "day_number": 6,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "kentucky",
     "last_verified_date": "2026-10-15",
     "stops": [
@@ -5053,6 +5208,141 @@
     ]
   },
   {
+    "region_key": "nebraska",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Scottsbluff",
+        "eats": [
+          {
+            "name": "Flyover Brewing Company",
+            "kind": "brewery",
+            "meal": "lunch",
+            "what_to_order": "Salads, handhelds and the weekly lunch specials, per a 2026 local-news feature.",
+            "why": "In downtown Scottsbluff (the Gering and Scottsbluff area is the Panhandle's main dining cluster); its own site bills it as the first brewery in the Nebraska Panhandle, in a renovated downtown building.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Sunday 11am-11pm, closed Monday (per its own site; the page shows no year).",
+            "open_evidence": "KNOP/KNOPNews2 (1011now) feature dated 2026-04-23 describes the downtown Scottsbluff brewery's expansion and added lunch menu; own site lists hours and 1824 Broadway (viewed 2026-10-16, page shows only a 2017 copyright).",
+            "source_url": "https://www.1011now.com/2026/04/23/flyover-brewing-company-grows-business-menu-scottsbluff/",
+            "source_name": "1011now (KOLN/KGIN) news, 2026-04-23"
+          }
+        ]
+      },
+      {
+        "town": "Omaha",
+        "eats": [
+          {
+            "name": "Johnny's Cafe",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Hand-cut aged steaks and prime rib, per the 2025-2026 features; the 2025 feature also names liver and onions.",
+            "why": "In South Omaha next to the former stockyards, a family-run steakhouse opened in 1922 and now run by the third generation.",
+            "price_tier": null,
+            "hours_note": "Closed Sundays; lunch Tuesday-Friday 11am-2pm; dinner Tuesday-Thursday until 8pm and Friday-Saturday until 9pm (per its own site).",
+            "open_evidence": "Flatwater Free Press article dated 2026-02-26 reports it as a 2026 James Beard America's Classics winner still operating; own site lists current hours and the same award (viewed 2026-10-16); 1011now feature dated 2025-02-28.",
+            "source_url": "https://flatwaterfreepress.org/iconic-steakhouse-johnnys-wins-james-beard-prize-states-2nd-ever-restaurant-to-be-named-classic/",
+            "source_name": "Flatwater Free Press (2026-02-26); own site johnnyscafe.com"
+          },
+          {
+            "name": "Block 16",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Burgers such as the Block Burger and French Onion Smash, or the poutine, from its menu.",
+            "why": "A single-location street-food counter at 1611 Farnam St in downtown Omaha, with a locally sourced, partly vegan menu.",
+            "price_tier": null,
+            "hours_note": "Monday-Wednesday 11am-2pm; Thursday-Saturday 11am-8pm; closed Sunday (per its own site).",
+            "open_evidence": "Own site shows a 2026 copyright, current hours and menu (viewed 2026-10-16).",
+            "source_url": "https://www.block16omaha.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Upstream Brewing Company",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "Its Smoked Gouda & Beer soup or the Pub Burger, both listed on its own food menu.",
+            "why": "Omaha's original brewpub, open since 1996, at 514 S 11th St in the Old Market.",
+            "price_tier": null,
+            "hours_note": "Monday-Thursday 11am-10pm, Friday-Saturday 11am-11pm, Sunday 10am-10pm (per its own site).",
+            "open_evidence": "Own site shows a 2026 copyright, current hours and a current food menu (viewed 2026-10-16).",
+            "source_url": "https://www.upstreambrewing.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Lincoln",
+        "eats": [
+          {
+            "name": "The Rabbit Hole Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Cakes, brownies, cookies and tarts, made fresh daily per its own site.",
+            "why": "A Haymarket dessert bakery at 8th and Q streets, with one other location at Gateway Mall.",
+            "price_tier": null,
+            "hours_note": "Haymarket: Monday-Friday 10am-8pm, Saturday 8am-8pm, Sunday 11am-8pm (per its own site).",
+            "open_evidence": "Own site shows a 2026 copyright and current hours (viewed 2026-10-16); also listed in the downtown Haymarket directory.",
+            "source_url": "https://therabbitholebakery.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Ivanna Cone",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "Its four staple flavors: Dutch Chocolate, Sweet Cream Vanilla, Fresh Strawberry and Cinnamon.",
+            "why": "A single-location ice cream shop at 701 P St in the Haymarket; in-shop purchases only.",
+            "price_tier": null,
+            "hours_note": "Monday-Thursday 12-9:30pm, Friday-Saturday 12-10:30pm, Sunday 1-9pm (per its own site).",
+            "open_evidence": "Own site shows a 2026 copyright and current hours (viewed 2026-10-16).",
+            "source_url": "https://www.ivannacone.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Nebraska Panhandle & Sandhills",
+        "day_number": 1,
+        "town": "Scottsbluff"
+      },
+      {
+        "itinerary_title": "Nebraska Panhandle & Sandhills",
+        "day_number": 2,
+        "town": "Scottsbluff"
+      },
+      {
+        "itinerary_title": "Nebraska Panhandle & Sandhills",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Nebraska Panhandle & Sandhills",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Omaha & Lincoln",
+        "day_number": 1,
+        "town": "Omaha"
+      },
+      {
+        "itinerary_title": "Omaha & Lincoln",
+        "day_number": 2,
+        "town": "Omaha"
+      },
+      {
+        "itinerary_title": "Omaha & Lincoln",
+        "day_number": 3,
+        "town": "Lincoln"
+      },
+      {
+        "itinerary_title": "Omaha & Lincoln",
+        "day_number": 4,
+        "town": "Lincoln"
+      }
+    ]
+  },
+  {
     "region_key": "nevada",
     "last_verified_date": "2026-10-15",
     "stops": [
@@ -6142,6 +6432,105 @@
         "itinerary_title": "North Carolina's Outer Banks",
         "day_number": 6,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "north-dakota",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Medora",
+        "eats": [
+          {
+            "name": "Little Missouri Saloon & Dining Room",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Steaks, brisket and bison burgers are the dishes the venue's own page names.",
+            "why": "Medora's oldest saloon and steakhouse, with a second-level deck facing the Badlands, and one of the few Medora kitchens that stays open through the winter.",
+            "price_tier": null,
+            "hours_note": "Open every day, 11:00 am to 1:00 am; no reservations, first come first served (per the venue's own site). Stated as open year-round.",
+            "open_evidence": "Own website (littlemosaloon.com) lists daily hours and says it is open year-round, and the Theodore Roosevelt Medora Foundation's medora.com dining page (footer 2026) also lists it as open year-round (both viewed 2026-10-16); the venue's own page shows no year.",
+            "source_url": "https://www.littlemosaloon.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Fargo",
+        "eats": [
+          {
+            "name": "Marge's Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The oversized pancake the Visit Fargo-Moorhead guide calls its signature, and the weekday soup and salad bar.",
+            "why": "A 1970s-Midwest-themed brunch diner on Broadway in the middle of downtown Fargo, an easy start to the downtown walking day.",
+            "price_tier": null,
+            "hours_note": "Open 7 days a week 8am-2pm; weekday salad bar Monday-Friday 10am-2pm (per the diner's own site).",
+            "open_evidence": "Local paper InForum (article dated 2026-08-26) quotes the owner saying Marge's Diner continues to be the group's go-to spot, and the diner's own site lists current hours and online ordering (viewed 2026-10-16); the own site shows no year.",
+            "source_url": "https://www.fargomarge.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Grand Forks",
+        "eats": [
+          {
+            "name": "Darcy's Cafe",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast, omelettes, burgers, sandwiches and soups are what the cafe's own site lists; Visit Greater Grand Forks names the cinnamon roll pancakes.",
+            "why": "A 40-seat diner open since 1965, a straightforward breakfast stop in Grand Forks before the drive to the airport or the Greenway walk.",
+            "price_tier": null,
+            "hours_note": "Monday-Friday 6:30am-1:30pm; Saturday-Sunday 7am-1pm. Takeout Monday-Friday only (per the cafe's own site).",
+            "open_evidence": "Own website (darcyscafend.com) lists current hours and carries a 2026 copyright footer (viewed 2026-10-16).",
+            "source_url": "https://darcyscafend.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Theodore Roosevelt National Park & the Enchanted Highway",
+        "day_number": 1,
+        "town": "Medora"
+      },
+      {
+        "itinerary_title": "Theodore Roosevelt National Park & the Enchanted Highway",
+        "day_number": 2,
+        "town": "Medora"
+      },
+      {
+        "itinerary_title": "Theodore Roosevelt National Park & the Enchanted Highway",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Theodore Roosevelt National Park & the Enchanted Highway",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Fargo & the Red River Valley",
+        "day_number": 1,
+        "town": "Fargo"
+      },
+      {
+        "itinerary_title": "Fargo & the Red River Valley",
+        "day_number": 2,
+        "town": "Fargo"
+      },
+      {
+        "itinerary_title": "Fargo & the Red River Valley",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Fargo & the Red River Valley",
+        "day_number": 4,
+        "town": "Grand Forks"
       }
     ]
   },

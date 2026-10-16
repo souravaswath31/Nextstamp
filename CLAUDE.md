@@ -629,6 +629,41 @@ Where the honest answer is "options are thin" (Big Bend, Capitol Reef, Escalante
 stop's `note` says so, sourced — ideally to an NPS page — rather than padding to three
 eats. Fewer verified eats always beats one unverified eat.
 
+**Status: all 50 states are researched** (431 eats across 249 stops, 50 regions). The 16
+international routes are NOT done. Treat those counts as a snapshot and re-run
+`python3 scripts/validate_road_eats.py --check-existing`. Coverage is deliberately uneven:
+stops with no verified eat were *dropped* (their days map to no town and the page shows
+nothing for them) rather than padded, so a thin state like North Dakota (3 eats) or West
+Virginia (4) is the system working, not a bug. Roughly a third of what research agents
+proposed was cut in review.
+
+What review kept catching, so the next pass knows where to look: footers that say
+2022-2024 with nothing newer; a hidden "page source" timestamp or a weekday/date match
+used to *infer* a year (don't — say the page has no year, or drop it); a tourism-board
+listing as the only evidence a place is open today; hours that differ between the venue
+and another source; parked or for-sale domains and look-alike domains that redirect to
+spam or casino sites (several; never cite or follow them); groups of more than three
+locations; seasonal places whose end date can't be read (it is mid-October — Maine,
+Alaska, Black Hills, Door County all close); and agents counting their own output wrong.
+Agent reports are not evidence; read the file.
+
+**International routes — do this differently.** `regionKey` is a state slug or a country
+slug, and they collide: the `georgia` state and the Georgia + Armenia route (country
+Georgia) share a key. The state's `day_map` already maps that route's days to no town. For
+the international pass, either namespace the key (`country:georgia`, which means touching
+`regionKeysForItinerary`, the validator and the seeder together) or confirm no town name
+repeats between the two. Do not just reuse `georgia`.
+
+**Itinerary text that still names places research could not confirm are open** (not
+edited; the data and UI do not depend on it): Cajun Country day 2 names Cafe des Amis
+(Louisiana Travel calls it "the former" cafe), Phoenix day 1 names Barrio Cafe (appears
+closed), and the Connecticut coast route names Frank Pepe's and Sally's Apizza (both
+multi-location, Pepe's own site showed a 2022 footer).
+
+**Seeding takes minutes now.** `npm run seed:eats` rewrites every region in a transaction
+each; `--liveness` probes ~450 URLs. Run both in the background and wait, don't chain them
+in one foreground command (it exceeds the tool timeout).
+
 ## Geography — where coordinates come from and why they're never live
 
 Three models carry coordinates, all geocoded **once at authoring time** into the

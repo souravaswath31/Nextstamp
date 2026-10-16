@@ -3400,7 +3400,8 @@
         "lodging_suggestion": "Manhattan",
         "coffee_wifi_spot": null,
         "latitude": 39.183608,
-        "longitude": -96.571669
+        "longitude": -96.571669,
+        "eat_town": "Manhattan"
       },
       {
         "day_number": 2,
@@ -3412,7 +3413,8 @@
         "lodging_suggestion": "Council Grove",
         "coffee_wifi_spot": null,
         "latitude": 38.660924,
-        "longitude": -96.491958
+        "longitude": -96.491958,
+        "eat_town": "Council Grove"
       },
       {
         "day_number": 3,
@@ -3425,7 +3427,8 @@
         "lodging_suggestion": "Cottonwood Falls",
         "coffee_wifi_spot": null,
         "latitude": 38.446995,
-        "longitude": -96.577501
+        "longitude": -96.577501,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -3437,7 +3440,8 @@
         "lodging_suggestion": "Cottonwood Falls",
         "coffee_wifi_spot": null,
         "latitude": 38.372236,
-        "longitude": -96.542784
+        "longitude": -96.542784,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -4146,7 +4150,8 @@
         "lodging_suggestion": "Bayard",
         "coffee_wifi_spot": null,
         "latitude": 41.703845,
-        "longitude": -103.348226
+        "longitude": -103.348226,
+        "eat_town": "Scottsbluff"
       },
       {
         "day_number": 2,
@@ -4158,7 +4163,8 @@
         "lodging_suggestion": "Gering",
         "coffee_wifi_spot": null,
         "latitude": 41.702193,
-        "longitude": -103.667166
+        "longitude": -103.667166,
+        "eat_town": "Scottsbluff"
       },
       {
         "day_number": 3,
@@ -4170,7 +4176,8 @@
         "lodging_suggestion": "Alliance",
         "coffee_wifi_spot": null,
         "latitude": 41.399732,
-        "longitude": -99.613952
+        "longitude": -99.613952,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -4182,7 +4189,8 @@
         "lodging_suggestion": "Alliance",
         "coffee_wifi_spot": null,
         "latitude": 41.124733,
-        "longitude": -101.714609
+        "longitude": -101.714609,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -4654,7 +4662,8 @@
         "lodging_suggestion": "Medora",
         "coffee_wifi_spot": null,
         "latitude": 46.913903,
-        "longitude": -103.524354
+        "longitude": -103.524354,
+        "eat_town": "Medora"
       },
       {
         "day_number": 2,
@@ -4666,7 +4675,8 @@
         "lodging_suggestion": "Medora",
         "coffee_wifi_spot": null,
         "latitude": 46.990838,
-        "longitude": -103.567954
+        "longitude": -103.567954,
+        "eat_town": "Medora"
       },
       {
         "day_number": 3,
@@ -4679,7 +4689,8 @@
         "lodging_suggestion": "Watford City",
         "coffee_wifi_spot": null,
         "latitude": 46.754982,
-        "longitude": -99.492054
+        "longitude": -99.492054,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -4691,7 +4702,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 46.529242,
-        "longitude": -102.551052
+        "longitude": -102.551052,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -8528,7 +8540,8 @@
         "lodging_suggestion": "Omaha",
         "coffee_wifi_spot": null,
         "latitude": 41.255187,
-        "longitude": -95.928626
+        "longitude": -95.928626,
+        "eat_town": "Omaha"
       },
       {
         "day_number": 2,
@@ -8541,7 +8554,8 @@
         "lodging_suggestion": "Omaha",
         "coffee_wifi_spot": null,
         "latitude": 41.225474,
-        "longitude": -95.926732
+        "longitude": -95.926732,
+        "eat_town": "Omaha"
       },
       {
         "day_number": 3,
@@ -8555,7 +8569,8 @@
         "lodging_suggestion": "Lincoln",
         "coffee_wifi_spot": null,
         "latitude": 40.808886,
-        "longitude": -96.707775
+        "longitude": -96.707775,
+        "eat_town": "Lincoln"
       },
       {
         "day_number": 4,
@@ -8568,7 +8583,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 40.775731,
-        "longitude": -96.773208
+        "longitude": -96.773208,
+        "eat_town": "Lincoln"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -9089,7 +9105,8 @@
         "lodging_suggestion": "Wichita",
         "coffee_wifi_spot": null,
         "latitude": 37.692236,
-        "longitude": -97.337545
+        "longitude": -97.337545,
+        "eat_town": "Wichita"
       },
       {
         "day_number": 2,
@@ -9101,7 +9118,8 @@
         "lodging_suggestion": "Dodge City",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Dodge City"
       },
       {
         "day_number": 3,
@@ -9114,7 +9132,8 @@
         "lodging_suggestion": "Dodge City",
         "coffee_wifi_spot": null,
         "latitude": 37.752798,
-        "longitude": -100.017079
+        "longitude": -100.017079,
+        "eat_town": "Dodge City"
       },
       {
         "day_number": 4,
@@ -9126,7 +9145,8 @@
         "lodging_suggestion": "Oakley",
         "coffee_wifi_spot": null,
         "latitude": 37.97169,
-        "longitude": -100.872662
+        "longitude": -100.872662,
+        "eat_town": "Garden City"
       },
       {
         "day_number": 5,
@@ -9138,7 +9158,8 @@
         "lodging_suggestion": "Wichita",
         "coffee_wifi_spot": null,
         "latitude": 38.793503,
-        "longitude": -100.762059
+        "longitude": -100.762059,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -9150,7 +9171,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -10719,7 +10741,8 @@
         "lodging_suggestion": "Fargo, ND",
         "coffee_wifi_spot": null,
         "latitude": 46.87621,
-        "longitude": -96.782078
+        "longitude": -96.782078,
+        "eat_town": "Fargo"
       },
       {
         "day_number": 2,
@@ -10732,7 +10755,8 @@
         "lodging_suggestion": "Fargo, ND",
         "coffee_wifi_spot": null,
         "latitude": 46.875829,
-        "longitude": -96.928129
+        "longitude": -96.928129,
+        "eat_town": "Fargo"
       },
       {
         "day_number": 3,
@@ -10746,7 +10770,8 @@
         "lodging_suggestion": "Valley City, ND",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -10760,7 +10785,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 47.92521,
-        "longitude": -97.030632
+        "longitude": -97.030632,
+        "eat_town": "Grand Forks"
       }
     ],
     "cover_image_url": "/category-city.jpg"
