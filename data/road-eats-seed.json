@@ -7541,6 +7541,68 @@
     ]
   },
   {
+    "region_key": "route:belgrade-novi-sad-serbia",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Belgrade",
+        "eats": [
+          {
+            "name": "Ima Dana",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Traditional Serbian cuisine; the site offers downloadable menus in several languages but names no dishes on its main page.",
+            "why": "A kafana at Skadarska 38 in Skadarlija, the bohemian quarter the itinerary walks through on day 1; the site says it opened in 1969.",
+            "price_tier": null,
+            "hours_note": "Site lists 11:30 to 04:00 for both Sunday-Wednesday and Thursday-Saturday",
+            "open_evidence": "Own website shows menu PDFs marked JUN26 and a 2026 copyright (viewed 2026-10-16)",
+            "source_url": "https://imadana.rs/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Restoran Šaran",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "The site names fish soup, grilled octopus and carp fillets.",
+            "why": "In Zemun rather than central Belgrade: a riverside restaurant at Kej Oslobođenja 53, handy for the day 3 Zemun waterfront walk.",
+            "price_tier": null,
+            "hours_note": "Site lists closed Mondays; Tuesday-Wednesday 15:00-00:00; Thursday-Sunday 13:00-01:00",
+            "open_evidence": "Own website carries a news item dated 2 February 2026 ('Istria in Belgrade 2026') and current opening hours with online booking (viewed 2026-10-16)",
+            "source_url": "https://saran.co.rs/en/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Belgrade + Novi Sad, Serbia",
+        "day_number": 1,
+        "town": "Belgrade"
+      },
+      {
+        "itinerary_title": "Belgrade + Novi Sad, Serbia",
+        "day_number": 2,
+        "town": "Belgrade"
+      },
+      {
+        "itinerary_title": "Belgrade + Novi Sad, Serbia",
+        "day_number": 3,
+        "town": "Belgrade"
+      },
+      {
+        "itinerary_title": "Belgrade + Novi Sad, Serbia",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Belgrade + Novi Sad, Serbia",
+        "day_number": 5,
+        "town": "Belgrade"
+      }
+    ]
+  },
+  {
     "region_key": "route:cartagena-medellin-colombia",
     "last_verified_date": "2026-10-16",
     "stops": [
@@ -7798,6 +7860,56 @@
     ]
   },
   {
+    "region_key": "route:el-nido-palawan-philippines",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "El Nido town",
+        "eats": [
+          {
+            "name": "Barakuda Seafood Restaurant",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Its menu lists Crab Fat Ravioli, Pulpo Adobo and Roasted Squid among the mains, and Mussel & Clams Escabeche and Tuna Tartare Rice Cups as starters.",
+            "why": "An independent single-location seafood restaurant on Calle Hama in town; its own About page says its founding partners have run it for over a decade and it works with local fishermen.",
+            "price_tier": null,
+            "hours_note": "Own site: dinner Monday-Sunday 5:00pm-12:00mn; a lunch menu 11:00AM-3:00PM is also stated, featuring the dinner menu plus weekly lunch specials. No typhoon or closure notice on the pages viewed.",
+            "open_evidence": "Own website (barakudaseafood.com) shows a blog post dated 16 Mar 2026 in its RSS feed, a current menu with prices and stated daily hours; the page footer says 2024 (viewed 2026-10-16).",
+            "source_url": "https://www.barakudaseafood.com/menus",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "El Nido, Palawan, Philippines",
+        "day_number": 1,
+        "town": "El Nido town"
+      },
+      {
+        "itinerary_title": "El Nido, Palawan, Philippines",
+        "day_number": 2,
+        "town": "El Nido town"
+      },
+      {
+        "itinerary_title": "El Nido, Palawan, Philippines",
+        "day_number": 3,
+        "town": "El Nido town"
+      },
+      {
+        "itinerary_title": "El Nido, Palawan, Philippines",
+        "day_number": 4,
+        "town": "El Nido town"
+      },
+      {
+        "itinerary_title": "El Nido, Palawan, Philippines",
+        "day_number": 5,
+        "town": "El Nido town"
+      }
+    ]
+  },
+  {
     "region_key": "route:hanoi-ha-long-bay-ninh-binh-vietnam",
     "last_verified_date": "2026-10-16",
     "stops": [
@@ -7854,6 +7966,56 @@
         "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
         "day_number": 7,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "route:maldives-optional-sri-lanka",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Malé",
+        "eats": [
+          {
+            "name": "CraveHaus",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "The site lists a Maldivian Breakfast among its breakfast dishes and says it cooks local catch from Malé Atoll \"when it's in\"; it also has its own pizza menu.",
+            "why": "An independent open-kitchen cafe on Majeedhee Magu in central Malé, halal and alcohol-free, which opens at 07:00 on most days per its own page.",
+            "price_tier": null,
+            "hours_note": "Own page lists Monday-Thursday and Saturday-Sunday 07:00-01:00 and Friday 14:00-01:00. On 2026-10-16 the page said online ordering was paused and to call to order.",
+            "open_evidence": "Own website (viewed 2026-10-16) carries a \"© 2026\" footer, a live menu with Rf prices including a \"Sold out\" flag on one item, and a notice that online ordering is paused and to call.",
+            "source_url": "https://mycravehaus.com/cravehaus",
+            "source_name": "CraveHaus's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Maldives (+ optional Sri Lanka)",
+        "day_number": 1,
+        "town": "Malé"
+      },
+      {
+        "itinerary_title": "Maldives (+ optional Sri Lanka)",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Maldives (+ optional Sri Lanka)",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Maldives (+ optional Sri Lanka)",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Maldives (+ optional Sri Lanka)",
+        "day_number": 5,
+        "town": "Malé"
       }
     ]
   },

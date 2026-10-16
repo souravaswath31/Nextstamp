@@ -719,7 +719,8 @@
         ],
         "lodging_suggestion": "Overwater villa resort",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Malé"
       },
       {
         "day_number": 2,
@@ -729,7 +730,8 @@
         ],
         "lodging_suggestion": "Same resort",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -739,7 +741,8 @@
         ],
         "lodging_suggestion": "Same resort",
         "latitude": 3.900574,
-        "longitude": 73.466309
+        "longitude": 73.466309,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -749,14 +752,16 @@
         ],
         "lodging_suggestion": "Same resort",
         "latitude": 3.493989,
-        "longitude": 72.76117
+        "longitude": 72.76117,
+        "eat_town": null
       },
       {
         "day_number": 5,
         "title": "Fly home or connect to Sri Lanka",
         "activities": [],
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Malé"
       }
     ],
     "food_culture": [
@@ -1631,7 +1636,8 @@
         ],
         "lodging_suggestion": "El Nido town",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "El Nido town"
       },
       {
         "day_number": 2,
@@ -1644,7 +1650,8 @@
         ],
         "lodging_suggestion": "El Nido town",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "El Nido town"
       },
       {
         "day_number": 3,
@@ -1656,7 +1663,8 @@
         ],
         "lodging_suggestion": "El Nido town",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "El Nido town"
       },
       {
         "day_number": 4,
@@ -1668,7 +1676,8 @@
         "drive_time": "45 min each way",
         "lodging_suggestion": "El Nido town",
         "latitude": 11.322145,
-        "longitude": 119.428375
+        "longitude": 119.428375,
+        "eat_town": "El Nido town"
       },
       {
         "day_number": 5,
@@ -1679,7 +1688,8 @@
         ],
         "lodging_suggestion": "El Nido town",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "El Nido town"
       }
     ],
     "food_culture": [
@@ -1741,7 +1751,8 @@
         ],
         "lodging_suggestion": "Belgrade city center",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Belgrade"
       },
       {
         "day_number": 2,
@@ -1753,7 +1764,8 @@
         ],
         "lodging_suggestion": "Belgrade city center",
         "latitude": 44.823502,
-        "longitude": 20.449765
+        "longitude": 20.449765,
+        "eat_town": "Belgrade"
       },
       {
         "day_number": 3,
@@ -1764,7 +1776,8 @@
         ],
         "lodging_suggestion": "Belgrade city center",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Belgrade"
       },
       {
         "day_number": 4,
@@ -1777,7 +1790,8 @@
         "drive_time": "35 min by train each way",
         "lodging_suggestion": "Belgrade city center",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -1789,7 +1803,8 @@
         "coffee_wifi_spot": "Kafeterija, Belgrade — solid wifi for a remote-work morning",
         "lodging_suggestion": "Belgrade or Novi Sad",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Belgrade"
       }
     ],
     "food_culture": [
