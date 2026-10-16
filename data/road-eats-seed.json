@@ -7469,6 +7469,251 @@
     ]
   },
   {
+    "region_key": "route:cartagena-medellin-colombia",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Medellín",
+        "eats": [
+          {
+            "name": "Mercado del Río",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "The venue's page lists stalls including Carnalito (tacos, antojitos), Chorizos y Ahumados (ahumados al barril y chorizos artesanales), España (paellas), Jusamar (pescados y comida de mar) and artisanal gelatos.",
+            "why": "Not in El Poblado itself: a single-venue food hall at Calle 24 #48-28 that the venue describes as 10 years running, handy for a late meal after the Guatapé or coffee-farm day trips.",
+            "price_tier": null,
+            "hours_note": "Venue site: Sunday to Tuesday noon-10 pm, Wednesday and Thursday noon-11 pm, Friday and Saturday noon-1 am; kitchens close one hour earlier than the market.",
+            "open_evidence": "Own website (viewed 2026-10-16) shows 'Programación del 15 al 30 de octubre de 2026' with named events and a '© 2026' footer.",
+            "source_url": "https://mercadodelrio.com.co/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Sambombi - Bistró Local",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "El Colombiano (10 January 2026) names pickled carrots with sampedreño cheese butter and green pepper, and grilled chicken with pipián, frijoles calados and pico de gallo.",
+            "why": "In Provenza, the dining district of El Poblado; a locally operated bistro (Casa Noventa SAS, one venue, open since 2018 per its own site) built around locally sourced Colombian ingredients.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "El Colombiano feature dated 2026-01-10 presents it as operating and recommended for 2026; own site (viewed 2026-10-16) is live with a reservations link, Carrera 35 #7-10 address and no hours or year.",
+            "source_url": "https://www.elcolombiano.com/tendencias/medellin-destino-gastronomico-2026-KE32419993",
+            "source_name": "El Colombiano (10 Jan 2026); venue's own website sambombi.com"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Cartagena + Medellín, Colombia",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cartagena + Medellín, Colombia",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cartagena + Medellín, Colombia",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cartagena + Medellín, Colombia",
+        "day_number": 4,
+        "town": "Medellín"
+      },
+      {
+        "itinerary_title": "Cartagena + Medellín, Colombia",
+        "day_number": 5,
+        "town": "Medellín"
+      },
+      {
+        "itinerary_title": "Cartagena + Medellín, Colombia",
+        "day_number": 6,
+        "town": "Medellín"
+      },
+      {
+        "itinerary_title": "Cartagena + Medellín, Colombia",
+        "day_number": 7,
+        "town": "Medellín"
+      }
+    ]
+  },
+  {
+    "region_key": "route:cusco-sacred-valley-machu-picchu-peru",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Cusco",
+        "eats": [
+          {
+            "name": "Mercado Central de San Pedro",
+            "kind": "market",
+            "meal": "breakfast",
+            "what_to_order": "Natural juices, herbal teas (mates) and traditional breads, which Infobae lists as breakfast options at the market.",
+            "why": "Cusco's municipally administered central market, where more than 1,000 traders sell food and local products, a short walk from the Plaza de Armas; it is on the day 2 itinerary.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Infobae article dated 2025-08-24 describes the market as operating, with its centenary marked on 7 June 2025 and over 1,000 traders (viewed 2026-10-16); no 2026 page was found, so hours are not confirmed.",
+            "source_url": "https://www.infobae.com/peru/2025/08/24/mercado-san-pedro-de-cusco-cumple-100-anos-y-recibe-reconocimiento-oficial/",
+            "source_name": "Infobae (Peruvian national press), 24 Aug 2025"
+          },
+          {
+            "name": "L'Atelier Café Concept",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Coffee drinks such as latte and espresso, croissants, brownie and carrot cake, which the site mentions.",
+            "why": "A single-location cafe in the San Blas neighbourhood, matching the day 6 itinerary suggestion of coffee in San Blas.",
+            "price_tier": null,
+            "hours_note": "Own site: open Mondays to Saturdays 9 am to 7 pm; no reservations taken.",
+            "open_evidence": "Own website states current hours and carries a 2026 copyright footer (viewed 2026-10-16); the page has no dated news item, so the footer year is the only date evidence.",
+            "source_url": "https://lateliercafeconcept.com/en/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Cicciolina",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site offers a tapas and restaurant menu and a dessert menu as PDFs; the page itself names no individual dishes.",
+            "why": "A restaurant on the second floor at Calle Palacio 110, a short walk from the Plaza de Armas, with a sister cafe a few streets away (Calle Ruinas 465); the same group runs both.",
+            "price_tier": null,
+            "hours_note": "Own site: restaurant open Monday to Sunday 12:30 PM to 9:30 PM; reservations via the site's booking system.",
+            "open_evidence": "Own restaurant page lists daily hours, menu PDFs named with 2025 and a 2026 copyright footer (viewed 2026-10-16).",
+            "source_url": "https://www.cicciolinacuzco.com/restaurant.html",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Cicciolina Café",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "House-made bread, coffee and breakfasts, which the site mentions.",
+            "why": "The same group's cafe at Calle Ruinas 465, open from 7:00, useful before a day trip out of Cusco.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday to Sunday 07:00 to 21:30.",
+            "open_evidence": "Own cafe page lists daily hours, a menu document named with 2025 and a 2026 copyright footer (viewed 2026-10-16).",
+            "source_url": "https://www.cicciolinacuzco.com/cafe.html",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Ollantaytambo",
+        "eats": [
+          {
+            "name": "Inti Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Lomo saltado, aji de gallina, quinoa with sauteed vegetables, or a wood-fired pizza, all on the site's menu.",
+            "why": "A Peruvian restaurant on Av. Ventiderio in Ollantaytambo, handy before the train to Aguas Calientes.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday to Sunday 9:00 am to 10:00 pm.",
+            "open_evidence": "Own website lists hours, a priced menu and a 2025 copyright footer (viewed 2026-10-16); no 2026 date was found.",
+            "source_url": "https://www.intirestaurantollantaytambo.com/en/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Cusco, Sacred Valley + Machu Picchu, Peru",
+        "day_number": 1,
+        "town": "Cusco"
+      },
+      {
+        "itinerary_title": "Cusco, Sacred Valley + Machu Picchu, Peru",
+        "day_number": 2,
+        "town": "Cusco"
+      },
+      {
+        "itinerary_title": "Cusco, Sacred Valley + Machu Picchu, Peru",
+        "day_number": 3,
+        "town": "Ollantaytambo"
+      },
+      {
+        "itinerary_title": "Cusco, Sacred Valley + Machu Picchu, Peru",
+        "day_number": 4,
+        "town": "Ollantaytambo"
+      },
+      {
+        "itinerary_title": "Cusco, Sacred Valley + Machu Picchu, Peru",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cusco, Sacred Valley + Machu Picchu, Peru",
+        "day_number": 6,
+        "town": "Cusco"
+      },
+      {
+        "itinerary_title": "Cusco, Sacred Valley + Machu Picchu, Peru",
+        "day_number": 7,
+        "town": "Cusco"
+      }
+    ]
+  },
+  {
+    "region_key": "route:hanoi-ha-long-bay-ninh-binh-vietnam",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Hanoi",
+        "eats": [
+          {
+            "name": "Bún Chả Ta",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Bún chả, which its own site describes as grilled pork served with rice noodles, fresh herbs and dipping sauce; Dân Trí also mentions crab spring rolls and pork rolls.",
+            "why": "A bún chả restaurant at 21 Nguyễn Hữu Huân in the Old Quarter; its own site lists two restaurants, this one and one in Hoi An.",
+            "price_tier": null,
+            "hours_note": "Own site: 8:00 AM to 22:00; Dân Trí (June 2026) also lists 8 AM - 10 PM.",
+            "open_evidence": "Own site bunchata.com lists the Hanoi address and 8:00-22:00 hours but shows no year; Dân Trí article dated 2026-06-10 (from its URL) independently lists the same address and hours (both viewed 2026-10-16).",
+            "source_url": "https://www.bunchata.com/",
+            "source_name": "Bun Cha Ta own website (hours corroborated by Dân Trí, 2026-06-10)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
+        "day_number": 1,
+        "town": "Hanoi"
+      },
+      {
+        "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
+        "day_number": 2,
+        "town": "Hanoi"
+      },
+      {
+        "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
+        "day_number": 3,
+        "town": "Hanoi"
+      },
+      {
+        "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
+        "day_number": 5,
+        "town": "Hanoi"
+      },
+      {
+        "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
+        "day_number": 6,
+        "town": "Hanoi"
+      },
+      {
+        "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
+        "day_number": 7,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "route:mexico-city-riviera-maya",
     "last_verified_date": "2026-10-16",
     "stops": [

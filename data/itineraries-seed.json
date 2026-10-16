@@ -1344,7 +1344,8 @@
         ],
         "lodging_suggestion": "Cartagena Old Town",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -1356,7 +1357,8 @@
         ],
         "lodging_suggestion": "Cartagena Old Town",
         "latitude": 10.42827,
-        "longitude": -75.546224
+        "longitude": -75.546224,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -1367,7 +1369,8 @@
         ],
         "lodging_suggestion": "Cartagena Old Town",
         "latitude": 10.200473,
-        "longitude": -75.763561
+        "longitude": -75.763561,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -1378,7 +1381,8 @@
         ],
         "lodging_suggestion": "Medellín (El Poblado)",
         "latitude": 9.687189,
-        "longitude": -73.262175
+        "longitude": -73.262175,
+        "eat_town": "Medellín"
       },
       {
         "day_number": 5,
@@ -1389,7 +1393,8 @@
         ],
         "lodging_suggestion": "Medellín (El Poblado)",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Medellín"
       },
       {
         "day_number": 6,
@@ -1401,7 +1406,8 @@
         "drive_time": "2 hrs each way",
         "lodging_suggestion": "Medellín (El Poblado)",
         "latitude": 6.234218,
-        "longitude": -75.161745
+        "longitude": -75.161745,
+        "eat_town": "Medellín"
       },
       {
         "day_number": 7,
@@ -1412,7 +1418,8 @@
         ],
         "lodging_suggestion": "Medellín (El Poblado)",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Medellín"
       }
     ],
     "food_culture": [
@@ -1471,7 +1478,8 @@
         ],
         "lodging_suggestion": "Cusco",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Cusco"
       },
       {
         "day_number": 2,
@@ -1482,7 +1490,8 @@
         ],
         "lodging_suggestion": "Cusco",
         "latitude": -13.517089,
-        "longitude": -71.978536
+        "longitude": -71.978536,
+        "eat_town": "Cusco"
       },
       {
         "day_number": 3,
@@ -1495,7 +1504,8 @@
         "drive_time": "Full day loop from Cusco",
         "lodging_suggestion": "Ollantaytambo or Urubamba",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ollantaytambo"
       },
       {
         "day_number": 4,
@@ -1506,7 +1516,8 @@
         ],
         "lodging_suggestion": "Aguas Calientes",
         "latitude": -12.600891,
-        "longitude": -74.951288
+        "longitude": -74.951288,
+        "eat_town": "Ollantaytambo"
       },
       {
         "day_number": 5,
@@ -1517,7 +1528,8 @@
         ],
         "lodging_suggestion": "Aguas Calientes or back to Cusco",
         "latitude": -13.164341,
-        "longitude": -72.545009
+        "longitude": -72.545009,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -1529,7 +1541,8 @@
         "coffee_wifi_spot": "La Bodega 138, San Blas — reliable wifi for a remote-work afternoon",
         "lodging_suggestion": "Cusco",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Cusco"
       },
       {
         "day_number": 7,
@@ -1540,7 +1553,8 @@
         ],
         "lodging_suggestion": "Cusco",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Cusco"
       }
     ],
     "food_culture": [
@@ -11472,7 +11486,8 @@
         ],
         "lodging_suggestion": "Hanoi Old Quarter",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Hanoi"
       },
       {
         "day_number": 2,
@@ -11485,7 +11500,8 @@
         ],
         "lodging_suggestion": "Hanoi Old Quarter",
         "latitude": 21.031257,
-        "longitude": 105.849998
+        "longitude": 105.849998,
+        "eat_town": "Hanoi"
       },
       {
         "day_number": 3,
@@ -11498,7 +11514,8 @@
         "drive_time": "~1.5-2 hrs each way from Hanoi",
         "lodging_suggestion": "Hanoi Old Quarter",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Hanoi"
       },
       {
         "day_number": 4,
@@ -11512,7 +11529,8 @@
         "drive_time": "~3-3.5 hrs each way from Hanoi",
         "lodging_suggestion": "Overnight cruise boat, Ha Long Bay",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -11525,7 +11543,8 @@
         "drive_time": "~3-3.5 hrs back to Hanoi",
         "lodging_suggestion": "Hanoi Old Quarter",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Hanoi"
       },
       {
         "day_number": 6,
@@ -11537,7 +11556,8 @@
         ],
         "lodging_suggestion": "Hanoi Old Quarter",
         "latitude": 21.028884,
-        "longitude": 105.848712
+        "longitude": 105.848712,
+        "eat_town": "Hanoi"
       },
       {
         "day_number": 7,
@@ -11548,7 +11568,8 @@
         ],
         "lodging_suggestion": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "food_culture": [
