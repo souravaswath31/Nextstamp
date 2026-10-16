@@ -2858,7 +2858,8 @@
         "lodging_suggestion": "Wilmington",
         "coffee_wifi_spot": null,
         "latitude": 39.745947,
-        "longitude": -75.546589
+        "longitude": -75.546589,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -2870,7 +2871,8 @@
         "lodging_suggestion": "Wilmington",
         "coffee_wifi_spot": null,
         "latitude": 39.615985,
-        "longitude": -75.662956
+        "longitude": -75.662956,
+        "eat_town": "New Castle"
       },
       {
         "day_number": 3,
@@ -2882,7 +2884,8 @@
         "lodging_suggestion": "Rehoboth Beach",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Rehoboth Beach"
       },
       {
         "day_number": 4,
@@ -2895,7 +2898,8 @@
         "lodging_suggestion": "Rehoboth Beach",
         "coffee_wifi_spot": null,
         "latitude": 38.716477,
-        "longitude": -75.083511
+        "longitude": -75.083511,
+        "eat_town": "Rehoboth Beach"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -4395,7 +4399,8 @@
         "lodging_suggestion": "Seaside Park",
         "coffee_wifi_spot": null,
         "latitude": 39.835059,
-        "longitude": -74.089307
+        "longitude": -74.089307,
+        "eat_town": "Seaside Park"
       },
       {
         "day_number": 2,
@@ -4407,7 +4412,8 @@
         "lodging_suggestion": "Point Pleasant",
         "coffee_wifi_spot": null,
         "latitude": 40.922878,
-        "longitude": -74.657676
+        "longitude": -74.657676,
+        "eat_town": "Point Pleasant Beach"
       },
       {
         "day_number": 3,
@@ -4419,7 +4425,8 @@
         "lodging_suggestion": "Cape May",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Cape May"
       },
       {
         "day_number": 4,
@@ -4431,7 +4438,8 @@
         "lodging_suggestion": "Cape May",
         "coffee_wifi_spot": null,
         "latitude": 39.050348,
-        "longitude": -74.841888
+        "longitude": -74.841888,
+        "eat_town": "Cape May"
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -4966,7 +4974,8 @@
         "lodging_suggestion": "Providence",
         "coffee_wifi_spot": null,
         "latitude": 41.823989,
-        "longitude": -71.412834
+        "longitude": -71.412834,
+        "eat_town": "Providence"
       },
       {
         "day_number": 2,
@@ -4979,7 +4988,8 @@
         "lodging_suggestion": "Newport",
         "coffee_wifi_spot": null,
         "latitude": 41.489983,
-        "longitude": -71.313771
+        "longitude": -71.313771,
+        "eat_town": "Newport"
       },
       {
         "day_number": 3,
@@ -4991,7 +5001,8 @@
         "lodging_suggestion": "Westerly",
         "coffee_wifi_spot": null,
         "latitude": 41.314261,
-        "longitude": -71.849017
+        "longitude": -71.849017,
+        "eat_town": "Watch Hill"
       },
       {
         "day_number": 4,
@@ -5004,7 +5015,8 @@
         "lodging_suggestion": "Block Island",
         "coffee_wifi_spot": null,
         "latitude": 41.189577,
-        "longitude": -71.5679
+        "longitude": -71.5679,
+        "eat_town": "Block Island"
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -5645,7 +5657,8 @@
         "lodging_suggestion": "Fayetteville",
         "coffee_wifi_spot": null,
         "latitude": 38.053129,
-        "longitude": -81.103986
+        "longitude": -81.103986,
+        "eat_town": "Fayetteville"
       },
       {
         "day_number": 2,
@@ -5657,7 +5670,8 @@
         "lodging_suggestion": "Fayetteville",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Fayetteville"
       },
       {
         "day_number": 3,
@@ -5669,7 +5683,8 @@
         "lodging_suggestion": "Fayetteville",
         "coffee_wifi_spot": null,
         "latitude": 38.067521,
-        "longitude": -81.820858
+        "longitude": -81.820858,
+        "eat_town": "Fayetteville"
       },
       {
         "day_number": 4,
@@ -5681,7 +5696,8 @@
         "lodging_suggestion": "Beckley",
         "coffee_wifi_spot": null,
         "latitude": 37.841765,
-        "longitude": -81.066715
+        "longitude": -81.066715,
+        "eat_town": "Fayetteville"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -9285,7 +9301,8 @@
         "lodging_suggestion": "Pawtucket",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -9299,7 +9316,8 @@
         "lodging_suggestion": "Woonsocket",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -9313,7 +9331,8 @@
         "lodging_suggestion": "Glocester",
         "coffee_wifi_spot": null,
         "latitude": 41.909763,
-        "longitude": -71.665667
+        "longitude": -71.665667,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -9327,7 +9346,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Providence"
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -9552,7 +9572,8 @@
         "lodging_suggestion": "Harpers Ferry",
         "coffee_wifi_spot": null,
         "latitude": 39.324516,
-        "longitude": -77.731012
+        "longitude": -77.731012,
+        "eat_town": "Harpers Ferry"
       },
       {
         "day_number": 2,
@@ -9566,7 +9587,8 @@
         "lodging_suggestion": "Harpers Ferry",
         "coffee_wifi_spot": null,
         "latitude": 37.289683,
-        "longitude": -79.97511
+        "longitude": -79.97511,
+        "eat_town": "Harpers Ferry"
       },
       {
         "day_number": 3,
@@ -9580,7 +9602,8 @@
         "lodging_suggestion": "Shepherdstown",
         "coffee_wifi_spot": null,
         "latitude": 39.289184,
-        "longitude": -77.859581
+        "longitude": -77.859581,
+        "eat_town": "Charles Town"
       },
       {
         "day_number": 4,
@@ -9594,7 +9617,8 @@
         "lodging_suggestion": "Berkeley Springs",
         "coffee_wifi_spot": null,
         "latitude": 39.626798,
-        "longitude": -78.227951
+        "longitude": -78.227951,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -9607,7 +9631,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 39.531335,
-        "longitude": -78.311216
+        "longitude": -78.311216,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -10288,7 +10313,8 @@
         "lodging_suggestion": "New Castle",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "New Castle"
       },
       {
         "day_number": 2,
@@ -10302,7 +10328,8 @@
         "lodging_suggestion": "Dover",
         "coffee_wifi_spot": null,
         "latitude": 39.156613,
-        "longitude": -75.514148
+        "longitude": -75.514148,
+        "eat_town": "Dover"
       },
       {
         "day_number": 3,
@@ -10315,7 +10342,8 @@
         "lodging_suggestion": "Laurel / Seaford area",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Seaford"
       },
       {
         "day_number": 4,
@@ -10329,7 +10357,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 38.52448,
-        "longitude": -75.473238
+        "longitude": -75.473238,
+        "eat_town": "Seaford"
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -10488,7 +10517,8 @@
         "lodging_suggestion": "Princeton, NJ",
         "coffee_wifi_spot": null,
         "latitude": 40.349695,
-        "longitude": -74.659738
+        "longitude": -74.659738,
+        "eat_town": "Princeton"
       },
       {
         "day_number": 2,
@@ -10502,7 +10532,8 @@
         "lodging_suggestion": "Morristown, NJ",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Morristown"
       },
       {
         "day_number": 3,
@@ -10516,7 +10547,8 @@
         "lodging_suggestion": "Blairstown, NJ",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Blairstown"
       },
       {
         "day_number": 4,
@@ -10530,7 +10562,8 @@
         "lodging_suggestion": "Blairstown, NJ",
         "coffee_wifi_spot": null,
         "latitude": 41.138439,
-        "longitude": -74.911022
+        "longitude": -74.911022,
+        "eat_town": "Blairstown"
       },
       {
         "day_number": 5,
@@ -10542,7 +10575,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"

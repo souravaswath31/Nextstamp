@@ -1606,6 +1606,134 @@
     ]
   },
   {
+    "region_key": "delaware",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "New Castle",
+        "eats": [
+          {
+            "name": "Jessop's Tavern",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Delaware LIVE describes New Sweden Meatloaf, 'Hutspot' Dutch pot roast, fish and chips, shepherd's pie and oven-baked pot pies, with Oli Bolen apple cakes for dessert.",
+            "why": "A colonial-themed tavern at 114 Delaware Street in the historic district, in a building dating to 1674, serving English, Dutch, Swedish and Belgian-influenced dishes and over 300 Belgian bottled beers.",
+            "price_tier": null,
+            "hours_note": "Per its own website (whose footer reads 2020): Monday-Thursday 11:30am-9pm, Friday-Saturday 11:30am-10pm, Sunday 11:30am-8pm.",
+            "open_evidence": "Delaware LIVE feature published 2026-10-08 describes the Day family's tavern and its current menu (viewed 2026-10-15); the tavern's own site is live but its footer year is 2020.",
+            "source_url": "https://delawarelive.com/a-taste-of-the-past-jessops-tavern-keeps-new-castle-history-on-the-menu/",
+            "source_name": "Delaware LIVE (local news), 8 Oct 2026"
+          }
+        ]
+      },
+      {
+        "town": "Rehoboth Beach",
+        "eats": [
+          {
+            "name": "The Rehoboth Diner",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The online menu is organised into breakfast burritos, omelettes, hot cakes and waffles, plus Philly steaks, hoagies and seafood for lunch and dinner.",
+            "why": "A full-service diner on Coastal Highway that serves all three meals from 7am, handy on the drive in or out of town.",
+            "price_tier": null,
+            "hours_note": "Per its site: open 7am-10pm, 7 days a week.",
+            "open_evidence": "Own website shows 'Copyright 2026', current hours and a full menu (viewed 2026-10-15).",
+            "source_url": "https://www.rehobothdiner.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Crabby Dick's",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "The site highlights the crabcake sandwich, steamed snow crab legs, Maryland crab soup and steamed blue crabs.",
+            "why": "A Coastal Highway crab house in Rehoboth Beach built around crab cakes, steam pots and its own Seaman Sauce.",
+            "price_tier": null,
+            "hours_note": "Per its site: Sunday 11am-9pm, Monday and Thursday 12pm-9pm, Friday 12pm-10pm, Saturday 11am-10pm; closed Tuesday and Wednesday. The site states no season dates.",
+            "open_evidence": "Own website shows a '2026' copyright footer and current hours listing a single Rehoboth location (viewed 2026-10-15).",
+            "source_url": "https://crabby-dicks.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Dover",
+        "eats": [
+          {
+            "name": "Dover Hollywood Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The online menu is organised into omelettes, Belgian waffles, from-the-griddle items, breakfast sandwiches and wraps, with burgers, seafood and stir-fry on the dinner side.",
+            "why": "A full-menu diner at 123 N DuPont Highway in Dover that opens at 6am, handy for an early start before the Dover museums.",
+            "price_tier": null,
+            "hours_note": "Per its site: open 6am-9pm every day.",
+            "open_evidence": "Own website lists daily hours and its online menu with category records updated 2026-01-24 (viewed 2026-10-15); the page shows no visible copyright year.",
+            "source_url": "https://www.doverhollywooddiner.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Seaford",
+        "eats": [
+          {
+            "name": "Stargate Diner",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The site describes home-cooked comfort food from steak and pasta to breakfast dishes, cakes and pies.",
+            "why": "In Seaford rather than Laurel itself: a family-owned diner at 23415 Sussex Highway serving breakfast, lunch and dinner daily, useful for a Laurel/Seaford overnight.",
+            "price_tier": null,
+            "hours_note": "Per its site: Monday-Saturday 7am-10pm, Sunday 7am-9pm.",
+            "open_evidence": "Own website shows a current holiday-party booking banner, online reservations and ordering, with site records updated 2026-05-11; the page shows no visible copyright year (viewed 2026-10-15).",
+            "source_url": "https://stargatediner.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Delaware: Wilmington → Rehoboth Beach",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Delaware: Wilmington → Rehoboth Beach",
+        "day_number": 2,
+        "town": "New Castle"
+      },
+      {
+        "itinerary_title": "Delaware: Wilmington → Rehoboth Beach",
+        "day_number": 3,
+        "town": "Rehoboth Beach"
+      },
+      {
+        "itinerary_title": "Delaware: Wilmington → Rehoboth Beach",
+        "day_number": 4,
+        "town": "Rehoboth Beach"
+      },
+      {
+        "itinerary_title": "Delaware History & Bayshore: New Castle to Trap Pond",
+        "day_number": 1,
+        "town": "New Castle"
+      },
+      {
+        "itinerary_title": "Delaware History & Bayshore: New Castle to Trap Pond",
+        "day_number": 2,
+        "town": "Dover"
+      },
+      {
+        "itinerary_title": "Delaware History & Bayshore: New Castle to Trap Pond",
+        "day_number": 3,
+        "town": "Seaford"
+      },
+      {
+        "itinerary_title": "Delaware History & Bayshore: New Castle to Trap Pond",
+        "day_number": 4,
+        "town": "Seaford"
+      }
+    ]
+  },
+  {
     "region_key": "florida",
     "last_verified_date": "2026-10-03",
     "stops": [
@@ -5184,6 +5312,245 @@
     ]
   },
   {
+    "region_key": "new-jersey",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Seaside Park",
+        "eats": [
+          {
+            "name": "White Oak Market",
+            "kind": "market",
+            "meal": "breakfast",
+            "what_to_order": "The site highlights breakfast sandwiches, subs, wraps and paninis, plus daily specials.",
+            "why": "A family-owned shop on Central Avenue in Seaside Park itself, handy for an early start before Island Beach State Park.",
+            "price_tier": null,
+            "hours_note": "Per its site: Mon, Wed, Thu 7am-4pm; Fri-Sun 7am-5pm; closed Tuesday.",
+            "open_evidence": "Own website shows current hours, a 'newly renovated shop' notice and a 2026 copyright (viewed 2026-10-15)",
+            "source_url": "https://whiteoakmarket.online/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Ebby's Ristorante and Lounge",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site describes a modern Italian family restaurant and mentions homemade bottled sauces; it names no specific dishes on the homepage.",
+            "why": "Single-location Italian dinner spot on Central Avenue in Seaside Park; its site says it has more than 30 years at the Jersey Shore.",
+            "price_tier": null,
+            "hours_note": "Per its site: open 7 days a week, 4pm-11pm.",
+            "open_evidence": "Own website shows 'Now Open 7 Days a Week' hours, current promotions and a 2026 copyright (viewed 2026-10-15)",
+            "source_url": "https://ebbysnj.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Point Pleasant Beach",
+        "eats": [
+          {
+            "name": "Pop's Corner",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "The site names cookies and coffee, including an October 'Salted Pumpkin Spice Latte' cookie of the month, and chocolate chip cookies.",
+            "why": "A single-location bakery and coffee stop at 500 Arnold Avenue, a short way from the boardwalk; its site says it is no longer a full-service restaurant.",
+            "price_tier": null,
+            "hours_note": "Per its site: open daily 8am-4pm.",
+            "open_evidence": "Own website lists daily hours, an October cookie of the month and a 2026 copyright (viewed 2026-10-15)",
+            "source_url": "https://www.popscornernj.com/pages/visit-us",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Off Shore Restaurant",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "The site describes fresh seafood, Italian specialties and pizza, and names papardelle bolognese and steaks.",
+            "why": "A single-location restaurant at 225 Ocean Avenue that its site says has been open since 1953.",
+            "price_tier": null,
+            "hours_note": "Per its site: Tue-Fri 4pm-9pm, Sat 12pm-9pm, Sun 12pm-8:30pm; closed Mondays; open year round.",
+            "open_evidence": "Own website lists current hours, 'open year round' and a 2026 copyright (viewed 2026-10-15)",
+            "source_url": "https://www.offshorerestaurant.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Cape May",
+        "eats": [
+          {
+            "name": "The Mad Batter Restaurant & Bar",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "The page names no specific dishes; it lists breakfast and lunch from 8am and dinner from 3:30pm.",
+            "why": "Single location at 19 Jackson Street, family-owned since 1976 per its site, serving breakfast, lunch and dinner daily.",
+            "price_tier": null,
+            "hours_note": "Per its site: breakfast and lunch 8am-2:30pm, dinner 3:30pm to close, open every day except Christmas.",
+            "open_evidence": "Own website lists 2026 hours and carries a 2026 copyright (viewed 2026-10-15)",
+            "source_url": "https://www.madbatter.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Lobster House",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "The site mentions lobster, a raw bar and fresh catch from the commercial fishing boats docked beside it.",
+            "why": "A family-owned seafood house on Fisherman's Wharf, a working dock; its site says the family has run it for over four generations.",
+            "price_tier": null,
+            "hours_note": "Per its site: lunch and dinner year-round, 7 days a week; no reservations accepted.",
+            "open_evidence": "Own website states year-round daily service and carries a 2025 copyright; no 2026 year found (viewed 2026-10-15)",
+            "source_url": "https://www.thelobsterhouse.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Princeton",
+        "eats": [
+          {
+            "name": "Small World Coffee",
+            "kind": "cafe",
+            "meal": "snack",
+            "what_to_order": "The site is about coffee and online ordering at both cafes; it names no food items.",
+            "why": "The coffee stop named in the Princeton day plan: two independent cafes (Witherspoon Street and Nassau Street), 'Keeping Princeton up since 1993' per its site.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a 2026 copyright, active Toast online ordering for both cafes and a hiring notice (viewed 2026-10-15)",
+            "source_url": "https://www.smallworldcoffee.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Nassau Diner",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The site lists breakfast, lunch and dinner menus and a specialized pastrami menu.",
+            "why": "A single-location diner at 82 Nassau Street, steps from the campus and Palmer Square.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website carries a 2026 copyright and current menus; the page itself shows no hours (viewed 2026-10-15)",
+            "source_url": "https://www.nassaudiner.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Morristown",
+        "eats": [
+          {
+            "name": "Rey Sol Coffee",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The page lists a kitchen alongside the coffee bar but names no dishes.",
+            "why": "A two-cafe local roaster (Ridgewood and Morristown); the Morristown cafe is at 140 Morris Street, near the Green.",
+            "price_tier": null,
+            "hours_note": "Per its site: open 6am-5pm daily; kitchen 6am-3pm Mon-Fri and until 5pm on weekends.",
+            "open_evidence": "Own website lists current hours and carries a 2026 copyright (viewed 2026-10-15)",
+            "source_url": "https://reysolcoffee.com/pages/hours-and-location-morristown",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "dän Bakery & Café",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "The site mentions freshly baked pastries, whole cakes and coffee.",
+            "why": "A bakery-cafe at 64 South Street (three locations in total: Morristown, Hoboken and the Upper East Side per its site).",
+            "price_tier": null,
+            "hours_note": "Per its site: Mon-Thu 7am-8pm, Fri 7am-9pm, Sat 9am-9pm, Sun 9am-8pm.",
+            "open_evidence": "Own website lists Morristown hours, a Thanksgiving cake-order deadline of 23 November and a 2026 copyright (viewed 2026-10-15)",
+            "source_url": "https://danbakery.us/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Blairstown",
+        "eats": [
+          {
+            "name": "Blairstown Diner",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site mentions fluffy pancakes, four-egg omelets, burgers, milkshakes and meatloaf.",
+            "why": "On Route 94 in Blairstown itself; per its site, open since 1949 and a filming location for the original Friday the 13th.",
+            "price_tier": null,
+            "hours_note": "Per its site: open every day 6am-9pm.",
+            "open_evidence": "Own website lists daily hours and carries a 2025 copyright; Explore Warren (county tourism) lists it with the same hours. No 2026 year found (viewed 2026-10-15)",
+            "source_url": "https://www.blairstowndiner.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Buck Hill Brewery",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "The site features a menu section and bar specials; the homepage names no specific dishes.",
+            "why": "A brewery and restaurant at 45 State Route 94, Blairstown, with its own hops farm per its site.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows October 2026 events, a 2026 copyright and a new apparel shop; the page shows no hours (viewed 2026-10-15)",
+            "source_url": "https://www.buckhillbrewery.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "InHouse Restaurant & Bar",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site's pitch is food made fresh in-house; it names no specific dishes on the homepage.",
+            "why": "Single location at 606 County Road 519, Blairstown.",
+            "price_tier": null,
+            "hours_note": "Per its site: Wed-Thu 12-9pm, Fri-Sat 12-9:30pm, Sun 12-8pm; Monday and Tuesday not listed.",
+            "open_evidence": "Own website lists current hours and carries a 2025 copyright; no 2026 year found (viewed 2026-10-15)",
+            "source_url": "https://www.inhouserestaurantandbar.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Jersey Shore: Island Beach to Cape May",
+        "day_number": 1,
+        "town": "Seaside Park"
+      },
+      {
+        "itinerary_title": "Jersey Shore: Island Beach to Cape May",
+        "day_number": 2,
+        "town": "Point Pleasant Beach"
+      },
+      {
+        "itinerary_title": "Jersey Shore: Island Beach to Cape May",
+        "day_number": 3,
+        "town": "Cape May"
+      },
+      {
+        "itinerary_title": "Jersey Shore: Island Beach to Cape May",
+        "day_number": 4,
+        "town": "Cape May"
+      },
+      {
+        "itinerary_title": "Northern New Jersey: Princeton, Morristown & the Delaware Water Gap",
+        "day_number": 1,
+        "town": "Princeton"
+      },
+      {
+        "itinerary_title": "Northern New Jersey: Princeton, Morristown & the Delaware Water Gap",
+        "day_number": 2,
+        "town": "Morristown"
+      },
+      {
+        "itinerary_title": "Northern New Jersey: Princeton, Morristown & the Delaware Water Gap",
+        "day_number": 3,
+        "town": "Blairstown"
+      },
+      {
+        "itinerary_title": "Northern New Jersey: Princeton, Morristown & the Delaware Water Gap",
+        "day_number": 4,
+        "town": "Blairstown"
+      },
+      {
+        "itinerary_title": "Northern New Jersey: Princeton, Morristown & the Delaware Water Gap",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "new-mexico",
     "last_verified_date": "2026-10-15",
     "stops": [
@@ -6511,6 +6878,174 @@
         "itinerary_title": "Pittsburgh & the Laurel Highlands",
         "day_number": 6,
         "town": "Pittsburgh"
+      }
+    ]
+  },
+  {
+    "region_key": "rhode-island",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Providence",
+        "eats": [
+          {
+            "name": "Angelo's Civita Farnese",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The website lists lasagna, braciola, homemade meatballs and gravy, and mini cannoli.",
+            "why": "A family Italian-American comfort-food restaurant right on Atwells Avenue, the Federal Hill strip the itinerary sends you to.",
+            "price_tier": null,
+            "hours_note": "Closed Monday and Tuesday; Wed-Thu 11:30am-8pm, Fri-Sat 11:30am-9pm, Sun 12pm-8pm (per its website)",
+            "open_evidence": "Own website lists current hours and menu and shows 2025 award banners, though its footer reads 2022 (viewed 2026-10-15)",
+            "source_url": "https://www.angelosri.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Sicilia's Pizzeria",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The website highlights its original deep dish stuffed pizza.",
+            "why": "A family-owned pizzeria on Atwells Avenue in Federal Hill, open until 2am or 3am, so it works after an evening at WaterFire.",
+            "price_tier": null,
+            "hours_note": "Sun-Thu 10am-2am, Fri-Sat 10am-3am (per its website)",
+            "open_evidence": "Own website lists hours and menu, and its footer reads copyrighted 2025 (viewed 2026-10-15)",
+            "source_url": "https://siciliasonline.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Newport",
+        "eats": [
+          {
+            "name": "Franklin Spa",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Visit Newport RI names the lobster eggs benedict, the Portuguese Sailor (eggs, chourico and cheese on Portuguese sweet bread) and stuffed French toast.",
+            "why": "A breakfast diner at Spring and Franklin streets that says it has served Newport breakfast for over 180 years.",
+            "price_tier": null,
+            "hours_note": "Open daily 6am-1pm, closed only on Christmas, first-come first-served (per its website)",
+            "open_evidence": "Own website lists daily hours and online ordering but shows no year; Visit Newport RI's brunch guide dated 2026-06-18 (updated 2026-06-28) lists it as a current pick (viewed 2026-10-15)",
+            "source_url": "https://www.franklinspari.com/",
+            "source_name": "Venue's own website; Visit Newport RI brunch guide (2026)"
+          },
+          {
+            "name": "The Hungry Monkey",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Visit Newport RI names the Chimpanzee, a sweet bread French toast with peanut butter and banana; the cafe's own site also mentions the King Kong omelet challenge.",
+            "why": "A Portuguese-leaning breakfast and lunch diner on Newport's Broadway, away from the Thames Street crowds.",
+            "price_tier": null,
+            "hours_note": "Breakfast and lunch daily, plus dinner Friday-Saturday (per Visit Newport RI, June 2026)",
+            "open_evidence": "Own website describes the cafe as serving breakfast and lunch daily but shows no year; Visit Newport RI's brunch guide dated 2026-06-18 (updated 2026-06-28) lists it as open daily (viewed 2026-10-15)",
+            "source_url": "https://hungrymonkeycafe.com/",
+            "source_name": "Venue's own website; Visit Newport RI brunch guide (2026)"
+          }
+        ]
+      },
+      {
+        "town": "Watch Hill",
+        "note": "Seasonal: per its website, Olympia Tea Room is closing for the season on Sunday, October 25. Our advice: if you reach Watch Hill after that date, expect the village to be much quieter and check what is open before you drive out.",
+        "note_source_url": "https://www.olympiatearoom.com/",
+        "eats": [
+          {
+            "name": "Olympia Tea Room",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Watch Hill Guide's 2026 review names the lobster salad croissant at lunch, the Portuguese baked haddock at dinner, and the calamari and chowders.",
+            "why": "Watch Hill's oldest restaurant, on Bay Street since 1916 and run by the same family since 1980 per Watch Hill Guide.",
+            "price_tier": null,
+            "hours_note": "Seasonal: its website says closing for the season on Sunday, October 25 (the page shows no year). Closed Monday-Wednesday; Thu 4-8pm, Fri-Sat 12-9pm, Sun 12-8pm. No reservations.",
+            "open_evidence": "Own website lists current hours and the October 25 season-closing banner, with no year shown; Watch Hill Guide's review, updated 2026-05-26, describes the 2026 season (viewed 2026-10-15)",
+            "source_url": "https://www.olympiatearoom.com/visit",
+            "source_name": "Venue's own website; Watch Hill Guide (2026)"
+          }
+        ]
+      },
+      {
+        "town": "Block Island",
+        "note": "Per the Block Island Chamber of Commerce 'Who is open' page, headed 'September/October 2026. As of 10/15/26', several restaurants are in their last days or weeks of the season (Aldo's Restaurant 10/13-10/16, Winfield's tentatively October 17, Virginica Pizza and Poor People's Pub October 31, Eli's November 28). Odd Fellows Cafe, Ellen's at The Airport, McAloon's and Wetherbee's Pizza & Bar are listed as open all year. Our advice: check the chamber page for your sailing date, as more places close each week in the fall.",
+        "note_source_url": "https://www.blockislandchamber.com/who-is-open",
+        "eats": [
+          {
+            "name": "Odd Fellows Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Edible Rhody (March 2026) mentions its chocolate chip and oatmeal raisin cookies.",
+            "why": "A year-round cafe on Water Street, which Edible Rhody says stays open all winter, with hours that suit a morning ferry arrival.",
+            "price_tier": null,
+            "hours_note": "Chamber lists 'Open all year. 7:00 TO 3:00.'",
+            "open_evidence": "Block Island Chamber of Commerce 'Who is open' page headed 'September/October 2026. As of 10/15/26' lists it open all year; Edible Rhody article dated 2026-03-21 also lists it as year-round (viewed 2026-10-15)",
+            "source_url": "https://www.blockislandchamber.com/who-is-open",
+            "source_name": "Block Island Chamber of Commerce; Edible Rhody (2026)"
+          },
+          {
+            "name": "Ellen's at The Airport",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The sources name no specific dishes; Edible Rhody describes a breakfast and lunch menu.",
+            "why": "A breakfast and lunch spot at the island airport that stays open year-round, per Edible Rhody; it opened in 2022, so it is newer than most places here.",
+            "price_tier": null,
+            "hours_note": "Chamber lists 'Open all year. Monday-Sunday 7am-2pm. Kitchen closes at 1:30.'",
+            "open_evidence": "Block Island Chamber of Commerce 'Who is open' page headed 'September/October 2026. As of 10/15/26' lists it open all year; Edible Rhody article dated 2026-03-21 also lists it (viewed 2026-10-15)",
+            "source_url": "https://www.blockislandchamber.com/who-is-open",
+            "source_name": "Block Island Chamber of Commerce; Edible Rhody (2026)"
+          },
+          {
+            "name": "McAloon's",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Edible Rhody (March 2026) mentions its clam chowder and French onion soup.",
+            "why": "One of the few island restaurants that stays open all year, per Edible Rhody, with dinner Tuesday-Saturday and lunch on Saturday and Sunday.",
+            "price_tier": null,
+            "hours_note": "Chamber lists 'Open all year. Closed Mondays. Tuesday-Friday 4:00pm-8:30pm. Saturday 11:30am-8:30pm. Sunday 11:00am-3:00pm.'",
+            "open_evidence": "Block Island Chamber of Commerce 'Who is open' page headed 'September/October 2026. As of 10/15/26' lists it open all year; Edible Rhody article dated 2026-03-21 also lists it (viewed 2026-10-15)",
+            "source_url": "https://www.blockislandchamber.com/who-is-open",
+            "source_name": "Block Island Chamber of Commerce; Edible Rhody (2026)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Rhode Island: Providence → Newport → Block Island",
+        "day_number": 1,
+        "town": "Providence"
+      },
+      {
+        "itinerary_title": "Rhode Island: Providence → Newport → Block Island",
+        "day_number": 2,
+        "town": "Newport"
+      },
+      {
+        "itinerary_title": "Rhode Island: Providence → Newport → Block Island",
+        "day_number": 3,
+        "town": "Watch Hill"
+      },
+      {
+        "itinerary_title": "Rhode Island: Providence → Newport → Block Island",
+        "day_number": 4,
+        "town": "Block Island"
+      },
+      {
+        "itinerary_title": "Rhode Island: Blackstone Valley & the Quiet Corner",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Rhode Island: Blackstone Valley & the Quiet Corner",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Rhode Island: Blackstone Valley & the Quiet Corner",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Rhode Island: Blackstone Valley & the Quiet Corner",
+        "day_number": 4,
+        "town": "Providence"
       }
     ]
   },
@@ -8150,6 +8685,126 @@
         "itinerary_title": "Seattle & the San Juan Islands",
         "day_number": 6,
         "town": "Seattle"
+      }
+    ]
+  },
+  {
+    "region_key": "west-virginia",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Fayetteville",
+        "note": "The National Park Service says New River Gorge National Park & Preserve has no dining facilities inside its boundaries and that restaurants are in gateway towns including Fayetteville, Beckley, Oak Hill and Mount Hope. Our advice: eat in Fayetteville and carry a picnic for trail and rafting days (the NPS notes picnicking is allowed throughout most of the park).",
+        "note_source_url": "https://www.nps.gov/neri/planyourvisit/eatingsleeping.htm",
+        "eats": [
+          {
+            "name": "Secret Sandwich Society",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Sandwiches named for U.S. presidents, such as the Kennedy (slow-cooked pork shoulder, ham, Swiss), per LongWeekends Magazine, Spring/Summer 2025.",
+            "why": "Fayetteville's presidential-themed sandwich shop, rebuilt and reopened in 2023 on Keller Avenue after a 2020 fire, with a beer garden.",
+            "price_tier": null,
+            "hours_note": "Own site lists Fayetteville hours as Sunday-Thursday 11am-9pm and Friday-Saturday 11am-10pm (the page shows no year).",
+            "open_evidence": "Own website lists current hours for the Fayetteville location (page shows no year); LongWeekends Magazine's Spring/Summer 2025 issue describes the rebuilt restaurant as open on Keller Avenue (viewed 2026-10-15). Operates three locations (Fayetteville, Morgantown, Richmond).",
+            "source_url": "https://www.secretsandwichsociety.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Bridge Brew Works",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "Locally brewed craft beer by the pint or as a tasting flight, per the brewery's own site.",
+            "why": "A small local taproom in Fayetteville, a short stop from the New River Gorge Bridge.",
+            "price_tier": null,
+            "hours_note": "Taproom hours listed as Tuesday-Sunday 1pm-9pm, closed Monday; the site labels these hours 'March-December'. The page does not mention a food menu.",
+            "open_evidence": "Own website shows taproom hours and a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://bridgebrewworks.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Harpers Ferry",
+        "note": "The National Park Service says there are no eating or lodging establishments inside Harpers Ferry National Historical Park; all eating, lodging and shopping is just outside the park boundaries in the towns of Harpers Ferry and Bolivar. Our advice: eat in the Lower Town and bring water and snacks for the Maryland Heights hike.",
+        "note_source_url": "https://www.nps.gov/hafe/planyourvisit/eatingsleeping.htm",
+        "eats": [
+          {
+            "name": "The Rabbit Hole GastroPub",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Burgers, sandwiches or Fish and Chips from the main plates, per the venue's menu page.",
+            "why": "A locally run gastropub on High Street in Harpers Ferry with indoor and outdoor seating.",
+            "price_tier": "$$",
+            "hours_note": "Home page showed 'open today 12:00 pm - 8:00 pm' when viewed; closed annually January 5-15 for maintenance and training; special holiday hours (Halloween, Christmas Eve, New Year's Eve).",
+            "open_evidence": "Own website shows today's hours and a 2026 closure notice for January 5-15, plus a current menu page with prices (viewed 2026-10-15).",
+            "source_url": "https://rabbitholewv.com/menu",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Charles Town",
+        "eats": [
+          {
+            "name": "Abolitionist Ale Works",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "Its own house-brewed beers; the site says food and beverage menus are available.",
+            "why": "A local brewery in downtown Charles Town, close to the Jefferson County Museum.",
+            "price_tier": null,
+            "hours_note": "Tuesday-Thursday 4-9pm, Friday-Saturday noon-9pm, Sunday noon-8pm (closed Monday per the listed hours).",
+            "open_evidence": "Own website lists current hours and has a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://www.abolitionistaleworks.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "New River Gorge, West Virginia",
+        "day_number": 1,
+        "town": "Fayetteville"
+      },
+      {
+        "itinerary_title": "New River Gorge, West Virginia",
+        "day_number": 2,
+        "town": "Fayetteville"
+      },
+      {
+        "itinerary_title": "New River Gorge, West Virginia",
+        "day_number": 3,
+        "town": "Fayetteville"
+      },
+      {
+        "itinerary_title": "New River Gorge, West Virginia",
+        "day_number": 4,
+        "town": "Fayetteville"
+      },
+      {
+        "itinerary_title": "Harpers Ferry & the Eastern Panhandle, West Virginia",
+        "day_number": 1,
+        "town": "Harpers Ferry"
+      },
+      {
+        "itinerary_title": "Harpers Ferry & the Eastern Panhandle, West Virginia",
+        "day_number": 2,
+        "town": "Harpers Ferry"
+      },
+      {
+        "itinerary_title": "Harpers Ferry & the Eastern Panhandle, West Virginia",
+        "day_number": 3,
+        "town": "Charles Town"
+      },
+      {
+        "itinerary_title": "Harpers Ferry & the Eastern Panhandle, West Virginia",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Harpers Ferry & the Eastern Panhandle, West Virginia",
+        "day_number": 5,
+        "town": null
       }
     ]
   },
