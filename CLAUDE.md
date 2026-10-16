@@ -629,8 +629,8 @@ Where the honest answer is "options are thin" (Big Bend, Capitol Reef, Escalante
 stop's `note` says so, sourced — ideally to an NPS page — rather than padding to three
 eats. Fewer verified eats always beats one unverified eat.
 
-**Status: all 50 states are researched** (431 eats across 249 stops, 50 regions). The 16
-international routes are NOT done. Treat those counts as a snapshot and re-run
+**Status: all 50 states and 13 of 16 international routes are researched** (~466 eats, 63
+regions). Treat those counts as a snapshot and re-run
 `python3 scripts/validate_road_eats.py --check-existing`. Coverage is deliberately uneven:
 stops with no verified eat were *dropped* (their days map to no town and the page shows
 nothing for them) rather than padded, so a thin state like North Dakota (3 eats) or West
@@ -647,12 +647,18 @@ locations; seasonal places whose end date can't be read (it is mid-October — M
 Alaska, Black Hills, Door County all close); and agents counting their own output wrong.
 Agent reports are not evidence; read the file.
 
-**International routes — do this differently.** `regionKey` is a state slug or a country
-slug, and they collide: the `georgia` state and the Georgia + Armenia route (country
-Georgia) share a key. The state's `day_map` already maps that route's days to no town. For
-the international pass, either namespace the key (`country:georgia`, which means touching
-`regionKeysForItinerary`, the validator and the seeder together) or confirm no town name
-repeats between the two. Do not just reuse `georgia`.
+**International routes are done, and they are thin.** Keyed `route:<itinerary slug>` (see
+`regionKeysForItinerary`; the `georgia` state/route collision is gone). 13 of 16 routes
+have at least one eat (Japan 6, Peru 5, Turkey 5, Morocco 4, Mexico 4, then 1-2 each);
+**Egypt, the UAE and Georgia + Armenia have none**, and Thailand's Bangkok and
+Ayutthaya days and most of Vietnam's Ha Long/Ninh Binh days show nothing. That is the
+evidence bar working, not a bug: most restaurants outside the US have no website with a
+dated page (they live on Facebook, Instagram, Google Maps and delivery apps, all banned
+sources), and several look-alike domains for real places redirect to casino or spam sites.
+A footer year alone, a hidden page-source timestamp, or an inferred year ("27 years since
+1998") was treated as not enough. If you want more coverage the lever is a *new source
+class* (dated 2025-26 press features, municipal market pages), not a looser bar, and each
+route needs its own agent run. Re-run with `python3 scripts/road_eats_brief.py --routes`.
 
 **Itinerary text that still names places research could not confirm are open** (not
 edited; the data and UI do not depend on it): Cajun Country day 2 names Cafe des Amis

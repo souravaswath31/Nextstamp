@@ -471,18 +471,6 @@
         "town": "Page",
         "eats": [
           {
-            "name": "Big John's Texas BBQ",
-            "kind": "bbq",
-            "meal": "any",
-            "what_to_order": "Beef brisket, pork ribs, hot links or BBQ nachos, all named on the restaurant's site.",
-            "why": "A no-reservations barbecue stop in Page with live music nightly from 6:30 to 9 PM, per its own site.",
-            "price_tier": null,
-            "hours_note": "Open 7 days a week 11 AM to 9 PM, first-come first-served with no reservations, per own site.",
-            "open_evidence": "Own website lists current hours and menu with a 2026 copyright footer (viewed 2026-10-03).",
-            "source_url": "https://bigjohnstexasbbq.com/",
-            "source_name": "Venue's own website"
-          },
-          {
             "name": "The Dam Bar & Grille",
             "kind": "regional",
             "meal": "dinner",
