@@ -7404,6 +7404,78 @@
     ]
   },
   {
+    "region_key": "route:bali-indonesia",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Ubud",
+        "eats": [
+          {
+            "name": "Babi Guling Ibu Oka",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The Special or Separated Special babi guling, which the site describes as slow-roasted over open flame with a secret blend of Balinese spices; the menu also lists blood sausage and roasted pork skin.",
+            "why": "A family-run roast-pork warung (three generations, three outlets in and around Ubud, original on Jl. Suweta) that serves one dish; the site says it has operated for over forty years.",
+            "price_tier": null,
+            "hours_note": "Site says open daily 11:00-18:00 'or until sold out', usually by mid-afternoon, so go for lunch rather than late afternoon.",
+            "open_evidence": "Own website footer reads '© 2026 Babi Guling Ibu Oka' and shows a current Rupiah price list and three outlet addresses (viewed 2026-10-16).",
+            "source_url": "https://ibuokababiguling.com/en",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Murni's Warung",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Its own pages name tutu ayam (chicken slow-cooked for at least eight hours), bakso ayam (chicken meatball soup) and nasi campur.",
+            "why": "A single riverside restaurant by the Campuhan bridge area, founded in 1974 and still run by its owner Ibu Murni, according to the venue's own pages.",
+            "price_tier": null,
+            "hours_note": "Own page states '9am - 10pm daily'.",
+            "open_evidence": "Own website lists an A La Carte Menu updated 9 February 2026 and a Cakes Menu updated 17 February 2026, and states it received a Bali's Dining Legends Award in December 2024 (viewed 2026-10-16); the page footer carries no year.",
+            "source_url": "https://www.murnis.com/murnis-warung/menus/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Bali, Indonesia",
+        "day_number": 1,
+        "town": "Ubud"
+      },
+      {
+        "itinerary_title": "Bali, Indonesia",
+        "day_number": 2,
+        "town": "Ubud"
+      },
+      {
+        "itinerary_title": "Bali, Indonesia",
+        "day_number": 3,
+        "town": "Ubud"
+      },
+      {
+        "itinerary_title": "Bali, Indonesia",
+        "day_number": 4,
+        "town": "Ubud"
+      },
+      {
+        "itinerary_title": "Bali, Indonesia",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Bali, Indonesia",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Bali, Indonesia",
+        "day_number": 7,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "route:bangkok-chiang-mai-thailand",
     "last_verified_date": "2026-10-16",
     "stops": [
@@ -7537,6 +7609,78 @@
         "itinerary_title": "Cartagena + Medellín, Colombia",
         "day_number": 7,
         "town": "Medellín"
+      }
+    ]
+  },
+  {
+    "region_key": "route:costa-rica",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Monteverde",
+        "eats": [
+          {
+            "name": "Sabor Tico",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Its site highlights gallo pinto and ceviche as classic dishes.",
+            "why": "Local Costa Rican restaurant with two Monteverde/Santa Elena locations (Plaza Monteverde second floor, and across from the Sports Plaza); its own page describes \"Costa Rican cuisine with identity\".",
+            "price_tier": null,
+            "hours_note": "Own site lists the Plaza Monteverde location 9 AM-11 PM daily and the Sports Plaza location 10 AM-9 PM daily; a search-result summary of the same site showed a 10 PM close at Plaza Monteverde, so confirm by phone (+506 2645 5968). No low-season closure is mentioned.",
+            "open_evidence": "Own website (saborticorestaurante.com) shows a 2025 copyright footer, two phone numbers and current location hours (viewed 2026-10-16); no dated news item and no 2026 date on the page.",
+            "source_url": "https://saborticorestaurante.com/restaurant-in-monteverde",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Tree House Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Its menu lists ceviche, garlic shrimp, BBQ pork ribs and a house dessert called Sweet Tree.",
+            "why": "Stand-alone Monteverde restaurant built around a large ficus tree whose branches run through the dining room; its menu mixes Costa Rican and international dishes rather than being strictly regional.",
+            "price_tier": null,
+            "hours_note": "Site states: \"Open daily from 11:30am - 10:00pm\". Site notice: \"live music is unavailable during the low season months of September and October\" (so no live music now).",
+            "open_evidence": "Own website (treehouse.cr) shows a 2026 copyright footer, current hours and a low-season notice naming September and October as the months live music is unavailable (viewed 2026-10-16); the notice states no year.",
+            "source_url": "https://treehouse.cr/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Costa Rica",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Costa Rica",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Costa Rica",
+        "day_number": 3,
+        "town": "Monteverde"
+      },
+      {
+        "itinerary_title": "Costa Rica",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Costa Rica",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Costa Rica",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Costa Rica",
+        "day_number": 7,
+        "town": null
       }
     ]
   },
@@ -7710,6 +7854,107 @@
         "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
         "day_number": 7,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "route:marrakech-and-the-sahara-desert-morocco",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Marrakech",
+        "eats": [
+          {
+            "name": "Al Fassia",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Its own site lists Moroccan salad, traditional soup, tajines, couscous, pigeon pastilla and kebab.",
+            "why": "A Moroccan restaurant open since 1987 that its own site says is run entirely by women; it has two Marrakech locations (Guéliz and Aguedal), so it is a locally owned two-venue operation.",
+            "price_tier": null,
+            "hours_note": "Per the venue's booking page: Guéliz is open daily 5 pm-11 pm (Friday and Saturday 12:30-2:30 pm and 7-11 pm) and closed Tuesdays; Aguedal is open daily 5 pm-11 pm (Tuesday 12:30-11 pm) and closed Mondays. Online bookings must be confirmed 24 hours in advance.",
+            "open_evidence": "Own booking page lists per-location hours and closing days and the site carries a 2025 copyright notice (a footer year alone can be automatic); the Marrakech-Safi Regional Tourism Council site (visitmarrakech.com) also lists it (viewed 2026-10-16).",
+            "source_url": "https://alfassia.com/restaurant-booking/",
+            "source_name": "Al Fassia's own website (booking page)"
+          },
+          {
+            "name": "Le Foundouk",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Its own site mentions tagine and couscous.",
+            "why": "A rooftop-terrace restaurant in a restored building in the Marrakech medina near the Marrakech Museum; its site says the restaurant and bar date from 2002 and name an associated hotel, Les 5 Djellabas.",
+            "price_tier": null,
+            "hours_note": "Per the venue's site: open 7 pm to midnight, closed Wednesdays; online reservations available.",
+            "open_evidence": "Own homepage lists hours, closed day and online reservations, and shows a press mention dated March 13, 2025 (the newest dated item found; no 2026 date seen) (viewed 2026-10-16).",
+            "source_url": "https://www.foundouk.com/",
+            "source_name": "Le Foundouk's own website"
+          },
+          {
+            "name": "Restaurant Dar Cherifa",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "The operator's page says dishes are served à la carte, starting from 50 MAD; it names no individual dishes.",
+            "why": "A Moroccan cafe-restaurant in a Saadian-era riad in the Mouassine quarter of the medina that the operator says also hosts exhibitions, workshops and concerts, and welcomes all visitors.",
+            "price_tier": null,
+            "hours_note": "Per the operator's page: every day from 10 am to 11 pm, except Wednesday until 7 pm.",
+            "open_evidence": "Operator's page (Marrakech Riads, which says it has run the venue since 2000) lists current hours and a 'New Year's Eve 2025' event; the newest date on the page is that 2025 event, so this is weaker than a 2026-dated page (viewed 2026-10-16).",
+            "source_url": "https://marrakech-riads.com/en/restaurant-dar-cherifa/",
+            "source_name": "Marrakech Riads (operator) page for Dar Cherifa"
+          }
+        ]
+      },
+      {
+        "town": "Aït Benhaddou",
+        "eats": [
+          {
+            "name": "Sunset Restaurant & Salon De Thé",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Its own site mentions Moroccan tagines, fresh seafood, and vegetarian and vegan options.",
+            "why": "A multi-terrace restaurant directly across from the UNESCO ksar of Aït Benhaddou, which its site says suits travellers on the Marrakech-Ouarzazate route and those returning from Sahara tours; owned by the same people as Passage Coffee & Restaurant, per Passage's site.",
+            "price_tier": null,
+            "hours_note": "Per the venue's site: daily 10:00 to 22:00, kitchen closes at 21:30.",
+            "open_evidence": "Own site shows 'Recent Update (28 July 2026)' about new terrace covers and a 2026 copyright notice (viewed 2026-10-16).",
+            "source_url": "https://sunsetaitbenhaddou.com/",
+            "source_name": "Sunset Restaurant's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Marrakech & the Sahara Desert, Morocco",
+        "day_number": 1,
+        "town": "Marrakech"
+      },
+      {
+        "itinerary_title": "Marrakech & the Sahara Desert, Morocco",
+        "day_number": 2,
+        "town": "Marrakech"
+      },
+      {
+        "itinerary_title": "Marrakech & the Sahara Desert, Morocco",
+        "day_number": 3,
+        "town": "Aït Benhaddou"
+      },
+      {
+        "itinerary_title": "Marrakech & the Sahara Desert, Morocco",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Marrakech & the Sahara Desert, Morocco",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Marrakech & the Sahara Desert, Morocco",
+        "day_number": 6,
+        "town": "Marrakech"
+      },
+      {
+        "itinerary_title": "Marrakech & the Sahara Desert, Morocco",
+        "day_number": 7,
+        "town": "Marrakech"
       }
     ]
   },

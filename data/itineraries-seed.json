@@ -588,7 +588,8 @@
         ],
         "lodging_suggestion": "Ubud",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ubud"
       },
       {
         "day_number": 2,
@@ -599,7 +600,8 @@
         ],
         "lodging_suggestion": "Ubud",
         "latitude": -8.517019,
-        "longitude": 115.255051
+        "longitude": 115.255051,
+        "eat_town": "Ubud"
       },
       {
         "day_number": 3,
@@ -609,7 +611,8 @@
         ],
         "lodging_suggestion": "Ubud",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ubud"
       },
       {
         "day_number": 4,
@@ -619,7 +622,8 @@
         ],
         "lodging_suggestion": "Ubud",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ubud"
       },
       {
         "day_number": 5,
@@ -629,7 +633,8 @@
         ],
         "lodging_suggestion": "Uluwatu or Seminyak",
         "latitude": -8.517019,
-        "longitude": 115.255051
+        "longitude": 115.255051,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -640,14 +645,16 @@
         ],
         "lodging_suggestion": "Uluwatu",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 7,
         "title": "Fly home",
         "activities": [],
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "food_culture": [
@@ -939,7 +946,8 @@
         "activities": [],
         "lodging_suggestion": "La Fortuna",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -950,7 +958,8 @@
         ],
         "lodging_suggestion": "La Fortuna",
         "latitude": 10.462084,
-        "longitude": -84.70341
+        "longitude": -84.70341,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -961,7 +970,8 @@
         ],
         "lodging_suggestion": "Monteverde",
         "latitude": 10.51252,
-        "longitude": -83.791116
+        "longitude": -83.791116,
+        "eat_town": "Monteverde"
       },
       {
         "day_number": 4,
@@ -972,7 +982,8 @@
         "drive_time": "4-5 hrs",
         "lodging_suggestion": "Manuel Antonio",
         "latitude": 10.100687,
-        "longitude": -83.446263
+        "longitude": -83.446263,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -983,7 +994,8 @@
         ],
         "lodging_suggestion": "Manuel Antonio",
         "latitude": 9.060505,
-        "longitude": -84.244992
+        "longitude": -84.244992,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -993,14 +1005,16 @@
         ],
         "lodging_suggestion": "Manuel Antonio",
         "latitude": 9.408569,
-        "longitude": -84.154759
+        "longitude": -84.154759,
+        "eat_town": null
       },
       {
         "day_number": 7,
         "title": "Drive to San Jose, fly home",
         "activities": [],
         "latitude": 9.932771,
-        "longitude": -84.079614
+        "longitude": -84.079614,
+        "eat_town": null
       }
     ],
     "food_culture": [
@@ -11786,7 +11800,8 @@
           "Settle into a riad in the Medina",
           "Evening at Jemaa el-Fnaa — food stalls, snake charmers, and storytellers as the square comes alive after dark"
         ],
-        "lodging_suggestion": "Marrakech Medina"
+        "lodging_suggestion": "Marrakech Medina",
+        "eat_town": "Marrakech"
       },
       {
         "day_number": 2,
@@ -11796,7 +11811,8 @@
           "Majorelle Garden and the Yves Saint Laurent Museum",
           "Wander the souks of the Medina"
         ],
-        "lodging_suggestion": "Marrakech Medina"
+        "lodging_suggestion": "Marrakech Medina",
+        "eat_town": "Marrakech"
       },
       {
         "day_number": 3,
@@ -11807,7 +11823,8 @@
           "Continue into the Dades Valley, the 'Valley of a Thousand Kasbahs'"
         ],
         "drive_time": "~7 hrs total (Marrakech to Ait Benhaddou ~3-4 hrs; Ait Benhaddou to Dades Valley ~3 hrs)",
-        "lodging_suggestion": "Boumalne Dades / Dades Gorge"
+        "lodging_suggestion": "Boumalne Dades / Dades Gorge",
+        "eat_town": "Aït Benhaddou"
       },
       {
         "day_number": 4,
@@ -11818,7 +11835,8 @@
           "Camel trek into the dunes for sunset and an overnight stay at a desert camp"
         ],
         "drive_time": "~4-5 hrs (Dades Valley to Merzouga via Tinghir/Todra Gorge)",
-        "lodging_suggestion": "Erg Chebbi desert camp, Merzouga"
+        "lodging_suggestion": "Erg Chebbi desert camp, Merzouga",
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -11829,7 +11847,8 @@
           "Visit Ouarzazate's Atlas Film Studios and the Taourirt Kasbah"
         ],
         "drive_time": "~6 hrs (Merzouga to Ouarzazate)",
-        "lodging_suggestion": "Ouarzazate"
+        "lodging_suggestion": "Ouarzazate",
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -11839,7 +11858,8 @@
           "Afternoon at a traditional hammam to unwind after the road trip"
         ],
         "drive_time": "~4 hrs (Ouarzazate to Marrakech)",
-        "lodging_suggestion": "Marrakech Medina"
+        "lodging_suggestion": "Marrakech Medina",
+        "eat_town": "Marrakech"
       },
       {
         "day_number": 7,
@@ -11848,7 +11868,8 @@
           "Last-minute shopping in the souks for lanterns, leather, and spices",
           "Fly home"
         ],
-        "lodging_suggestion": "Marrakech Medina"
+        "lodging_suggestion": "Marrakech Medina",
+        "eat_town": "Marrakech"
       }
     ],
     "food_culture": [
