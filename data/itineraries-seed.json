@@ -2776,7 +2776,8 @@
         "lodging_suggestion": "Salisbury",
         "coffee_wifi_spot": null,
         "latitude": 41.983426,
-        "longitude": -73.421232
+        "longitude": -73.421232,
+        "eat_town": "Salisbury"
       },
       {
         "day_number": 2,
@@ -2789,7 +2790,8 @@
         "lodging_suggestion": "Litchfield",
         "coffee_wifi_spot": null,
         "latitude": 41.769309,
-        "longitude": -73.075077
+        "longitude": -73.075077,
+        "eat_town": "Litchfield"
       },
       {
         "day_number": 3,
@@ -2801,7 +2803,8 @@
         "lodging_suggestion": "Mystic",
         "coffee_wifi_spot": null,
         "latitude": 41.356037,
-        "longitude": -71.957333
+        "longitude": -71.957333,
+        "eat_town": "Mystic"
       },
       {
         "day_number": 4,
@@ -2814,7 +2817,8 @@
         "lodging_suggestion": "Mystic",
         "coffee_wifi_spot": null,
         "latitude": 41.356037,
-        "longitude": -71.957333
+        "longitude": -71.957333,
+        "eat_town": "Mystic"
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -3311,7 +3315,8 @@
         "lodging_suggestion": "Decorah",
         "coffee_wifi_spot": null,
         "latitude": 43.304161,
-        "longitude": -91.78591
+        "longitude": -91.78591,
+        "eat_town": "Decorah"
       },
       {
         "day_number": 2,
@@ -3324,7 +3329,8 @@
         "lodging_suggestion": "Decorah",
         "coffee_wifi_spot": null,
         "latitude": 43.311713,
-        "longitude": -91.780552
+        "longitude": -91.780552,
+        "eat_town": "Decorah"
       },
       {
         "day_number": 3,
@@ -3337,7 +3343,8 @@
         "lodging_suggestion": "Dubuque",
         "coffee_wifi_spot": null,
         "latitude": 42.500624,
-        "longitude": -90.664799
+        "longitude": -90.664799,
+        "eat_town": "Dubuque"
       },
       {
         "day_number": 4,
@@ -3349,7 +3356,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -4293,7 +4301,8 @@
         "lodging_suggestion": "Franconia",
         "coffee_wifi_spot": null,
         "latitude": 44.171119,
-        "longitude": -71.68752
+        "longitude": -71.68752,
+        "eat_town": "Franconia"
       },
       {
         "day_number": 2,
@@ -4306,7 +4315,8 @@
         "lodging_suggestion": "Conway",
         "coffee_wifi_spot": null,
         "latitude": 44.051269,
-        "longitude": -71.568836
+        "longitude": -71.568836,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -4318,7 +4328,8 @@
         "lodging_suggestion": "Gorham",
         "coffee_wifi_spot": null,
         "latitude": 44.270495,
-        "longitude": -71.303304
+        "longitude": -71.303304,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -4330,7 +4341,8 @@
         "lodging_suggestion": "Gorham",
         "coffee_wifi_spot": null,
         "latitude": 44.261656,
-        "longitude": -71.195613
+        "longitude": -71.195613,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -4343,7 +4355,8 @@
         "lodging_suggestion": "Wolfeboro",
         "coffee_wifi_spot": null,
         "latitude": 43.603066,
-        "longitude": -71.323969
+        "longitude": -71.323969,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -5458,7 +5471,8 @@
         "lodging_suggestion": "Burlington",
         "coffee_wifi_spot": null,
         "latitude": 44.47616,
-        "longitude": -73.212906
+        "longitude": -73.212906,
+        "eat_town": "Burlington"
       },
       {
         "day_number": 2,
@@ -5470,7 +5484,8 @@
         "lodging_suggestion": "Burlington",
         "coffee_wifi_spot": null,
         "latitude": 44.373682,
-        "longitude": -73.232347
+        "longitude": -73.232347,
+        "eat_town": "Burlington"
       },
       {
         "day_number": 3,
@@ -5483,7 +5498,8 @@
         "lodging_suggestion": "Stowe",
         "coffee_wifi_spot": null,
         "latitude": 44.464377,
-        "longitude": -72.68562
+        "longitude": -72.68562,
+        "eat_town": "Stowe"
       },
       {
         "day_number": 4,
@@ -5495,7 +5511,8 @@
         "lodging_suggestion": "Manchester",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -5508,7 +5525,8 @@
         "lodging_suggestion": "Manchester",
         "coffee_wifi_spot": null,
         "latitude": 43.117101,
-        "longitude": -73.113418
+        "longitude": -73.113418,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -8576,7 +8594,8 @@
         "lodging_suggestion": "Portsmouth",
         "coffee_wifi_spot": null,
         "latitude": 43.075131,
-        "longitude": -70.760183
+        "longitude": -70.760183,
+        "eat_town": "Portsmouth"
       },
       {
         "day_number": 2,
@@ -8589,7 +8608,8 @@
         "lodging_suggestion": "Portsmouth",
         "coffee_wifi_spot": null,
         "latitude": 42.982402,
-        "longitude": -70.606085
+        "longitude": -70.606085,
+        "eat_town": "Portsmouth"
       },
       {
         "day_number": 3,
@@ -8602,7 +8622,8 @@
         "lodging_suggestion": "Hampton",
         "coffee_wifi_spot": null,
         "latitude": 43.012019,
-        "longitude": -70.771943
+        "longitude": -70.771943,
+        "eat_town": "Hampton"
       },
       {
         "day_number": 4,
@@ -8615,7 +8636,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 42.981477,
-        "longitude": -70.947834
+        "longitude": -70.947834,
+        "eat_town": "Exeter"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -8954,7 +8976,8 @@
         "lodging_suggestion": "Des Moines",
         "coffee_wifi_spot": null,
         "latitude": 41.586865,
-        "longitude": -93.624949
+        "longitude": -93.624949,
+        "eat_town": "Des Moines"
       },
       {
         "day_number": 2,
@@ -8967,7 +8990,8 @@
         "lodging_suggestion": "Des Moines",
         "coffee_wifi_spot": null,
         "latitude": 41.334763,
-        "longitude": -94.013569
+        "longitude": -94.013569,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -8980,7 +9004,8 @@
         "lodging_suggestion": "Des Moines",
         "coffee_wifi_spot": null,
         "latitude": 41.407314,
-        "longitude": -92.917407
+        "longitude": -92.917407,
+        "eat_town": "Pella"
       },
       {
         "day_number": 4,
@@ -8993,7 +9018,8 @@
         "lodging_suggestion": "Des Moines",
         "coffee_wifi_spot": null,
         "latitude": 41.586865,
-        "longitude": -93.624949
+        "longitude": -93.624949,
+        "eat_town": "Des Moines"
       },
       {
         "day_number": 5,
@@ -9005,7 +9031,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -9426,7 +9453,8 @@
         "lodging_suggestion": "St. Johnsbury",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -9440,7 +9468,8 @@
         "lodging_suggestion": "St. Johnsbury",
         "coffee_wifi_spot": null,
         "latitude": 44.329973,
-        "longitude": -72.171234
+        "longitude": -72.171234,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -9454,7 +9483,8 @@
         "lodging_suggestion": "East Burke",
         "coffee_wifi_spot": null,
         "latitude": 44.58915,
-        "longitude": -71.940562
+        "longitude": -71.940562,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -9468,7 +9498,8 @@
         "lodging_suggestion": "Craftsbury",
         "coffee_wifi_spot": null,
         "latitude": 44.653558,
-        "longitude": -72.382734
+        "longitude": -72.382734,
+        "eat_town": "Craftsbury"
       },
       {
         "day_number": 5,
@@ -9480,7 +9511,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -10159,7 +10191,8 @@
         "lodging_suggestion": "Mystic",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Mystic"
       },
       {
         "day_number": 2,
@@ -10172,7 +10205,8 @@
         "lodging_suggestion": "Mystic",
         "coffee_wifi_spot": null,
         "latitude": 41.373407,
-        "longitude": -71.951926
+        "longitude": -71.951926,
+        "eat_town": "Mystic"
       },
       {
         "day_number": 3,
@@ -10186,7 +10220,8 @@
         "lodging_suggestion": "New Haven",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "New Haven"
       },
       {
         "day_number": 4,
@@ -10200,7 +10235,8 @@
         "lodging_suggestion": "New Haven",
         "coffee_wifi_spot": null,
         "latitude": 41.303057,
-        "longitude": -72.920077
+        "longitude": -72.920077,
+        "eat_town": "New Haven"
       },
       {
         "day_number": 5,
@@ -10210,7 +10246,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "cover_image_url": "/category-water.jpg"

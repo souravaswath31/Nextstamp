@@ -1425,6 +1425,187 @@
     ]
   },
   {
+    "region_key": "connecticut",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Salisbury",
+        "eats": [
+          {
+            "name": "Mountainside Café",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Own site mentions an avocado BLT, an Italian sandwich, french toast with berries, burgers, salads, and homemade cookies and muffins.",
+            "why": "In the neighbouring town of Falls Village (251 Route 7 South) rather than Salisbury itself; a single-location farm-to-table cafe that provides a supportive work space for people in recovery, run by Mountainside Treatment Center.",
+            "price_tier": null,
+            "hours_note": "Own site: open Wednesday-Sunday 7am-3pm; closed Monday and Tuesday.",
+            "open_evidence": "Own website lists hours, menu items and a 2026 copyright footer (viewed 2026-10-15).",
+            "source_url": "https://mountainside.com/cafe/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Litchfield",
+        "eats": [
+          {
+            "name": "Patty's Restaurant",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Classic diner-style breakfast and lunch; Visit Litchfield describes a huge menu, and the restaurant's own site does not list dishes.",
+            "why": "On Bantam Road in Litchfield rather than on the Green; a hometown diner that has been serving since 1996 per its own site.",
+            "price_tier": null,
+            "hours_note": "Own site lists Mon-Sat 6am-2pm and Sun 7am-12:30pm, but also lists Tuesday as closed; confirm by phone (860-567-3335) before driving.",
+            "open_evidence": "Own website shows current hours and a 2025 copyright footer, with an update posted 3/26/25 (viewed 2026-10-15); no 2026 date on the page.",
+            "source_url": "https://pattyslitchfield.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Toast & Co.",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast sandwiches, smoothie bowls and specialty lattes; the site notes a seasonal pumpkin spice flavor for fall.",
+            "why": "A breakfast-and-lunch cafe on Commons Drive, a quick coffee stop before the Connecticut Wine Trail and farm-country drive; its owners also run a sister cafe in Torrington (two locations).",
+            "price_tier": null,
+            "hours_note": "Own site lists Mon-Fri 6:30am-3pm and Sat-Sun 7am-3pm.",
+            "open_evidence": "Own website carries a 2026 copyright footer, current hours, and a fall seasonal item (viewed 2026-10-15).",
+            "source_url": "https://toastandco.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Village Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Per Visit Litchfield, comfort food such as meatloaf with mashed potatoes, rigatoni Bolognese and horseradish-crusted salmon.",
+            "why": "A New England pub-style tavern at 25 West Street on the Litchfield Green, with local craft beers and farm produce when seasonally available per its own site.",
+            "price_tier": null,
+            "hours_note": "Own site lists Mon-Thu 11:30am-9pm, Fri-Sat 11:30am-9:30pm, Sun 11:30am-8pm.",
+            "open_evidence": "Own website lists current hours and reservation details with a 2025 copyright footer (viewed 2026-10-15); dishes come from the Visit Litchfield listing (viewed 2026-10-15), not the venue site.",
+            "source_url": "https://www.villagelitchfield.com/",
+            "source_name": "Venue's own website (dishes per Visit Litchfield)"
+          }
+        ]
+      },
+      {
+        "town": "Mystic",
+        "eats": [
+          {
+            "name": "Kitchen Little",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Own site mentions lobster benedict, oversized buttermilk pancakes, omelettes, and sweet local Bomster scallops from the Stonington docks.",
+            "why": "A bistro-style breakfast spot inside the Mystic River Marina at 36 Quarry Rd, with indoor seating and a deck over the river; the owner is named on the site.",
+            "price_tier": null,
+            "hours_note": "Own site: closed Tuesday; Mon, Wed, Thu, Fri 7:30am-1pm; Sat-Sun 6:30am-1pm.",
+            "open_evidence": "Own website home and About pages carry page timestamps of 2026-10-06, current hours, and an accessibility statement last updated November 21, 2025 (viewed 2026-10-15).",
+            "source_url": "https://kitchenlittle.org/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mystic Diner and Restaurant",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The menu names a Mystic Mess, Hungry Man and Pigs in a Snuggie for breakfast, a Mystic Burger, a lobster roll, and house-made donuts.",
+            "why": "A big-menu diner at 253 Greenmanville Ave, a short drive from the Seaport, open late and serving breakfast through dinner.",
+            "price_tier": null,
+            "hours_note": "Own site (hours 'effective 3/12/25'): Mon-Thu 7am-10pm, Fri-Sat 7am-11pm, Sun 7am-9pm.",
+            "open_evidence": "Own site Location/Hours page shows hours dated 'Effective 3/12/25' and a 2026 footer, plus a current priced menu (viewed 2026-10-15); the footer year may be auto-generated.",
+            "source_url": "https://mysticdiner.com/location-hours/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "New Haven",
+        "eats": [
+          {
+            "name": "Louis' Lunch",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The hamburger sandwich of fresh ground beef on white toast, with optional cheese, tomato and onion; no condiments are offered.",
+            "why": "A single-location, family-owned burger shop at 261 Crown Street whose own site dates it to 1895 and cooks on its original cast-iron grills.",
+            "price_tier": null,
+            "hours_note": "Own site: Tue-Wed 12pm-8pm, Thu 12pm-11:30pm, Fri-Sat 12pm-12am, closed Sunday and Monday; closes the week after New Year's and all of August.",
+            "open_evidence": "Own website lists current hours and a 2025 copyright footer with no closure notice (viewed 2026-10-15).",
+            "source_url": "https://www.louislunch.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Modern Apizza",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "New Haven apizza baked in brick ovens at 700 degrees F per its own site; the New Haven Independent's Sept 2026 story mentions its charred-crust slices and a white mozzarella onion slice.",
+            "why": "A single-location apizza house at 874 State Street, one of the three names on the itinerary's apizza crawl.",
+            "price_tier": null,
+            "hours_note": "Own site: closed Mondays; Tue-Sat 10:30am-10pm; Sun 3pm-10pm.",
+            "open_evidence": "Own website lists current hours, gift cards and a merch shop (2024 copyright footer); the New Haven Independent reported on 2026-09-29 that owner Billy Pustari hosted a Parking Lot Pizza Party outside the restaurant (viewed 2026-10-15).",
+            "source_url": "https://www.modernapizza.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Atticus Bookstore Cafe",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "Baked goods, coffee and espresso drinks, and sandwiches, per the items its own site lists.",
+            "why": "A downtown bookstore-cafe at 1082 Chapel Street, handy for a Yale campus and art gallery day; the New Haven Independent reported its 50th anniversary in December 2025, with a second location (Atticus Market) in East Rock.",
+            "price_tier": null,
+            "hours_note": "Own site: downtown cafe open daily 8am-7pm.",
+            "open_evidence": "New Haven Independent, 2025-12-15, covered a city celebration of Atticus's 50th anniversary at the 1082 Chapel St. cafe; own website lists current hours for both locations (no copyright year on the page); viewed 2026-10-15.",
+            "source_url": "https://atticusnhv.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Connecticut & the Litchfield Hills",
+        "day_number": 1,
+        "town": "Salisbury"
+      },
+      {
+        "itinerary_title": "Connecticut & the Litchfield Hills",
+        "day_number": 2,
+        "town": "Litchfield"
+      },
+      {
+        "itinerary_title": "Connecticut & the Litchfield Hills",
+        "day_number": 3,
+        "town": "Mystic"
+      },
+      {
+        "itinerary_title": "Connecticut & the Litchfield Hills",
+        "day_number": 4,
+        "town": "Mystic"
+      },
+      {
+        "itinerary_title": "Connecticut Coast: Mystic & New Haven",
+        "day_number": 1,
+        "town": "Mystic"
+      },
+      {
+        "itinerary_title": "Connecticut Coast: Mystic & New Haven",
+        "day_number": 2,
+        "town": "Mystic"
+      },
+      {
+        "itinerary_title": "Connecticut Coast: Mystic & New Haven",
+        "day_number": 3,
+        "town": "New Haven"
+      },
+      {
+        "itinerary_title": "Connecticut Coast: Mystic & New Haven",
+        "day_number": 4,
+        "town": "New Haven"
+      },
+      {
+        "itinerary_title": "Connecticut Coast: Mystic & New Haven",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "florida",
     "last_verified_date": "2026-10-03",
     "stops": [
@@ -2575,6 +2756,175 @@
       },
       {
         "itinerary_title": "Indiana Dunes National Park & Lake Michigan",
+        "day_number": 5,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "iowa",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Decorah",
+        "eats": [
+          {
+            "name": "Magpie Café & Coffeehouse",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Coffee, baked goods, and breakfast and lunch options from the cafe's menu.",
+            "why": "A downtown Decorah coffeehouse on West Water Street that the site says has been established since the 1990s, handy for breakfast before the springs hikes.",
+            "price_tier": null,
+            "hours_note": "Wednesday-Sunday 7:30 AM-2:00 PM, kitchen closes 1:30 PM; closed Monday and Tuesday",
+            "open_evidence": "Own website shows current hours, online ordering and a (c) 2026 footer (viewed 2026-10-15)",
+            "source_url": "https://www.mymagpiecoffee.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mabe's Pizza",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Square-cut pizza; the Visit Decorah listing recommends the cheese bread and wings.",
+            "why": "A Decorah institution on East Water Street, with the lunch room that became a pizzeria in 1968, and the square-cut pizza is the local draw.",
+            "price_tier": null,
+            "hours_note": "Own site says dine-in, takeout or delivery Sunday-Thursday 11 AM-9 PM and Friday-Saturday 11 AM-10 PM",
+            "open_evidence": "Own website shows live 'open today' hours, Toast online ordering and a '72-year history since 1953' line (no copyright year); Visit Decorah listing carries a (c) 2026 footer (viewed 2026-10-15)",
+            "source_url": "https://www.mabespizza.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Dubuque",
+        "eats": [
+          {
+            "name": "Moracco Supper Club",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Daily specials listed on the site include a Small Ribeye and Beef Tips & Noodles; Travel Dubuque also mentions prime rib.",
+            "why": "A family-run Midwest supper club at 1413 Rockdale Road that its site says has operated for over 50 years.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday from 4 PM; reservations by phone",
+            "open_evidence": "Own website lists current daily specials with prices, a reservation phone number and a (c) 2026 footer (viewed 2026-10-15)",
+            "source_url": "https://www.moraccodbq.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mario's Italian Restaurant & Lounge",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Pizza and pasta; the reviews quoted on the site mention lasagna and chicken parmesan.",
+            "why": "A Main Street Italian-American restaurant that its site marks as established in 1977.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows online ordering and quoted customer reviews dated October 2025 to March 2026; it lists no hours (viewed 2026-10-15)",
+            "source_url": "https://mariosdbq.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Des Moines",
+        "eats": [
+          {
+            "name": "Railroad Bill's Dining Car",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Chicken and waffles, avocado toast, or Bill's Burger (a third-pound burger with fries).",
+            "why": "A breakfast-and-lunch dining car in the Historic East Village, open every day.",
+            "price_tier": null,
+            "hours_note": "Open every day 7 AM-2 PM",
+            "open_evidence": "Own website shows current hours, online ordering and a 2025 copyright footer (viewed 2026-10-15)",
+            "source_url": "https://www.railroadbillsdsm.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Scenic Route Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Pastries and Tugboat coffee; the site also lists lunch from 11 AM-3 PM.",
+            "why": "East Village bakery and coffee stop at 350 E. Locust that also serves lunch, in the neighbourhood the itinerary visits on day 1.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 7 AM-4 PM, lunch 11 AM-3 PM",
+            "open_evidence": "Own website shows current hours, online ordering, a (c) 2026 footer and a menu dated September 2026 (viewed 2026-10-15)",
+            "source_url": "https://scenicroutebakerydsm.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Fong's Pizza",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Crab Rangoon pizza or Orange Chicken pizza, both named on the site.",
+            "why": "A single-location pizzeria at 317 E. Court Avenue known on its own site for Chinese-American fusion pizzas.",
+            "price_tier": null,
+            "hours_note": "Sunday 10 AM-11 PM; Monday-Thursday 11 AM-11 PM; Friday 11 AM-midnight; Saturday 10 AM-midnight",
+            "open_evidence": "Own website shows an October pizza of the month and Halloween events for Oct 13-31, plus Toast online ordering; the page states no year (viewed 2026-10-15)",
+            "source_url": "https://fongspizza.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Pella",
+        "eats": [
+          {
+            "name": "Jaarsma Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Dutch letters and almond banket, both listed on the bakery's own online shop.",
+            "why": "The Dutch-pastry stop for the Pella day, at 727 Franklin Street, with a second shop in Oskaloosa.",
+            "price_tier": null,
+            "hours_note": "Monday-Saturday 6 AM-6 PM; closed Sunday",
+            "open_evidence": "Own online shop lists current Pella hours and priced products (page shows no copyright year); Visit Pella listing carries a (c) 2026 footer with the same hours (viewed 2026-10-15)",
+            "source_url": "https://www.jaarsmabakery.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Northeast Iowa: Decorah → Dubuque",
+        "day_number": 1,
+        "town": "Decorah"
+      },
+      {
+        "itinerary_title": "Northeast Iowa: Decorah → Dubuque",
+        "day_number": 2,
+        "town": "Decorah"
+      },
+      {
+        "itinerary_title": "Northeast Iowa: Decorah → Dubuque",
+        "day_number": 3,
+        "town": "Dubuque"
+      },
+      {
+        "itinerary_title": "Northeast Iowa: Decorah → Dubuque",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Des Moines & Central Iowa",
+        "day_number": 1,
+        "town": "Des Moines"
+      },
+      {
+        "itinerary_title": "Des Moines & Central Iowa",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Des Moines & Central Iowa",
+        "day_number": 3,
+        "town": "Pella"
+      },
+      {
+        "itinerary_title": "Des Moines & Central Iowa",
+        "day_number": 4,
+        "town": "Des Moines"
+      },
+      {
+        "itinerary_title": "Des Moines & Central Iowa",
         "day_number": 5,
         "town": null
       }
@@ -4677,6 +5027,159 @@
         "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
         "day_number": 5,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "new-hampshire",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Franconia",
+        "note": null,
+        "note_source_url": null,
+        "eats": [
+          {
+            "name": "Polly's Pancake Parlor",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Made-from-scratch pancakes (oatmeal buttermilk, buckwheat or whole wheat) and waffles with New Hampshire maple syrup.",
+            "why": "In the neighbouring town of Sugar Hill rather than Franconia itself; run by the same family since 1938 and a short drive from Franconia Notch.",
+            "price_tier": null,
+            "hours_note": "Per its hours page: fall hours Thursday-Tuesday 7am-2pm (Saturday-Sunday to 3pm), closed Wednesday; from October 22 winter hours are Thursday-Monday 7am-2pm, closed Tuesday and Wednesday. First-come, first-served, no reservations; the first 20 days of October are the busiest and waits can run past closing.",
+            "open_evidence": "Own website footer reads 2026 and its hours page gives fall hours and a winter schedule starting October 22 (viewed 2026-10-15).",
+            "source_url": "https://www.pollyspancakeparlor.com/hours",
+            "source_name": "Polly's Pancake Parlor's own website"
+          },
+          {
+            "name": "Iron Furnace Brewing",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "Its own craft beer, with food service and cans to go; the site also offers online ordering.",
+            "why": "A one-location brewpub on Franconia's Main Street, useful for an evening meal after a day on the Notch trails.",
+            "price_tier": null,
+            "hours_note": "Per its site: Monday and Thursday 3-8pm, Friday 3-9pm, Saturday 12-9pm, Sunday 12-6pm; closed Tuesday and Wednesday.",
+            "open_evidence": "Own website footer reads 2026 and lists current weekly hours and online ordering (viewed 2026-10-15).",
+            "source_url": "https://www.ironfurnacebrewing.com/",
+            "source_name": "Iron Furnace Brewing's own website"
+          }
+        ]
+      },
+      {
+        "town": "Exeter",
+        "note": null,
+        "note_source_url": null,
+        "eats": [
+          {
+            "name": "Inkwell Coffee House",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Espresso drinks and nitro cold brew, with breakfast sandwiches and house-made baked goods.",
+            "why": "A downtown Exeter coffee shop in the historic IOKA Theater building on Water Street; a small local pair of shops (Exeter and Littleton).",
+            "price_tier": null,
+            "hours_note": "Per its Exeter page: Monday-Friday 7am-3pm, Saturday 8am-3pm, closed Sunday.",
+            "open_evidence": "Own website footer reads Copyright 2025 and its Exeter page lists current hours and online ordering (viewed 2026-10-15); the footer shows no 2026 year.",
+            "source_url": "https://inkwellnh.com/water-street-1",
+            "source_name": "Inkwell Coffee House's own website"
+          },
+          {
+            "name": "GINGER FOX Artisan Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "European-inspired pastries, with a fall menu listing apple cruffins, pumpkin lattes and cranberry almond scones.",
+            "why": "In the neighbouring town of Stratham (100 Portsmouth Ave) rather than Exeter itself, on the way in from the coast.",
+            "price_tier": null,
+            "hours_note": "Per its site: Tuesday-Friday 7am-3pm, Saturday-Sunday 7:30am-2pm, closed Monday.",
+            "open_evidence": "Own website footer reads Copyright 2026 and shows a current fall menu and weekly hours (viewed 2026-10-15).",
+            "source_url": "https://gingerfoxbakery.com",
+            "source_name": "Ginger Fox's own website"
+          }
+        ]
+      },
+      {
+        "town": "Portsmouth",
+        "note": null,
+        "note_source_url": null,
+        "eats": [
+          {
+            "name": "Kaffee Vonsolln",
+            "kind": "cafe",
+            "meal": "snack",
+            "what_to_order": "Its own small-batch roasted coffee (the Kick Blend dark roast, cold brew, espresso drinks) with pastries, cookies, sandwiches and soup.",
+            "why": "A family-owned single-location cafe and coffee roastery on Daniel Street since 2010, a few minutes' walk from Market Square.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website footer reads 2026 and shows current products and online ordering; hours are on a contact page that was not retrieved (viewed 2026-10-15).",
+            "source_url": "https://www.kaffeevonsolln.com/",
+            "source_name": "Kaffee Vonsolln's own website"
+          }
+        ]
+      },
+      {
+        "town": "Hampton",
+        "note": null,
+        "note_source_url": null,
+        "eats": [
+          {
+            "name": "The Galley Hatch Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Traditional American food highlighting fresh New England seafood and seasonal flavors, lunch and dinner daily; Kay's Cafe in the same building does a fast-casual breakfast menu until noon.",
+            "why": "On Lafayette Road in Hampton rather than on the beach strip; family owned and operated since 1970.",
+            "price_tier": null,
+            "hours_note": "Site lists 'Fall Hours': Sunday-Thursday 11:30am-8:30pm, Friday-Saturday 11:30am-9pm (the page does not say when fall hours end). Kay's Cafe breakfast daily until noon.",
+            "open_evidence": "Own website lists fall hours and a Thanksgiving pre-order page with 2026 dates (order by 11/18/2026, pickup 11/24-11/25/2026); the site footer reads 2024 (viewed 2026-10-15).",
+            "source_url": "https://www.galleyhatch.com/",
+            "source_name": "The Galley Hatch's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "White Mountains & Lake Winnipesaukee",
+        "day_number": 1,
+        "town": "Franconia"
+      },
+      {
+        "itinerary_title": "White Mountains & Lake Winnipesaukee",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "White Mountains & Lake Winnipesaukee",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "White Mountains & Lake Winnipesaukee",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "White Mountains & Lake Winnipesaukee",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Portsmouth & the NH Seacoast",
+        "day_number": 1,
+        "town": "Portsmouth"
+      },
+      {
+        "itinerary_title": "Portsmouth & the NH Seacoast",
+        "day_number": 2,
+        "town": "Portsmouth"
+      },
+      {
+        "itinerary_title": "Portsmouth & the NH Seacoast",
+        "day_number": 3,
+        "town": "Hampton"
+      },
+      {
+        "itinerary_title": "Portsmouth & the NH Seacoast",
+        "day_number": 4,
+        "town": "Exeter"
       }
     ]
   },
@@ -7113,6 +7616,127 @@
         "itinerary_title": "Salt Lake City & Park City",
         "day_number": 6,
         "town": "Park City"
+      }
+    ]
+  },
+  {
+    "region_key": "vermont",
+    "last_verified_date": "2026-10-15",
+    "stops": [
+      {
+        "town": "Burlington",
+        "eats": [
+          {
+            "name": "August First Bakery & Cafe",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Freshly baked pastries and baked goods with coffee; breakfast is served all day.",
+            "why": "A bakery-cafe at 149 S. Champlain Street, about three blocks from Church Street, with indoor and outdoor seating and online pickup ordering.",
+            "price_tier": null,
+            "hours_note": "Open daily 7:30am-3:00pm per its own site.",
+            "open_evidence": "Own website lists current hours, online ordering and a footer reading 2025, with no 2026 year shown (viewed 2026-10-15).",
+            "source_url": "https://www.augustfirstvt.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Stowe",
+        "eats": [
+          {
+            "name": "Stowe Bee Bakery & Cafe",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Morning pastries baked from scratch, lattes, and breakfast or lunch specials; cakes and pies can be ordered in advance.",
+            "why": "A bakery-cafe on Mountain Road in Stowe that bakes its pastries and cakes in-house.",
+            "price_tier": null,
+            "hours_note": "Wednesday-Saturday 7am-5pm, Sunday 7am-2pm; closed Monday and Tuesday (per its own site, which says menus change seasonally).",
+            "open_evidence": "Own website shows current hours, online ordering and a footer reading 2026 (viewed 2026-10-15); one menu PDF linked there is labelled Winter 2023-2024.",
+            "source_url": "https://www.stowebeebakery.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Café on Main",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast (served daily 7:30-10:45am), lunch and baked goods.",
+            "why": "A cafe at 38 Main Street in Stowe village that is open seven days a week.",
+            "price_tier": null,
+            "hours_note": "Open daily 7:30am-3:15pm; breakfast served daily 7:30-10:45am.",
+            "open_evidence": "Own website lists current hours and online ordering with a footer reading 2026 (viewed 2026-10-15).",
+            "source_url": "https://www.cafeonmainvt.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Craftsbury",
+        "eats": [
+          {
+            "name": "Craftsbury General Store (The Genny)",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "Deli and bakery sandwiches, pizzas and to-go meals; the store also pours kombucha on tap.",
+            "why": "The village general store on South Craftsbury Road in Craftsbury Common, with a deli and bakery counter, run by a local group that also operates a second store in Albany.",
+            "price_tier": null,
+            "hours_note": "Per its own site: store Mon-Sat 7am-7pm, Sun 9am-7pm; deli closed Monday, open Sun/Tue/Wed 10am-2pm and Thu-Sat 10am-7pm. That page shows no year, and another guide lists longer food hours, so confirm before relying on the deli.",
+            "open_evidence": "Own blog shows posts dated through Nov 28, 2025; Seven Days (Mar 12, 2025) describes the deli-bakery as open and operating; own hours page viewed 2026-10-15 shows no year.",
+            "source_url": "https://www.gennyvt.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Vermont: Burlington → Stowe → Manchester",
+        "day_number": 1,
+        "town": "Burlington"
+      },
+      {
+        "itinerary_title": "Vermont: Burlington → Stowe → Manchester",
+        "day_number": 2,
+        "town": "Burlington"
+      },
+      {
+        "itinerary_title": "Vermont: Burlington → Stowe → Manchester",
+        "day_number": 3,
+        "town": "Stowe"
+      },
+      {
+        "itinerary_title": "Vermont: Burlington → Stowe → Manchester",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vermont: Burlington → Stowe → Manchester",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vermont's Northeast Kingdom",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vermont's Northeast Kingdom",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vermont's Northeast Kingdom",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vermont's Northeast Kingdom",
+        "day_number": 4,
+        "town": "Craftsbury"
+      },
+      {
+        "itinerary_title": "Vermont's Northeast Kingdom",
+        "day_number": 5,
+        "town": null
       }
     ]
   },
