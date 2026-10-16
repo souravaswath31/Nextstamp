@@ -141,14 +141,27 @@ describe("eatFreshness", () => {
 describe("regionKeysForItinerary", () => {
   it("uses state slugs for a domestic route", () => {
     expect(
-      regionKeysForItinerary({ relatedStateSlugs: "washington,colorado", countries: "USA" })
+      regionKeysForItinerary({ relatedStateSlugs: "washington,colorado", slug: "seattle-to-denver" })
     ).toEqual(["washington", "colorado"]);
   });
 
-  it("falls back to the countries for an international route", () => {
+  it("keys an international route by its own slug, not its country", () => {
     expect(
-      regionKeysForItinerary({ relatedStateSlugs: null, countries: "Sri Lanka,Maldives" })
-    ).toEqual(["sri-lanka", "maldives"]);
+      regionKeysForItinerary({ relatedStateSlugs: null, slug: "georgia-plus-armenia" })
+    ).toEqual(["route:georgia-plus-armenia"]);
+  });
+
+  it("cannot collide with the US state of the same name", () => {
+    // The Georgia + Armenia route and the state of Georgia are different regions.
+    const state = regionKeysForItinerary({ relatedStateSlugs: "georgia", slug: "savannah-and-the-golden-isles" });
+    const route = regionKeysForItinerary({ relatedStateSlugs: null, slug: "georgia-armenia" });
+    expect(state).not.toEqual(route);
+  });
+
+  it("handles a multi-country route as one region", () => {
+    expect(
+      regionKeysForItinerary({ relatedStateSlugs: null, slug: "maldives-optional-sri-lanka" })
+    ).toHaveLength(1);
   });
 });
 

@@ -3,7 +3,8 @@
 
     python3 scripts/road_eats_brief.py texas
     python3 scripts/road_eats_brief.py --all-states     # list slugs that have itineraries
-    python3 scripts/road_eats_brief.py --country Japan  # international route
+    python3 scripts/road_eats_brief.py --routes         # list international route slugs
+    python3 scripts/road_eats_brief.py --route tokyo-kyoto-and-osaka-japan
 
 The brief lists every itinerary in the region and every day, with the exact
 titles and day numbers the validator will match `day_map` against. Generated
@@ -35,12 +36,17 @@ def itineraries_for_state(slug):
     return [it for it in json.loads(ITINERARIES.read_text()) if slug in (it.get("related_states") or [])]
 
 
-def itineraries_for_country(country):
-    out = []
-    for it in json.loads(ITINERARIES.read_text()):
-        if country in it.get("countries", []) and not it.get("related_states"):
-            out.append(it)
-    return out
+def international_routes():
+    """slug -> itinerary, for every itinerary with no linked state."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from route_slug import itinerary_slugs
+
+    slugs = itinerary_slugs()
+    return {
+        slugs[it["title"]]: it
+        for it in json.loads(ITINERARIES.read_text())
+        if not it.get("related_states")
+    }
 
 
 def render(region_key, region_label, itineraries):
@@ -79,7 +85,8 @@ def render(region_key, region_label, itineraries):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("slug", nargs="?", help="state slug, e.g. texas")
-    ap.add_argument("--country", help="international route country, e.g. Japan")
+    ap.add_argument("--route", help="international route slug (see --routes)")
+    ap.add_argument("--routes", action="store_true", help="list international route slugs")
     ap.add_argument("--all-states", action="store_true")
     args = ap.parse_args()
 
@@ -90,12 +97,18 @@ def main():
         print(f"\n{len(slugs)} states with itineraries", file=sys.stderr)
         return 0
 
-    if args.country:
-        its = itineraries_for_country(args.country)
-        if not its:
-            print(f"No international itineraries for {args.country!r}", file=sys.stderr)
+    if args.routes:
+        for slug, it in international_routes().items():
+            print(f"{slug}  ({it['title']})")
+        return 0
+
+    if args.route:
+        routes = international_routes()
+        it = routes.get(args.route)
+        if not it:
+            print(f"No international route {args.route!r}; try --routes", file=sys.stderr)
             return 1
-        print(render(args.country.lower().replace(" ", "-"), args.country, its))
+        print(render(f"route:{args.route}", it["title"], [it]))
         return 0
 
     if not args.slug:

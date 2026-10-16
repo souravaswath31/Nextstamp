@@ -182,3 +182,36 @@ actually fetched versus a search-result snippet.
 - **Quote disruptions exactly.** The Grand Canyon in-park dining was closed for a 2026
   flood; the agent quoted the NPS notice and put it in `hours_note`. Do that.
 - **Report counts exactly as they are in the file.** Two earlier reports miscounted stops.
+
+## International routes (read this if your brief says `route:<slug>`)
+
+The 50 US states are done. International routes use the same contract with these
+differences:
+
+- **`region_key` is `route:<slug>`** exactly as the brief prints it (for example
+  `route:georgia-armenia`), not a country name. Each international itinerary is its own
+  region; a route that spans two countries (Georgia + Armenia, Maldives + Sri Lanka) is one
+  region. Eat towns only need to be unique within the route.
+- **Sources.** The venue's own site is still best, and a foreign-language page is fine —
+  read it, and quote only what it says. National and city tourism boards, and regional
+  press from 2024 or later, are acceptable. The banned-source list is unchanged (Wikipedia,
+  TripAdvisor, Google Maps, Yelp, Instagram, Facebook, listicles, delivery apps), and
+  LINE/WhatsApp/Telegram pages count as social. Never follow a link-in-bio page.
+- **Locally owned means locally owned.** No international hotel-brand outlets, no airline or
+  global fast-food chains, no tourist-restaurant groups with more than three venues. Say
+  what the place actually is in `why`.
+- **Names.** Use the venue's name as it writes it in Latin script on its own site; if it only
+  has a local-script name, give the local name and a short romanisation you can see on a
+  page, never one you worked out yourself.
+- **`price_tier` is `null` unless a source states prices**, and never convert currencies.
+- **Days of the week and calendars.** Many venues close on a day that is not Sunday (Friday
+  in much of the Gulf and North Africa, Monday in Japan). Record what the page states. Do
+  not infer a year from a weekday match; Hijri, solar-term and festival closures need a
+  stated 2026 date on the page.
+- **Today is mid-October.** Check the rainy or low season for the route (the Maldives,
+  Bali, Costa Rica, Vietnam and the Philippines are in or near theirs; the Gulf is
+  entering its high season). Seasonal closures go in `hours_note` with dates.
+- **Do not state food-safety, tipping, or "authentic" claims.** Those are not sourced.
+- **Day mapping is the same**: every day of the route in `day_map`, with the exact title
+  and number from the brief; the town must be a stop you created, or `null`. Arrive and
+  depart days that are only transit may be `null`.

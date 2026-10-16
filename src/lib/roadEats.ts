@@ -130,17 +130,22 @@ export const MEAL_LABELS: Record<string, string> = {
   any: "Any time",
 };
 
-/** Which regions an itinerary's eats live under: state slugs, else its countries. */
+/**
+ * Which regions an itinerary's eats live under.
+ *
+ * A domestic route lives under its state slugs. An international route lives under
+ * `route:<itinerary slug>` — keyed by the route, not by country, because a country
+ * name is not a safe key: the US state `georgia` and the Georgia + Armenia route
+ * would collide, and "Maldives (+ optional Sri Lanka)" spans two countries. A route's
+ * slug is already unique, so the key is too.
+ */
 export function regionKeysForItinerary(it: {
   relatedStateSlugs: string | null;
-  countries: string;
+  slug: string;
 }): string[] {
   const states = (it.relatedStateSlugs ?? "").split(",").map((s) => s.trim()).filter(Boolean);
   if (states.length > 0) return states;
-  return it.countries
-    .split(",")
-    .map((c) => c.trim().toLowerCase().replace(/\s+/g, "-"))
-    .filter(Boolean);
+  return [`route:${it.slug}`];
 }
 
 /**

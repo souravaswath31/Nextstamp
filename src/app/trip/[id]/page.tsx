@@ -178,7 +178,7 @@ export default async function TripPage({ params }: { params: { id: string } }) {
       where: { id: trip.itineraryId },
       select: {
         relatedStateSlugs: true,
-        countries: true,
+        slug: true,
         days: { select: { dayNumber: true, eatTown: true } },
       },
     });

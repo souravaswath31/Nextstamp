@@ -123,11 +123,21 @@ def itinerary_index():
 
 
 def region_itineraries(region_key, idx):
+    """A state slug matches the itineraries linked to it; `route:<slug>` matches one
+    international itinerary by its slug (see src/lib/roadEats.ts regionKeysForItinerary)."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from route_slug import itinerary_slugs
+
     out = []
+    if region_key.startswith("route:"):
+        slug = region_key[len("route:"):]
+        slugs = itinerary_slugs()
+        for it in idx.values():
+            if not (it.get("related_states") or []) and slugs.get(it["title"]) == slug:
+                out.append(it)
+        return out
     for it in idx.values():
-        rs = it.get("related_states") or []
-        countries = [c.lower().replace(" ", "-") for c in it.get("countries", [])]
-        if region_key in rs or (not rs and region_key in countries):
+        if region_key in (it.get("related_states") or []):
             out.append(it)
     return out
 
