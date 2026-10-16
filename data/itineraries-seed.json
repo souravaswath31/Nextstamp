@@ -811,7 +811,8 @@
         ],
         "lodging_suggestion": "Istanbul",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Istanbul"
       },
       {
         "day_number": 2,
@@ -823,7 +824,8 @@
         ],
         "lodging_suggestion": "Istanbul",
         "latitude": 41.009111,
-        "longitude": 28.976934
+        "longitude": 28.976934,
+        "eat_town": "Istanbul"
       },
       {
         "day_number": 3,
@@ -833,7 +835,8 @@
         ],
         "lodging_suggestion": "Cappadocia (cave hotel)",
         "latitude": 41.006381,
-        "longitude": 28.975872
+        "longitude": 28.975872,
+        "eat_town": "Goreme"
       },
       {
         "day_number": 4,
@@ -844,7 +847,8 @@
         ],
         "lodging_suggestion": "Cappadocia",
         "latitude": 38.638612,
-        "longitude": 34.845518
+        "longitude": 34.845518,
+        "eat_town": "Goreme"
       },
       {
         "day_number": 5,
@@ -854,7 +858,8 @@
         ],
         "lodging_suggestion": "Fethiye/Oludeniz",
         "latitude": 38.638612,
-        "longitude": 34.845518
+        "longitude": 34.845518,
+        "eat_town": "Fethiye"
       },
       {
         "day_number": 6,
@@ -865,14 +870,16 @@
         ],
         "lodging_suggestion": "Fethiye",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Fethiye"
       },
       {
         "day_number": 7,
         "title": "Fly home",
         "activities": [],
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "food_culture": [
@@ -1818,7 +1825,8 @@
         ],
         "lodging_suggestion": "Mexico City (Roma/Condesa)",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Mexico City"
       },
       {
         "day_number": 2,
@@ -1830,7 +1838,8 @@
         ],
         "lodging_suggestion": "Mexico City",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Mexico City"
       },
       {
         "day_number": 3,
@@ -1842,7 +1851,8 @@
         "drive_time": "1 hr each way",
         "lodging_suggestion": "Mexico City",
         "latitude": 19.68753,
-        "longitude": -98.87574
+        "longitude": -98.87574,
+        "eat_town": "Mexico City"
       },
       {
         "day_number": 4,
@@ -1853,7 +1863,8 @@
         ],
         "lodging_suggestion": "Playa del Carmen",
         "latitude": 19.320772,
-        "longitude": -99.151468
+        "longitude": -99.151468,
+        "eat_town": "Playa del Carmen"
       },
       {
         "day_number": 5,
@@ -1864,7 +1875,8 @@
         ],
         "lodging_suggestion": "Playa del Carmen",
         "latitude": 17.634043,
-        "longitude": -91.038068
+        "longitude": -91.038068,
+        "eat_town": "Playa del Carmen"
       },
       {
         "day_number": 6,
@@ -1876,7 +1888,8 @@
         "drive_time": "1 hr each way",
         "lodging_suggestion": "Playa del Carmen or Tulum",
         "latitude": 20.429647,
-        "longitude": -87.652931
+        "longitude": -87.652931,
+        "eat_town": null
       },
       {
         "day_number": 7,
@@ -1888,7 +1901,8 @@
         "drive_time": "2.5 hrs each way",
         "lodging_suggestion": "Playa del Carmen",
         "latitude": 20.682876,
-        "longitude": -88.568718
+        "longitude": -88.568718,
+        "eat_town": "Playa del Carmen"
       }
     ],
     "food_culture": [
@@ -11137,7 +11151,8 @@
         ],
         "lodging_suggestion": "Shinjuku or Shibuya",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -11149,7 +11164,8 @@
         ],
         "lodging_suggestion": "Shinjuku or Shibuya",
         "latitude": 35.30588,
-        "longitude": 135.116025
+        "longitude": 135.116025,
+        "eat_town": "Tokyo (Asakusa)"
       },
       {
         "day_number": 3,
@@ -11161,7 +11177,8 @@
         ],
         "lodging_suggestion": "Shinjuku or Shibuya",
         "latitude": 35.690467,
-        "longitude": 139.754511
+        "longitude": 139.754511,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -11174,7 +11191,8 @@
         "drive_time": "Shinkansen, ~2 hrs 15 min",
         "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
         "latitude": 35.668073,
-        "longitude": 139.772618
+        "longitude": 139.772618,
+        "eat_town": "Tokyo (Tsukiji)"
       },
       {
         "day_number": 5,
@@ -11186,7 +11204,8 @@
         ],
         "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Kyoto"
       },
       {
         "day_number": 6,
@@ -11198,7 +11217,8 @@
         ],
         "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
         "latitude": 35.009047,
-        "longitude": 135.674496
+        "longitude": 135.674496,
+        "eat_town": "Kyoto"
       },
       {
         "day_number": 7,
@@ -11212,7 +11232,8 @@
         "drive_time": "JR Special Rapid, ~28 min each way",
         "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
         "latitude": 34.693757,
-        "longitude": 135.501454
+        "longitude": 135.501454,
+        "eat_town": "Osaka"
       },
       {
         "day_number": 8,
@@ -11224,7 +11245,8 @@
         "drive_time": "JR Nara Line, ~45 min each way (optional day)",
         "lodging_suggestion": "Kyoto (Gion or Kyoto Station area)",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Kyoto"
       }
     ],
     "food_culture": [
@@ -11293,7 +11315,8 @@
         ],
         "lodging_suggestion": "Bangkok (riverside / Old City)",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -11305,7 +11328,8 @@
         ],
         "lodging_suggestion": "Bangkok (riverside / Old City)",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -11318,7 +11342,8 @@
         "drive_time": "1 to 1.5 hrs each way",
         "lodging_suggestion": "Bangkok (riverside / Old City)",
         "latitude": 14.318947,
-        "longitude": 100.511168
+        "longitude": 100.511168,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -11330,7 +11355,8 @@
         ],
         "lodging_suggestion": "Chiang Mai (Old City)",
         "latitude": 13.665432,
-        "longitude": 100.650384
+        "longitude": 100.650384,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -11343,7 +11369,8 @@
         "drive_time": "30 to 40 min each way to Doi Suthep",
         "lodging_suggestion": "Chiang Mai (Old City)",
         "latitude": 18.781198,
-        "longitude": 98.995033
+        "longitude": 98.995033,
+        "eat_town": "Chiang Mai"
       },
       {
         "day_number": 6,
@@ -11354,7 +11381,8 @@
         ],
         "lodging_suggestion": "Chiang Mai (Old City)",
         "latitude": 19.214683,
-        "longitude": 98.861639
+        "longitude": 98.861639,
+        "eat_town": "Chiang Mai"
       },
       {
         "day_number": 7,
@@ -11366,7 +11394,8 @@
         "drive_time": "1.5 hrs each way",
         "lodging_suggestion": "Chiang Mai (Old City)",
         "latitude": 18.532675,
-        "longitude": 98.557803
+        "longitude": 98.557803,
+        "eat_town": "Chiang Mai"
       },
       {
         "day_number": 8,
@@ -11377,7 +11406,8 @@
         ],
         "lodging_suggestion": "Chiang Mai (Old City)",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Chiang Mai"
       }
     ],
     "food_culture": [

@@ -7404,6 +7404,432 @@
     ]
   },
   {
+    "region_key": "route:bangkok-chiang-mai-thailand",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Chiang Mai",
+        "eats": [
+          {
+            "name": "Thaan Aoan",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Fruit waffle and cream, fresh fruit pancakes, khao tom (rice porridge) and khao soi, per the venue's own pages.",
+            "why": "A family-run cafe inside the Old City moat near Wat Chedi Luang (154/5 Phra Pokklao Rd) that bakes its bread, waffles and pastries upstairs each morning, so it suits the Day 5 temple walk.",
+            "price_tier": null,
+            "hours_note": "Daily 7:00am to 9:00pm, as stated on its own pages.",
+            "open_evidence": "Own website cafedethaanaoan.com lists hours and a 50+ item menu with a 2026 copyright footer, and its Old City breakfast post is dated 2026 with the address and hours (viewed 2026-10-16).",
+            "source_url": "https://www.cafedethaanaoan.com/2026/06/26/old-city-chiang-mai-breakfast/",
+            "source_name": "Thaan Aoan's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Bangkok + Chiang Mai, Thailand",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Bangkok + Chiang Mai, Thailand",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Bangkok + Chiang Mai, Thailand",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Bangkok + Chiang Mai, Thailand",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Bangkok + Chiang Mai, Thailand",
+        "day_number": 5,
+        "town": "Chiang Mai"
+      },
+      {
+        "itinerary_title": "Bangkok + Chiang Mai, Thailand",
+        "day_number": 6,
+        "town": "Chiang Mai"
+      },
+      {
+        "itinerary_title": "Bangkok + Chiang Mai, Thailand",
+        "day_number": 7,
+        "town": "Chiang Mai"
+      },
+      {
+        "itinerary_title": "Bangkok + Chiang Mai, Thailand",
+        "day_number": 8,
+        "town": "Chiang Mai"
+      }
+    ]
+  },
+  {
+    "region_key": "route:mexico-city-riviera-maya",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Mexico City",
+        "eats": [
+          {
+            "name": "Los Cocuyos",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Tacos of suadero, longaniza, cabeza, tripa or campechano, or pastor tacos; the article also names tortas.",
+            "why": "A taquería at Simón Bolívar 59 in the Centro Histórico, a short walk from the Zócalo day, that El Financiero says has been open since 1980 and serves around the clock, so it fits a late arrival or a night after the museums.",
+            "price_tier": null,
+            "hours_note": "Per El Financiero (23 June 2026): \"abiertos las 24 horas todos los días del año\". The article also gives tacos at 60-120 pesos and tortas at 80-120 pesos.",
+            "open_evidence": "El Financiero feature dated 2026-06-23 describes it in the present tense as open 24 hours with a Simón Bolívar 59 address (viewed 2026-10-16); no venue website was found, and the article gives a single address rather than stating a branch count.",
+            "source_url": "https://www.elfinanciero.com.mx/food-and-drink/2026/06/23/asi-es-los-cocuyos-taqueria-reconocida-por-la-guia-michelin-donde-ceno-sandra-cuevas/",
+            "source_name": "El Financiero (Mexican national newspaper), 2026-06-23"
+          },
+          {
+            "name": "Expendio de Maíz",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The page names no dishes; it describes the food as \"Made with corn. Made with intention\" and links a drinks menu.",
+            "why": "A single-location kitchen at Avenida Yucatán 84 in Roma Norte that builds its cooking around corn.",
+            "price_tier": null,
+            "hours_note": "Per its own Visit page: Tuesday-Thursday 9:00 am-7:00 pm, Friday and Saturday 9:00 am-8:30 pm, Sunday 9:00 am-6:00 pm, Monday closed; cash or bank transfer only.",
+            "open_evidence": "Own website shows a '(c) 2025 Expendio de Maiz' footer and current hours on its Visit page (viewed 2026-10-16); the page carries no 2026 date.",
+            "source_url": "https://www.expendiodemaizsinnombre.com/visit-en",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Playa del Carmen",
+        "note": "Per Noticaribe (24 September 2026), between 10 and 15 restaurants in Playa del Carmen have closed permanently during the current low season, and other establishments have suspended operations temporarily; the article attributes this to lower tourist activity and does not mention hurricanes. Our advice: confirm a restaurant's hours on the day before you go, and treat any listing without a 2026 date with caution.",
+        "note_source_url": "https://noticaribe.com.mx/2026/09/24/cierran-hasta-15-restaurantes-en-playa-del-carmen-durante-temporada-baja/",
+        "eats": [
+          {
+            "name": "Cochinita Pibil · Diagonal 85",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "Tacos de cochinita pibil with hand-made tortillas, tortas de cochinita, and on Sundays the lechón al horno.",
+            "why": "A single-location cochinita stand in the Colonia Ejidal, a short way inland from Quinta Avenida rather than on the tourist strip, open from 5:30 am so it suits a pre-cenote or pre-Chichén Itzá breakfast.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday-Sunday 5:30 AM-1:00 PM or until supplies run out.",
+            "open_evidence": "Own website lists current hours and menu with a '(c) 2026 Cochinita Pibil Diagonal 85' footer (viewed 2026-10-16); no closure or hurricane notice on the page.",
+            "source_url": "https://cochinitapibildiagonal85.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Carboncitos",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Yucatán dishes the site names: relleno negro, cochinita pibil and tikin xic, plus a breakfast menu of huevos motuleños and huevos rancheros.",
+            "why": "A single-location restaurant in the centre of Playa del Carmen near 5th Avenue serving Yucatecan and Mexican dishes at a sit-down table.",
+            "price_tier": null,
+            "hours_note": "Per its own menu page: Tuesday-Sunday 7:30am-11pm, closed Mondays; the page states it accepts cash only.",
+            "open_evidence": "Own website and menu page carry a '(c) 2025 Carboncitos' footer with current menu prices (viewed 2026-10-16); the pages show no 2026 date and no hurricane-season notice.",
+            "source_url": "https://carboncitosplaya.com.mx/m/menu-en-espanol/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Mexico City + Riviera Maya",
+        "day_number": 1,
+        "town": "Mexico City"
+      },
+      {
+        "itinerary_title": "Mexico City + Riviera Maya",
+        "day_number": 2,
+        "town": "Mexico City"
+      },
+      {
+        "itinerary_title": "Mexico City + Riviera Maya",
+        "day_number": 3,
+        "town": "Mexico City"
+      },
+      {
+        "itinerary_title": "Mexico City + Riviera Maya",
+        "day_number": 4,
+        "town": "Playa del Carmen"
+      },
+      {
+        "itinerary_title": "Mexico City + Riviera Maya",
+        "day_number": 5,
+        "town": "Playa del Carmen"
+      },
+      {
+        "itinerary_title": "Mexico City + Riviera Maya",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Mexico City + Riviera Maya",
+        "day_number": 7,
+        "town": "Playa del Carmen"
+      }
+    ]
+  },
+  {
+    "region_key": "route:tokyo-kyoto-osaka-japan",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Tokyo (Asakusa)",
+        "eats": [
+          {
+            "name": "Komagata Dozeu (駒形どぜう 本店)",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Dozeu nabe (loach hot pot), listed on the menu page alongside dozeu-jiru (loach soup) and yanagawa nabe.",
+            "why": "A single Komagata honten near Asakusa (a short walk from Senso-ji, not inside Asakusa's temple streets) that says it has served loach dishes since 1801; the menu page lists loach and whale dishes rather than tourist-menu staples.",
+            "price_tier": null,
+            "hours_note": "11:00-20:30 (last order 20:00). Closes on irregular days; the site posts a closure list each month (the November notice is dated 2026年10月15日), so check dozeu.com/information before going.",
+            "open_evidence": "Own website shows 'Copyright © 2026', a news item dated 2026年10月15日 giving November closure days, and a menu page with tax-inclusive prices (viewed 2026-10-16).",
+            "source_url": "https://dozeu.com/",
+            "source_name": "Komagata Dozeu own website"
+          }
+        ]
+      },
+      {
+        "town": "Tokyo (Tsukiji)",
+        "eats": [
+          {
+            "name": "Marutake (つきじ丸武)",
+            "kind": "regional",
+            "meal": "snack",
+            "what_to_order": "Freshly grilled atsuyaki tamago (thick rolled omelette) eaten at the counter, sold as 'Yaki-tama 200 yen' on the site; the page says it is not available to take away.",
+            "why": "A tamagoyaki specialist at the Tsukiji Outer Market that says it dates from the late Taisho era; on its own site the grilled-to-order omelette is available to eat on the spot only at the Tsukiji shop and its Toyosu Senkyaku Banrai PREMIUM shop.",
+            "price_tier": null,
+            "hours_note": "Tsukiji shop: weekdays 4:00-14:00, Sundays 8:00-14:00 (alternate Sundays closed in January and August); closed on public holidays and market holidays (the site's wording: 祝日・市場休市日). The site also lists a Toyosu market shop and a Toyosu Senkyaku Banrai PREMIUM shop, so confirm you are at the Tsukiji address.",
+            "open_evidence": "Own website news page has an item dated 2026.6.1 and a shop-information page with current hours and the Tsukiji address (viewed 2026-10-16).",
+            "source_url": "https://www.tsukiji-marutake.com/shop/",
+            "source_name": "Marutake own website"
+          }
+        ]
+      },
+      {
+        "town": "Kyoto",
+        "eats": [
+          {
+            "name": "Nishiki Hirano (錦 平野)",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "The breakfast set with freshly grilled dashimaki (rolled omelette) and a dashi chazuke to finish; at lunch the tempura set meal or the beef dashimaki-jū set, per the home page.",
+            "why": "A delicatessen in Nishiki Market that describes itself as over a hundred years old and has a 50-seat eat-in room behind the shopfront; the page notes you cannot eat while walking the market street, only take away or sit inside.",
+            "price_tier": null,
+            "hours_note": "Eat-in 08:30-10:15 (last order 10:00) and 11:00-16:00 (last order for food 15:30); shop counter 08:30-19:00, closes when sold out. Open daily; closed over year-end/New Year or on temporary closure days. Breakfast and lunch can be reserved (news item dated 2026.9.17).",
+            "open_evidence": "Own website has news posts dated 2026.9.17, 2026.5.20 and 2026.5.4 and a store-information page stating hours and 'Open daily' (viewed 2026-10-16).",
+            "source_url": "https://nishikihirano.com/en/shopinfo/",
+            "source_name": "Nishiki Hirano own website"
+          },
+          {
+            "name": "Soirée (喫茶ソワレ)",
+            "kind": "cafe",
+            "meal": "snack",
+            "what_to_order": "The jelly drinks, including Jelly Punch and Jelly Coffee, and the thick toast, which the menu says is big enough for two to share.",
+            "why": "A single kissaten near Shijo-Kawaramachi that says it opened in 1948; the site describes a dim room with blue lighting and no background music, and says it has served jelly drinks since the 1960s-70s.",
+            "price_tier": null,
+            "hours_note": "Weekdays 13:00-19:00 (last order 18:00); Saturdays, Sundays and holidays 13:00-19:30 (last order 18:30); closed Mondays, including when Monday is a holiday. The site says one order per person is required.",
+            "open_evidence": "Own website shows news dated 2026年9月22日 (opening calendar for 6 October to 1 November) and 2026年9月8日, plus current hours and menu prices (viewed 2026-10-16); the footer reads 2024.",
+            "source_url": "https://www.soiree-kyoto.com/",
+            "source_name": "Soirée own website"
+          }
+        ]
+      },
+      {
+        "town": "Osaka",
+        "eats": [
+          {
+            "name": "Mizuno (美津の)",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Okonomiyaki, including the mixed (pork, squid, shrimp, scallop, octopus and minced meat) and the yamaimo-yaki made with 100% mountain yam, per the menu page.",
+            "why": "A single okonomiyaki restaurant just inside the arcade off Dotonbori that says it has run for over 70 years on the same spot.",
+            "price_tier": null,
+            "hours_note": "11:00-22:00 (last order 21:00), 'no regular holiday' per the shop page. Weekday-only lunch service 11:00-15:00 except Golden Week, Obon and year-end/New Year. Home page notice: from February 2026 the former Thursday closure no longer applies.",
+            "open_evidence": "Own website home page carries a notice about the schedule change 'from February 2026' and states current hours and phone number (viewed 2026-10-16); the page shows no copyright year.",
+            "source_url": "http://www.mizuno-osaka.com/",
+            "source_name": "Mizuno own website"
+          },
+          {
+            "name": "Ajinoya (味乃家)",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Okonomiyaki and yakisoba; the site's title names both.",
+            "why": "A Namba okonomiyaki restaurant with three shops (main shop, Ajinoya Hanare, and the Yondaime Ajinoya that opened 31 July 2026); the main shop is in Namba, a short walk from Dotonbori.",
+            "price_tier": null,
+            "hours_note": "Main shop 11:00-22:00 Tuesday-Sunday and holidays; closed Mondays per the business-hours table. The site uses a FastPass slot system and says reservations through AutoReserve are not accepted. Check the site's holiday calendar.",
+            "open_evidence": "Own website news archive shows 'Fri, Jul 31 NEW OPEN! July 31, 2026: Yondaime Ajinoya' and 'Apr 03 Notice of Menu Revision', and a holiday calendar for October and November 2026 (viewed 2026-10-16).",
+            "source_url": "https://ajinoya-okonomiyaki.com/en/",
+            "source_name": "Ajinoya own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
+        "day_number": 2,
+        "town": "Tokyo (Asakusa)"
+      },
+      {
+        "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
+        "day_number": 4,
+        "town": "Tokyo (Tsukiji)"
+      },
+      {
+        "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
+        "day_number": 5,
+        "town": "Kyoto"
+      },
+      {
+        "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
+        "day_number": 6,
+        "town": "Kyoto"
+      },
+      {
+        "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
+        "day_number": 7,
+        "town": "Osaka"
+      },
+      {
+        "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
+        "day_number": 8,
+        "town": "Kyoto"
+      }
+    ]
+  },
+  {
+    "region_key": "route:turkey-istanbul-cappadocia-turquoise-coast",
+    "last_verified_date": "2026-10-16",
+    "stops": [
+      {
+        "town": "Istanbul",
+        "eats": [
+          {
+            "name": "Meşhur Filibe Köftecisi",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Meşhur Filibe Köftesi, with piyaz; the site also lists sütlaç, revani and buffalo yoghurt.",
+            "why": "In Sirkeci, on Hocapaşa Lokantaları Sokağı, a short way from the old-city sights; the site says it has one location only (\"Başka Şubemiz Yoktur\") and traces its recipe to 1893.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a 2026 copyright footer, a current phone and email, and the menu items above (viewed 2026-10-16); the page lists no opening hours.",
+            "source_url": "https://www.meshurfilibekoftecisi.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Yanyalı Fehmi Lokantası",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Yanya köfte (meatballs wrapped in eggplant slices and baked with tomatoes) and roasted eggplant puree, both named on the site.",
+            "why": "In Kadıköy rather than the old city, so it suits an evening away from Sultanahmet; the site describes a family restaurant started in 1919 that now runs from this one location only.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a 2026 copyright footer and a current contact page with phone number (viewed 2026-10-16); the pages seen list no opening hours.",
+            "source_url": "https://yanyalifehmi.com/en",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Goreme",
+        "eats": [
+          {
+            "name": "Gurme Kebab",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Testi kebabı (clay pot kebab), which the site says needs advance notice because of a 3-4 hour cooking time; the menu also lists grilled kebabs, pides and desserts such as baklava and künefe.",
+            "why": "A single-location Anatolian restaurant on Müze Caddesi in the middle of Göreme, listing a clay pot kebab among its dishes.",
+            "price_tier": null,
+            "hours_note": "Site states Saturday-Thursday 9:00-23:30 and Friday 13:30-23:30; it also says hours may vary and that reservations are recommended in peak season.",
+            "open_evidence": "Own website shows a 2026 copyright footer, current hours and a 99-item menu with prices in lira (viewed 2026-10-16).",
+            "source_url": "https://gurmekebab.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Fethiye",
+        "eats": [
+          {
+            "name": "Meğri Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Desti kebap (sealed-pot dish from the Yozgat region), which the site names as its specialty; the menu also lists fresh fish, kebabs and meze.",
+            "why": "A single Fethiye restaurant whose site describes seafood, steaks and local dishes, with a large printed menu and a wine cellar.",
+            "price_tier": null,
+            "hours_note": "Site states Monday-Saturday 10:00-24:00 and Sunday 10:00-22:00; no seasonal closing dates are stated.",
+            "open_evidence": "Own website shows a 2026 copyright footer, current hours and a menu with lira prices (viewed 2026-10-16).",
+            "source_url": "https://megrirestaurant.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Şef Meze Balık",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Fish and meze, which the site names as its focus.",
+            "why": "A single-location fish-and-meze restaurant in central Fethiye (Cumhuriyet Mahallesi) that describes itself as aiming to be the new destination for meze and fish in Fethiye.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website is live with a 2026 copyright footer, address and phone number; the page lists no opening hours or seasonal dates (viewed 2026-10-16).",
+            "source_url": "https://sefmezebalikfethiye.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
+        "day_number": 1,
+        "town": "Istanbul"
+      },
+      {
+        "itinerary_title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
+        "day_number": 2,
+        "town": "Istanbul"
+      },
+      {
+        "itinerary_title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
+        "day_number": 3,
+        "town": "Goreme"
+      },
+      {
+        "itinerary_title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
+        "day_number": 4,
+        "town": "Goreme"
+      },
+      {
+        "itinerary_title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
+        "day_number": 5,
+        "town": "Fethiye"
+      },
+      {
+        "itinerary_title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
+        "day_number": 6,
+        "town": "Fethiye"
+      },
+      {
+        "itinerary_title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
+        "day_number": 7,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "south-carolina",
     "last_verified_date": "2026-10-15",
     "stops": [
