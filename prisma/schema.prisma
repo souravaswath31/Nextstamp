@@ -37,6 +37,7 @@ model User {
   expensesPaid       TripExpense[]
   packingClaims      TripPackingItem[]
   savedPlaces        TripSavedPlace[]
+  entitlement        Entitlement?
 }
 
 // A visa, residency permit, or similar document the user holds beyond
@@ -539,4 +540,22 @@ model TripFundEntry {
   fund TripFund @relation(fields: [fundId], references: [id], onDelete: Cascade)
 
   @@index([fundId])
+}
+
+// What a user has paid for (Phase D). One row per user: the $5 one-time purchase,
+// or a manual grant (source "grant") for people who should have access without
+// paying. Only written by the Stripe webhook / return-page verification, or by
+// prisma/grant-entitlement.ts. status "refunded" turns access off again.
+model Entitlement {
+  id                    String   @id @default(cuid())
+  userId                String   @unique
+  status                String   @default("active") // "active" | "refunded"
+  source                String // "stripe" | "grant"
+  stripeSessionId       String?  @unique
+  stripePaymentIntentId String?  @unique
+  amountMinor           Int?
+  currency              String?
+  createdAt             DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }

@@ -909,10 +909,35 @@ database; the waitlist tests delete their `@example.test` rows afterwards.
   outside suppliers. No checkout, no payment, no holding of traveller money.
   **Direct booking is a separate project and is not started.** It would need
   seller-of-travel registration where required, supplier contracts and legal review.
-- **Phase D, the $5 purchase.** Stripe Checkout, one-time, webhook sets an entitlement.
-  Free: browse, run the checker. Paid: results tied to saved documents, the cascade
-  explorer, saved/customised trips, expiry warnings. **Do not start until A and B are
-  live and the owner confirms; needs Stripe keys.**
+- **Phase D, the $5 purchase (built; inert until Stripe keys are set).** Stripe Checkout,
+  one-time, `mode: "payment"` with the price inline (`src/lib/entitlement.ts`: 500 USD, tagged
+  `metadata.product = nextstamp-full-access`), `client_reference_id = user.id`. Routes:
+  `POST /api/checkout` (auth + same-origin; redirects to Stripe), `POST /api/stripe/webhook`
+  (raw-body signature check; grants on `checkout.session.completed` /
+  `async_payment_succeeded` only when paid and tagged; revokes on a full `charge.refunded` or
+  `charge.dispute.created`; partial refunds keep access), `GET /purchase/return` (asks Stripe about
+  the session and grants immediately so the buyer isn't waiting on the webhook; idempotent).
+  `Entitlement` table (one row per user; source `stripe` or `grant`; status `active|refunded`);
+  `prisma/sql/2026-10-phase-d.sql` must be applied **before** keys are set;
+  `prisma/grant-entitlement.ts <email>` gives someone access without paying (`--revoke` undoes it).
+  **The central rule: payment unconfigured => everyone has full access and the Entitlement table
+  is never queried**, so deploying this changes nothing until the owner flips it on.
+  Gate: `getCurrentUser()`/`getOptionalUser()` return `fullAccess`, `entitlement`, and a
+  `heldDocuments` that is **empty for users without access** (so every visa/readiness computation
+  follows the gate by default; the real list is `savedHeldDocuments`). Paid features per the brief:
+  documents tied to results (`addHeldDocument` gated, docs ignored when locked), the cascade
+  explorer and expiry warnings (profile/dashboard show an `UnlockCard`), and creating or
+  customising trips (`createTripFromItinerary`, `createBlankTrip`, `updateTripDays`; the last
+  checks the **trip owner's** access, so collaborators on a paid trip don't pay). Gated actions
+  redirect to `/pricing?unlock=<feature>` rather than throw. Not gated on purpose: browsing, the
+  public checker, the trip readiness report on trips someone already has, packing/expenses.
+  Env: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, optional `PAID_GRANDFATHER_BEFORE` (accounts
+  created before it keep access; **unset means nobody is grandfathered**, a product decision for
+  the owner). **Open before going live:** refund policy and tax handling (Stripe Tax) are owner/legal
+  decisions and the pricing page only states the mechanism; terms and privacy are drafts. **Not run
+  against real Stripe** (no keys): signature verification and event handling are unit-tested with
+  Stripe's own test-header generator, the routes were exercised with dummy keys (bad signature,
+  logged out, bad origin), the Stripe-hosted checkout redirect itself was not.
 
 ## Known loose ends
 
