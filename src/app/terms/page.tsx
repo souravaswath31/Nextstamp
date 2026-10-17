@@ -53,6 +53,17 @@ export default function TermsPage() {
       </section>
 
       <section className="space-y-3">
+        <h2 className="font-display text-xl text-ink">Links to outside suppliers</h2>
+        <p className="font-body text-sm text-ink/70">
+          NextStamp links to outside flight, hotel and tour suppliers. We don&apos;t sell or book
+          travel, take payment for it, hold your money or issue tickets; any booking is a contract
+          between you and the supplier, under the supplier&apos;s terms. Some of those links are
+          affiliate links, marked as such on the page, and we may earn a commission if you book
+          through one. It doesn&apos;t add to what you pay.
+        </p>
+      </section>
+
+      <section className="space-y-3">
         <h2 className="font-display text-xl text-ink">Acceptable use</h2>
         <p className="font-body text-sm text-ink/70">
           Use the app for its intended purpose — planning your own trips. Don't attempt to

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Plane, Hotel, ExternalLink, BookOpen } from "lucide-react";
+import { Plane, BookOpen } from "lucide-react";
 import { getCurrentUser } from "@/lib/currentUser";
 import { getTripWithAccess } from "@/lib/trips";
 import { prisma } from "@/lib/prisma";
@@ -17,7 +17,8 @@ import { getRate } from "@/lib/currency";
 import { getFcdoAdvisory, getStateDeptAdvisory } from "@/lib/advisories";
 import { generatePackingList } from "@/lib/packing";
 import { estimateTripCost, type CostTier } from "@/lib/costs";
-import { flightSearchLinks, staySearchLink } from "@/lib/flights";
+import { activityLinks, flightLinks, stayLinks } from "@/lib/bookingLinks";
+import BookingLinks from "@/components/BookingLinks";
 import { getWeatherOutlook } from "@/lib/weather";
 import RouteMap from "@/components/RouteMap";
 import SavedPlaces from "@/components/SavedPlaces";
@@ -133,13 +134,19 @@ export default async function TripPage({ params }: { params: { id: string } }) {
   ];
 
   const estimate = estimateTripCost(days.length, (trip.costTier as CostTier) ?? "mid");
-  const flights = flightSearchLinks(
-    user.homeBaseLocation,
-    trip.destinationCountry,
-    trip.startDate,
-    trip.endDate
+  const bookingQuery = {
+    origin: user.homeBaseLocation,
+    destination: trip.destinationCountry,
+    start: trip.startDate,
+    end: trip.endDate,
+  };
+  const flights = flightLinks(bookingQuery);
+  const stays = stayLinks(bookingQuery);
+  // Real place names only: the ones the user saved to this trip.
+  const activities = activityLinks(
+    bookingQuery,
+    savedPlaces.filter((p) => p.sourceKind !== "road_eat").map((p) => p.name)
   );
-  const stay = staySearchLink(trip.destinationCountry, trip.startDate, trip.endDate);
 
   const climate = climateForDateRange(fact?.climate ?? [], trip.startDate, trip.endDate);
 
@@ -400,47 +407,17 @@ export default async function TripPage({ params }: { params: { id: string } }) {
       {/* --- Booking. Deep links rather than an embedded search: there is no
           --- free flight API whose fares we could stand behind, and showing a
           --- price we can't honour would be worse than showing none. */}
-      {trip.destinationCountry && (flights.length > 0 || stay) && (
+      {trip.destinationCountry && (flights.length > 0 || stays.length > 0 || activities.length > 0) && (
         <Reveal>
           <section className="rounded-panel bg-paper p-6 shadow-paper">
             <h2 className="flex items-center gap-2 font-display text-xl text-ink">
               <Plane size={19} className="text-ink/35" /> Book it
             </h2>
-            <p className="mt-1 font-body text-sm text-ink/60">
-              We don&apos;t sell flights or quote fares — no free flight API returns prices we could
-              stand behind. These hand your dates and route straight to engines that do.
+            <p className="mt-1 mb-4 font-body text-sm text-ink/60">
+              We don&apos;t quote fares or prices, since no free source gives us ones we could stand behind.
+              These hand your dates and places straight to suppliers that do.
             </p>
-            <div className="mt-4 flex flex-wrap gap-2.5">
-              {flights.map((l) => (
-                <a
-                  key={l.provider}
-                  href={l.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group rounded-card bg-paperDark px-4 py-3 transition-colors hover:bg-ink/5"
-                >
-                  <p className="flex items-center gap-1.5 font-body text-sm font-semibold text-ink">
-                    <Plane size={13} className="text-ink/40" /> {l.provider}
-                    <ExternalLink size={11} className="text-ink/30" />
-                  </p>
-                  <p className="mt-0.5 max-w-[16rem] font-body text-xs text-ink/50">{l.note}</p>
-                </a>
-              ))}
-              {stay && (
-                <a
-                  href={stay.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group rounded-card bg-paperDark px-4 py-3 transition-colors hover:bg-ink/5"
-                >
-                  <p className="flex items-center gap-1.5 font-body text-sm font-semibold text-ink">
-                    <Hotel size={13} className="text-ink/40" /> {stay.provider}
-                    <ExternalLink size={11} className="text-ink/30" />
-                  </p>
-                  <p className="mt-0.5 max-w-[16rem] font-body text-xs text-ink/50">{stay.note}</p>
-                </a>
-              )}
-            </div>
+            <BookingLinks flights={flights} stays={stays} activities={activities} />
           </section>
         </Reveal>
       )}
