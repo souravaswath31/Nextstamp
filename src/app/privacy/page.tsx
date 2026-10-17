@@ -32,6 +32,7 @@ export default function PrivacyPage() {
           <li><strong className="text-ink">Trip fund entries</strong> — the targets and amounts you type into the trip fund notebook. NextStamp never holds money or connects to a bank.</li>
           <li><strong className="text-ink">Your passport country and any held documents you add</strong> (visas, residency permits, their expiry dates) — used to compute visa status and expiry alerts. This is the core of the product; we don't use it for anything else.</li>
           <li><strong className="text-ink">Trips you save or plan</strong> — the itineraries you start, customize, or mark as booked/completed.</li>
+          <li><strong className="text-ink">Trips drafted from a post</strong> — if you use "Trip from a link", we keep the link and the public text we read from it (a caption or title), so you can see where each stop came from. Screenshots are read once and not stored. We never download the video. You can delete the saved link and text from the trip page, or delete the whole trip.</li>
           <li><strong className="text-ink">Nothing else.</strong> No analytics tracking, no advertising identifiers, no third-party trackers, as of this writing.</li>
         </ul>
       </section>
@@ -46,6 +47,13 @@ export default function PrivacyPage() {
           <li><strong className="text-ink">Supabase</strong> — hosts our database and handles authentication (sending the magic-link emails, managing your session).</li>
           <li><strong className="text-ink">Vercel</strong> — hosts the application itself.</li>
         </ul>
+        <p className="font-body text-sm text-ink/70">
+          Only if you use "Trip from a link", the text or screenshots you give it are sent to
+          <strong className="text-ink"> Anthropic</strong> to read the places out of them, and the place
+          names (and, to work out drive times, their coordinates) are sent to
+          <strong className="text-ink"> MapTiler</strong> and <strong className="text-ink">OpenRouteService</strong>.
+          Nothing is sent to them unless you start an import.
+        </p>
         <p className="font-body text-sm text-ink/70">
           We don't sell data, and we don't share it with anyone else. Visa rules, itineraries,
           and state guides shown in the app are our own sourced content, not personal data.
