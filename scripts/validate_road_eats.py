@@ -395,6 +395,36 @@ def liveness():
     return 1 if dead else 0
 
 
+SEASONAL = re.compile(
+    r"season|seasonal|last day|closed for|reopen|winter|summer|through (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)|until (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)|closes? (on|for)",
+    re.I,
+)
+
+
+def seasonal():
+    """List every eat whose hours_note states a season, closing date or reopening, so a
+    person can re-read them as the calendar moves. Restaurants that were open when
+    researched can be closed for the winter by the time someone reads the card; this is
+    the review queue for that. Also lists each region's check date so stale regions stand out."""
+    seed = load(SEED_PATH) if SEED_PATH.exists() else []
+    rows = 0
+    for region in sorted(seed, key=lambda r: r["last_verified_date"]):
+        hits = [
+            (stop["town"], e["name"], e["hours_note"])
+            for stop in region["stops"]
+            for e in stop["eats"]
+            if e.get("hours_note") and SEASONAL.search(e["hours_note"])
+        ]
+        if not hits:
+            continue
+        print(f"\n{region['region_key']}  (checked {region['last_verified_date']})")
+        for town, name, note in hits:
+            rows += 1
+            print(f"  {town} / {name}: {note[:200]}")
+    print(f"\n{rows} eats with a stated season or closing date.")
+    return 0
+
+
 def main():
     args = sys.argv[1:]
     if not args:
@@ -402,6 +432,8 @@ def main():
         return 1
     if args[0] == "--liveness":
         return liveness()
+    if args[0] == "--seasonal":
+        return seasonal()
 
     idx = itinerary_index()
 

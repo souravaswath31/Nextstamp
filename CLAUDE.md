@@ -660,11 +660,17 @@ A footer year alone, a hidden page-source timestamp, or an inferred year ("27 ye
 class* (dated 2025-26 press features, municipal market pages), not a looser bar, and each
 route needs its own agent run. Re-run with `python3 scripts/road_eats_brief.py --routes`.
 
-**Itinerary text that still names places research could not confirm are open** (not
-edited; the data and UI do not depend on it): Cajun Country day 2 names Cafe des Amis
-(Louisiana Travel calls it "the former" cafe), Phoenix day 1 names Barrio Cafe (appears
-closed), and the Connecticut coast route names Frank Pepe's and Sally's Apizza (both
-multi-location, Pepe's own site showed a 2022 footer).
+**Itinerary text.** Three activities that named a closed or unconfirmed place were edited
+(Cartagena day 1 no longer names Cafe del Mar, Phoenix day 1 no longer names Barrio Cafe,
+Cajun Country day 2 points the zydeco breakfast at Buck & Johnny's). The Connecticut coast
+route still names Frank Pepe's and Sally's Apizza on purpose: both are open, they were only
+excluded from the *eats data* for having more than three locations. `prisma/apply-itinerary-text-fixes.ts`
+is the targeted update (the full seed would recreate every itinerary).
+
+**Keeping it honest as the calendar moves.** `python3 scripts/validate_road_eats.py
+--seasonal` lists every eat whose `hours_note` states a season or closing date, oldest region
+first. Run it with `--liveness` at the start of each season (and after any big storm): a
+place that was open in October can be shut for the winter by the time someone reads the card.
 
 **Seeding takes minutes now.** `npm run seed:eats` rewrites every region in a transaction
 each; `--liveness` probes ~450 URLs. Run both in the background and wait, don't chain them
