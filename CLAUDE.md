@@ -650,7 +650,7 @@ Agent reports are not evidence; read the file.
 **International routes are done, and they are thin.** Keyed `route:<itinerary slug>` (see
 `regionKeysForItinerary`; the `georgia` state/route collision is gone). 13 of 16 routes
 have at least one eat (Japan 6, Peru 5, Turkey 5, Morocco 4, Mexico 4, then 1-2 each);
-**Egypt, the UAE and Georgia + Armenia have none**, and Thailand's Bangkok and
+**Egypt, the UAE and Georgia + Armenia have none, even after a second pass with a looser source class** (a 2025-10+ press feature with an address *plus* a second dated 2026 page; nothing qualified, the nearest miss being a guide-only source), and Thailand's Bangkok and
 Ayutthaya days and most of Vietnam's Ha Long/Ninh Binh days show nothing. That is the
 evidence bar working, not a bug: most restaurants outside the US have no website with a
 dated page (they live on Facebook, Instagram, Google Maps and delivery apps, all banned
