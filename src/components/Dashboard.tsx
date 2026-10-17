@@ -1,4 +1,5 @@
 import Link from "next/link";
+import UnlockCard from "@/components/UnlockCard";
 import { prisma } from "@/lib/prisma";
 import { getCurrentUser } from "@/lib/currentUser";
 import { getCascadeExplorer, getEasyAccessDestinations } from "@/lib/visa";
@@ -56,7 +57,8 @@ export default async function Dashboard() {
   // The passport itself belongs in the same widget as the documents that hang
   // off it — a passport quietly aging out invalidates every trip at once.
   const passportExpiry = getExpiryStatus(user.passportExpiry);
-  const passportUrgent = user.passportExpiry !== null && isUrgent(passportExpiry);
+  // Expiry warnings are a paid feature; with payment unconfigured fullAccess is always true.
+  const passportUrgent = user.fullAccess && user.passportExpiry !== null && isUrgent(passportExpiry);
 
   // The nearest trip with a start date in the future. This is the number
   // someone with a trip booked actually wants on their dashboard.
@@ -169,6 +171,12 @@ export default async function Dashboard() {
             </p>
           </Link>
         </Reveal>
+      )}
+
+      {!user.fullAccess && (user.savedHeldDocuments.length > 0 || user.passportExpiry) && (
+        <UnlockCard feature="expiry">
+          We&apos;ll warn you before your passport, or a visa you hold, runs out.
+        </UnlockCard>
       )}
 
       {(upcomingDocuments.length > 0 || passportUrgent || tripBlockers.length > 0) && (

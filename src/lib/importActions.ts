@@ -9,6 +9,7 @@ import { finalizeDraft, realDeps } from "./tripImport/analyze";
 import { buildTripRecords, sanitizeStops } from "./tripImport/commit";
 import { cleanLabel } from "./tripImport/extraction";
 import { normalizeCountryInput } from "./countries";
+import { requireFullAccess } from "./gate";
 
 /**
  * Create the trip from a reviewed draft. The browser sends back the stops the
@@ -17,6 +18,8 @@ import { normalizeCountryInput } from "./countries";
  */
 export async function createTripFromImport(importId: string, payloadJson: string): Promise<{ error: string } | never> {
   const user = await getCurrentUser();
+  // Creating a trip is a paid feature; the draft itself was free to look at.
+  requireFullAccess(user, "trips");
 
   const imp = await prisma.tripImport.findFirst({ where: { id: importId, userId: user.id, tripId: null } });
   if (!imp) return { error: "This import has already been used or has expired. Start again." };

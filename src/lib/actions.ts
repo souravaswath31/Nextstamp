@@ -7,6 +7,8 @@ import { cookies } from "next/headers";
 import { prisma } from "./prisma";
 import { getCurrentUser } from "./currentUser";
 import { getTripWithAccess } from "./trips";
+import { requireFullAccess } from "./gate";
+import { userHasFullAccess } from "./entitlementDb";
 import { createClient } from "@/utils/supabase/server";
 import type { TripDay, TripStatus } from "./types";
 import { normalizeCountryInput } from "./countries";
@@ -32,6 +34,7 @@ function itineraryDaysToTripDays(days: { dayNumber: number; title: string; activ
 
 export async function createTripFromItinerary(itineraryId: string) {
   const user = await getCurrentUser();
+  requireFullAccess(user, "trips");
   const itinerary = await prisma.itinerary.findUnique({
     where: { id: itineraryId },
     include: { days: true },
@@ -61,6 +64,7 @@ export async function createTripFromItinerary(itineraryId: string) {
 
 export async function createBlankTrip(formData: FormData) {
   const user = await getCurrentUser();
+  requireFullAccess(user, "trips");
   const title = String(formData.get("title") ?? "New trip").trim() || "New trip";
 
   const trip = await prisma.userTrip.create({
@@ -100,8 +104,13 @@ export async function updateTripStatus(tripId: string, status: TripStatus) {
 
 export async function updateTripDays(tripId: string, days: TripDay[], costTier: string, title: string) {
   const user = await getCurrentUser();
-  const { canEdit } = await getTripWithAccess(tripId, user.id);
-  if (!canEdit) throw new Error("You don't have access to this trip.");
+  const { trip, canEdit } = await getTripWithAccess(tripId, user.id);
+  if (!trip || !canEdit) throw new Error("You don't have access to this trip.");
+  // Customising belongs to the trip's owner: a collaborator on a paid owner's trip
+  // doesn't have to buy anything, and an owner without access can't edit days.
+  if (trip.userId !== user.id ? !(await userHasFullAccess(trip.userId)) : !user.fullAccess) {
+    requireFullAccess({ fullAccess: false }, "trips");
+  }
 
   const safeTitle = title.trim() || "Untitled trip";
   await prisma.userTrip.update({
@@ -528,6 +537,7 @@ export async function updatePassportCountry(formData: FormData) {
 
 export async function addHeldDocument(formData: FormData) {
   const user = await getCurrentUser();
+  requireFullAccess(user, "documents");
   const rawCountry = String(formData.get("country") ?? "").trim();
   const subtype = String(formData.get("subtype") ?? "").trim();
   const validUntilRaw = String(formData.get("validUntil") ?? "").trim();

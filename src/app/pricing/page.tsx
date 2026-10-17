@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Check } from "lucide-react";
 import WaitlistForm from "@/components/site/WaitlistForm";
-import { PageHeader, SECTION } from "@/components/site/MarketingBits";
+import { CtaLink, PageHeader, SECTION } from "@/components/site/MarketingBits";
+import { getOptionalUser } from "@/lib/currentUser";
+import { FEATURES, PRICE_LABEL, isFeatureKey, paymentsConfigured } from "@/lib/entitlement";
 
 export const metadata: Metadata = {
   title: "Pricing — NextStamp",
-  description: "Browsing and the passport check are free. A one-time $5 payment covers the personal parts. Payment isn't switched on yet.",
+  description: "Browsing and the passport check are free. A one-time $5 payment covers the personal parts.",
 };
 
 const FREE = [
@@ -21,7 +23,21 @@ const PAID = [
   "Warnings before a passport or visa you hold expires",
 ];
 
-export default function PricingPage() {
+// Reads the session to show the right button, and the query string for where you came from.
+export const dynamic = "force-dynamic";
+
+const str = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v) ?? null;
+
+export default async function PricingPage({
+  searchParams,
+}: {
+  searchParams: Record<string, string | string[] | undefined>;
+}) {
+  const live = paymentsConfigured();
+  const user = live ? await getOptionalUser() : null;
+  const unlock = str(searchParams.unlock);
+  const purchase = str(searchParams.purchase);
+
   return (
     <>
       <PageHeader
@@ -31,10 +47,31 @@ export default function PricingPage() {
       />
 
       <section className={`${SECTION} pb-6`}>
-        <p className="rounded-card border border-stamp/40 bg-stamp/10 px-5 py-4 font-body text-sm text-bone">
-          Payment isn&apos;t switched on yet. Until it is, everything on this page is free to use. The
-          buy button below puts you on a list; it doesn&apos;t charge you.
-        </p>
+{!live ? (
+          <p className="rounded-card border border-stamp/40 bg-stamp/10 px-5 py-4 font-body text-sm text-bone">
+            Payment isn&apos;t switched on yet. Until it is, everything on this page is free to use. The
+            buy button below puts you on a list; it doesn&apos;t charge you.
+          </p>
+        ) : (
+          <>
+            {isFeatureKey(unlock) && !user?.fullAccess && (
+              <p role="status" className="mb-3 rounded-card border border-coral/40 bg-coral/10 px-5 py-4 font-body text-sm text-bone">
+                {FEATURES[unlock]} is part of full access. It&apos;s {PRICE_LABEL}, once.
+              </p>
+            )}
+            {purchase === "cancelled" && (
+              <p role="status" className="mb-3 rounded-card border border-white/15 bg-white/[0.05] px-5 py-4 font-body text-sm text-bone">
+                No payment was taken. You can buy any time.
+              </p>
+            )}
+            {purchase === "pending" && !user?.fullAccess && (
+              <p role="status" className="mb-3 rounded-card border border-stamp/40 bg-stamp/10 px-5 py-4 font-body text-sm text-bone">
+                We haven&apos;t had confirmation of your payment yet. It can take a minute. Refresh this page, and if
+                it still isn&apos;t showing, contact us with the receipt Stripe emailed you.
+              </p>
+            )}
+          </>
+        )}
 
         <div className="mt-8 grid gap-5 md:grid-cols-2">
           <div className="rounded-panel border border-white/10 bg-nightRaised p-7">
@@ -66,16 +103,37 @@ export default function PricingPage() {
             <p className="mt-6 font-body text-xs text-white/45">
               Everything in Free is included.
             </p>
-            <div className="mt-4">
-              <p className="mb-2 font-body text-sm font-medium text-white/80">Tell me when I can buy it</p>
-              <WaitlistForm interest="paid" label="Join the list" inputId="pricing-email" />
-            </div>
+            {!live ? (
+              <div className="mt-4">
+                <p className="mb-2 font-body text-sm font-medium text-white/80">Tell me when I can buy it</p>
+                <WaitlistForm interest="paid" label="Join the list" inputId="pricing-email" />
+              </div>
+            ) : user?.fullAccess ? (
+              <p role="status" className="mt-4 rounded-card bg-forest/15 px-4 py-3 font-body text-sm text-bone">
+                You have full access. Thank you.
+              </p>
+            ) : user ? (
+              <form action="/api/checkout" method="post" className="mt-4">
+                <button type="submit" className="btn-pill btn-pill-accent">
+                  Buy full access, {PRICE_LABEL} once
+                </button>
+                <p className="mt-2 font-body text-xs text-white/45">
+                  You&apos;ll pay on Stripe&apos;s page. NextStamp never sees your card details.
+                </p>
+              </form>
+            ) : (
+              <div className="mt-4">
+                <CtaLink href="/login">Sign in to buy</CtaLink>
+                <p className="mt-2 font-body text-xs text-white/45">Your purchase is tied to your account.</p>
+              </div>
+            )}
           </div>
         </div>
 
         <p className="mt-8 max-w-2xl pb-14 font-body text-xs leading-relaxed text-white/45">
           NextStamp doesn&apos;t book or sell travel, and the price is for the software, not for any
           trip. Visa information is not legal advice; confirm with the official source before you book.
+          {live && " Receipts come from Stripe. A refunded payment turns full access off. To ask for a refund or report a problem with a payment, contact us through the project's GitHub page."}
         </p>
       </section>
     </>
