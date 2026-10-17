@@ -25,6 +25,7 @@ import SavedPlaces from "@/components/SavedPlaces";
 import RoadEats from "@/components/RoadEats";
 import { groupEatsByTown, regionKeysForItinerary } from "@/lib/roadEats";
 import WeatherPanel from "@/components/WeatherPanel";
+import ImportSource from "@/components/ImportSource";
 import type { TripDay, TripStatus } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -61,6 +62,15 @@ export default async function TripPage({ params }: { params: { id: string } }) {
   // facts, so the briefing below doesn't re-query for them.
   const report = await buildReadinessReport(user, trip);
   const fact = report.countryFact;
+
+  // Only the person who imported the trip sees (and can delete) what we kept from the post.
+  const tripImport =
+    trip.userId === user.id
+      ? await prisma.tripImport.findFirst({
+          where: { tripId: trip.id, userId: user.id },
+          select: { sourceKind: true, platform: true, sourceUrl: true, sourceText: true },
+        })
+      : null;
 
   // Everything the briefing needs, in parallel — four independent network
   // calls (two advisory sources, a rate, a holiday calendar), none of which
@@ -331,6 +341,12 @@ export default async function TripPage({ params }: { params: { id: string } }) {
         </Reveal>
       )}
 
+      {tripImport && (
+        <Reveal>
+          <ImportSource tripId={trip.id} source={tripImport} />
+        </Reveal>
+      )}
+
       <Reveal>
         <SavedPlaces
           tripId={trip.id}
@@ -340,6 +356,7 @@ export default async function TripPage({ params }: { params: { id: string } }) {
             note: p.note,
             sourceKind: p.sourceKind,
             sourceSlug: p.sourceSlug,
+            quote: p.quote,
             usedOnDay: p.usedOnDay,
             hasCoords: p.latitude !== null && p.longitude !== null,
           }))}

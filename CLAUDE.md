@@ -897,14 +897,36 @@ database; the waitlist tests delete their `@example.test` rows afterwards.
 
 ### Later phases (not built) — recorded so they are not rediscovered
 
-- **Phase B, trip from a link.** Public Instagram/TikTok/YouTube URL, pasted caption or
-  uploaded screenshots -> draft `UserTrip` via the Anthropic API. Official oEmbed/public
-  metadata only; never scrape behind a login. Only places the source contains, each
-  labelled "from the post" or "suggested by NextStamp". Match our own guides first.
-  Ordering and drive times only from a real routing API, else stops shown unordered and
-  said so. Don't store third-party video after processing; the user can delete an import
-  and its source data. **Needs a decision first: geocoding and routing provider, and an
-  Anthropic API key.**
+- **Phase B, trip from a link (built; ships dark until `ANTHROPIC_API_KEY` is set).**
+  `/features/trip-from-a-link` shows the waitlist while the key is unset, a sign-in prompt
+  to logged-out visitors, and the tool to signed-in users. Pipeline in `src/lib/tripImport/`:
+  `sourceUrl.ts` (host allowlist, https only, no userinfo/port, redirects re-checked) ->
+  `source.ts` (platform oEmbed, then public og/meta tags; 400 KB cap; never logs in) ->
+  `extract.ts` (one Anthropic tool-use call, model `TRIP_IMPORT_MODEL` default
+  `claude-sonnet-5-5`; text or <=4 screenshots) -> `extraction.ts` (**every place must carry a
+  quote that is found in the source text and name that appears in it, else dropped**; links
+  and control characters stripped; max 15) -> `guideMatch.ts` (our own `StatePlace`s first,
+  whole-word, ambiguous names refused) -> `geo.ts` (MapTiler geocoding, relevance >= 0.75, only
+  for what the guides didn't cover) -> `order.ts` + `plan.ts` (OpenRouteService *driving-time
+  matrix*; exact shortest open path up to 8 stops, 2-opt above; days cut at 5 h driving or 4
+  stops; **no matrix, an unroutable pair, one stop, or stops >2500 km apart means "unordered,
+  and the page says why" — drive times are never estimated from straight lines**). Suggestions
+  are only our own guide places in the same state, nearest first, default unticked, never in
+  the route, labelled "Suggested by NextStamp". Screenshots can't be quote-checked, so a note
+  says to check them; they are never stored.
+  Storage: `TripImport` (userId, tripId, sourceKind, platform, sourceUrl, sourceText), plus
+  `TripSavedPlace.quote`; provenance rides on `TripSavedPlace.sourceKind`
+  (`import_post` / `import_suggested`). The route `POST /api/trip-import/analyze` is auth-gated
+  and rate-limited from the DB (8 attempts per user per hour, counted before the paid call;
+  unfinished rows older than 24 h are purged). `createTripFromImport` (server action) re-validates
+  the browser's stops and **re-runs the ordering server-side**; `deleteImportSource` removes the
+  saved link/text, owner only; deleting the trip cascades.
+  Env: `ANTHROPIC_API_KEY`, `TRIP_IMPORT_MODEL`, `MAPTILER_SERVER_KEY` (falls back to the public
+  key), `ORS_API_KEY`. **Not verified against the live providers** (no keys were available): the
+  Anthropic call was exercised against a local mock via `ANTHROPIC_BASE_URL`, geocoding and
+  routing only through parsed fixtures. **Licensing to confirm before relying on it:** that
+  MapTiler's terms allow storing geocoded coordinates on a user's trip, and that
+  OpenRouteService's plan covers commercial use. Both sit behind small interfaces in `geo.ts`.
 - **Phase C, flights/hotels/activities (built).** Deep links only, to outside suppliers:
   `src/lib/bookingLinks.ts` (Google Flights, Kayak, Google Hotels, Booking.com, GetYourGuide,
   Viator; free-text search URLs, no IATA codes, no prices, no fares) and `src/lib/affiliate.ts`.
