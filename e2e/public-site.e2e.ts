@@ -63,9 +63,9 @@ test.describe("passport checker (landing page)", () => {
   test("signing up twice for the same thing keeps one row", async ({ page }) => {
     const email = `e2e-dupe-${Date.now()}@example.test`;
     for (let i = 0; i < 2; i++) {
-      await page.goto("/flights");
+      await page.goto("/pricing");
       await page.getByLabel("Email address").fill(email);
-      await page.getByRole("button", { name: "Join the waitlist" }).click();
+      await page.getByRole("button", { name: "Join the list" }).click();
       await expect(page.getByRole("status")).toContainText("You're on the list");
     }
     expect(await prisma.waitlistSignup.count({ where: { email } })).toBe(1);
@@ -124,9 +124,9 @@ test.describe("site pages", () => {
     ["/features/visa-check", "Your passport is only half of the answer."],
     ["/features/trip-from-a-link", "Coming soon"],
     ["/pricing", "Payment isn't switched on yet"],
-    ["/flights", "Join the waitlist"],
-    ["/hotels", "Join the waitlist"],
-    ["/activities", "Join the waitlist"],
+    ["/flights", "Flights, once you know you can go."],
+    ["/hotels", "Somewhere to stay, on the route you planned."],
+    ["/activities", "Tours and tickets for the stops on your trip."],
     ["/about", "The rule we don't break"],
     ["/terms", "Draft — needs a lawyer"],
     ["/privacy", "Draft — needs a lawyer"],
@@ -142,6 +142,31 @@ test.describe("site pages", () => {
   test("the footer carries the not-legal-advice line", async ({ page }) => {
     await page.goto("/");
     await expect(page.getByRole("contentinfo")).toContainText("not legal or immigration advice");
+  });
+});
+
+test.describe("supplier links", () => {
+  test("a hotel search is prefilled, labelled as an outside supplier, and says no commission when none is configured", async ({ page }) => {
+    await page.goto("/hotels?to=Kyoto&start=2027-03-10&end=2027-03-20");
+    const booking = page.getByRole("link", { name: /Booking\.com/ });
+    await expect(booking).toHaveAttribute("href", /checkin=2027-03-10&checkout=2027-03-20/);
+    await expect(booking).toHaveAttribute("rel", /noopener/);
+    await expect(booking).toContainText("Outside supplier");
+    await expect(page.getByText("None of these links earn NextStamp anything.")).toBeVisible();
+    await expect(page.getByText(/doesn't sell flights, rooms or tickets/)).toBeVisible();
+  });
+  test("flight and activity searches build from the form, and bad dates are ignored", async ({ page }) => {
+    await page.goto("/flights?from=Chicago&to=Japan&start=2027-02-30&end=nonsense");
+    await expect(page.getByRole("link", { name: /Google Flights/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Kayak/ })).toHaveCount(0); // no valid date, so no dated Kayak link
+    await page.goto("/activities?to=Peru&place=Machu%20Picchu");
+    await expect(page.getByRole("link", { name: /GetYourGuide/ })).toHaveCount(2);
+    await expect(page.getByText("Tours and tickets: Machu Picchu, Peru")).toBeVisible();
+  });
+  test("with no destination there are no links, just the form", async ({ page }) => {
+    await page.goto("/flights");
+    await expect(page.getByRole("button", { name: "Find flight searches" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Google Flights/ })).toHaveCount(0);
   });
 });
 
