@@ -38,6 +38,7 @@ model User {
   packingClaims      TripPackingItem[]
   savedPlaces        TripSavedPlace[]
   entitlement        Entitlement?
+  tripImports        TripImport[]
 }
 
 // A visa, residency permit, or similar document the user holds beyond
@@ -183,6 +184,7 @@ model UserTrip {
   packingItems  TripPackingItem[]
   expenses      TripExpense[]
   savedPlaces   TripSavedPlace[]
+  imports       TripImport[]
 }
 
 // A place pulled into a trip from the content library — a state-guide place,
@@ -205,6 +207,9 @@ model TripSavedPlace {
   // Where it came from, so the trip can link back to the guide it was read in.
   sourceKind String? // "state_place" | "country" | "manual"
   sourceSlug String? // e.g. the StateGuide slug, for a link back
+  // For places imported from a post (sourceKind "import_post"): the post's own
+  // words that mention it. Null for everything else.
+  quote      String?
   latitude   Float?
   longitude  Float?
   // Set once it's been slotted into a day, so it can show as used without
@@ -558,4 +563,25 @@ model Entitlement {
   createdAt             DateTime @default(now())
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// A trip drafted from a social post (Phase B). Holds only what the user needs to
+// see where the stops came from, and to delete it: the link, the public text we
+// read from it (caption / oEmbed title), or nothing for screenshots, which are
+// processed in memory and never stored. Third-party video is never downloaded.
+// Deleting the import row deletes the source data; the trip itself stays.
+model TripImport {
+  id         String   @id @default(cuid())
+  userId     String
+  tripId     String?
+  sourceKind String // "link" | "text" | "screenshots"
+  platform   String? // "youtube" | "tiktok" | "instagram" for links
+  sourceUrl  String?
+  sourceText String?
+  createdAt  DateTime @default(now())
+
+  user User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  trip UserTrip? @relation(fields: [tripId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
 }
