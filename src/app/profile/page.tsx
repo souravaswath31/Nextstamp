@@ -5,6 +5,7 @@ import { addHeldDocument, removeHeldDocument, updatePassportCountry, updatePassp
 import { VISA_STATUS_BORDER_CLASSES, VISA_STATUS_TEXT_CLASSES } from "@/lib/types";
 import { getExpiryStatus, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
 import { listCountriesWithFacts } from "@/lib/countryFacts";
+import UnlockCard from "@/components/UnlockCard";
 import { FileStack, Unlock, Trash2, Plus, LogOut, Globe2, FileWarning, ExternalLink } from "lucide-react";
 
 export const dynamic = "force-dynamic";
@@ -109,7 +110,11 @@ export default async function ProfilePage() {
         </div>
 
         <div className="relative mt-3">
-          {user.passportExpiry ? (
+          {!user.fullAccess ? (
+            <p className="font-body text-xs text-ink/55">
+              Expiry warnings are part of full access. Your passport expiry date is saved and will be used once you unlock.
+            </p>
+          ) : user.passportExpiry ? (
             <p
               className={`font-body text-xs ${
                 passportExpiry.severity === "ok" || passportExpiry.severity === "none"
@@ -140,6 +145,16 @@ export default async function ProfilePage() {
           engine checks for cascade eligibility (e.g. a US visa unlocking a third country).
         </p>
 
+        {!user.fullAccess ? (
+          <div className="mt-5">
+            <UnlockCard feature="documents">
+              {user.savedHeldDocuments.length > 0
+                ? `You have ${user.savedHeldDocuments.length} saved document${user.savedHeldDocuments.length === 1 ? "" : "s"}. They're kept, and used again once you unlock.`
+                : "Add the visas and permits you hold and every result takes them into account."}
+            </UnlockCard>
+          </div>
+        ) : (
+          <>
         <div className="mt-5 space-y-3">
           {user.heldDocuments.map((doc) => {
             const expiry = getExpiryStatus(doc.validUntil);
@@ -186,6 +201,8 @@ export default async function ProfilePage() {
             <Plus size={15} /> Add document
           </button>
         </form>
+          </>
+        )}
       </section>
 
       <section>
@@ -294,6 +311,14 @@ export default async function ProfilePage() {
           </div>
         </div>
 
+        {!user.fullAccess ? (
+          <div className="mt-5">
+            <UnlockCard feature="cascade">
+              See what a visa you hold opens up in other countries.
+            </UnlockCard>
+          </div>
+        ) : (
+          <>
         {cascadeSections.map(({ doc, unlocks }) => (
           <div key={doc.id} className="mt-5">
             <p className="font-stamp text-[11px] uppercase tracking-wide text-stamp">
@@ -315,6 +340,8 @@ export default async function ProfilePage() {
             )}
           </div>
         ))}
+          </>
+        )}
       </section>
 
       <p className="rounded-panel bg-paperDark px-5 py-4 font-body text-xs text-ink/60">
@@ -322,6 +349,12 @@ export default async function ProfilePage() {
         maintained legal source — always confirm on the destination's official
         immigration site before booking or traveling.
       </p>
+
+      {user.entitlement?.status === "active" && user.entitlement.source === "stripe" && (
+        <p className="font-body text-xs text-ink/55">
+          Full access, bought {user.entitlement.createdAt.toISOString().slice(0, 10)}. One payment, no subscription.
+        </p>
+      )}
 
       <form action={signOutAction}>
         <button className="flex items-center gap-1.5 font-body text-xs text-ink/45 hover:text-ink hover:underline">
