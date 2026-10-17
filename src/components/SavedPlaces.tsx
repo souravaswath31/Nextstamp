@@ -11,6 +11,7 @@ export type SavedPlace = {
   note: string | null;
   sourceKind: string | null;
   sourceSlug: string | null;
+  quote?: string | null;
   usedOnDay: number | null;
   hasCoords: boolean;
 };
@@ -78,7 +79,18 @@ export default function SavedPlaces({
                   {p.hasCoords && <MapPin size={11} className="shrink-0 text-ink/30" />}
                 </p>
                 {p.note && <p className="mt-0.5 font-body text-xs text-ink/60">{p.note}</p>}
-                {p.sourceKind === "state_place" && p.sourceSlug && (
+                {p.sourceKind === "import_post" && (
+                  <p className="mt-0.5 font-body text-xs text-ink/60">
+                    <span className="font-semibold text-forest">From the post</span>
+                    {p.quote ? <> · “{p.quote}”</> : null}
+                  </p>
+                )}
+                {p.sourceKind === "import_suggested" && (
+                  <p className="mt-0.5 font-body text-xs text-ink/60">
+                    <span className="font-semibold text-teal">Suggested by NextStamp</span> · not in the post
+                  </p>
+                )}
+                {(p.sourceKind === "state_place" || p.sourceKind === "import_post" || p.sourceKind === "import_suggested") && p.sourceSlug && (
                   <Link
                     href={`/state/${p.sourceSlug}`}
                     className="mt-1 inline-block font-body text-[11px] text-ink/40 hover:text-coralDark hover:underline"
