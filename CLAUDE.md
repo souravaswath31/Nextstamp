@@ -927,10 +927,21 @@ database; the waitlist tests delete their `@example.test` rows afterwards.
   routing only through parsed fixtures. **Licensing to confirm before relying on it:** that
   MapTiler's terms allow storing geocoded coordinates on a user's trip, and that
   OpenRouteService's plan covers commercial use. Both sit behind small interfaces in `geo.ts`.
-- **Phase C, flights/hotels/activities.** Affiliate deep links only, labelled as links to
-  outside suppliers. No checkout, no payment, no holding of traveller money.
+- **Phase C, flights/hotels/activities (built).** Deep links only, to outside suppliers:
+  `src/lib/bookingLinks.ts` (Google Flights, Kayak, Google Hotels, Booking.com, GetYourGuide,
+  Viator; free-text search URLs, no IATA codes, no prices, no fares) and `src/lib/affiliate.ts`.
+  **Affiliate tags are pure configuration**: `AFFILIATE_<SUPPLIER>` holds the exact query string
+  the program gives you (e.g. `AFFILIATE_BOOKING=aid=123456`), validated strictly as name=value
+  pairs, appended to that supplier's links only, never to Google's. A link is described as an
+  "Affiliate link" (and `rel="sponsored"`) only when a tag was actually appended, and the
+  commission disclosure only appears then; otherwise the page says none of the links earn
+  anything. No program formats are guessed in code. `/flights`, `/hotels`, `/activities` are GET
+  forms (shareable URLs, no JS); the trip page's "Book it" panel adds flights, stays, and tours for
+  the places saved to the trip. Every card says it is an outside supplier, and every panel says
+  NextStamp takes no payment, holds no money and issues no booking. No click tracking.
   **Direct booking is a separate project and is not started.** It would need
-  seller-of-travel registration where required, supplier contracts and legal review.
+  seller-of-travel registration where required, supplier contracts and legal review; do not
+  start it without the project owner.
 - **Phase D, the $5 purchase (built; inert until Stripe keys are set).** Stripe Checkout,
   one-time, `mode: "payment"` with the price inline (`src/lib/entitlement.ts`: 500 USD, tagged
   `metadata.product = nextstamp-full-access`), `client_reference_id = user.id`. Routes:
