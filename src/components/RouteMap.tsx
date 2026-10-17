@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Route } from "lucide-react";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { loadMapLibre } from "@/lib/maplibre";
+import { fallBackToLightStyle, loadMapLibre, mapStyleUrl } from "@/lib/maplibre";
 
 /**
  * A trip or itinerary drawn as an ordered route: numbered pins in day order,
@@ -59,7 +59,7 @@ export default function RouteMap({
         const lats = stops.map((s) => s.latitude);
         const instance = new maplibre.Map({
           container: containerRef.current,
-          style: `https://api.maptiler.com/maps/outdoor-v2/style.json?key=${apiKey}`,
+          style: mapStyleUrl(apiKey),
           bounds: [
             [Math.min(...lons), Math.min(...lats)],
             [Math.max(...lons), Math.max(...lats)],
@@ -68,6 +68,7 @@ export default function RouteMap({
           attributionControl: { compact: true },
         });
         map = instance;
+        fallBackToLightStyle(instance, apiKey);
         instance.addControl(new maplibre.NavigationControl({ showCompass: false }), "top-right");
 
         instance.on("load", () => {

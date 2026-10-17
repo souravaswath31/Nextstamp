@@ -40,3 +40,27 @@ export async function loadMapLibre() {
   }
   return maplibre;
 }
+
+/** MapTiler style URL. The app is dark, so maps default to the dark Outdoor style. */
+export function mapStyleUrl(apiKey: string, variant: "dark" | "light" = "dark") {
+  const id = variant === "dark" ? "outdoor-v2-dark" : "outdoor-v2";
+  return `https://api.maptiler.com/maps/${id}/style.json?key=${apiKey}`;
+}
+
+/**
+ * If the dark style cannot be loaded (a plan or key that doesn't include it, a 403),
+ * fall back to the light one rather than leaving a blank map. Only reacts to errors
+ * before the first load, so a single failed tile later never swaps the style.
+ */
+export function fallBackToLightStyle(
+  map: { once: (e: string, cb: () => void) => void; setStyle: (url: string) => void },
+  apiKey: string
+) {
+  let loaded = false;
+  map.once("load", () => {
+    loaded = true;
+  });
+  map.once("error", () => {
+    if (!loaded) map.setStyle(mapStyleUrl(apiKey, "light"));
+  });
+}

@@ -6,7 +6,7 @@ import { MapPinned } from "lucide-react";
 // imports from client components and scopes them to the routes that use them;
 // a dynamic import() of CSS has no types and buys nothing here.
 import "maplibre-gl/dist/maplibre-gl.css";
-import { loadMapLibre } from "@/lib/maplibre";
+import { fallBackToLightStyle, loadMapLibre, mapStyleUrl } from "@/lib/maplibre";
 
 // Map of a state guide's places.
 //
@@ -85,12 +85,13 @@ export default function PlaceMap({
 
         const instance = new maplibre.Map({
           container: containerRef.current,
-          style: `https://api.maptiler.com/maps/outdoor-v2/style.json?key=${apiKey}`,
+          style: mapStyleUrl(apiKey),
           bounds,
           fitBoundsOptions: { padding: 56, maxZoom: 11 },
           attributionControl: { compact: true },
         });
         map = instance;
+        fallBackToLightStyle(instance, apiKey);
 
         instance.addControl(new maplibre.NavigationControl({ showCompass: false }), "top-right");
 
