@@ -375,6 +375,24 @@ hand-review a route yourself rather than dispatch a research agent for it.
 
 ## Design system
 
+**The whole UI is dark** (project owner's call, after an earlier split where only the
+marketing pages were dark). There is one palette, defined as CSS variables in
+`src/app/globals.css` (`--c-night` canvas, `--c-paper` card surface, `--c-paperDark` panel
+inside a card, `--c-ink` text, `--c-line` borders, plus brightened category hues) and mapped
+in `tailwind.config.ts` as `rgb(var(--c-x) / <alpha-value>)`. Components still say
+`bg-paper text-ink border-line`; `text-ink/60`-style opacity works. **Never hard-code a hex
+or `bg-white`/`text-black` in a component** — it will not follow the palette. `night`,
+`nightRaised`, `nightLift` and `bone` are aliases of the same variables, used by the
+marketing components. Cards are separated by a faint white ring in `shadow-paper` (a black
+drop shadow is invisible on a dark ground). Maps use MapTiler's `outdoor-v2-dark` style with a
+fallback to the light style if it fails to load (`src/lib/maplibre.ts`). The login and
+onboarding backdrop is a CSS glow, not an image (the old `hero-bg.jpg` is light and is unused
+now).
+
+Everything below this paragraph is the *original* light design record. The palette values
+and the "near-white canvas" language are historical; the shape, type, button and motion rules
+still apply.
+
 Reworked in a full pass toward an Apple.com-style aesthetic — bold, spacious, and
 typography-driven — after starting as a warmer "travel notebook" look. Current state:
 

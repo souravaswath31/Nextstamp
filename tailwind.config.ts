@@ -1,5 +1,9 @@
 import type { Config } from "tailwindcss";
 
+// The whole UI is dark (project owner's call). Surface and text colours are CSS variables
+// defined once in globals.css, so a component says `bg-paper text-ink` and the palette lives
+// in one place; `/60`-style opacity utilities still work through <alpha-value>.
+//
 // Design direction: Apple.com-style — one typeface carrying all the weight
 // (huge, tight-tracked, bold sans for headlines; the same face at normal
 // weight for body), generous whitespace, large soft-rounded surfaces, and
@@ -12,33 +16,33 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        paper: "#FBFBFD",
-        paperDark: "#F5F5F7",
-        ink: "#1D1D1F",
-        inkLight: "#3A3A3C",
-        charcoal: "#1D1D1F",
+        paper: "rgb(var(--c-paper) / <alpha-value>)",
+        paperDark: "rgb(var(--c-paperDark) / <alpha-value>)",
+        ink: "rgb(var(--c-ink) / <alpha-value>)",
+        inkLight: "rgb(var(--c-inkLight) / <alpha-value>)",
+        charcoal: "rgb(var(--c-ink) / <alpha-value>)",
         coral: "#FF5A5F",
         coralDark: "#E14448",
         stamp: "#F5A623",
         stampRed: "#E63946",
         forest: "#2FA84F",
         teal: "#06B6D4",
-        line: "#E5E5EA",
+        line: "rgb(var(--c-line) / <alpha-value>)",
         // Marketing pages go dark (project owner's call, Phase A). The app
         // stays light. A cool near-black with a faint blue cast, so the coral
         // accent reads as warm against it rather than as a screen glow.
-        night: "#0B0D12",
-        nightRaised: "#12151C",
-        nightLift: "#1A1E28",
-        bone: "#EDEBE6",
+        night: "rgb(var(--c-night) / <alpha-value>)",
+        nightRaised: "rgb(var(--c-paper) / <alpha-value>)",
+        nightLift: "rgb(var(--c-paperDark) / <alpha-value>)",
+        bone: "rgb(var(--c-ink) / <alpha-value>)",
         // Category colors — one distinct hue per itinerary category tag.
-        catNature: "#2FA84F",
-        catCity: "#3B82F6",
+        catNature: "rgb(var(--c-catNature) / <alpha-value>)",
+        catCity: "rgb(var(--c-catCity) / <alpha-value>)",
         catWater: "#06B6D4",
-        catSplurge: "#D6336C",
+        catSplurge: "rgb(var(--c-catSplurge) / <alpha-value>)",
         catBudget: "#F5A623",
         catRoadTrip: "#FB7A3C",
-        catBeaten: "#8B5CF6",
+        catBeaten: "rgb(var(--c-catBeaten) / <alpha-value>)",
       },
       fontFamily: {
         display: ["var(--font-inter)", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
@@ -55,8 +59,8 @@ const config: Config = {
       },
       boxShadow: {
         // Neutral, soft, diffuse — separation by elevation, not by border.
-        paper: "0 1px 2px rgba(0, 0, 0, 0.03), 0 8px 24px -8px rgba(0, 0, 0, 0.08)",
-        "paper-lg": "0 4px 12px rgba(0, 0, 0, 0.04), 0 24px 48px -12px rgba(0, 0, 0, 0.12)",
+        paper: "0 0 0 1px rgba(255, 255, 255, 0.06), 0 8px 24px -8px rgba(0, 0, 0, 0.5)",
+        "paper-lg": "0 0 0 1px rgba(255, 255, 255, 0.08), 0 24px 48px -12px rgba(0, 0, 0, 0.6)",
       },
     },
   },

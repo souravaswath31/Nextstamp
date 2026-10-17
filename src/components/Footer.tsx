@@ -42,21 +42,21 @@ const COLUMNS: { title: string; links: { href: string; label: string }[] }[] = [
   },
 ];
 
-export default function Footer({ dark = false }: { dark?: boolean }) {
+export default function Footer() {
   const pathname = usePathname();
   if (AUTH_ROUTES.includes(pathname)) return null;
 
-  const muted = dark ? "text-white/55" : "text-ink/50";
-  const strong = dark ? "text-white/85" : "text-ink/80";
-  const hover = dark ? "hover:text-white" : "hover:text-ink";
+  const muted = "text-ink/55";
+  const strong = "text-ink/85";
+  const hover = "hover:text-ink";
 
   return (
-    <footer className={`mt-20 border-t ${dark ? "border-white/10" : "border-black/5"}`}>
+    <footer className="mt-20 border-t border-white/10">
       <div className="mx-auto max-w-6xl px-5 pb-28 pt-12 sm:px-8 sm:pb-12">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {COLUMNS.map((col) => (
             <nav key={col.title} aria-label={col.title}>
-              <p className={`font-stamp text-[11px] uppercase tracking-widest ${dark ? "text-white/40" : "text-ink/40"}`}>
+              <p className="font-stamp text-[11px] uppercase tracking-widest text-ink/40">
                 {col.title}
               </p>
               <ul className="mt-3 space-y-2">
@@ -72,7 +72,7 @@ export default function Footer({ dark = false }: { dark?: boolean }) {
           ))}
         </div>
 
-        <div className={`mt-10 space-y-2 border-t pt-6 font-body text-xs ${dark ? "border-white/10" : "border-black/5"} ${muted}`}>
+        <div className={`mt-10 space-y-2 border-t border-white/10 pt-6 font-body text-xs ${muted}`}>
           <p className={strong}>
             NextStamp is not legal or immigration advice. Visa rules change, and a rule here can be
             out of date or not fit your situation. Confirm with the destination&apos;s official

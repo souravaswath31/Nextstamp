@@ -2,13 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* The UI is dark. Tokens are space-separated RGB triples so Tailwind can apply
+   opacity (text-ink/60). --c-night is the page canvas; --c-paper is a raised
+   surface (cards); --c-paperDark is a step above that (panels inside cards).
+   The category hues are brightened a little so small chip text keeps contrast. */
+:root {
+  color-scheme: dark;
+  --c-night: 11 13 18;
+  --c-paper: 18 21 28;
+  --c-paperDark: 26 30 40;
+  --c-ink: 237 235 230;
+  --c-inkLight: 201 199 193;
+  --c-line: 45 50 62;
+  --c-catNature: 61 187 94;
+  --c-catCity: 91 155 248;
+  --c-catSplurge: 232 84 138;
+  --c-catBeaten: 167 139 250;
+}
+
 html {
   scroll-behavior: smooth;
+  background-color: rgb(var(--c-night));
 }
 
 body {
-  background-color: #fbfbfd;
-  color: #1d1d1f;
+  background-color: rgb(var(--c-night));
+  color: rgb(var(--c-ink));
 }
 
 /* Every font-display usage sitewide picks this up automatically — the
@@ -27,7 +46,7 @@ body {
 }
 .card-lift:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04), 0 24px 48px -12px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 24px 48px -12px rgba(0, 0, 0, 0.6);
 }
 
 /* Apple-style pill buttons — one solid (primary CTA), one ghost
@@ -50,8 +69,8 @@ body {
   transform: translateY(0);
 }
 .btn-pill-primary {
-  background: #1d1d1f;
-  color: #fbfbfd;
+  background: rgb(var(--c-ink));
+  color: rgb(var(--c-night));
 }
 .btn-pill-primary:hover {
   opacity: 0.88;
@@ -90,7 +109,7 @@ body {
 
 /* Perforated divider — a torn-ticket line between day entries. */
 .ticket-divider {
-  border-top: 1px dashed #e5e5ea;
+  border-top: 1px dashed rgb(var(--c-line));
   position: relative;
 }
 .ticket-divider::before,
@@ -101,8 +120,8 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 9999px;
-  background: #fbfbfd;
-  border: 1px solid #e5e5ea;
+  background: rgb(var(--c-night));
+  border: 1px solid rgb(var(--c-line));
 }
 .ticket-divider::before {
   left: -6px;

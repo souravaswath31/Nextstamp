@@ -59,7 +59,7 @@ export default function ItineraryCard(props: Props) {
             alt=""
             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
-          <span className="absolute right-3 top-3 rounded-full bg-ink/60 px-2.5 py-1 font-stamp text-[11px] text-white backdrop-blur-sm">
+          <span className="absolute right-3 top-3 rounded-full bg-night/70 px-2.5 py-1 font-stamp text-[11px] text-white backdrop-blur-sm">
             {duration}
           </span>
         </div>

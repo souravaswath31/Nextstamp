@@ -20,8 +20,11 @@ export default async function OnboardingPage() {
 
   return (
     <div
-      className="-mx-5 flex min-h-[80vh] items-center justify-center rounded-hero bg-cover bg-center px-4 sm:-mx-8"
-      style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+      className="-mx-5 flex min-h-[80vh] items-center justify-center rounded-hero bg-nightRaised/40 px-4 sm:-mx-8"
+      style={{
+        backgroundImage:
+          "radial-gradient(55% 55% at 25% 20%, rgba(255,90,95,0.25), transparent 70%), radial-gradient(50% 50% at 80% 25%, rgba(6,182,212,0.18), transparent 70%), radial-gradient(50% 50% at 70% 90%, rgba(245,166,35,0.16), transparent 70%)",
+      }}
     >
       <div className="w-full max-w-sm space-y-8 rounded-hero bg-paper p-9 shadow-paper-lg">
         <div className="text-center">

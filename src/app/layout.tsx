@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, IBM_Plex_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -17,6 +17,8 @@ const plexMono = IBM_Plex_Mono({
   variable: "--font-mono",
   weight: ["400", "500"],
 });
+
+export const viewport: Viewport = { themeColor: "#0B0D12", colorScheme: "dark" };
 
 const description = "The trip idea, worked out before you book it.";
 
