@@ -15,6 +15,7 @@ import { getRate } from "@/lib/currency";
 import { getFcdoAdvisory, getStateDeptAdvisory } from "@/lib/advisories";
 import { splitSources, type CountryFactFull } from "@/lib/countryFacts";
 import { countryHeroFor } from "@/lib/countryHero";
+import ExpandableText from "@/components/ExpandableText";
 
 // The curated country data set as a browsable page — part of the free content
 // library, like /states. Intentionally public: personalization (the visa
@@ -179,7 +180,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
               <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
                 Also checked
               </dt>
-              <dd className="font-body text-sm text-ink/75">{fact.entryRequirementNotes}</dd>
+              <dd><ExpandableText text={fact.entryRequirementNotes} max={380} className="font-body text-sm text-ink/75" /></dd>
             </div>
           )}
         </dl>

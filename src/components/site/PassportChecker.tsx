@@ -11,6 +11,7 @@ import {
 } from "@/lib/passportCheck";
 import VisaStamp, { VISA_TONE } from "./VisaStamp";
 import WaitlistForm from "./WaitlistForm";
+import ExpandableText from "@/components/ExpandableText";
 
 const docLabel = (country: string) => (country === "USA" ? "US" : country);
 
@@ -237,7 +238,7 @@ function CheckOutput({
         )}
       </dl>
 
-      <p className="mt-3 font-body text-sm leading-relaxed text-white/65">{rule.conditions}</p>
+      <ExpandableText text={rule.conditions} max={260} className="mt-3 font-body text-sm leading-relaxed text-white/65" />
 
       <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-white/10 pt-3 font-body text-xs text-white/50">
         {rule.sourceUrl ? (
