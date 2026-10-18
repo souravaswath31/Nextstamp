@@ -3,6 +3,7 @@
 
     python3 scripts/validate_road_eats.py <candidate.json> [more.json ...]
     python3 scripts/validate_road_eats.py --dry-run <candidate.json>   # validate only, write nothing
+    python3 scripts/validate_road_eats.py [--dry-run] --extend <new-material.json>   # add stops/eats/day mappings to an EXISTING region
     python3 scripts/validate_road_eats.py --check-existing
     python3 scripts/validate_road_eats.py --liveness            # network: probe every source URL
 
@@ -335,6 +336,74 @@ def merge(obj):
     return changed
 
 
+def extend_region(obj, idx):
+    """Add stops/eats (and day mappings) to a region that is already in the seed.
+
+    `obj` has the usual shape, but its `stops` hold only the NEW material and its `day_map` only
+    the days being newly mapped. A stop whose town matches an existing one gains the eats it does
+    not already have; any other stop is appended. Existing eats are never removed or changed. The
+    merged region goes through the full validator, so every rule that applies to a new region
+    applies here. Returns (merged_region, errors, warnings)."""
+    import copy
+
+    rk = obj.get("region_key")
+    seed = load(SEED_PATH) if SEED_PATH.exists() else []
+    cur = next((r for r in seed if r["region_key"] == rk), None)
+    if cur is None:
+        return None, [f"{rk!r} is not in the seed file; use the normal merge for a new region"], []
+    merged = copy.deepcopy(cur)
+    by_town = {s_["town"].strip().lower(): s_ for s_ in merged["stops"]}
+    for stop in obj.get("stops") or []:
+        key = str(stop.get("town", "")).strip().lower()
+        if key in by_town:
+            have = {e["name"].strip().lower() for e in by_town[key]["eats"]}
+            by_town[key]["eats"].extend(e for e in stop.get("eats", []) if e["name"].strip().lower() not in have)
+            if stop.get("note") and not by_town[key].get("note"):
+                by_town[key]["note"], by_town[key]["note_source_url"] = stop["note"], stop.get("note_source_url")
+        else:
+            merged["stops"].append(stop)
+            by_town[key] = stop
+    # Day map: what the itineraries carry now, overridden by the new entries.
+    towns_now = {s_["town"] for s_ in merged["stops"]}
+    dm = {}
+    for it in region_itineraries(rk, idx):
+        for day in it["days"]:
+            dm[(it["title"], day["day_number"])] = day.get("eat_town")
+    for m in obj.get("day_map") or []:
+        k = (m["itinerary_title"], m["day_number"])
+        if k not in dm:
+            return None, [f"day_map names {k}, which is not a day of this region's itineraries"], []
+        if m["town"] is None and dm[k]:
+            continue  # a null never erases a mapping
+        dm[k] = m["town"]
+    # A mapping to a town that no longer exists (or never did) becomes null.
+    merged["day_map"] = [
+        {"itinerary_title": t, "day_number": n, "town": (town if town in towns_now else None)}
+        for (t, n), town in dm.items()
+    ]
+    merged["last_verified_date"] = obj.get("last_verified_date") or merged["last_verified_date"]
+    errors, warnings = validate(merged, f"{rk} (extended)", idx)
+    return merged, errors, warnings
+
+
+def merge_replace(obj):
+    seed = load(SEED_PATH)
+    seed = [r for r in seed if r["region_key"] != obj["region_key"]] + [obj]
+    seed.sort(key=lambda r: r["region_key"])
+    write_json(SEED_PATH, seed)
+    its = load(ITINERARIES_PATH)
+    lookup = {(m["itinerary_title"], m["day_number"]): m["town"] for m in obj["day_map"]}
+    changed = 0
+    for it in its:
+        for day in it["days"]:
+            k = (it["title"], day["day_number"])
+            if k in lookup and day.get("eat_town") != lookup[k]:
+                day["eat_town"] = lookup[k]
+                changed += 1
+    write_json(ITINERARIES_PATH, its)
+    return changed
+
+
 def probe(url):
     """Returns ('ok'|'dead'|'blocked'|'unknown', http_code)."""
     try:
@@ -439,6 +508,30 @@ def main():
         return seasonal()
 
     idx = itinerary_index()
+
+    if args[0] == "--extend":
+        bad = 0
+        for path in args[1:]:
+            label = Path(path).name
+            try:
+                obj = load(path)
+            except Exception as ex:
+                print(f"FAIL  {label}: unreadable: {ex}")
+                bad += 1
+                continue
+            merged, errors, warnings = extend_region(obj, idx)
+            for w in warnings:
+                print(f"  warn  {label}: {w}")
+            if errors:
+                bad += 1
+                print(f"FAIL  {label}")
+                for e in errors:
+                    print(f"        {e}")
+                continue
+            n_new = sum(len(s_["eats"]) for s_ in merged["stops"])
+            changed = 0 if dry_run else merge_replace(merged)
+            print(f"ok    {label} ({merged['region_key']}): now {len(merged['stops'])} stops, {n_new} eats, {changed} itinerary days remapped")
+        return 1 if bad else 0
 
     if args[0] == "--check-existing":
         seed = load(SEED_PATH) if SEED_PATH.exists() else []
