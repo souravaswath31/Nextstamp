@@ -317,7 +317,7 @@ export function pickWinner(
   ballots: Ballot[],
   cardCount: number,
   seed: number
-): { winner: number; picks: number[]; vetoed: boolean[]; note: string } {
+): { winner: number; picks: number[]; vetoed: boolean[]; note: string; tied: number[] } {
   const picks = Array.from({ length: cardCount }, () => 0);
   const vetoed = Array.from({ length: cardCount }, () => false);
   for (const b of ballots) {
@@ -333,16 +333,15 @@ export function pickWinner(
   const best = Math.max(...live.map((i) => picks[i]));
   const tied = live.filter((i) => picks[i] === best);
   let winner = tied[0];
-  if (best === 0) {
-    winner = live[0];
-    note += "Nobody picked, so the draw order decided.";
-  } else if (tied.length > 1) {
+  if (tied.length > 1) {
+    // Equal votes (including nobody picking): the app spins the tied cards and picks one. The draw is seeded,
+    // so every phone lands on the same card.
     winner = tied[Math.floor(mulberry32(seed + 17)() * tied.length)];
-    note += `Tie between ${tied.map((i) => "card " + "ABC"[i]).join(" and ")}, settled by a coin flip.`;
+    note += best === 0 ? "Nobody picked, so the tied cards were spun." : `Tie between ${tied.map((i) => "card " + "ABC"[i]).join(" and ")}, settled by a spin.`;
   } else {
     note += "Most picks wins.";
   }
-  return { winner, picks, vetoed, note };
+  return { winner, picks, vetoed, note, tied: tied.length > 1 ? tied : [] };
 }
 
 // ---- helpers the server uses to move a game forward ------------------------------------------
