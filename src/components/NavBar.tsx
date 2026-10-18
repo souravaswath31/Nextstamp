@@ -12,7 +12,7 @@ const PUBLIC_TABS = [
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
   { href: "/countries", label: "Guides", icon: Globe2 },
-  { href: "/escape", label: "Play", icon: Gamepad2 },
+  { href: "/escape", label: "Play with friends", shortLabel: "With friends", icon: Gamepad2 },
   { href: "/pricing", label: "Pricing", icon: Tag },
 ];
 // My Trips sits second, directly after the dashboard. It used to be fifth of
@@ -25,7 +25,7 @@ const PRIVATE_TABS = [
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
   { href: "/countries", label: "Guides", icon: Globe2 },
-  { href: "/escape", label: "Play", icon: Gamepad2 },
+  { href: "/escape", label: "Play with friends", shortLabel: "With friends", icon: Gamepad2 },
   { href: "/profile", label: "Profile", icon: UserRound },
 ];
 
@@ -69,7 +69,7 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
           </Link>
           <nav className="hidden items-center gap-7 sm:flex">
             {TABS.map((tab) => {
-              const active = pathname === tab.href;
+              const active = tab.href === "/escape" ? pathname.startsWith("/escape") : pathname === tab.href;
               return (
                 <Link
                   key={tab.href}
@@ -95,7 +95,7 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
       <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-white/10 bg-night/90 backdrop-blur-xl sm:hidden">
         <div className="mx-auto flex max-w-6xl justify-around px-2 pb-[max(0.375rem,env(safe-area-inset-bottom))] pt-1.5">
           {MOBILE_TABS.map((tab) => {
-            const active = pathname === tab.href;
+            const active = tab.href === "/escape" ? pathname.startsWith("/escape") : pathname === tab.href;
             const Icon = tab.icon;
             return (
               <Link
@@ -106,7 +106,7 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
                 }`}
               >
                 <Icon size={22} strokeWidth={active ? 2.2 : 1.8} />
-                {tab.label}
+                {"shortLabel" in tab ? tab.shortLabel : tab.label}
               </Link>
             );
           })}
