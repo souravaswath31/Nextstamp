@@ -2,6 +2,9 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import TerrainHero from "@/components/TerrainHero";
 import StatesFilters from "@/components/StatesFilters";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = { title: "US state guides — NextStamp", description: "Browse state-by-state guides to the places worth the drive, with maps, hidden spots and local food." };
 
 export const dynamic = "force-dynamic";
 

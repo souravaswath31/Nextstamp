@@ -3,6 +3,9 @@ import { redirect } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import { createClient } from "@/utils/supabase/server";
 import { completeOnboarding } from "@/lib/actions";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = { title: "Welcome — NextStamp" };
 
 // Shown once, right after a new magic-link sign-in, before a User row exists
 // in our own database. getCurrentUser() (src/lib/currentUser.ts) redirects

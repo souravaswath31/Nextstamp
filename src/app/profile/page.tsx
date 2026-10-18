@@ -7,6 +7,9 @@ import { getExpiryStatus, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
 import { listCountriesWithFacts } from "@/lib/countryFacts";
 import UnlockCard from "@/components/UnlockCard";
 import { FileStack, Unlock, Trash2, Plus, LogOut, Globe2, FileWarning, ExternalLink } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = { title: "Profile — NextStamp" };
 
 export const dynamic = "force-dynamic";
 
@@ -212,9 +215,9 @@ export default async function ProfilePage() {
         <p className="mt-1 font-body text-sm text-ink/55">
           Destinations your {user.passportCountry} passport{user.heldDocuments.length > 0 ? " and held documents" : ""}{" "}
           get you into visa-free, on arrival, or where you already hold status — no advance
-          application needed. Limited to the {easyAccess.length + " "}
-          {easyAccess.length === 1 ? "destination" : "destinations"} NextStamp has researched
-          for this passport so far, not every country in the world.
+          application needed. These are {easyAccess.length} of the{" "}
+          {easyAccess.length + visaRequired.length} destinations NextStamp has researched for
+          this passport so far, not every country in the world.
         </p>
 
         {easyAccess.length === 0 ? (
