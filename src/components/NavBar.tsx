@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Compass, Map, Luggage, UserRound, LayoutGrid, LogIn, Globe2, Tag } from "lucide-react";
+import { Compass, Map, Luggage, UserRound, LayoutGrid, LogIn, Globe2, Tag, Gamepad2 } from "lucide-react";
 
 // Explore, States and Guides are the free browsable library — no login needed.
 // Dashboard/My Trips/Profile are personal, so a logged-out visitor gets
@@ -12,6 +12,7 @@ const PUBLIC_TABS = [
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
   { href: "/countries", label: "Guides", icon: Globe2 },
+  { href: "/escape", label: "Play", icon: Gamepad2 },
   { href: "/pricing", label: "Pricing", icon: Tag },
 ];
 // My Trips sits second, directly after the dashboard. It used to be fifth of
@@ -24,6 +25,7 @@ const PRIVATE_TABS = [
   { href: "/explore", label: "Explore", icon: Compass },
   { href: "/states", label: "States", icon: Map },
   { href: "/countries", label: "Guides", icon: Globe2 },
+  { href: "/escape", label: "Play", icon: Gamepad2 },
   { href: "/profile", label: "Profile", icon: UserRound },
 ];
 
@@ -44,8 +46,11 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
   const TABS = isAuthenticated ? PRIVATE_TABS : PUBLIC_TABS;
   // "Sign in" takes a slot of its own in the mobile bar when signed out.
   const mobileBudget = MOBILE_TAB_LIMIT - (isAuthenticated ? 0 : 1);
-  const MOBILE_TABS =
-    TABS.length <= mobileBudget ? TABS : TABS.filter((t) => t.href !== "/countries");
+  // Over budget: drop Guides first, then States (both have other ways in), until it fits.
+  const MOBILE_TABS = ["/countries", "/states"].reduce(
+    (tabs, drop) => (tabs.length <= mobileBudget ? tabs : tabs.filter((t) => t.href !== drop)),
+    TABS
+  );
 
   return (
     <>

@@ -1072,6 +1072,41 @@ database; the waitlist tests delete their `@example.test` rows afterwards.
   Stripe's own test-header generator, the routes were exercised with dummy keys (bad signature,
   logged out, bad origin), the Stripe-hosted checkout redirect itself was not.
 
+## Escape Hatch (`/escape`) - the multiplayer trip game
+
+A free, USA-first party game: friends on their own phones join a five-letter room, answer six secret
+this-or-that duels plus a private budget, and the app deals **three real itinerary cards** cut to the days
+they have. Each friend gets one pick and one veto; most picks wins (coin flip on a tie; if every card is
+vetoed the vetoes are cancelled); everyone press-and-holds to commit; the result is a boarding pass with a
+copy-for-the-group-chat text. Rounds: `lobby -> duels -> draw -> vote -> pact -> done`.
+
+- **Pure engine** `src/lib/escape/engine.ts` (tested in `engine.test.ts`): deck building, distance, role
+  names, winner selection, group budget (the **lowest** budget wins and that friend is the "Budget Boss"),
+  validation, share text. No database, deterministic from a seed.
+- **State machine** `src/lib/escape/game.ts` + `src/app/api/escape/**`. Clients **poll** (`GET
+  /api/escape/[code]?v=<version>`, answers `{unchanged:true}` when nothing moved) every 2 s while the tab is
+  visible; no websockets, no new infrastructure. Players are anonymous: a random token in the
+  `x-escape-token` header, kept in sessionStorage (per tab, so two tabs are two friends) and mirrored to
+  localStorage. Secrets (duel answers, picks, vetoes, budgets) are never in a response until revealed.
+  Phase changes are compare-and-set (`updateMany where id+phase`). Same-origin check and in-memory rate
+  limits (best effort on serverless). Games are deleted after 7 days.
+- **Tables** `EscapeGame`, `EscapePlayer`, `EscapeOutcome` (`prisma/sql/2026-10-escape-hatch.sql`, additive
+  and applied by hand with `npx tsx prisma/apply-sql.ts`). `EscapeOutcome` is the opt-in anonymous summary a
+  host can send after a game (settings, cards, winner, vetoes, optional one-line wish; **never names**). It
+  exists to decide which routes and countries to research next.
+- **What the cards promise, and don't.** Titles, days and stops are the real itinerary text, cut to the
+  consecutive days that sit closest together. Cost is `estimateTripCost` (rough, tier-based, **excludes
+  getting there**); distance is a **straight line**, never a drive time; a card's day with no coordinates
+  falls back to the state centre (`stateCentroids.ts`, generated from the state guides). Nothing is booked.
+  If too few trips fit the budget or reach the deck says so (`stretched`, `widenedTo`) rather than hiding it.
+- **Weekend routes.** 33 three-day domestic itineraries were added for this game
+  (`scripts/weekend-research-contract.md` is the brief). Seven research outputs were dropped as too close to
+  routes that already exist (Louisville/Bardstown, Mobile, Astoria/Cannon Beach, Leelanau, Indiana Dunes,
+  the High Road to Taos, Casco Bay). Nearly all are `mid` tier, so groups with budgets under about $800 for
+  three days will see "over budget" cards; that is the cost model being honest, not a bug.
+- **Not built:** other countries and passports (visa filtering is deliberately out of scope for the game),
+  accounts for players, saving a game to My Trips.
+
 ## Known loose ends
 
 - The Vercel personal access token used for CLI deploys during development is still active

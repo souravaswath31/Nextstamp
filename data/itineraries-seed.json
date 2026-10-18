@@ -11823,7 +11823,9 @@
           "Evening at Jemaa el-Fnaa — food stalls, snake charmers, and storytellers as the square comes alive after dark"
         ],
         "lodging_suggestion": "Marrakech Medina",
-        "eat_town": "Marrakech"
+        "eat_town": "Marrakech",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -11834,7 +11836,9 @@
           "Wander the souks of the Medina"
         ],
         "lodging_suggestion": "Marrakech Medina",
-        "eat_town": "Marrakech"
+        "eat_town": "Marrakech",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 3,
@@ -11846,7 +11850,9 @@
         ],
         "drive_time": "~7 hrs total (Marrakech to Ait Benhaddou ~3-4 hrs; Ait Benhaddou to Dades Valley ~3 hrs)",
         "lodging_suggestion": "Boumalne Dades / Dades Gorge",
-        "eat_town": "Aït Benhaddou"
+        "eat_town": "Aït Benhaddou",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 4,
@@ -11858,7 +11864,9 @@
         ],
         "drive_time": "~4-5 hrs (Dades Valley to Merzouga via Tinghir/Todra Gorge)",
         "lodging_suggestion": "Erg Chebbi desert camp, Merzouga",
-        "eat_town": null
+        "eat_town": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 5,
@@ -11870,7 +11878,9 @@
         ],
         "drive_time": "~6 hrs (Merzouga to Ouarzazate)",
         "lodging_suggestion": "Ouarzazate",
-        "eat_town": null
+        "eat_town": null,
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 6,
@@ -11881,7 +11891,9 @@
         ],
         "drive_time": "~4 hrs (Ouarzazate to Marrakech)",
         "lodging_suggestion": "Marrakech Medina",
-        "eat_town": "Marrakech"
+        "eat_town": "Marrakech",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 7,
@@ -11891,7 +11903,9 @@
           "Fly home"
         ],
         "lodging_suggestion": "Marrakech Medina",
-        "eat_town": "Marrakech"
+        "eat_town": "Marrakech",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -15038,5 +15052,2286 @@
       }
     ],
     "cover_image_url": "/itineraries/jeju-island-jeonju-south-korea.jpg"
+  },
+  {
+    "title": "Black Mountain, Pisgah and the Parkway, North Carolina",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late spring and early fall suit waterfalls and Parkway views; check the Blue Ridge Parkway road status page before leaving, since winter ice closes sections and storm repairs change what is open.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A mountain weekend for friends who want waterfalls, Parkway overlooks and a small-town base, with Pisgah National Forest on day two and the high Craggy and Mount Mitchell country on the way home.",
+    "cost_tier": "mid",
+    "related_states": [
+      "north-carolina"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Black Mountain: Lake Tomahawk",
+        "activities": [
+          "Walk the trail around Lake Tomahawk Park (town hours listed as 5 a.m. to 11 p.m.; confirm with the town)",
+          "Stroll downtown Black Mountain and settle in for the night"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Black Mountain",
+        "coffee_wifi_spot": null,
+        "latitude": 35.618944,
+        "longitude": -82.328733
+      },
+      {
+        "day_number": 2,
+        "title": "Pisgah National Forest: Looking Glass Falls and Graveyard Fields",
+        "activities": [
+          "Looking Glass Falls from the top viewing deck off US 276 (Forest Service lists it open year-round, limited parking, no restrooms)",
+          "Cradle of Forestry in America (seasonal, spring to fall; check dates and hours on the Forest Service page)",
+          "Graveyard Fields loop from the Blue Ridge Parkway overlook at milepost 418.8 to Second Falls (storm damage has moved some trails, so ask the ranger district about current conditions)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Black Mountain",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 3,
+        "title": "Craggy Gardens and Mount Mitchell, then home",
+        "activities": [
+          "Craggy Pinnacle walk at Craggy Gardens, Blue Ridge Parkway milepost 364 (about a 20-minute walk to the summit per the Park Service; the picnic area is seasonal)",
+          "Mount Mitchell State Park, reached from the Asheville side only because the Parkway north of the park is closed (check the park's alerts and the summit concession hours before going)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null,
+        "latitude": 35.700288,
+        "longitude": -82.379647
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Boulder to Estes Park: The Peak to Peak Weekend",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Trail Ridge Road is a seasonal road, closed to through travel from mid-October to late May, so June through September gives the full route. Rocky Mountain National Park has run a timed-entry reservation system in the summer season (2026: late May to mid-October), so book before you go.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A flatirons-to-Continental-Divide weekend for friends from Denver: a Boulder evening, the Peak to Peak byway through the mountain towns, then a night in Estes Park and Rocky Mountain National Park. Suits groups who want one scenic drive and a couple of short hikes rather than a long trail day.",
+    "cost_tier": "mid",
+    "related_states": [
+      "colorado"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Boulder: Pearl Street and Chautauqua",
+        "activities": [
+          "Walk Pearl Street Mall, the four-block pedestrian mall between 11th and 15th Streets",
+          "Chautauqua Park for the view of the Flatirons from the open lawn, with trails into Open Space and Mountain Parks (the park lot is small, so check the City of Boulder page for parking and construction notices)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Boulder",
+        "coffee_wifi_spot": null,
+        "latitude": 40.023831,
+        "longitude": -105.256029
+      },
+      {
+        "day_number": 2,
+        "title": "Peak to Peak Byway to Estes Park",
+        "activities": [
+          "Drive the Peak to Peak Scenic and Historic Byway north through Nederland, Ward and Allenspark toward Estes Park (a state and national byway; the Forest Service lists Continental Divide views and historic mine sites)",
+          "Lily Lake loop, a short, accessible 0.8-mile trail with views of Longs Peak, just off Highway 7 near the park's east side",
+          "Bear Lake Nature Trail in Rocky Mountain National Park (about 0.7 to 0.8 miles; Bear Lake Road is open year-round, but check trail conditions outside summer)",
+          "Timed entry is required in the summer season: in 2026 the rest of the park needed a reservation from 9 a.m. to 2 p.m. through October 12, and the Bear Lake Road corridor needed one from 5 a.m. to 6 p.m. through October 18. Check the park's timed-entry page for the current year."
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Estes Park",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 3,
+        "title": "Trail Ridge Road and the way home",
+        "activities": [
+          "Drive Trail Ridge Road toward Fall River Pass and the Alpine Visitor Center at 11,796 feet (seasonal road, closed to through travel from mid-October to late May; call the park's road status line, 970-586-1222, before you go)",
+          "Estes Park Riverwalk along the Big Thompson and Fall Rivers, with the town's free parking structure on North St. Vrain Avenue",
+          "Return to Denver"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Estes Park",
+        "coffee_wifi_spot": null,
+        "latitude": 40.411972,
+        "longitude": -105.817618
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Brandywine Valley: Wyeth Country and the du Pont Mills",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring and early fall, when the Wyeth studio tours are running and the creekside trails are at their best.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "A slow weekend following the Brandywine Creek from Chadds Ford to Wilmington: Wyeth family art, a Revolutionary War battlefield, the du Pont powder mills and a state park trail. Suits friends who like art, history and easy walking over a packed itinerary.",
+    "cost_tier": "mid",
+    "related_states": [
+      "pennsylvania",
+      "delaware"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Chadds Ford: Brandywine Museum of Art",
+        "activities": [
+          "Brandywine Museum of Art (open Wednesday through Monday, closed Tuesdays, through November 13, 2026; check the museum's hours page for later dates)",
+          "Wyeth studio tours from the museum (N.C. Wyeth House & Studio, April 1 to November 22, Wednesday to Sunday; Andrew Wyeth Studio on Wednesdays, Saturdays and Sundays; advance reservations strongly recommended)",
+          "Brandywine Battlefield Park, site of the 1777 battle (hours differ between the state and park-association pages, so call ahead)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chadds Ford",
+        "coffee_wifi_spot": null,
+        "latitude": 39.86998,
+        "longitude": -75.593038
+      },
+      {
+        "day_number": 2,
+        "title": "Wilmington: Hagley and Brandywine Creek",
+        "activities": [
+          "Hagley Museum and Library: the Powder Yard, the Eleutherian Mills residence tour and the gardens (open Thursday through Tuesday, closed Wednesdays; last admission 4 p.m.)",
+          "Walk a trail in Brandywine Creek State Park, such as the Hidden Pond or Rocky Run trails (check current trail closures)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Wilmington",
+        "coffee_wifi_spot": null,
+        "latitude": 39.774901,
+        "longitude": -75.577844
+      },
+      {
+        "day_number": 3,
+        "title": "Wilmington: Delaware Art Museum",
+        "activities": [
+          "Delaware Art Museum (open Wednesday through Sunday, 10 a.m. to 4 p.m.; closed Mondays and Tuesdays)",
+          "Head home from Wilmington"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Wilmington",
+        "coffee_wifi_spot": null,
+        "latitude": 39.765572,
+        "longitude": -75.564637
+      }
+    ],
+    "cover_image_url": "/category-city.jpg"
+  },
+  {
+    "title": "Salem, Cape Ann & Newburyport",
+    "category": [
+      "water",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late spring through early fall for harbor walks and refuge beach time; October adds fall color and Salem's busiest month, so book lodging early.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A North Shore weekend that links Salem's maritime waterfront, the granite quarries and fishing harbor of Cape Ann, and the Plum Island marshes at Newburyport. Suits friends who want sea air, a museum or two and easy walking over a long weekend.",
+    "cost_tier": "mid",
+    "related_states": [
+      "massachusetts"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Salem: Maritime Waterfront",
+        "activities": [
+          "Walk Derby Wharf at Salem Maritime National Historical Park (the wharf and grounds are open around the clock; the Custom House is open Wednesday to Sunday, 9:30 to 4:30 in the autumn schedule, so check the park's hours for other seasons)",
+          "Peabody Essex Museum at 161 Essex Street if you arrive in time (open Thursday to Monday, 10 to 5; closed Tuesday and Wednesday; Yin Yu Tang needs a separate timed ticket)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Salem",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Rockport and Gloucester: Cape Ann",
+        "activities": [
+          "Halibut Point in Rockport: the state park's WWII-tower visitor center and Babson Farm Quarry loop, plus the neighboring Trustees reservation's ledges and tide pools (reservation open daily sunrise to sunset; no swimming in the quarry)",
+          "Cape Ann Museum at 27 Pleasant Street, Gloucester, for the largest collection of Fitz Henry Lane paintings (open Tuesday to Sunday, 10 to 5)",
+          "Stacy Boulevard on the Gloucester waterfront for the Man at the Wheel fishermen's memorial and the Fishermen's Wives Memorial"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Gloucester",
+        "coffee_wifi_spot": null,
+        "latitude": 42.657211,
+        "longitude": -70.617749
+      },
+      {
+        "day_number": 3,
+        "title": "Newburyport and Plum Island",
+        "activities": [
+          "Parker River National Wildlife Refuge on Plum Island for walking, birding and beach time (a day pass is required for cars; the refuge closes at times for capacity or management, so check before you go)",
+          "Stroll downtown Newburyport and the Merrimack River waterfront before heading home"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null,
+        "latitude": 42.811659,
+        "longitude": -70.871927
+      }
+    ],
+    "cover_image_url": "/category-water.jpg"
+  },
+  {
+    "title": "Cape May Point: Fall Birds, Lighthouse and Delaware Bay",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Fall, when migrating hawks, songbirds and monarchs funnel down the Cape May peninsula; the state park's trail brochure calls it the fall birding capital of the USA. Part of the Plover Trail is closed in spring and summer for nesting birds.",
+    "best_time_months": [
+      "September",
+      "October",
+      "November"
+    ],
+    "description": "A weekend at the southern tip of New Jersey built around birds, dune and pond trails, and a climb up the 1859 lighthouse, for friends who would rather walk and watch than work a boardwalk.",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-jersey"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Cape May Point: Bird Observatory and Duck Pond",
+        "activities": [
+          "Stop at NJ Audubon's Cape May Bird Observatory Northwood Center (701 East Lake Drive), listed as open daily 9:30am-4:30pm; closures are posted on its events calendar, so check before you go",
+          "Walk the Duck Pond Trail in Cape May Point State Park, a 0.5-mile wheelchair-accessible boardwalk to platforms at the freshwater ponds (the park's gate hours are listed as 8am-8pm)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cape May",
+        "coffee_wifi_spot": null,
+        "latitude": 38.940386,
+        "longitude": -74.96218
+      },
+      {
+        "day_number": 2,
+        "title": "Cape May Point State Park: Hawk Watch, Dunes and Lighthouse",
+        "activities": [
+          "Hawk Watch Platform at Cape May Point State Park, the park's spot for fall raptor viewing; the state's trail brochure mentions weekend hawk banding demonstrations, so confirm the schedule with the park (609-884-2159)",
+          "Monarch Trail, a 1.2-mile loop with a waterfowl viewing platform at Al's Pond and a route out to the beach and the World War II gun battery known as the Bunker (foot traffic only: no bikes, skateboards or pets; swimming is not permitted)",
+          "Plover Trail, a 1.5-mile loop along the dunes; its far end is closed in spring and summer for beach-nesting birds",
+          "Climb the 199 steps of the 1859 Cape May Lighthouse, run by the Cape May MAC rather than the state park: tickets are sold online, check capemaymac.org for climbing hours, and the tower can close for lightning or severe weather"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cape May",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 3,
+        "title": "Delaware Bay and the way home",
+        "activities": [
+          "Optional bay crossing on the Cape May-Lewes Ferry: the operator describes a 17-mile cruise of about 85 minutes, sailing year round, with a foot-passenger booking option; check the seasonal sailing schedule and reserve ahead",
+          "Cape May County Park & Zoo at 707 North Route 9, Cape May Court House, on the way north: the county lists zoo hours as 10am-4:30pm; check the county's zoo page for open days and admission before you go"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null,
+        "latitude": 39.113807,
+        "longitude": -75.148688
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Charlottesville, Monticello & Blue Ridge Wineries, Virginia",
+    "category": [
+      "road-trip",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 4,
+    "best_time_description": "Mid-October for foliage on the Downtown Mall and the Blue Ridge, with spring and early fall also suiting winery visits and mountain walks.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "Jefferson's mountaintop home, a president's farm next door, hillside vineyards and a short Blue Ridge Parkway walk, all based in one college town. It suits friends who want history and wine tastings with one easy hike.",
+    "cost_tier": "mid",
+    "related_states": [
+      "virginia"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Charlottesville: Downtown Mall",
+        "activities": [
+          "Walk the brick-paved Downtown Mall, a pedestrian street of shops, restaurants and live-music venues",
+          "See the history plaques at Court Square, steps from the Mall",
+          "Self-guided look at the UVA Rotunda and the Lawn (check rotunda.virginia.edu for current hours and tours)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Charlottesville",
+        "latitude": 38.029899,
+        "longitude": -78.47703
+      },
+      {
+        "day_number": 2,
+        "title": "Monticello, Highland and Crozet",
+        "activities": [
+          "Monticello house tour (guided tours run at set times; booking ahead online is recommended and hours change by season, so check monticello.org)",
+          "James Monroe's Highland: exhibits in the 1818 House for Lodgers and the story of the people enslaved there (open daily 9:30 a.m. to 4:30 p.m.; closed Thanksgiving, Christmas Eve, Christmas Day and New Year's Day)",
+          "Tasting at King Family Vineyards in Crozet (tasting room hours differ by weekday; call or check the website to confirm and ask about reservations)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Charlottesville",
+        "latitude": 38.010319,
+        "longitude": -78.452333
+      },
+      {
+        "day_number": 3,
+        "title": "Afton Mountain and the Blue Ridge Parkway",
+        "activities": [
+          "Morning tasting at Afton Mountain Vineyards on the eastern slope of Afton Mountain (hours are seasonal; check the winery's site)",
+          "Humpback Rocks Mountain Farm Trail at Parkway milepost 5.8, an easy quarter-mile walk through an outdoor museum of an 1890s mountain farm",
+          "Optional short, strenuous hike from the Humpback Gap lot (milepost 6.0) up to the rocks for views of the Rockfish and Shenandoah valleys; allow about an hour, and check NPS road-closure alerts before driving the Parkway"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Charlottesville",
+        "latitude": 38.019608,
+        "longitude": -78.883393
+      }
+    ],
+    "cover_image_url": "/category-road-trip.jpg"
+  },
+  {
+    "title": "Chattanooga & Lookout Mountain, Tennessee",
+    "category": [
+      "nature",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring and fall suit the mountain views and the gorge hike; Rock City runs its lights event in winter, but check its calendar first.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "A river city weekend: the aquarium and a pedestrian bridge on the Tennessee River, a day of Lookout Mountain classics, then a hike in the Tennessee River Gorge. Suits friends who want a mix of easy sights and one real walk.",
+    "cost_tier": "mid",
+    "related_states": [
+      "tennessee",
+      "georgia"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Chattanooga: Riverfront and the Aquarium",
+        "activities": [
+          "Tennessee Aquarium on the riverfront (timed-entry tickets, so book a slot ahead on tnaqua.org)",
+          "Walk the Walnut Street Bridge, a pedestrian-only bridge over the Tennessee River since 1993"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chattanooga",
+        "coffee_wifi_spot": null,
+        "latitude": 35.054136,
+        "longitude": -85.32039
+      },
+      {
+        "day_number": 2,
+        "title": "Lookout Mountain: Incline, Point Park, Ruby Falls and Rock City",
+        "activities": [
+          "Ride the Incline Railway from St. Elmo Station up to the Lookout Mountain summit station (the operator's FAQ says closed Mondays, Thanksgiving and Christmas; call 423-821-4224 to confirm hours)",
+          "Point Park (Chickamauga & Chattanooga National Military Park) with the Lookout Mountain overlooks; the NPS says the gate opens daily at 8:30 am and the park closes half an hour after sunset",
+          "Ruby Falls cave walk to the underground waterfall (tickets are timed and sold online only, so reserve ahead)",
+          "Rock City Gardens at the top of the mountain (check seerockcity.com for the day's posted hours and last entry)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chattanooga",
+        "coffee_wifi_spot": null,
+        "latitude": 35.006253,
+        "longitude": -85.342102
+      },
+      {
+        "day_number": 3,
+        "title": "Tennessee River Gorge: Pot Point Loop",
+        "activities": [
+          "Pot Point Nature Loop, a 4.1-mile loop in the Tennessee River Gorge that the Tennessee River Gorge Trust says takes around 2 to 3 hours; the trail starts at the kiosk by the parking area",
+          "Check trgt.org for current trail conditions before you go, then head home"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Chattanooga",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Corpus Christi and Padre Island Seashore, Texas",
+    "category": [
+      "water",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "A beach weekend: spring and fall keep the crowds thinner than summer, while summer is when the national seashore holds its public sea turtle hatchling releases (check the park for dates).",
+    "best_time_months": [
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "A Texas Gulf Coast weekend for friends who want salt air, a battleship-sized museum, miles of undeveloped sand and a ferry ride home through Port Aransas.",
+    "cost_tier": "mid",
+    "related_states": [
+      "texas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Corpus Christi: North Beach waterfront",
+        "activities": [
+          "Walk the decks of the USS Lexington Museum, the decommissioned aircraft carrier on North Beach (tickets are sold at the museum's admission booths on the day of the visit)",
+          "Texas State Aquarium next door: open daily 10 a.m. to 5 p.m., with animal presentations included in admission (check the aquarium's page for the day's schedule)",
+          "Evening along the North Beach shoreline"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Corpus Christi",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Padre Island National Seashore",
+        "activities": [
+          "Malaquite Visitor Center, open daily 9 a.m. to 5 p.m. per the park's conditions page (check the park's alerts before you go)",
+          "Malaquite Beach, about 4.5 miles of sand closed to beach driving, with no lifeguard on duty",
+          "Grasslands Nature Trail, a 0.75-mile paved loop through dunes and coastal prairie",
+          "Bird Island Basin on the Laguna Madre side for birding and the water"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Corpus Christi",
+        "coffee_wifi_spot": null,
+        "latitude": 27.045536,
+        "longitude": -97.397891
+      },
+      {
+        "day_number": 3,
+        "title": "Mustang Island and Port Aransas, then home",
+        "activities": [
+          "Mustang Island State Park for a last beach morning (check the park's page for day-use hours and reservations before you go)",
+          "Leonabelle Turnbull Birding Center in Port Aransas: free, open sunrise to sunset, with boardwalks over freshwater wetlands",
+          "Ride the TxDOT Port Aransas ferry across the Corpus Christi Channel to Aransas Pass; it runs around the clock, weather permitting, and summer waits can be long (TxDOT posts live wait times)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Port Aransas",
+        "coffee_wifi_spot": null,
+        "latitude": 27.739476,
+        "longitude": -97.131655
+      }
+    ],
+    "cover_image_url": "/category-water.jpg"
+  },
+  {
+    "title": "Lake Erie Islands: Put-in-Bay and Kelleys Island",
+    "category": [
+      "water",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late spring through summer, when the lighthouse tours, the islands' nature center and the Perry memorial's visitor center keep their fullest hours; the memorial's hours shorten from early September and again from late September.",
+    "best_time_months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A ferry-hopping weekend on Lake Erie's western islands, from a lighthouse on the mainland shore to Put-in-Bay's war memorial and Kelleys Island's glacial grooves. It suits friends who want lake air, short crossings and a few easy walks instead of a long drive each day.",
+    "cost_tier": "mid",
+    "related_states": [
+      "ohio"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Marblehead: Lighthouse Point",
+        "activities": [
+          "Marblehead Lighthouse State Park: the lighthouse is described by Ohio DNR as the oldest in continuous operation on the Great Lakes",
+          "Lighthouse tours run daily, weather permitting, from Memorial Day weekend through Labor Day only; the grounds are open outside that season",
+          "Evening walk along the rocky Lake Erie shoreline beside the lighthouse"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Port Clinton",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Put-in-Bay: Perry's Victory Memorial",
+        "activities": [
+          "Miller Ferry from the Catawba Island dock to South Bass Island (Put-in-Bay); Miller lists the crossing as under 20 minutes, with a seasonal timetable, so check millerferry.com for the departures that apply on your dates",
+          "Perry's Victory and International Peace Memorial, a 352-foot column on the island; the NPS says the observation deck is not accessible in the 2026 and 2027 seasons, and the visitor center's hours change by month, so check the park's page",
+          "South Bass Island State Park on the island's west side, including the remnants of the Hotel Victory",
+          "Lake Erie Islands Nature and Wildlife Center, which the NPS ties to summer visitors, so confirm it is open before you plan around it"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Port Clinton",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 3,
+        "title": "Kelleys Island: Glacial Grooves",
+        "activities": [
+          "Kelleys Island Ferry Boat Line from Marblehead to Kelleys Island; check its schedule and ticketing before you go",
+          "Glacial Grooves, a preserve on the island's north side just across Division Street from the state park beach",
+          "Kelleys Island State Park beach and its trails, which include the North Shore Alvar State Nature Preserve",
+          "Rent bikes or a golf cart to get around the island, then ferry back to the mainland for the trip home"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Port Clinton",
+        "latitude": 41.61622,
+        "longitude": -82.707153
+      }
+    ],
+    "cover_image_url": "/category-water.jpg"
+  },
+  {
+    "title": "Finger Lakes Gorges: Watkins Glen and Ithaca",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late spring to early fall, when Watkins Glen's Gorge Trail is open; it usually runs from mid to late May until mid to late October.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A gorge-and-lake weekend for friends who like waterfalls and wine: Watkins Glen State Park, a Seneca Lake wine afternoon, then Ithaca's two big gorge parks on the way home.",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-york"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Watkins Glen: arrive on Seneca Lake",
+        "activities": [
+          "Check in in Watkins Glen, at the southern end of Seneca Lake",
+          "Evening walk around the village; Watkins Glen State Park is open dawn to dusk year-round, but the Gorge Trail is seasonal, so save it for morning"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Watkins Glen",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Watkins Glen State Park and the Seneca Lake Wine Trail",
+        "activities": [
+          "Morning on the Gorge Trail at Watkins Glen State Park, which passes through the spray of Cavern Cascade; the trail is seasonal (the park lists 25 October 2026 at 6 p.m. as this year's closing, earlier if overnight temperatures stay in the 30s) and pets are not allowed on it",
+          "Afternoon tastings along the Seneca Lake Wine Trail, an association of 30-plus member wineries; most are open year-round, but hours and reservations vary, so check senecalakewine.com or call the trail office before choosing stops"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Watkins Glen",
+        "latitude": 42.361497,
+        "longitude": -76.92885
+      },
+      {
+        "day_number": 3,
+        "title": "Ithaca: Taughannock Falls and Buttermilk Falls",
+        "activities": [
+          "Taughannock Falls State Park: the roughly three-quarter-mile, relatively flat Gorge Trail to the 215-foot falls, then the Rim Trail for the view from above; the park is open dawn to dusk and asks visitors to call (607) 539-4078 about trail conditions",
+          "Buttermilk Falls State Park in Ithaca: the Gorge Trail climbs about 600 feet past pools and several waterfalls to Pinnacle Rock, with many stone steps; the park is open dawn to dusk, so call the park office for current trail status",
+          "If time allows before heading home, Cornell Botanic Gardens' gardens and natural areas are free and open dawn to dusk year-round"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Ithaca",
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Fort Worth Stockyards to Waco, Texas",
+    "category": [
+      "city",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring and fall keep the outdoor time in Cameron Park and along the river comfortable; Texas summers are hot.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "A cowboy-district evening in Fort Worth, then a Waco weekend of Magnolia, the Brazos riverfront and an Ice Age dig site. Suits friends who like walkable stops and an easy pace.",
+    "cost_tier": "mid",
+    "related_states": [
+      "texas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Fort Worth Stockyards",
+        "activities": [
+          "Fort Worth Herd cattle drive in the Stockyards, listed on the district's own site as running every day at 11:30 am and 4:00 pm",
+          "Walk the Stockyards National Historic District around Cowtown Coliseum",
+          "Check the Stockyards events page for rodeo dates at Cowtown Coliseum and concerts at Billy Bob's Texas"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fort Worth",
+        "coffee_wifi_spot": null,
+        "cover_image_url": null,
+        "latitude": 32.786909,
+        "longitude": -97.349447
+      },
+      {
+        "day_number": 2,
+        "title": "Waco: Magnolia and the Brazos Riverfront",
+        "activities": [
+          "Magnolia Market at the Silos: the market and grounds (check Magnolia's Visit page for current hours, as Sunday and holiday hours can differ)",
+          "Waco Suspension Bridge, completed in 1870, between Indian Spring Park and Martin Luther King, Jr. Park",
+          "Branding the Brazos sculptures and the Riverwalk beside the Brazos River"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Waco",
+        "coffee_wifi_spot": null,
+        "cover_image_url": null,
+        "latitude": 31.530698,
+        "longitude": -97.130495
+      },
+      {
+        "day_number": 3,
+        "title": "Waco Mammoth and Cameron Park",
+        "activities": [
+          "Waco Mammoth National Monument: open daily 9 am to 5 pm, closed Thanksgiving, Christmas and New Year's Day; Dig Shelter access is by ticket only, per the National Park Service",
+          "Cameron Park trails above the Brazos River; City of Waco lists park hours as 6 am to midnight",
+          "Drive home from Waco"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Waco",
+        "coffee_wifi_spot": null,
+        "cover_image_url": null,
+        "latitude": 31.604453,
+        "longitude": -97.175173
+      }
+    ],
+    "cover_image_url": "/category-city.jpg"
+  },
+  {
+    "title": "Enchanted Rock & the Hill Country Backroads: Fredericksburg Long Weekend",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring and fall suit the granite-dome hike and the backroads best; summer afternoons on exposed rock are hot, so go early if you travel then.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "A weekend base in Fredericksburg for a granite-dome hike at Enchanted Rock, the dance hall at Luckenbach, and a presidential boyhood home in Johnson City. Suits friends who want fresh air and small-town stops more than wine tastings.",
+    "cost_tier": "mid",
+    "related_states": [
+      "texas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Fredericksburg: Main Street and the Pacific War",
+        "activities": [
+          "National Museum of the Pacific War (open 9 a.m. to 5 p.m. Wednesday to Monday, closed Tuesdays; the Pacific Combat Zone closes at 3 p.m.)",
+          "Stroll Main Street's shops and galleries, noting that some close early in the evening",
+          "Visitor Center at 302 E. Austin St. for current events and maps"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fredericksburg",
+        "coffee_wifi_spot": null,
+        "latitude": 30.269224,
+        "longitude": -98.86494
+      },
+      {
+        "day_number": 2,
+        "title": "Enchanted Rock and Luckenbach",
+        "activities": [
+          "Hike the granite dome at Enchanted Rock State Natural Area; TPWD says advance day-pass reservations are required on weekends, school breaks and holidays, and the park often fills to capacity",
+          "Luckenbach Texas: the general store, bar and dance hall (listed hours run daily, check the live-music calendar for the evening)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fredericksburg",
+        "coffee_wifi_spot": null,
+        "latitude": 30.506469,
+        "longitude": -98.818797
+      },
+      {
+        "day_number": 3,
+        "title": "Johnson City and Pedernales Falls",
+        "activities": [
+          "Lyndon B. Johnson National Historical Park in Johnson City: the Boyhood Home and the Johnson Settlement (check the park's page or call 830 868-7128 for current hours and tour rules)",
+          "Pedernales Falls State Park: view the falls (TPWD says swimming and wading are not allowed in the falls area) and reserve a day pass in advance, since the park often reaches capacity"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fredericksburg",
+        "coffee_wifi_spot": null,
+        "latitude": 30.277382,
+        "longitude": -98.409022
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Galena and the Mississippi Palisades, Illinois",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late spring for green bluffs and fall for color along the Mississippi bluffs; Grant Home tours are seasonal, so check the season before you pick your dates.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A historic river town and two bluff-and-canyon state parks in the Driftless corner of northwest Illinois. It suits friends who want an easy walkable town evening, one big hiking day and a history stop before heading home.",
+    "cost_tier": "mid",
+    "related_states": [
+      "illinois"
+    ],
+    "cover_image_url": "/category-nature.jpg",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Galena: Main Street",
+        "activities": [
+          "Settle into Galena and walk Main Street, the town's historic shopping street",
+          "Pick up a Galena Country Passport Trail (themed self-guided trails) from the visitor bureau to plan the weekend"
+        ],
+        "lodging_suggestion": "Galena",
+        "drive_time": null,
+        "latitude": 42.416889,
+        "longitude": -90.426145
+      },
+      {
+        "day_number": 2,
+        "title": "Mississippi Palisades State Park",
+        "activities": [
+          "Walk the short surfaced paths to Ozzie's Point, Louis' Point and Lookout Point for river overlooks",
+          "Hike the wider North System trails (High Point, Aspen); the narrow South System trails run close to the bluff and are hazardous when wet",
+          "Hiking trails and the day-use area close for the three-day firearm deer season, the weekend before Thanksgiving weekend, so avoid those dates"
+        ],
+        "lodging_suggestion": "Galena",
+        "drive_time": null,
+        "latitude": 42.140991,
+        "longitude": -90.157599
+      },
+      {
+        "day_number": 3,
+        "title": "Grant Home and Apple River Canyon",
+        "activities": [
+          "Interpreter-led tour of the Ulysses S. Grant Home State Historic Site, open Wednesday through Sunday with off-season tours by reservation only from November 1; confirm hours on granthome.org or 815-777-3310",
+          "Apple River Canyon State Park: pick a trail from Pine Ridge, Tower Rock, River Route, Sunset or the accessible Primrose Trail, and stay on the trail",
+          "Picnic at one of the four riverside picnic areas before the drive home"
+        ],
+        "lodging_suggestion": "Galena",
+        "drive_time": null,
+        "latitude": 42.411257,
+        "longitude": -90.424395
+      }
+    ]
+  },
+  {
+    "title": "Galveston and the Upper Texas Coast Weekend",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring and fall are the comfortable shoulders for paddling and birding on the coast; summer is hot and humid, and the ferry can have long waits at peak times.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "A Gulf Coast island weekend for friends who want salt air, bay-side paddling, a pyramid-shaped aquarium and a free ferry ride to the quieter Bolivar Peninsula. Suits groups who like a mix of beach, birds and old-port streets.",
+    "cost_tier": "mid",
+    "related_states": [
+      "texas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Galveston Island State Park",
+        "activities": [
+          "Arrive at Galveston Island State Park, which runs from the Gulf beach to the bay",
+          "Walk to the bay-side observation tower for water birds (the park's bay side is its birding area)",
+          "Check the park's page for its three bay-side paddling trails and ranger-led paddling tours"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Galveston",
+        "coffee_wifi_spot": null,
+        "latitude": 29.201875,
+        "longitude": -94.96761
+      },
+      {
+        "day_number": 2,
+        "title": "Moody Gardens and the Strand",
+        "activities": [
+          "Moody Gardens: the Aquarium Pyramid and Rainforest Pyramid (the site says its attractions are open 365 days a year; check its daily hours page)",
+          "Galveston Railroad Museum in the old railroad depot, check the museum's own page for current days and hours",
+          "Evening walk through the Strand Historic District, the Victorian-era port district downtown"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Galveston",
+        "coffee_wifi_spot": null,
+        "latitude": 29.274644,
+        "longitude": -94.852409
+      },
+      {
+        "day_number": 3,
+        "title": "Ferry to Bolivar Peninsula",
+        "activities": [
+          "Take the TxDOT Galveston-Port Bolivar ferry (toll-free, runs 24 hours; crossing about 20 minutes, waits can exceed two hours in busy seasons, and service can be reduced in severe weather)",
+          "Bolivar Flats Shorebird Sanctuary at the southern tip of the peninsula, a Houston Audubon sanctuary; confirm access and tide conditions with Houston Audubon first",
+          "Fort Travis Seashore Park near the ferry landing, a historic military site"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Port Bolivar",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-water.jpg"
+  },
+  {
+    "title": "Gettysburg Battlefield & Catoctin Foothills",
+    "category": [
+      "road-trip",
+      "nature",
+      "budget"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Mid-October is the sweet spot for autumn color and the end of apple season, while April brings orchard blossom and May and September are mild for walking the battlefield.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "A weekend of Civil War history on the Gettysburg battlefield, a slow detour through Adams County apple country, and a woodland finish in the Catoctin Mountains and Frederick. It suits friends who want a mix of history, easy walks and small-town wandering.",
+    "cost_tier": "budget",
+    "related_states": [
+      "pennsylvania",
+      "maryland"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Gettysburg: Museum and Visitor Center",
+        "activities": [
+          "Start at the National Park Service Museum and Visitor Center on Baltimore Pike; the building is free to enter, while the museum, the film and the Cyclorama painting of Pickett's Charge are ticketed (check opening hours with the park)",
+          "Drive the battlefield roads, which the park says are open daily from 30 minutes before sunrise to 30 minutes after sunset"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Gettysburg",
+        "coffee_wifi_spot": null,
+        "latitude": 39.811557,
+        "longitude": -77.226415
+      },
+      {
+        "day_number": 2,
+        "title": "Little Round Top and Adams County apple country",
+        "activities": [
+          "Walk Little Round Top, reopened by the park in June 2024 after a rehabilitation project with new trail alignments and signage",
+          "Pick a few stops on the battlefield auto tour, then spend the afternoon among the orchards around Biglerville",
+          "Visit the National Apple Museum at 154 West Hanover Street, Biglerville; in the 2026-27 off-season it is open by appointment only (call 717-677-4556) and admission is free"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Gettysburg",
+        "coffee_wifi_spot": null,
+        "latitude": 39.791094,
+        "longitude": -77.235744
+      },
+      {
+        "day_number": 3,
+        "title": "Catoctin Mountain: Cunningham Falls and the road home via Frederick",
+        "activities": [
+          "Walk the half-mile Lower Trail to Cunningham Falls in Cunningham Falls State Park (William Houck Area, west of Thurmont); stay on marked trails and note that swimming at the falls is prohibited",
+          "Optional rock-outcrop hike at neighboring Catoctin Mountain Park, whose East Side trails reach Chimney Rock, Wolf Rock and Hog Rock (no dogs on the rock formations; check trail conditions with the park)",
+          "Finish in Frederick at the National Museum of Civil War Medicine, 48 East Patrick Street (Mon-Sat 10-5, Sun 11-5, last gallery entry 4 pm, closed some holidays), then stroll Carroll Creek Park"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Frederick",
+        "coffee_wifi_spot": null,
+        "latitude": 39.591593,
+        "longitude": -77.436605
+      }
+    ],
+    "cover_image_url": "/category-road-trip.jpg"
+  },
+  {
+    "title": "Hermann and the Missouri River Wine Country, Missouri",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Fall for vineyard season and Hermann's month-long Oktoberfest, spring and early summer for easy days on the Katy Trail.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "A weekend of hilltop wineries, the Katy Trail and German-settler history along the Missouri River, from Augusta to Hermann with a riverfront stop in Washington on the way home. It suits friends who like an easy pace, tasting rooms and a bit of cycling.",
+    "cost_tier": "mid",
+    "related_states": [
+      "missouri"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Augusta: Vineyards and the Katy Trail",
+        "activities": [
+          "Walk or ride a stretch of the Katy Trail from the Augusta Trailhead (mile marker 66.3), with parking at the trailhead, Augusta Winery and Klondike Park",
+          "Klondike Park, a St. Charles County park with a fishing lake, a Missouri River boat ramp and white silica sand around the lake",
+          "Taste at the hilltop Montelle Winery or the historic Mount Pleasant Estates (established 1859); check each winery's own page for hours"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Augusta",
+        "coffee_wifi_spot": null,
+        "latitude": 38.588207,
+        "longitude": -90.903748
+      },
+      {
+        "day_number": 2,
+        "title": "Hermann: German Heritage and Cellars",
+        "activities": [
+          "Deutschheim State Historic Site: guided tours at 10 a.m., 12:30 p.m. and 2:30 p.m. daily April 1 to October 31, Thursday to Sunday only November 1 to March 31 (closed on state holidays); grounds open sunrise to sunset",
+          "Hermannhof Winery, which describes ten stone cellars in a historic building; its own page lists tasting-room hours",
+          "Stone Hill Winery, known for the nation's largest series of cellars by its own account; its page lists daily winery hours",
+          "Cycle from town over the Missouri River Bridge bike lane to the McKittrick Katy Trail trailhead, about 2 miles north of Hermann according to Missouri State Parks"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Hermann",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 3,
+        "title": "Hermann to Washington: Riverfront and Home",
+        "activities": [
+          "Morning in Hermann: the Visitor Information Center in the Amtrak station at 301 Wharf Street (listed as open daily; check Visit Hermann) for a walk through the historic town",
+          "Washington's Riverfront Park on the Missouri River, with picnic pavilions and a 10-foot asphalt trail for walking or cycling",
+          "Lions Lake in Washington, with a 1-mile walking trail around the water"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Washington",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Hudson Valley: Beacon, Hyde Park and Olana",
+    "category": [
+      "nature",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late spring for green hillsides and early autumn into October for foliage; summer suits river paddling, and winter shortens daylight and park hours.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A river-valley long weekend for friends who like a good museum, an easy hill hike and a grand estate: Beacon's riverfront and Main Street, Mount Beacon, then Hyde Park and the Olana landscape above the Hudson.",
+    "cost_tier": "mid",
+    "related_states": [
+      "new-york"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Beacon: Long Dock Park and Main Street",
+        "activities": [
+          "Walk the riverfront at Scenic Hudson's Long Dock Park (23 Long Dock Rd), open dawn to dusk, with a pavilion, viewing deck and train access",
+          "Stroll Main Street in the evening"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Beacon",
+        "coffee_wifi_spot": null,
+        "latitude": 41.50058,
+        "longitude": -73.984426
+      },
+      {
+        "day_number": 2,
+        "title": "Beacon: Dia and Mount Beacon",
+        "activities": [
+          "Dia Beacon, the contemporary art museum at 3 Beekman Street: it keeps a limited weekly schedule with closed weekdays, so check the Dia calendar and plan this day around it",
+          "Mount Beacon Park, free and open year-round dawn to dusk: a steep climb up stairs along the course of the old Beacon Incline Railway, with switchbacks above, to a summit view and a 60-foot climb up the South Mount Beacon fire tower",
+          "Evening in Rhinebeck village"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Rhinebeck",
+        "coffee_wifi_spot": null,
+        "latitude": 41.500171,
+        "longitude": -73.982602
+      },
+      {
+        "day_number": 3,
+        "title": "Hyde Park and Olana, then home",
+        "activities": [
+          "Vanderbilt Mansion National Historic Site in Hyde Park (4097 Albany Post Road): no entrance fee, with terraced formal gardens and a Hudson River overlook; check the National Park Service tickets and tours page for mansion tour times",
+          "Olana State Historic Site near Hudson: the grounds are free and open daily from 8:00 AM to sunset, while house tour hours vary by season, so check olana.org or call 518-751-0344"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Hudson",
+        "coffee_wifi_spot": null,
+        "latitude": 41.784196,
+        "longitude": -73.937391
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Joshua Tree & Palm Springs, California",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Cooler months. The National Park Service calls October through May the busy season at Joshua Tree and describes summer heat as a very serious safety risk, so autumn through spring suits both the boulder walks and the canyon hikes.",
+    "best_time_months": [
+      "October",
+      "November",
+      "March",
+      "April"
+    ],
+    "description": "Two nights in the Mojave: Joshua Tree's boulder-strewn short trails and desert overlooks, then Palm Springs for a palm-oasis canyon and a cable-car ride up the mountain. Suits friends who want easy hikes, big views and a pool to come back to.",
+    "cost_tier": "mid",
+    "related_states": [
+      "california"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Joshua Tree: Hidden Valley and Keys View",
+        "activities": [
+          "Hidden Valley Nature Trail, a 1-mile loop through a boulder-ringed valley (the NPS suggests arriving by 9 a.m. on busy weekends and holidays; little shade and no cell service)",
+          "Keys View, a 0.25-mile paved loop to an overlook (the upper path is steep; the park is open 24 hours a day)",
+          "Bring all water and food: the NPS says there are no grocery stores, restaurants or lodging inside the park"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Joshua Tree",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Joshua Tree: Barker Dam and Cholla Cactus Garden",
+        "activities": [
+          "Barker Dam, an easy 1.1-mile loop past the historic dam (water depends on rainfall) with a rock art site to view from a distance",
+          "Skull Rock, a 1.7-mile loop on the NPS trail list",
+          "Cholla Cactus Garden, a 0.25-mile loop",
+          "Leave the park by the south entrance at Cottonwood toward Palm Springs"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Palm Springs",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 3,
+        "title": "Palm Springs: Indian Canyons and the Aerial Tramway",
+        "activities": [
+          "Indian Canyons (Agua Caliente Band of Cahuilla Indians): palm-lined Andreas and Palm Canyons; hours change by season, so check the Indian Canyons hours page and the last-vehicle entry time",
+          "Palm Springs Aerial Tramway up to the mountain station; check the operator's hours page for first and last tram and buy tickets in advance for busy days",
+          "If time is short, choose one: canyon walk in the morning or the tram, then head home"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Palm Springs",
+        "latitude": 33.787264,
+        "longitude": -116.539557
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Pennsylvania Wilds: Cook Forest, Kinzua Bridge & Oil Creek",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late September through October for fall color along the Clarion River and Kinzua Gorge; early summer works for river tubing and the Sawmill Center season.",
+    "best_time_months": [
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Old-growth pines, a railroad viaduct turned sky walk and the birthplace of the oil industry, all in the forested northwest of the state. Suits friends who would rather hike and wander small towns than chase a city.",
+    "cost_tier": "budget",
+    "related_states": [
+      "pennsylvania"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Cook Forest State Park",
+        "activities": [
+          "Forest Cathedral, old-growth white pines and hemlocks (a National Natural Landmark; the park is open daily, sunrise to sunset)",
+          "Walk the Clarion River shoreline, a 13-mile stretch through the park popular for canoeing, kayaking and tubing"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cooksburg",
+        "coffee_wifi_spot": null,
+        "latitude": 41.337957,
+        "longitude": -79.221306
+      },
+      {
+        "day_number": 2,
+        "title": "Kinzua Bridge and the Allegheny National Forest",
+        "activities": [
+          "Walk the Kinzua Bridge Sky Walk, 600 feet out on the remaining towers of the viaduct a 2003 tornado partly destroyed, with a partial glass platform at the end",
+          "Visitor center at Kinzua Bridge State Park with self-guided exhibits; the skywalk has been closed in stretches during a multi-year rehabilitation, so check the park's page for current dates",
+          "Hike the Tionesta Scenic Area, a Forest Service trail into old-growth hemlock and beech in the Allegheny National Forest"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Kane",
+        "coffee_wifi_spot": null,
+        "latitude": 41.760759,
+        "longitude": -78.588402
+      },
+      {
+        "day_number": 3,
+        "title": "Titusville: Drake Well and Oil Creek",
+        "activities": [
+          "Drake Well Museum and Park, the birthplace of the modern petroleum industry (ticketed; open Wednesday to Sunday April through October, Friday to Sunday November through March, 10 a.m. to 4 p.m.)",
+          "Oil Creek State Park, where interpretation covers the oil boomtowns and early transportation (open daily, sunrise to sunset)",
+          "Head home to Pittsburgh"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Titusville",
+        "coffee_wifi_spot": null,
+        "latitude": 41.611284,
+        "longitude": -79.658274
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Madison, Baraboo & Devil's Lake, Wisconsin",
+    "category": [
+      "nature",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Summer into early fall: Circus World runs its performance season in summer, the Crane Foundation's guided tours are daily in June to August, and Devil's Lake is busiest on summer and fall weekends, so go early.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A city-meets-nature long weekend: Frank Lloyd Wright's lakeside Monona Terrace in Madison, a full day on the quartzite bluffs of Devil's Lake, then cranes and circus history in Baraboo. It suits friends who want one big hike day between two easy, museum-style days.",
+    "cost_tier": "mid",
+    "related_states": [
+      "wisconsin"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Madison: Monona Terrace and Henry Vilas Zoo",
+        "activities": [
+          "Monona Terrace Community and Convention Center, the lakeside building Frank Lloyd Wright first proposed in 1938 (building open daily 8 am to 5 pm except posted closure dates; check the public tour schedule)",
+          "Rooftop gardens at Monona Terrace (Sunday to Thursday 8 am to 10 pm, Friday and Saturday 8 am to midnight, closed in bad weather)",
+          "Henry Vilas Zoo, open daily 9:30 am to 5 pm per the zoo (hours may vary on holidays), if you arrive Saturday morning"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Madison",
+        "latitude": 43.072634,
+        "longitude": -89.380316
+      },
+      {
+        "day_number": 2,
+        "title": "Devil's Lake State Park",
+        "activities": [
+          "Arrive early: the DNR says weekend parking lots from May to October often fill before 9 am, and a vehicle admission sticker is required (buy it ahead of time)",
+          "East Bluff Trail (1.7 miles, rated most difficult by the DNR) with the steep Balanced Rock trail and the short Devil's Doorway spur",
+          "Grottos Trail (0.7 miles, level gravel) and the Nature Center in the historic clubhouse",
+          "Parfrey's Glen State Natural Area: a 0.7-mile trail into a narrow gorge; stay on the trail, no food, drink or pets"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Baraboo",
+        "latitude": 43.414195,
+        "longitude": -89.715028
+      },
+      {
+        "day_number": 3,
+        "title": "Baraboo: Cranes and Circus World",
+        "activities": [
+          "International Crane Foundation's Crane Discovery Center: open daily 9 am to 5 pm from May 1 to October 31, last entry 4:30 pm; guided tours daily June to August, weekends in May, September and October",
+          "Circus World, on the original Ringling Bros. Circus Winter Quarters (a National Historic Landmark): hours are seasonal and live performances run only in the summer season, so check the Wisconsin Historical Society's plan page for dates before you go"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Baraboo",
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Mendocino Coast, California",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring for headland wildflowers and winter for the gray whale migration, both noted by California State Parks; coastal weather changes quickly, so pack layers.",
+    "best_time_months": [
+      "January",
+      "April",
+      "May"
+    ],
+    "description": "A north-coast weekend of a working lighthouse, river redwoods, cliff-top headlands and a glass-strewn beach. It suits friends who want sea air and short walks over a packed schedule.",
+    "cost_tier": "mid",
+    "related_states": [
+      "california"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Point Arena Lighthouse and Navarro River Redwoods",
+        "activities": [
+          "Point Arena Lighthouse: tower tours run daily about every 20 minutes, with the last around 3 p.m. per the lighthouse's own site (an older page, so confirm hours before you go)",
+          "Navarro River Redwoods State Park on Highway 128, second-growth redwoods along the river, with the Navarro Visitor Center in the historic Captain Fletcher's Inn",
+          "Swim, kayak or just picnic at Navarro Beach where the river meets the Pacific (the park page lists it as open with restrictions, so check its alerts)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Mendocino",
+        "coffee_wifi_spot": null,
+        "latitude": 38.954739,
+        "longitude": -123.74055
+      },
+      {
+        "day_number": 2,
+        "title": "Mendocino Headlands and Russian Gulch",
+        "activities": [
+          "Mendocino Headlands State Park: cliff-top trails past sea arches and grottos, plus the Ford House visitor center and Big River Beach (day use, free admission per the park page)",
+          "Russian Gulch State Park: the 0.75-mile Headlands Trail to the Devil's Punchbowl, a collapsed sea cave (day use 6 a.m. to sunset)",
+          "Fern Canyon Trail to the 36-foot waterfall, if open: the park page notes a closed portion of this trail, so check the alert first"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Mendocino",
+        "coffee_wifi_spot": null,
+        "latitude": 39.306008,
+        "longitude": -123.80057
+      },
+      {
+        "day_number": 3,
+        "title": "Fort Bragg: Glass Beach and MacKerricher",
+        "activities": [
+          "Glass Beach at the south end of MacKerricher State Park, once a municipal dump; look and photograph only, because State Parks forbids removing the glass",
+          "MacKerricher State Park (open 6 a.m. to sunset): free seal-watching stations and the Haul Road boardwalk, which the park lists as wheelchair accessible",
+          "Check the park's alerts before you go: Laguna Point parking is closed at times for road repair"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Mendocino",
+        "coffee_wifi_spot": null,
+        "latitude": 39.453654,
+        "longitude": -123.812944
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Mississippi River Bluffs: Red Wing to Winona",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late spring and early autumn suit the bluff hikes and the Wabasha eagle center, whose listed schedule runs March through October; Frontenac's DNR page names spring and fall as its strongest birding.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Three days down the Mississippi bluff towns, from a Red Wing summit hike to the Lake Pepin overlooks, live eagles at Wabasha and Winona's river-bluff lookouts. It suits friends who want river views, short hikes and small-town stops instead of a big city.",
+    "cost_tier": "mid",
+    "related_states": [
+      "minnesota",
+      "wisconsin"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Red Wing: Barn Bluff and Main Street",
+        "activities": [
+          "Walk up He Mni Can (Barn Bluff) from the trailhead memorials at the base of the bluff; Visit Red Wing calls it one of the best-known natural features along the upper Mississippi",
+          "Visit the Red Wing Shoe Museum and the world's largest boot at the flagship store on Main Street (check the store's hours before you go)"
+        ],
+        "lodging_suggestion": "Red Wing",
+        "drive_time": null,
+        "latitude": 44.569482,
+        "longitude": -92.526008
+      },
+      {
+        "day_number": 2,
+        "title": "Frontenac, Lake City and Wabasha along Lake Pepin",
+        "activities": [
+          "Hike Frontenac State Park: the Bluff Side Trail drops by stairs and switchbacks to near water level and climbs back to the bluff top, and the picnic-area and Old Frontenac overlooks look out over Lake Pepin (the bluff trails are not for winter use)",
+          "Walk the River Walk and Ohuta Park in Lake City, where a statue honours water-skiing inventor Ralph Samuelson on the Lake Pepin shore",
+          "Meet the live eagles at the National Eagle Center in Wabasha: open daily 10am to 4pm on the March-October schedule, with live eagle programs at 11am and 1pm on Fridays and Saturdays; advance reservations are recommended because program tickets can sell out"
+        ],
+        "lodging_suggestion": "Wabasha",
+        "drive_time": null,
+        "latitude": 44.511079,
+        "longitude": -92.356571
+      },
+      {
+        "day_number": 3,
+        "title": "Winona: Garvin Heights and Perrot State Park",
+        "activities": [
+          "Watch the city, the Mississippi and the Wisconsin bluffs from the Garvin Heights Overlook in Winona",
+          "Minnesota Marine Art Museum on the Winona riverfront: open Tuesday to Sunday, 10am to 5pm, closed Mondays and federal holidays",
+          "Cross into Wisconsin for Brady's Bluff at Perrot State Park: the east and west trails are narrow and steep, and the summit looks over the river valley (check the state park vehicle pass rules)"
+        ],
+        "lodging_suggestion": "Winona",
+        "drive_time": null,
+        "latitude": 44.024929,
+        "longitude": -91.677227
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Mississippi Delta Blues & Faulkner's Oxford",
+    "category": [
+      "road-trip",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring and fall suit a trip that mixes walking Clarksdale and Oxford with time outdoors; Delta summers are hot, and several stops close on Mondays or Sundays, so plan the order around the days they are open.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "A Friday-to-Sunday run through the Mississippi Delta's blues towns, ending in William Faulkner's Oxford. It suits friends who care more about music, museums and literary history than about hiking.",
+    "cost_tier": "budget",
+    "related_states": [
+      "mississippi"
+    ],
+    "cover_image_url": "/category-road-trip.jpg",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Clarksdale: the Crossroads and live blues",
+        "activities": [
+          "Visit the Crossroads in Clarksdale, the guitar-sculpture landmark on the town's tourism page; ask locally for the exact spot",
+          "Walk the Arts and Culture District downtown and its mural tour; Clarksdale's tourism office says live blues plays there every night of the year",
+          "Stop outside the Riverside Hotel to read its Mississippi Blues Trail marker (rededicated in October 2025) on the former Clarksdale Colored Hospital where Bessie Smith died"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Clarksdale",
+        "latitude": 34.194821,
+        "longitude": -90.563885
+      },
+      {
+        "day_number": 2,
+        "title": "Clarksdale to Indianola: museums of the Delta",
+        "activities": [
+          "Delta Blues Museum, Clarksdale: open Monday to Saturday 10 to 5 (last admission 4:30), with the remains of Muddy Waters's Stovall Farms cabin on display; check the museum before going for current exhibits",
+          "Riverside Hotel Interpretive Center (Living Blues and Civil Rights Museum), opened in 2025; hours and tour arrangements are not published on the pages checked, so contact the hotel first",
+          "B.B. King Museum, Indianola: open Tuesday to Saturday 10 to 5, closed Sunday and Monday, so Saturday is the day to go",
+          "Dockery Farms near Cleveland, a Delta plantation site with a free museum and restored gin and commissary buildings; visiting hours are not stated on the tourism page, so check before you detour"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Cleveland",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 3,
+        "title": "Oxford: Rowan Oak and the Square",
+        "activities": [
+          "Rowan Oak, William Faulkner's home: open Sunday 1 to 4 and closed Mondays and major holidays; admission is cash only, and the grounds are open dawn to dusk",
+          "Courthouse Square, the historic center of Oxford, for a walk among its shops and restaurants",
+          "Square Books, an independent bookstore group founded in 1979 near the University of Mississippi; confirm store hours on its website"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Oxford",
+        "latitude": 34.359829,
+        "longitude": -89.524746
+      }
+    ]
+  },
+  {
+    "title": "Olympic Peninsula: Port Townsend to Rialto Beach",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 4,
+    "best_time_description": "Summer and early fall give the most open roads and facilities: Hurricane Ridge Road is open throughout the summer, but in winter it is scheduled for Friday through Sunday and holiday Mondays only, weather permitting. Check the park's road conditions before you go.",
+    "best_time_months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A ferry, a Victorian-era port town, a mountain ridge, a deep glacial lake and a driftwood beach on the Olympic Peninsula, for friends who want a lot of scenery without an overnight hike.",
+    "cost_tier": "mid",
+    "related_states": [
+      "washington"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Seattle to Port Townsend by ferry",
+        "activities": [
+          "Cross Puget Sound on a Washington State Ferries sailing (the Edmonds-Kingston route lists a crossing of about 30 minutes; WSF asks for a boarding pass on weekends, so check the ferry page before you leave)",
+          "Evening walk in Fort Worden Historical State Park: beaches and the historic gun batteries on Artillery Hill (state park day-use hours are 6:30 a.m. to dusk in summer, 8 a.m. to dusk in winter)",
+          "Stroll the Uptown and Downtown historic business districts of Port Townsend"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Port Townsend",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Hurricane Ridge and Lake Crescent",
+        "activities": [
+          "Hurricane Ridge: views of the Bailey Range and Mt. Olympus from the end of the road (the road may close any time for weather; winter access is Friday through Sunday and holiday Mondays only, and vehicles must carry tire chains in winter; there is no potable water on the Ridge)",
+          "Lake Crescent: the Marymere Falls hike via the Barnes Creek trail, or the Spruce Railroad trail along the north shore",
+          "Lake Crescent Lodge rents rowboats; the lodge is generally open late spring to early fall, so check its own dates"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Forks",
+        "coffee_wifi_spot": null,
+        "latitude": 47.969095,
+        "longitude": -123.498976
+      },
+      {
+        "day_number": 3,
+        "title": "Rialto Beach and the way home",
+        "activities": [
+          "Rialto Beach: sea stacks, giant drift logs and the Hole-in-the-Wall sea arch about 1.5 miles north of the beach (check the tide table first: the park warns parts of the coast become impassable at high tide)",
+          "Optional: the Hall of Mosses (0.8-mile loop) in the Hoh Rain Forest, which the park places within about an hour of Rialto (Hoh visitor center is open daily in summer, usually Friday through Sunday in spring and fall)",
+          "Head back toward Seattle by ferry (check State Route 104: the Hood Canal Bridge closes periodically for boat traffic)"
+        ],
+        "drive_time": "Forks is under 30 minutes by car from Rialto Beach (per NPS)",
+        "lodging_suggestion": "Forks",
+        "coffee_wifi_spot": null,
+        "latitude": 47.92891,
+        "longitude": -124.641079
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Mountain View Folk Country, Arkansas",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "April to May and October, when the Ozark Folk Center's Craft Village is open (mid-April to mid-November) and the Tyler Bend trails are comfortable for walking.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "A quiet Ozarks weekend built on folk music and hand crafts in Mountain View, a spring-fed forest recreation area, and an easy walk beside the Buffalo National River. It suits friends who want porch-pace music and short hikes more than big adventures.",
+    "cost_tier": "budget",
+    "related_states": [
+      "arkansas"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Mountain View: courthouse square",
+        "activities": [
+          "Settle in and walk the courthouse square in Mountain View, which the city calls the Folk Music Capital of the World",
+          "Listen in on the free, open-to-all music sessions on the courthouse steps; the city's history page gives no day or time, so check the city calendar"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Mountain View",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Ozark Folk Center and Blanchard Springs",
+        "activities": [
+          "Ozark Folk Center State Park Craft Village: working artisans and free music on the Blacksmith Stage, open Tuesday to Saturday, 10 a.m. to 5 p.m., in season (mid-April to mid-November, so check the park's season dates)",
+          "Heritage Herb Garden at the Folk Center",
+          "Blanchard Springs Recreation Area (Ozark National Forest, open year-round): paved trail to Blanchard Springs, trout fishing at Mirror Lake, swimming in North Sylamore Creek",
+          "Blanchard Springs Caverns tours end after the 2026 season for planned renovation, with a reopening anticipated in 2028 per Arkansas State Parks, so do not plan around them"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Mountain View",
+        "latitude": 35.882823,
+        "longitude": -92.118371
+      },
+      {
+        "day_number": 3,
+        "title": "Buffalo National River at Tyler Bend",
+        "activities": [
+          "Sod Collier Homestead: an easy, flat 1/10-mile walk from its parking area",
+          "Riverview Trail overlooks above the Buffalo River (1.5 miles each way between the homestead parking area and the visitor center)",
+          "Tyler Bend Visitor Center and river access; the Park Service pages give conflicting hours, so check with the park before you go"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Mountain View",
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Jupiter and the Treasure Coast, Florida",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Winter and early spring bring the milder, drier stretch of the Florida year for walking and paddling; summer is hot, humid and stormy, and the lighthouse can delay or cancel tours in lightning and high wind.",
+    "best_time_months": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "A lighthouse climb, undeveloped Atlantic beach and Everglades edge country north of Palm Beach, easy to do from one base in Jupiter. It suits friends who want sand and wildlife instead of nightlife.",
+    "cost_tier": "mid",
+    "related_states": [
+      "florida"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Jupiter: the Inlet Lighthouse",
+        "activities": [
+          "Climb the Jupiter Inlet Lighthouse (closed Mondays per the lighthouse's own hours page, last entry 4 pm; children need to be at least 48 inches tall to climb; tours can be cancelled for rain, lightning or high wind)",
+          "Walk the hardened trail and boardwalk of the Jupiter Inlet Lighthouse Outstanding Natural Area (open dawn to dusk daily per BLM)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Jupiter",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Hobe Sound and the Loxahatchee River",
+        "activities": [
+          "Hobe Sound National Wildlife Refuge: 3.5 miles of undeveloped Atlantic beach and a visitor center with live reptiles, amphibians, fish and insects (entrance fee applies; pay in advance on Recreation.gov)",
+          "Jonathan Dickinson State Park on the Loxahatchee River: trails and paddling (check the park's own page for which tours and rentals are running that day)"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Jupiter",
+        "latitude": 27.080492,
+        "longitude": -80.139918
+      },
+      {
+        "day_number": 3,
+        "title": "Arthur R. Marshall Loxahatchee Refuge, then home",
+        "activities": [
+          "Arthur R. Marshall Loxahatchee National Wildlife Refuge visitor center (open daily 9 am to 4 pm per the refuge page) and its Everglades trails, where alligators and snail kites are often seen",
+          "Check the refuge page before you go: some trails are muddy after impoundment work, the Cypress Swamp Boardwalk is closed until further notice, and Loxahatchee Road has a construction detour"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Jupiter",
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Antelope Island to Bear Lake, Utah",
+    "category": [
+      "nature",
+      "water",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Summer into early fall, when Bear Lake's beach areas and the cave and mountain-lake stops are open; check each stop's season before going.",
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Free-roaming bison on a Great Salt Lake island, a scenic byway up Logan Canyon, and the turquoise water of Bear Lake. A road weekend for friends who like easy hikes, swimming and wildlife over nightlife.",
+    "cost_tier": "mid",
+    "related_states": [
+      "utah",
+      "idaho"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Antelope Island State Park",
+        "activities": [
+          "Antelope Island State Park: park open 6 a.m. to 10 p.m. year-round (closed Thanksgiving and Christmas); visitor center 9 a.m. to 5 p.m.",
+          "Look for the free-ranging bison, pronghorn and mule deer on the island roads",
+          "Fielding Garr Ranch historic ranch museum and exhibit, open daily 10 a.m. to 5 p.m.",
+          "Bridger Bay Beach for a float in the salty lake, with restrooms and showers"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Logan",
+        "latitude": 40.972408,
+        "longitude": -112.211243
+      },
+      {
+        "day_number": 2,
+        "title": "Logan Canyon to Bear Lake",
+        "activities": [
+          "Logan Canyon National Scenic Byway (US-89), 41 miles winding from Cache Valley through the national forest to Bear Lake; the Forest Service says to allow about an hour of driving, so budget more for stops",
+          "Tony Grove Lake, a short detour off the byway with a boardwalk, picnic area and nature trail around the lake (day-use fee charged per vehicle; summer wildflowers peak in July and August)",
+          "Bear Lake State Park: Rendezvous Beach day-use beach, open from May 1 to about the third weekend of October",
+          "Garden City Marina on the north end of Garden City for the water and the lake views"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Garden City",
+        "latitude": 41.921144,
+        "longitude": -111.456857
+      },
+      {
+        "day_number": 3,
+        "title": "Idaho side of Bear Lake and the way home",
+        "activities": [
+          "Minnetonka Cave in Caribou-Targhee National Forest, Idaho: seasonal guided tours, tickets through Recreation.gov, a jacket needed (the cave stays about 40 degrees F) and 888 stairs; confirm this year's opening dates",
+          "Bear Lake National Wildlife Refuge near Montpelier, Idaho: free, open sunrise to sunset year-round, with a short auto tour for birding (best in the morning)",
+          "Return through Logan Canyon on the scenic byway, or the way you prefer"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Garden City",
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Santa Barbara, Ojai & the Channel Islands, California",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late winter for wildflowers on Anacapa, or autumn once the island's western gulls have finished nesting (April to mid-August, per the National Park Service). Island Packers boats are often full in summer.",
+    "best_time_months": [
+      "February",
+      "March",
+      "September",
+      "October",
+      "November"
+    ],
+    "description": "A mellow loop for friends: an orchard-valley town, a Spanish-colonial coastal city, then a boat out to Anacapa, one of the Channel Islands. Suits a group that wants a little hiking, a little history and some time on the water.",
+    "cost_tier": "mid",
+    "related_states": [
+      "california"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Ojai: Libbey Park and the Valley Trail",
+        "activities": [
+          "Stroll Libbey Park, the downtown park in the middle of Ojai, and the arcade shops beside it",
+          "Walk or cycle a stretch of the Ojai Valley Trail, a former rail line that starts one block east of the Arcade and runs about 10 miles toward the coast (open to bikes and horses)",
+          "Watch the evening light on the mountains; Ojai Visitors describes a sunset glow on the peaks each evening"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Ojai",
+        "latitude": 34.445612,
+        "longitude": -119.245326
+      },
+      {
+        "day_number": 2,
+        "title": "Santa Barbara: Courthouse, Mission and Waterfront",
+        "activities": [
+          "Santa Barbara County Courthouse: open 10 am to 5 pm on weekends (8 am to 5 pm weekdays), no entry after 4:30 pm, with security screening; check sbcourthouse.org for current access to the clock tower, as its pages disagree",
+          "Old Mission Santa Barbara self-guided tour: Monday to Saturday 9:30 am to 5 pm, Sunday 12:30 to 5 pm, last tour ticket 4 pm; on Saturdays the church and cemetery close to the tour after 3:15 pm",
+          "Santa Barbara Botanic Garden in Mission Canyon: open daily 10 am to 5 pm, reservations required (last reservation 4 pm)",
+          "Evening on the Santa Barbara waterfront and Stearns Wharf"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Santa Barbara",
+        "latitude": 34.424326,
+        "longitude": -119.702511
+      },
+      {
+        "day_number": 3,
+        "title": "Ventura Harbor: Anacapa Island",
+        "activities": [
+          "Island Packers day trip from Ventura Harbor to East Anacapa: about one hour each way, year-round on a variable schedule, so book ahead; NPS says allow 6 to 8 hours for a full day, and non-landing trips also exist",
+          "On Anacapa, climb 157 stairs from the dock to the top, walk the roughly two miles of trails past the lighthouse overlooks and visit the small visitor center; bring all food and water, as the island has none",
+          "No boat? The Robert J. Lagomarsino Visitor Center at 1901 Spinnaker Drive is open daily 8:30 am to 5 pm (closed Thanksgiving and December 25) with exhibits and a park film, and does not need a boat",
+          "Mission San Buenaventura on Main Street, Ventura, with a daily gift shop and museum; check Mass times before visiting on a Sunday"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Ventura",
+        "latitude": null,
+        "longitude": null
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Sarasota, Siesta Key & the Gulf Barrier Islands",
+    "category": [
+      "water",
+      "nature"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Winter and spring, when Gulf beach days are comfortable and the museums and gardens are in full swing. Atlantic hurricane season runs June to November, so check park and beach status before you go; some local preserves have been closed for storm damage.",
+    "best_time_months": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "A beach-and-barrier-island weekend on Florida's Gulf Coast: Siesta Key's beach, a day on Longboat Key and Anna Maria Island, then Sarasota's aquarium and Ringling estate. It suits friends who want sand and sunsets with one or two good indoor stops.",
+    "cost_tier": "mid",
+    "related_states": [
+      "florida"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Siesta Key: Siesta Beach",
+        "activities": [
+          "Siesta Beach, a Sarasota County park with lifeguards, a picnic pavilion, concessions and a playground",
+          "Evening walk along the shoreline for sunset"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Siesta Key",
+        "coffee_wifi_spot": null,
+        "latitude": 27.272399,
+        "longitude": -82.561741
+      },
+      {
+        "day_number": 2,
+        "title": "Longboat Key and Anna Maria Island",
+        "activities": [
+          "Quick Point Nature Preserve on Longboat Key: trails, boardwalks, tidal pools and a canoe launch (Town of Longboat Key; confirm it is open and check hours with the town)",
+          "Coquina Beach, a Manatee County beach on Anna Maria Island with lifeguards, picnic areas and a walking trail (sunrise to sunset unless posted)",
+          "Anna Maria Island Historical Society museum on Pine Avenue, open Tuesday to Saturday (shorter hours May to December, closed Sunday and Monday), with the outdoor Mangrove Walk and old City Jail from dawn to dusk"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Sarasota",
+        "coffee_wifi_spot": null,
+        "latitude": 27.390876,
+        "longitude": -82.641766
+      },
+      {
+        "day_number": 3,
+        "title": "Sarasota: Mote Aquarium and the Ringling",
+        "activities": [
+          "Mote Science Education Aquarium, open daily 9:30 a.m. to 5 p.m.; reserve tickets online in advance",
+          "The Ringling estate with the Museum of Art and Ca' d'Zan, open daily 10 a.m. to 5 p.m. (closed Thanksgiving, Christmas and New Year's Day); tickets are sold online"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Sarasota",
+        "coffee_wifi_spot": null,
+        "latitude": 27.332857,
+        "longitude": -82.577273
+      }
+    ],
+    "cover_image_url": "/category-water.jpg"
+  },
+  {
+    "title": "Amelia Island to St. Augustine: Florida's First Coast Forts",
+    "category": [
+      "road-trip",
+      "city",
+      "water"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring and fall for comfortable days on the forts' open ramparts and the beach; summer is hot and prone to afternoon thunderstorms, which close the Castillo gun deck and Fort Matanzas.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "A coastal run down Florida's northeast coast: historic Fernandina Beach on Amelia Island, Fort Clinch, a plantation in the Timucuan Preserve, then two national monument forts around St. Augustine. Suits history-minded friends who want beaches and old streets rather than theme parks.",
+    "cost_tier": "mid",
+    "related_states": [
+      "florida"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Fernandina Beach: Centre Street",
+        "activities": [
+          "Stop at the Amelia Island Welcome Center in the old train depot on Centre Street for the visitor guide",
+          "Stroll Centre Street and the harbor in Fernandina Beach's historic downtown",
+          "Settle in on Amelia Island for the night"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Fernandina Beach",
+        "coffee_wifi_spot": null,
+        "latitude": 30.671092,
+        "longitude": -81.461833
+      },
+      {
+        "day_number": 2,
+        "title": "Fort Clinch and Kingsley Plantation",
+        "activities": [
+          "Fort Clinch State Park: walk the historic fort and the beach (check the state park page for current fort hours)",
+          "Kingsley Plantation (Timucuan Preserve, Jacksonville): the grounds are open Wednesday to Sunday, 9 a.m. to 5 p.m., and the planter's house opens on weekends only, in limited hours",
+          "Continue south and check in to St. Augustine for the night"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "St. Augustine",
+        "coffee_wifi_spot": null,
+        "latitude": 30.70016,
+        "longitude": -81.460071
+      },
+      {
+        "day_number": 3,
+        "title": "Fort Matanzas, the Castillo and Anastasia",
+        "activities": [
+          "Fort Matanzas National Monument: free ferry passes are handed out in person at the visitor center, first come first served, often gone before 11 a.m.; no ferry Tuesday or Wednesday and it stops in lightning or high wind",
+          "Castillo de San Marcos National Monument: open daily, first admission 9 a.m., last admission 5 p.m.; the gun deck closes in thunderstorms",
+          "Anastasia State Park: Atlantic beach and the Salt Run tidal marsh before the drive home"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "St. Augustine",
+        "coffee_wifi_spot": null,
+        "latitude": 29.709731,
+        "longitude": -81.232745
+      }
+    ],
+    "cover_image_url": "/category-road-trip.jpg"
+  },
+  {
+    "title": "Saguaro Country and Bisbee, Arizona",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late fall through early spring suits desert hiking and a day of walking Bisbee's hillsides; summer is hot and Tombstone's courthouse keeps shorter hours then.",
+    "best_time_months": [
+      "October",
+      "November",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "A saguaro-forest weekend that ends in a Cochise County copper town: both sides of Saguaro National Park, a stop at Tombstone's courthouse, then an underground mine tour in Bisbee. Suits friends who want easy desert walks and a bit of mining-and-Old-West history.",
+    "cost_tier": "mid",
+    "related_states": [
+      "arizona"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Tucson Mountain District, Saguaro National Park West",
+        "activities": [
+          "Valley View Overlook Nature Trail, an easy 0.8 mile round trip to a ridge with benches (per NPS)",
+          "Signal Hill picnic area and the short walk up to the petroglyphs (NPS says it is not ADA accessible)",
+          "Bajada Loop Drive, a graded dirt road that NPS says does not need high clearance or four-wheel drive"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Tucson",
+        "coffee_wifi_spot": null,
+        "latitude": 32.297861,
+        "longitude": -111.161718
+      },
+      {
+        "day_number": 2,
+        "title": "Rincon Mountain District, then Tombstone to Bisbee",
+        "activities": [
+          "Cactus Forest Scenic Loop Drive in the park's east district, about 8 miles, paved, narrow with tight turns and no parking for RVs (per NPS)",
+          "Tombstone Courthouse State Historic Park, a museum of Tombstone and Cochise County history, open daily, 9 a.m. to 4:30 p.m. October to May and 9 a.m. to 3 p.m. June to September, closed Christmas Day (Arizona State Parks)",
+          "Evening arrival in Bisbee"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bisbee",
+        "coffee_wifi_spot": null,
+        "latitude": 32.168376,
+        "longitude": -110.618345
+      },
+      {
+        "day_number": 3,
+        "title": "Bisbee: Queen Mine and the museum",
+        "activities": [
+          "Queen Mine Tour, an underground tour run by the City of Bisbee; reservations required, closed-toe shoes needed and the mine is cool, so bring a layer; check the booking page for departure times",
+          "Bisbee Mining and Historical Museum, a Smithsonian Affiliate, open daily 10 a.m. to 4 p.m., closed Thanksgiving and Christmas Day",
+          "Wander Bisbee's hillside streets before heading home"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Bisbee",
+        "coffee_wifi_spot": null,
+        "latitude": 31.439546,
+        "longitude": -109.912006
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Death Valley from Las Vegas: Badlands, Salt Flats and Dunes",
+    "category": [
+      "nature",
+      "road-trip",
+      "off-the-beaten-path"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Late fall through spring, when the valley floor is walkable all day. The National Park Service says summer highs often top 120 F in the shade and advises against hiking at low elevations then, so go in the cooler months.",
+    "best_time_months": [
+      "October",
+      "November",
+      "February",
+      "March",
+      "April"
+    ],
+    "description": "A desert weekend for friends who want sunsets over badlands, the lowest point in North America and sand dunes under a dark sky, with a ghost-town art stop on the way home. Built around the park's drive-up viewpoints and short walks.",
+    "cost_tier": "mid",
+    "related_states": [
+      "nevada",
+      "california"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Las Vegas to Furnace Creek: Zabriskie Point",
+        "activities": [
+          "Drive west out of Las Vegas into Death Valley National Park and check the park's Alerts and Conditions page for road closures before you leave, since there is no cell service along most park roads",
+          "Zabriskie Point at sunset, a paved-grade viewpoint over the badlands that the park lists as a sunrise and sunset spot",
+          "Check in at Furnace Creek, where the park lists the Inn and the Ranch at Death Valley as open all year"
+        ],
+        "drive_time": "About 2.5 hours from Las Vegas to Furnace Creek (Death Valley National Park lodging page)",
+        "lodging_suggestion": "Furnace Creek",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Dante's View, Badwater and Mesquite Flat Dunes",
+        "activities": [
+          "Dante's View, a ridge viewpoint towering 5,575 ft above Badwater Basin, about a 45-minute drive from Furnace Creek and especially striking at sunrise or sunset",
+          "Badwater Basin, 282 ft below sea level, with a boardwalk and salt flat walk of about 1 mile round trip; the park says hiking is not advised after 10am in summer",
+          "Artists Drive, a one-way paved loop of about nine miles to Artists Palette, open in all seasons per the park (check the Alerts page for current road status and the 25 ft vehicle length limit)",
+          "Mesquite Flat Sand Dunes near Stovepipe Wells at sunset: no official trail, about 2 miles round trip to the tallest dune, and the park notes pets are not allowed on the dunes"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Stovepipe Wells",
+        "coffee_wifi_spot": null,
+        "latitude": 36.220659,
+        "longitude": -116.726753
+      },
+      {
+        "day_number": 3,
+        "title": "Harmony Borax Works and Goldwell Open Air Museum",
+        "activities": [
+          "Harmony Borax Works, 1 mile west of Furnace Creek: adobe ruins, a 20-Mule Team wagon and a 0.4 mile paved interpretive loop (about 30 minutes; hiking not advised after 10am in summer)",
+          "Golden Canyon, a 2 mile round trip hike from a trailhead on Badwater Road, with one rock scramble of about three feet and no restroom on the trail",
+          "Goldwell Open Air Museum near the ghost town of Rhyolite, on State Highway 374 west of Beatty, Nevada; the museum lists itself open 24 hours a day and its visitor center Monday to Saturday 10am to 4pm, closing earlier in summer",
+          "Drive home to Las Vegas"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Las Vegas",
+        "coffee_wifi_spot": null,
+        "latitude": 36.480046,
+        "longitude": -116.875667
+      }
+    ],
+    "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Wilmington and the Cape Fear Coast, North Carolina",
+    "category": [
+      "water",
+      "city"
+    ],
+    "region": "Domestic USA",
+    "countries": [
+      "USA"
+    ],
+    "duration_days_min": 3,
+    "duration_days_max": 3,
+    "best_time_description": "Spring and early fall for comfortable beach and trail days. The Carolina Beach boardwalk amusement park only runs between Memorial Day and Labor Day weekends, and Atlantic hurricane season runs June through November.",
+    "best_time_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "A river-town-to-beach weekend on North Carolina's southern coast: a Riverwalk evening in Wilmington, Civil War history and open beach at Fort Fisher, then Venus flytrap country and a garden before the drive home. Suits friends who want a coastal weekend that is not the Outer Banks.",
+    "cost_tier": "mid",
+    "related_states": [
+      "north-carolina"
+    ],
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Wilmington: the Riverwalk",
+        "activities": [
+          "Walk the Wilmington Riverwalk, a 1.75-mile path along the Cape Fear River from the foot of Nun Street to the Isabel Holmes Bridge (the city is replacing the decking in a multi-year project, so expect some sections to be under work)",
+          "Look across the river to Battleship NORTH CAROLINA; the ship welcomes visitors daily, so check its ticket page for current hours before planning a tour"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Wilmington",
+        "coffee_wifi_spot": null,
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "day_number": 2,
+        "title": "Fort Fisher and Kure Beach",
+        "activities": [
+          "Fort Fisher State Historic Site, the Civil War earthworks that kept Wilmington's port open to blockade-runners until January 1865 (open Tuesday to Saturday, 9 a.m. to 5 p.m., closed Sunday and Monday, so this is the day to do it)",
+          "Fort Fisher State Recreation Area: pedestrian beach open year-round, the Basin Trail through the salt marsh to an observation deck over Zeke's Island and the Cape Fear River",
+          "Kure Beach Fishing Pier, dating to 1923 and still family-owned"
+        ],
+        "drive_time": null,
+        "lodging_suggestion": "Carolina Beach",
+        "coffee_wifi_spot": null,
+        "latitude": 33.971653,
+        "longitude": -77.917717
+      },
+      {
+        "day_number": 3,
+        "title": "Carolina Beach State Park and Airlie Gardens",
+        "activities": [
+          "Carolina Beach State Park, home of the Venus flytrap and the 50-foot Sugarloaf Dune, with about 9 miles of hiking trails (visitor center open daily, 8 a.m. to 5 p.m.)",
+          "Airlie Gardens in Wilmington, open daily 9 a.m. to 5 p.m. with last admission at 4:30 p.m."
+        ],
+        "drive_time": null,
+        "lodging_suggestion": null,
+        "coffee_wifi_spot": null,
+        "latitude": 34.043277,
+        "longitude": -77.912313
+      }
+    ],
+    "cover_image_url": "/category-water.jpg"
   }
 ]

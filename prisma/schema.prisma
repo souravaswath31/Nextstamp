@@ -585,3 +585,60 @@ model TripImport {
 
   @@index([userId, createdAt])
 }
+
+// ---- Escape Hatch (the multiplayer trip game) ----------------------------------------------
+// A game is a short-lived room that friends join with a code. No accounts: each player holds a
+// random token. Games are deleted a week after they were made.
+model EscapeGame {
+  id        String   @id @default(cuid())
+  code      String   @unique
+  // lobby | duels | draw | vote | pact | done
+  phase     String   @default("lobby")
+  config    Json // { fromState, days, month, reach }
+  deck      Json? // the dealt cards (snapshots)
+  result    Json? // vibe, budget, roles, the count, the winner
+  seed      Int
+  redraws   Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  players EscapePlayer[]
+}
+
+model EscapePlayer {
+  id        String   @id @default(cuid())
+  gameId    String
+  name      String
+  token     String   @unique
+  isHost    Boolean  @default(false)
+  duels     Json? // six 0/1 answers, secret until the cards are dealt
+  budget    Int? // this friend's own budget; the group takes the lowest
+  pick      Int?
+  veto      Int?
+  voted     Boolean  @default(false)
+  committed Boolean  @default(false)
+  joinedAt  DateTime @default(now())
+
+  game EscapeGame @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([gameId])
+}
+
+// What a finished game taught us, saved only when the host agrees. No names, no player ids, no
+// link back to the game. Used to decide which routes and countries to research next.
+model EscapeOutcome {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  fromState   String
+  days        Int
+  month       Int
+  budget      Int
+  reach       String
+  playerCount Int
+  vibe        Json
+  titles      Json // the titles of the dealt cards
+  winnerTitle String?
+  vetoedTitles Json
+  nothingFit  Boolean  @default(false)
+  wish        String? // "where did you actually want to go?"
+}
