@@ -235,11 +235,11 @@
     "destination_country": "Maldives",
     "visa_type": "visa-on-arrival",
     "requires_held_document_country": null,
-    "conditions_text": "Tourist visa is issued on arrival with no pre-approval. The Maldivian side applies a free 30-day tourist visa to all nationalities; I found no India-specific 90-day tourist arrangement on a Maldivian official page (the India-specific 90-day arrangement documented by Maldives is for business visas). India's own Ministry of External Affairs lists Maldives in its visa-free table at 90 days, so the two governments' pages differ: plan for 30 days at the border and treat anything longer as an in-country extension (other governments' advice says up to 90 days in total, applied for before the 30 days end). To enter you must show a complete itinerary (confirmed return ticket, prepaid accommodation booking, sufficient funds), a passport with at least 1 month validity (some governments advise 6 months; airlines may apply their own rule), and submit the free IMUGA Traveller Declaration within 96 hours before arrival. The immigration officer decides admissibility at the port.",
+    "conditions_text": "Tourist visa is issued on arrival with no pre-approval. Maldives Marketing and Public Relations Corporation (visitmaldives.com, the official Maldives tourism board) states the Maldives 'provides a 30 day free on-arrival visa for all travellers (from any country)' with a booking at a registered Maldivian tourist establishment. Maldives Immigration's own tourist-visa page says only that the tourist visa is granted on arrival and does not state a number of days. That 30-day length applies to all nationalities, and no India-specific 90-day tourist arrangement appears on any Maldivian official page I could open. India's Ministry of External Affairs, however, lists Maldives in its visa-free table at 90 days, so the two governments' pages differ: plan for 30 days at the border and treat anything longer as an in-country extension (other governments' advice says up to 90 days in total, applied for before the 30 days end). To enter you must show a complete itinerary (confirmed return ticket, prepaid accommodation booking, sufficient funds), a passport with at least 1 month validity (some governments advise 6 months; airlines may apply their own rule), and submit the free IMUGA Traveller Declaration within 96 hours before arrival. The immigration officer decides admissibility at the port.",
     "max_stay_days": 30,
     "fee_notes": "Visa on arrival and the IMUGA declaration are free; the official site warns some websites charge for the declaration.",
-    "source_url": "https://www.immigration.gov.mv/visa/tourist-visa",
-    "last_verified_date": "2026-10-17"
+    "source_url": "https://atolls.visitmaldives.com/pick-a-direction-in-maldives-and-lets-go/",
+    "last_verified_date": "2026-10-18"
   },
   {
     "passport_country": "India",
@@ -312,11 +312,11 @@
     "destination_country": "Maldives",
     "visa_type": "visa-on-arrival",
     "requires_held_document_country": null,
-    "conditions_text": "Tourist visa is issued on arrival with no pre-approval; the free tourist visa is 30 days (as stated in UK, German, Canadian and Singapore government advice; the US State Dept page returned 403 to my fetch). Stays can be extended, up to 90 days in total, by applying before the 30 days end. You must show a complete itinerary (confirmed return ticket, prepaid booking, sufficient funds), a passport with at least 1 month validity per Maldives immigration (some governments advise 6 months), and submit the free IMUGA Traveller Declaration within 96 hours before arrival. The officer decides admissibility at the port.",
+    "conditions_text": "Tourist visa is issued on arrival with no pre-approval. Maldives Marketing and Public Relations Corporation (visitmaldives.com, the official Maldives tourism board) states the Maldives 'provides a 30 day free on-arrival visa for all travellers (from any country)' with a booking at a registered Maldivian tourist establishment. Maldives Immigration's own tourist-visa page says only that the tourist visa is granted on arrival and does not state a number of days. Stays can be extended, up to 90 days in total, by applying before the 30 days end (per UK, German and Canadian government advice). You must show a complete itinerary (confirmed return ticket, prepaid booking, sufficient funds), a passport with at least 1 month validity per Maldives immigration (some governments advise 6 months), and submit the free IMUGA Traveller Declaration within 96 hours before arrival. The officer decides admissibility at the port.",
     "max_stay_days": 30,
     "fee_notes": "Free; the IMUGA declaration is also free.",
-    "source_url": "https://www.immigration.gov.mv/visa/tourist-visa",
-    "last_verified_date": "2026-10-17"
+    "source_url": "https://atolls.visitmaldives.com/pick-a-direction-in-maldives-and-lets-go/",
+    "last_verified_date": "2026-10-18"
   },
   {
     "passport_country": "USA",
@@ -741,11 +741,11 @@
     "destination_country": "Maldives",
     "visa_type": "visa-on-arrival",
     "requires_held_document_country": null,
-    "conditions_text": "Tourist visa is issued on arrival with no pre-approval; the free tourist visa is 30 days (as stated in UK, German, Canadian and Singapore government advice; the Smartraveller page timed out on my fetch). Extension up to 90 days in total is applied for in the Maldives. You must show a complete itinerary (confirmed return ticket, prepaid booking, sufficient funds), a passport with at least 1 month validity per Maldives immigration (some governments advise 6 months), and submit the free IMUGA Traveller Declaration within 96 hours before arrival. The officer decides admissibility at the port.",
+    "conditions_text": "Tourist visa is issued on arrival with no pre-approval. Maldives Marketing and Public Relations Corporation (visitmaldives.com, the official Maldives tourism board) states the Maldives 'provides a 30 day free on-arrival visa for all travellers (from any country)' with a booking at a registered Maldivian tourist establishment. Maldives Immigration's own tourist-visa page says only that the tourist visa is granted on arrival and does not state a number of days. Extension up to 90 days in total is applied for in the Maldives (per UK, German and Canadian government advice). You must show a complete itinerary (confirmed return ticket, prepaid booking, sufficient funds), a passport with at least 1 month validity per Maldives immigration (some governments advise 6 months), and submit the free IMUGA Traveller Declaration within 96 hours before arrival. The officer decides admissibility at the port.",
     "max_stay_days": 30,
     "fee_notes": "Free; the IMUGA declaration is also free.",
-    "source_url": "https://www.immigration.gov.mv/visa/tourist-visa",
-    "last_verified_date": "2026-10-17"
+    "source_url": "https://atolls.visitmaldives.com/pick-a-direction-in-maldives-and-lets-go/",
+    "last_verified_date": "2026-10-18"
   },
   {
     "passport_country": "Australia",
@@ -1170,11 +1170,11 @@
     "destination_country": "Maldives",
     "visa_type": "visa-on-arrival",
     "requires_held_document_country": null,
-    "conditions_text": "Maldives immigration: tourist visas are issued on arrival with no pre-approval. The free tourist visa is 30 days (as stated in UK, German, Canadian and Singapore government advice; no Brazilian government page was reachable). You must show a complete itinerary (confirmed return ticket, prepaid booking, sufficient funds), a passport with at least 1 month validity (some governments advise 6 months), and submit the free IMUGA Traveller Declaration within 96 hours before arrival. A yellow fever certificate is required if arriving from or recently transiting a risk country (children under 1 exempt). Extension to 90 days in total is applied for in the Maldives. The officer decides admissibility at the port.",
+    "conditions_text": "Tourist visa is issued on arrival with no pre-approval. Maldives Marketing and Public Relations Corporation (visitmaldives.com, the official Maldives tourism board) states the Maldives 'provides a 30 day free on-arrival visa for all travellers (from any country)' with a booking at a registered Maldivian tourist establishment. Maldives Immigration's own tourist-visa page says only that the tourist visa is granted on arrival and does not state a number of days. You must show a complete itinerary (confirmed return ticket, prepaid booking, sufficient funds), a passport with at least 1 month validity per Maldives immigration (some governments advise 6 months), and submit the free IMUGA Traveller Declaration within 96 hours before arrival. A yellow fever certificate is required if arriving from or recently transiting a risk country (children under 1 exempt). Extension to 90 days in total is applied for in the Maldives (per UK, German and Canadian government advice). The officer decides admissibility at the port.",
     "max_stay_days": 30,
     "fee_notes": "Free; the IMUGA declaration is also free. No extension fee confirmed.",
-    "source_url": "https://www.immigration.gov.mv/visa/tourist-visa",
-    "last_verified_date": "2026-10-17"
+    "source_url": "https://atolls.visitmaldives.com/pick-a-direction-in-maldives-and-lets-go/",
+    "last_verified_date": "2026-10-18"
   },
   {
     "passport_country": "Brazil",

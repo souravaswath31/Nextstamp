@@ -3776,7 +3776,7 @@
         "coffee_wifi_spot": null,
         "latitude": 38.938127,
         "longitude": -76.346951,
-        "eat_town": null
+        "eat_town": "Kent Island"
       },
       {
         "day_number": 4,
@@ -4241,7 +4241,7 @@
         "coffee_wifi_spot": null,
         "latitude": 41.399732,
         "longitude": -99.613952,
-        "eat_town": null
+        "eat_town": "Alliance"
       },
       {
         "day_number": 4,
@@ -4254,7 +4254,7 @@
         "coffee_wifi_spot": null,
         "latitude": 41.124733,
         "longitude": -101.714609,
-        "eat_town": null
+        "eat_town": "Alliance"
       }
     ],
     "cover_image_url": "/category-off-the-beaten-path.jpg"
@@ -5159,7 +5159,7 @@
         "coffee_wifi_spot": null,
         "latitude": 32.385071,
         "longitude": -80.692317,
-        "eat_town": null
+        "eat_town": "Beaufort"
       },
       {
         "day_number": 4,
@@ -11202,7 +11202,7 @@
         "lodging_suggestion": "Shinjuku or Shibuya",
         "latitude": null,
         "longitude": null,
-        "eat_town": null
+        "eat_town": "Tokyo (Shinjuku)"
       },
       {
         "day_number": 2,
@@ -11228,7 +11228,7 @@
         "lodging_suggestion": "Shinjuku or Shibuya",
         "latitude": 35.690467,
         "longitude": 139.754511,
-        "eat_town": null
+        "eat_town": "Tokyo (Shinjuku)"
       },
       {
         "day_number": 4,
@@ -11605,7 +11605,7 @@
         "lodging_suggestion": null,
         "latitude": null,
         "longitude": null,
-        "eat_town": null
+        "eat_town": "Hanoi"
       }
     ],
     "food_culture": [
@@ -14193,7 +14193,7 @@
         "lodging_suggestion": "Port Campbell",
         "latitude": -38.664567,
         "longitude": 143.110198,
-        "eat_town": null
+        "eat_town": "Port Campbell"
       },
       {
         "day_number": 8,
@@ -14478,7 +14478,7 @@
         "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)",
         "latitude": -34.357395,
         "longitude": 18.497788,
-        "eat_town": null
+        "eat_town": "Cape Town"
       },
       {
         "day_number": 4,
@@ -14867,7 +14867,7 @@
         "lodging_suggestion": "Busan (Haeundae)",
         "latitude": 35.096337,
         "longitude": 129.00879,
-        "eat_town": null
+        "eat_town": "Busan"
       },
       {
         "day_number": 8,

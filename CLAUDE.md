@@ -423,16 +423,20 @@ fee is confirmed at US$50 (applicant/mission) / US$60 (on arrival) from eta.gov.
 now says a visa is required (Canada is not on mfa.am's visa-free list) with `max_stay_days` left null (120
 is the longest single visitor visa, not a confirmed e-visa stay); the UK ETA fee is £20 (gov.uk; a February
 2026 release still says £16); the USA ESTA fee is $40.62 from 16 Oct 2026 (Federal Register notice of 1 Oct
-2026; CBP pages do not state it). **Still unsettled: Maldives/India** (the Maldives Immigration page gives no
-stay length; India's MEA list says 90 days; the row keeps 30). The US Ebola entry text matches CDC but its
+2026; CBP pages do not state it). **Maldives** (settled, but weakly): the only Maldives-side page that states a length is an undated
+visitmaldives.com editorial post ("a 30 day free on-arrival visa for all travellers"); immigration.gov.mv
+gives no length and India's MEA list says 90 days, so the rows keep 30 and the India text records the 90. The US Ebola entry text matches CDC but its
 order lapses around 10 Nov 2026 unless continued, so that sentence goes stale first.
 Road-food extension covered 27 regions with unmapped days; most found nothing that met the bar (the dated
 evidence rule removed roughly four in five candidates). Merged: Kentucky, Montana, Nevada, South Dakota,
 Georgia, Vermont, Massachusetts, Rhode Island, New Hampshire, Virginia, Iowa and Kansas (mostly day
 mappings), Johannesburg-Kruger, Costa Rica, Dubai-Abu Dhabi. Empty after two attempts: Egypt, Jeju,
 Edinburgh-Skye, Paros-Santorini, Red Centre, Oregon, Michigan, Minnesota, North Dakota, Alabama,
-Colorado, New York, Illinois, North Carolina, Maine, Wyoming. The remaining ~44 regions with 1-2 gaps were not
-attempted. A **web-search budget per session** (`CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`) ran out for
+Colorado, New York, Illinois, North Carolina, Maine, Wyoming. A further 18 regions (international routes, West Virginia, Nebraska, Maryland, Hawaii, Tennessee, South Carolina)
+were run afterwards: merged Sydney-Melbourne, Seoul-Busan, Japan, Nebraska, Maryland, South Carolina and
+day mappings for Vietnam and Cape Town; nothing qualified for Maldives-Sri Lanka, Colombia, Thailand, Bali,
+Morocco, Georgia-Armenia, Athens-Delphi, Turkey, Hawaii, Tennessee and West Virginia. 161 itinerary days
+still have no eat town (many are departure days); 601 eats in all. A **web-search budget per session** (`CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`) ran out for
 several late agents; raise it if a rerun is wanted. A source class that would help is dated 2025-26
 press features and municipal market pages, not a looser bar.
 

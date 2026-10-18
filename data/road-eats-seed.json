@@ -3842,7 +3842,7 @@
   },
   {
     "region_key": "maryland",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Annapolis",
@@ -3952,6 +3952,23 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Kent Island",
+        "eats": [
+          {
+            "name": "Fisherman's Crab Deck",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Hot steamed crabs, which its site features; the July 2026 Baltimore Magazine review also names crab soup, steamed clams and a crab, lobster and shrimp seafood cake.",
+            "why": "In Kent Narrows (Grasonville address), the strait at the foot of the Kent Island side of the Bay Bridge, rather than on Kent Island itself. A waterfront crab deck where, per its site, docking is free if you arrive by boat.",
+            "price_tier": null,
+            "hours_note": "Its own site states 11AM-10PM daily with no reservations; the July 2026 Baltimore Magazine review lists Sunday-Thursday 11 a.m.-9:30 p.m. and Friday-Saturday 11 a.m.-10 p.m., so call 410-827-6666 to confirm. The review says crabs are available April through October.",
+            "open_evidence": "Own website crabdeck.com shows hours, menu and a 'Copyright 2018-2026' footer (viewed 2026-10-18; the footer year alone is automatic), paired with a Baltimore Magazine restaurant review in its July 2026 issue (viewed 2026-10-18) that gives hours and names the current chef and owners.",
+            "source_url": "https://crabdeck.com/",
+            "source_name": "Fisherman's Crab Deck own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -3968,7 +3985,7 @@
       {
         "itinerary_title": "Chesapeake Bay: Annapolis → Eastern Shore",
         "day_number": 3,
-        "town": null
+        "town": "Kent Island"
       },
       {
         "itinerary_title": "Chesapeake Bay: Annapolis → Eastern Shore",
@@ -5249,7 +5266,7 @@
   },
   {
     "region_key": "nebraska",
-    "last_verified_date": "2026-10-16",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Scottsbluff",
@@ -5337,6 +5354,23 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Alliance",
+        "eats": [
+          {
+            "name": "The Butte Bakery",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Baked goods; the Alliance Times also mentions candy and kombucha, and 1011now mentions cinnamon rolls.",
+            "why": "A local bakers' co-op on Alliance's Box Butte Avenue.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Alliance Times article dated 2026-08-18/19 describes the bakery's move to a new building with a commercial kitchen (viewed 2026-10-18); no hours were found, so call ahead.",
+            "source_url": "https://alliancetimes.com/?p=33353",
+            "source_name": "Alliance Times"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -5353,12 +5387,12 @@
       {
         "itinerary_title": "Nebraska Panhandle & Sandhills",
         "day_number": 3,
-        "town": null
+        "town": "Alliance"
       },
       {
         "itinerary_title": "Nebraska Panhandle & Sandhills",
         "day_number": 4,
-        "town": null
+        "town": "Alliance"
       },
       {
         "itinerary_title": "Omaha & Lincoln",
@@ -8145,7 +8179,7 @@
   },
   {
     "region_key": "route:cape-town-winelands-garden-route-south-africa",
-    "last_verified_date": "2026-10-17",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Cape Town",
@@ -8273,7 +8307,7 @@
       {
         "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
         "day_number": 3,
-        "town": null
+        "town": "Cape Town"
       },
       {
         "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
@@ -8936,7 +8970,7 @@
   },
   {
     "region_key": "route:hanoi-ha-long-bay-ninh-binh-vietnam",
-    "last_verified_date": "2026-10-16",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Hanoi",
@@ -8990,7 +9024,7 @@
       {
         "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
         "day_number": 7,
-        "town": null
+        "town": "Hanoi"
       }
     ]
   },
@@ -10528,7 +10562,7 @@
   },
   {
     "region_key": "route:seoul-dmz-gyeongju-busan-south-korea",
-    "last_verified_date": "2026-10-17",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Seoul",
@@ -10587,6 +10621,23 @@
             "source_name": "Venue's own website (Hwangnam-bbang); Segye Ilbo 2025-11-04"
           }
         ]
+      },
+      {
+        "town": "Busan",
+        "eats": [
+          {
+            "name": "Jagalchi Market (부산 자갈치시장)",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "Fresh raw fish (hoe) eaten at the market, which VisitKorea says visitors can do; a Seoul Economic Daily report describes buying seafood from stalls and taking it to a second-floor restaurant.",
+            "why": "In Nampo on the waterfront in Jung-gu, across the city from Haeundae, so allow time to cross Busan; it is the seafood market the Busan day-7 plan already names.",
+            "price_tier": null,
+            "hours_note": "Per VisitKorea: 05:00-22:00, rest days are the 1st and 3rd Tuesdays (the page shows no year). Check the day you plan to go.",
+            "open_evidence": "Seoul Economic Daily (en.sedaily.com, published 2026-05-26) reports a visit to working stalls and a second-floor restaurant at the market; the VisitKorea page lists hours and rest days but shows no year (both viewed 2026-10-18).",
+            "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=69318",
+            "source_name": "Korea Tourism Organization (VisitKorea), with Seoul Economic Daily 2026-05-26"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -10623,7 +10674,7 @@
       {
         "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
         "day_number": 7,
-        "town": null
+        "town": "Busan"
       },
       {
         "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
@@ -10634,7 +10685,7 @@
   },
   {
     "region_key": "route:sydney-melbourne-the-great-ocean-road-australia",
-    "last_verified_date": "2026-10-17",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Sydney",
@@ -10727,6 +10778,23 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Port Campbell",
+        "eats": [
+          {
+            "name": "Waves Cafe, Bar and Restaurant",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Per a Visit Great Ocean Road feature: waffles with berry compote and maple syrup or a breakfast plate on Zeally Bay sourdough in the morning, and salt and pepper calamari or grilled barramundi at dinner.",
+            "why": "A single sit-down cafe, bar and restaurant on Port Campbell's main street (29 Lord Street), serving breakfast through dinner, which suits the night spent in town before or after the Twelve Apostles; its own site says it sits with the Waves Luxury Suites accommodation, and ownership is not stated.",
+            "price_tier": null,
+            "hours_note": "Daily 8:00am-8:00pm per Visit Victoria and the venue's own site; Visit Victoria lists it closed on 25 Dec 2026 and 26 Dec 2026.",
+            "open_evidence": "Visit Victoria's listing (viewed 2026-10-18) gives daily 8:00am-8:00pm and dated 2026 closures for 25 and 26 Dec 2026, and the venue's own site (wavesportcampbell.com.au, viewed 2026-10-18) states the same 8am-8pm hours; the own site shows no visible year.",
+            "source_url": "https://www.visitvictoria.com/regions/great-ocean-road/eat-and-drink/restaurants/waves-cafe-bar-and-restaurant",
+            "source_name": "Visit Victoria (state tourism board) listing"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -10763,7 +10831,7 @@
       {
         "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
         "day_number": 7,
-        "town": null
+        "town": "Port Campbell"
       },
       {
         "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
@@ -10779,7 +10847,7 @@
   },
   {
     "region_key": "route:tokyo-kyoto-osaka-japan",
-    "last_verified_date": "2026-10-16",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Tokyo (Asakusa)",
@@ -10872,13 +10940,42 @@
             "source_name": "Ajinoya own website"
           }
         ]
+      },
+      {
+        "town": "Tokyo (Shinjuku)",
+        "eats": [
+          {
+            "name": "焼き鳥勝",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The shop's page lists yakitori and motsuyaki grills, with stuffed shiitake (しいたけ肉詰め) and motsu-ni stew (もつ煮) as its named menu items.",
+            "why": "A small yakitori and offal-grill stall inside Shinjuku's Omoide Yokocho alley, the postwar lantern-lit lane the day-1 evening walk goes through; the association site lists it as one of the alley's own shops, not a chain outlet.",
+            "price_tier": null,
+            "hours_note": "Per the alley association's shop page: 12:00-24:00, no closed days (無休); that page's information is stated as of December 2025.",
+            "open_evidence": "Shop page on the Omoide Yokocho association's own site (shinjuku-omoide.com) lists hours and menu marked 'information as of December 2025'; the same site posted shop updates dated 2026-10-01 (viewed 2026-10-18). Hours are as that page states and were not confirmed with the shop.",
+            "source_url": "https://shinjuku-omoide.com/shop/%e3%83%a4%e3%82%ad%e3%81%a8%e3%82%8a%e5%8b%9d",
+            "source_name": "Shinjuku Nishiguchi Omoide Yokocho (shopping street association site)"
+          },
+          {
+            "name": "岐阜屋",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The page describes a Chinese-style izakaya with ramen (miso, soy sauce, salt, extra-spicy) and lists gyoza, fried rice (チャーハン) and stir-fried wood-ear mushroom with egg.",
+            "why": "A Chinese-style izakaya in Omoide Yokocho (Nishi-Shinjuku 1-2-1) that opens from morning to the small hours, useful for a meal outside yakitori-bar evening hours on arrival day.",
+            "price_tier": null,
+            "hours_note": "Per the alley association's shop page: Sunday-Thursday 9:00-1:00 the next morning, Friday and Saturday 9:00-2:00, and 2:00 on the day before a public holiday; no closed days (無休). That page's information is stated as of October 2025.",
+            "open_evidence": "Shop page on the Omoide Yokocho association's own site (shinjuku-omoide.com) lists hours and menu marked 'information as of October 2025'; the same site posted shop updates dated 2026-10-01 (viewed 2026-10-18). Hours are as that page states and were not confirmed with the shop.",
+            "source_url": "https://shinjuku-omoide.com/shop/gifuya",
+            "source_name": "Shinjuku Nishiguchi Omoide Yokocho (shopping street association site)"
+          }
+        ]
       }
     ],
     "day_map": [
       {
         "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
         "day_number": 1,
-        "town": null
+        "town": "Tokyo (Shinjuku)"
       },
       {
         "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
@@ -10888,7 +10985,7 @@
       {
         "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
         "day_number": 3,
-        "town": null
+        "town": "Tokyo (Shinjuku)"
       },
       {
         "itinerary_title": "Tokyo, Kyoto + Osaka, Japan",
@@ -11326,7 +11423,7 @@
   },
   {
     "region_key": "south-carolina",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Charleston",
@@ -11455,6 +11552,35 @@
             "source_name": "Venue's own website; Town of Travelers Rest restaurant page"
           }
         ]
+      },
+      {
+        "town": "Beaufort",
+        "eats": [
+          {
+            "name": "Blackstone's Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The menu page lists Shrimp & Grits, Corned Beef Hash Brisket and Cajun Shrimp & Grits as its specialties.",
+            "why": "A downtown Beaufort breakfast spot on Scott Street that a June 2026 local guide says has served breakfast for over 32 years.",
+            "price_tier": null,
+            "hours_note": "Own site lists 7:30 AM - 2:00 PM daily; no closures stated.",
+            "open_evidence": "Own breakfast menu page lists hours and specialties (viewed 2026-10-18, but its footer reads 2023); Explore Beaufort's 'Best spots to find breakfast in Beaufort SC' (published 2026-06-05) lists it at 205 Scott Street (viewed 2026-10-18).",
+            "source_url": "https://blackstonescafe.com/breakfast/",
+            "source_name": "Venue's own website; Explore Beaufort (local guide, 2026-06-05)"
+          },
+          {
+            "name": "Bordertown BBQ",
+            "kind": "bbq",
+            "meal": "any",
+            "what_to_order": "Explore Beaufort's September 2026 article lists brisket, pulled pork, beef ribs, smoked brisket tacos and tallow fries.",
+            "why": "A Central Texas-style smokehouse with a Tex-Mex lean at Beaufort Town Center; it opened in February 2026, so it is new rather than an old institution.",
+            "price_tier": null,
+            "hours_note": "Own site lists Friday to Sunday, 12:30 pm to 9:00 pm only; no other days are listed, so check before planning a weekday visit.",
+            "open_evidence": "Own site (copyright 2026) lists 2001 Boundary St and Friday-Sunday hours; Explore Beaufort article of 2026-09-12 reports it open since February and still operating (both viewed 2026-10-18).",
+            "source_url": "https://www.bordertownbbq.com/",
+            "source_name": "Venue's own website; Explore Beaufort (local guide, 2026-09-12)"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -11471,7 +11597,7 @@
       {
         "itinerary_title": "South Carolina Lowcountry: Charleston → Beaufort → Hilton Head",
         "day_number": 3,
-        "town": null
+        "town": "Beaufort"
       },
       {
         "itinerary_title": "South Carolina Lowcountry: Charleston → Beaufort → Hilton Head",
