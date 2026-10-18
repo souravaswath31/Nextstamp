@@ -543,11 +543,11 @@
     "destination_country": "Armenia",
     "visa_type": "e-visa",
     "requires_held_document_country": null,
-    "conditions_text": "Global Affairs Canada (page updated 27 May 2026) lists tourist, transit and business visas as required for Canadians, to be obtained before departure through Armenia's Ministry of Foreign Affairs e-visa website or the nearest Armenian embassy. Armenia's consular fee schedule lists visitor visas for up to 21 days and up to 120 days, so 120 days is the longest visitor visa on that schedule; the Canadian page does not itself state a tourist stay length. The passport must be valid at least 6 months beyond the planned departure from Armenia. Armenia's temporary residence-permit exemption (1 July 2026 to 1 July 2027) is for holders of US, EU/Schengen or listed Gulf residence permits and does not apply to Canadians without one.",
+    "conditions_text": "Canadians need a visa to enter Armenia: Canada is not on the Armenian MFA's list of countries whose nationals are unilaterally exempt from the visa requirement (mfa.am/en/visafreelist, 45 states including the US, UK and Australia, not Canada), so the visa-free '180 days per year' allowance does not apply to Canadian citizens. Global Affairs Canada (page updated 27 May 2026) lists tourist, transit and business visas as required, to be obtained before departure through the MFA e-visa site (evisa.mfa.am) or the nearest Armenian embassy. The MFA visa page says 'Armenian visas are issued for a maximum of 120 days with the possibility to extend for another 60 days'; the MFA fee schedule offers visitor visas for up to 21 days and up to 120 days, so the stay depends on the visa category chosen and 120 days is the longest single visitor visa. The e-visa site's own page does not state per-category stay lengths, so confirm the length on the e-visa application. Canada appears only on Armenia's temporary residence-permit exemption list (1 July 2026 to 1 July 2027, up to 180 days within one year), which is for holders of a US, EU/Schengen or listed Gulf residence permit, not for Canadians without one. Passport valid at least 6 months beyond planned departure (Global Affairs Canada).",
     "max_stay_days": null,
-    "fee_notes": "Armenia's consular fee schedule (canada.mfa.am/en/fees): visitor visa up to 21 days AMD 3,000 (about USD 8); up to 120 days AMD 15,000 (about USD 39). It does not list e-visa fees separately.",
-    "source_url": "https://travel.gc.ca/destinations/armenia",
-    "last_verified_date": "2026-10-17"
+    "fee_notes": "Armenian MFA consular fee schedule (mfa.am/en/fees, valid from 1 January 2026): visitor visa up to 21 days AMD 3,000 (about USD 8); up to 120 days AMD 15,000 (about USD 39); multiple-entry visitor visa up to 120 days with one year validity AMD 40,000 (about USD 103). The schedule does not list e-visa fees separately.",
+    "source_url": "https://www.mfa.am/en/visa/",
+    "last_verified_date": "2026-10-18"
   },
   {
     "passport_country": "Canada",
@@ -1227,9 +1227,9 @@
     "requires_held_document_country": null,
     "conditions_text": "Sri Lanka requires every foreign visitor, including Brazilians, to obtain an Electronic Travel Authorization (ETA) online at eta.gov.lk before arrival. Brazil is not among the 40 nationalities eligible for the free tourist ETA (from 25 May 2026), so the standard paid tourist ETA applies, valid 30 days. Children under 12 of any nationality get a free tourist ETA for up to 30 days. Stays over 30 days incur extension fees, arranged via the Immigration e-services portal after arrival in Sri Lanka.",
     "max_stay_days": 30,
-    "fee_notes": "Tourist ETA for 'all other' (non-South-Asian) nationalities: US$50 if applied for in advance, US$60 on arrival, per the official fee table.",
+    "fee_notes": "Tourist ETA for 'All other countries' (Brazil is in neither the free list of 40 nor the reciprocal list; the cheaper 'South Asian countries' column does not apply): US$50 if submitted by the applicant or at a Sri Lankan mission, US$60 on arrival. Children under 12 of any nationality get a free tourist ETA for up to 30 days. Per the official fee table at eta.gov.lk, read 2026-10-18.",
     "source_url": "https://www.eta.gov.lk/slvisa/visainfo/fees.jsp?locale=en_US",
-    "last_verified_date": "2026-10-17"
+    "last_verified_date": "2026-10-18"
   },
   {
     "passport_country": "Brazil",

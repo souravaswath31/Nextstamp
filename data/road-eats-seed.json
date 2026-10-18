@@ -1965,7 +1965,7 @@
   },
   {
     "region_key": "georgia",
-    "last_verified_date": "2026-10-14",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Helen",
@@ -2041,6 +2041,23 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Dahlonega",
+        "eats": [
+          {
+            "name": "The Smith House",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The family-style table: the page lists Buttermilk Fried Chicken, fried okra, creamed corn, collards, yeast rolls and cornbread muffins, with strawberry shortcake.",
+            "why": "A family-style country-cooking restaurant on one site in Dahlonega, which its own website says has been family-owned and operated since 1922.",
+            "price_tier": null,
+            "hours_note": "Own site lists 'October Restaurant Hours' (no year given): Tue-Thu 11am-3pm, Fri and Sat 11am-7:30pm, Sun 11am-7pm; Monday is not listed. Menus are subject to change.",
+            "open_evidence": "Own website shows October hours and current menus, a 2026 copyright footer, and a Thanksgiving page dated Thursday, November 26th, 2026 with '2026 Prices' (viewed 2026-10-18).",
+            "source_url": "https://smithhouse.com/dining/",
+            "source_name": "The Smith House's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -2062,7 +2079,7 @@
       {
         "itinerary_title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
         "day_number": 4,
-        "town": null
+        "town": "Dahlonega"
       },
       {
         "itinerary_title": "North Georgia Mountains: Blue Ridge → Helen → Dahlonega → Tallulah Falls",
@@ -2844,7 +2861,7 @@
   },
   {
     "region_key": "iowa",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Decorah",
@@ -2992,7 +3009,7 @@
       {
         "itinerary_title": "Des Moines & Central Iowa",
         "day_number": 2,
-        "town": null
+        "town": "Des Moines"
       },
       {
         "itinerary_title": "Des Moines & Central Iowa",
@@ -3013,7 +3030,7 @@
   },
   {
     "region_key": "kansas",
-    "last_verified_date": "2026-10-16",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Manhattan",
@@ -3157,7 +3174,7 @@
       {
         "itinerary_title": "Wichita & Western Kansas",
         "day_number": 5,
-        "town": null
+        "town": "Wichita"
       },
       {
         "itinerary_title": "Wichita & Western Kansas",
@@ -3168,7 +3185,7 @@
   },
   {
     "region_key": "kentucky",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Louisville",
@@ -3283,6 +3300,25 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Cave City",
+        "note": "Per the National Park Service, dining inside Mammoth Cave National Park is run by The Lodge at Mammoth Cave (Green River Grill, The Lantern Café & Ice Cream Parlor, Maple Springs Coffee & Gift Shop) plus the Caver's Camp Store, and the page gives no hours: visitors are told to inquire at the lodge front desk or dining room host stand. Our advice: for the cave-tour day, check lodge hours on arrival and treat the Cave City options below as your reliable meals.",
+        "note_source_url": "https://www.nps.gov/maca/planyourvisit/wheretoeat.htm",
+        "eats": [
+          {
+            "name": "Farmwald's Restaurant and Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Per Kentucky Living, the Amish farmer's breakfast (biscuit with gravy, pancakes, sausage, bacon, hash browns, scrambled eggs); the bakery makes doughnuts, pastries, pies, cakes and bread daily, and lunch and dinner include a ribeye sandwich, pulled pork sliders and fried catfish.",
+            "why": "In the neighbouring town of Horse Cave rather than Cave City itself, just off I-65 exit 58, so it suits the drive in or out; opened by Joe and Laura Farmwald with a made-from-scratch focus.",
+            "price_tier": null,
+            "hours_note": "Per the Kentucky Living article: 5:45 a.m. to 8 p.m. Monday-Friday, 5:45 a.m. to 6 p.m. Saturday, closed Sunday. We found no official site, so confirm hours before going.",
+            "open_evidence": "Kentucky Living feature published 2025-12-11 describes the restaurant and bakery at 3720 L&N Turnpike Road in the present tense with hours (viewed 2026-10-18); no venue-owned page was found, so this rests on that one article.",
+            "source_url": "https://www.kentuckyliving.com/news/simple-comfort-food",
+            "source_name": "Kentucky Living magazine, 2025-12-11"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -3304,12 +3340,12 @@
       {
         "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
         "day_number": 4,
-        "town": null
+        "town": "Cave City"
       },
       {
         "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
         "day_number": 5,
-        "town": null
+        "town": "Cave City"
       },
       {
         "itinerary_title": "Central Kentucky: Louisville → Bardstown → Lexington → Mammoth Cave",
@@ -3968,7 +4004,7 @@
   },
   {
     "region_key": "massachusetts",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Boston",
@@ -4107,6 +4143,23 @@
             "source_name": "Wild Oats Market's own website"
           }
         ]
+      },
+      {
+        "town": "Gloucester",
+        "eats": [
+          {
+            "name": "Mile Marker One",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The restaurant's page lists lobster rolls, fried clams, a smash burger and a lobster benedict.",
+            "why": "A working-marina restaurant on Cape Ann at 75 Essex Ave, whose page says its seafood comes from a family-owned fishing boat.",
+            "price_tier": null,
+            "hours_note": "Per the venue's page: closed Monday to Wednesday; Thursday 11:30am-8pm; Friday 11:30am-9pm; Saturday 8am-9pm; Sunday 8am-3pm with brunch from 11:30am. Dining room and bar open year-round; outdoor decks May through October.",
+            "open_evidence": "Own site (capeannmarina.com/dining) lists current weekly hours, a fall menu and 'New for 2026' features; Discover Gloucester's listing shows blog posts dated Aug and Sep 2026 (both viewed 2026-10-18); the page shows no copyright year.",
+            "source_url": "https://capeannmarina.com/dining",
+            "source_name": "Cape Ann Marina (venue's own website)"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -4118,7 +4171,7 @@
       {
         "itinerary_title": "Cape Cod & Boston",
         "day_number": 2,
-        "town": null
+        "town": "Gloucester"
       },
       {
         "itinerary_title": "Cape Cod & Boston",
@@ -4986,7 +5039,7 @@
   },
   {
     "region_key": "montana",
-    "last_verified_date": "2026-10-14",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Columbia Falls",
@@ -5100,6 +5153,40 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "St. Mary",
+        "eats": [
+          {
+            "name": "Johnson's of St. Mary",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Homemade cafe food; the page says everything is homemade but lists no individual dishes.",
+            "why": "A seasonal cafe with an attached campground at St. Mary, on the east side of Glacier, where the park's east-side options are limited in the shoulder months.",
+            "price_tier": null,
+            "hours_note": "Seasonal: its own page says mid-May to late September, the same season as the park, with no exact closing date given. The page lists no daily hours. As of 2026-10-18 the season has ended, so confirm dates by phone ((406) 732-5565 per the page) before any trip outside summer.",
+            "open_evidence": "Own website, which covers only the 2026 season (campground reservations open and 2026 employment applications accepted), viewed 2026-10-18; the page shows no hours or menu.",
+            "source_url": "http://www.johnsonsofstmary.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Babb",
+        "eats": [
+          {
+            "name": "Two Sisters Cafe",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The page lists huckleberry hand pies and cinnamon rolls in its coffee house, bison burgers and bison chili in the cafe, and huckleberry pie for dessert.",
+            "why": "A cafe in the village of Babb, outside the St. Mary stop, run by owners Beth and Susan Higgins since they opened it in spring 1993 according to its own page.",
+            "price_tier": null,
+            "hours_note": "Seasonal: its own page says early June to the end of September and shows the coffee shop and cafe as closed for winter. The page lists no daily hours and its menus are labeled Summer 2025. As of 2026-10-18 it is closed for the season. Reservations only for groups of six or more.",
+            "open_evidence": "Own website, viewed 2026-10-18, says the cafe is still hiring for the summer of 2026 and lists the early June to end of September season; Flathead Beacon (2025-06-07) also lists it.",
+            "source_url": "https://twosistersofmontana.com",
+            "source_name": "Venue's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -5116,12 +5203,12 @@
       {
         "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
         "day_number": 3,
-        "town": null
+        "town": "St. Mary"
       },
       {
         "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
         "day_number": 4,
-        "town": null
+        "town": "Babb"
       },
       {
         "itinerary_title": "Montana: West Glacier → Lake McDonald → Logan Pass → Many Glacier → East Glacier",
@@ -5297,7 +5384,7 @@
   },
   {
     "region_key": "nevada",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Las Vegas",
@@ -5351,6 +5438,23 @@
             "source_name": "Storey County Chamber of Commerce; Comstock Chronicle"
           }
         ]
+      },
+      {
+        "town": "Incline Village",
+        "eats": [
+          {
+            "name": "T's Mesquite Rotisserie",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Rotisserie chicken or tri tip plates, or a burrito, from the menu page (soy lime chicken, Yucatan style chicken, beef tri tip, tri tip or pork burritos).",
+            "why": "A counter-service mesquite rotisserie that Tahoe Magazine's June 2026 family-owned feature calls a staple of Incline Village since 1991, run by the founder's son; a cheap, quick bite near the beach and trail day.",
+            "price_tier": "$",
+            "hours_note": "Open daily 11:00 am to 8:00 pm; cash and local checks only (per the restaurant's site).",
+            "open_evidence": "Own site shows daily hours, a full priced menu and a 2026 copyright (an automatic footer year, so not relied on alone); Tahoe Magazine feature dated 2026-06-15 describes it as family-run since 1991; all viewed 2026-10-18.",
+            "source_url": "https://www.tsrotisserie.com/menu.php",
+            "source_name": "Venue's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -5387,7 +5491,7 @@
       {
         "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
         "day_number": 3,
-        "town": null
+        "town": "Incline Village"
       },
       {
         "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
@@ -5403,7 +5507,7 @@
   },
   {
     "region_key": "new-hampshire",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Franconia",
@@ -5504,6 +5608,40 @@
             "source_name": "The Galley Hatch's own website"
           }
         ]
+      },
+      {
+        "town": "North Conway",
+        "eats": [
+          {
+            "name": "J-Town Deli & Country Store",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "Its lunch menu lists sandwiches and wraps including Pastrami & Swiss, Classic Italian, Meatball Sub and the Honey Roasted Turkey Chipotle Club Wrap.",
+            "why": "In the neighbouring village of Jackson rather than North Conway itself: a deli and country store in Jackson Village that markets itself as celebrating 20 years there, handy for a sandwich to carry to the falls and trailheads.",
+            "price_tier": null,
+            "hours_note": "Per its website: open 7 days a week; Mon-Thu 8:00-5:00, Fri and Sat 8:00-6:00, Sun 8:00-4:00.",
+            "open_evidence": "Own website (viewed 2026-10-18) shows hours and blog posts dated March 23, June 30 and July 27, 2026 (the latter a lunch catering menu), and a lunch menu flagging a new summer sandwich; the most recent post is about three months old.",
+            "source_url": "https://www.jtowndeli.com/menus/lunch-menu/",
+            "source_name": "J-Town Deli & Country Store own website"
+          }
+        ]
+      },
+      {
+        "town": "Gorham",
+        "eats": [
+          {
+            "name": "Big Day Brewing",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "Its food menu lists the Rail Trail Burger, a Teriyaki Pulled Pork Sandwich, Falafel and Wings.",
+            "why": "A taproom with a full food menu on Glen Road in Gorham, in the town where this route spends its Mount Washington and Carter Notch nights.",
+            "price_tier": null,
+            "hours_note": "Per its website: Tuesday through Saturday 12 PM to 9 PM, Sunday 12 PM to 7 PM, closed Monday.",
+            "open_evidence": "Own website events page (viewed 2026-10-18) lists dated events from Oct 22 to Dec 17, 2026 at 20 Glen Road, and the menu page lists the dishes; the site footer reads 2022, so the dated events are the evidence of current operation.",
+            "source_url": "http://www.bigdaybrewing.com/menu",
+            "source_name": "Big Day Brewing own website (menu and events pages)"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -5515,17 +5653,17 @@
       {
         "itinerary_title": "White Mountains & Lake Winnipesaukee",
         "day_number": 2,
-        "town": null
+        "town": "North Conway"
       },
       {
         "itinerary_title": "White Mountains & Lake Winnipesaukee",
         "day_number": 3,
-        "town": null
+        "town": "Gorham"
       },
       {
         "itinerary_title": "White Mountains & Lake Winnipesaukee",
         "day_number": 4,
-        "town": null
+        "town": "Gorham"
       },
       {
         "itinerary_title": "White Mountains & Lake Winnipesaukee",
@@ -7225,7 +7363,7 @@
   },
   {
     "region_key": "rhode-island",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Providence",
@@ -7346,6 +7484,23 @@
             "source_name": "Block Island Chamber of Commerce; Edible Rhody (2026)"
           }
         ]
+      },
+      {
+        "town": "Woonsocket",
+        "eats": [
+          {
+            "name": "Ye Olde English Fish & Chips",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Fish and chips (cod, haddock or pollock), clam rolls or chowder, per the January 2026 Chowhound piece.",
+            "why": "A counter-service fish-and-chips shop run by the same family since its 1922 move to Woonsocket, still run by the founder's grandson per a 2022 NBC 10 report.",
+            "price_tier": null,
+            "hours_note": "Chowhound (Jan 3, 2026) says it is open Wednesday through Saturday only; the Visit Rhode Island listing gives no hours. Call (401) 762-3637 before going.",
+            "open_evidence": "Chowhound feature dated 2026-01-03 describes current Wednesday-Saturday opening and menu, and the Visit Rhode Island listing (2026 footer, viewed 2026-10-18) gives the same address; no own-site page could be fetched, so this rests on one dated 2026 article plus a tourism listing.",
+            "source_url": "https://www.chowhound.com/2062616/oldest-fish-and-chips-restaurant-ye-olde-english",
+            "source_name": "Chowhound (Jan 3, 2026); Visit Rhode Island listing"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -7377,7 +7532,7 @@
       {
         "itinerary_title": "Rhode Island: Blackstone Valley & the Quiet Corner",
         "day_number": 2,
-        "town": null
+        "town": "Woonsocket"
       },
       {
         "itinerary_title": "Rhode Island: Blackstone Valley & the Quiet Corner",
@@ -8226,7 +8381,7 @@
   },
   {
     "region_key": "route:costa-rica",
-    "last_verified_date": "2026-10-16",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Monteverde",
@@ -8256,18 +8411,35 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "La Fortuna",
+        "eats": [
+          {
+            "name": "Don Rufino",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The house signature, pollo al estilo de la abuela (grandmother's-style chicken), per the restaurant's own site.",
+            "why": "A single sit-down restaurant on a downtown corner at the foot of Arenal Volcano, run by a La Fortuna family; its site also lists a five-course Huetar Norte tasting menu in limited availability.",
+            "price_tier": null,
+            "hours_note": "Own site: open every day, 12:00 to 21:30; no closed days listed. Group prix-fixe menus need 72 hours' notice.",
+            "open_evidence": "Own website lists daily hours and current menu (viewed 2026-10-18; the page shows no copyright year), and a Tico Times article dated 2026-09-17 describes it as operating since 2005.",
+            "source_url": "https://www.donrufino.com",
+            "source_name": "Don Rufino's own website"
+          }
+        ]
       }
     ],
     "day_map": [
       {
         "itinerary_title": "Costa Rica",
         "day_number": 1,
-        "town": null
+        "town": "La Fortuna"
       },
       {
         "itinerary_title": "Costa Rica",
         "day_number": 2,
-        "town": null
+        "town": "La Fortuna"
       },
       {
         "itinerary_title": "Costa Rica",
@@ -8411,7 +8583,7 @@
   },
   {
     "region_key": "route:dubai-abu-dhabi",
-    "last_verified_date": "2026-10-17",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Old Dubai (Al Fahidi and Bur Dubai)",
@@ -8427,6 +8599,23 @@
             "open_evidence": "Own site xvagallery.com shows a \"© 2026 XVA Gallery\" footer, event listings with 2026 dates, and the cafe hours (viewed 2026-10-17); the page does not state who owns the cafe.",
             "source_url": "https://www.xvagallery.com/hotel-cafe-2/",
             "source_name": "XVA Gallery's own website (Hotel & Café page)"
+          }
+        ]
+      },
+      {
+        "town": "Abu Dhabi",
+        "eats": [
+          {
+            "name": "Meylas",
+            "kind": "regional",
+            "meal": "breakfast",
+            "what_to_order": "The restaurant's own menu lists an all-day breakfast section of traditional thin bread (رقاق) served with cheese, egg, chicken or بلاليط, plus mahla, jabab and khameer breads with cheese and local honey.",
+            "why": "An Emirati restaurant opened by Shaikha Al Kaabi to serve home-cooked Emirati meals, located in Al Muneera at Al Raha Beach; check the address against your route before heading there.",
+            "price_tier": null,
+            "hours_note": "Its own site states no hours; the Michelin Guide listing states open daily 08:30 to 23:00 (viewed 2026-10-18).",
+            "open_evidence": "Own website (viewed 2026-10-18) shows a current menu with dirham prices, a phone number and a 2026 copyright footer (an automatic footer, so weak on its own); the Visit Abu Dhabi and Michelin Guide listings show the same address and phone number.",
+            "source_url": "https://meylas.com/",
+            "source_name": "Venue's own website"
           }
         ]
       }
@@ -8450,7 +8639,7 @@
       {
         "itinerary_title": "Dubai + Abu Dhabi",
         "day_number": 4,
-        "town": null
+        "town": "Abu Dhabi"
       },
       {
         "itinerary_title": "Dubai + Abu Dhabi",
@@ -8807,7 +8996,7 @@
   },
   {
     "region_key": "route:johannesburg-kruger-national-park-south-africa",
-    "last_verified_date": "2026-10-17",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Soweto",
@@ -8842,6 +9031,23 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Skukuza",
+        "eats": [
+          {
+            "name": "3638 Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The menu PDFs list a smoked kudu starter, the Freight Train Organic Burger, Boerewors Chakalaka loaded fries and, for breakfast, Eggs Benedict.",
+            "why": "A single sit-down restaurant at Kruger Station, a precinct inside Skukuza Rest Camp, so it needs no drive on the nights this itinerary sleeps in Skukuza; SANParks describes it as a family restaurant and the site names the operator only as the Kruger Station Selati Concession.",
+            "price_tier": null,
+            "hours_note": "Kruger Station site: opening hours 8AM to 11PM, 7 days a week. The 3638 menu PDFs state breakfast is served 7am to 11am and the a la carte menu 11am to 9pm. The site lists a Christmas Day 2026 lunch buffet at 3638 (R675 per person, R340 for children, booking by email).",
+            "open_evidence": "Kruger Station's own site shows a news post dated 14 October 2026 (Christmas Day 2026 buffet at 3638 Restaurant), a 2026 copyright footer and current menu links; the SANParks Kruger restaurants page also lists 3638 (viewed 2026-10-18).",
+            "source_url": "https://www.krugerstation.com/menus/",
+            "source_name": "Kruger Station (own website)"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -8863,7 +9069,7 @@
       {
         "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
         "day_number": 4,
-        "town": null
+        "town": "Skukuza"
       },
       {
         "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
@@ -8878,7 +9084,7 @@
       {
         "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
         "day_number": 7,
-        "town": null
+        "town": "Skukuza"
       },
       {
         "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
@@ -11301,7 +11507,7 @@
   },
   {
     "region_key": "south-dakota",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Custer",
@@ -11413,6 +11619,23 @@
             "source_name": "Visit Mitchell; venue's own website; Mitchell Area Chamber of Commerce"
           }
         ]
+      },
+      {
+        "town": "De Smet",
+        "eats": [
+          {
+            "name": "De Smet Mercantile & Coffeehouse",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Per 605 Magazine, made-to-order breakfast sandwiches (served until 11 a.m.) on a soft square croissant, plus muffins, donuts, scones and gluten-free baked goods.",
+            "why": "A family-owned coffee shop and gift store in De Smet itself, with a drive-thru, handy before touring the Ingalls sites.",
+            "price_tier": null,
+            "hours_note": "Made-to-order breakfast sandwiches until 11 a.m. per the source; no general opening hours were stated on any page seen.",
+            "open_evidence": "605 Magazine, July 2026 issue (Vol. 18, No. 6), features the Lampinen family shop, in its current 4th Street SW location for almost a year (viewed 2026-10-18); Ingalls Homestead's De Smet info page also lists it as a dining option.",
+            "source_url": "https://online.flippingbook.com/view/1018985872/85/",
+            "source_name": "605 Magazine, July 2026"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -11459,7 +11682,7 @@
       {
         "itinerary_title": "Sioux Falls & Eastern South Dakota",
         "day_number": 3,
-        "town": null
+        "town": "De Smet"
       },
       {
         "itinerary_title": "Sioux Falls & Eastern South Dakota",
@@ -12225,7 +12448,7 @@
   },
   {
     "region_key": "vermont",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Burlington",
@@ -12289,6 +12512,23 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "East Burke",
+        "eats": [
+          {
+            "name": "East Burke Market",
+            "kind": "market",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast sandwiches from the deli, with Green Mountain Coffee, per the Kingdom Trail Association's listing.",
+            "why": "A grocery and deli in East Burke village, the kind of early-opening place riders at the Kingdom Trails use to pick up breakfast or lunch before heading out.",
+            "price_tier": null,
+            "hours_note": "Kingdom Trail Association listing (undated page) gives open daily 5:30am to 8:30pm, until 9pm Friday and Saturday; confirm by phone, (802) 626-5010.",
+            "open_evidence": "Its own website (eastburkemkt.com) posts a Weekly Specials ad dated 10/16/26 to 10/22/26 and a 2026 footer (viewed 2026-10-18); the Kingdom Trails homepage mentions a community chat held at East Burke Market on 9/12/26. The daily hours and deli/breakfast-sandwich details come from the Kingdom Trails listing, whose page footer is 2019.",
+            "source_url": "https://kingdomtrails.org/Food/east-burke-market",
+            "source_name": "Kingdom Trail Association food listing"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -12330,7 +12570,7 @@
       {
         "itinerary_title": "Vermont's Northeast Kingdom",
         "day_number": 3,
-        "town": null
+        "town": "East Burke"
       },
       {
         "itinerary_title": "Vermont's Northeast Kingdom",
@@ -12346,7 +12586,7 @@
   },
   {
     "region_key": "virginia",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Front Royal",
@@ -12472,6 +12712,37 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Sperryville",
+        "note": "Edible DC's 2026 guide to the village describes a small cluster of places for coffee, baking, lunch and dinner at the foot of Shenandoah National Park, and asks readers to double-check that places are open. Our advice: Sperryville is the gateway for the Old Rag trailhead, so eat here before or after the hike rather than on the mountain.",
+        "note_source_url": "https://edibledc.com/my-sperryville/",
+        "eats": [
+          {
+            "name": "The Black Twig Diner & Bar",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "Its 2026 Father's Day event page lists smash burgers, chicken and rice and focaccia pizza alongside favorites from its lunch menu.",
+            "why": "A Southern-style diner and bar that Edible DC's local guide names as one of the village's two usual lunch spots, a few minutes from the Old Rag side of Shenandoah.",
+            "price_tier": null,
+            "hours_note": "Closed Wednesdays. Per its contact page: lunch 11:00am-3:30pm Monday, Tuesday, Thursday and Friday (11:00am-3:00pm Saturday and Sunday); dinner 4:00-8:00pm Monday, Tuesday and Thursday, 5:00-9:00pm Friday and Saturday, 5:00-8:00pm Sunday. The page notes hours are subject to change for private and public events and lists an early 3pm close on October 31.",
+            "open_evidence": "Own site contact page lists current weekly hours and dated October 16 and October 31 event notices, and its events page carries a Father's Day brunch dated Sunday, June 21, 2026; Edible DC feature published 2026-04-06 names it (all viewed 2026-10-18)",
+            "source_url": "https://www.theblacktwigdiner.com/contact",
+            "source_name": "The Black Twig's own website (contact and events pages)"
+          },
+          {
+            "name": "Walker Bakeshop",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Per Edible DC: Virginia sourdough, baguettes, bagels, blue ribbon challah, rugelach, scones and almond croissants, plus the Whiskey and Rye cookies.",
+            "why": "A small-batch bakery on River Lane in Sperryville's Marketplace, a handy place to pick up breakfast or trail food before the Old Rag hike.",
+            "price_tier": null,
+            "hours_note": "Closed Monday and Tuesday. Per its website: Wednesday 10am-4pm; Thursday and Friday 8am-4pm; Saturday 8am-5pm; Sunday 8am-4pm.",
+            "open_evidence": "Own website lists weekly hours at 3 River Lane under a 2025 copyright footer (no 2026 date on the site); Edible DC feature published 2026-04-06 and updated 2026-06-18 describes the bakery (viewed 2026-10-18)",
+            "source_url": "https://www.walkerbakeshop.com",
+            "source_name": "Walker Bakeshop's own website, with Edible DC feature (edibledc.com/my-sperryville)"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -12483,7 +12754,7 @@
       {
         "itinerary_title": "Shenandoah National Park, Virginia",
         "day_number": 2,
-        "town": null
+        "town": "Sperryville"
       },
       {
         "itinerary_title": "Shenandoah National Park, Virginia",
@@ -12523,7 +12794,7 @@
       {
         "itinerary_title": "Virginia Beach & the Historic Triangle",
         "day_number": 6,
-        "town": null
+        "town": "Williamsburg"
       }
     ]
   },

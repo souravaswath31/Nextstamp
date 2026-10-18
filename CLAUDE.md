@@ -417,6 +417,25 @@ days that are really Montana/Wyoming days; nobody owns them yet. Pages that retu
 (ScotRail, Citylink, SANParks, Korail, travel.state.gov) were not bypassed, so those figures stay
 secondary-sourced.
 
+**Round 6, third pass (everything above closed out).** Sydney-Melbourne, Johannesburg-Kruger and
+Jeju-Jeonju were fact-checked and loaded. The five open visa points were re-checked: Sri Lanka's Brazil
+fee is confirmed at US$50 (applicant/mission) / US$60 (on arrival) from eta.gov.lk; Armenia's Canada row
+now says a visa is required (Canada is not on mfa.am's visa-free list) with `max_stay_days` left null (120
+is the longest single visitor visa, not a confirmed e-visa stay); the UK ETA fee is £20 (gov.uk; a February
+2026 release still says £16); the USA ESTA fee is $40.62 from 16 Oct 2026 (Federal Register notice of 1 Oct
+2026; CBP pages do not state it). **Still unsettled: Maldives/India** (the Maldives Immigration page gives no
+stay length; India's MEA list says 90 days; the row keeps 30). The US Ebola entry text matches CDC but its
+order lapses around 10 Nov 2026 unless continued, so that sentence goes stale first.
+Road-food extension covered 27 regions with unmapped days; most found nothing that met the bar (the dated
+evidence rule removed roughly four in five candidates). Merged: Kentucky, Montana, Nevada, South Dakota,
+Georgia, Vermont, Massachusetts, Rhode Island, New Hampshire, Virginia, Iowa and Kansas (mostly day
+mappings), Johannesburg-Kruger, Costa Rica, Dubai-Abu Dhabi. Empty after two attempts: Egypt, Jeju,
+Edinburgh-Skye, Paros-Santorini, Red Centre, Oregon, Michigan, Minnesota, North Dakota, Alabama,
+Colorado, New York, Illinois, North Carolina, Maine, Wyoming. The remaining ~44 regions with 1-2 gaps were not
+attempted. A **web-search budget per session** (`CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`) ran out for
+several late agents; raise it if a rerun is wanted. A source class that would help is dated 2025-26
+press features and municipal market pages, not a looser bar.
+
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via

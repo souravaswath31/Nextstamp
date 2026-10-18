@@ -498,7 +498,7 @@
         "lodging_suggestion": "Dubai",
         "latitude": 25.264723,
         "longitude": 55.292415,
-        "eat_town": null
+        "eat_town": "Abu Dhabi"
       },
       {
         "day_number": 5,
@@ -959,7 +959,7 @@
         "lodging_suggestion": "La Fortuna",
         "latitude": null,
         "longitude": null,
-        "eat_town": null
+        "eat_town": "La Fortuna"
       },
       {
         "day_number": 2,
@@ -971,7 +971,7 @@
         "lodging_suggestion": "La Fortuna",
         "latitude": 10.462084,
         "longitude": -84.70341,
-        "eat_town": null
+        "eat_town": "La Fortuna"
       },
       {
         "day_number": 3,
@@ -2048,7 +2048,7 @@
         "coffee_wifi_spot": null,
         "latitude": 48.516227,
         "longitude": -113.989452,
-        "eat_town": null
+        "eat_town": "St. Mary"
       },
       {
         "day_number": 4,
@@ -2061,7 +2061,7 @@
         "coffee_wifi_spot": null,
         "latitude": 48.800418,
         "longitude": -113.657568,
-        "eat_town": null
+        "eat_town": "Babb"
       },
       {
         "day_number": 5,
@@ -2386,7 +2386,7 @@
         "coffee_wifi_spot": null,
         "latitude": null,
         "longitude": null,
-        "eat_town": null
+        "eat_town": "Dahlonega"
       },
       {
         "day_number": 5,
@@ -3587,7 +3587,7 @@
         "coffee_wifi_spot": null,
         "latitude": 37.18616,
         "longitude": -86.099975,
-        "eat_town": null
+        "eat_town": "Cave City"
       },
       {
         "day_number": 5,
@@ -3600,7 +3600,7 @@
         "coffee_wifi_spot": null,
         "latitude": 37.184169,
         "longitude": -86.122991,
-        "eat_town": null
+        "eat_town": "Cave City"
       },
       {
         "day_number": 6,
@@ -3843,7 +3843,7 @@
         "coffee_wifi_spot": null,
         "latitude": 42.615359,
         "longitude": -70.662461,
-        "eat_town": null
+        "eat_town": "Gloucester"
       },
       {
         "day_number": 3,
@@ -4392,7 +4392,7 @@
         "coffee_wifi_spot": null,
         "latitude": 44.051269,
         "longitude": -71.568836,
-        "eat_town": null
+        "eat_town": "North Conway"
       },
       {
         "day_number": 3,
@@ -4405,7 +4405,7 @@
         "coffee_wifi_spot": null,
         "latitude": 44.270495,
         "longitude": -71.303304,
-        "eat_town": null
+        "eat_town": "Gorham"
       },
       {
         "day_number": 4,
@@ -4418,7 +4418,7 @@
         "coffee_wifi_spot": null,
         "latitude": 44.261656,
         "longitude": -71.195613,
-        "eat_town": null
+        "eat_town": "Gorham"
       },
       {
         "day_number": 5,
@@ -5667,7 +5667,7 @@
         "coffee_wifi_spot": null,
         "latitude": 38.551791,
         "longitude": -78.31417,
-        "eat_town": null
+        "eat_town": "Sperryville"
       },
       {
         "day_number": 3,
@@ -6701,7 +6701,7 @@
         "coffee_wifi_spot": null,
         "latitude": 39.254804,
         "longitude": -119.953798,
-        "eat_town": null
+        "eat_town": "Incline Village"
       },
       {
         "day_number": 4,
@@ -7183,7 +7183,7 @@
         "coffee_wifi_spot": null,
         "latitude": null,
         "longitude": null,
-        "eat_town": null
+        "eat_town": "Williamsburg"
       }
     ],
     "cover_image_url": "/category-water.jpg"
@@ -9087,7 +9087,7 @@
         "coffee_wifi_spot": null,
         "latitude": 41.334763,
         "longitude": -94.013569,
-        "eat_town": null
+        "eat_town": "Des Moines"
       },
       {
         "day_number": 3,
@@ -9223,7 +9223,7 @@
         "coffee_wifi_spot": null,
         "latitude": 38.793503,
         "longitude": -100.762059,
-        "eat_town": null
+        "eat_town": "Wichita"
       },
       {
         "day_number": 6,
@@ -9403,7 +9403,7 @@
         "coffee_wifi_spot": null,
         "latitude": null,
         "longitude": null,
-        "eat_town": null
+        "eat_town": "Woonsocket"
       },
       {
         "day_number": 3,
@@ -9504,7 +9504,7 @@
         "coffee_wifi_spot": null,
         "latitude": null,
         "longitude": null,
-        "eat_town": null
+        "eat_town": "De Smet"
       },
       {
         "day_number": 4,
@@ -9590,7 +9590,7 @@
         "coffee_wifi_spot": null,
         "latitude": 44.58915,
         "longitude": -71.940562,
-        "eat_town": null
+        "eat_town": "East Burke"
       },
       {
         "day_number": 4,
@@ -14160,7 +14160,7 @@
         "activities": [
           "Queen Victoria Market: its opening-hours page lists trading on Tuesday, Thursday, Friday, Saturday and Sunday (6am to 3pm Tue/Thu/Fri, 6am to 4pm Sat, 9am to 4pm Sun), so swap this day if you arrive on a Monday or Wednesday",
           "Royal Botanic Gardens Victoria and the Shrine of Remembrance area",
-          "Late afternoon: collect a hire car for the next two days (book ahead; an open-jaw or one-way rental should be priced with the hire company)"
+          "Late afternoon: collect a hire car for the coast drive on days 6 to 8 (book ahead)"
         ],
         "lodging_suggestion": "Melbourne (CBD)",
         "latitude": -37.806916,
@@ -14186,7 +14186,7 @@
         "day_number": 7,
         "title": "Twelve Apostles + Port Campbell",
         "activities": [
-          "Twelve Apostles and the Keerray Woorroong Visitor Centre: Visit Great Ocean Road states that from 16 October 2026 every visitor needs to reserve their spot in advance; book through twelveapostles.org.au (prices were not stated on the page I read, so check there). The visitor centre lists daily opening 8am to 8pm and suggests allowing 1 to 2 hours",
+          "Twelve Apostles and the Keerray Woorroong Visitor Centre: Visit Great Ocean Road states that from 16 October 2026 every visitor needs to reserve their spot in advance; book through twelveapostles.org.au (check that site for ticket prices). The visitor centre lists daily opening 8am to 8pm and suggests allowing 1 to 2 hours",
           "Continue along the coast to Port Campbell for the night"
         ],
         "drive_time": "Apollo Bay to the Twelve Apostles: no official time found; the full Melbourne to Twelve Apostles run is ~4 hr",
@@ -14658,16 +14658,16 @@
         "day_number": 4,
         "title": "Fly to Kruger: Skukuza",
         "activities": [
-          "Airlink flight from OR Tambo to Skukuza Airport, about 1 hour (Airlink's Skukuza airport page lists departures at 10:05 and 13:05; SANParks lists a 10:00 departure; confirm when booking). The alternative is a 428 km drive on the N4 to Malelane Gate (SANParks distance from Johannesburg).",
-          "Collect a rental car (Avis has an office at Skukuza per SANParks) and check in at Skukuza Rest Camp",
+          "Airlink flight from OR Tambo to Skukuza Airport, about 1 hour (Airlink's Skukuza airport page lists daily departures at 10:05 and 13:05; confirm when booking). The alternative is a long road trip on the N4 to a Kruger gate; check a live map for distance and time.",
+          "Collect a rental car (Airlink's Skukuza airport page lists Avis Budget as car hire at the airport, with an Avis shuttle to the main camp) and check in at Skukuza Rest Camp",
           "Complete the Gate Registration & Indemnity Form and have your passport ready. Camp and entrance gates close at night: SANParks gives 17:30 to 18:30 depending on the month, so be in your camp before closing.",
           "Late-afternoon self-drive on the tourist roads near the camp"
         ],
-        "drive_time": "Flight OR Tambo to Skukuza, ~1 hr (Airlink); alternative drive 428 km to Malelane Gate (SANParks)",
+        "drive_time": "Flight OR Tambo to Skukuza, ~1 hr (Airlink: 10:05 to 11:05 or 13:05 to 14:05)",
         "lodging_suggestion": "Skukuza Rest Camp (SANParks)",
         "latitude": -24.993593,
         "longitude": 31.59563,
-        "eat_town": null
+        "eat_town": "Skukuza"
       },
       {
         "day_number": 5,
@@ -14701,22 +14701,22 @@
         "title": "Back to Skukuza",
         "activities": [
           "Slow morning drive back to Skukuza (allow the whole morning; no official time is published for this leg, and the average speed on tourist roads is about 30 km/h)",
-          "Skukuza has resident doctors and its day-visitor area has a swimming pool, per SANParks",
+          "Skukuza is the park's main camp and sits close to the airport; check SANParks for current facilities such as medical help and pool access when you book",
           "Early night before the flight"
         ],
         "lodging_suggestion": "Skukuza Rest Camp (SANParks)",
         "latitude": -24.995261,
         "longitude": 31.594557,
-        "eat_town": null
+        "eat_town": "Skukuza"
       },
       {
         "day_number": 8,
         "title": "Fly back to Johannesburg",
         "activities": [
-          "Return rental car, then Airlink Skukuza to OR Tambo (SANParks lists a 13:20 departure; confirm on the Airlink site)",
+          "Return rental car, then Airlink Skukuza to OR Tambo (Airlink's Skukuza airport page lists daily departures at 13:35 and 14:35; confirm on the Airlink site)",
           "Connect to your onward flight from OR Tambo, leaving a generous margin after the flight"
         ],
-        "drive_time": "Flight Skukuza to OR Tambo (SANParks lists a 13:20 departure; Airlink's Johannesburg to Skukuza flights are about 1 hr)",
+        "drive_time": "Flight Skukuza to OR Tambo, about 1 hr (Airlink: 13:35 to 14:40 or 14:35 to 15:40)",
         "lodging_suggestion": "Johannesburg (OR Tambo) or fly out",
         "latitude": -26.205,
         "longitude": 28.049722,
@@ -14933,8 +14933,8 @@
         "day_number": 1,
         "title": "Fly Seoul to Jeju",
         "activities": [
-          "Flight from Seoul to Jeju: VisitKorea calls the Gimpo to Jeju route the busiest in the world, and says direct Incheon to Jeju flights resumed on 12 May 2026 with a flight time of about 1 hour 15 minutes. Check the airline timetable for the day you fly.",
-          "Jeju International Airport is close to downtown, about 15 minutes by city bus to the Jeju Intercity Bus Terminal per VisitKorea",
+          "Flight from Seoul to Jeju: VisitKorea calls the Gimpo to Jeju route the busiest in the world, and says direct Incheon to Jeju flights resumed on 12 May 2026 with a flight time of about 1 hour 15 minutes. Check the airline timetable for the day you fly, as the Incheon route has run only on a few days a week.",
+          "Jeju International Airport is close to downtown, with city buses to the Jeju Intercity Bus Terminal per VisitKorea; check the current bus timetable",
           "Evening in Jeju City"
         ],
         "drive_time": "Seoul to Jeju flight, ~1 hr 15 min on the Incheon route (VisitKorea)",
@@ -14946,7 +14946,7 @@
         "day_number": 2,
         "title": "East Jeju: Seongsan Ilchulbong",
         "activities": [
-          "Seongsan Ilchulbong, the volcanic tuff cone on the east coast, part of the UNESCO site Jeju Volcanic Island and Lava Tubes",
+          "Seongsan Ilchulbong, the volcanic tuff cone on the east coast, part of the UNESCO site Jeju Volcanic Island and Lava Tubes; visitjeju.net says the summit area is closed on the first Monday of every month",
           "Coastal walk along the east shore",
           "Early night before the Hallasan climb"
         ],
@@ -14958,10 +14958,10 @@
         "day_number": 3,
         "title": "Hallasan summit via the Seongpanak Trail",
         "activities": [
-          "A reservation is required for the summit sections, booked in advance on the Hallasan reservation site visithalla.jeju.go.kr; the Hallasan pages give daily visitor limits (1,000 on Seongpanak, 500 on Gwaneumsa) so book early",
+          "A reservation is required for the summit sections, booked in advance on the Hallasan reservation site visithalla.jeju.go.kr; visitjeju.net gives daily limits of 1,000 on Seongpanak and 500 on Gwaneumsa under normal operations, so book early",
           "Seongpanak Trail: 9.6 km one way, about 4 hours 30 minutes up and about 9 hours round trip per the Jeju trail page; the trail opens at 05:00",
-          "Summit entry cut-off at the Jindallaebat checkpoint: 12:30 from April to September and 11:30 from October to March, and the summit must be left by 14:30 in summer or 13:30 in winter (Jeju trail page; the reservation site lists the current table, so check it)",
-          "The summit is 1,950 m; the trail page warns of thin air and recommends the Eorimok or Yeongsil trails (about 1,700 m) for inexperienced hikers; the trail can close in severe weather",
+          "Summit entry cut-off at the Seongpanak entrance and Jindallaebat checkpoint: 12:30 from April to September and 11:30 from October to March, and the summit must be left by 14:30 in summer or 13:30 in winter (Jeju trail page; the reservation site lists the current table, so check it)",
+          "The summit is 1,950 m; the Eorimok, Yeongsil and Donnaeko trails do not reach the Baengnokdam summit (Eorimok ends at Witseoreum, about 1,700 m); the trail can close in severe weather",
           "The Gwaneumsa Trail is the other summit route; its Samgakbong to Baengnokdam section was closed 1 August to 30 September 2026 for rockfall-prevention works"
         ],
         "lodging_suggestion": "Seogwipo or Jeju City",
