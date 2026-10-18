@@ -536,8 +536,8 @@
       "https://worldweather.wmo.int/en/json/full_city_list.txt"
     ],
     "last_verified_date": "2026-10-17",
-    "latitude": null,
-    "longitude": null
+    "latitude": -33.869844,
+    "longitude": 151.208285
   },
   {
     "country": "Canada",
@@ -814,8 +814,8 @@
       "https://www.ttc.ca/fares-and-passes"
     ],
     "last_verified_date": "2026-10-17",
-    "latitude": null,
-    "longitude": null
+    "latitude": 43.653482,
+    "longitude": -79.383935
   },
   {
     "country": "Colombia",
@@ -1922,8 +1922,8 @@
       "https://meteofrance.com/climat/normales/france/ile-de-france/PARIS-MONTSOURIS"
     ],
     "last_verified_date": "2026-10-17",
-    "latitude": null,
-    "longitude": null
+    "latitude": 48.85889,
+    "longitude": 2.320041
   },
   {
     "country": "Georgia",
@@ -2483,8 +2483,8 @@
       "https://worldweather.wmo.int/en/json/full_city_list.txt"
     ],
     "last_verified_date": "2026-10-17",
-    "latitude": null,
-    "longitude": null
+    "latitude": 37.975565,
+    "longitude": 23.734832
   },
   {
     "country": "Indonesia",
@@ -3045,7 +3045,9 @@
       "https://www.italotreno.com/en",
       "https://worldweather.wmo.int/en/json/201_en.json"
     ],
-    "last_verified_date": "2026-10-17"
+    "last_verified_date": "2026-10-17",
+    "latitude": 41.89332,
+    "longitude": 12.482932
   },
   {
     "country": "Japan",
@@ -5002,8 +5004,8 @@
       "https://andante.pt/en/purchase/andante-tour/"
     ],
     "last_verified_date": "2026-10-17",
-    "latitude": null,
-    "longitude": null
+    "latitude": 38.707751,
+    "longitude": -9.136592
   },
   {
     "country": "Serbia",
@@ -5542,8 +5544,8 @@
       "https://worldweather.wmo.int/en/json/full_city_list.txt"
     ],
     "last_verified_date": "2026-10-17",
-    "latitude": null,
-    "longitude": null
+    "latitude": -33.92883,
+    "longitude": 18.41722
   },
   {
     "country": "South Korea",
@@ -6109,7 +6111,9 @@
       "https://www.aemet.es/en/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?k=mad&l=3195",
       "https://wwwnc.cdc.gov/travel/destinations/traveler/none/spain"
     ],
-    "last_verified_date": "2026-10-17"
+    "last_verified_date": "2026-10-17",
+    "latitude": 40.416782,
+    "longitude": -3.703507
   },
   {
     "country": "Sri Lanka",
@@ -7522,8 +7526,8 @@
       "https://visitorshop.tfl.gov.uk/en/london-visitor-oyster-card"
     ],
     "last_verified_date": "2026-10-17",
-    "latitude": null,
-    "longitude": null
+    "latitude": 51.507446,
+    "longitude": -0.127765
   },
   {
     "country": "USA",

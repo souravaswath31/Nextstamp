@@ -307,11 +307,13 @@ def geocode_countries(facts, args):
     return resolved, failed, skipped
 
 
-def geocode_itineraries(itineraries, iso2_map, args):
+def geocode_itineraries(itineraries, iso2_map, args, only=frozenset()):
     resolved = failed = skipped = not_a_place = outliers = 0
 
     for it in itineraries:
         countries = [c.strip() for c in it.get("countries", []) if c.strip()]
+        if only and not {c.lower() for c in countries} & only:
+            continue
         primary = countries[0] if countries else None
         iso2 = iso2_map.get((primary or "").lower())
         related = it.get("related_states") or []
@@ -394,6 +396,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--countries", action="store_true", help="only country reference cities")
     ap.add_argument("--itineraries", action="store_true", help="only itinerary days")
+    ap.add_argument(
+        "--only-countries",
+        help="comma-separated country names; only itineraries touching one of them are processed "
+        "(skips re-trying older days that never resolved, which is slow)",
+    )
     ap.add_argument("--recheck", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
@@ -410,7 +417,8 @@ def main():
     if do_itineraries:
         print("\n=== itinerary day stops ===")
         itineraries = json.loads(ITINERARIES_PATH.read_text())
-        r, f, s, n, o = geocode_itineraries(itineraries, load_iso2_map(), args)
+        only = {c.strip().lower() for c in (args.only_countries or "").split(",") if c.strip()}
+        r, f, s, n, o = geocode_itineraries(itineraries, load_iso2_map(), args, only)
         print(
             f"\n{r} resolved, {f} unresolved, {o} dropped as geographic outliers, "
             f"{n} titles that aren't places (skipped without a request), "
