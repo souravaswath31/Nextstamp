@@ -7392,6 +7392,247 @@
     ]
   },
   {
+    "region_key": "route:alentejo-algarve-by-train-portugal",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Évora",
+        "eats": [
+          {
+            "name": "Forno da Telha",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Per NiT (30 July 2026), clay pots of cozido de grão with Alentejo bread and olive oil, and wine poured from the talha; the Sunday lunch is the Almoço dos Ganhões.",
+            "why": "On the Quinta do Poço Novo estate (Estrada do Penedo do Ouro 18A) rather than inside the old town walls, in a former roof-tile kiln building, serving Alentejo farm-worker style cooking; per NiT it is aimed at locals and the Sunday Almoço dos Ganhões comes with a rotating cante alentejano group.",
+            "price_tier": null,
+            "hours_note": "Own site (footer 2026) lists the restaurant and bar as Monday to Sunday 12:00-24:00 and petiscos 15:00-23:00; NiT (30 July 2026) gives every day 12:00-15:00 and 19:00-22:30. NiT says the Almoço dos Ganhões runs on Sunday lunchtimes only, needs a reservation and costs 34 euros per person. The two sources differ on hours, so confirm by phone (+351 916 398 513, from its site).",
+            "open_evidence": "Own website footer reads 'Forno da Telha © 2026', lists hours and a weekly menu link and events dated 2 October, 23 October and 6 November (no year given); NiT articles dated 21 February 2026 and 30 July 2026 describe it as operating (viewed 2026-10-17).",
+            "source_url": "https://fornodatelha.pt/",
+            "source_name": "Venue's own website, plus NiT (30 July 2026)"
+          },
+          {
+            "name": "Taberna Típica Quarta-Feira",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "A surprise tasting menu of about 16 courses (dishes not announced in advance) with optional wine pairings, per NiT.",
+            "why": "A small tasca in the old town (Rua do Inverno 16) where the kitchen cooks in front of guests and everyone gets the same Portuguese menu; reserve the lunch or dinner slot.",
+            "price_tier": null,
+            "hours_note": "NiT (7 December 2025): Tuesday to Saturday, 12:30-15:00 and 19:30-22:00; lunch seatings 12:30 or 13:00, dinner seatings 19:30 or 20:00. The article states a price of 43 euros for the full experience. Closed Sunday and Monday by implication of those days; the article does not say so explicitly.",
+            "open_evidence": "NiT article dated 7 December 2025 gives address, phone (+351 266 707 530), days, hours and seatings; no own website found, so this rests on one press article (viewed 2026-10-17).",
+            "source_url": "https://www.nit.pt/comida/restaurantes/quarta-feira-a-taberna-de-evora-que-serve-um-menu-de-degustacao-low-cost",
+            "source_name": "NiT (7 December 2025)"
+          },
+          {
+            "name": "Monte da Graciete",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Per NiT, a lunch buffet with carne de alguidar, migas (alentejana, tomato and olive versions), cozido, sopa de cação and a large dessert table.",
+            "why": "On the edge of Évora (Estrada Nacional 114, Km 82,5), not in the old town, so plan a taxi or a longer walk; lunch-only buffet of Alentejo home cooking.",
+            "price_tier": null,
+            "hours_note": "NiT (4 August 2026): Tuesday to Sunday, 12:30-15:00, lunch only. Stated prices: 18 euros per person without drinks, 25 euros with drinks.",
+            "open_evidence": "NiT article dated 4 August 2026 gives address, days, hours and prices; the restaurant has no own website that I could find (the article links only a Facebook page, which I did not use), so this rests on one press article (viewed 2026-10-17).",
+            "source_url": "https://newinevora.nit.pt/comida/ha-um-buffet-em-evora-onde-pode-comer-pratos-tipicos-as-vezes-que-quiser-por-18e",
+            "source_name": "NiT / New in Évora (4 August 2026)"
+          }
+        ]
+      },
+      {
+        "town": "Faro",
+        "eats": [
+          {
+            "name": "O Tintol",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The grilled fish rodízio; cataplanas, arroz de marisco and octopus dishes for two can be ordered in advance, per Postal.",
+            "why": "Between Faro and Olhão rather than in the old town (its site says 'entre Faro e Olhão'; Postal places it in Faro), a snack-bar restaurant founded in 1980 that serves grilled fish all-you-can-eat style; reservations are by phone only.",
+            "price_tier": null,
+            "hours_note": "Own site: lunch 12:00-15:00, dinner 19:00-22:00; closed Christmas Day, New Year's Day and 1 May; dinner closed on Sundays all year and on Mondays from October through May (so closed Monday evening now). Postal (19 December 2025) states the rodízio at 16 euros per person and daily opening from 7:00.",
+            "open_evidence": "Own site shows copyright 2005-2026, a menu PDF dated 2026 and the October-to-May Monday rule; Postal article dated 19 December 2025 describes it operating (viewed 2026-10-17).",
+            "source_url": "https://restauranteotintol.com/",
+            "source_name": "Venue's own website, plus Postal (19 December 2025)"
+          },
+          {
+            "name": "Tertúlia Algarvia",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Octopus tentacles with sautéed grelos and sweet potato (a suggestion on its own site); Postal names the cataplana de corvina with seafood and Ria Formosa bivalves as its signature dish.",
+            "why": "In Vila-Adentro, Faro's walled old town (Praça Afonso III, 13-15): a project by a group of friends that opened in 2013 and also runs a cooking school and shop, cooking Algarve dishes.",
+            "price_tier": null,
+            "hours_note": "The sources conflict on days. Own site: Monday to Sunday 11:00-22:30. Its eatbu ordering page: Monday to Thursday 10:00-23:00, Friday and Saturday 10:00-00:00, 'Estamos abertos todos os dias, exceto aos domingos'. Postal (updated 29 November 2024): Sunday to Thursday 10:00-23:00, Friday and Saturday 10:00-00:00. Phone +351 289 821 044; confirm before relying on a Sunday.",
+            "open_evidence": "Own site lists hours, a current menu suggestion at 29,80 euros and an event running to 31 December 2027, but its footer shows no year; a Postal piece last updated 29 November 2024 also lists it (viewed 2026-10-17). Evidence is weaker than for Tintol.",
+            "source_url": "https://tertulia-algarvia.pt",
+            "source_name": "Venue's own website, plus Postal (updated 29 November 2024)"
+          }
+        ]
+      },
+      {
+        "town": "Lagos",
+        "eats": [
+          {
+            "name": "Camilo",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Per Postal (15 September 2025), the daily fish display (dourada, besugo, linguado, espadarte, sardines in season) grilled or fried; fish cataplana, arroz de marisco and caldeirada are made to order for sharing.",
+            "why": "Not in the old town: on the Estrada da Ponta da Piedade at Praia do Camilo, near the Ponta da Piedade headland that day 7 visits; its site says the family has run it for over 40 years.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own site footer shows 2026 and gives address and phone (+351 968 691 143) but no opening hours or menu; Postal article dated 15 September 2025 describes the menu and prices (viewed 2026-10-17). Hours are not stated by either source.",
+            "source_url": "https://camilorestaurante.com/",
+            "source_name": "Venue's own website, plus Postal (15 September 2025)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Alentejo + Algarve by Train, Portugal",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Alentejo + Algarve by Train, Portugal",
+        "day_number": 2,
+        "town": "Évora"
+      },
+      {
+        "itinerary_title": "Alentejo + Algarve by Train, Portugal",
+        "day_number": 3,
+        "town": "Évora"
+      },
+      {
+        "itinerary_title": "Alentejo + Algarve by Train, Portugal",
+        "day_number": 4,
+        "town": "Faro"
+      },
+      {
+        "itinerary_title": "Alentejo + Algarve by Train, Portugal",
+        "day_number": 5,
+        "town": "Faro"
+      },
+      {
+        "itinerary_title": "Alentejo + Algarve by Train, Portugal",
+        "day_number": 6,
+        "town": "Lagos"
+      },
+      {
+        "itinerary_title": "Alentejo + Algarve by Train, Portugal",
+        "day_number": 7,
+        "town": "Lagos"
+      },
+      {
+        "itinerary_title": "Alentejo + Algarve by Train, Portugal",
+        "day_number": 8,
+        "town": "Lagos"
+      }
+    ]
+  },
+  {
+    "region_key": "route:athens-delphi-nafplio-greece",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Athens",
+        "eats": [
+          {
+            "name": "MANHMANH",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The menu lists tsouchtes (Τσουχτή), moussaka (Μουσακάς) and a kleftiko-style lamb (\"Κλέφτικο\" αρνί).",
+            "why": "In Koukaki, south of the Acropolis rather than in Plaka itself; its own site describes modern takes on traditional Greek food inspired by the cooking of Laconian Mani, in a two-storey neoclassical building.",
+            "price_tier": null,
+            "hours_note": "Contact page: Monday to Saturday 14:00 to 23:00, Sunday 14:00 to 22:00; no closing days listed. Menu page shows prices in euros (starters about 11 to 20, mains about 16 to 29.50).",
+            "open_evidence": "Own website contact page (address Falirou 10) and menu page both carry a 2026 copyright footer, with hours and a priced menu (viewed 2026-10-17)",
+            "source_url": "https://www.manimani.com.gr/contact/",
+            "source_name": "Venue's own website (contact and menu pages)"
+          },
+          {
+            "name": "Ταβέρνα Κληματαριά (Klimataria)",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site features pork shank with potatoes (κότσι χοιρινό) and lamb with potatoes (αρνάκι) as clay-pot (γάστρα) specials, plus house-baked bread and traditional pies with seasonal fillings.",
+            "why": "A traditional taverna on Plateia Theatrou (Theatrou Square) in the Psyrri and Monastiraki area, with live music on set evenings; its site says it has served diners for seventy years.",
+            "price_tier": null,
+            "hours_note": "Own site: open every day 12:00 to 02:00; live music Tuesday, Wednesday, Thursday and Sunday at 22:00, Friday and Saturday at 22:30. No closing days listed.",
+            "open_evidence": "Own website lists daily hours, a current live-music schedule and a 2026 copyright footer (viewed 2026-10-17)",
+            "source_url": "https://www.klimataria.gr",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Nafplio",
+        "eats": [
+          {
+            "name": "Πηδάλιο | Μεζεδοπωλείο (Pidalio Mezedopoleio)",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site names no individual dishes; it describes recipes with roots in Crete and Asia Minor, seasonal vegetables, Greek cheeses and meats, and fish delivered daily from the Argolid.",
+            "why": "A meze restaurant on 25is Martiou in the old town whose own site describes a zero-waste kitchen and a Greek-wine cellar.",
+            "price_tier": null,
+            "hours_note": "Own site: open daily 13:00 to 23:00, closed every Tuesday.",
+            "open_evidence": "Own website shows a 2026 copyright footer, hours with the Tuesday closure, and award notices dated 2022 to 2024 (viewed 2026-10-17)",
+            "source_url": "https://pidalio.gr/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Savouras - Fish Tavern",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "The site recommends trying saganaki and bouillabaisse (μπουγιαμπέσα).",
+            "why": "A fish tavern on the Bouboulinas waterfront street (written Μπουμπουλίνας 79 on its site) that describes itself as built around seafood.",
+            "price_tier": null,
+            "hours_note": "Own site: Thursday to Monday 12:30 to 23:00, food served until 23:30; closed Tuesday and Wednesday; no seasonal closure mentioned.",
+            "open_evidence": "Own website lists hours with the Tuesday and Wednesday closure and a 2026 copyright footer (viewed 2026-10-17)",
+            "source_url": "https://www.savouras.gr",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Athens, Delphi + Nafplio, Greece",
+        "day_number": 1,
+        "town": "Athens"
+      },
+      {
+        "itinerary_title": "Athens, Delphi + Nafplio, Greece",
+        "day_number": 2,
+        "town": "Athens"
+      },
+      {
+        "itinerary_title": "Athens, Delphi + Nafplio, Greece",
+        "day_number": 3,
+        "town": "Athens"
+      },
+      {
+        "itinerary_title": "Athens, Delphi + Nafplio, Greece",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Athens, Delphi + Nafplio, Greece",
+        "day_number": 5,
+        "town": "Athens"
+      },
+      {
+        "itinerary_title": "Athens, Delphi + Nafplio, Greece",
+        "day_number": 6,
+        "town": "Nafplio"
+      },
+      {
+        "itinerary_title": "Athens, Delphi + Nafplio, Greece",
+        "day_number": 7,
+        "town": "Nafplio"
+      },
+      {
+        "itinerary_title": "Athens, Delphi + Nafplio, Greece",
+        "day_number": 8,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "route:bali-indonesia",
     "last_verified_date": "2026-10-16",
     "stops": [
@@ -7529,6 +7770,163 @@
     ]
   },
   {
+    "region_key": "route:barcelona-valencia-mallorca-spain",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Barcelona",
+        "eats": [
+          {
+            "name": "Can Culleretes",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The page names no specific dishes; it points to a \"Carta i menús\" section, so check the menu on the venue's site.",
+            "why": "A restaurant in Barcelona's old town that runs its own online reservations and shop and publishes its summer 2026 closure dates.",
+            "price_tier": null,
+            "hours_note": "Per the venue's page: lunch Tuesday to Sunday 13:00-15:45; dinner Thursday to Saturday 20:00-22:30; closed Monday lunch (except public holidays); closed evenings Sunday through Wednesday. Summer 2026 closure stated on the page: 27 July to 24 August 2026, both included (already over).",
+            "open_evidence": "Own website shows a 'ESTIU 2026' closure notice (27 July to 24 August 2026) plus current weekly hours (viewed 2026-10-17)",
+            "source_url": "https://www.culleretes.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Quimet & Quimet",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Montaditos and tinned seafood and other conservas, plus the house vermouth, all listed on the page.",
+            "why": "A small Poble Sec tapas and conservas bar that its own site describes as a family taberna since 1914, now in its fifth generation.",
+            "price_tier": null,
+            "hours_note": "Per the venue's page: open Monday to Friday 12:00-16:00 and 18:00-22:30; no reservations. The page lists no weekend hours.",
+            "open_evidence": "Own website shows current hours and a '© 2026 Quimet & Quimet' footer (viewed 2026-10-17)",
+            "source_url": "https://www.quimetiquimet.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "La Cova Fumada",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The page mentions mussels, onion-braised squid, cod fritters, artichokes and the bomba, which it describes as a potato ball filled with minced meat.",
+            "why": "A Barceloneta spot whose own page says it was founded in 1944 and lists a short seafood-and-tapas menu with a daytime schedule.",
+            "price_tier": null,
+            "hours_note": "Per the venue's page: Monday to Friday 9:00-15:00; Thursday and Friday also 18:00-20:00; Saturday 9:00-13:00. The page does not state a Sunday or holiday/August schedule.",
+            "open_evidence": "Own website shows current hours, address and a page header reading 'La Cova Fumada 2026' (the page does not explain that year, so this is weaker evidence than a copyright footer) (viewed 2026-10-17)",
+            "source_url": "https://www.lacovafumada.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Valencia",
+        "eats": [
+          {
+            "name": "La Pepica",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Paella valenciana (the page says at least 45 minutes to prepare), the seafood paella with peeled shellfish, other rice dishes and fideua, and fried small fish.",
+            "why": "On Avenida Neptuno by the Malvarrosa beach rather than in the old town; its own page says it has served rice dishes since 1898.",
+            "price_tier": null,
+            "hours_note": "Per the venue's page: Monday to Friday 13:00-16:00 and 19:30-23:00; Saturday and Sunday 12:30-16:00 and 19:30-23:00. No closing day is stated.",
+            "open_evidence": "Own website shows current hours and a 'LA PEPICA © 2026' footer; one address listed (viewed 2026-10-17)",
+            "source_url": "https://www.lapepica.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Casa Montaña",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The venue's page and the tourism board page name no dishes; the latter says the tapas menu changes with the season and the bodega has a wine list of about 600 bottles.",
+            "why": "In the Cabanyal district by the sea, not the old town; Visit Valencia says it was founded in 1836 as a grocery and is now a tapas and wine bodega.",
+            "price_tier": null,
+            "hours_note": "The venue's page lists no hours. Visit Valencia's page lists kitchen hours with apparent typos ('12:30 a.m. to 4:00 p.m. and 7:30 p.m. to 00.00 p.m.') and says 'Closed Sunday dinner'; confirm with the venue.",
+            "open_evidence": "Own website (emilianobodega.com) carries a notice on 2026 tourism-sector grants plus reservation and shop pages, and the Visit Valencia page carries a 2026 footer; neither gives venue hours with a year (viewed 2026-10-17)",
+            "source_url": "https://www.emilianobodega.com/",
+            "source_name": "Venue's own website, with Visit Valencia tourism board listing"
+          }
+        ]
+      },
+      {
+        "town": "Palma",
+        "eats": [
+          {
+            "name": "Ca'n Joan de s'Aigo",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "The page lists ensaimada or quarto with hot chocolate or ice cream, and the almond ice cream it calls iconic.",
+            "why": "A Palma pastry and ice-cream house that says it opened its first shop in 1700 and runs three shops in the city (Jaume III, Sindicat and Ca'n Sanc).",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a '©2026 Ca'n Joan de s'Aigo' footer and addresses for its three shops; no opening hours are listed (viewed 2026-10-17)",
+            "source_url": "https://www.canjoandesaigo.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mercat de l'Olivar",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "The page names no dishes; it mentions a gastronomy area, so eat there or browse the stalls.",
+            "why": "Palma's central market at Plaza del Olivar 4, with a gastronomy area open later than the stalls.",
+            "price_tier": null,
+            "hours_note": "Per the market's page: Monday to Friday 7:00-14:30 with partial opening 14:30-20:00; Saturday 7:00-15:00; gastronomy area Monday to Saturday until 16:00; Sundays closed; public holidays 'a consultar'.",
+            "open_evidence": "Own website shows dated 2026 news items (1, 7 and 15 October 2026) alongside current hours (viewed 2026-10-17)",
+            "source_url": "https://www.mercatolivar.com/",
+            "source_name": "Market's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 1,
+        "town": "Barcelona"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 2,
+        "town": "Barcelona"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 3,
+        "town": "Barcelona"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 4,
+        "town": "Valencia"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 5,
+        "town": "Valencia"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 6,
+        "town": "Valencia"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 7,
+        "town": "Palma"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 8,
+        "town": "Palma"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 9,
+        "town": "Palma"
+      },
+      {
+        "itinerary_title": "Barcelona, Valencia + Mallorca, Spain",
+        "day_number": 10,
+        "town": "Palma"
+      }
+    ]
+  },
+  {
     "region_key": "route:belgrade-novi-sad-serbia",
     "last_verified_date": "2026-10-16",
     "stops": [
@@ -7587,6 +7985,170 @@
         "itinerary_title": "Belgrade + Novi Sad, Serbia",
         "day_number": 5,
         "town": "Belgrade"
+      }
+    ]
+  },
+  {
+    "region_key": "route:cape-town-winelands-garden-route-south-africa",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Cape Town",
+        "eats": [
+          {
+            "name": "Bo-Kaap Kombuis",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Its site lists Tasting Platters, Boboti, Butter Bean Curry, Tamatie Bredie and Denning Vleis Lamb.",
+            "why": "An independent Cape Malay restaurant in the Bo-Kaap (7 August Street, Schotsche Kloof), a short way from the City Bowl, serving the Cape Malay dishes the neighbourhood is known for.",
+            "price_tier": null,
+            "hours_note": "Its site lists Monday closed; Tuesday to Saturday 12PM-4PM and 6PM-9:30PM; Sunday 12PM-3PM.",
+            "open_evidence": "Own website shows a 'Copyright © 2026 Bo-Kaap Kombuis' footer, a current menu and weekly hours (viewed 2026-10-17).",
+            "source_url": "https://www.bokaapkombuis.co.za",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Fish On The Rocks",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Its site mentions fish and chips, battered hake, crumbed headless prawns, calamari and prawns.",
+            "why": "In Hout Bay on the Atlantic side of the peninsula rather than the city centre: a harbour-end fish-and-chips shop that is a lunch option on the way to or from Cape Point.",
+            "price_tier": null,
+            "hours_note": "Its site lists Monday to Sunday 09:00-19:00.",
+            "open_evidence": "Own website shows a 'Fish On The Rocks 2026' footer and daily hours (viewed 2026-10-17).",
+            "source_url": "https://fishontherocks.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Franschhoek",
+        "eats": [
+          {
+            "name": "La Motte Bakery and Garden Cafe",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Its page mentions breakfasts, lunchtime options, patisserie and bread from a wood-fired oven.",
+            "why": "The bakery and garden cafe of La Motte, a single wine estate in the Franschhoek valley, so it works as a breakfast or lunch stop between tastings.",
+            "price_tier": null,
+            "hours_note": "Its page lists Monday to Sunday 08:00-16:00, breakfast until 11:30, kitchen closes at 15:00, and 'Closed on Christian Religious Holidays.'",
+            "open_evidence": "Own page shows '© 2026 La Motte Wine Estate' and a bakery menu file dated 20251106 (viewed 2026-10-17).",
+            "source_url": "https://www.la-motte.com/pages/bakery",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mon Amour",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Its site mentions West Coast oysters paired with bubbly, and cocktails.",
+            "why": "A bar-restaurant at The Yard Centre on Huguenot Street in the village, with an oyster bar and live jazz per its site; it opens at midday, so it is a late lunch or dinner option rather than breakfast.",
+            "price_tier": null,
+            "hours_note": "Its site lists Tue-Thurs 12:00-10PM, Friday 12:00-11PM, Saturday 11:00-11PM, Sunday 11:00-21:30; no Monday hours are stated. The site encourages bookings.",
+            "open_evidence": "Own website shows a '2026 Mon Amour' footer and weekly hours (viewed 2026-10-17).",
+            "source_url": "https://www.monamour.co.za",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Robertson",
+        "eats": [
+          {
+            "name": "Succulent Restaurant at Mo & Rose",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Its page names no individual dishes; it describes seasonal dishes inspired by Mediterranean flavours and local produce.",
+            "why": "A garden restaurant at the Mo & Rose Nature Retreat in the Robertson valley, cooking Mediterranean-inspired food with Robertson Wine Valley wines per its site.",
+            "price_tier": null,
+            "hours_note": "Its page lists Breakfast 08:00-11:00, Lunch from 12:30, Dinner from 17:00; no closed days are stated and it does not say whether booking is required.",
+            "open_evidence": "Own website shows '© Copyright 2026 Mo & Rose Nature Retreat' and meal-service times (viewed 2026-10-17).",
+            "source_url": "https://www.moandrose.co.za",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Barrydale",
+        "note": "Barrydale lies on Route 62 between Robertson and Oudtshoorn. Our advice: use it as the coffee and lunch stop on the long drive day.",
+        "note_source_url": "https://www.dieselandcreme.co.za",
+        "eats": [
+          {
+            "name": "Diesel & Crème",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Its pages name no dishes; the menu is published as images on its menu page.",
+            "why": "A garden restaurant at the Mo & Rose Nature Retreat in the Robertson valley, cooking Mediterranean-inspired food with Robertson Wine Valley wines per its site; its page says visitors can order a la carte.",
+            "price_tier": null,
+            "hours_note": "Its site lists Open Daily 08:00-17:00 with kitchen 08:00-16:30; CLOSED 25 December 2026 and 1 January 2027; 'Closed for upgrades' 22-24 June 2026.",
+            "open_evidence": "Own website lists hours plus closure notices for December 2026 and January 2027 (viewed 2026-10-17).",
+            "source_url": "https://www.dieselandcreme.co.za",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Plettenberg Bay",
+        "eats": [
+          {
+            "name": "The Fat Fish",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Its site mentions Fat Fish & Chips, a Seafood Platter Special, Leek mussels and Prawn & Mussel Bisque.",
+            "why": "A seafood restaurant just off Central Beach with estuary and sea views, run as two restaurants (Plettenberg Bay and George) per its site.",
+            "price_tier": null,
+            "hours_note": "No general opening hours are stated; Fat Fish & Chips is listed every Tuesday and Thursday lunch 12:00-16:00 and the platter special daily at lunch and dinner.",
+            "open_evidence": "Own website shows a '2025 The Fat Fish Restaurants' footer and a Plett special dated 21 June 2026 (viewed 2026-10-17); no hours are stated.",
+            "source_url": "https://www.thefatfish.co.za",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 1,
+        "town": "Cape Town"
+      },
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 2,
+        "town": "Cape Town"
+      },
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 4,
+        "town": "Franschhoek"
+      },
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 5,
+        "town": "Robertson"
+      },
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 6,
+        "town": "Barrydale"
+      },
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 7,
+        "town": "Plettenberg Bay"
+      },
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 8,
+        "town": "Plettenberg Bay"
+      },
+      {
+        "itinerary_title": "Cape Town, Winelands + Garden Route, South Africa",
+        "day_number": 9,
+        "town": null
       }
     ]
   },
@@ -7848,6 +8410,124 @@
     ]
   },
   {
+    "region_key": "route:edinburgh-scottish-highlands-isle-of-skye-scotland",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Edinburgh",
+        "eats": [
+          {
+            "name": "Edinburgh Larder",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The site lists a full Scottish breakfast, a vegetarian breakfast, eggs Benedict and porridge with seasonal toppings.",
+            "why": "A small local cafe group (the site's FAQ names three venues) a short walk from the Old Town, with a breakfast and brunch menu served until 3pm daily.",
+            "price_tier": null,
+            "hours_note": "Edinburgh Larder, 15 Blackfriars Street: Mon-Fri 7:30am-3pm, Sat-Sun 8am-3pm per the site; the site also says dishes change seasonally.",
+            "open_evidence": "Own website lists current opening hours and a live reservation system and its footer reads 'Edinburgh Larder © 2026' (viewed 2026-10-17); the page shows no dated closure notice.",
+            "source_url": "https://www.edinburghlarder.co.uk",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Oink",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "A hog roast roll in Piglet, Oink or Grunter size, with sage and onion or homemade haggis stuffing and apple sauce or homemade mustard mayo.",
+            "why": "A local hog-roast roll shop with three Edinburgh shops, including one on Victoria Street and one at the bottom of the Royal Mile on Canongate, so it fits the Old Town walking day.",
+            "price_tier": null,
+            "hours_note": "The site says all shops are open every day from 11am until sell out.",
+            "open_evidence": "Own website footer reads '© 2011-2026', the blog carries September 2026 images, and the page says the shops are open every day from 11am until sell out (viewed 2026-10-17).",
+            "source_url": "https://www.oinkhogroast.co.uk",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Howies Victoria Street",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The page names no dishes for this restaurant; it advertises a 2-course lunch and an early dining menu (Sunday to Thursday, 5pm to 6:30pm).",
+            "why": "One of a local independent family group of three Edinburgh restaurants, in the Old Town a few minutes' walk from the Castle, Grassmarket and Royal Mile.",
+            "price_tier": null,
+            "hours_note": "The site says Howies Victoria Street is open 7 days for lunch and dinner; no times are given for this restaurant.",
+            "open_evidence": "Own website footer reads '© 2026 Inverhow Ltd', links to Christmas 2026 menus and lists Victoria Street as open 7 days for lunch and dinner (viewed 2026-10-17).",
+            "source_url": "https://www.howies.uk.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Inverness",
+        "eats": [
+          {
+            "name": "The Mustard Seed",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site's lunch menu offers a two-course lunch, and its dinner menu is built on Scottish ingredients with a specials board.",
+            "why": "A single independent restaurant at 16 Fraser Street on the River Ness; the site mentions a sister holiday-apartment business across the river but no other restaurant.",
+            "price_tier": null,
+            "hours_note": "Site states 7 days a week: lunch 12pm-3pm, early evening 5pm-6.30pm, dinner 6.30pm-10pm; last orders 2.45pm for lunch and 9.45pm for dinner.",
+            "open_evidence": "Own website links October lunch and dinner menu PDFs and shows reviews dated May 2026; footer has no year (viewed 2026-10-17).",
+            "source_url": "https://www.mustardseedrestaurant.co.uk",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Glasgow",
+        "eats": [
+          {
+            "name": "Ubiquitous Chip",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The Brasserie page lists Venison Haggis, Neep & Tatties; Beer Battered Monkfish Cheeks with Taramasalata; and Shetland Mussels in Tomato & Chilli Broth.",
+            "why": "A West End Glasgow restaurant, pub and brasserie at 12 Ashton Lane; the Upstairs Brasserie is the casual option.",
+            "price_tier": null,
+            "hours_note": "The Brasserie page states open every day, Monday to Sunday, 12pm to 12am.",
+            "open_evidence": "Own website footer reads '© 2026 Ubiquitous Chip' and the home page promotes festive menus and bookings and an Autumn Winter menu launch on 24 September (no year given) (viewed 2026-10-17).",
+            "source_url": "https://www.ubiquitouschip.co.uk/the-brasserie",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
+        "day_number": 1,
+        "town": "Edinburgh"
+      },
+      {
+        "itinerary_title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
+        "day_number": 2,
+        "town": "Edinburgh"
+      },
+      {
+        "itinerary_title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
+        "day_number": 3,
+        "town": "Inverness"
+      },
+      {
+        "itinerary_title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
+        "day_number": 7,
+        "town": "Glasgow"
+      }
+    ]
+  },
+  {
     "region_key": "route:el-nido-palawan-philippines",
     "last_verified_date": "2026-10-16",
     "stops": [
@@ -7954,6 +8634,526 @@
         "itinerary_title": "Hanoi, Ha Long Bay + Ninh Binh, Vietnam",
         "day_number": 7,
         "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "route:johannesburg-kruger-national-park-south-africa",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Soweto",
+        "eats": [
+          {
+            "name": "Sakhumzi Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The African cuisine buffet, served for lunch and dinner on the Vilakazi Street site.",
+            "why": "On Vilakazi Street in Orlando West, close to the Hector Pieterson area; the site says Sakhumzi turned a shebeen into a restaurant in 2001 and now runs three venues (Vilakazi, Phefeni and Zoo Lake).",
+            "price_tier": null,
+            "hours_note": "Own site gives the Vilakazi buffet as 11:00 to 21:00 (a 2-hour buffet) at R270 per person; no closed days are listed. Phefeni is bookings only and the Zoo Lake buffet needs a minimum group of 5 and booking, per the same page.",
+            "open_evidence": "Own website shows a 2026 copyright notice, a 2025 award and current buffet prices for each branch (viewed 2026-10-17).",
+            "source_url": "https://sakhumzi.co.za",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Melville",
+        "eats": [
+          {
+            "name": "Bambanani",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "The menu page lists a Shakshuka, an Express breakfast and a Trinchado, and says breakfast is served until 11:30am daily.",
+            "why": "A family-run restaurant at 85 4th Avenue, Melville, with a second site in Bedfordview; the site describes breakfast, lunch and dinner with a kids' menu and many vegetarian and gluten-free options, so it suits a relaxed city day.",
+            "price_tier": null,
+            "hours_note": "Contact page gives Melville hours as Mon to Thu 10:00-18:00 and Fri to Sun 9:00-18:00; breakfast is served until 11:30am daily.",
+            "open_evidence": "Own website footer reads 2022-2026, the menu page links a print menu whose file name carries August 2026, and the contact page lists current Melville hours (viewed 2026-10-17).",
+            "source_url": "https://bambanani.biz/menu",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
+        "day_number": 2,
+        "town": "Melville"
+      },
+      {
+        "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
+        "day_number": 3,
+        "town": "Soweto"
+      },
+      {
+        "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Johannesburg + Kruger National Park, South Africa",
+        "day_number": 8,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "route:lisbon-sintra-porto-douro-valley-by-train-portugal",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Lisbon",
+        "eats": [
+          {
+            "name": "Cervejaria Trindade",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site names bife (beef steak), marisco (seafood) and petiscos (small plates) as its main draws.",
+            "why": "A single Lisbon beer hall at Rua Nova da Trindade 20 C that its own site says occupies a building that was once a convent; a late-evening option for day 7.",
+            "price_tier": null,
+            "hours_note": "Restaurant: Sunday to Thursday 12:00-00:00; Friday, Saturday and eves of holidays 12:00-01:00. The page lists no closing day.",
+            "open_evidence": "Own website shows current restaurant hours and the footer 'Copyright © 2026 Cervejaria Trindade' (viewed 2026-10-17); the page carries no dated news.",
+            "source_url": "https://www.cervejariatrindade.pt/",
+            "source_name": "Cervejaria Trindade's own website"
+          },
+          {
+            "name": "Clube de Fado",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The page's single fixed-menu dinner lists Bacalhau à Clube de Fado as a main-course option and pudim Abade de Priscos as a dessert option.",
+            "why": "A fado house in Alfama near the Sé, where the day 1 plan says to have dinner; the page says it was founded in 1995 and the show is included in the dinner price.",
+            "price_tier": null,
+            "hours_note": "Page says open every day: kitchen opens 19:30, live fado starts 20:30, closes 01:00. Page states the fixed dinner is 78 € per person with the show included.",
+            "open_evidence": "Own website (viewed 2026-10-17) advertises a New Year's Eve dinner on 31 December 2026 and shows upload paths from November 2025; the footer shows no copyright year.",
+            "source_url": "https://www.clubedefado.pt/",
+            "source_name": "Clube de Fado's own website"
+          }
+        ]
+      },
+      {
+        "town": "Porto",
+        "eats": [
+          {
+            "name": "Mercado do Bolhão",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "The market's restaurants page names seven restaurants, including Culto ao Bacalhau and Nelson dos Leitões - Original da Bairrada; it gives no dish details.",
+            "why": "Porto's central municipal market, with a restaurant section inside that the market's own site says runs later than the stalls.",
+            "price_tier": null,
+            "hours_note": "Market: Monday-Friday 08:00-20:00, Saturday 08:00-18:00. Restaurants: Monday-Saturday 08:00-00:00. The FAQ says 'On Sundays and holidays, we are closed.'",
+            "open_evidence": "Market's own site shows current hours with the footer 'Copyright 2026 © Bolhão' and a news item dated 1 June 2026 (viewed 2026-10-17).",
+            "source_url": "https://mercadobolhao.pt/en/faqs/",
+            "source_name": "Mercado do Bolhão's own website"
+          },
+          {
+            "name": "Café Majestic",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "The site lists menu sections including Pequeno-almoço à Majestic (breakfast), Chá das 5 (afternoon tea) and Tapas; it names no individual dishes.",
+            "why": "A single Belle Époque café on Rua Santa Catarina in central Porto that its site describes as having '100 anos de História'.",
+            "price_tier": null,
+            "hours_note": "Page says 'Aberto de Segunda a Sábado das 9:00h às 23:00h'; Sunday is not listed.",
+            "open_evidence": "Own website shows current hours and the footer '© 2026' (viewed 2026-10-17); its news section has no dated items.",
+            "source_url": "https://www.cafemajestic.com/",
+            "source_name": "Café Majestic's own website"
+          }
+        ]
+      },
+      {
+        "town": "Pinhão",
+        "note": "Per Symington's page, Bomfim 1896 is open Tuesday to Saturday only. Our advice: check the day of your Pinhão train trip against that before relying on it for lunch.",
+        "note_source_url": "http://pt.symington.com/bomfim1896",
+        "eats": [
+          {
+            "name": "Bomfim 1896",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The page links a PDF menu and a wine list but names no dishes.",
+            "why": "A restaurant on the Quinta do Bomfim wine estate beside the Douro at Pinhão, run by the Symington family estate (page footer) rather than a hotel; it is a sit-down meal, not a quick stop.",
+            "price_tier": null,
+            "hours_note": "Page: Tuesday to Saturday 12:30-15:00 and 19:00-21:00. It also says the restaurant will be open on 7, 14, 21 and 27 September, with no year stated.",
+            "open_evidence": "Symington's page for the restaurant shows current hours with the footer '© 2026 Symington Family Estates' (viewed 2026-10-17); the September opening dates carry no year.",
+            "source_url": "http://pt.symington.com/bomfim1896",
+            "source_name": "Symington Family Estates page for Bomfim 1896"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
+        "day_number": 1,
+        "town": "Lisbon"
+      },
+      {
+        "itinerary_title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
+        "day_number": 2,
+        "town": "Lisbon"
+      },
+      {
+        "itinerary_title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
+        "day_number": 3,
+        "town": "Lisbon"
+      },
+      {
+        "itinerary_title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
+        "day_number": 4,
+        "town": "Porto"
+      },
+      {
+        "itinerary_title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
+        "day_number": 5,
+        "town": "Porto"
+      },
+      {
+        "itinerary_title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
+        "day_number": 6,
+        "town": "Pinhão"
+      },
+      {
+        "itinerary_title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
+        "day_number": 7,
+        "town": "Lisbon"
+      }
+    ]
+  },
+  {
+    "region_key": "route:london-bath-oxford-england",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "London",
+        "eats": [
+          {
+            "name": "Borough Market",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "Street food from the Borough Market Kitchen area; the page names no individual dishes.",
+            "why": "A covered food market on the South Bank with three areas (Three Crown Square, Green Market and Borough Market Kitchen street food), handy for the Tower of London and South Bank days.",
+            "price_tier": null,
+            "hours_note": "Closed Monday; Tuesday to Friday 10am to 5pm, Saturday 9am to 5pm, Sunday 10am to 4pm. The page says hours vary during the festive period and Bank Holidays, and its 'this week' widget showed no times when viewed.",
+            "open_evidence": "Market's own site lists weekly opening hours and shows a 2021-2026 copyright footer (viewed 2026-10-17); the live 'this week' times were blank, so confirm on the day.",
+            "source_url": "https://boroughmarket.org.uk/visit-us/",
+            "source_name": "Borough Market's own website"
+          },
+          {
+            "name": "The Table Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Egg dishes (the page mentions classic scrambled and poached eggs); the menus are linked only as PDFs.",
+            "why": "Independent two-site cafe (Southwark and Battersea Rise) at 83 Southwark Street, a short walk from Borough Market and the South Bank.",
+            "price_tier": null,
+            "hours_note": "Southwark: Monday to Friday 8am to 4pm, Saturday and Sunday 9am to 4pm, per the page. The same page lists Battersea Rise hours separately and says the kitchen is closed between 4pm and 5pm daily without saying which venue.",
+            "open_evidence": "Own website links menus dated May 2026 and lists a live-jazz event on 11 July 2026, with both venues' hours listed (viewed 2026-10-17).",
+            "source_url": "https://www.thetablecafe.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Roast",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Sunday roast (the page names a signature pork belly and a beef Wellington) or afternoon tea.",
+            "why": "Restaurant in the Floral Hall at Borough Market (Stoney Street), with one other site in Shoreditch; the page describes a Sunday roast and afternoon tea.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a 2026 copyright footer and current Sunday roast and afternoon tea offers; it states no opening hours (viewed 2026-10-17).",
+            "source_url": "https://www.roast-restaurant.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Bath",
+        "eats": [
+          {
+            "name": "Sally Lunn's",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Sally Lunn Bath Buns with sweet or savoury toppings, or the set 15.30 afternoon tea.",
+            "why": "A single tea house at 4 North Parade Passage that the page calls the oldest house in Bath, a few minutes from the Abbey.",
+            "price_tier": null,
+            "hours_note": "Page says open every day, 10:00 to 21:00; afternoon tea is a set sitting at 15.30.",
+            "open_evidence": "Own website shows hours, current menu items and a '2026' copyright footer (viewed 2026-10-17).",
+            "source_url": "https://www.sallylunns.co.uk/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Good Day Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Brunch dishes such as sweet and savoury French toast and loaded hash browns, plus the bakery's brownies and blondies.",
+            "why": "Independent cafe and bakery founded in 2018 on Upper Borough Walls in the city centre, baking next door.",
+            "price_tier": null,
+            "hours_note": "Weekdays 9am to 5pm, Saturday 9am to 6pm, Sunday 9am to 5pm; the page lists no closed days.",
+            "open_evidence": "Own website shows hours, current menu items and a 2026 copyright footer (viewed 2026-10-17).",
+            "source_url": "https://www.gooddaycafe.co.uk/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Oxford",
+        "eats": [
+          {
+            "name": "Brown's Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "Brunches, pastries, coffee and tea (the page names no specific dishes).",
+            "why": "A family-owned British cafe with Portuguese influences inside the Covered Market, which the page calls the original cafe in the market since 1924.",
+            "price_tier": null,
+            "hours_note": "Open seven days: Monday to Friday 8am to 4pm, Saturday 8am to 5pm, Sunday and bank holidays 10am to 3:30pm, per the market's trader page.",
+            "open_evidence": "Oxford City Council's Covered Market trader page lists current hours and contact details under a 2026 copyright footer (viewed 2026-10-17).",
+            "source_url": "https://oxford-coveredmarket.co.uk/traders/browns/",
+            "source_name": "Oxford Covered Market (Oxford City Council) trader page"
+          },
+          {
+            "name": "Lula's Ethiopian Cafe and Deli",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Ethiopian stews and veggie dishes, or homemade vegan cake with a coffee ceremony; the page names no specific dishes.",
+            "why": "A 35-seat Ethiopian cafe in the Covered Market whose menu the page describes as fully vegetarian, vegan and gluten-free.",
+            "price_tier": null,
+            "hours_note": "Tuesday and Wednesday 10:30am to 5:30pm, Thursday to Saturday 10:30am to 9:30pm, Sunday and bank holidays 10:30am to 4:30pm; Monday is not listed on the page.",
+            "open_evidence": "Oxford City Council's Covered Market trader page lists current hours under a 2026 copyright footer (viewed 2026-10-17).",
+            "source_url": "https://oxford-coveredmarket.co.uk/traders/lulas-ethiopian-cafe-and-deli/",
+            "source_name": "Oxford Covered Market (Oxford City Council) trader page"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "London, Bath + Oxford, England",
+        "day_number": 1,
+        "town": "London"
+      },
+      {
+        "itinerary_title": "London, Bath + Oxford, England",
+        "day_number": 2,
+        "town": "London"
+      },
+      {
+        "itinerary_title": "London, Bath + Oxford, England",
+        "day_number": 3,
+        "town": "London"
+      },
+      {
+        "itinerary_title": "London, Bath + Oxford, England",
+        "day_number": 4,
+        "town": "Bath"
+      },
+      {
+        "itinerary_title": "London, Bath + Oxford, England",
+        "day_number": 5,
+        "town": "Oxford"
+      },
+      {
+        "itinerary_title": "London, Bath + Oxford, England",
+        "day_number": 6,
+        "town": "London"
+      },
+      {
+        "itinerary_title": "London, Bath + Oxford, England",
+        "day_number": 7,
+        "town": "London"
+      }
+    ]
+  },
+  {
+    "region_key": "route:madrid-toledo-seville-granada-spain",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Madrid",
+        "eats": [
+          {
+            "name": "Casa Mira",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "The shop sells turrones, mazapanes, polvorones, tortas and fruta glaseada; the page names a 'Surtido Especialidades de la Casa'.",
+            "why": "A single artisan turron shop near the Cortes and Puerta del Sol that its site dates to 1862, handy for a sweet stop between the Plaza Mayor area and the Prado.",
+            "price_tier": null,
+            "hours_note": "Own site: regular hours Monday to Sunday 10:00-14:00 and 17:00-20:00; Christmas hours differ (9:30-21:00 from 13-23 December); closed in July and August; closed Sundays in June and September.",
+            "open_evidence": "Own website lists current hours and a 2025 copyright notice (viewed 2026-10-17).",
+            "source_url": "https://www.casamira.es",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mercado de San Miguel",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "The site names 33 stalls, among them La Casa del Bacalao, Arzabal Croqueteria, La Hora del Vermut and Ahumados Dominguez.",
+            "why": "The covered market on Plaza de San Miguel that the day-1 itinerary mentions; it is a single market hall with many separate stalls rather than one kitchen, so pick stalls by what you want to eat.",
+            "price_tier": null,
+            "hours_note": "Own site: Sunday-Thursday 10:00-24:00; Friday, Saturday and eves of holidays 10:00-01:00. No closing days listed.",
+            "open_evidence": "Own website lists hours and current stall list, with blog posts dated June, July and September 2026 (viewed 2026-10-17).",
+            "source_url": "https://www.mercadodesanmiguel.es",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Toledo",
+        "eats": [
+          {
+            "name": "Restaurante Los Cuatro Tiempos",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The carta page lists 'Perdiz estofada a la toledana' on the restaurant menu and Carcamusas and Tarta de San Justo on the taberna menu.",
+            "why": "A single restaurant and tavern in a 16th-century house across from the cathedral that its site says opened in 1973; it has a tapas-and-wine tavern side and a restaurant side.",
+            "price_tier": null,
+            "hours_note": "The venue's own site states no hours; the Toledo tourism listing (undated) says Monday-Thursday and Sunday 11:30-00:30, Friday-Saturday 11:30-01:30, open every day, continuous service 'except during summer'.",
+            "open_evidence": "Own website carries a 2026 copyright footer and a current carta page listing dishes (viewed 2026-10-17); hours come from the Toledo tourism listing only.",
+            "source_url": "https://www.loscuatrotiempos.es/carta",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Restaurante Plácido",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The site's 'Nos gustan' section lists half a 'Perdiz estofada a la toledana', 'Rabo de toro estofado al estilo tradicional' and 'Tarta de mazapán con helado'.",
+            "why": "A single restaurant in the former Colegio de San Bernardino at the entrance to the Judería, which the site says began as a tavern founded by Plácido 'hace 81 años'.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website carries a 'Copyright ©2026' footer and a carta page linking a PDF uploaded in May 2026 (viewed 2026-10-17); the site states no hours.",
+            "source_url": "https://www.restauranteplacido.com/la-carta",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Seville",
+        "eats": [
+          {
+            "name": "Casa Ricardo",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The page names ham croquettes (tapa 3,20 EUR) as the house favourite, plus goat cheese log, aubergine with cane honey and flamenquin.",
+            "why": "A single-address tapas bar in the San Lorenzo area, a short walk north of the old-town centre, that says it has operated since 1985.",
+            "price_tier": null,
+            "hours_note": "Own site: Tuesday-Saturday 13:00-16:00 and 20:00-00:00; Sunday 13:00-16:00; Monday closed. Phone reservations Tuesday-Sunday 10:30-13:00.",
+            "open_evidence": "Own website lists hours and prices and carries a 2026 copyright footer (viewed 2026-10-17); also in the Visita Sevilla 2025 gastronomy guide.",
+            "source_url": "https://casaricardosevilla.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "El Rinconcillo",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site says the popular tapas and menu dishes keep traditional Andalusian-Mozarabic cooking; it names no individual dishes.",
+            "why": "A single family-run tavern at Calle Gerona 40 whose own history page dates it to 1670, set in two linked houses.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website news page carries an item dated March 2026 and is listed in Visita Sevilla's 2025 gastronomy guide (viewed 2026-10-17); the site states no hours or closing days.",
+            "source_url": "https://www.elrinconcillo.es/historia/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Casa Morales",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site's kitchen page lists Pavia de bacalao, Carrillada iberica, Espinacas con garbanzos and Albondigas de carne o de chocos.",
+            "why": "A single-address tavern at Garcia de Vinuesa 11 beside the Cathedral that its site says was founded in 1850.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday-Saturday 12:00-16:00 and 20:00-24:00; 'Domingos abierto de 12 a 16 h'.",
+            "open_evidence": "Own website lists hours and a menu but prints no year; the venue is listed in Visita Sevilla's July 2025 gastronomy guide (viewed 2026-10-17).",
+            "source_url": "https://casamoralessevilla.es/Nuestra-Cocina/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Granada",
+        "eats": [
+          {
+            "name": "Mirador de Morayma",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site describes traditional Granadan cooking with seasonal local products; the carta is published as an image, so no individual dishes are listed here.",
+            "why": "A single restaurant in a Moorish-style carmen house in the Albaicin, the quarter where the day-7 itinerary suggests spending the afternoon.",
+            "price_tier": null,
+            "hours_note": "Own site: kitchen open Tuesday-Saturday 13:30-22:30 without a break; closed Sunday and Monday.",
+            "open_evidence": "Own website shows a 2026 copyright footer, a carta image uploaded February 2026 and kitchen hours (viewed 2026-10-17).",
+            "source_url": "https://miradordemorayma.com/carta/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Taberna Casa Enrique",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The menu page lists Habitas con Jamón, Escabeche albaicinero, Pastela moruna, Rabo de Toro and Verbena '1870' (Embutido granadino).",
+            "why": "A single-address tavern on Acera del Darro 8 that its site says has kept Granada's tavern tradition since 1870, serving conservas, cured meats and bar plates.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday-Saturday 13:00-16:00 and 20:00-00:00; Sunday 13:00-16:00.",
+            "open_evidence": "Own website shows '© 2026 Taberna Casa Enrique', hours and a priced menu (viewed 2026-10-17).",
+            "source_url": "https://www.casaenrique.es/menu",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Madrid, Toledo, Seville + Granada, Spain",
+        "day_number": 1,
+        "town": "Madrid"
+      },
+      {
+        "itinerary_title": "Madrid, Toledo, Seville + Granada, Spain",
+        "day_number": 2,
+        "town": "Madrid"
+      },
+      {
+        "itinerary_title": "Madrid, Toledo, Seville + Granada, Spain",
+        "day_number": 3,
+        "town": "Toledo"
+      },
+      {
+        "itinerary_title": "Madrid, Toledo, Seville + Granada, Spain",
+        "day_number": 4,
+        "town": "Seville"
+      },
+      {
+        "itinerary_title": "Madrid, Toledo, Seville + Granada, Spain",
+        "day_number": 5,
+        "town": "Seville"
+      },
+      {
+        "itinerary_title": "Madrid, Toledo, Seville + Granada, Spain",
+        "day_number": 6,
+        "town": "Granada"
+      },
+      {
+        "itinerary_title": "Madrid, Toledo, Seville + Granada, Spain",
+        "day_number": 7,
+        "town": "Granada"
+      },
+      {
+        "itinerary_title": "Madrid, Toledo, Seville + Granada, Spain",
+        "day_number": 8,
+        "town": "Madrid"
       }
     ]
   },
@@ -8212,6 +9412,998 @@
     ]
   },
   {
+    "region_key": "route:naples-pompeii-capri-the-amalfi-coast-italy",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Naples",
+        "eats": [
+          {
+            "name": "Pizzeria Brandi",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Pizza Margherita, which the page says was created here in 1889; the page also lists the Marinara and Salsiccia e Friarielli.",
+            "why": "A pizzeria in Salita S. Anna di Palazzo, off Via Chiaia, whose own site says chef Raffaele Esposito made the Margherita here in 1889 for Queen Margherita of Savoy.",
+            "price_tier": null,
+            "hours_note": "Per its own site: 12:30-15:30 and 19:30-23:30, Tuesday to Sunday, Monday closed",
+            "open_evidence": "Own website shows a 2026 copyright footer with current hours and menu (viewed 2026-10-17)",
+            "source_url": "https://pizzeriabrandi.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Umberto",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Its own site names Spaghetti alle vongole veraci, Baccalà alla Napoletana, Polpette di Nonna Ermelinda and Babà.",
+            "why": "A Neapolitan restaurant in Via Alabardieri, Chiaia, that its own site says has operated since 1916, serving pizza and a traditional Neapolitan menu.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website links a menu PDF named for June 2026 (file path /2026/06/Umberto-Menu-Giugno-2026.pdf); the page footer still reads copyright 2022 and states no opening hours (viewed 2026-10-17)",
+            "source_url": "https://www.umberto.it",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Mimì alla Ferrovia",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Reviews quoted on its own site mention insalata di polpo, ravioli di spigola, grigliata mista and babbà; its March 2026 Easter post mentions tortano.",
+            "why": "A restaurant at Via Alfonso D'Aragona 19-21, close to the central station, that its own site says has operated since 1943; handy on the arrival and departure legs.",
+            "price_tier": null,
+            "hours_note": "Opening days and hours are not stated on the page. Per its site, parties of 1 to 3 are seated on arrival; parties of 4 to 10 can book online.",
+            "open_evidence": "Own website carries a post dated 18 March 2026 and online booking for tables of 4 to 10 (viewed 2026-10-17); the footer shows no year",
+            "source_url": "https://www.mimiallaferrovia.it",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Gran Caffè Gambrinus",
+            "kind": "cafe",
+            "meal": "snack",
+            "what_to_order": "Its own site lists three counters: gelateria, caffetteria and pasticceria.",
+            "why": "A single café on Via Chiaia / Piazza Trieste e Trento that its own site says has operated since 1860, for a coffee and pastry stop.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website shows a 2026 copyright footer and describes only this one café (viewed 2026-10-17); no hours are stated on the page",
+            "source_url": "https://www.grancaffegambrinus.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Amalfi",
+        "eats": [
+          {
+            "name": "Pasticceria Caffetteria Pansa",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Pastiera, lemon granita, gelato, cioccolata calda and latte di mandorla are all named on its site.",
+            "why": "A pasticceria on Piazza Duomo, the cathedral square in the middle of Amalfi, whose own site names the Pansa father and son as the business.",
+            "price_tier": null,
+            "hours_note": "Per its own site: open every day, 7:30 to 01:00",
+            "open_evidence": "Own website shows a 2026 copyright, news posts dated 16 and 28 September 2026 and daily hours (viewed 2026-10-17)",
+            "source_url": "http://www.pasticceriapansa.it/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Salerno",
+        "eats": [
+          {
+            "name": "Pasticceria Romolo",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Its site names babà, sfogliatella, pastiera and Torta Caprese among its pastries.",
+            "why": "A pastry shop and bar at Corso Garibaldi 33 in Salerno, a short walk from the ferry and rail onward connections on the final day.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Monday to Saturday 8:00-14:00 and 15:30-20:30, Sunday listed with the same hours, and Tuesday given as 'giorno di chiusura'; the page does not reconcile the two",
+            "open_evidence": "Own website shows a 2016 - 2025 copyright and a panettone tasting notice dated 10/12/2025; the newest dated item is December 2025 and there is nothing dated 2026 (viewed 2026-10-17)",
+            "source_url": "http://www.pasticceriaromolo.it/home/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
+        "day_number": 1,
+        "town": "Naples"
+      },
+      {
+        "itinerary_title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
+        "day_number": 2,
+        "town": "Naples"
+      },
+      {
+        "itinerary_title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
+        "day_number": 3,
+        "town": "Naples"
+      },
+      {
+        "itinerary_title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
+        "day_number": 4,
+        "town": "Naples"
+      },
+      {
+        "itinerary_title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
+        "day_number": 5,
+        "town": "Amalfi"
+      },
+      {
+        "itinerary_title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
+        "day_number": 6,
+        "town": "Amalfi"
+      },
+      {
+        "itinerary_title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
+        "day_number": 7,
+        "town": "Salerno"
+      }
+    ]
+  },
+  {
+    "region_key": "route:paris-loire-valley-chateaux-france",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Paris",
+        "eats": [
+          {
+            "name": "Berthillon",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "The site lists ice creams and sorbets such as caramel au beurre salé, café dauphinois, noix, mirabelle and poire.",
+            "why": "A glacier on the Île Saint-Louis, a short walk from both the Latin Quarter and Le Marais, handy for the Seine-embankment walk on day 1.",
+            "price_tier": null,
+            "hours_note": "Site states Wednesday to Sunday 10:00-20:00 (Monday and Tuesday not listed). The site also states an autumn break: closed from 19 October, reopening 4 November at 10:00; no year is given on the page, so check before you go.",
+            "open_evidence": "Own website lists current flavours, prices and a 19 October-4 November break notice, with a 2026 footer (viewed 2026-10-17); the break notice itself carries no year.",
+            "source_url": "https://berthillonparis.com/",
+            "source_name": "Berthillon's own website"
+          },
+          {
+            "name": "Du Pain et des Idées",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The site mentions the Pain des Amis loaf, escargot pistache-chocolat, chausson aux pommes and brioche with orange blossom.",
+            "why": "In the 10th arrondissement near the Canal Saint-Martin, not in Le Marais itself; a single-shop bakery that has run from the same 1875 bakery premises since 2002, per its own site.",
+            "price_tier": null,
+            "hours_note": "Site states Monday to Friday 7:00-19:30 and closed at weekends; the page mentions no holiday closures. Its pizza counter La Table is a separate page and takes no reservations (Monday-Tuesday 9:00-15:30, Wednesday-Friday 9:00-15:30 and 19:00-23:30, closed weekends).",
+            "open_evidence": "Own website shows a (c) 2025-2026 footer and lists current weekday hours and pastries (viewed 2026-10-17).",
+            "source_url": "https://www.dupainetdesidees.com/boulangerie",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Au Moulin à Vent",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site names fresh frog legs Provençal style, house terrine and selected meat specialities.",
+            "why": "A traditional bistro on rue des Fossés Saint-Bernard in the 5th arrondissement, by the Latin Quarter where the itinerary spends day 1 and some evenings.",
+            "price_tier": null,
+            "hours_note": "Site states Tuesday to Saturday 12:00-14:30 and 19:30-22:30, closed Monday and Sunday; the page mentions no summer or holiday closure.",
+            "open_evidence": "Own website lists current hours and a lunch-menu PDF link, with a 2026 footer (viewed 2026-10-17).",
+            "source_url": "https://www.au-moulinavent.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Tours",
+        "eats": [
+          {
+            "name": "La Deuvalière",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Gallery dishes on the site include magret de canard, côte de cochon basse température, paleron de bœuf braisé and tarte citron-yuzu.",
+            "why": "A restaurant in a 16th-century house on rue de la Monnaie, a short walk from Place Plumereau, with a menu that the Touraine tourism listing says changes four times a year.",
+            "price_tier": null,
+            "hours_note": "Own site states lunch 12:00-13:30 and dinner 19:15-21:30 Monday to Friday, closed Saturday and Sunday; closed 24-25 December 2026 and for the annual holiday 31 December 2026 to 10 January 2027.",
+            "open_evidence": "Own site lists weekday hours plus dated 2026-2027 closures (24/12/2026-25/12/2026 and 31/12/2026-10/01/2027), and the Touraine tourism listing shows 2026 hours (viewed 2026-10-17).",
+            "source_url": "https://la-deuvaliere-restaurant.metro.rest/?lang=fr",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Les Halles de Tours",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "The traders page lists an oyster bar (La Vague), a ham bar (Chez Gusta) and a crêpe restaurant (L'Atelier Artisan Crêpier).",
+            "why": "Tours' covered market on place Gaston Paillhou, with food traders and sit-down counters under one roof.",
+            "price_tier": null,
+            "hours_note": "Market site states Monday to Saturday 7:00-19:30 and Sunday and public holidays 7:30-13:00; individual traders may keep their own hours.",
+            "open_evidence": "Market's own website shows a 2026 footer and lists current hours and traders (viewed 2026-10-17).",
+            "source_url": "https://leshallesdetours.fr/infos-utiles/",
+            "source_name": "Les Halles de Tours own website"
+          },
+          {
+            "name": "Honoré le boulanger",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The site mentions breads baked in a wood-fired oven, viennoiseries, fruit tarts, macarons and sandwiches.",
+            "why": "A family bakery-pâtisserie at 54 rue Nationale in central Tours, handy before the TER to Amboise or Chenonceaux; its site lists only this one address.",
+            "price_tier": null,
+            "hours_note": "Site states Monday to Saturday 7:30-19:30 and does not mention Sunday.",
+            "open_evidence": "Own website lists current hours and products, with a 2026 footer (viewed 2026-10-17).",
+            "source_url": "https://honore-le-boulanger-tours-37.fr",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Amboise",
+        "eats": [
+          {
+            "name": "La Cave aux Fouées",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site describes the fouée, a small Touraine bread pocket made with sourdough and baked to order in a wood-fired oven.",
+            "why": "A fouée restaurant at 476 quai des Violettes on the Loire side of Amboise, serving the local bread-pocket speciality.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website advertises a New Year's Eve 2026 evening and a lasagna night (viewed 2026-10-17); the page lists no regular opening days or hours.",
+            "source_url": "http://www.lacaveauxfouees.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Ma Petite Fouée",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The tourist office describes a menu of unlimited fouées with garlic-and-parsley butter, goose rillettes, Sainte-Maure de Touraine cheese and a Chinon wine-jam dessert.",
+            "why": "A fouée restaurant on the first floor of a building in central Amboise, about a 5-minute walk from the château per the tourist office.",
+            "price_tier": null,
+            "hours_note": "Booking page says the restaurant welcomes guests all year ('toute l'année'); no days or hours are stated.",
+            "open_evidence": "Own booking page links a 'Menu Octobre 2026' PDF, and the Amboise tourist office feature was published 23 April 2025 (viewed 2026-10-17).",
+            "source_url": "https://ma-petite-fouee-amboise.eatbu.com",
+            "source_name": "Venue's own booking page"
+          }
+        ]
+      },
+      {
+        "town": "Chenonceaux",
+        "note": "The Château de Chenonceau's own restaurants page lists a self-service restaurant and a crêperie by the car parks, and a gastronomic restaurant, L'Orangerie, inside the gardens. Our advice: eat at the château or in the village before the return train to Tours.",
+        "note_source_url": "https://www.chenonceau.com/en/restaurants/",
+        "eats": [
+          {
+            "name": "Self-service restaurant, Château de Chenonceau (Bâtiment des Dômes)",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The château's page mentions hot dishes, a salad bar and desserts.",
+            "why": "Run by the château itself, in the former royal stables with a shaded terrace, so it fits a Chenonceau day without leaving the site.",
+            "price_tier": null,
+            "hours_note": "Château page states 'Open every day from mid-March to mid-November'; no year or daily hours are given.",
+            "open_evidence": "Château's own restaurants page links to its 2026 opening times and ticket prices (viewed 2026-10-17), but the restaurant season statement itself carries no year.",
+            "source_url": "https://www.chenonceau.com/en/restaurants/",
+            "source_name": "Château de Chenonceau's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Paris + Loire Valley Châteaux, France",
+        "day_number": 1,
+        "town": "Paris"
+      },
+      {
+        "itinerary_title": "Paris + Loire Valley Châteaux, France",
+        "day_number": 2,
+        "town": "Paris"
+      },
+      {
+        "itinerary_title": "Paris + Loire Valley Châteaux, France",
+        "day_number": 3,
+        "town": "Paris"
+      },
+      {
+        "itinerary_title": "Paris + Loire Valley Châteaux, France",
+        "day_number": 4,
+        "town": "Paris"
+      },
+      {
+        "itinerary_title": "Paris + Loire Valley Châteaux, France",
+        "day_number": 5,
+        "town": "Tours"
+      },
+      {
+        "itinerary_title": "Paris + Loire Valley Châteaux, France",
+        "day_number": 6,
+        "town": "Amboise"
+      },
+      {
+        "itinerary_title": "Paris + Loire Valley Châteaux, France",
+        "day_number": 7,
+        "town": "Chenonceaux"
+      },
+      {
+        "itinerary_title": "Paris + Loire Valley Châteaux, France",
+        "day_number": 8,
+        "town": "Paris"
+      }
+    ]
+  },
+  {
+    "region_key": "route:paros-naxos-santorini-greece",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Naxos (Chora)",
+        "eats": [
+          {
+            "name": "Scirocco Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The page describes octopus stifado slow-cooked with onions, red wine, tomato and bay leaves, and a moussaka layered with eggplant, zucchini, potato, minced beef and bechamel.",
+            "why": "A family restaurant on Protodikeiou Square in Naxos town, opened on 24 March 1995 by brothers Nikos and Michalis, whose page says local Naxian products, family-produced olive oil and local cheeses are central to the table.",
+            "price_tier": null,
+            "hours_note": "The page states 'Daily 13:00–23:30 · April–October'. It gives no exact closing day for the season, so the last days of October are not confirmed; the date today is 17 October 2026.",
+            "open_evidence": "Own website shows hours with the April–October season, a current menu with euro prices, and a footer reading '© 2026 Scirocco Restaurant' (viewed 2026-10-17); the page states no exact 2026 closing date.",
+            "source_url": "https://www.scirocco-naxos.gr/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Pyrgos, Santorini",
+        "eats": [
+          {
+            "name": "Santo Wines (restaurant at the Wine Tourism Center)",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The restaurant page names Santorini fava and PDO Santorini cherry tomatoes among its ingredients; the dish list is in a menu PDF that was not read.",
+            "why": "In the village of Pyrgos, inland from Fira and not in Fira itself. A winery cooperative's restaurant on a caldera-edge site, with its own wines and Santorini products.",
+            "price_tier": null,
+            "hours_note": "The restaurant page states 'Daily 14:30 - 22:30'. The homepage says the Wine Tourism Center in Pyrgos 'is open all year round'; no winter hours or closing dates are stated for the restaurant itself.",
+            "open_evidence": "Own website lists restaurant hours and links a 2026 menu file (SantoWines_Menu-Restaurant_2026.pdf), and its homepage carries a news item dated 22 June 2026 (viewed 2026-10-17).",
+            "source_url": "https://santowines.gr/food-and-wine-service",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Paros, Naxos + Santorini, Greece",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Paros, Naxos + Santorini, Greece",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Paros, Naxos + Santorini, Greece",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Paros, Naxos + Santorini, Greece",
+        "day_number": 4,
+        "town": "Naxos (Chora)"
+      },
+      {
+        "itinerary_title": "Paros, Naxos + Santorini, Greece",
+        "day_number": 5,
+        "town": "Naxos (Chora)"
+      },
+      {
+        "itinerary_title": "Paros, Naxos + Santorini, Greece",
+        "day_number": 6,
+        "town": "Pyrgos, Santorini"
+      },
+      {
+        "itinerary_title": "Paros, Naxos + Santorini, Greece",
+        "day_number": 7,
+        "town": "Pyrgos, Santorini"
+      },
+      {
+        "itinerary_title": "Paros, Naxos + Santorini, Greece",
+        "day_number": 8,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "route:provence-the-french-riviera-france",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Avignon",
+        "eats": [
+          {
+            "name": "Les Halles d'Avignon",
+            "kind": "market",
+            "meal": "breakfast",
+            "what_to_order": "The page describes about 40 traders selling fresh, local produce; it names no individual dishes.",
+            "why": "The covered market in the centre of Avignon, a morning stop for picking up produce and a bite before the day's sightseeing.",
+            "price_tier": null,
+            "hours_note": "Per the Avignon Tourisme page for 27 July to 31 December 2026: closed Monday; Tuesday to Thursday 06:00-14:00; Friday to Sunday 06:00-15:00. The page carries an 'Unsecured hours' warning.",
+            "open_evidence": "Avignon Tourisme (the city tourist office) page shows hours for 27 July to 31 December 2026 and was last updated 17 September 2026 (viewed 2026-10-17); a tourism-board page, not a trader's own site.",
+            "source_url": "https://avignon-tourisme.com/les-halles/",
+            "source_name": "Avignon Tourisme (tourist office)"
+          }
+        ]
+      },
+      {
+        "town": "Marseille",
+        "eats": [
+          {
+            "name": "Les Navettes des Accoules",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Les Navettes de Marseille, the biscuits of Provence (the site names a chocolate-almond macaron) and Corsican biscuits (the site names a lemon canistrelli).",
+            "why": "A single family-run 'boutique-atelier' in Le Panier making the Marseille navette biscuit, a quick sweet stop between the Vieux-Port and the MuCEM.",
+            "price_tier": null,
+            "hours_note": "Own site: Monday to Saturday 9:30-19:00; Sunday 10:00-18:00. The Marseille tourist-office listing says hours are not guaranteed for the day you look.",
+            "open_evidence": "Own website lists hours and carries news posts dated February and March 2025 (its footer still reads 2020); the Marseille tourist-office listing for the shop was last updated 17 September 2026 (both viewed 2026-10-17).",
+            "source_url": "https://www.les-navettes-des-accoules.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Nice",
+        "eats": [
+          {
+            "name": "Chez Thérésa",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Socca, pissaladière, tourte de blettes and pan bagnat, all on the venue's own price list.",
+            "why": "A socca counter at 28 rue Droite in Vieux-Nice, with a takeaway stand at the Cours Saleya market, that describes itself as serving Niçoise cooking since 1925.",
+            "price_tier": "$",
+            "hours_note": "Own site and the Nice tourist-office listing both say closed Monday, open Tuesday to Sunday 09:30-15:00; the site's market-stand line reads 'Du mardi au dimanche - matin'. The tourist-office listing says hours are not guaranteed today.",
+            "open_evidence": "Own website lists hours and a price list (socca 3.50 euros per portion); the page shows no year. The Office de Tourisme Métropolitain Nice Côte d'Azur listing, updated 9 June 2026, gives the same hours (viewed 2026-10-17).",
+            "source_url": "https://chez-theresa.fr",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Chez Pipo",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Socca, the Tartinades, la Pissaladière and la Pizza are the sections named on the site.",
+            "why": "A socca restaurant at 13 rue Bavastro that says it has been going for close to 100 years, in the Port area just east of Vieux-Nice.",
+            "price_tier": null,
+            "hours_note": "Own site: walk-ins without reservation, Wednesday to Sunday, 11:30-14:30 and 17:30-22:00. The tourist-office listing says closed Monday and Tuesday for 2026 but open Tuesday in July and August, and warns hours are not guaranteed today.",
+            "open_evidence": "Own website lists hours but its footer year is 2023 only; the Nice tourist-office listing updated 7 January 2026 shows 2026 and 2027 schedules for the same address (viewed 2026-10-17).",
+            "source_url": "https://www.chezpipo.fr",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Glacier Fenocchio",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "The site names violette, tomate-basilic and tourte de blettes among its regional ice-cream flavours, and says it offers more than 96 original flavours.",
+            "why": "An artisanal ice-cream maker operating since 1966 with two scoop shops in Vieux-Nice (2 place Rossetti and 6 rue de la Poissonnerie) and its lab in La Gaude; three addresses in all.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website footer reads Copyright 2026 and the boutiques page lists three current addresses with phone numbers; no opening hours are stated (viewed 2026-10-17).",
+            "source_url": "https://www.fenocchio.fr/boutiques",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Provence + the French Riviera, France",
+        "day_number": 1,
+        "town": "Avignon"
+      },
+      {
+        "itinerary_title": "Provence + the French Riviera, France",
+        "day_number": 2,
+        "town": "Avignon"
+      },
+      {
+        "itinerary_title": "Provence + the French Riviera, France",
+        "day_number": 3,
+        "town": "Marseille"
+      },
+      {
+        "itinerary_title": "Provence + the French Riviera, France",
+        "day_number": 4,
+        "town": "Marseille"
+      },
+      {
+        "itinerary_title": "Provence + the French Riviera, France",
+        "day_number": 5,
+        "town": "Nice"
+      },
+      {
+        "itinerary_title": "Provence + the French Riviera, France",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Provence + the French Riviera, France",
+        "day_number": 7,
+        "town": "Nice"
+      }
+    ]
+  },
+  {
+    "region_key": "route:red-centre-way-alice-springs-kings-canyon-uluru-australia",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Alice Springs",
+        "note": "Alice Springs is the last town with a range of independent places to eat before the long run west and south. The Discovery Resorts Glen Helen page lists a restaurant, bar/bistro and fuel but gives no opening hours or current status, so Glen Helen dining is not verified here. Our advice: eat and stock up in Alice Springs before leaving for Glen Helen.",
+        "note_source_url": "https://www.discoveryholidayparks.com.au/caravan-parks/northern-territory/macdonnell/glen-helen",
+        "eats": [
+          {
+            "name": "Alice Springs Brewing Co",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "Its food menu lists 10-inch pizzas such as the Super Cheese and Ba Ba Greek Sheep, plus burgers including the Schnitty Burger.",
+            "why": "A brewpub in the Ross area at 39 Palm Circuit rather than the town centre, with a taphouse and a food menu for a first-night dinner.",
+            "price_tier": null,
+            "hours_note": "Own page lists Monday to Wednesday 3:00 pm to 9:00 pm, Thursday 3:00 pm to 10:00 pm, Friday and Saturday 12:00 pm to 10:00 pm, Sunday 12:00 pm to 9:00 pm and says open daily; kitchen hours are not stated and the page recommends booking for weekends.",
+            "open_evidence": "Own website carries a 2026 copyright footer, a 2026 Membership product, and a food menu PDF dated April 2026 (viewed 2026-10-17).",
+            "source_url": "https://www.alicespringsbrewingco.com.au/pages/brewpub",
+            "source_name": "Alice Springs Brewing Co's own website"
+          }
+        ]
+      },
+      {
+        "town": "Kings Canyon",
+        "note": "Tourism Central Australia lists Carmichael's Restaurant, Kings Canyon Bar & Grill and the General Store at Discovery Resorts, about 10 km from the Kings Canyon car park, and Kings Creek Station Cafe about 38 km south of the car park; the resort listing mentions Carmichael's runs daily March to October and one experience dated 2024, so current resort hours were not verified. Our advice: Kings Creek Station is closed from 1 November 2026, so after that date plan meals at the resort or bring food.",
+        "note_source_url": "https://discovercentralaustralia.com/things-to-do/dining-entertainment/kings-canyon-dining",
+        "eats": [
+          {
+            "name": "Kings Creek Station Cafe",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The day menu includes camel burgers such as The Dromedary (camel patty with lettuce, tomato, onion and bush relish), and the station's page calls out its camel burgers.",
+            "why": "In the Kings Canyon area but on Kings Creek Station, about 38 km south of the Kings Canyon car park per Tourism Central Australia, a working cattle station cafe with a day menu from 7am and a dinner menu from 5pm.",
+            "price_tier": null,
+            "hours_note": "Own cafe page says the menu and opening times are subject to change; the menu PDF says the day menu is available from 7am and the dinner menu from 5pm. Homepage states: 'we are closed from 1st November 2026, reopening 1st March 2027'.",
+            "open_evidence": "Own homepage shows the 2026-27 closure notice and the cafe page links a menu PDF uploaded in October 2025 (both viewed 2026-10-17); the site footer says 2020 but the notice and menu carry later dates.",
+            "source_url": "https://kingscreekstation.com.au/cafe/",
+            "source_name": "Kings Creek Station's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+        "day_number": 1,
+        "town": "Alice Springs"
+      },
+      {
+        "itinerary_title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+        "day_number": 2,
+        "town": "Alice Springs"
+      },
+      {
+        "itinerary_title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+        "day_number": 3,
+        "town": "Kings Canyon"
+      },
+      {
+        "itinerary_title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+        "day_number": 4,
+        "town": "Kings Canyon"
+      },
+      {
+        "itinerary_title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+        "day_number": 8,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "route:rome-florence-venice-by-rail-italy",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Rome",
+        "eats": [
+          {
+            "name": "Armando al Pantheon",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The site describes the cooking as traditional Roman cuisine; its dish names are in PDF menus (lunch, dinner, desserts) that were not read, so no specific dish is named here.",
+            "why": "A small family trattoria that the site dates to 1961, a short walk from the Pantheon and run by the founding family.",
+            "price_tier": null,
+            "hours_note": "Per the site: lunch 12:30-15:00; dinner Monday to Friday 18:00-23:00; closed Saturday evening and all day Sunday. The page mentions no August or holiday closure. Reservations are made online only, per the site.",
+            "open_evidence": "Own website footer reads Copyright 2026 and lists current lunch and dinner hours; the lunch and dinner menu PDFs are file-named 'maggio 2026' (viewed 2026-10-17).",
+            "source_url": "https://armandoalpantheon.it/contatti/",
+            "source_name": "Armando al Pantheon (own website)"
+          },
+          {
+            "name": "Osteria da Enzo al 29",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The menu on the page lists Carciofo alla giudia, Carbonara, Amatriciana, Gricia, Cacio e pepe, Trippa alla romana and Coda alla vaccinara.",
+            "why": "A single-venue Trastevere osteria whose menu is built on the classic Roman pasta and offal dishes.",
+            "price_tier": null,
+            "hours_note": "Per the site: Monday to Saturday 12:00-15:00 and 18:30-22:30; no Sunday hours listed. The page says 'Non si accettano prenotazioni' (no reservations accepted).",
+            "open_evidence": "Own website shows a current menu and hours with footer (c) 2026 (viewed 2026-10-17).",
+            "source_url": "https://www.daenzoal29.com/",
+            "source_name": "Osteria da Enzo al 29 (own website)"
+          },
+          {
+            "name": "Checchino dal 1887",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site's menu names Rigatoni con la Pajata, Bucatini alla gricia, Coda alla vaccinara, Trippa alla romana and Saltimbocca alla romana.",
+            "why": "In Testaccio, the old slaughterhouse district; the site presents it as a Roman restaurant founded in 1887.",
+            "price_tier": null,
+            "hours_note": "Per the site: open Wednesday to Sunday, lunch 12:30-15:00 and dinner 19:30-23:00; closed Monday and Tuesday. No August closure is mentioned. The page footer year is 2025, not 2026.",
+            "open_evidence": "Own website lists current hours and a cocktail menu 'available for all of 2025'; footer reads 2025 (viewed 2026-10-17); the page shows no 2026 date, so this is weaker evidence than the other Rome entries.",
+            "source_url": "https://checchinodal1887.com/",
+            "source_name": "Checchino dal 1887 (own website)"
+          },
+          {
+            "name": "Giolitti",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "The site names gelato and pasticceria (pastries).",
+            "why": "A gelato and pastry shop near the Pantheon whose own site dates the business to 1900.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website footer reads 2026 and the homepage carries a post dated 2025-10-13; the page lists no opening hours (viewed 2026-10-17).",
+            "source_url": "https://www.giolitti.it/",
+            "source_name": "Giolitti (own website)"
+          }
+        ]
+      },
+      {
+        "town": "Florence",
+        "eats": [
+          {
+            "name": "Procacci",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "The site lists truffle panini (tartufo and foie gras; prosciutto crudo with mushroom and truffle cream; scrambled eggs with fresh truffle) with Antinori wines by the glass.",
+            "why": "A single-venue Via de' Tornabuoni shop founded in 1885 per its own site, run under the Antinori family wine house.",
+            "price_tier": null,
+            "hours_note": "Per the site: Monday to Saturday 10:00-21:00; Sunday is not listed. The bistro menu changes twice a year.",
+            "open_evidence": "Own website footer reads 2026 and its menu PDF is a 2026 upload (Menu_Procacci-2026.pdf, uploaded 2026/06) (viewed 2026-10-17).",
+            "source_url": "https://www.procacci1885.it/",
+            "source_name": "Procacci (own website)"
+          },
+          {
+            "name": "Il Latini",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The a la carte menu lists Ribollita, Pappa al Pomodoro, Paccheri al cinghiale, Trippa alla Fiorentina, Peposo and Bistecca alla Fiorentina (served rare only, per the menu page).",
+            "why": "A single Florence trattoria that its own history page says began as a fiaschetteria in 1911 and is now in its fourth generation of the Latini family; the page describes shared long tables.",
+            "price_tier": null,
+            "hours_note": "Per the site, kitchen hours: Tuesday to Friday 19:30-22:30; Saturday and Sunday 12:30-14:30 and 19:30-22:30. Monday is not listed. Reservations by email are listed on the site.",
+            "open_evidence": "Own website footer reads 2026 and lists current kitchen hours and a priced a la carte menu (viewed 2026-10-17).",
+            "source_url": "https://latinifirenze.com/menu-a-la-carte/",
+            "source_name": "Il Latini (own website)"
+          }
+        ]
+      },
+      {
+        "town": "Venice",
+        "eats": [
+          {
+            "name": "Cantina Do Spade",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site's featured recipes are sarde fritte, bocconcini di sgombro fritto, canestrelli al forno and capesante gratinate alla veneziana, plus cicchetti.",
+            "why": "A bacaro and osteria beside Rialto that the site dates to 1448, serving Venetian recipes.",
+            "price_tier": null,
+            "hours_note": "Per the site: Monday to Sunday 10-15 and 18-22 (the phone line is staffed 10-16 and 18-23).",
+            "open_evidence": "Own website footer reads (c) 2026 Cantina do Spade SRL and lists current daily hours (viewed 2026-10-17).",
+            "source_url": "https://cantinadospade.com/",
+            "source_name": "Cantina Do Spade (own website)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Rome, Florence + Venice by Rail, Italy",
+        "day_number": 1,
+        "town": "Rome"
+      },
+      {
+        "itinerary_title": "Rome, Florence + Venice by Rail, Italy",
+        "day_number": 2,
+        "town": "Rome"
+      },
+      {
+        "itinerary_title": "Rome, Florence + Venice by Rail, Italy",
+        "day_number": 3,
+        "town": "Rome"
+      },
+      {
+        "itinerary_title": "Rome, Florence + Venice by Rail, Italy",
+        "day_number": 4,
+        "town": "Florence"
+      },
+      {
+        "itinerary_title": "Rome, Florence + Venice by Rail, Italy",
+        "day_number": 5,
+        "town": "Florence"
+      },
+      {
+        "itinerary_title": "Rome, Florence + Venice by Rail, Italy",
+        "day_number": 6,
+        "town": "Venice"
+      },
+      {
+        "itinerary_title": "Rome, Florence + Venice by Rail, Italy",
+        "day_number": 7,
+        "town": "Venice"
+      },
+      {
+        "itinerary_title": "Rome, Florence + Venice by Rail, Italy",
+        "day_number": 8,
+        "town": "Venice"
+      }
+    ]
+  },
+  {
+    "region_key": "route:seoul-dmz-gyeongju-busan-south-korea",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Seoul",
+        "eats": [
+          {
+            "name": "Tosokchon Samgyetang (토속촌삼계탕)",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Samgyetang (ginseng chicken soup), the dish the Visit Seoul listing and guide name it for.",
+            "why": "A samgyetang restaurant about a five-minute walk from Gyeongbokgung Station (Line 3), so it fits the palace day; the Visit Seoul guide says the line can wrap around the building but moves quickly.",
+            "price_tier": null,
+            "hours_note": "Visit Seoul lists daily 10:00-22:00 (last order 21:00) with no closed days listed; the page does not mention Seollal or Chuseok.",
+            "open_evidence": "Visit Seoul restaurant page (Published and Edited Jul 24, 2026) lists 10:00-22:00 daily, and the Visit Seoul food guide (published Jul 16, 2026, edited Aug 31, 2026) lists the same hours with last order 21:00 (both viewed 2026-10-17); the venue's own site tosokchon.co.kr would not load (certificate error), so this rests on the tourism board only.",
+            "source_url": "https://english.visitseoul.net/restaurants/TosokchonSamgyetang/ENPywjsmm",
+            "source_name": "Visit Seoul (Seoul Tourism Organization)"
+          },
+          {
+            "name": "Wooraeok (우래옥)",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Traditional Pyeongyang cold noodles and bulgogi, the two signature dishes the Visit Seoul page lists.",
+            "why": "A single-address Pyeongyang naengmyeon restaurant in Euljiro rather than beside the palaces, about a one-minute walk from Euljiro 4-ga Station Exit 4 per the Visit Seoul food guide.",
+            "price_tier": null,
+            "hours_note": "Visit Seoul: 11:30-21:00, last order 20:20, Tuesday to Sunday; closed Mondays, Seollal and Chuseok.",
+            "open_evidence": "Visit Seoul restaurant page (edited Sep 11, 2026) lists these hours and closures, and the Visit Seoul food guide (edited Aug 31, 2026) lists the same hours and Monday closure (both viewed 2026-10-17); tourism-board pages only, no venue page was checked.",
+            "source_url": "https://english.visitseoul.net/restaurants/Wooraeok/ENP003207",
+            "source_name": "Visit Seoul (Seoul Tourism Organization)"
+          },
+          {
+            "name": "Gwangjang Market (Food Alley)",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "Mini gimbap, which the Visit Seoul food guide calls one of the market's most famous specialties.",
+            "why": "One of Seoul's oldest traditional markets; the food alley is the part to eat in, and the Visit Seoul page gives it later hours than the rest of the market.",
+            "price_tier": null,
+            "hours_note": "Visit Seoul: Food Alley daily 09:00-23:00, listed as open year round; the main market is daily 09:00-18:00 and closed Sundays. The page does not mention Seollal or Chuseok closures. Individual stall hours can differ.",
+            "open_evidence": "Visit Seoul market page (originally published Jul 16, 2014; edited Oct 08, 2026) lists these hours (viewed 2026-10-17).",
+            "source_url": "https://english.visitseoul.net/shopping/gwangjang-market_/287",
+            "source_name": "Visit Seoul (Seoul Tourism Organization)"
+          }
+        ]
+      },
+      {
+        "town": "Gyeongju",
+        "eats": [
+          {
+            "name": "Hwangnam-bbang (황남빵) Gyeongju Main Store",
+            "kind": "bakery",
+            "meal": "snack",
+            "what_to_order": "Hwangnam-bbang, the red bean bread the shop is named for.",
+            "why": "A single-store Gyeongju bakery whose own site says it has sold red bean bread since 1939; the main store is at 783 Taejong-ro (Hwango-dong), in central Gyeongju.",
+            "price_tier": null,
+            "hours_note": "Own site lists the Gyeongju main store as open 08:00-22:00 Monday to Sunday, 연중무휴 (no closing days), with phone orders accepted.",
+            "open_evidence": "Own website (hwangnam.co.kr) footer lists the main store with 08:00-22:00 hours (page shows no year); Segye Ilbo article dated 2025-11-04 describes customers buying at the Gyeongju flagship store on 1 November 2025 (both viewed 2026-10-17).",
+            "source_url": "https://www.hwangnam.co.kr",
+            "source_name": "Venue's own website (Hwangnam-bbang); Segye Ilbo 2025-11-04"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+        "day_number": 1,
+        "town": "Seoul"
+      },
+      {
+        "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+        "day_number": 2,
+        "town": "Seoul"
+      },
+      {
+        "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+        "day_number": 3,
+        "town": "Seoul"
+      },
+      {
+        "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+        "day_number": 4,
+        "town": "Gyeongju"
+      },
+      {
+        "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+        "day_number": 5,
+        "town": "Gyeongju"
+      },
+      {
+        "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+        "day_number": 8,
+        "town": "Seoul"
+      }
+    ]
+  },
+  {
+    "region_key": "route:sydney-melbourne-the-great-ocean-road-australia",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Sydney",
+        "eats": [
+          {
+            "name": "The Lord Nelson Brewery Hotel",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "The bar page names a pork pie, a ploughman's lunch and a bookable Sunday Roast, and lists house ales such as Trafalgar Pale Ale and Old Admiral.",
+            "why": "A single-venue pub in the historic Rocks precinct that describes itself as Sydney's oldest continually licensed hotel and home of Australia's oldest pub brewery, so it suits a pub meal and a local beer on the harbour-side days.",
+            "price_tier": null,
+            "hours_note": "The bar page lists 'Monday ... Sunday, 11:00am - 11:00pm, 12:00pm - 10:00pm' without saying which hours apply to which days; kitchen hours are not stated.",
+            "open_evidence": "Own website pages (home and bar) carry a published timestamp of 16 Oct 2026 and list current named ales and Sunday Roast bookings (viewed 2026-10-17); the pages show no copyright footer.",
+            "source_url": "https://www.lordnelsonbrewery.com/bar",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Katoomba",
+        "eats": [
+          {
+            "name": "Bang Bowls",
+            "kind": "cafe",
+            "meal": "lunch",
+            "what_to_order": "The menu page lists bowls such as the Burrito Bowl, Poke Bowl and Buddha Bowl for lunch and the Golden Turmeric Bowl and Shakshuka for breakfast.",
+            "why": "An independent cafe at 195a Katoomba Street in Katoomba, built around bowls and rotating chef specials.",
+            "price_tier": null,
+            "hours_note": "The page gives no hours (it links to a Google search for them); the menu says breakfast runs until 12pm and lunch from 12pm, and that availability varies by season and day.",
+            "open_evidence": "Own website footer reads 'Bang Bowls 2026' and lists the 195a Katoomba St address; separate menu page lists current breakfast, lunch and chef-special items (viewed 2026-10-17).",
+            "source_url": "https://bangbowls.com.au/menu",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Hatter's Cafe",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The menu lists Canadian Pancakes, Eggs Benny, Corn and Zucchini Fritters and, for lunch, Fish & Chips and a Chicken Parmigiana.",
+            "why": "A Katoomba Street cafe serving breakfast and lunch every open day, with a Friday to Sunday evening menu, so it works for a late start before the lookouts or a meal before the train back.",
+            "price_tier": null,
+            "hours_note": "Menu page: breakfast 7:30am-11:00am, lunch to 3:00pm (the page prints it as '11:00pm - 03:00pm', apparently a typo), dinner Friday to Sunday 5pm-8pm. The home page's structured data lists 07:30-15:00 on Monday, Tuesday, Friday, Saturday and Sunday and no Wednesday or Thursday entry, which may mean it is closed those days; the page does not say so, so check before relying on it.",
+            "open_evidence": "Own website home page footer reads 'Copyright 2026' and the menu page footer reads 2025 (viewed 2026-10-17), so the menu page carries an older year than the home page.",
+            "source_url": "https://thehatterscafe.com.au/menu",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Melbourne",
+        "eats": [
+          {
+            "name": "Queen Victoria Market",
+            "kind": "market",
+            "meal": "any",
+            "what_to_order": "The page does not name dishes; it links a 'Queen's Food Hall' under Our Traders.",
+            "why": "A single city-centre market with a trader directory that includes a food hall, useful for a Melbourne market morning on the day the itinerary spends there.",
+            "price_tier": null,
+            "hours_note": "Trading hours listed: Tuesday, Thursday and Friday 6am-3pm; Saturday 6am-4pm; Sunday 9am-4pm; specialty shopping opens at 9am each market day. No hours are listed for Monday or Wednesday.",
+            "open_evidence": "Own website hours page is titled for 'Father's Day Gift Guide 2026' and lists current trading hours and a Franklin Street car park exit works notice (viewed 2026-10-17); the footer carries no year.",
+            "source_url": "https://qvm.com.au/visit/opening-hours/",
+            "source_name": "Queen Victoria Market's own website"
+          }
+        ]
+      },
+      {
+        "town": "Apollo Bay",
+        "eats": [
+          {
+            "name": "Apollo Bay Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The scallop pie with Bass Strait scallops in a creamy Mornay or mild curry sauce; the site also lists classic pies and sausage rolls.",
+            "why": "A single-location bakery on the Great Ocean Road in Apollo Bay known on its own site for the scallop pie, and it opens at 6am, handy before the coast drive.",
+            "price_tier": null,
+            "hours_note": "Monday to Saturday 6am-4pm, Sunday 6am-3pm; the page says it is open every public holiday and closed only on Christmas Day.",
+            "open_evidence": "Own website lists hours and current menu and its footer reads 2026 (viewed 2026-10-17); the footer credits an individual rather than the bakery by name.",
+            "source_url": "https://www.apollobaybakery.com.au",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Great Ocean Road Brewhouse",
+            "kind": "brewery",
+            "meal": "dinner",
+            "what_to_order": "The house brand Prickly Moses beers and the Great Ocean Road Lager are named on the site, with a Spring/Summer food menu PDF linked.",
+            "why": "A single-venue brewery pub and bistro on the Great Ocean Road in Apollo Bay with an all-day kitchen, so it suits a dinner stop after the drive from Torquay.",
+            "price_tier": null,
+            "hours_note": "Bar Sunday to Thursday 11am-10pm, Friday and Saturday 11am-11pm; bistro every day, all-day kitchen from 11:30am till late; happy hour weekdays 4:30-6pm.",
+            "open_evidence": "Own website footer reads 2026 and links a Spring/Summer food menu with current bar and bistro hours (viewed 2026-10-17).",
+            "source_url": "https://greatoceanroadbrewhouse.com.au/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 1,
+        "town": "Sydney"
+      },
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 2,
+        "town": "Sydney"
+      },
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 3,
+        "town": "Katoomba"
+      },
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 4,
+        "town": "Melbourne"
+      },
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 5,
+        "town": "Melbourne"
+      },
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 6,
+        "town": "Apollo Bay"
+      },
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 7,
+        "town": null
+      },
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 8,
+        "town": "Melbourne"
+      },
+      {
+        "itinerary_title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+        "day_number": 9,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "route:tokyo-kyoto-osaka-japan",
     "last_verified_date": "2026-10-16",
     "stops": [
@@ -8352,6 +10544,196 @@
     ]
   },
   {
+    "region_key": "route:toronto-niagara-montreal-quebec-city-canada",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Toronto",
+        "eats": [
+          {
+            "name": "Soma Chocolatemaker",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "The site lists microbatch chocolate, truffles, drinking chocolate, cookies, toffee and gelato among the things it makes.",
+            "why": "A small chocolate maker with a shop in the Distillery District, which suits the evening walk on day 1; the company lists three locations (Distillery District, King St. West and Cacao Bean Lab), and this card is the Distillery District shop.",
+            "price_tier": null,
+            "hours_note": "Own site lists the Distillery District shop as Mon-Sun 11-8, with Thanksgiving (Oct 12) 11-6.",
+            "open_evidence": "Own website footer reads 2026 and shows a Distillery District hours notice for Thanksgiving (Oct 12) (viewed 2026-10-17)",
+            "source_url": "https://www.somachocolate.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Moonbean Coffee Company",
+            "kind": "cafe",
+            "meal": "snack",
+            "what_to_order": "The site sells coffee and tea; it lists no cafe menu items, so we name none.",
+            "why": "A single coffee house in Kensington Market (the site says 'Our Cafe', one address, 30 Saint Andrew St), an easy stop on the day 2 walk through the market.",
+            "price_tier": null,
+            "hours_note": "Own site lists cafe hours 7am to 6pm Sunday to Friday and 7am to 7pm Saturday.",
+            "open_evidence": "Own website footer reads 2026 and its header gives 'Next Roasting day' as Tuesday, October 20th; the same page still carries a March 31/April 7 holiday notice and shows its coffees as sold out, so treat the site as only moderate evidence (viewed 2026-10-17)",
+            "source_url": "https://www.moonbeancoffee.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Niagara Falls",
+        "note": "Tide & Vine's own site lists its Oyster House as closed on Sundays. Our advice: if you visit on a Sunday, Falls Manor's own site lists it as open daily.",
+        "note_source_url": "https://www.tideandvine.com/",
+        "eats": [
+          {
+            "name": "Tide & Vine Oyster House and Fish Market",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "The site highlights shucked-to-order oysters and house-ground burgers.",
+            "why": "An independent oyster house and fish market on Portage Road in Niagara Falls, Ontario; the site says it has served fresh Canadian seafood since 2012.",
+            "price_tier": null,
+            "hours_note": "Own site: Oyster House Mon-Thu 11:30 AM-8:30 PM, Fri-Sat 11:30 AM-9:00 PM (last seating), closed Sunday; reservations via Tock.",
+            "open_evidence": "Own website footer reads 2026 and lists current hours and a Tock booking link (viewed 2026-10-17)",
+            "source_url": "https://www.tideandvine.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Falls Manor Restaurant",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site names broasted chicken as the specialty, plus golden dipped pancakes, omelets and scrambles.",
+            "why": "A restaurant attached to the Falls Manor Motel that calls itself the Niagara Region's original home of 'Broasted Chicken' on its own site, an independent alternative to the tourist strip.",
+            "price_tier": null,
+            "hours_note": "Own site: Sunday-Thursday 7:30 a.m.-8 p.m., Friday-Saturday 7:30 a.m.-9 p.m.; walk-ins accepted.",
+            "open_evidence": "Own website footer reads 2026 and lists current hours, walk-in policy and take-out (viewed 2026-10-17)",
+            "source_url": "https://www.fallsmanor.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Montréal",
+        "eats": [
+          {
+            "name": "Fairmount Bagel",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The site describes hand-made bagels rolled by hand and baked in a wood-fired oven.",
+            "why": "In the Mile End district rather than Old Montréal (74 Fairmount West); a one-address Montréal bagel bakery per its own site, a short trip from downtown on day 5.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website footer reads 2026 and shows the 74 Fairmount West address; the pages we fetched list no hours, so check before you go (viewed 2026-10-17)",
+            "source_url": "https://www.fairmountbagel.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Beautys Luncheonette",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The site names the 'Beautys Special' and the 'Mishmash'.",
+            "why": "In the Plateau/Mile End area (93 Mont-Royal West) rather than Old Montréal; the site says it has served food in the same location since 1942.",
+            "price_tier": null,
+            "hours_note": "Own site: 8am-3:30pm, closed Tuesdays.",
+            "open_evidence": "Own website offers a 'beautys menu 2026' (menu PDF named beautys-menu-2026_web.pdf) with current hours (viewed 2026-10-17)",
+            "source_url": "https://beautys.ca",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Reuben's Deli",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The site's shop sells a Smoked Beef Brisket Slab and links to a PDF menu we could not read.",
+            "why": "A deli at 1116 Rue Sainte-Catherine Ouest, downtown rather than Old Montréal, for Montréal-style smoked meat.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Own website footer reads 2026 and shows one address, a PDF menu link and current shop listings, some out of stock; no hours were listed on the pages we fetched (viewed 2026-10-17)",
+            "source_url": "https://www.reubensdeli.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Québec City",
+        "eats": [
+          {
+            "name": "Aux Anciens Canadiens",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site lists menu sections for entrées and soups, main courses and desserts; Visit Québec City describes authentic Québec cuisine with regional produce.",
+            "why": "A single restaurant at 34 rue Saint-Louis in Old Québec that its tourism-board listing dates to a building from 1675, close to the day 6 and 7 walks.",
+            "price_tier": null,
+            "hours_note": "Own site: 'Ouvert tous les jours de midi à 21h.'",
+            "open_evidence": "Own website footer reads '© 2026 – Aux Anciens Canadiens' and states daily hours (viewed 2026-10-17)",
+            "source_url": "https://auxancienscanadiens.qc.ca",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "La Bûche",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The site highlights a pâté chinois décomposé, jambon laqué à la bière and tartare de cerf; the Visit Québec City page names tourtière, pea soup and pudding chômeur.",
+            "why": "On rue Saint-Louis in Old Québec (49 rue Saint-Louis, with a neighbouring Cabane at 49 1/2); the tourism listing says the signature dishes follow the owner's grandmother's recipes.",
+            "price_tier": null,
+            "hours_note": "Per Visit Québec City: Mon-Wed 8:00-21:30, Thu-Sat 8:00-22:00, Sun 8:00-21:30.",
+            "open_evidence": "Own website links a 'Menu2026.pdf' and the Visit Québec City listing (footer 2026) shows current hours (viewed 2026-10-17); the site shows no copyright year",
+            "source_url": "https://www.restolabuche.com/",
+            "source_name": "Venue's own website; hours from Visit Québec City (quebec-cite.com)"
+          },
+          {
+            "name": "Sagamité",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site mentions venison, wapiti, smoked bison, wild rice and bannique among its ingredients; the Vieux-Québec page says it is known for game and First Nations-inspired cuisine.",
+            "why": "At 68 1/2 rue Saint-Louis in Old Québec; the tourism listing says it has served these dishes since 1999, and the company has two other addresses (Wendake and the airport).",
+            "price_tier": null,
+            "hours_note": "Per Visit Québec City: Mon-Thu and Sun 8am-10pm, Fri-Sat 8am-11pm; the venue's own site lists no hours and asks guests to book a table.",
+            "open_evidence": "Own website footer reads 2026 and lists the Vieux-Québec address and phone; hours come from the Visit Québec City listing (viewed 2026-10-17)",
+            "source_url": "https://sagamite.com/",
+            "source_name": "Venue's own website; hours from Visit Québec City (quebec-cite.com)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Toronto, Niagara, Montréal + Québec City, Canada",
+        "day_number": 1,
+        "town": "Toronto"
+      },
+      {
+        "itinerary_title": "Toronto, Niagara, Montréal + Québec City, Canada",
+        "day_number": 2,
+        "town": "Toronto"
+      },
+      {
+        "itinerary_title": "Toronto, Niagara, Montréal + Québec City, Canada",
+        "day_number": 3,
+        "town": "Niagara Falls"
+      },
+      {
+        "itinerary_title": "Toronto, Niagara, Montréal + Québec City, Canada",
+        "day_number": 4,
+        "town": "Montréal"
+      },
+      {
+        "itinerary_title": "Toronto, Niagara, Montréal + Québec City, Canada",
+        "day_number": 5,
+        "town": "Montréal"
+      },
+      {
+        "itinerary_title": "Toronto, Niagara, Montréal + Québec City, Canada",
+        "day_number": 6,
+        "town": "Québec City"
+      },
+      {
+        "itinerary_title": "Toronto, Niagara, Montréal + Québec City, Canada",
+        "day_number": 7,
+        "town": "Québec City"
+      },
+      {
+        "itinerary_title": "Toronto, Niagara, Montréal + Québec City, Canada",
+        "day_number": 8,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "route:turkey-istanbul-cappadocia-turquoise-coast",
     "last_verified_date": "2026-10-16",
     "stops": [
@@ -8465,6 +10847,105 @@
       {
         "itinerary_title": "Turkey: Istanbul + Cappadocia + Turquoise Coast",
         "day_number": 7,
+        "town": null
+      }
+    ]
+  },
+  {
+    "region_key": "route:vancouver-whistler-banff-to-jasper-canada",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Banff",
+        "eats": [
+          {
+            "name": "Wild Flour Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The site lists daily-baked sourdough, rye and mixed-grain loaves and baguettes, croissants, egg breakfast dishes, grilled cheese and soups.",
+            "why": "A single-location bakery-cafe at 101-211 Bear Street in Banff that bakes its bread daily and serves breakfast and lunch from 7 am.",
+            "price_tier": null,
+            "hours_note": "Page states open every day, 7 am to 5 pm; focaccia sandwiches from 11:30 am; gluten-reduced mixed-grain loaves on Thursdays.",
+            "open_evidence": "Own website lists daily 7am-5pm hours and the notice 'Chili Night Returning Fall 2026' (viewed 2026-10-17); the page footer carries no copyright year.",
+            "source_url": "https://www.wildflourbakery.ca",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Tooloulous",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The breakfast menu lists a Crab Asparagus Omelette, the Jordans Jamboree Belgian waffle, a Smoked Salmon Bagel and the Sizzling Rivalry (poached eggs over crabmeat and spicy shrimp).",
+            "why": "Describes itself as locally owned and operated, at 204 Caribou Street, with breakfast served until 2 pm.",
+            "price_tier": null,
+            "hours_note": "Page states open daily 8:00 am to 9:00 pm, breakfast 8:00 am to 2:00 pm, dinner by reservation only. The same page lists a renovation closure of October 31 to December 3 (no year given on the page) and closures on December 16 and December 25; check before relying on late-October or November dates.",
+            "open_evidence": "Own website footer reads Copyright 2026 and shows daily hours and a current breakfast menu (viewed 2026-10-17); some dated specials on the page are from 2025, so the page is only partly current.",
+            "source_url": "https://www.tooloulous.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Jasper",
+        "eats": [
+          {
+            "name": "Olive Bistro",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The site names a Slow Braised Duck Confit Poutine, a Raclette Fondue Burger, a Chef's Daily Farmers Plate and a Creamy Haskap Berry Cheesecake.",
+            "why": "A family-owned bistro at 401 Patricia Street whose menu credits named Alberta farms for its beef, buffalo and desserts.",
+            "price_tier": null,
+            "hours_note": "No opening hours are stated on the page. It says to book at least 24 hours in advance, same-day reservations are not available, and walk-ins are welcome.",
+            "open_evidence": "Own website links a 'Fall Final Olive Dinner Menu 2026' and a 'Summer Olive Happy Hour Menu 2026' and cites a 2026 Best Poutine award (viewed 2026-10-17); the Tourism Jasper listing also describes it as lunch and dinner.",
+            "source_url": "https://www.olivebistro.ca",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 5,
+        "town": "Banff"
+      },
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 6,
+        "town": "Banff"
+      },
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 7,
+        "town": "Jasper"
+      },
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 8,
+        "town": "Jasper"
+      },
+      {
+        "itinerary_title": "Vancouver, Whistler + Banff to Jasper, Canada",
+        "day_number": 9,
         "town": null
       }
     ]

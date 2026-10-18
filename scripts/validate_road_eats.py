@@ -2,6 +2,7 @@
 """Content-pipeline gate for road-eats research.
 
     python3 scripts/validate_road_eats.py <candidate.json> [more.json ...]
+    python3 scripts/validate_road_eats.py --dry-run <candidate.json>   # validate only, write nothing
     python3 scripts/validate_road_eats.py --check-existing
     python3 scripts/validate_road_eats.py --liveness            # network: probe every source URL
 
@@ -427,6 +428,8 @@ def seasonal():
 
 def main():
     args = sys.argv[1:]
+    dry_run = "--dry-run" in args
+    args = [a for a in args if a != "--dry-run"]
     if not args:
         print(__doc__)
         return 1
@@ -479,7 +482,7 @@ def main():
                 print(f"        {e}")
             continue
 
-        changed = merge(obj)
+        changed = 0 if dry_run else merge(obj)
         existing.add(rk)
         n_eats = sum(len(s["eats"]) for s in obj["stops"])
         print(f"ok    {label} ({rk}): {len(obj['stops'])} stops, {n_eats} eats, {changed} itinerary days mapped")
