@@ -370,6 +370,38 @@ rules, 134 itineraries (36 international). Process lessons worth keeping:
 - New itineraries have **no road-food data** (`seed:eats`); the international route eats are
   per-route and none were researched for these.
 
+**Content round 6 (October 2026): re-verification and road food for the new routes.** Every
+visa rule for all 28 destinations was re-checked in place against official pages and is dated
+2026-10-17 (`scripts/reverify_visa.py`: `brief`, `list-stale`, `apply [--allow-new] [--dry-run]`;
+rules the agent could not confirm are simply left out of the patch and keep their old date;
+`prisma/update-visa-rules.ts` loads changes by key and deletes nothing). The 19 older country
+guides had their entry-critical fields (passport rule, formalities, health, emergency numbers)
+refreshed through `scripts/reverify_country.py` (patches validated by the full guide validator before
+writing; `seed-countries.ts <names>` loads them). Briefs: `scripts/visa-reverify-contract.md`,
+`scripts/country-reverify-contract.md`. What it found, so nobody re-learns it:
+- **Old rules cited banned or non-official sources** (visafreecountries.com, timeout.com, undated
+  PDFs); all were replaced. A mechanical check now rejects those hosts in `reverify_visa.py apply`.
+- **Real corrections**: Canada's stay in Costa Rica 90 -> 180; UK and Brazil in Peru 183 -> 90;
+  Thailand's old text wrongly said the 30-day rule replaced India's visa on arrival; Serbia's India
+  row e-visa -> advance visa; Sri Lanka Canada/Australia visa on arrival -> mandatory free ETA;
+  Philippines eTravel is "within 72 hours" of arrival (an agent had written "at least").
+- **~25 new documented cascade rows** (India via US/UK/Canada/Australia/Singapore/Japan for several
+  destinations; Brazil into Mexico via US/Canada/UK). Schengen is not modelled (held documents are
+  per country); it is named in the rule text instead.
+- **The built-in browser tools get through pages the fetch tool cannot** (mofa.go.jp, Smartraveller,
+  INM images). They do not get through Cloudflare human checks (travel.state.gov), which must not be
+  bypassed; cite another official page and say so.
+- **Unverified items left on purpose**: Sri Lanka's Brazil fee (US$50/US$60) is from the visa-rule
+  agent's read of the fee table and the guide agent found no figure; Maldives' India row is
+  conservative (30 days on arrival) against India's own list showing 90; Armenia's Canada stay is null.
+Road food: `validate_road_eats.py` gained `--dry-run`; 20 new international routes were researched
+(18 merged with 1-4 eats per stop, deliberately thin). Egypt and Jeju have nothing that met the
+evidence bar after three attempts each; Dubai and Georgia + Armenia have a few. I removed from agent
+output, before merging, every eat whose only date was an image filename, upload folder, an undated
+tourism listing, an automatic footer, or a closing season the venue's own page did not date.
+`prisma/seed-additive.ts` and `update-visa-rules.ts` are the safe loaders; `npm run seed:eats` loads
+road food in place.
+
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via
