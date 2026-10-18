@@ -11946,7 +11946,9 @@
           "Check in and walk the Seine embankments toward Île de la Cité",
           "Evening in the Latin Quarter or Le Marais"
         ],
-        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)"
+        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -11956,7 +11958,9 @@
           "Walk the Tuileries Garden toward Place de la Concorde",
           "Evening stroll along the Seine"
         ],
-        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)"
+        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)",
+        "latitude": 48.861472,
+        "longitude": 2.336875
       },
       {
         "day_number": 3,
@@ -11968,7 +11972,9 @@
           "Return to Paris for the evening"
         ],
         "drive_time": "RER C from central Paris (check the timetable on the day)",
-        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)"
+        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)",
+        "latitude": 48.804425,
+        "longitude": 2.120285
       },
       {
         "day_number": 4,
@@ -11978,7 +11984,9 @@
           "Trocadéro viewpoint and the Champ de Mars",
           "Montmartre: Sacré-Cœur and the streets around Place du Tertre"
         ],
-        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)"
+        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)",
+        "latitude": 48.85826,
+        "longitude": 2.294501
       },
       {
         "day_number": 5,
@@ -11989,7 +11997,9 @@
           "Tours Cathedral (Cathédrale Saint-Gatien)"
         ],
         "drive_time": "TGV Paris Montparnasse to Tours, ~1 hr",
-        "lodging_suggestion": "Tours (old town or near Tours station)"
+        "lodging_suggestion": "Tours (old town or near Tours station)",
+        "latitude": 47.390047,
+        "longitude": 0.688927
       },
       {
         "day_number": 6,
@@ -12001,7 +12011,9 @@
           "Return to Tours by TER"
         ],
         "drive_time": "TER Tours to Amboise, ~19 min each way",
-        "lodging_suggestion": "Tours (old town or near Tours station)"
+        "lodging_suggestion": "Tours (old town or near Tours station)",
+        "latitude": 47.411035,
+        "longitude": 0.983698
       },
       {
         "day_number": 7,
@@ -12012,7 +12024,9 @@
           "Return to Tours by TER"
         ],
         "drive_time": "TER Tours to Chenonceaux, ~25 min each way",
-        "lodging_suggestion": "Tours (old town or near Tours station)"
+        "lodging_suggestion": "Tours (old town or near Tours station)",
+        "latitude": 47.329262,
+        "longitude": 1.06686
       },
       {
         "day_number": 8,
@@ -12022,7 +12036,9 @@
           "Depart from Paris"
         ],
         "drive_time": "TGV Tours to Paris Montparnasse, ~1 hr",
-        "lodging_suggestion": "Paris (near your departure station or airport)"
+        "lodging_suggestion": "Paris (near your departure station or airport)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -12085,7 +12101,9 @@
           "Pont Saint-Bénézet (the Pont d'Avignon) at sunset"
         ],
         "drive_time": "TGV Paris to Avignon, ~2 hr 40",
-        "lodging_suggestion": "Avignon (inside the walls)"
+        "lodging_suggestion": "Avignon (inside the walls)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -12095,7 +12113,9 @@
           "Rocher des Doms park above the Rhône",
           "Afternoon: Roussillon and Gordes in the Luberon are reached by bus or guided excursion, not by train (per the Avignon tourist office), so book a guided excursion or arrange a car"
         ],
-        "lodging_suggestion": "Avignon (inside the walls)"
+        "lodging_suggestion": "Avignon (inside the walls)",
+        "latitude": 43.950708,
+        "longitude": 4.807685
       },
       {
         "day_number": 3,
@@ -12107,7 +12127,9 @@
           "Notre-Dame de la Garde basilica for the harbour views"
         ],
         "drive_time": "TGV Avignon TGV to Marseille, ~30 min",
-        "lodging_suggestion": "Marseille (Vieux-Port area)"
+        "lodging_suggestion": "Marseille (Vieux-Port area)",
+        "latitude": 43.296399,
+        "longitude": 5.377789
       },
       {
         "day_number": 4,
@@ -12118,7 +12140,9 @@
           "By public transport: bus 22 to the Les Baumettes stop, then about an hour on foot to Morgiou (per the park's Morgiou page)",
           "Afternoon: Marseille Vieux-Port seafood dinner"
         ],
-        "lodging_suggestion": "Marseille (Vieux-Port area)"
+        "lodging_suggestion": "Marseille (Vieux-Port area)",
+        "latitude": 43.15222,
+        "longitude": 5.429133
       },
       {
         "day_number": 5,
@@ -12129,7 +12153,9 @@
           "Evening in Vieux Nice and the Cours Saleya"
         ],
         "drive_time": "Train Marseille to Nice, ~2 hr 40",
-        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)"
+        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)",
+        "latitude": 43.700936,
+        "longitude": 7.268391
       },
       {
         "day_number": 6,
@@ -12141,7 +12167,9 @@
           "Return to Nice by TER"
         ],
         "drive_time": "TER Nice to Monaco, ~23 min each way",
-        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)"
+        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)",
+        "latitude": 43.732349,
+        "longitude": 7.427683
       },
       {
         "day_number": 7,
@@ -12152,7 +12180,9 @@
           "Depart from Nice airport, or take the TGV to Paris (about 6 hours, per the Nice tourist office)"
         ],
         "drive_time": "TGV Nice to Paris, ~6 hr (if not flying)",
-        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)"
+        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)",
+        "latitude": 43.696755,
+        "longitude": 7.276923
       }
     ],
     "food_culture": [
@@ -12213,7 +12243,9 @@
           "Check in and walk the historic centre: Piazza Navona and the Trevi Fountain, both open public squares",
           "Evening meal in a trattoria in the centre"
         ],
-        "lodging_suggestion": "Rome (near Termini or the historic centre)"
+        "lodging_suggestion": "Rome (near Termini or the historic centre)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -12223,7 +12255,9 @@
           "The Forum and Palatine can be done before or after the Colosseum slot on the standard ticket",
           "Evening walk back through the centre"
         ],
-        "lodging_suggestion": "Rome (near Termini or the historic centre)"
+        "lodging_suggestion": "Rome (near Termini or the historic centre)",
+        "latitude": 41.890942,
+        "longitude": 12.491903
       },
       {
         "day_number": 3,
@@ -12233,7 +12267,9 @@
           "St Peter's Basilica is next door; check its own opening and dress rules before you go",
           "Afternoon free in the centre"
         ],
-        "lodging_suggestion": "Rome (near Termini or the historic centre)"
+        "lodging_suggestion": "Rome (near Termini or the historic centre)",
+        "latitude": 41.904961,
+        "longitude": 12.454662
       },
       {
         "day_number": 4,
@@ -12244,7 +12280,9 @@
           "Evening in the Oltrarno district across the Arno"
         ],
         "drive_time": "Italo Rome to Florence, ~1 hr 30",
-        "lodging_suggestion": "Florence (historic centre)"
+        "lodging_suggestion": "Florence (historic centre)",
+        "latitude": 43.769796,
+        "longitude": 11.25564
       },
       {
         "day_number": 5,
@@ -12254,7 +12292,9 @@
           "Galleria dell'Accademia (Michelangelo's David): book entry on the museum's official booking site via galleriaaccademiafirenze.it and check its opening days first; admission is free on the first Sunday of each month, and free days cannot be pre-booked",
           "Late afternoon on the Ponte Vecchio and along the Arno"
         ],
-        "lodging_suggestion": "Florence (historic centre)"
+        "lodging_suggestion": "Florence (historic centre)",
+        "latitude": 43.768772,
+        "longitude": 11.256172
       },
       {
         "day_number": 6,
@@ -12265,7 +12305,9 @@
           "Evening cicchetti round of the bacari (small bars) in Cannaregio or San Polo"
         ],
         "drive_time": "Italo Florence to Venice, ~2 hr 15",
-        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)"
+        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)",
+        "latitude": 45.437191,
+        "longitude": 12.33459
       },
       {
         "day_number": 7,
@@ -12275,7 +12317,9 @@
           "Venice's day-visitor access fee was charged only on set days in spring and summer 2026 (3 April to 26 July) and the city's portal said it no longer applied from 27 July; check cda.ve.it for the rules on your dates",
           "Wander the canals away from San Marco"
         ],
-        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)"
+        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)",
+        "latitude": 45.434253,
+        "longitude": 12.338204
       },
       {
         "day_number": 8,
@@ -12284,7 +12328,9 @@
           "Last morning in the city",
           "Rail onward, or depart from Venice by air (check the airport transfer in advance)"
         ],
-        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)"
+        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -12347,7 +12393,9 @@
           "Evening pizza in the old town"
         ],
         "drive_time": "Italo Rome to Naples, ~1 hr",
-        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)"
+        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -12356,7 +12404,9 @@
           "Museo Archeologico Nazionale di Napoli (MANN): closed Tuesdays (except some public holidays) and not every gallery is open every day while rooms are being renovated, so check the 'schedule of open rooms' on museoarcheologiconapoli.it and buy tickets through its official sales channel; admission is free on the first Sunday of the month",
           "Afternoon in the historic centre"
         ],
-        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)"
+        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)",
+        "latitude": 40.853606,
+        "longitude": 14.25115
       },
       {
         "day_number": 3,
@@ -12367,7 +12417,9 @@
           "Return to Naples by train"
         ],
         "drive_time": "Circumvesuviana Naples to Pompei Scavi, ~40 min each way",
-        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)"
+        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)",
+        "latitude": 40.750917,
+        "longitude": 14.488476
       },
       {
         "day_number": 4,
@@ -12378,7 +12430,9 @@
           "Check the last sailing back to Naples before you commit to an evening on the island"
         ],
         "drive_time": "SNAV fast ferry Naples to Capri, ~50 min each way",
-        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)"
+        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)",
+        "latitude": 40.548843,
+        "longitude": 14.228371
       },
       {
         "day_number": 5,
@@ -12389,7 +12443,9 @@
           "Amalfi's cathedral square and the lanes behind the harbour"
         ],
         "drive_time": "Italo ~35 min + Travelmar ferry ~30-35 min",
-        "lodging_suggestion": "Amalfi (town centre)"
+        "lodging_suggestion": "Amalfi (town centre)",
+        "latitude": 40.63367,
+        "longitude": 14.602609
       },
       {
         "day_number": 6,
@@ -12400,7 +12456,9 @@
           "Return to Amalfi by ferry or shuttle"
         ],
         "drive_time": "Travelmar Amalfi to Positano, ~30 min each way",
-        "lodging_suggestion": "Amalfi (town centre)"
+        "lodging_suggestion": "Amalfi (town centre)",
+        "latitude": 40.628658,
+        "longitude": 14.485496
       },
       {
         "day_number": 7,
@@ -12410,7 +12468,9 @@
           "Onward by train from Salerno (Italo Salerno to Naples, about 35 minutes) or depart by rail from Salerno"
         ],
         "drive_time": "Travelmar ferry ~35 min + Italo Salerno to Naples ~35 min",
-        "lodging_suggestion": "Salerno (near the station)"
+        "lodging_suggestion": "Salerno (near the station)",
+        "latitude": 40.68036,
+        "longitude": 14.759454
       }
     ],
     "food_culture": [
@@ -12466,7 +12526,9 @@
           "Check in and walk the Plaza Mayor area",
           "Evening tapas around the old centre, or a visit to the San Miguel market, a converted traditional market now a gourmet destination"
         ],
-        "lodging_suggestion": "Madrid (Centro or Retiro area)"
+        "lodging_suggestion": "Madrid (Centro or Retiro area)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -12476,7 +12538,9 @@
           "Retiro Park and the Paseo del Prado boulevard, together on the UNESCO World Heritage List",
           "Royal Palace; check opening days and any ceremonial closures on the official Patrimonio Nacional site"
         ],
-        "lodging_suggestion": "Madrid (Centro or Retiro area)"
+        "lodging_suggestion": "Madrid (Centro or Retiro area)",
+        "latitude": 40.413792,
+        "longitude": -3.692041
       },
       {
         "day_number": 3,
@@ -12487,7 +12551,9 @@
           "Return to Madrid in the evening"
         ],
         "drive_time": "Avant Madrid-Toledo, ~30 min each way",
-        "lodging_suggestion": "Madrid (Centro or Retiro area)"
+        "lodging_suggestion": "Madrid (Centro or Retiro area)",
+        "latitude": 39.855891,
+        "longitude": -4.024265
       },
       {
         "day_number": 4,
@@ -12498,7 +12564,9 @@
           "Evening tapas in Triana"
         ],
         "drive_time": "AVE Madrid-Seville, from ~2 hr 30",
-        "lodging_suggestion": "Seville (Santa Cruz or Centro)"
+        "lodging_suggestion": "Seville (Santa Cruz or Centro)",
+        "latitude": 37.385915,
+        "longitude": -5.993141
       },
       {
         "day_number": 5,
@@ -12508,7 +12576,9 @@
           "Plaza de Espana",
           "Evening flamenco at a tablao or neighbourhood peña; reserve ahead"
         ],
-        "lodging_suggestion": "Seville (Santa Cruz or Centro)"
+        "lodging_suggestion": "Seville (Santa Cruz or Centro)",
+        "latitude": 37.38321,
+        "longitude": -5.990183
       },
       {
         "day_number": 6,
@@ -12519,7 +12589,9 @@
           "Evening in the old town; tapas"
         ],
         "drive_time": "Avant Seville-Granada, ~2 hr 40",
-        "lodging_suggestion": "Granada (Albaicin or city centre)"
+        "lodging_suggestion": "Granada (Albaicin or city centre)",
+        "latitude": 37.17646,
+        "longitude": -3.599214
       },
       {
         "day_number": 7,
@@ -12528,7 +12600,9 @@
           "Alhambra and Generalife (World Heritage): buy tickets only through the official ticket site linked from alhambra-patronato.es and book well ahead; check the site for any timed-entry slots, opening days and ID rules",
           "Afternoon free in the Albaicin or Sacromonte"
         ],
-        "lodging_suggestion": "Granada (Albaicin or city centre)"
+        "lodging_suggestion": "Granada (Albaicin or city centre)",
+        "latitude": 37.176055,
+        "longitude": -3.58811
       },
       {
         "day_number": 8,
@@ -12538,7 +12612,9 @@
           "Depart from Madrid"
         ],
         "drive_time": "Granada-Madrid, from ~3 hr 30",
-        "lodging_suggestion": "Madrid (near Atocha or Barajas airport)"
+        "lodging_suggestion": "Madrid (near Atocha or Barajas airport)",
+        "latitude": 40.416782,
+        "longitude": -3.703507
       }
     ],
     "food_culture": [
@@ -12593,7 +12669,9 @@
         "activities": [
           "Check in and walk the old town, then La Boqueria, a traditional market"
         ],
-        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)"
+        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -12603,7 +12681,9 @@
           "Casa Batllo, one of the famous Gaudi sights; book ahead on its official site",
           "Park Guell; check the official site for ticketing"
         ],
-        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)"
+        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)",
+        "latitude": 41.403505,
+        "longitude": 2.174428
       },
       {
         "day_number": 3,
@@ -12613,7 +12693,9 @@
           "Afternoon in the old town",
           "Evening at a neighbourhood tapas bar"
         ],
-        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)"
+        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)",
+        "latitude": 41.364762,
+        "longitude": 2.154233
       },
       {
         "day_number": 4,
@@ -12623,7 +12705,9 @@
           "Evening in the old centre"
         ],
         "drive_time": "Euromed Barcelona-Valencia, ~2 hr 47 to 3 hr 26",
-        "lodging_suggestion": "Valencia (old town or near the Turia gardens)"
+        "lodging_suggestion": "Valencia (old town or near the Turia gardens)",
+        "latitude": 39.469707,
+        "longitude": -0.376335
       },
       {
         "day_number": 5,
@@ -12633,7 +12717,9 @@
           "La Lonja de la Seda (Silk Exchange), a World Heritage building with an orange-tree courtyard",
           "Paella lunch"
         ],
-        "lodging_suggestion": "Valencia (old town or near the Turia gardens)"
+        "lodging_suggestion": "Valencia (old town or near the Turia gardens)",
+        "latitude": 39.473492,
+        "longitude": -0.378905
       },
       {
         "day_number": 6,
@@ -12642,7 +12728,9 @@
           "City of Arts and Sciences by Santiago Calatrava and Felix Candela, including the Oceanografic, which the tourism board calls Europe's largest aquarium",
           "Sunset at the Albufera, a navigable lake beside the sea"
         ],
-        "lodging_suggestion": "Valencia (old town or near the Turia gardens)"
+        "lodging_suggestion": "Valencia (old town or near the Turia gardens)",
+        "latitude": 39.459054,
+        "longitude": -0.357156
       },
       {
         "day_number": 7,
@@ -12652,7 +12740,9 @@
           "Settle into Palma's old town"
         ],
         "drive_time": "Ferry Valencia-Palma, ~7 hr",
-        "lodging_suggestion": "Palma de Mallorca (old town)"
+        "lodging_suggestion": "Palma de Mallorca (old town)",
+        "latitude": 39.613432,
+        "longitude": 2.882919
       },
       {
         "day_number": 8,
@@ -12662,7 +12752,9 @@
           "Almudaina Palace and the Lonja (the Exchange) nearby",
           "Evening in the old town"
         ],
-        "lodging_suggestion": "Palma de Mallorca (old town)"
+        "lodging_suggestion": "Palma de Mallorca (old town)",
+        "latitude": 39.567473,
+        "longitude": 2.648168
       },
       {
         "day_number": 9,
@@ -12671,7 +12763,9 @@
           "Sierra de Tramuntana villages of Soller and Valldemossa, both described by Spain's tourism board; check local bus or hire-car options before you go, as travel times were not verified for this route",
           "Return to Palma"
         ],
-        "lodging_suggestion": "Palma de Mallorca (old town)"
+        "lodging_suggestion": "Palma de Mallorca (old town)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 10,
@@ -12679,7 +12773,9 @@
         "activities": [
           "Depart from Palma de Mallorca; check flight times back to the mainland or home"
         ],
-        "lodging_suggestion": "Palma (near the airport or the port)"
+        "lodging_suggestion": "Palma (near the airport or the port)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -12736,7 +12832,9 @@
           "Check in and walk the Baixa and Alfama districts toward the Sé (cathedral) and the miradouros (viewpoints)",
           "Evening dinner in Alfama; fado houses are in this district"
         ],
-        "lodging_suggestion": "Lisbon (Baixa or Alfama)"
+        "lodging_suggestion": "Lisbon (Baixa or Alfama)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -12746,7 +12844,9 @@
           "Belém Tower (Torre de Belém): also closed Mondays on the official site, with last entry at 17:00; buy tickets online or at the ticket office",
           "Pastel de nata in Belém and a walk along the Tagus waterfront"
         ],
-        "lodging_suggestion": "Lisbon (Baixa or Alfama)"
+        "lodging_suggestion": "Lisbon (Baixa or Alfama)",
+        "latitude": 38.697753,
+        "longitude": -9.205591
       },
       {
         "day_number": 3,
@@ -12758,7 +12858,9 @@
           "Return train to Lisbon in the evening"
         ],
         "drive_time": "CP train Lisboa Rossio to Sintra, ~40 min",
-        "lodging_suggestion": "Lisbon (Baixa or Alfama)"
+        "lodging_suggestion": "Lisbon (Baixa or Alfama)",
+        "latitude": 38.79846,
+        "longitude": -9.3881
       },
       {
         "day_number": 4,
@@ -12769,7 +12871,9 @@
           "Dom Luís I Bridge at sunset"
         ],
         "drive_time": "CP Alfa Pendular Lisbon to Porto, ~2 h 45 min",
-        "lodging_suggestion": "Porto (Ribeira or Baixa)"
+        "lodging_suggestion": "Porto (Ribeira or Baixa)",
+        "latitude": 41.150219,
+        "longitude": -8.61035
       },
       {
         "day_number": 5,
@@ -12779,7 +12883,9 @@
           "Porto Cathedral (Sé do Porto) and the old streets of the Ribeira",
           "Cross the Dom Luís I Bridge to Vila Nova de Gaia for a port lodge visit and tasting"
         ],
-        "lodging_suggestion": "Porto (Ribeira or Baixa)"
+        "lodging_suggestion": "Porto (Ribeira or Baixa)",
+        "latitude": 41.146893,
+        "longitude": -8.614787
       },
       {
         "day_number": 6,
@@ -12791,7 +12897,9 @@
           "Afternoon train back to Porto; the timetable shows departures from Pinhão at 14:07 and 18:11, and the trip back takes about 2 h 20 min, so confirm the arrival time at cp.pt"
         ],
         "drive_time": "CP Linha do Douro Porto Campanhã to Pinhão, ~2 h 15 min",
-        "lodging_suggestion": "Porto (Ribeira or Baixa)"
+        "lodging_suggestion": "Porto (Ribeira or Baixa)",
+        "latitude": 41.190378,
+        "longitude": -7.545144
       },
       {
         "day_number": 7,
@@ -12801,7 +12909,9 @@
           "Final evening in Lisbon (Chiado or Bairro Alto) or depart from Lisbon airport"
         ],
         "drive_time": "CP Alfa Pendular Porto to Lisbon, ~2 h 45 min",
-        "lodging_suggestion": "Lisbon (near your departure airport or station)"
+        "lodging_suggestion": "Lisbon (near your departure airport or station)",
+        "latitude": 38.708426,
+        "longitude": -9.136031
       }
     ],
     "food_culture": [
@@ -12862,7 +12972,9 @@
           "Check in and walk the Baixa, Chiado and the Tagus waterfront",
           "Early night: the Évora train leaves early on weekdays"
         ],
-        "lodging_suggestion": "Lisbon (near Lisboa Oriente or Baixa)"
+        "lodging_suggestion": "Lisbon (near Lisboa Oriente or Baixa)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -12873,7 +12985,9 @@
           "Évora Cathedral (Sé de Évora) and the Roman Temple"
         ],
         "drive_time": "CP Intercidades Lisboa Oriente to Évora, ~1 h 45",
-        "lodging_suggestion": "Évora (old town)"
+        "lodging_suggestion": "Évora (old town)",
+        "latitude": 38.590696,
+        "longitude": -7.957193
       },
       {
         "day_number": 3,
@@ -12883,7 +12997,9 @@
           "Walk the old town lanes at your own pace",
           "Alentejo dinner: ask for regional dishes at a restaurant in the old town"
         ],
-        "lodging_suggestion": "Évora (old town)"
+        "lodging_suggestion": "Évora (old town)",
+        "latitude": 38.568753,
+        "longitude": -7.908371
       },
       {
         "day_number": 4,
@@ -12894,7 +13010,9 @@
           "CP Intercidades Lisboa Oriente 14:02 to Faro 17:39 (daily, about 3 h 37), per CP's September 2026 timetable; book a seat at cp.pt in advance. The 08:23 Alfa Pendular reaches Faro at 11:27 and the 17:23 reaches it at 20:23 if you prefer another departure"
         ],
         "drive_time": "CP Évora to Lisbon ~1 h 45, then Lisbon to Faro ~3 h 35",
-        "lodging_suggestion": "Faro (near the station and old town)"
+        "lodging_suggestion": "Faro (near the station and old town)",
+        "latitude": 37.002721,
+        "longitude": -7.908688
       },
       {
         "day_number": 5,
@@ -12904,7 +13022,9 @@
           "Ria Formosa Natural Park: the lagoon and barrier islands lie directly south of Faro; check which boat operators run on the day",
           "Evening seafood dinner in Faro"
         ],
-        "lodging_suggestion": "Faro (near the station and old town)"
+        "lodging_suggestion": "Faro (near the station and old town)",
+        "latitude": 37.002721,
+        "longitude": -7.908688
       },
       {
         "day_number": 6,
@@ -12915,7 +13035,9 @@
           "Praia Dona Ana"
         ],
         "drive_time": "CP Algarve line Faro to Lagos, ~1 h 30",
-        "lodging_suggestion": "Lagos (old town)"
+        "lodging_suggestion": "Lagos (old town)",
+        "latitude": 37.102796,
+        "longitude": -8.672869
       },
       {
         "day_number": 7,
@@ -12925,7 +13047,9 @@
           "Boat tours of the grottoes are sold locally; ask about sea conditions on the day",
           "Beach afternoon at Meia Praia or Praia Dona Ana"
         ],
-        "lodging_suggestion": "Lagos (old town)"
+        "lodging_suggestion": "Lagos (old town)",
+        "latitude": 37.079195,
+        "longitude": -8.667784
       },
       {
         "day_number": 8,
@@ -12936,7 +13060,9 @@
           "Final evening in Lisbon"
         ],
         "drive_time": "CP Lagos to Faro ~1 h 30, then Faro to Lisbon ~3 h",
-        "lodging_suggestion": "Lisbon (near Lisboa Oriente or your departure airport)"
+        "lodging_suggestion": "Lisbon (near Lisboa Oriente or your departure airport)",
+        "latitude": 38.713531,
+        "longitude": -9.123452
       }
     ],
     "food_culture": [
@@ -12997,7 +13123,9 @@
           "Check in and walk the old streets of Plaka and the Anafiotika quarter below the Acropolis rock",
           "Evening meal in Plaka or Monastiraki"
         ],
-        "lodging_suggestion": "Athens (Plaka or Monastiraki)"
+        "lodging_suggestion": "Athens (Plaka or Monastiraki)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -13007,7 +13135,9 @@
           "Acropolis Museum at the foot of the hill; opening days and ticket prices were not verified, so check its official site",
           "Afternoon in Plaka and Monastiraki"
         ],
-        "lodging_suggestion": "Athens (Plaka or Monastiraki)"
+        "lodging_suggestion": "Athens (Plaka or Monastiraki)",
+        "latitude": 37.971689,
+        "longitude": 23.72632
       },
       {
         "day_number": 3,
@@ -13017,7 +13147,9 @@
           "National Archaeological Museum; opening days were not verified, so check its official site",
           "Evening walk or climb up Lycabettus Hill for views over the city"
         ],
-        "lodging_suggestion": "Athens (Plaka or Monastiraki)"
+        "lodging_suggestion": "Athens (Plaka or Monastiraki)",
+        "latitude": 37.97471,
+        "longitude": 23.722493
       },
       {
         "day_number": 4,
@@ -13028,7 +13160,9 @@
           "Evening in the town of Delphi"
         ],
         "drive_time": "KTEL bus Athens to Delphi, about 2.5 hours (Greek National Tourism Organisation)",
-        "lodging_suggestion": "Delphi (town centre)"
+        "lodging_suggestion": "Delphi (town centre)",
+        "latitude": 38.481154,
+        "longitude": 22.500549
       },
       {
         "day_number": 5,
@@ -13039,7 +13173,9 @@
           "Evening in Athens"
         ],
         "drive_time": "KTEL bus Delphi to Athens, about 2.5 hours",
-        "lodging_suggestion": "Athens (Plaka or Monastiraki)"
+        "lodging_suggestion": "Athens (Plaka or Monastiraki)",
+        "latitude": 37.975565,
+        "longitude": 23.734832
       },
       {
         "day_number": 6,
@@ -13050,7 +13186,9 @@
           "Bourtzi, the fortress on the islet of Agioi Theodoroi just off the waterfront"
         ],
         "drive_time": "KTEL bus Athens to Nafplio, about 1.5 to 2 hours (Greek National Tourism Organisation)",
-        "lodging_suggestion": "Nafplio (old town)"
+        "lodging_suggestion": "Nafplio (old town)",
+        "latitude": 37.565923,
+        "longitude": 22.806878
       },
       {
         "day_number": 7,
@@ -13062,7 +13200,9 @@
           "Return to Nafplio by bus"
         ],
         "drive_time": "Bus Nafplio to Epidaurus, about 1 hour each way (Greek National Tourism Organisation)",
-        "lodging_suggestion": "Nafplio (old town)"
+        "lodging_suggestion": "Nafplio (old town)",
+        "latitude": 37.562198,
+        "longitude": 22.80338
       },
       {
         "day_number": 8,
@@ -13072,7 +13212,9 @@
           "Allow generous time before an onward flight"
         ],
         "drive_time": "KTEL bus Nafplio to Athens, about 1.5 to 2 hours",
-        "lodging_suggestion": "Athens (near your departure point or airport)"
+        "lodging_suggestion": "Athens (near your departure point or airport)",
+        "latitude": 37.975565,
+        "longitude": 23.734832
       }
     ],
     "food_culture": [
@@ -13128,7 +13270,9 @@
           "Check in near Piraeus or central Athens so the ferry port is easy to reach next morning",
           "Evening walk in Plaka or around Piraeus harbour"
         ],
-        "lodging_suggestion": "Piraeus or central Athens"
+        "lodging_suggestion": "Piraeus or central Athens",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -13139,7 +13283,9 @@
           "Panagia Ekatontapyliani (the Church of a Hundred Doors) in Parikia"
         ],
         "drive_time": "Blue Star ferry Piraeus to Paros, 4 hours 10 minutes (Blue Star Ferries)",
-        "lodging_suggestion": "Parikia, Paros"
+        "lodging_suggestion": "Parikia, Paros",
+        "latitude": 37.084238,
+        "longitude": 25.150398
       },
       {
         "day_number": 3,
@@ -13149,7 +13295,9 @@
           "Lefkes, the hill village inland",
           "Local buses and rental cars run between the villages; no bus times were verified, so check on the island"
         ],
-        "lodging_suggestion": "Parikia, Paros"
+        "lodging_suggestion": "Parikia, Paros",
+        "latitude": 37.12352,
+        "longitude": 25.238741
       },
       {
         "day_number": 4,
@@ -13160,7 +13308,9 @@
           "Naxos Chora and its Venetian-era Kastro"
         ],
         "drive_time": "About 40 minutes high-speed in summer (ferries.gr listing of SeaJets); about 1 hour on the Blue Star conventional sailing",
-        "lodging_suggestion": "Naxos (Chora)"
+        "lodging_suggestion": "Naxos (Chora)",
+        "latitude": 37.102071,
+        "longitude": 25.376246
       },
       {
         "day_number": 5,
@@ -13170,7 +13320,9 @@
           "Halki and Apeiranthos, two of the island's mountain villages",
           "Local buses or a rental car are the way around; no bus times were verified, so check in Naxos town"
         ],
-        "lodging_suggestion": "Naxos (Chora)"
+        "lodging_suggestion": "Naxos (Chora)",
+        "latitude": 37.101593,
+        "longitude": 25.381024
       },
       {
         "day_number": 6,
@@ -13181,7 +13333,9 @@
           "Walk the caldera edge in Fira"
         ],
         "drive_time": "About 1 hour 30 minutes high-speed in summer (ferries.gr listing of SeaJets); about 2 hours 15 minutes to 2 hours 45 minutes on the Blue Star conventional sailing",
-        "lodging_suggestion": "Fira, Santorini"
+        "lodging_suggestion": "Fira, Santorini",
+        "latitude": 36.407111,
+        "longitude": 25.456664
       },
       {
         "day_number": 7,
@@ -13191,7 +13345,9 @@
           "Oia at the north tip of the island for sunset; it is crowded at the evening, so arrive early",
           "A Santorini winery visit; book ahead, hours not verified"
         ],
-        "lodging_suggestion": "Fira, Santorini"
+        "lodging_suggestion": "Fira, Santorini",
+        "latitude": 36.351793,
+        "longitude": 25.403487
       },
       {
         "day_number": 8,
@@ -13202,7 +13358,9 @@
           "Leave at least a full day of slack before an international flight home, because ferries are weather-dependent"
         ],
         "drive_time": "Blue Star ferry Santorini to Piraeus, from 6 hours 6 minutes (Blue Star Ferries)",
-        "lodging_suggestion": "Athens or Piraeus (near your departure point)"
+        "lodging_suggestion": "Athens or Piraeus (near your departure point)",
+        "latitude": 37.975565,
+        "longitude": 23.734832
       }
     ],
     "food_culture": [
@@ -13258,7 +13416,9 @@
           "Arrive and check in; ETA holders and visa holders should have their approval ready before boarding",
           "Evening walk along the South Bank from Westminster Bridge past the London Eye toward Tower Bridge"
         ],
-        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -13268,7 +13428,9 @@
           "Walk across Tower Bridge",
           "St Paul's Cathedral and the Millennium Bridge toward Tate Modern"
         ],
-        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
+        "latitude": 51.508543,
+        "longitude": -0.076902
       },
       {
         "day_number": 3,
@@ -13278,7 +13440,9 @@
           "St James's Park to Buckingham Palace",
           "The British Museum, which has free general entry (special exhibitions may be ticketed)"
         ],
-        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
+        "latitude": 51.500444,
+        "longitude": -0.12654
       },
       {
         "day_number": 4,
@@ -13290,7 +13454,9 @@
           "Return train to Paddington in the evening"
         ],
         "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
-        "drive_time": "GWR train, about 1 hr 20 min each way"
+        "drive_time": "GWR train, about 1 hr 20 min each way",
+        "latitude": 51.38172,
+        "longitude": -2.358671
       },
       {
         "day_number": 5,
@@ -13302,7 +13468,9 @@
           "Punting or a riverside walk on the Cherwell or Thames, then return to London"
         ],
         "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
-        "drive_time": "GWR train, about 1 hr each way"
+        "drive_time": "GWR train, about 1 hr each way",
+        "latitude": 51.752013,
+        "longitude": -1.25785
       },
       {
         "day_number": 6,
@@ -13312,7 +13480,9 @@
           "National Gallery on Trafalgar Square (free entry)",
           "Evening in the West End theatres; book seats in advance"
         ],
-        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 7,
@@ -13321,7 +13491,9 @@
           "Morning at leisure: Hyde Park and Kensington Gardens",
           "Travel to the airport for departure"
         ],
-        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -13383,7 +13555,9 @@
           "Walk the Royal Mile from Edinburgh Castle esplanade down toward Holyrood",
           "Evening in the Old Town or Grassmarket"
         ],
-        "lodging_suggestion": "Edinburgh (Old Town or New Town)"
+        "lodging_suggestion": "Edinburgh (Old Town or New Town)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -13393,7 +13567,9 @@
           "Holyrood Palace and Holyrood Park",
           "Walk up Arthur's Seat, the hill inside Holyrood Park (wear proper shoes and check the weather)"
         ],
-        "lodging_suggestion": "Edinburgh (Old Town or New Town)"
+        "lodging_suggestion": "Edinburgh (Old Town or New Town)",
+        "latitude": 55.948688,
+        "longitude": -3.200418
       },
       {
         "day_number": 3,
@@ -13404,7 +13580,9 @@
           "Evening in the city centre"
         ],
         "lodging_suggestion": "Inverness",
-        "drive_time": "ScotRail train, about 3 hrs 45 min"
+        "drive_time": "ScotRail train, about 3 hrs 45 min",
+        "latitude": 57.479012,
+        "longitude": -4.225739
       },
       {
         "day_number": 4,
@@ -13414,7 +13592,9 @@
           "Check in and walk around Portree harbour"
         ],
         "lodging_suggestion": "Portree, Isle of Skye",
-        "drive_time": "Citylink bus, about 3-3.5 hrs"
+        "drive_time": "Citylink bus, about 3-3.5 hrs",
+        "latitude": 57.362994,
+        "longitude": -6.302322
       },
       {
         "day_number": 5,
@@ -13424,7 +13604,9 @@
           "Dunvegan Castle on the west coast",
           "Evening in Portree"
         ],
-        "lodging_suggestion": "Portree, Isle of Skye"
+        "lodging_suggestion": "Portree, Isle of Skye",
+        "latitude": 57.417814,
+        "longitude": -6.20992
       },
       {
         "day_number": 6,
@@ -13435,7 +13617,9 @@
           "Evening in Fort William beneath Ben Nevis"
         ],
         "lodging_suggestion": "Fort William",
-        "drive_time": "CalMac ferry, about 30-45 min; then West Highland Line train"
+        "drive_time": "CalMac ferry, about 30-45 min; then West Highland Line train",
+        "latitude": 57.006132,
+        "longitude": -5.829449
       },
       {
         "day_number": 7,
@@ -13446,7 +13630,9 @@
           "Arrive Glasgow for the evening, with onward travel or a flight home next day"
         ],
         "lodging_suggestion": "Glasgow",
-        "drive_time": "ScotRail train, about 3 hrs 50 min"
+        "drive_time": "ScotRail train, about 3 hrs 50 min",
+        "latitude": 55.861155,
+        "longitude": -4.250169
       }
     ],
     "food_culture": [
@@ -13506,7 +13692,9 @@
           "Check in and walk the Stanley Park seawall or Granville Island to ease into the time zone",
           "Evening in Gastown"
         ],
-        "lodging_suggestion": "Vancouver (downtown)"
+        "lodging_suggestion": "Vancouver (downtown)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -13516,7 +13704,9 @@
           "Granville Island public market and waterfront",
           "Wander Gastown and Coal Harbour"
         ],
-        "lodging_suggestion": "Vancouver (downtown)"
+        "lodging_suggestion": "Vancouver (downtown)",
+        "latitude": 49.260872,
+        "longitude": -123.113952
       },
       {
         "day_number": 3,
@@ -13527,7 +13717,9 @@
           "Walk Whistler Village, which is pedestrian-only (Tourism Whistler)"
         ],
         "drive_time": "Vancouver to Whistler ~2 hr by road (Destination Vancouver)",
-        "lodging_suggestion": "Whistler Village"
+        "lodging_suggestion": "Whistler Village",
+        "latitude": 50.044904,
+        "longitude": -123.125999
       },
       {
         "day_number": 4,
@@ -13537,7 +13729,9 @@
           "Fly Vancouver to Calgary; check airline schedules for current flight times and book a rental car from Calgary airport for the Rockies"
         ],
         "drive_time": "Whistler to Vancouver ~2 hr by road",
-        "lodging_suggestion": "Calgary (near the airport) or Canmore"
+        "lodging_suggestion": "Calgary (near the airport) or Canmore",
+        "latitude": 49.260872,
+        "longitude": -123.113952
       },
       {
         "day_number": 5,
@@ -13548,7 +13742,9 @@
           "Walk Banff Avenue and the Bow River; parking in town fills early, so Roam transit or walking is easier"
         ],
         "drive_time": "Calgary to Banff ~1.5 hr (Town of Banff)",
-        "lodging_suggestion": "Banff (town)"
+        "lodging_suggestion": "Banff (town)",
+        "latitude": 51.175076,
+        "longitude": -115.572077
       },
       {
         "day_number": 6,
@@ -13558,7 +13754,9 @@
           "Park free at the Lake Louise Park and Ride if you hold a shuttle reservation; the Lakeshore lot often fills before sunrise",
           "Lake Louise lakeshore walk"
         ],
-        "lodging_suggestion": "Banff (town) or Lake Louise"
+        "lodging_suggestion": "Banff (town) or Lake Louise",
+        "latitude": 51.424967,
+        "longitude": -116.177535
       },
       {
         "day_number": 7,
@@ -13571,7 +13769,9 @@
           "Services run early May to mid-October only; in winter there are no services between Lake Louise and Jasper. A national parks pass is required to drive the parkway. Check 511 Alberta before departing"
         ],
         "drive_time": "Banff to Lake Louise, then 232 km to Jasper; a full day with stops (Parks Canada gives distances, not a drive time)",
-        "lodging_suggestion": "Jasper (town)"
+        "lodging_suggestion": "Jasper (town)",
+        "latitude": 52.875234,
+        "longitude": -118.082429
       },
       {
         "day_number": 8,
@@ -13581,7 +13781,9 @@
           "Maligne Canyon and Cavell Road (Cavell Meadows) are listed by Parks Canada as closed for the 2026 season while rehabilitation continues, so do not plan around them without checking",
           "Walk the town of Jasper"
         ],
-        "lodging_suggestion": "Jasper (town)"
+        "lodging_suggestion": "Jasper (town)",
+        "latitude": 52.661302,
+        "longitude": -117.528206
       },
       {
         "day_number": 9,
@@ -13591,7 +13793,9 @@
           "Continue to Calgary airport (Banff to Calgary about 1.5 hr); give yourself a night in Calgary or Banff if you have a morning flight"
         ],
         "drive_time": "Jasper to Lake Louise 232 km; Banff to Calgary ~1.5 hr (Town of Banff)",
-        "lodging_suggestion": "Calgary (near the airport)"
+        "lodging_suggestion": "Calgary (near the airport)",
+        "latitude": 49.260872,
+        "longitude": -123.113952
       }
     ],
     "food_culture": [
@@ -13642,7 +13846,9 @@
           "Check in downtown near Union Station, which is the hub for GO and VIA trains",
           "Evening walk on the waterfront or in the Distillery District"
         ],
-        "lodging_suggestion": "Toronto (near Union Station)"
+        "lodging_suggestion": "Toronto (near Union Station)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -13652,7 +13858,9 @@
           "St. Lawrence Market South Market: the market's own site lists Tuesday to Friday 9am to 7pm, Saturday 7am to 5pm, Sunday 10am to 5pm and Monday closed, so check current hours before you go",
           "Kensington Market and Chinatown on foot"
         ],
-        "lodging_suggestion": "Toronto (near Union Station)"
+        "lodging_suggestion": "Toronto (near Union Station)",
+        "latitude": 43.653482,
+        "longitude": -79.383935
       },
       {
         "day_number": 3,
@@ -13663,7 +13871,9 @@
           "Walk the Niagara Parkway viewpoints, then return to Toronto in the evening"
         ],
         "drive_time": "Toronto to Niagara Falls: VIA ~2 hr average (132 km); GO timetable varies",
-        "lodging_suggestion": "Toronto (near Union Station)"
+        "lodging_suggestion": "Toronto (near Union Station)",
+        "latitude": 43.078413,
+        "longitude": -79.074327
       },
       {
         "day_number": 4,
@@ -13673,7 +13883,9 @@
           "Evening in Old Montréal (Vieux-Montréal)"
         ],
         "drive_time": "Toronto to Montréal by VIA Rail ~5 hr 13 min average (538 km)",
-        "lodging_suggestion": "Montréal (Old Montréal or downtown)"
+        "lodging_suggestion": "Montréal (Old Montréal or downtown)",
+        "latitude": 45.503182,
+        "longitude": -73.569806
       },
       {
         "day_number": 5,
@@ -13683,7 +13895,9 @@
           "Mount Royal on foot",
           "Old Port and Vieux-Montréal streets"
         ],
-        "lodging_suggestion": "Montréal (Old Montréal or downtown)"
+        "lodging_suggestion": "Montréal (Old Montréal or downtown)",
+        "latitude": 45.503182,
+        "longitude": -73.569806
       },
       {
         "day_number": 6,
@@ -13693,7 +13907,9 @@
           "Afternoon in Old Québec: Dufferin Terrace and the Château Frontenac exterior; walk Petit Champlain"
         ],
         "drive_time": "Montréal to Québec City by VIA Rail ~3 hr 26 min average (270 km)",
-        "lodging_suggestion": "Québec City (Old Québec)"
+        "lodging_suggestion": "Québec City (Old Québec)",
+        "latitude": 46.813743,
+        "longitude": -71.208406
       },
       {
         "day_number": 7,
@@ -13703,7 +13919,9 @@
           "In summer the Citadelle's 10am Changing of the Guard and Music in Red show runs on set days (the Citadelle's 2026 calendar was Wednesday to Sunday, 24 June to 30 August, with exceptions): check its own site for your dates",
           "Walk the ramparts of the old city"
         ],
-        "lodging_suggestion": "Québec City (Old Québec)"
+        "lodging_suggestion": "Québec City (Old Québec)",
+        "latitude": 46.813743,
+        "longitude": -71.208406
       },
       {
         "day_number": 8,
@@ -13712,7 +13930,9 @@
           "Depart from Québec City; to head back to Montréal or Toronto use VIA Rail (Québec City to Montréal about 3 h 26 min on average) and check onward flight times"
         ],
         "drive_time": "Québec City to Montréal by VIA Rail ~3 hr 26 min average",
-        "lodging_suggestion": "Québec City (Old Québec)"
+        "lodging_suggestion": "Québec City (Old Québec)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -13770,7 +13990,9 @@
           "Check in and walk Circular Quay and The Rocks",
           "Evening by the harbour with the Opera House in view"
         ],
-        "lodging_suggestion": "Sydney (near Circular Quay or Central station)"
+        "lodging_suggestion": "Sydney (near Circular Quay or Central station)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -13780,7 +14002,9 @@
           "Royal Botanic Garden Sydney, along the harbour edge",
           "Afternoon: the Bondi to Coogee coastal walk"
         ],
-        "lodging_suggestion": "Sydney (near Circular Quay or Central station)"
+        "lodging_suggestion": "Sydney (near Circular Quay or Central station)",
+        "latitude": -33.857198,
+        "longitude": 151.215123
       },
       {
         "day_number": 3,
@@ -13792,7 +14016,9 @@
           "Return to Sydney by train"
         ],
         "drive_time": "Train Sydney Central to Katoomba, ~90 min express / up to 2 hr all stops",
-        "lodging_suggestion": "Sydney (near Circular Quay or Central station)"
+        "lodging_suggestion": "Sydney (near Circular Quay or Central station)",
+        "latitude": -33.609741,
+        "longitude": 150.405224
       },
       {
         "day_number": 4,
@@ -13803,7 +14029,9 @@
           "Evening on the Yarra riverfront"
         ],
         "drive_time": "Flight Sydney to Melbourne, ~1 hr 35",
-        "lodging_suggestion": "Melbourne (CBD)"
+        "lodging_suggestion": "Melbourne (CBD)",
+        "latitude": -37.814245,
+        "longitude": 144.963173
       },
       {
         "day_number": 5,
@@ -13813,7 +14041,9 @@
           "Royal Botanic Gardens Victoria and the Shrine of Remembrance area",
           "Late afternoon: collect a hire car for the next two days (book ahead; an open-jaw or one-way rental should be priced with the hire company)"
         ],
-        "lodging_suggestion": "Melbourne (CBD)"
+        "lodging_suggestion": "Melbourne (CBD)",
+        "latitude": -37.806916,
+        "longitude": 144.958949
       },
       {
         "day_number": 6,
@@ -13825,7 +14055,9 @@
           "Check VicEmergency and VicTraffic the morning you travel, as the official site advises"
         ],
         "drive_time": "Melbourne to Torquay ~1 hr 17; full Melbourne to Twelve Apostles coast drive ~4 hr (275 km)",
-        "lodging_suggestion": "Apollo Bay"
+        "lodging_suggestion": "Apollo Bay",
+        "latitude": -38.326655,
+        "longitude": 144.313408
       },
       {
         "day_number": 7,
@@ -13835,7 +14067,9 @@
           "Continue along the coast to Port Campbell for the night"
         ],
         "drive_time": "Apollo Bay to the Twelve Apostles: no official time found; the full Melbourne to Twelve Apostles run is ~4 hr",
-        "lodging_suggestion": "Port Campbell"
+        "lodging_suggestion": "Port Campbell",
+        "latitude": -38.664567,
+        "longitude": 143.110198
       },
       {
         "day_number": 8,
@@ -13845,7 +14079,9 @@
           "Return the hire car and have a last evening in Melbourne"
         ],
         "drive_time": "Twelve Apostles to Melbourne, ~4 hr (275 km, per Visit Great Ocean Road)",
-        "lodging_suggestion": "Melbourne (CBD)"
+        "lodging_suggestion": "Melbourne (CBD)",
+        "latitude": -37.814245,
+        "longitude": 144.963173
       },
       {
         "day_number": 9,
@@ -13854,7 +14090,9 @@
           "Depart from Melbourne, or fly back to Sydney (about 1 hr 25 min per Virgin Australia) for an international connection"
         ],
         "drive_time": "Flight Melbourne to Sydney, ~1 hr 25",
-        "lodging_suggestion": "Melbourne (near the airport or CBD)"
+        "lodging_suggestion": "Melbourne (near the airport or CBD)",
+        "latitude": null,
+        "longitude": null
       }
     ],
     "food_culture": [
@@ -13917,7 +14155,9 @@
           "Fly into Alice Springs (Tourism NT describes it as only a few hours' flying time from Australian capital cities) and pick up a hire car; Parks Australia notes cars can be hired at Alice Springs, Yulara or Ayers Rock airport, and that cars at Yulara are limited, so confirm any one-way drop-off terms with the hire company before booking",
           "Visit Alice Springs' Aboriginal art galleries, which Tourism NT highlights"
         ],
-        "lodging_suggestion": "Alice Springs"
+        "lodging_suggestion": "Alice Springs",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -13928,7 +14168,9 @@
           "Ellery Creek Big Hole, a popular picnic, walking and swimming spot in Tjoritja / West MacDonnell National Park (Tourism NT also names Ormiston Gorge and Glen Helen for swimming)"
         ],
         "drive_time": "Alice Springs to Glen Helen, 132 km (Tourism NT; no time stated)",
-        "lodging_suggestion": "Glen Helen (West MacDonnell Ranges)"
+        "lodging_suggestion": "Glen Helen (West MacDonnell Ranges)",
+        "latitude": -23.677705,
+        "longitude": 132.669573
       },
       {
         "day_number": 3,
@@ -13939,7 +14181,9 @@
           "Settle in at Kings Canyon / Watarrka National Park and watch the canyon colours change at sunset"
         ],
         "drive_time": "Glen Helen to Kings Canyon, 234 km (Tourism NT; no time stated)",
-        "lodging_suggestion": "Kings Canyon (Watarrka National Park)"
+        "lodging_suggestion": "Kings Canyon (Watarrka National Park)",
+        "latitude": -24.25031,
+        "longitude": 131.577945
       },
       {
         "day_number": 4,
@@ -13950,7 +14194,9 @@
           "Check in at Yulara (Ayers Rock Resort); buy your Uluru-Kata Tjuta park pass online before entering the park"
         ],
         "drive_time": "Kings Canyon to Uluru, 300 km (Tourism NT; no time stated)",
-        "lodging_suggestion": "Yulara (Ayers Rock Resort)"
+        "lodging_suggestion": "Yulara (Ayers Rock Resort)",
+        "latitude": -25.345554,
+        "longitude": 131.036961
       },
       {
         "day_number": 5,
@@ -13963,7 +14209,9 @@
           "Ayers Rock Resort to Uluru is about 20 minutes' drive (Parks Australia)"
         ],
         "drive_time": "Ayers Rock Resort to Uluru, ~20 min",
-        "lodging_suggestion": "Yulara (Ayers Rock Resort)"
+        "lodging_suggestion": "Yulara (Ayers Rock Resort)",
+        "latitude": -25.345554,
+        "longitude": 131.036961
       },
       {
         "day_number": 6,
@@ -13973,7 +14221,9 @@
           "Do not climb Uluru: the climb closed permanently on 26 October 2019 and Parks Australia states penalties apply",
           "Carry at least one litre of water per person per hour (Parks Australia's heat-safety advice); in summer it strongly recommends not walking after 11.00am"
         ],
-        "lodging_suggestion": "Yulara (Ayers Rock Resort)"
+        "lodging_suggestion": "Yulara (Ayers Rock Resort)",
+        "latitude": -25.337011,
+        "longitude": 131.048479
       },
       {
         "day_number": 7,
@@ -13985,7 +14235,9 @@
           "Resort to Kata Tjuta is about 45 minutes' drive (Parks Australia); the 3-day pass bought on Day 5 covers this day"
         ],
         "drive_time": "Ayers Rock Resort to Kata Tjuta, ~45 min",
-        "lodging_suggestion": "Yulara (Ayers Rock Resort)"
+        "lodging_suggestion": "Yulara (Ayers Rock Resort)",
+        "latitude": -25.2993,
+        "longitude": 130.740642
       },
       {
         "day_number": 8,
@@ -13995,7 +14247,9 @@
           "Return any one-way hire car at the airport if arranged with the hire company"
         ],
         "drive_time": "Ayers Rock Resort to the airport, ~10 min",
-        "lodging_suggestion": "Yulara (near Ayers Rock airport)"
+        "lodging_suggestion": "Yulara (near Ayers Rock airport)",
+        "latitude": -25.190682,
+        "longitude": 130.976733
       }
     ],
     "food_culture": [
@@ -14058,7 +14312,9 @@
           "Evening walk at the V&A Waterfront"
         ],
         "drive_time": "Airport to city, ~40 min (operator estimate)",
-        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)"
+        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -14068,7 +14324,9 @@
           "Afternoon: Table Mountain Aerial Cableway. It runs weather permitting and may close in bad weather; check the live status on tablemountain.net or the official app before going up. Tickets can be bought online (Webtickets); standard tickets are valid for 7 days and Fast Track tickets book a specific timeslot.",
           "If either is closed by weather, swap the order or move it to the next free morning"
         ],
-        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)"
+        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)",
+        "latitude": -33.8053,
+        "longitude": 18.368883
       },
       {
         "day_number": 3,
@@ -14078,7 +14336,9 @@
           "Boulders Penguin Colony, Simon's Town: African penguins viewed from boardwalks (a daily conservation fee is payable and parking is limited in peak summer, per SANParks)",
           "Whale season (southern right whales, June to November per Cape Town Tourism): Cape Point and Boyes Drive between St James and Kalk Bay are named as higher vantage points on the False Bay coast"
         ],
-        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)"
+        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)",
+        "latitude": -34.357395,
+        "longitude": 18.497788
       },
       {
         "day_number": 4,
@@ -14089,7 +14349,9 @@
           "Dinner in Franschhoek village"
         ],
         "drive_time": "Cape Town to Franschhoek, just over 1 hr (operator estimate)",
-        "lodging_suggestion": "Franschhoek"
+        "lodging_suggestion": "Franschhoek",
+        "latitude": -33.907268,
+        "longitude": 19.115426
       },
       {
         "day_number": 5,
@@ -14100,7 +14362,9 @@
           "Early night: tomorrow is the longest drive of the trip"
         ],
         "drive_time": "Franschhoek to Robertson, ~90 min (operator estimate)",
-        "lodging_suggestion": "Robertson"
+        "lodging_suggestion": "Robertson",
+        "latitude": -33.803585,
+        "longitude": 19.881622
       },
       {
         "day_number": 6,
@@ -14110,7 +14374,9 @@
           "Afternoon in the Klein Karoo: an ostrich-farm tour near Oudtshoorn (book with the farm; opening times vary)"
         ],
         "drive_time": "Robertson to Oudtshoorn, ~3.5 hr via Route 62 (operator estimate)",
-        "lodging_suggestion": "Oudtshoorn"
+        "lodging_suggestion": "Oudtshoorn",
+        "latitude": -33.590295,
+        "longitude": 22.204206
       },
       {
         "day_number": 7,
@@ -14121,7 +14387,9 @@
           "Evening on the beach at Plettenberg Bay"
         ],
         "drive_time": "Oudtshoorn to Plettenberg Bay, ~2.5 hr (operator estimate)",
-        "lodging_suggestion": "Plettenberg Bay"
+        "lodging_suggestion": "Plettenberg Bay",
+        "latitude": -34.052778,
+        "longitude": 23.369444
       },
       {
         "day_number": 8,
@@ -14132,7 +14400,9 @@
           "Return to Plettenberg Bay for the night"
         ],
         "drive_time": "Plettenberg Bay to Tsitsikamma, ~35 min each way (operator estimate)",
-        "lodging_suggestion": "Plettenberg Bay"
+        "lodging_suggestion": "Plettenberg Bay",
+        "latitude": -34.001389,
+        "longitude": 23.480556
       },
       {
         "day_number": 9,
@@ -14142,7 +14412,9 @@
           "Drive to George Airport, 70 km from Knysna per SANParks, where all the major car-hire companies have offices; fly onward from there"
         ],
         "drive_time": "Plettenberg Bay to Knysna ~30 min; Knysna to George 70 km (SANParks)",
-        "lodging_suggestion": "George (airport) or fly out"
+        "lodging_suggestion": "George (airport) or fly out",
+        "latitude": -34.035734,
+        "longitude": 23.048485
       }
     ],
     "food_culture": [
@@ -14206,7 +14478,9 @@
           "Complete the SARS online traveller declaration before you travel (mandatory for all travellers since 1 July 2026)",
           "Rest day: the Kruger days start early"
         ],
-        "lodging_suggestion": "Johannesburg (near OR Tambo or Rosebank)"
+        "lodging_suggestion": "Johannesburg (near OR Tambo or Rosebank)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -14215,7 +14489,9 @@
           "Apartheid Museum: open Tuesday to Sunday 09:00 to 17:00 and most public holidays (so closed Mondays); book tickets online",
           "Constitution Hill, the former prison and fort that now houses the Constitutional Court: open 9am to 5pm daily per its own site; guided tours of the Old Fort and Women's Jail can be booked through the site"
         ],
-        "lodging_suggestion": "Johannesburg"
+        "lodging_suggestion": "Johannesburg",
+        "latitude": -26.237537,
+        "longitude": 28.00847
       },
       {
         "day_number": 3,
@@ -14225,7 +14501,9 @@
           "Vilakazi Street in Orlando West, where Nelson Mandela's former home is a museum; check its hours and book a guide in advance",
           "Many visitors join a guided Soweto tour; use a guide who is registered and booked in advance"
         ],
-        "lodging_suggestion": "Johannesburg"
+        "lodging_suggestion": "Johannesburg",
+        "latitude": -26.222778,
+        "longitude": 27.89
       },
       {
         "day_number": 4,
@@ -14237,7 +14515,9 @@
           "Late-afternoon self-drive on the tourist roads near the camp"
         ],
         "drive_time": "Flight OR Tambo to Skukuza, ~1 hr (Airlink); alternative drive 428 km to Malelane Gate (SANParks)",
-        "lodging_suggestion": "Skukuza Rest Camp (SANParks)"
+        "lodging_suggestion": "Skukuza Rest Camp (SANParks)",
+        "latitude": -24.993593,
+        "longitude": 31.59563
       },
       {
         "day_number": 5,
@@ -14248,7 +14528,9 @@
           "Check in to Lower Sabie Rest Camp before the gates close"
         ],
         "drive_time": "Lower Sabie is 1 hr from Crocodile Bridge gate and 1 hr 30 from Paul Kruger gate at minimum legal speeds (SANParks)",
-        "lodging_suggestion": "Lower Sabie Rest Camp (SANParks)"
+        "lodging_suggestion": "Lower Sabie Rest Camp (SANParks)",
+        "latitude": -25.120192,
+        "longitude": 31.91675
       },
       {
         "day_number": 6,
@@ -14258,7 +14540,9 @@
           "Book a guided game drive through SANParks (listed under Kruger activities), which is the way to see the park at night or at dawn",
           "Bush braai or a camp meal; SANParks also lists Bush Braais & Breakfasts as an activity"
         ],
-        "lodging_suggestion": "Lower Sabie Rest Camp (SANParks)"
+        "lodging_suggestion": "Lower Sabie Rest Camp (SANParks)",
+        "latitude": -25.120192,
+        "longitude": 31.91675
       },
       {
         "day_number": 7,
@@ -14268,7 +14552,9 @@
           "Skukuza has resident doctors and its day-visitor area has a swimming pool, per SANParks",
           "Early night before the flight"
         ],
-        "lodging_suggestion": "Skukuza Rest Camp (SANParks)"
+        "lodging_suggestion": "Skukuza Rest Camp (SANParks)",
+        "latitude": -24.995261,
+        "longitude": 31.594557
       },
       {
         "day_number": 8,
@@ -14278,7 +14564,9 @@
           "Connect to your onward flight from OR Tambo, leaving a generous margin after the flight"
         ],
         "drive_time": "Flight Skukuza to OR Tambo (SANParks lists a 13:20 departure; Airlink's Johannesburg to Skukuza flights are about 1 hr)",
-        "lodging_suggestion": "Johannesburg (OR Tambo) or fly out"
+        "lodging_suggestion": "Johannesburg (OR Tambo) or fly out",
+        "latitude": -26.205,
+        "longitude": 28.049722
       }
     ],
     "food_culture": [
@@ -14340,7 +14628,9 @@
           "Gyeongbokgung Palace: closed every Tuesday (if a public holiday falls on a Tuesday the palace opens and the closure moves to the next non-holiday), with seasonal opening hours listed on royalpalace.go.kr, so check the hours for your month. Visit Seoul says entry is free if you wear a hanbok.",
           "Changing of the Royal Guard at the palace, listed by VisitKorea at 10:00 and 14:00 and not held on Tuesdays; confirm the day's schedule before going"
         ],
-        "lodging_suggestion": "Seoul (central, near the palaces)"
+        "lodging_suggestion": "Seoul (central, near the palaces)",
+        "latitude": null,
+        "longitude": null
       },
       {
         "day_number": 2,
@@ -14350,7 +14640,9 @@
           "Gwangjang Market for a street-food lunch",
           "Evening at Namsan and N Seoul Tower"
         ],
-        "lodging_suggestion": "Seoul (central, near the palaces)"
+        "lodging_suggestion": "Seoul (central, near the palaces)",
+        "latitude": 37.582392,
+        "longitude": 126.985865
       },
       {
         "day_number": 3,
@@ -14362,7 +14654,9 @@
           "Return to Seoul in the evening"
         ],
         "drive_time": "Guided tour from Imjingak; tour operators set the schedule, so confirm the pick-up and return times when you book",
-        "lodging_suggestion": "Seoul (central, near the palaces)"
+        "lodging_suggestion": "Seoul (central, near the palaces)",
+        "latitude": 37.889445,
+        "longitude": 126.743462
       },
       {
         "day_number": 4,
@@ -14373,7 +14667,9 @@
           "Evening walk among the tumuli of Daereungwon and Cheomseongdae observatory"
         ],
         "drive_time": "KTX Seoul to Singyeongju, ~2 hr 10 min",
-        "lodging_suggestion": "Gyeongju (near Daereungwon)"
+        "lodging_suggestion": "Gyeongju (near Daereungwon)",
+        "latitude": 35.798269,
+        "longitude": 129.138963
       },
       {
         "day_number": 5,
@@ -14383,7 +14679,9 @@
           "Donggung Palace and Wolji Pond",
           "Gyeongju National Museum, for Silla-era collections"
         ],
-        "lodging_suggestion": "Gyeongju (near Daereungwon)"
+        "lodging_suggestion": "Gyeongju (near Daereungwon)",
+        "latitude": 35.785812,
+        "longitude": 129.328856
       },
       {
         "day_number": 6,
@@ -14394,7 +14692,9 @@
           "Seafood dinner near Haeundae"
         ],
         "drive_time": "KTX Singyeongju to Busan, ~30 min",
-        "lodging_suggestion": "Busan (Haeundae)"
+        "lodging_suggestion": "Busan (Haeundae)",
+        "latitude": 35.179953,
+        "longitude": 129.075236
       },
       {
         "day_number": 7,
@@ -14404,7 +14704,9 @@
           "Jagalchi Market, Busan's waterfront seafood market",
           "Haedong Yonggungsa, a seaside temple on the east coast"
         ],
-        "lodging_suggestion": "Busan (Haeundae)"
+        "lodging_suggestion": "Busan (Haeundae)",
+        "latitude": 35.096337,
+        "longitude": 129.00879
       },
       {
         "day_number": 8,
@@ -14414,7 +14716,9 @@
           "Connect to Incheon or Gimpo airport for departure, leaving a generous buffer for the rail leg"
         ],
         "drive_time": "KTX Busan to Seoul, ~3 hr (VisitKorea; check Korail)",
-        "lodging_suggestion": "Seoul (near your departure airport)"
+        "lodging_suggestion": "Seoul (near your departure airport)",
+        "latitude": 37.566679,
+        "longitude": 126.978291
       }
     ],
     "food_culture": [
@@ -14472,7 +14776,9 @@
           "Evening in Jeju City"
         ],
         "drive_time": "Seoul to Jeju flight, ~1 hr 15 min on the Incheon route (VisitKorea)",
-        "lodging_suggestion": "Jeju City"
+        "lodging_suggestion": "Jeju City",
+        "latitude": 33.499829,
+        "longitude": 126.53139
       },
       {
         "day_number": 2,
@@ -14482,7 +14788,9 @@
           "Coastal walk along the east shore",
           "Early night before the Hallasan climb"
         ],
-        "lodging_suggestion": "Seogwipo or east Jeju"
+        "lodging_suggestion": "Seogwipo or east Jeju",
+        "latitude": 33.458889,
+        "longitude": 126.940818
       },
       {
         "day_number": 3,
@@ -14494,7 +14802,9 @@
           "The summit is 1,950 m; the trail page warns of thin air and recommends the Eorimok or Yeongsil trails (about 1,700 m) for inexperienced hikers; the trail can close in severe weather",
           "The Gwaneumsa Trail is the other summit route; its Samgakbong to Baengnokdam section was closed 1 August to 30 September 2026 for rockfall-prevention works"
         ],
-        "lodging_suggestion": "Seogwipo or Jeju City"
+        "lodging_suggestion": "Seogwipo or Jeju City",
+        "latitude": 33.361754,
+        "longitude": 126.529198
       },
       {
         "day_number": 4,
@@ -14504,7 +14814,9 @@
           "Slow day on the coast after the climb",
           "Look into Jeju's haenyeo (women divers) culture, which UNESCO inscribed in 2016; visitjeju.net lists where it can be seen"
         ],
-        "lodging_suggestion": "Jeju City"
+        "lodging_suggestion": "Jeju City",
+        "latitude": 33.528254,
+        "longitude": 126.770128
       },
       {
         "day_number": 5,
@@ -14515,7 +14827,9 @@
           "Evening in Jeonju"
         ],
         "drive_time": "Flight to Seoul, then KTX Yongsan to Jeonju, ~1 hr 40 min",
-        "lodging_suggestion": "Jeonju (near Hanok Village)"
+        "lodging_suggestion": "Jeonju (near Hanok Village)",
+        "latitude": 35.823763,
+        "longitude": 127.14728
       },
       {
         "day_number": 6,
@@ -14525,7 +14839,9 @@
           "Walk the hanok village; the streets are closed to traffic at weekends, so you must get off on the outskirts and walk in",
           "Gaengnidan Street and a Jeonju bibimbap meal"
         ],
-        "lodging_suggestion": "Jeonju (near Hanok Village)"
+        "lodging_suggestion": "Jeonju (near Hanok Village)",
+        "latitude": 35.815951,
+        "longitude": 127.153002
       },
       {
         "day_number": 7,
@@ -14535,7 +14851,9 @@
           "Transfer to your departure airport, leaving a generous buffer"
         ],
         "drive_time": "KTX Jeonju to Yongsan, ~1 hr 40 min",
-        "lodging_suggestion": "Seoul (near your departure airport)"
+        "lodging_suggestion": "Seoul (near your departure airport)",
+        "latitude": 37.566679,
+        "longitude": 126.978291
       }
     ],
     "food_culture": [
