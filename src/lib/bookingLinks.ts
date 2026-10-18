@@ -51,11 +51,19 @@ function make(
   return { id, provider, category, url, affiliate, note };
 }
 
+/** A return date before the leave date is dropped rather than passed on to the supplier. */
+export function orderedDates(q: TripQuery): { start: Date | null; end: Date | null } {
+  const start = q.start ?? null;
+  const end = q.end ?? null;
+  if (start && end && end.getTime() < start.getTime()) return { start, end: null };
+  return { start, end };
+}
+
 export function flightLinks(q: TripQuery, env?: Record<string, string | undefined>): SupplierLink[] {
   const to = clean(q.destination);
   if (!to) return [];
   const from = clean(q.origin);
-  const { start, end } = q;
+  const { start, end } = orderedDates(q);
 
   // Google Flights accepts a natural-language query, which sidesteps needing
   // IATA airport codes for a free-text "home base" and a country name.
@@ -93,7 +101,7 @@ export function flightLinks(q: TripQuery, env?: Record<string, string | undefine
 export function stayLinks(q: TripQuery, env?: Record<string, string | undefined>): SupplierLink[] {
   const to = clean(q.destination);
   if (!to) return [];
-  const { start, end } = q;
+  const { start, end } = orderedDates(q);
   const dated = start && end;
   const links: SupplierLink[] = [
     make(

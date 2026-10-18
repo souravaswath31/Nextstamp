@@ -60,3 +60,14 @@ describe("links", () => {
     for (const bad of ["2027-02-30", "10/03/2027", "", undefined, "2027-3-1"]) expect(parseDateParam(bad as string)).toBeNull();
   });
 });
+
+describe("orderedDates", () => {
+  it("drops a return date that is before the leave date", async () => {
+    const { orderedDates } = await import("./bookingLinks");
+    const a = new Date("2027-04-10T00:00:00Z");
+    const b = new Date("2027-04-20T00:00:00Z");
+    expect(orderedDates({ destination: "Japan", start: a, end: b })).toEqual({ start: a, end: b });
+    expect(orderedDates({ destination: "Japan", start: b, end: a })).toEqual({ start: b, end: null });
+    expect(orderedDates({ destination: "Japan", start: a })).toEqual({ start: a, end: null });
+  });
+});

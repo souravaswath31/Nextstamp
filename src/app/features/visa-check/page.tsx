@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { getPublicRules, getSiteStats } from "@/lib/siteData";
+import { getOptionalUser } from "@/lib/currentUser";
+import { aOrAn } from "@/lib/article";
 import { cascadeDocumentsFor, formatVerified } from "@/lib/passportCheck";
 import CascadeDemo from "@/components/site/CascadeDemo";
 import { Block, CtaLink, NOT_LEGAL_ADVICE, PageHeader, SECTION } from "@/components/site/MarketingBits";
@@ -13,7 +15,10 @@ export const metadata: Metadata = {
 };
 
 export default async function VisaCheckFeaturePage() {
-  const [rules, stats] = await Promise.all([getPublicRules(), getSiteStats()]);
+  const [rules, stats, user] = await Promise.all([getPublicRules(), getSiteStats(), getOptionalUser()]);
+  // The interactive checker lives on the logged-out home page; a signed-in visitor's home page is
+  // the dashboard, which has no #check anchor, so they go to the profile (their own full list).
+  const checkHref = user ? "/profile" : "/#check";
   const passport = stats.passports.includes("India") ? "India" : stats.passports[0];
   const docs = cascadeDocumentsFor(rules, passport);
   const doc = docs[0] ?? null;
@@ -26,7 +31,7 @@ export default async function VisaCheckFeaturePage() {
         lead="Entry rules depend on the passport you carry and on what else you hold: a visa or residence from another country can ease entry somewhere new. NextStamp reads both."
       >
         <div className="mt-7">
-          <CtaLink href="/#check">Run the check</CtaLink>
+          <CtaLink href={checkHref}>{user ? "See your destinations" : "Run the check"}</CtaLink>
         </div>
       </PageHeader>
 
@@ -48,7 +53,7 @@ export default async function VisaCheckFeaturePage() {
         <section className="border-t border-white/10 bg-nightRaised/40">
           <div className={`${SECTION} py-12 sm:py-14`}>
             <h2 className="max-w-2xl font-display text-2xl tracking-tightest text-white sm:text-3xl">
-              Worked example: an {passport} passport and a {doc === "USA" ? "US" : doc} visa
+              Worked example: {aOrAn(passport)} {passport} passport and {aOrAn(doc === "USA" ? "US" : doc)} {doc === "USA" ? "US" : doc} visa
             </h2>
             <p className="mt-4 max-w-2xl font-body text-[15px] leading-relaxed text-white/65">
               On its own, the {passport} passport needs an advance visa for several destinations.
@@ -98,7 +103,7 @@ export default async function VisaCheckFeaturePage() {
         </p>
         <p className="text-white/50">{NOT_LEGAL_ADVICE}</p>
         <div className="pt-2">
-          <CtaLink href="/#check">Check a destination</CtaLink>
+          <CtaLink href={checkHref}>{user ? "See your destinations" : "Check a destination"}</CtaLink>
         </div>
       </Block>
     </>

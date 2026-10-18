@@ -28,7 +28,7 @@ export default async function ExplorePage({
   const regionFilter = searchParams.region ?? "";
   const costFilter = searchParams.cost ?? "";
   const visaFilter = searchParams.visa ?? "";
-  const page = Math.max(1, Number(searchParams.page ?? "1") || 1);
+  const requestedPage = Math.max(1, Number(searchParams.page ?? "1") || 1);
 
   let filtered = all.filter((it) => {
     if (categoryFilter.length > 0) {
@@ -59,6 +59,8 @@ export default async function ExplorePage({
   }
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  // A stale or hand-typed ?page= past the end shows the last page rather than an empty list.
+  const page = Math.min(requestedPage, totalPages);
   const pageItems = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   return (
