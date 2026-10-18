@@ -4,6 +4,9 @@ import { getOptionalUser } from "@/lib/currentUser";
 import { getVisaStatusForUser } from "@/lib/visa";
 import ItineraryCard from "@/components/ItineraryCard";
 import Filters from "@/components/Filters";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = { title: "Explore itineraries — NextStamp", description: "Browse every NextStamp itinerary: road trips and international routes, filtered by region, budget and how easy the visa is." };
 
 export const dynamic = "force-dynamic";
 

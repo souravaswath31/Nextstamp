@@ -6,6 +6,9 @@ import StatusPill from "@/components/StatusPill";
 import { TRIP_STATUSES, type TripStatus } from "@/lib/types";
 import { Plus, CalendarRange, MapPin, AlertTriangle, Globe } from "lucide-react";
 import { buildReadinessReport } from "@/lib/readiness";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = { title: "My trips — NextStamp" };
 
 export const dynamic = "force-dynamic";
 
