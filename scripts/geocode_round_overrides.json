@@ -1,0 +1,332 @@
+{
+ "Paris + Loire|5": {
+  "q": "Tours, Indre-et-Loire",
+  "must": [
+   "Indre-et-Loire"
+  ]
+ },
+ "Paris + Loire|6": {
+  "q": "Amboise",
+  "must": [
+   "Indre-et-Loire"
+  ]
+ },
+ "Paris + Loire|7": {
+  "q": "Château de Chenonceau",
+  "must": [
+   "Indre-et-Loire"
+  ]
+ },
+ "Provence|4": {
+  "q": "Parc national des Calanques",
+  "must": [
+   "Bouches-du-Rhône"
+  ]
+ },
+ "Provence|6": {
+  "q": "Monaco",
+  "must": [
+   "Monaco"
+  ],
+  "cc": "mc"
+ },
+ "Provence|7": {
+  "q": "Vieux-Nice, Nice",
+  "must": [
+   "Nice"
+  ]
+ },
+ "Rome, Florence|7": {
+  "q": "Piazza San Marco, Venezia",
+  "must": [
+   "Venezia",
+   "Venice"
+  ]
+ },
+ "Naples, Pompeii|2": {
+  "q": "Museo Archeologico Nazionale di Napoli",
+  "must": [
+   "Napoli",
+   "Naples"
+  ]
+ },
+ "Naples, Pompeii|6": {
+  "q": "Positano",
+  "must": [
+   "Salerno"
+  ]
+ },
+ "Madrid, Toledo|2": {
+  "q": "Museo Nacional del Prado, Madrid",
+  "must": [
+   "Madrid"
+  ]
+ },
+ "Madrid, Toledo|4": {
+  "q": "Catedral de Sevilla",
+  "must": [
+   "Sevilla",
+   "Seville"
+  ]
+ },
+ "Madrid, Toledo|5": {
+  "q": "Real Alcázar de Sevilla",
+  "must": [
+   "Sevilla",
+   "Seville"
+  ]
+ },
+ "Madrid, Toledo|6": {
+  "q": "Catedral de Granada",
+  "must": [
+   "Granada"
+  ]
+ },
+ "Madrid, Toledo|7": {
+  "q": "Alhambra, Granada",
+  "must": [
+   "Granada"
+  ]
+ },
+ "Barcelona, Valencia|2": {
+  "q": "Basílica de la Sagrada Família",
+  "must": [
+   "Eixample"
+  ]
+ },
+ "Barcelona, Valencia|6": {
+  "q": "Ciutat de les Arts i les Ciències, València",
+  "must": [
+   "València",
+   "Valencia"
+  ]
+ },
+ "Barcelona, Valencia|8": {
+  "q": "Catedral de Mallorca, Palma",
+  "must": [
+   "Palma"
+  ]
+ },
+ "Barcelona, Valencia|9": {
+  "q": "Sóller, Illes Balears",
+  "must": [
+   "Sóller, Balearic",
+   "Sóller, Mallorca",
+   "Sóller, Illes",
+   "Soller, Balearic",
+   "Soller, Mallorca"
+  ]
+ },
+ "Lisbon, Sintra|6": {
+  "q": "Pinhão, Alijó",
+  "must": [
+   "Alijó"
+  ]
+ },
+ "Lisbon, Sintra|7": {
+  "q": "Praça do Comércio, Lisboa",
+  "must": [
+   "Lisboa",
+   "Lisbon"
+  ]
+ },
+ "Alentejo + Algarve|4": {
+  "q": "Sé de Faro",
+  "must": [
+   "Faro"
+  ]
+ },
+ "Alentejo + Algarve|5": {
+  "q": "Sé de Faro",
+  "must": [
+   "Faro"
+  ]
+ },
+ "Alentejo + Algarve|8": {
+  "q": "Estação de Santa Apolónia, Lisboa",
+  "must": [
+   "Lisboa",
+   "Lisbon"
+  ]
+ },
+ "Athens, Delphi|3": {
+  "q": "Ancient Agora of Athens",
+  "must": [
+   "Athens",
+   "Athina"
+  ]
+ },
+ "Athens, Delphi|4": {
+  "q": "Archaeological Site of Delphi",
+  "must": [
+   "Delphi"
+  ]
+ },
+ "Paros, Naxos|2": {
+  "q": "Parikia, Paros",
+  "must": [
+   "Cyclades",
+   "Paros"
+  ]
+ },
+ "Paros, Naxos|3": {
+  "q": "Naoussa, Paros",
+  "must": [
+   "Cyclades",
+   "Paros"
+  ]
+ },
+ "Paros, Naxos|7": {
+  "q": "Akrotiri archaeological site, Santorini",
+  "must": [
+   "Santorini",
+   "Thira"
+  ]
+ },
+ "London, Bath|4": {
+  "q": "Bath Abbey, Bath",
+  "must": [
+   "Somerset"
+  ]
+ },
+ "London, Bath|5": {
+  "q": "Oxford, Oxfordshire",
+  "must": [
+   "Oxfordshire"
+  ]
+ },
+ "Edinburgh, Scottish|5": {
+  "q": "Portree, Isle of Skye",
+  "must": [
+   "Highland"
+  ]
+ },
+ "Vancouver, Whistler|2": {
+  "q": "Vancouver, Metro Vancouver",
+  "must": [
+   "Metro Vancouver"
+  ]
+ },
+ "Vancouver, Whistler|4": {
+  "q": "Vancouver, Metro Vancouver",
+  "must": [
+   "Metro Vancouver"
+  ]
+ },
+ "Vancouver, Whistler|9": {
+  "q": "Vancouver, Metro Vancouver",
+  "must": [
+   "Metro Vancouver"
+  ]
+ },
+ "Sydney, Melbourne|5": {
+  "q": "Queen Victoria Market, Melbourne",
+  "must": [
+   "Melbourne"
+  ]
+ },
+ "Sydney, Melbourne|6": {
+  "q": "Torquay, Victoria",
+  "must": [
+   "Victoria"
+  ]
+ },
+ "Red Centre Way|5": {
+  "q": "Uluru",
+  "must": [
+   "Northern Territory"
+  ]
+ },
+ "Red Centre Way|8": {
+  "q": "Ayers Rock Airport",
+  "must": [
+   "Northern Territory"
+  ]
+ },
+ "Cape Town, Winelands|3": {
+  "q": "Cape Point",
+  "must": [
+   "Western Cape",
+   "Cape Town"
+  ]
+ },
+ "Johannesburg + Kruger|5": {
+  "q": "Lower Sabie Rest Camp",
+  "must": [
+   "Lower Sabie"
+  ]
+ },
+ "Johannesburg + Kruger|6": {
+  "q": "Lower Sabie Rest Camp",
+  "must": [
+   "Lower Sabie"
+  ]
+ },
+ "Seoul, DMZ|2": {
+  "q": "Bukchon Hanok Village",
+  "must": [
+   "Seoul"
+  ]
+ },
+ "Seoul, DMZ|3": {
+  "q": "Imjingak",
+  "must": [
+   "Paju"
+  ]
+ },
+ "Seoul, DMZ|4": {
+  "q": "Gyeongju Station",
+  "must": [
+   "Gyeongju"
+  ]
+ },
+ "Seoul, DMZ|5": {
+  "q": "Bulguksa Temple",
+  "must": [
+   "Gyeongju"
+  ]
+ },
+ "Seoul, DMZ|7": {
+  "q": "Gamcheon Culture Village",
+  "must": [
+   "Busan"
+  ]
+ },
+ "Jeju Island|2": {
+  "q": "Seongsan Ilchulbong",
+  "must": [
+   "Jeju"
+  ]
+ },
+ "Jeju Island|3": {
+  "q": "Hallasan",
+  "must": [
+   "Jeju"
+  ]
+ },
+ "Jeju Island|4": {
+  "q": "Manjanggul",
+  "must": [
+   "Jeju"
+  ]
+ },
+ "Jeju Island|5": {
+  "q": "Jeonju",
+  "must": [
+   "Jeonju"
+  ]
+ },
+ "Barcelona, Valencia|3": {
+  "q": "Montjuïc, Barcelona",
+  "must": [
+   "Sants"
+  ]
+ },
+ "Vancouver, Whistler|8": {
+  "q": "Maligne Lake",
+  "must": [
+   "Jasper",
+   "Alberta"
+  ]
+ }
+}

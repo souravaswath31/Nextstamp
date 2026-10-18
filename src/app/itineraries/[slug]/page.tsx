@@ -55,6 +55,13 @@ const COUNTRY_SCENE: Record<string, string> = {
   Peru: "/scene-market-latin-america.jpg",
   "Costa Rica": "/scene-market-latin-america.jpg",
   Serbia: "/scene-alley-europe.jpg",
+  UK: "/scene-alley-europe.jpg",
+  France: "/scene-alley-europe.jpg",
+  Italy: "/scene-cafe-mediterranean.jpg",
+  Spain: "/scene-cafe-mediterranean.jpg",
+  Portugal: "/scene-cafe-mediterranean.jpg",
+  Greece: "/scene-cafe-mediterranean.jpg",
+  "South Korea": "/scene-market-asia.jpg",
 };
 
 function sceneImageFor(countries: string[]): string | null {

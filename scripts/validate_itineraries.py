@@ -24,6 +24,8 @@ that has to get the facts right the first time.
 
 Usage:
     python3 scripts/validate_itineraries.py <candidates.json>
+    python3 scripts/validate_itineraries.py --dry-run <candidates.json>
+    (--dry-run validates and reports without writing anything)
 
 Prints a per-itinerary pass/fail report, then (if any passed) appends the
 passing ones to data/itineraries-seed.json and exits 0. Exits 1 if the
@@ -133,6 +135,9 @@ def validate_one(it, existing_titles, state_slugs):
 
 
 def main():
+    dry_run = "--dry-run" in sys.argv
+    if dry_run:
+        sys.argv.remove("--dry-run")
     if len(sys.argv) != 2:
         print("usage: python3 scripts/validate_itineraries.py <candidates.json>")
         sys.exit(1)
@@ -168,7 +173,9 @@ def main():
 
     print(f"\n{len(passed)} passed, {len(rejected)} rejected out of {len(candidates)} candidates.")
 
-    if passed:
+    if passed and dry_run:
+        print("Dry run: nothing written.")
+    elif passed:
         merged = existing + passed
         SEED_PATH.write_text(json.dumps(merged, indent=2, ensure_ascii=False) + "\n")
         print(f"Merged {len(passed)} itineraries into {SEED_PATH.relative_to(ROOT)} ({len(existing)} -> {len(merged)}).")

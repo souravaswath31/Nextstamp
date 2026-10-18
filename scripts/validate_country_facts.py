@@ -3,6 +3,8 @@
 
 Usage:
     python3 scripts/validate_country_facts.py <candidate.json> [more.json ...]
+    python3 scripts/validate_country_facts.py --dry-run <candidate.json>
+    (--dry-run validates and reports without writing anything)
     python3 scripts/validate_country_facts.py --check-existing
 
 Each candidate file holds ONE country object (the shape documented in the
@@ -284,6 +286,9 @@ def validate(obj, label):
 
 
 def main():
+    dry_run = "--dry-run" in sys.argv
+    if dry_run:
+        sys.argv.remove("--dry-run")
     args = sys.argv[1:]
     if not args:
         print(__doc__)
@@ -351,7 +356,9 @@ def main():
             accepted.append(obj)
             seen_in_batch.add(country)
 
-    if accepted:
+    if accepted and dry_run:
+        print("\nDry run: nothing written.")
+    elif accepted:
         merged = existing + accepted
         merged.sort(key=lambda c: c.get("country", ""))
         SEED_PATH.write_text(json.dumps(merged, indent=2, ensure_ascii=False) + "\n")

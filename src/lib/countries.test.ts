@@ -16,6 +16,13 @@ describe("normalizeCountryInput", () => {
     expect(normalizeCountryInput("United Arab Emirates")).toBe("UAE");
   });
 
+  it("maps the UK nations and common Korea / South Africa spellings to the canonical names", () => {
+    for (const v of ["England", "scotland", "Great Britain", "BRITAIN", "United Kingdom"]) expect(normalizeCountryInput(v)).toBe("UK");
+    for (const v of ["Korea", "republic of korea", "South Korea", "korea, south"]) expect(normalizeCountryInput(v)).toBe("South Korea");
+    expect(normalizeCountryInput("rsa")).toBe("South Africa");
+    expect(normalizeCountryInput("South Africa")).toBe("South Africa");
+  });
+
   it("title-cases an unrecognized country so casing variants converge", () => {
     expect(normalizeCountryInput("india")).toBe("India");
     expect(normalizeCountryInput("INDIA")).toBe("India");
