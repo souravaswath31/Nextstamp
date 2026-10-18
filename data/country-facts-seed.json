@@ -264,6 +264,560 @@
     "longitude": 44.512623
   },
   {
+    "country": "Australia",
+    "iso2": "AU",
+    "currency_code": "AUD",
+    "currency_name": "Australian dollar",
+    "primary_timezone": "Australia/Sydney",
+    "timezone_label": "AEDT (UTC+11, daylight saving in effect)",
+    "timezone_note": "Australia is not on one clock. Tourism Australia lists three standard time zones: Australian Eastern (AEST, UTC+10: Queensland, New South Wales, Victoria, Tasmania, ACT), Central (ACST, UTC+9:30: South Australia and the Northern Territory) and Western (AWST, UTC+8: Western Australia). Tourism Australia states that New South Wales, Victoria, South Australia, Tasmania and the ACT move their clocks forward an hour in summer, while Queensland, the Northern Territory and Western Australia do not. That matters because the gaps change twice a year: on 17 October 2026 (checked against the IANA tz database) Sydney, Melbourne and Hobart are on AEDT (UTC+11), Brisbane stays on AEST (UTC+10, one hour behind Sydney), Adelaide and Broken Hill are on ACDT (UTC+10:30), Darwin is on ACST (UTC+9:30) and Perth is on AWST (UTC+8, three hours behind Sydney). Per the IANA tz database (not an official page opened for this record), daylight saving started at 2:00 a.m. on Sunday 4 October 2026 (first Sunday of October) and ends at 3:00 a.m. on Sunday 4 April 2027 (first Sunday of April), when Sydney returns to AEST (UTC+10). Two small zones appear in IANA only: Lord Howe Island (Australia/Lord_Howe, UTC+10:30 standard and UTC+11 in summer) and the Eucla area of Western Australia (Australia/Eucla, UTC+8:45); neither is described on a source opened here. The Bureau of Meteorology and Home Affairs time-zone pages blocked automated retrieval. Book domestic connections against local time at each end. Because Queensland does not move its clocks, the Sydney-Brisbane gap is one hour in summer and zero in winter.",
+    "passport_validity_rule": "Australia has no six-month rule on the official pages opened for this record. The UK FCDO states: 'To enter Australia, your passport must be valid for the length of your planned stay.' Global Affairs Canada words it as 'Your passport must be valid on the day of entry into the country' and warns that airline or transport rules may be stricter. Home Affairs (immi.homeaffairs.gov.au) returned 403 to automated fetches, so the department's own wording could not be read first-hand and these are foreign-government summaries. Practical advice: if you are transiting through a country that wants six months of validity, or your airline applies its own rule at check-in, the stricter rule governs your trip. An ETA is electronically linked to the passport it was issued against, so apply with the passport you will travel on.",
+    "passport_validity_months_beyond_entry": 0,
+    "passport_validity_basis": "duration-of-stay",
+    "blank_pages_required": null,
+    "onward_ticket_required": null,
+    "entry_requirement_notes": "Everyone except Australian citizens (and, per Tourism Australia, New Zealand passport holders, who can get their visa on arrival) needs a visa or electronic authority before travelling. Tourism Australia lists the electronic options: the Electronic Travel Authority (ETA, subclass 601), for passport holders from a number of eligible countries and regions: applications are made through the Australian ETA app and need a live facial image, you may enter as often as you like for up to a year, and each stay is up to three months; the eVisitor (subclass 651), a free visa for passport holders from a number of European countries, for up to three months at a time within 12 months, which cannot be extended; and the Visitor visa (subclass 600), open to all nationalities, usually up to three months, with an application fee. Tourism Australia's page was last modified 23 May 2023. The FCDO says UK citizens can usually get an eVisitor (no application charge or service fee) or an ETA (no visa application charge, but there may be a service fee); Global Affairs Canada says Canadians without a visa need an ETA. The exact ETA service-charge amount and the list of eligible passports were not stated on any page that could be opened (immi.homeaffairs.gov.au returned 403), so they are not given here: check the Department of Home Affairs before you book. Passenger declaration: the FCDO and Tourism Australia both say arriving passengers complete an Incoming Passenger Card, including declaring contact with farms, farm animals, wilderness areas or freshwater streams or lakes in the past 30 days (FCDO) and cash of AUD 10,000 or more (Tourism Australia). Search-result summaries of Australian government releases describe a digital Australia Travel Declaration being piloted on selected Qantas arrivals with a wider rollout planned, and the paper card staying for everyone else, but the Home Affairs, ABF and Department of Agriculture pages were not retrievable, so treat the digital option as not generally available and carry the paper card. Biosecurity is strict: Tourism Australia states you must declare food (meat, poultry, fish, seafood, eggs, dairy, fruit, vegetables), plants and plant parts (including seeds, nuts, wood and traditional herbs or medicines) and animal products; that a false or misleading declaration can mean seizure, fines or even imprisonment; that you will not be penalised if you declare everything, even if it is not permitted; and that disposal bins are at airports and cruise terminals. The FCDO adds that food, animal products and plant material, including wooden articles, must be declared or put in the bins, and that you can get a heavy fine for breaking quarantine. The Department of Agriculture, Fisheries and Forestry (agriculture.gov.au) timed out on every fetch attempt, so these rules are cited to Tourism Australia and the FCDO rather than the department. Yellow fever: certificate required if you are arriving from a country with yellow fever transmission risk (FCDO, CDC; see health). Arrival fee or levy: none is stated on the FCDO entry page or the Tourism Australia pages opened; the only fee wording found is the ETA service fee above. Onward ticket, blank passport pages and proof-of-funds figures were not stated on any page opened, so those fields are null.",
+    "passport_source_url": "https://www.gov.uk/foreign-travel-advice/australia/entry-requirements",
+    "health": {
+      "required_vaccinations": [
+        "Yellow fever (only if arriving from, or after a layover or transit of more than 12 hours in, a country with yellow fever transmission risk; travellers aged 1 year or over)"
+      ],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (varicella, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "COVID-19",
+        "Diphtheria/tetanus booster within the last 10 years (CDC diphtheria alert for NT, WA, SA)",
+        "Measles (all international travellers fully vaccinated with MMR)",
+        "Hepatitis B (unvaccinated travellers under 60)",
+        "Japanese encephalitis (mainly Murray River area and Outer Torres Strait Islands; longer stays or higher-risk activities)",
+        "Rabies (discuss with a provider; post-exposure vaccine usually available)",
+        "Mpox (only for travellers with specific higher-risk exposures)"
+      ],
+      "malaria_risk": "Not addressed on CDC's Australia page; dengue, Ross River virus and melioidosis (northern Australia) are listed there",
+      "notes": "CDC states that direct travel from the United States does not require a yellow fever vaccine, but travellers arriving from countries with yellow fever transmission risk must be vaccinated if at least 1 year old, including layovers or transits longer than 12 hours; the FCDO likewise says you need the certificate if arriving from a listed country. CDC (page reviewed 25 August 2026; yellow fever section 23 April 2025) also lists dengue, Ross River virus, hantavirus, leptospirosis, ciguatera fish poisoning and melioidosis, and a Level 1 global measles notice. The FCDO health page says essential and urgent hospital treatment is free for UK residents under the UK-Australia Reciprocal Healthcare Agreement but that GP visits, prescriptions, ambulances and medical evacuation are not covered, so travel insurance is advised. Tourism Australia says tap water is generally safe to drink and recommends SPF 50+ sunscreen. health.gov.au timed out on every fetch, so CDC and the FCDO are used as fallbacks; the recommended list is medical advice, not an entry condition.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/australia"
+    },
+    "money": {
+      "card_acceptance": "Tourism Australia states that cards are widely accepted, that merchants may impose credit card surcharges in some places, and that fees may be charged on transactions, particularly when withdrawing from an international account. It also advises checking with your card company about foreign transaction fees.",
+      "cash_culture": null,
+      "tipping": "Tourism Australia states that hotels and restaurants do not add service charges to your bill, that tipping is always your choice, and that in upmarket restaurants it is common to tip waiters 10 per cent for good service.",
+      "atm_notes": "Tourism Australia notes that fees may be charged on international withdrawals. Declare cash of AUD 10,000 or more (Australian or foreign equivalent) on arrival (Tourism Australia). GST is 10 per cent; Tourism Australia says a refund is possible under the Tourist Refund Scheme if you spent AUD 300 or more with a single business no more than 60 days before departing, claimed in the international departure area.",
+      "source_url": "https://www.australia.com/en-us/facts-and-planning/about-australia/useful-tips.html"
+    },
+    "power": {
+      "plug_types": [
+        "I"
+      ],
+      "voltage": "220-240V (Tourism Australia; its packing page says 230V)",
+      "frequency": "50Hz",
+      "adapter_note": "Tourism Australia states Australia uses the Type I plug (two flat pins in an inverted V, sometimes with a third centre pin), with a supply of 220-240 volts AC at 50Hz; its packing page says 230V 50Hz and advises a voltage transformer if your home voltage differs. The IEC's World Plugs was not opened to cross-check.",
+      "source_url": "https://www.australia.com/en-us/facts-and-planning/about-australia/useful-tips.html"
+    },
+    "emergency": {
+      "police": "000",
+      "ambulance": "000",
+      "fire": "000",
+      "universal": "112",
+      "tourist_police": null,
+      "notes": "Tourism Australia states the emergency number for police, ambulance and fire brigade is 000; Global Affairs Canada says 'Dial 000 for emergency assistance' and the FCDO health page says 'Dial 000 and ask for an ambulance'. Dialling 112 from a mobile phone also reaches the same Triple Zero service, per a search-result summary of the government's Triple Zero page (infrastructure.gov.au/triple-zero timed out on every fetch, so this was not read first-hand); it does not work from a landline or satellite phone, and no mobile can call 000 without coverage on any network. Search results for the same page indicate calls to 000 are free. No dedicated tourist police line was found on an official page, so that field is null.",
+      "source_url": "https://www.australia.com/en-us/facts-and-planning/about-australia/useful-tips.html"
+    },
+    "getting_around": {
+      "summary": "No single national transport pass or intercity rail pass was found on an official page opened for this record, so none is listed. Tourism Australia's budget guide (page last modified 30 April 2025; it says costs are a guide only) says public transport trips cost around AUD 2 compared with AUD 20-30 for a taxi or rideshare for a comparable journey, and that daily fare caps apply in most major cities, with a weekday cap of around AUD 17 in Sydney and around AUD 9 in Melbourne. Distances are continental: no source opened here gives flight or rail times, so none are stated. Fare-cap and per-trip figures vary by city and change, so check the local transport operator before you rely on them.",
+      "passes": [],
+      "source_url": "https://www.australia.com/en/facts-and-planning/about-australia/australia-on-budget.html"
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": "Tourism Australia states mobile phone network coverage is available across Australia, but coverage may be limited in some remote areas. No official page opened states eSIM support, SIM prices or registration rules.",
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": "https://www.australia.com/en-us/facts-and-planning/about-australia/useful-tips.html"
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 27,
+        "avg_low_c": 20,
+        "precipitation_note": "96.0 mm normal rainfall over 12.3 rain days; mean daily max 26.5 C and min 19.6 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data). IMPORTANT: this whole table is Sydney only, not a national average. Australia spans tropical, desert and temperate climates: the north has a wet season and a cyclone season (November to April per FCDO), the interior is arid, and Tasmania and the south are cooler. Seasons are inverted compared with the northern hemisphere, so December to February is summer. Tourism Australia's own Sydney page quotes slightly different monthly figures (for January, 26.4 C max and 18.8 C min), so figures vary with the base period. The Bureau of Meteorology's own station table returned 403 to automated fetches, so the WMO publication of BoM data is used.",
+        "crowd_note": "Southern-hemisphere midsummer: hot and humid, beach weather, school holidays. Tourism Australia calls November to February the peak travel season; the rating and this note are editorial judgement.",
+        "rating": "peak"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 27,
+        "avg_low_c": 20,
+        "precipitation_note": "128.6 mm normal rainfall over 12.7 rain days; mean daily max 26.5 C and min 19.7 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Late summer, still warm and humid, second-wettest month in this table at 128.6 mm (editorial judgement; peak season per Tourism Australia runs to February).",
+        "rating": "peak"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 25,
+        "avg_low_c": 18,
+        "precipitation_note": "111.4 mm normal rainfall over 13.5 rain days; mean daily max 25.4 C and min 18.1 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Early autumn: Tourism Australia describes autumn as the mildest time in Sydney, with humidity dropping (editorial rating).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 23,
+        "avg_low_c": 15,
+        "precipitation_note": "140.5 mm normal rainfall over 11.0 rain days; mean daily max 23.3 C and min 15.3 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Autumn: mild days, cooler nights; this is the wettest month in the Sydney table. Clocks go back to standard time on the first Sunday of April (editorial rating).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 21,
+        "avg_low_c": 13,
+        "precipitation_note": "119.8 mm normal rainfall over 12.3 rain days; mean daily max 20.6 C and min 12.5 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Late autumn: cooler and still comparatively settled; fewer crowds than summer (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 18,
+        "avg_low_c": 10,
+        "precipitation_note": "116.8 mm normal rainfall over 10.4 rain days; mean daily max 18.0 C and min 9.7 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Start of winter: mild by northern standards but the coolest and quietest part of the year; beach season is over (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 17,
+        "avg_low_c": 9,
+        "precipitation_note": "79.8 mm normal rainfall over 9.8 rain days; mean daily max 17.4 C and min 8.7 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Midwinter and the coldest month in this table, with the lowest rainfall of the winter months; cheapest-season sightseeing (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 19,
+        "avg_low_c": 10,
+        "precipitation_note": "94.0 mm normal rainfall over 8.4 rain days; mean daily max 18.9 C and min 9.7 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Late winter: cool and relatively dry; still quiet (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 21,
+        "avg_low_c": 12,
+        "precipitation_note": "70.1 mm normal rainfall over 8.8 rain days; mean daily max 21.2 C and min 12.0 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Spring begins: warming up and the driest month in the table; bushfire risk rises from October per FCDO (editorial rating).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 23,
+        "avg_low_c": 14,
+        "precipitation_note": "82.7 mm normal rainfall over 10.9 rain days; mean daily max 22.8 C and min 14.4 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Spring: pleasant temperatures, clocks go forward to daylight saving on the first Sunday of October (4 October 2026). FCDO notes higher bushfire risk from October to February (editorial rating).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 24,
+        "avg_low_c": 16,
+        "precipitation_note": "104.0 mm normal rainfall over 12.6 rain days; mean daily max 23.8 C and min 16.3 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Late spring: warm and getting busy; Tourism Australia counts November as the start of the peak season. Cyclone season in the tropical north starts this month per FCDO (editorial rating).",
+        "rating": "peak"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 26,
+        "avg_low_c": 18,
+        "precipitation_note": "79.2 mm normal rainfall over 11.2 rain days; mean daily max 25.5 C and min 18.3 C (Sydney (station Observatory Hill), 1981-2010 base period, as published by the WMO World Weather Information Service from Bureau of Meteorology data).",
+        "crowd_note": "Early summer, Christmas and school holidays: hottest crowds and highest prices (editorial judgement). Bushfire and northern cyclone seasons are both active per FCDO.",
+        "rating": "peak"
+      }
+    ],
+    "climate_reference_city": "Sydney (Observatory Hill)",
+    "climate_source_url": "https://worldweather.wmo.int/en/json/300_en.json",
+    "phrases": [
+      {
+        "phrase_en": "Hello",
+        "local": "G'day",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Goodbye",
+        "local": "See you later / See ya",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you",
+        "local": "Thanks / Cheers",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Please",
+        "local": "Please",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Excuse me / Sorry",
+        "local": "Excuse me / Sorry",
+        "romanization": null
+      },
+      {
+        "phrase_en": "You're welcome / that's fine",
+        "local": "No worries",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How much is this?",
+        "local": "How much is it?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "Where's the toilet? (also: the loo)",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Help!",
+        "local": "Help!",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Afternoon",
+        "local": "Arvo (as in 'see you this arvo')",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Petrol station",
+        "local": "Servo",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Liquor shop",
+        "local": "Bottle-o",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Flip-flops (sandals)",
+        "local": "Thongs - not underwear in Australia",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Cooler box",
+        "local": "Esky",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Breakfast",
+        "local": "Brekkie",
+        "romanization": null
+      },
+      {
+        "phrase_en": "A lot / very",
+        "local": "Heaps (as in 'heaps good')",
+        "romanization": null
+      }
+    ],
+    "phrases_language": "English (Australian regional vocabulary: the 'local' column shows everyday Australian usage that visitors meet; editorial, not drawn from a cited source, and informal)",
+    "sources": [
+      "https://www.gov.uk/foreign-travel-advice/australia/entry-requirements",
+      "https://www.gov.uk/foreign-travel-advice/australia",
+      "https://www.gov.uk/foreign-travel-advice/australia/safety-and-security",
+      "https://www.gov.uk/foreign-travel-advice/australia/health",
+      "https://www.gov.uk/foreign-travel-advice/australia/local-laws-and-customs",
+      "https://travel.gc.ca/destinations/australia",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/australia",
+      "https://www.australia.com/en/facts-and-planning/visa-and-customs/australia-visa-and-entry-requirements-faqs.html",
+      "https://www.australia.com/en/facts-and-planning/visa-and-customs/australia-customs-and-biosecurity-faqs.html",
+      "https://www.australia.com/en-us/facts-and-planning/about-australia/useful-tips.html",
+      "https://www.australia.com/en/facts-and-planning/about-australia/time-zones.html",
+      "https://www.australia.com/en-us/facts-and-planning/about-australia/key-facts-about-australia.html",
+      "https://www.australia.com/en-my/facts-and-planning/weather-in-australia/sydney-weather.html",
+      "https://www.australia.com/en/facts-and-planning/planning-tools/ultimate-australia-packing-list.html",
+      "https://www.australia.com/en/facts-and-planning/about-australia/australia-on-budget.html",
+      "https://worldweather.wmo.int/en/json/300_en.json",
+      "https://worldweather.wmo.int/en/json/full_city_list.txt"
+    ],
+    "last_verified_date": "2026-10-17",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "currency_code": "CAD",
+    "currency_name": "Canadian dollar",
+    "primary_timezone": "America/Toronto",
+    "timezone_label": "EDT (UTC-4) now; EST (UTC-5) from 1 November 2026",
+    "timezone_note": "America/Toronto (Eastern) is a representative zone, not the whole country: Canada has six time zones. From east to west the standard offsets are Newfoundland (UTC-3:30), Atlantic (UTC-4), Eastern (UTC-5), Central (UTC-6), Mountain (UTC-7) and Pacific (UTC-8), each one hour later in daylight time (Newfoundland 3:30 behind UTC standard, 2:30 in daylight time). Those numeric offsets are the standard IANA/legal offsets, not read off a page I opened: the National Research Council page lists the zone abbreviations (NST/NDT, AST/ADT, EST/EDT, CST/CDT, MST/MDT) but gives numbers only for Yukon. The NRC states daylight saving time runs from 02:00 on the second Sunday in March to 02:00 on the first Sunday in November (so clocks in Toronto go back on 1 November 2026), is set by provincial legislation, and has exceptions: most of Saskatchewan stays on Central Standard Time all year (Lloydminster-area communities follow Mountain Time with Alberta), Yukon has been on UTC-7 all year since 2020, some areas of Quebec east of 63 degrees W use Atlantic Time, Ontario west of 90 degrees W is on Central Time, and Nunavut covers three zones. British Columbia is changing: the B.C. government states that after clocks moved ahead on 8 March 2026 that was the province's final time change, the 1 November 2026 turn-back will not happen, and B.C.'s new 'Pacific time' is set permanently at UTC-7 (aligned with Yukon). Communities in the northeast (for example Dawson Creek, Fort St. John) stay on UTC-7 year-round and southeastern communities such as Golden, Cranbrook and Fernie keep following Alberta. The practical effect after 1 November is that Vancouver stays on UTC-7 while Toronto drops to UTC-5, a 2-hour gap instead of 3. The NRC page itself warns that from 1 November 2026 some of its content will no longer be accurate and points to provincial and territorial governments. The IANA tz database entry for America/Vancouver was not checked against this change, so do not rely on a device clock alone for B.C. after 1 November 2026. Destination Canada notes that New Brunswick, Nova Scotia and Prince Edward Island are one hour ahead of Eastern Time and Newfoundland is one hour thirty minutes ahead. Book flights and trains against local times at each end.",
+    "passport_validity_rule": "Canada's official pages state that you must travel with a valid passport (IRCC: 'When you come to Canada, you must travel with a valid passport or travel document') but none that I opened sets a minimum remaining validity or a six-month rule for visitors, so none is stated here. What the rules do tie to the passport is the length of your stay: IRCC says that if you get no stamp or visitor record, your stay runs six months from entry or until your passport (or biometrics) expires, whichever comes first, and IRCC cannot issue a visitor record valid past passport expiry. An eTA is linked to the passport used to apply, so the same passport must be presented at check-in. Practical advice: carry a passport that is valid for your whole stay plus a buffer; airlines may apply their own stricter rules.",
+    "passport_validity_months_beyond_entry": 0,
+    "passport_validity_basis": "duration-of-stay",
+    "blank_pages_required": null,
+    "onward_ticket_required": null,
+    "entry_requirement_notes": "Canada's eTA (Electronic Travel Authorization) is in force today (17 October 2026). IRCC states it is required for visa-exempt foreign nationals who fly to or transit through a Canadian airport; travellers arriving by land, bus, train or boat (including cruise ships) do not need one, though they still need a valid passport. The fee is CAN$7, non-refundable, paid by credit or debit card online for one person at a time, and you need a valid passport, a card and an email address. IRCC says the eTA is valid for up to five years or until the passport expires, whichever comes first, and a new passport needs a new eTA; it allows repeat short stays, normally up to six months at a time. IRCC advises applying before you book your flight; most approvals arrive by email within minutes but some take several days if documents are requested. Apply only on the official canada.ca site. Who is exempt: US citizens do not need an eTA or a visa but IRCC advises carrying a valid US passport (other identity documents showing name, date of birth and citizenship can be shown by those not flying and without a passport); lawful permanent residents of the US with valid status are exempt but must carry proof of status plus a passport from their country of nationality when flying. Canadian citizens (including dual citizens) and permanent residents cannot apply for an eTA and must travel with a Canadian passport or PR documents. Visa-required nationals need a visitor visa (some may use an eTA instead of a visa for air travel only, if they qualify). An eTA or visa does not guarantee entry: a border services officer decides on arrival. IRCC's visitor page says the officer must be satisfied that you will leave Canada at the end of your authorised stay, have enough money for your stay and have ties (job, home, assets, family) taking you home; most visitors can stay up to six months, and the officer may shorten or lengthen that. That IRCC page sits under the visitor-visa section and does not mention a return ticket, so onward_ticket_required is null (could not confirm either way); carry proof of onward travel and funds anyway. Cash: the CBSA states there is no limit on money you bring in, but amounts of CAN$10,000 or more (cash or monetary instruments, any currency, combined) must be declared; failing to declare can lead to seizure and penalties of 5% to 50% of the seized funds. Blank pages: IRCC says only travellers from visa-required countries need at least one free page; no requirement is stated for visa-exempt travellers, so the field is null. Health insurance: IRCC says Canada does not pay for hospital or medical services for visitors.",
+    "passport_source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
+    "health": {
+      "required_vaccinations": [],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (chickenpox, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "COVID-19 (if eligible)",
+        "Hepatitis A (CDC: consider for most travellers; higher-risk activities such as visiting rural areas or eating street food)",
+        "Hepatitis B (CDC: unvaccinated travellers younger than 60)",
+        "Measles (MMR) - all international travellers should be fully vaccinated"
+      ],
+      "malaria_risk": "None listed - CDC's Canada page carries no malaria risk statement.",
+      "notes": "Sourced from the US CDC because the Public Health Agency of Canada's travel-health pages are written for Canadians leaving the country, not visitors arriving, so there is no PHAC arrival page to cite. CDC's Canada page (yellow fever section updated 23 April 2025) states yellow fever vaccine is neither recommended nor required for entry, and I found no vaccination that is a condition of entry. CDC also notes rabies in some wild animals and bats (avoid contact; seek care after any bite, scratch or bat exposure), recommends repellent with 20% or more DEET against ticks and mosquitoes, and, at the time of reading, listed a Level 1 notice for a hepatitis A outbreak in Manitoba (dated 4 June 2026) plus a global measles notice; check CDC for the current list. Medical costs: IRCC states 'Canada does not pay for hospital or medical services for visitors' and advises getting health insurance before you come.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/canada"
+    },
+    "money": {
+      "card_acceptance": null,
+      "cash_culture": "No Canadian government source I opened describes cash-versus-card habits, so that is left unstated. What is official: Destination Canada says the currency is the Canadian dollar, with a $1 coin (the 'loonie') and a $2 coin (the 'toonie'), and points visitors to the Bank of Canada for live exchange rates. The CBSA requires a declaration of currency or monetary instruments worth CAN$10,000 or more on entering or leaving (no cap on the amount; seizure and 5%-50% penalties if not declared).",
+      "tipping": null,
+      "atm_notes": null,
+      "source_url": "https://www.cbsa-asfc.gc.ca/travel-voyage/ttd-vdd-eng.html"
+    },
+    "power": {
+      "plug_types": null,
+      "voltage": null,
+      "frequency": null,
+      "adapter_note": null,
+      "source_url": null
+    },
+    "emergency": {
+      "police": "911",
+      "ambulance": "911",
+      "fire": "911",
+      "universal": "911",
+      "tourist_police": null,
+      "notes": "Parks Canada, a federal agency, states 'Call 911 for police, fire or ambulance' for every national park and site it lists, and 911 is the number to dial across Canada. I did not find a .gc.ca page for visitors that spells out the nationwide 911 rule or says whether 112 works, so the 911 figure is best-supported by Parks Canada's page rather than a general government emergency page. Parks Canada warns that cell coverage is not always reliable in the backcountry or in remote areas so check the park's own page for local contacts before going out. No national tourist-police line was found, so tourist_police is null.",
+      "source_url": "https://parks.canada.ca/voyage-travel/securite-safety/urgence-emergency"
+    },
+    "getting_around": {
+      "summary": "Canada is very large, so most long hops between regions are by air, and the country has no national rail pass I could verify. VIA Rail is the national passenger operator: its Toronto-Montreal page lists an average travel time of 5 hours 13 minutes over 538 km with 40 departures a week (fares are one-way, per person, excluding taxes, and vary by day and departure time); its Vancouver-to-Toronto page for The Canadian lists 3 days 20 hours 29 minutes over 4,406 km with 2 departures per week. In the Toronto-Montreal-Ottawa-Quebec City corridor rail is competitive with flying, outside it service is infrequent. Domestic flight times, airline fares and bus services were not researched from official sources. City transit is local: Toronto's TTC takes PRESTO, tap-to-pay debit/credit and cash, and some other cities run their own systems. Practical framing (not from a cited source): in most of the country outside big cities a rental car is the usual way to reach national parks.",
+      "passes": [
+        {
+          "name": "TTC (Toronto) single fare and PRESTO Day Pass",
+          "covers": "The TTC fares page lists an adult fare of $3.30 with PRESTO or tap with an Interac debit/credit card (including mobile wallet), $3.35 in cash (exact fare only, no change), with a two-hour transfer on tap payments (not cash), and a PRESTO Day Pass at $13.50. Children 12 and under ride free. Starting 2 March 2026 PRESTO cards need enough funds to cover the full fare before tapping.",
+          "worth_it": "The day pass at $13.50 equals roughly four single fares at $3.30, so it pays off only if you take about five or more separate trips that each fall outside a two-hour transfer window; with tap payment and the two-hour transfer, many visitors will do better paying per trip. TTC also states fares are capped at 47 per month for PRESTO and card payers, a benefit for longer stays. Fares as published on the page at the time of reading; confirm at ttc.ca. Other cities (Montreal, Vancouver, Ottawa) were not researched.",
+          "buy_before_arrival": false
+        }
+      ],
+      "source_url": "https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/toronto-montreal"
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": null,
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": null
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": -1,
+        "avg_low_c": -9,
+        "precipitation_note": "61.6 mm normal total precipitation (of which 31.5 cm snowfall); mean daily max -1.2 C and min -8.9 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals. IMPORTANT: this whole 12-month table is Toronto only; it is not a national average. Canada spans six time zones and very different climates, so Vancouver, Calgary, Halifax, St. John's and the Arctic differ greatly from these figures.",
+        "crowd_note": "Cold and snowy; ski season in the Rockies, Quebec and Ontario, but quiet for city sightseeing in Toronto (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 0,
+        "avg_low_c": -9,
+        "precipitation_note": "50.2 mm normal total precipitation (of which 27.7 cm snowfall); mean daily max -0.3 C and min -8.5 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Coldest stretch of the year in the city; winter-sports and festival season (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 5,
+        "avg_low_c": -4,
+        "precipitation_note": "50.5 mm normal total precipitation (of which 17.2 cm snowfall); mean daily max 5.0 C and min -3.8 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Still wintry with melt and slush; before spring and summer crowds (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 12,
+        "avg_low_c": 2,
+        "precipitation_note": "76.7 mm normal total precipitation (of which 4.5 cm snowfall); mean daily max 12.0 C and min 1.9 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Spring arrives slowly; shoulder season with fewer visitors (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 19,
+        "avg_low_c": 8,
+        "precipitation_note": "77.6 mm normal total precipitation (of which 0.1 cm snowfall); mean daily max 19.2 C and min 8.2 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Mild and green; a pleasant shoulder month before summer holidays (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 25,
+        "avg_low_c": 14,
+        "precipitation_note": "80.7 mm normal total precipitation (of which 0.0 cm snowfall); mean daily max 24.5 C and min 13.9 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Early summer; long days and festival season, crowds building (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 27,
+        "avg_low_c": 17,
+        "precipitation_note": "74.0 mm normal total precipitation (of which 0.0 cm snowfall); mean daily max 27.4 C and min 16.6 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Warmest month and peak holiday season, so expect the highest prices and busiest sights (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 26,
+        "avg_low_c": 16,
+        "precipitation_note": "68.5 mm normal total precipitation (of which 0.0 cm snowfall); mean daily max 26.3 C and min 15.8 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Warm and busy through late summer holidays (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 22,
+        "avg_low_c": 12,
+        "precipitation_note": "69.4 mm normal total precipitation (of which 0.0 cm snowfall); mean daily max 22.3 C and min 11.6 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Warm days, cooler nights and thinner crowds after the school holidays; autumn colour begins in some regions (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 15,
+        "avg_low_c": 5,
+        "precipitation_note": "67.2 mm normal total precipitation (of which 0.2 cm snowfall); mean daily max 14.6 C and min 5.3 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Cool autumn; fall colour is a draw in many regions, with moderate crowds (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 8,
+        "avg_low_c": 0,
+        "precipitation_note": "71.8 mm normal total precipitation (of which 9.3 cm snowfall); mean daily max 7.9 C and min 0.2 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Cold, grey and damp as winter sets in; among the quietest months (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 2,
+        "avg_low_c": -5,
+        "precipitation_note": "58.6 mm normal total precipitation (of which 24.1 cm snowfall); mean daily max 1.9 C and min -5.0 C (1991-2020 Canadian Climate Normals, Toronto Pearson (Airport) composite station, Environment and Climate Change Canada). Temperatures in this table are rounded to whole degrees from the published one-decimal normals.",
+        "crowd_note": "Cold and snowy but festive; busy around Christmas and New Year holidays and ski resorts, quieter in the city otherwise (editorial judgement).",
+        "rating": "shoulder"
+      }
+    ],
+    "climate_reference_city": "Toronto",
+    "climate_source_url": "https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnName_1991&txtStationName_1991=Toronto&searchMethod=contains&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=6158731&dispBack=0",
+    "phrases": [
+      {
+        "phrase_en": "Hello / Good day",
+        "local": "Bonjour",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Good evening",
+        "local": "Bonsoir",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Goodbye",
+        "local": "Au revoir",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Please",
+        "local": "S'il vous plaît",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you",
+        "local": "Merci",
+        "romanization": null
+      },
+      {
+        "phrase_en": "You're welcome",
+        "local": "Bienvenue (in Québec this is the usual reply to merci; de rien also works)",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Excuse me / Sorry",
+        "local": "Excusez-moi / Pardon",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Yes / No",
+        "local": "Oui / Non",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Do you speak English?",
+        "local": "Parlez-vous anglais ?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "I don't understand",
+        "local": "Je ne comprends pas",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How much is it?",
+        "local": "C'est combien ?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "Où sont les toilettes ?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Help!",
+        "local": "Au secours ! / À l'aide !",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Call 911!",
+        "local": "Appelez le 911 !",
+        "romanization": null
+      },
+      {
+        "phrase_en": "The bill, please",
+        "local": "L'addition, s'il vous plaît",
+        "romanization": null
+      },
+      {
+        "phrase_en": "A ticket to ..., please",
+        "local": "Un billet pour ..., s'il vous plaît",
+        "romanization": null
+      }
+    ],
+    "phrases_language": "Canadian French (Québec)",
+    "sources": [
+      "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
+      "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html",
+      "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+      "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
+      "https://www.canada.ca/en/immigration-refugees-citizenship/services/passport-travel-document.html",
+      "https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1016&top=16",
+      "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/prepare-arrival.html",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/canada",
+      "https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=424&top=16",
+      "https://parks.canada.ca/voyage-travel/securite-safety/urgence-emergency",
+      "https://nrc.canada.ca/en/certifications-evaluations-standards/canadas-official-time/time-zones-daylight-saving-time",
+      "https://news.gov.bc.ca/releases/2026AG0013-000209",
+      "https://www.cbsa-asfc.gc.ca/travel-voyage/ttd-vdd-eng.html",
+      "https://travel.destinationcanada.com/en-us/coming-to-canada",
+      "https://travel.destinationcanada.com/en-us/plan-your-trip",
+      "https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnName_1991&txtStationName_1991=Toronto&searchMethod=contains&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=6158731&dispBack=0",
+      "https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/toronto-montreal",
+      "https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/vancouver-to-toronto",
+      "https://www.ttc.ca/fares-and-passes"
+    ],
+    "last_verified_date": "2026-10-17",
+    "latitude": null,
+    "longitude": null
+  },
+  {
     "country": "Colombia",
     "iso2": "CO",
     "currency_code": "COP",
@@ -4715,6 +5269,570 @@
     "last_verified_date": "2026-09-28",
     "latitude": 44.815332,
     "longitude": 20.445659
+  },
+  {
+    "country": "South Africa",
+    "iso2": "ZA",
+    "currency_code": "ZAR",
+    "currency_name": "South African rand",
+    "primary_timezone": "Africa/Johannesburg",
+    "timezone_label": "SAST (UTC+2, no daylight saving)",
+    "timezone_note": "South Africa uses a single time zone, Africa/Johannesburg (UTC+2), all year. The South African Tourism UK-market page 'Know before you go' gives the time as GMT+1 when the UK and Ireland are on summer time and GMT+2 when they are on winter time, which is consistent with a fixed UTC+2 and no clock change in South Africa.",
+    "passport_validity_rule": "Passport must be valid for at least 30 days after the date you intend to leave South Africa, and must have at least two blank (unused) pages. The South African mission in Ottawa (DIRCO) states: 'The passport must be valid for a period of at least 30 days after the planned departure from South Africa' and 'Two unused blank visa pages are required when a person reports to a port of entry. Non-compliance will result in refusal of admission to South Africa.' The UK FCDO's South Africa entry page gives the same rule (at least 30 days after you leave, two or more blank pages). Home Affairs' travel-documents page states 'Passports must be valid for at least 30 days after the intended departure date' and 'at least two blank pages for entry stamps. These pages must be facing', but that wording sits in its section on South African passports and does not itself say it applies to foreign visitors, so the mission and FCDO pages are the support for visitors. Stored as 1 month beyond exit; the rule is precisely 30 days, so a passport with 30 days left on departure day is acceptable.",
+    "passport_validity_months_beyond_entry": 1,
+    "passport_validity_basis": "exit",
+    "blank_pages_required": 2,
+    "onward_ticket_required": null,
+    "entry_requirement_notes": "VISA: Home Affairs' 'Exempt Countries' schedule (issued 9 December 2025, marked 'subject to change without notice') lists 90 days visa-free for ordinary-passport holders of the USA, UK, Canada, Australia, Germany, Singapore and Brazil; for India the page text as read showed 90 days only for what appeared to be diplomatic, official and service passports and no ordinary-passport entry could be confirmed, so Indian ordinary-passport holders should check the visa rules and the DIRCO or VFS pages. The UK FCDO page adds that you can visit without a visa for up to 90 days for business or tourism. CHILDREN (two official sources disagree on wording): Home Affairs' 'Travel requirements for children' page (marked revised November 2019, following the first amendment to the Immigration Regulations that took effect 1 December 2018) asks for a 'birth certificate / equivalent document', defined as an extract from the Birth Register containing the child's and parent(s)' particulars, and says consent from the parent(s) cited on the birth certificate is needed when a parent is not travelling with the child, with the consent letter not older than 6 months. It does not use the word 'unabridged'. The South African Consulate-General in Toronto's page for children under 18 (no date given) still says parents 'must produce an unabridged-birth certificate' and, for one parent travelling, an affidavit from the other parent, a court order or a death certificate. Home Affairs' page lists exemptions, including children in direct transit at an international airport and children whose passport names the parent(s); it does not state whether the rules are currently enforced as written, so carry the full birth certificate showing both parents plus consent documents. A 2015 Home Affairs tourist advisory PDF also says 'unabridged' but pre-dates the 2018 amendment and is not relied on. Official pages opened for this record did not state an onward-ticket requirement or proof-of-funds figure, so onward_ticket_required is null. ELECTRICITY SUPPLY: Eskom's media statement of 8 July 2026 reported more than 413 consecutive days without loadshedding, and separately a 'load reduction' measure still affecting some areas, mainly in Gauteng and KwaZulu-Natal, with five provinces (Western Cape, Northern Cape, Free State, North West, Mpumalanga) free of it; Eskom itself calls the two 'fundamentally different challenges'. That is the position on 8 July 2026, not a forecast; no newer Eskom page was opened.",
+    "passport_source_url": "https://dirco.gov.za/ottawa/important-information-for-all-immigration-applicants/",
+    "health": {
+      "required_vaccinations": [
+        "Yellow fever certificate for travellers aged 1 year or over arriving from a yellow fever risk country (Department of Health); CDC adds that airport transits or layovers of more than 12 hours in a risk country are included"
+      ],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (chickenpox, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "Hepatitis A (unvaccinated travellers aged 1 year or older)",
+        "Hepatitis B (unvaccinated travellers under 60)",
+        "Measles (all international travellers fully vaccinated with MMR)",
+        "COVID-19 (eligible travellers up to date)",
+        "Typhoid (consider for rural areas, stays of a month or longer, or visiting friends or relatives)",
+        "Rabies (pre-exposure vaccination to be discussed with a provider, especially for higher-risk activities)",
+        "Mpox (only for adults with certain anticipated activities)"
+      ],
+      "malaria_risk": "Malaria is a notifiable condition in South Africa with three endemic provinces: KwaZulu-Natal, Mpumalanga and Limpopo (Department of Health). The NICD says transmission generally occurs in low-altitude areas of northern KwaZulu-Natal, Limpopo and Mpumalanga, with the high-transmission season generally September to May. CDC lists Kruger National Park and uMkhanyakude (KwaZulu-Natal), Mopani and Vhembe (Limpopo) and Ehlanzeni (Mpumalanga) districts as areas where prophylaxis is recommended. Cape Town, Johannesburg and the Garden Route are not among the areas named.",
+      "notes": "ENTRY: The National Department of Health's 'Health Protocols for Travellers Arriving in South Africa' (on health.gov.za) says all travellers over 1 year old arriving from a yellow fever risk country must produce a valid International Certificate of Vaccination or Prophylaxis, that those without may be refused entry or quarantined for up to 6 days or until the certificate becomes valid, and that a signed waiver letter from a travel health practitioner is needed for medical exemption (those travellers are placed under quarantine surveillance). The protocol points to the WHO list of countries with risk of yellow fever transmission rather than naming them, so check that list. CDC's page says the vaccine is not required for travellers coming direct from the US, and that yellow fever vaccination is not recommended for South Africa itself. Travellers carrying medicine for personal use are required to have authorisation from SAHPRA (same protocol, section 5). All arrivals can be subject to entry screening including temperature checks. MALARIA: the Department of Health advises consulting a travel clinic or doctor before travel to decide whether prophylaxis is needed, and taking steps to avoid mosquito bites outdoors in the evening in endemic areas; CDC recommends atovaquone-proguanil, doxycycline, mefloquine or tafenoquine for the districts above and lists mosquito avoidance only for other transmission areas (King Cetshwayo, Zululand, Capricorn, Greater Sekhukhune, Waterberg). CDC's malaria and yellow fever sections were updated 23 April 2025 and the page was last reviewed 25 August 2026; the NICD article is dated 3 November 2025. CDC also carries a rabies alert about Cape fur seals (South Africa and Namibia): do not approach or touch seals. All of this is medical information, not advice.",
+      "source_url": "https://www.health.gov.za/wp-content/uploads/2026/09/Protocols-for-Travellers.pdf"
+    },
+    "money": {
+      "card_acceptance": null,
+      "cash_culture": null,
+      "tipping": "South African Tourism's UK-market page says 'South Africa is similar to the UK, with 10-15% customary in restaurants and for tour guides.' That is a UK-edition tourism-board page with no date, so treat the range as guidance rather than a rule.",
+      "atm_notes": null,
+      "source_url": "https://www.southafrica.net/uk/en/travel/article/know-before-you-go"
+    },
+    "power": {
+      "plug_types": [],
+      "voltage": null,
+      "frequency": null,
+      "adapter_note": null,
+      "source_url": null
+    },
+    "emergency": {
+      "police": "10111",
+      "ambulance": "10177",
+      "fire": null,
+      "universal": "112",
+      "tourist_police": null,
+      "notes": "The Western Cape Government lists Police Flying Squad 10111, Ambulance 10177 and 'Cell Phone Emergency' 112 (MTN, Vodacom, Cell C, Telkom), and also states 'Currently, there's no single emergency number in South Africa'; it says for fire and rescue to 'see your district municipality for emergency contact numbers' (page undated). The national Department of Tourism's safety page lists police 10111, 112 'from a cellphone' and 10177 for ambulance/fire. Because the two official pages differ on fire, fire is left null rather than assuming 10177 covers it; ambulance 10177 is supported by both. No dedicated tourist police number was found, so that field is null. The Department of Tourism page gives tourism complaints on 012 444 6000 or 0860 686 747, which is not an emergency line.",
+      "source_url": "https://www.westerncape.gov.za/health-wellness/know-who-you-can-call-emergency"
+    },
+    "getting_around": {
+      "summary": null,
+      "passes": [],
+      "source_url": null
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": null,
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": null
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 26,
+        "avg_low_c": 16,
+        "precipitation_note": "Cape Town: 15 mm normal rainfall; mean daily max 26.1 C and min 15.7 C (1961-1990 base period, South African Weather Service data as published by the WMO World Weather Information Service). This is an old base period. Climate is strongly regional: for comparison, Johannesburg (same source, 1961-1990) averages 25.6 C max, 14.7 C min and 125 mm in January, because the interior has summer rain while the Cape has winter rain.",
+        "crowd_note": "Dry, sunny Cape summer and school-holiday season; busy and expensive on the Cape coast (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 27,
+        "avg_low_c": 16,
+        "precipitation_note": "Cape Town: 17 mm normal rainfall; mean daily max 26.5 C and min 15.6 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 25.1 C max, 14.1 C min, 90 mm.",
+        "crowd_note": "Warmest and driest stretch of the year in Cape Town; popular for beaches and winelands (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 25,
+        "avg_low_c": 14,
+        "precipitation_note": "Cape Town: 20 mm normal rainfall; mean daily max 25.4 C and min 14.2 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 24.0 C max, 13.1 C min, 91 mm.",
+        "crowd_note": "Still warm and dry in the Cape with thinner crowds after the summer holidays (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 23,
+        "avg_low_c": 12,
+        "precipitation_note": "Cape Town: 41 mm normal rainfall; mean daily max 23.0 C and min 11.9 C (1961-1990 base period, South African Weather Service data via the WMO). Rainfall starts to rise as the Cape winter-rain season approaches. Johannesburg for comparison: 21.1 C max, 10.3 C min, 54 mm.",
+        "crowd_note": "Mild autumn; Easter holidays are busier (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 20,
+        "avg_low_c": 9,
+        "precipitation_note": "Cape Town: 69 mm normal rainfall; mean daily max 20.3 C and min 9.4 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 18.9 C max, 7.2 C min, 13 mm.",
+        "crowd_note": "Cooler and wetter in the Cape, quieter on the coast (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 18,
+        "avg_low_c": 8,
+        "precipitation_note": "Cape Town: 93 mm normal rainfall (the wettest month in this table); mean daily max 18.1 C and min 7.8 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 16.0 C max, 4.1 C min, 9 mm.",
+        "crowd_note": "Cape winter: cool, wet and quiet; the interior is dry with cold nights (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 18,
+        "avg_low_c": 7,
+        "precipitation_note": "Cape Town: 82 mm normal rainfall; mean daily max 17.5 C and min 7.0 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 16.7 C max, 4.1 C min, 4 mm.",
+        "crowd_note": "Coolest month in the Cape; dry and cold in the northeast, and a popular dry-season month for the Kruger area (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 18,
+        "avg_low_c": 8,
+        "precipitation_note": "Cape Town: 77 mm normal rainfall; mean daily max 17.8 C and min 7.5 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 19.4 C max, 6.2 C min, 6 mm.",
+        "crowd_note": "Still wet in the Cape, drier and warming in the interior (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 19,
+        "avg_low_c": 9,
+        "precipitation_note": "Cape Town: 40 mm normal rainfall; mean daily max 19.2 C and min 8.7 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 22.8 C max, 9.3 C min, 27 mm.",
+        "crowd_note": "Spring: improving weather and wildflower season in the west; moderate crowds (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 21,
+        "avg_low_c": 11,
+        "precipitation_note": "Cape Town: 30 mm normal rainfall; mean daily max 21.3 C and min 10.6 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 23.8 C max, 11.2 C min, 72 mm.",
+        "crowd_note": "Warming up before the summer rush; good value shoulder month (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 24,
+        "avg_low_c": 13,
+        "precipitation_note": "Cape Town: 14 mm normal rainfall; mean daily max 23.5 C and min 13.2 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 24.2 C max, 12.7 C min, 117 mm.",
+        "crowd_note": "Dry and warm in the Cape, building toward the December peak (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 25,
+        "avg_low_c": 15,
+        "precipitation_note": "Cape Town: 17 mm normal rainfall; mean daily max 24.9 C and min 14.9 C (1961-1990 base period, South African Weather Service data via the WMO). Johannesburg for comparison: 25.2 C max, 13.9 C min, 105 mm.",
+        "crowd_note": "Peak holiday season on the coast, with the highest demand and prices around Christmas and New Year (editorial judgement).",
+        "rating": "peak"
+      }
+    ],
+    "climate_reference_city": "Cape Town",
+    "climate_source_url": "https://worldweather.wmo.int/en/json/138_en.json",
+    "phrases": [
+      {
+        "phrase_en": "Hello (isiZulu)",
+        "local": "Sawubona",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Hello (isiXhosa)",
+        "local": "Molo",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Hello (Afrikaans)",
+        "local": "Hallo",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Goodbye (Afrikaans)",
+        "local": "Totsiens",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you (isiZulu)",
+        "local": "Ngiyabonga",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you (isiXhosa)",
+        "local": "Enkosi",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you (Afrikaans)",
+        "local": "Dankie",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Please (Afrikaans)",
+        "local": "Asseblief",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Excuse me / Sorry (Afrikaans)",
+        "local": "Verskoon my",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Yes (Afrikaans)",
+        "local": "Ja",
+        "romanization": null
+      },
+      {
+        "phrase_en": "No (Afrikaans)",
+        "local": "Nee",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How much is this? (Afrikaans)",
+        "local": "Hoeveel kos dit?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Where is the toilet? (Afrikaans)",
+        "local": "Waar is die toilet?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "I don't understand (Afrikaans)",
+        "local": "Ek verstaan nie",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Do you speak English? (Afrikaans)",
+        "local": "Praat jy Engels?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Help! (Afrikaans)",
+        "local": "Help my!",
+        "romanization": null
+      }
+    ],
+    "phrases_language": "Mixed sample: isiZulu, isiXhosa and Afrikaans, each labelled in brackets. South Africa has many languages and this is a small sample for greetings and basic needs, not a complete phrasebook; these phrases were written from general knowledge, not taken from an official page. The government's gov.za 'South Africa at a glance' page lists 11 official languages, and Parliament's release of 3 May 2023 says South African Sign Language would make 12 once the President signs the Bill; the signing was not confirmed from a page opened for this record. English is one of the official languages.",
+    "sources": [
+      "https://www.dha.gov.za/index.php/immigration-services/exempt-countries",
+      "https://www.dha.gov.za/index.php/civic-services/travel-requirements-for-children",
+      "https://www.dha.gov.za/index.php/civic-services/travel-documents",
+      "https://dirco.gov.za/ottawa/important-information-for-all-immigration-applicants/",
+      "https://dirco.gov.za/toronto/travel-regulation-for-children-under-18-years-of-age/",
+      "https://www.gov.uk/foreign-travel-advice/south-africa/entry-requirements",
+      "https://www.health.gov.za/wp-content/uploads/2026/09/Protocols-for-Travellers.pdf",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa",
+      "https://www.nicd.ac.za/what-you-need-to-know-about-odyssean-malaria-and-malaria-transmission-in-south-africa/",
+      "https://www.westerncape.gov.za/health-wellness/know-who-you-can-call-emergency",
+      "https://www.tourism.gov.za/Pages/Safety--Travel-Tips-Info.aspx",
+      "https://www.eskom.co.za/eskom-removes-more-than-one-million-customers-from-load-reduction-as-five-provinces-become-load-reduction-free/",
+      "https://www.southafrica.net/uk/en/travel/article/know-before-you-go",
+      "https://www.gov.za/south-africa-glance",
+      "https://www.parliament.gov.za/press-releases/na-approves-south-african-sign-language-12th-official-language",
+      "https://worldweather.wmo.int/en/json/138_en.json",
+      "https://worldweather.wmo.int/en/json/139_en.json",
+      "https://worldweather.wmo.int/en/json/full_city_list.txt"
+    ],
+    "last_verified_date": "2026-10-17",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "country": "South Korea",
+    "iso2": "KR",
+    "currency_code": "KRW",
+    "currency_name": "South Korean won",
+    "primary_timezone": "Asia/Seoul",
+    "timezone_label": "KST (UTC+9, no DST)",
+    "timezone_note": "South Korea uses a single time zone nationwide, Korea Standard Time (Asia/Seoul in the IANA database), and does not currently observe daylight saving time. The Korean government pages used for this record give times in KST (for example the K-ETA exemption runs to 31 December 2026 KST and the e-Arrival card window is counted in KST).",
+    "passport_validity_rule": "Korea sets no minimum remaining validity beyond the trip itself: the passport only has to stay valid throughout the stay. The Embassy of Korea in Singapore (mofa.go.kr) answers the question directly: you may enter with a passport that has less than 6 months of remaining validity \"as long as your passport remains valid throughout your stay.\" Government of Canada advice says the passport \"must be valid beyond the date of expected departure from South Korea\" and UK FCDO says it must have an expiry date after the date you leave (for stays up to 90 days; FCDO adds 6 months from arrival for long-term visas). Two catches: a K-ETA lasts 3 years or until the passport expires, whichever is sooner, so a passport that expires soon shortens the K-ETA; and your airline or a transit country may still apply its own six-month rule.",
+    "passport_validity_months_beyond_entry": 0,
+    "passport_validity_basis": "duration-of-stay",
+    "blank_pages_required": null,
+    "onward_ticket_required": true,
+    "entry_requirement_notes": "CHECKED 17 October 2026. (1) K-ETA (Korea Electronic Travel Authorization): IN FORCE as the general rule for visa-free visitors, but TEMPORARILY WAIVED for 22 nationalities/regions until 31 December 2026 (KST). Korea's Ministry of Justice extended the waiver for one year, 1 January to 31 December 2026, per Korean MOFA notices dated 29 December 2025 and 5 January 2026. The KTO (VisitKorea) page lists the exempt nationalities: Japan, Taiwan, Hong Kong, Singapore, Macau; United States (including Guam), Canada; United Kingdom, Germany, France, Italy, Netherlands, Spain, Poland, Sweden, Finland, Norway, Belgium, Denmark, Austria; Australia, New Zealand. Of the eight passports NextStamp covers, UK, USA, Canada, Australia, Germany and Singapore are on that list; India and Brazil are not and need an approved K-ETA before boarding (if they are visa-exempt at all; check visa.go.kr). Nothing opened for this record says the waiver continues past 31 December 2026, so a trip that starts on or after 1 January 2027 should assume a K-ETA is needed and check k-eta.go.kr (its notice list shows an item dated 2026-03-20 titled as a temporary-exemption extension notice whose text could not be opened here). Facts for those who do need or want one: fee KRW 10,000, non-refundable even if refused; usually assessed within 72 hours but can take longer and there is no express service; valid 3 years or until passport expiry, whichever is sooner; must be approved before boarding; approval does not guarantee entry (the immigration officer decides). An exempt traveller can still apply voluntarily, which also spares them the arrival card. Beware look-alike sites; apply only at k-eta.go.kr or the official app. Transit passengers who do not clear immigration at Incheon do not need one. (2) e-Arrival card: IN FORCE. Government of Canada states all travellers must submit an entry declaration, online up to 3 days before arrival (e-arrivalcard.go.kr, free, counted in KST) or on paper on arrival; UK FCDO says paper forms are still available. A 2025 KTO article said the paper card was planned to end after December 2025, which the 2026 FCDO and GAC pages contradict, so expect the online form to be the faster route. K-ETA holders do not have to submit it. Beware fake e-Arrival sites (Korea Immigration Service notice of 9 March 2026). (3) Q-CODE: NOT a blanket registration. It is required of travellers who have visited or transited an area on KDCA's Quarantine Inspection Required lists. The KDCA list for Q4 2026 (as of 1 October 2026) has two tiers: for 'strict' areas (including India, Brazil, the UAE and Saudi Arabia, and the US states of New Mexico, Michigan and Washington) everyone arriving from or via them must submit a Q-CODE or health declaration form; for the wider 'quarantine inspection required' list (which includes, for example, the rest of the US, Canada, Australia, Japan, Singapore, Germany and England) it is mandatory only if you have symptoms. Registration opens up to 7 days before arrival (GAC, KTO), the fine for non-compliance is up to KRW 10 million, and the list is revised quarterly, so re-check kdca.go.kr before travel. (4) Stay length is set by nationality: UK FCDO says up to 90 days for tourism or short business; Government of Canada says Canadians need no visa for up to 180 days; KTO and Korean MOFA direct travellers to visa.go.kr for their nationality. UK FCDO states you must hold an onward or return ticket; the Korean and Canadian pages opened for this record did not mention it, so the field is set true on the strength of FCDO alone. No blank-page requirement was found on any official page, so that field is null. UK FCDO says you must declare anything prohibited or subject to tax or duty; no opened page gave a cash-declaration threshold, so none is stated here. Korea Immigration contact centre: 1345 (+82-2-1345 from abroad).",
+    "passport_source_url": "https://overseas.mofa.go.kr/sg-en/brd/m_2445/view.do?seq=738963&page=1",
+    "health": {
+      "required_vaccinations": [],
+      "recommended_vaccinations": [
+        "Routine vaccinations (MMR, diphtheria-tetanus-pertussis, influenza, polio, chickenpox, shingles)",
+        "COVID-19",
+        "Measles (all travellers fully vaccinated with MMR)",
+        "Hepatitis A",
+        "Hepatitis B (unvaccinated travellers under 60)",
+        "Japanese encephalitis (stays of a month or more, frequent travel, or higher-risk rural activities)",
+        "Typhoid (consider for rural areas or stays of a month or more)",
+        "Mpox (for certain higher-risk exposures)",
+        "Rabies (ask a clinician if activities raise exposure risk)"
+      ],
+      "malaria_risk": "Limited. CDC lists a limited risk of Plasmodium vivax malaria in rural northern parts of Incheon, Gangwon and Gyeonggi provinces, including the DMZ, March through December, and recommends antimalarials for travellers to those areas. No risk is described elsewhere in the country.",
+      "notes": "No vaccination is required for entry: CDC states the yellow fever vaccine is not required and not recommended, and the Government of Canada says proof of yellow fever vaccination is not required. CDC carries a Level 1 (usual precautions) travel health notice for measles. The recommended list is medical advice from CDC, not something checked at immigration. Separate from vaccination, the Q-CODE health registration rules in entry_requirement_notes can apply depending on where you have travelled recently.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea"
+    },
+    "money": {
+      "card_acceptance": null,
+      "cash_culture": null,
+      "tipping": null,
+      "atm_notes": null,
+      "source_url": null
+    },
+    "power": {
+      "plug_types": null,
+      "voltage": "220V",
+      "frequency": "60Hz",
+      "adapter_note": "The Korea Tourism Organization states the standard is 220 volts at 60 Hz and that outlets take two round holes. It does not name a plug-type letter, so none is recorded here. Without a multi-voltage adapter you can borrow or buy one at a hotel front desk, and KTO lists airports, retail stores, duty-free shops and convenience stores as sources.",
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140041"
+    },
+    "emergency": {
+      "police": "112",
+      "ambulance": "119",
+      "fire": "119",
+      "universal": null,
+      "tourist_police": null,
+      "notes": "The Korea Tourism Organization lists 112 for police and 119 for fire and medical emergencies; the Government of Canada's South Korea page gives the same (112 police, 119 medical and fire). KTO says if you do not speak Korean, say \"English please\" or \"Interpreter please\" when the call connects. KTO also lists +82-1339 for infectious-disease emergencies; for a life-threatening emergency use 119. The 1330 Korea Travel Hotline (+82-2-1330 from abroad) is run by the Korea Tourism Organization for non-life-threatening help such as transport questions and interpretation, 24 hours a day, with phone support in Korean, English, Japanese, Chinese, Russian, Vietnamese, Thai and Malay (some languages have shorter hours). No tourist-police number appears on the KTO page, so that field is null, and no source opened confirms that 112 works as a general international emergency number in Korea, so the universal field is null.",
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042"
+    },
+    "getting_around": {
+      "summary": "The Korea Tourism Organization describes the KTX as a high-speed train running at up to 330 km/h from Seoul, Yongsan and Cheongnyangni stations to Busan, Pohang, Mokpo, Yeosu, Gangneung, Andong and other cities; the Seoul to Busan Gyeongbu Line is 447.1 km and the busiest route. SRT is a separate high-speed service (up to 300 km/h) from Suseo Station towards Busan or Mokpo. Tickets can be bought at ticket offices, on the KORAIL website or KORAIL+ app, at kiosks, and through NAVER Train Booking or KakaoT; sales open one month before departure at 07:00 and close 20 minutes before departure. KORAIL's English customer centre is +82-1599-7777 (08:00-20:00). KTO gives no Seoul to Busan journey time, so none is stated here. In cities, a rechargeable transport card (T-money, among others) pays for subways and buses. KTO pages were last updated in August 2026.",
+      "passes": [
+        {
+          "name": "Korail Pass (KORAIL Pass)",
+          "covers": "KTO: a train pass exclusively for international travellers, sold as 2-, 3-, 4- or 5-day flexible passes usable within ten days. It gives unlimited use of standard cabins during the pass period, up to two seat reservations a day, unlimited standing tickets, and first-class booking at 50% of the original first-class fare. It does not cover SRT, subways or temporary tourist trains. KTO says it is booked through korail.com (English, Japanese, Chinese).",
+          "worth_it": "No current prices were found on a page that could be opened, and older price tables conflict with the pass structure now described (KORAIL changed pass types and age categories from 11 December 2025, per a search result not opened in full), so no figure is given and no verdict on value is offered. Check the price against your planned KTX journeys on korail.com before buying.",
+          "buy_before_arrival": null
+        },
+        {
+          "name": "T-money card",
+          "covers": "KTO: a rechargeable prepaid card costing 3,000 to 5,000 won, sold at convenience stores nationwide (GS25, CU, 7-Eleven and others) and at information centres in Seoul subway stations on Lines 1 to 8. It works on public transport and at affiliated shops showing the Tmoney logo, and also at expressway toll gates. Reloading is at subway ticket machines, up to 500,000 won. KTO notes a transit-fare transfer discount when using a transportation card.",
+          "worth_it": "Not a discount pass but the practical default for city buses and subways. Refunds of more than 50,000 won are only possible at Tmoney Town at Seoul Station; smaller balances can be refunded at convenience stores, so top up modestly. KTO also lists a foreigner-only Mpass (fixed-period unlimited-ride card, bought with Korean won cash only) and says its separate Climate Card became limited to use within Seoul from 1 October 2026.",
+          "buy_before_arrival": false
+        }
+      ],
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140656"
+    },
+    "connectivity": {
+      "esim_supported": true,
+      "local_sim_notes": "KTO states visitors can rent a Wi-Fi egg or smartphone and buy SIM cards at the roaming centres at Incheon, Gimpo, Gimhae and Jeju airports (fees are on each provider's site). Physical USIMs are also sold at convenience stores such as CU, GS25, 7-Eleven and Emart24, though stock varies by branch. An eSIM can be bought online and activated by scanning a QR code; check your phone is eSIM-compatible. Free public Wi-Fi is available at most public locations including airports and subway and train stations (wififree.kr).",
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140041"
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 2,
+        "avg_low_c": -6,
+        "precipitation_note": "Seoul 1991-2020 normal: 16.8 mm. Exact KMA values: mean -1.9C, maximum 2.1C, minimum -5.5C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Coldest month (mean -1.9C) and the driest. Seoul-area attractions are quiet outside the Lunar New Year holiday, which moves each year.",
+        "rating": "low"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 5,
+        "avg_low_c": -3,
+        "precipitation_note": "Seoul 1991-2020 normal: 28.2 mm. Exact KMA values: mean 0.7C, maximum 5.1C, minimum -3.2C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Still cold. Lunar New Year (Seollal) falls in late January or February depending on the year and is a heavy domestic travel period, so check the year's dates.",
+        "rating": "low"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 11,
+        "avg_low_c": 2,
+        "precipitation_note": "Seoul 1991-2020 normal: 36.9 mm. Exact KMA values: mean 6.1C, maximum 11.0C, minimum 1.9C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Thawing, with temperatures near freezing at night early in the month; visitor numbers build towards spring.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 18,
+        "avg_low_c": 8,
+        "precipitation_note": "Seoul 1991-2020 normal: 72.9 mm. Exact KMA values: mean 12.6C, maximum 17.9C, minimum 8.0C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Mild and relatively dry spring weather, the usual window for spring-blossom travel; expect higher demand and prices.",
+        "rating": "peak"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 24,
+        "avg_low_c": 14,
+        "precipitation_note": "Seoul 1991-2020 normal: 103.6 mm. Exact KMA values: mean 18.2C, maximum 23.6C, minimum 13.5C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Warm days and cool nights; one of the most comfortable months, and busy for that reason.",
+        "rating": "peak"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 28,
+        "avg_low_c": 19,
+        "precipitation_note": "Seoul 1991-2020 normal: 129.5 mm. Exact KMA values: mean 22.7C, maximum 27.6C, minimum 18.7C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Heat and humidity build and rainfall rises sharply by month end as the summer rains approach.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 29,
+        "avg_low_c": 22,
+        "precipitation_note": "Seoul 1991-2020 normal: 414.4 mm. Exact KMA values: mean 25.3C, maximum 29.0C, minimum 22.3C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Wettest month by a wide margin: 414.4 mm is about 29% of the whole year's rain in Seoul.",
+        "rating": "avoid"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 30,
+        "avg_low_c": 23,
+        "precipitation_note": "Seoul 1991-2020 normal: 348.2 mm. Exact KMA values: mean 26.1C, maximum 30.0C, minimum 22.9C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Hottest month (mean 26.1C) and the second wettest; the June to August rains total 892.1 mm.",
+        "rating": "low"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 26,
+        "avg_low_c": 18,
+        "precipitation_note": "Seoul 1991-2020 normal: 141.5 mm. Exact KMA values: mean 21.6C, maximum 26.2C, minimum 17.7C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Heat eases and rain drops from August levels, though 141.5 mm is still well above the autumn months. Chuseok (harvest holiday) falls in September or October depending on the year and is a heavy domestic travel period.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 20,
+        "avg_low_c": 11,
+        "precipitation_note": "Seoul 1991-2020 normal: 52.2 mm. Exact KMA values: mean 15.0C, maximum 20.2C, minimum 10.6C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Cool, dry and clear on the figures (52.2 mm), and the usual autumn-colour window; expect crowds at popular sites.",
+        "rating": "peak"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 12,
+        "avg_low_c": 4,
+        "precipitation_note": "Seoul 1991-2020 normal: 51.1 mm. Exact KMA values: mean 7.5C, maximum 11.9C, minimum 3.5C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Cold nights approach freezing and the days stay dry; autumn colour fades through the month.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 4,
+        "avg_low_c": -3,
+        "precipitation_note": "Seoul 1991-2020 normal: 22.6 mm. Exact KMA values: mean 0.2C, maximum 4.2C, minimum -3.4C (the integer high/low columns are rounded).",
+        "crowd_note": "Editorial judgement, not a sourced measurement: Cold and dry. Winter (December to February) totals only 67.6 mm, about 5% of the year's rain.",
+        "rating": "low"
+      }
+    ],
+    "climate_reference_city": "Seoul",
+    "climate_source_url": "https://www.kma.go.kr/kma/flexer/html/press/2021/03/25/ATC202103250932093_863521e7-fd31-4f26-bfce-04a9e14ffb33.hwp.files/Sections1.html",
+    "phrases": [
+      {
+        "phrase_en": "Hello",
+        "local": "안녕하세요",
+        "romanization": "Annyeonghaseyo"
+      },
+      {
+        "phrase_en": "Goodbye (to someone staying)",
+        "local": "안녕히 계세요",
+        "romanization": "Annyeonghi gyeseyo"
+      },
+      {
+        "phrase_en": "Thank you",
+        "local": "감사합니다",
+        "romanization": "Gamsahamnida"
+      },
+      {
+        "phrase_en": "Please (when asking for something: 'please give me')",
+        "local": "주세요",
+        "romanization": "Juseyo"
+      },
+      {
+        "phrase_en": "Yes",
+        "local": "네",
+        "romanization": "Ne"
+      },
+      {
+        "phrase_en": "No",
+        "local": "아니요",
+        "romanization": "Aniyo"
+      },
+      {
+        "phrase_en": "Excuse me (to get someone's attention)",
+        "local": "저기요",
+        "romanization": "Jeogiyo"
+      },
+      {
+        "phrase_en": "I am sorry",
+        "local": "죄송합니다",
+        "romanization": "Joesonghamnida"
+      },
+      {
+        "phrase_en": "How much is this?",
+        "local": "이거 얼마예요?",
+        "romanization": "Igeo eolmayeyo?"
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "화장실이 어디예요?",
+        "romanization": "Hwajangsiri eodiyeyo?"
+      },
+      {
+        "phrase_en": "I don't understand",
+        "local": "모르겠어요",
+        "romanization": "Moreugesseoyo"
+      },
+      {
+        "phrase_en": "Do you speak English?",
+        "local": "영어 할 수 있어요?",
+        "romanization": "Yeongeo hal su isseoyo?"
+      },
+      {
+        "phrase_en": "Help!",
+        "local": "도와주세요!",
+        "romanization": "Dowajuseyo!"
+      },
+      {
+        "phrase_en": "Water",
+        "local": "물",
+        "romanization": "Mul"
+      },
+      {
+        "phrase_en": "The bill, please",
+        "local": "계산해 주세요",
+        "romanization": "Gyesanhae juseyo"
+      },
+      {
+        "phrase_en": "Delicious",
+        "local": "맛있어요",
+        "romanization": "Masisseoyo"
+      }
+    ],
+    "phrases_language": "Korean",
+    "sources": [
+      "https://www.gov.uk/foreign-travel-advice/south-korea/entry-requirements",
+      "https://travel.gc.ca/destinations/south-korea",
+      "https://www.mofa.go.kr/us-hagatna-en/brd/m_5521/view.do?seq=761689",
+      "https://www.mofa.go.kr/nl-en/brd/m_6971/view.do?seq=761802",
+      "https://overseas.mofa.go.kr/us-en/brd/m_4500/view.do?seq=761106",
+      "https://overseas.mofa.go.kr/sg-en/brd/m_2445/view.do?seq=738963&page=1",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
+      "https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN",
+      "https://www.k-eta.go.kr/portal/guidance/index.do",
+      "https://www.e-arrivalcard.go.kr/portal/main/index.do",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=177&vcontsId=221425",
+      "https://www.kdca.go.kr/bbs/kdca/50/309848/download.do",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140041",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140656",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140663",
+      "https://www.immigration.go.kr/immigration_eng/index.do",
+      "https://www.weather.go.kr/w/climate/statistics/regional-char.do?area=1",
+      "https://www.kma.go.kr/kma/flexer/html/press/2021/03/25/ATC202103250932093_863521e7-fd31-4f26-bfce-04a9e14ffb33.hwp.files/Sections1.html"
+    ],
+    "last_verified_date": "2026-10-17",
+    "latitude": 37.5665,
+    "longitude": 126.978
   },
   {
     "country": "Spain",

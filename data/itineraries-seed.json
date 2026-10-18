@@ -13476,5 +13476,1085 @@
         "description": "Scotland's New Year celebration is centred on Edinburgh, and ceilidh dances with live Scottish folk music are held in village halls and pubs across the Highlands and islands."
       }
     ]
+  },
+  {
+    "title": "Vancouver, Whistler + Banff to Jasper, Canada",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "International",
+    "countries": [
+      "Canada"
+    ],
+    "duration_days_min": 9,
+    "duration_days_max": 10,
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "best_time_description": "Summer into early autumn suits this route because the Icefields Parkway has services only from early May to mid-October (none between Lake Louise and Jasper in winter), and the Parks Canada Moraine Lake shuttle runs only from June to mid-October. Month choice is an editorial suggestion, not met-service data. From 1 November to 31 March snow tires or chains are legally required on the Icefields Parkway (and winter tires on Highway 99 to Whistler from 1 October), so a winter trip needs the right vehicle and a flexible schedule.",
+    "description": "Coast to Rockies in nine days: Vancouver and a night in Whistler on the Sea to Sky Highway, a flight to Calgary, then Banff, Lake Louise and Moraine Lake and the 232 km Icefields Parkway to Jasper. A car is needed from Calgary onward. A national parks pass is required in Banff and Jasper.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Vancouver",
+        "activities": [
+          "Check in and walk the Stanley Park seawall or Granville Island to ease into the time zone",
+          "Evening in Gastown"
+        ],
+        "lodging_suggestion": "Vancouver (downtown)"
+      },
+      {
+        "day_number": 2,
+        "title": "Vancouver",
+        "activities": [
+          "Stanley Park: walk or cycle the seawall",
+          "Granville Island public market and waterfront",
+          "Wander Gastown and Coal Harbour"
+        ],
+        "lodging_suggestion": "Vancouver (downtown)"
+      },
+      {
+        "day_number": 3,
+        "title": "Sea to Sky Highway to Whistler",
+        "activities": [
+          "Drive Highway 99 north from Vancouver to Whistler; Destination Vancouver says the drive takes about two hours not counting scenic stops, and Highway 99 is the only road into Whistler. Winter tires are required on the Sea to Sky Highway from 1 October to 31 March (Tourism Whistler)",
+          "Stop at Shannon Falls, a roughly 10-minute walk from a parking area just off the highway (Destination Vancouver)",
+          "Walk Whistler Village, which is pedestrian-only (Tourism Whistler)"
+        ],
+        "drive_time": "Vancouver to Whistler ~2 hr by road (Destination Vancouver)",
+        "lodging_suggestion": "Whistler Village"
+      },
+      {
+        "day_number": 4,
+        "title": "Whistler back to Vancouver, fly to Calgary",
+        "activities": [
+          "Drive Highway 99 south to Vancouver (about two hours) and return the car at Vancouver airport",
+          "Fly Vancouver to Calgary; check airline schedules for current flight times and book a rental car from Calgary airport for the Rockies"
+        ],
+        "drive_time": "Whistler to Vancouver ~2 hr by road",
+        "lodging_suggestion": "Calgary (near the airport) or Canmore"
+      },
+      {
+        "day_number": 5,
+        "title": "Calgary to Banff",
+        "activities": [
+          "Drive west to Banff: the Town of Banff says it is 128 km west of Calgary and the highway trip takes about 1.5 hours, depending on departure point and stops in Canmore",
+          "A valid national parks pass is required in Banff National Park (Parks Canada); buy it before you enter the park gates",
+          "Walk Banff Avenue and the Bow River; parking in town fills early, so Roam transit or walking is easier"
+        ],
+        "drive_time": "Calgary to Banff ~1.5 hr (Town of Banff)",
+        "lodging_suggestion": "Banff (town)"
+      },
+      {
+        "day_number": 6,
+        "title": "Lake Louise + Moraine Lake",
+        "activities": [
+          "Moraine Lake Road is closed to personal vehicles year-round (Parks Canada). Reserve the Parks Canada shuttle in advance at reservation.pc.gc.ca; for the 2026 season the Lake Louise Lakeshore shuttle ran 15 May to 12 October and the Moraine Lake shuttle 1 June to 12 October, weather permitting, so check the dates for your year",
+          "Park free at the Lake Louise Park and Ride if you hold a shuttle reservation; the Lakeshore lot often fills before sunrise",
+          "Lake Louise lakeshore walk"
+        ],
+        "lodging_suggestion": "Banff (town) or Lake Louise"
+      },
+      {
+        "day_number": 7,
+        "title": "Icefields Parkway to Jasper",
+        "activities": [
+          "Highway 93N, the Icefields Parkway, is 232 km from Lake Louise to Jasper (Parks Canada); allow a full day with stops and start with a full tank, because the only fuel on the route is at Saskatchewan River Crossing and only in summer",
+          "Peyto Lake viewpoint, 43 km from Lake Louise (a short walk to the platform); Bow Lake viewpoint, 30 minutes north of Lake Louise",
+          "Columbia Icefield Discovery and Information Centre, 128 km from Lake Louise (visitor centre open May to September)",
+          "Athabasca Falls, 30 km south of Jasper",
+          "Services run early May to mid-October only; in winter there are no services between Lake Louise and Jasper. A national parks pass is required to drive the parkway. Check 511 Alberta before departing"
+        ],
+        "drive_time": "Banff to Lake Louise, then 232 km to Jasper; a full day with stops (Parks Canada gives distances, not a drive time)",
+        "lodging_suggestion": "Jasper (town)"
+      },
+      {
+        "day_number": 8,
+        "title": "Jasper: Maligne Lake",
+        "activities": [
+          "Maligne Lake: Parks Canada lists the Maligne Road and Maligne Lake area as reopened after the 2024 wildfire; check the Parks Canada Jasper 'What's open' page for current status",
+          "Maligne Canyon and Cavell Road (Cavell Meadows) are listed by Parks Canada as closed for the 2026 season while rehabilitation continues, so do not plan around them without checking",
+          "Walk the town of Jasper"
+        ],
+        "lodging_suggestion": "Jasper (town)"
+      },
+      {
+        "day_number": 9,
+        "title": "Return south and depart from Calgary",
+        "activities": [
+          "Drive the Icefields Parkway back to Lake Louise and Banff (232 km Lake Louise to Jasper, same stop and services notes as Day 7)",
+          "Continue to Calgary airport (Banff to Calgary about 1.5 hr); give yourself a night in Calgary or Banff if you have a morning flight"
+        ],
+        "drive_time": "Jasper to Lake Louise 232 km; Banff to Calgary ~1.5 hr (Town of Banff)",
+        "lodging_suggestion": "Calgary (near the airport)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Nanaimo bar",
+        "description": "A no-bake layered chocolate, custard and coconut-crumb bar named for Nanaimo on Vancouver Island and found in many British Columbia cafes and bakeries."
+      },
+      {
+        "place_type": "culture",
+        "name": "Squamish Lil'wat Cultural Centre, Whistler",
+        "description": "A cultural centre in Whistler run by the Squamish and Lil'wat Nations, whose traditional territories include the Whistler area; check its current opening days and programs before you go."
+      },
+      {
+        "place_type": "culture",
+        "name": "Shuttle-and-pass national park etiquette",
+        "description": "Banff, Lake Louise and Jasper are Parks Canada national parks: carry your park pass, reserve the Moraine Lake shuttle, keep your distance from wildlife and pack out all food waste."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Toronto, Niagara, Montréal + Québec City, Canada",
+    "category": [
+      "city"
+    ],
+    "region": "International",
+    "countries": [
+      "Canada"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 9,
+    "best_time_months": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "best_time_description": "Late spring to autumn is easiest for walking Old Montréal and Old Québec and for Niagara's outdoor viewpoints; this is an editorial suggestion, not met-service data. Winter works for the cities too but is cold and the Québec City summer-only events (such as the Citadelle's morning music show) do not run.",
+    "description": "A car-free eastern Canada loop: two days in Toronto, a Niagara Falls day trip by GO train or VIA, then VIA Rail Corridor trains to Montréal and on to Québec City. VIA lists the Toronto to Montréal trip at an average 5 h 13 min and Montréal to Québec City at 3 h 26 min.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Toronto",
+        "activities": [
+          "Check in downtown near Union Station, which is the hub for GO and VIA trains",
+          "Evening walk on the waterfront or in the Distillery District"
+        ],
+        "lodging_suggestion": "Toronto (near Union Station)"
+      },
+      {
+        "day_number": 2,
+        "title": "Toronto",
+        "activities": [
+          "CN Tower and the downtown waterfront",
+          "St. Lawrence Market South Market: the market's own site lists Tuesday to Friday 9am to 7pm, Saturday 7am to 5pm, Sunday 10am to 5pm and Monday closed, so check current hours before you go",
+          "Kensington Market and Chinatown on foot"
+        ],
+        "lodging_suggestion": "Toronto (near Union Station)"
+      },
+      {
+        "day_number": 3,
+        "title": "Niagara Falls day trip",
+        "activities": [
+          "Train from Toronto: GO Transit says it runs Toronto to Niagara Falls on weekdays and weekends all year (check the timetable for the day you travel; the pages checked do not give a journey time); VIA Rail's route page lists 132 km at an average of about 2 hours on 7 departures a week",
+          "Journey Behind the Falls (Niagara Parks): listed as open daily and year-round; Niagara Parks recommends arriving at least an hour before closing",
+          "Walk the Niagara Parkway viewpoints, then return to Toronto in the evening"
+        ],
+        "drive_time": "Toronto to Niagara Falls: VIA ~2 hr average (132 km); GO timetable varies",
+        "lodging_suggestion": "Toronto (near Union Station)"
+      },
+      {
+        "day_number": 4,
+        "title": "VIA Rail to Montréal",
+        "activities": [
+          "VIA Rail Corridor train Toronto to Montréal: VIA's route page lists an average of 5 h 13 min over 538 km, with 40 departures a week; book a specific departure on viarail.ca",
+          "Evening in Old Montréal (Vieux-Montréal)"
+        ],
+        "drive_time": "Toronto to Montréal by VIA Rail ~5 hr 13 min average (538 km)",
+        "lodging_suggestion": "Montréal (Old Montréal or downtown)"
+      },
+      {
+        "day_number": 5,
+        "title": "Montréal",
+        "activities": [
+          "Notre-Dame Basilica: the self-guided sightseeing visit is ticketed through the Basilica's partner Fever, and the Basilica advises buying tickets in advance",
+          "Mount Royal on foot",
+          "Old Port and Vieux-Montréal streets"
+        ],
+        "lodging_suggestion": "Montréal (Old Montréal or downtown)"
+      },
+      {
+        "day_number": 6,
+        "title": "VIA Rail to Québec City",
+        "activities": [
+          "VIA Rail train Montréal to Québec City: VIA's route page lists an average of 3 h 26 min over 270 km, with 34 departures a week",
+          "Afternoon in Old Québec: Dufferin Terrace and the Château Frontenac exterior; walk Petit Champlain"
+        ],
+        "drive_time": "Montréal to Québec City by VIA Rail ~3 hr 26 min average (270 km)",
+        "lodging_suggestion": "Québec City (Old Québec)"
+      },
+      {
+        "day_number": 7,
+        "title": "Québec City",
+        "activities": [
+          "La Citadelle de Québec is open to visitors only with a guide: general admission includes a 60-minute outdoor guided tour in French or English, plus the Royal 22e Régiment Museum",
+          "In summer the Citadelle's 10am Changing of the Guard and Music in Red show runs on set days (the Citadelle's 2026 calendar was Wednesday to Sunday, 24 June to 30 August, with exceptions): check its own site for your dates",
+          "Walk the ramparts of the old city"
+        ],
+        "lodging_suggestion": "Québec City (Old Québec)"
+      },
+      {
+        "day_number": 8,
+        "title": "Depart Québec City",
+        "activities": [
+          "Depart from Québec City; to head back to Montréal or Toronto use VIA Rail (Québec City to Montréal about 3 h 26 min on average) and check onward flight times"
+        ],
+        "drive_time": "Québec City to Montréal by VIA Rail ~3 hr 26 min average",
+        "lodging_suggestion": "Québec City (Old Québec)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Poutine",
+        "description": "French fries topped with cheese curds and hot gravy, a Québec dish now served across Canada; try it in Montréal or Québec City."
+      },
+      {
+        "place_type": "dish",
+        "name": "Montréal-style bagels",
+        "description": "Hand-rolled, boiled and baked in wood-fired ovens, Montréal bagels are a local specialty distinct from the New York style."
+      },
+      {
+        "place_type": "drink",
+        "name": "Niagara icewine",
+        "description": "The Niagara region of Ontario is known for icewine, a sweet wine made from grapes frozen on the vine; look for it at wineries and shops in the region."
+      },
+      {
+        "place_type": "culture",
+        "name": "Historic District of Old Québec",
+        "description": "Old Québec was inscribed as a UNESCO World Heritage site in 1985; the old city's ramparts and Lower Town can be explored on foot."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Sydney, Melbourne + the Great Ocean Road, Australia",
+    "category": [
+      "city",
+      "nature",
+      "road-trip"
+    ],
+    "region": "International",
+    "countries": [
+      "Australia"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 9,
+    "best_time_description": "Editorial suggestion, not met-service data: the shoulder seasons (autumn, March to May, and spring, October and November) avoid the summer peak for walking the Blue Mountains and driving the coast road, but check fire danger and total fire bans before any bush or coastal drive (NSW National Parks and the Visit Great Ocean Road site both point to live alerts). Queen Victoria Market trades on Tuesday and Thursday to Sunday only, so order the Melbourne days around that.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "Australia's classic first-timer arc: Sydney harbour and a Blue Mountains day by train, a 1 hr 35 flight to Melbourne, then a two-night self-drive along the Great Ocean Road to the Twelve Apostles and back.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Sydney",
+        "activities": [
+          "Check in and walk Circular Quay and The Rocks",
+          "Evening by the harbour with the Opera House in view"
+        ],
+        "lodging_suggestion": "Sydney (near Circular Quay or Central station)"
+      },
+      {
+        "day_number": 2,
+        "title": "Sydney Opera House + the coast",
+        "activities": [
+          "Sydney Opera House: the main guided tour runs about 1 hour and is booked on the official sydneyoperahouse.com site; tours do not run on 25 and 31 December 2026, and the main tour involves roughly 300 stairs with no lift",
+          "Royal Botanic Garden Sydney, along the harbour edge",
+          "Afternoon: the Bondi to Coogee coastal walk"
+        ],
+        "lodging_suggestion": "Sydney (near Circular Quay or Central station)"
+      },
+      {
+        "day_number": 3,
+        "title": "Blue Mountains day trip",
+        "activities": [
+          "Train from Sydney Central to Katoomba: Visit NSW says express trains take around 90 minutes and all-stops trains up to two hours; you need an Opal card or a contactless bank card to travel",
+          "Echo Point lookout (Three Sisters) in Blue Mountains National Park; public buses run from Katoomba to Echo Point",
+          "Check NSW National Parks alerts before you go: areas can close for maintenance, weather or fire danger, and total fire bans apply in fire weather",
+          "Return to Sydney by train"
+        ],
+        "drive_time": "Train Sydney Central to Katoomba, ~90 min express / up to 2 hr all stops",
+        "lodging_suggestion": "Sydney (near Circular Quay or Central station)"
+      },
+      {
+        "day_number": 4,
+        "title": "Fly to Melbourne",
+        "activities": [
+          "Direct flight Sydney to Melbourne: Virgin Australia gives an average of 1 hr 35 min (Melbourne to Sydney 1 hr 25 min)",
+          "Afternoon walk through Melbourne's city-centre laneways and Federation Square",
+          "Evening on the Yarra riverfront"
+        ],
+        "drive_time": "Flight Sydney to Melbourne, ~1 hr 35",
+        "lodging_suggestion": "Melbourne (CBD)"
+      },
+      {
+        "day_number": 5,
+        "title": "Melbourne: market + city",
+        "activities": [
+          "Queen Victoria Market: its opening-hours page lists trading on Tuesday, Thursday, Friday, Saturday and Sunday (6am to 3pm Tue/Thu/Fri, 6am to 4pm Sat, 9am to 4pm Sun), so swap this day if you arrive on a Monday or Wednesday",
+          "Royal Botanic Gardens Victoria and the Shrine of Remembrance area",
+          "Late afternoon: collect a hire car for the next two days (book ahead; an open-jaw or one-way rental should be priced with the hire company)"
+        ],
+        "lodging_suggestion": "Melbourne (CBD)"
+      },
+      {
+        "day_number": 6,
+        "title": "Melbourne to Torquay + Apollo Bay",
+        "activities": [
+          "Leave Melbourne early: Visit Great Ocean Road lists Torquay, the start of the Great Ocean Road, as 1 hr 17 min from Melbourne CBD",
+          "The Great Ocean Road runs 243 km from Torquay to Allansford near Warrnambool",
+          "Drive the coast through Lorne to Apollo Bay; the same site quotes about 4 hours (275 km) from Melbourne to the Twelve Apostles by the coast road, so overnighting at Apollo Bay splits that drive; allow a full day with stops",
+          "Check VicEmergency and VicTraffic the morning you travel, as the official site advises"
+        ],
+        "drive_time": "Melbourne to Torquay ~1 hr 17; full Melbourne to Twelve Apostles coast drive ~4 hr (275 km)",
+        "lodging_suggestion": "Apollo Bay"
+      },
+      {
+        "day_number": 7,
+        "title": "Twelve Apostles + Port Campbell",
+        "activities": [
+          "Twelve Apostles and the Keerray Woorroong Visitor Centre: Visit Great Ocean Road states that from 16 October 2026 every visitor needs to reserve their spot in advance; book through twelveapostles.org.au (prices were not stated on the page I read, so check there). The visitor centre lists daily opening 8am to 8pm and suggests allowing 1 to 2 hours",
+          "Continue along the coast to Port Campbell for the night"
+        ],
+        "drive_time": "Apollo Bay to the Twelve Apostles: no official time found; the full Melbourne to Twelve Apostles run is ~4 hr",
+        "lodging_suggestion": "Port Campbell"
+      },
+      {
+        "day_number": 8,
+        "title": "Return to Melbourne",
+        "activities": [
+          "Drive back to Melbourne: Visit Great Ocean Road quotes 275 km and about 4 hours between Melbourne and the Twelve Apostles by the coast road; a same-day out-and-back from Melbourne is possible but the site does not recommend it",
+          "Return the hire car and have a last evening in Melbourne"
+        ],
+        "drive_time": "Twelve Apostles to Melbourne, ~4 hr (275 km, per Visit Great Ocean Road)",
+        "lodging_suggestion": "Melbourne (CBD)"
+      },
+      {
+        "day_number": 9,
+        "title": "Optional: depart Melbourne",
+        "activities": [
+          "Depart from Melbourne, or fly back to Sydney (about 1 hr 25 min per Virgin Australia) for an international connection"
+        ],
+        "drive_time": "Flight Melbourne to Sydney, ~1 hr 25",
+        "lodging_suggestion": "Melbourne (near the airport or CBD)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "drink",
+        "name": "Flat white and long black coffee",
+        "description": "Café coffee is a daily habit in Melbourne and Sydney; a flat white (espresso with steamed milk) and a long black (espresso over hot water) are standard orders in any city café."
+      },
+      {
+        "place_type": "dish",
+        "name": "Meat pie",
+        "description": "A hand-held pastry pie with a meat filling, sold in bakeries, pubs and at sports grounds across Australia and an easy cheap lunch between stops."
+      },
+      {
+        "place_type": "culture",
+        "name": "Queen Victoria Market",
+        "description": "Melbourne's central market sells produce, deli goods and specialty food; it trades only on certain days (Tuesday and Thursday to Sunday per its opening-hours page)."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Acknowledgement of Country",
+        "description": "A spoken or written recognition of the Aboriginal and Torres Strait Islander peoples as the traditional custodians of the land, commonly made at public events, tours and visitor centres you will pass through; the Twelve Apostles precinct is described by Visit Victoria as a sacred landscape."
+      },
+      {
+        "place_type": "culture",
+        "name": "Laneway café culture",
+        "description": "Melbourne's CBD laneways hold small cafés and bars, and wandering them is a standard way to spend an afternoon in the city centre."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
+    "category": [
+      "nature",
+      "road-trip",
+      "off-the-beaten-path"
+    ],
+    "region": "International",
+    "countries": [
+      "Australia"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 8,
+    "best_time_description": "Tourism NT says the best time to visit Uluru is May to September, with daytime temperatures of 20 to 30 degrees C; from October to March it can exceed 35 degrees C in the middle of the day. Parks Australia lists late May to July as the cold season with frosty mornings, and late October to December as the hottest. Walk closures apply in heat (see Day 4 and Day 7), so a summer trip needs very early starts.",
+    "best_time_months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A one-way outback drive along the Red Centre Way from Alice Springs through the West MacDonnell Ranges and Kings Canyon to Uluru-Kata Tjuta National Park, ending with a flight out of Ayers Rock airport.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Alice Springs",
+        "activities": [
+          "Fly into Alice Springs (Tourism NT describes it as only a few hours' flying time from Australian capital cities) and pick up a hire car; Parks Australia notes cars can be hired at Alice Springs, Yulara or Ayers Rock airport, and that cars at Yulara are limited, so confirm any one-way drop-off terms with the hire company before booking",
+          "Visit Alice Springs' Aboriginal art galleries, which Tourism NT highlights"
+        ],
+        "lodging_suggestion": "Alice Springs"
+      },
+      {
+        "day_number": 2,
+        "title": "West MacDonnell Ranges to Glen Helen",
+        "activities": [
+          "Tourism NT's suggested Red Centre Way itinerary lists Alice Springs to Glen Helen as 132 km",
+          "Simpsons Gap, one of the most prominent gaps in the West MacDonnell Ranges",
+          "Ellery Creek Big Hole, a popular picnic, walking and swimming spot in Tjoritja / West MacDonnell National Park (Tourism NT also names Ormiston Gorge and Glen Helen for swimming)"
+        ],
+        "drive_time": "Alice Springs to Glen Helen, 132 km (Tourism NT; no time stated)",
+        "lodging_suggestion": "Glen Helen (West MacDonnell Ranges)"
+      },
+      {
+        "day_number": 3,
+        "title": "Glen Helen to Kings Canyon",
+        "activities": [
+          "Tourism NT lists Glen Helen to Kings Canyon as 234 km",
+          "Optional stop at Tnorala (Gosse Bluff) Conservation Reserve, listed by Tourism NT as a Red Centre Way highlight",
+          "Settle in at Kings Canyon / Watarrka National Park and watch the canyon colours change at sunset"
+        ],
+        "drive_time": "Glen Helen to Kings Canyon, 234 km (Tourism NT; no time stated)",
+        "lodging_suggestion": "Kings Canyon (Watarrka National Park)"
+      },
+      {
+        "day_number": 4,
+        "title": "Kings Canyon Rim Walk + drive to Uluru",
+        "activities": [
+          "Kings Canyon Rim Walk: Tourism NT says allow about 3 to 4 hours and finish before 10am to avoid the heat; check Parks NT for any heat closure of the walk on the day",
+          "Drive Kings Canyon to Uluru, 300 km per Tourism NT's Red Centre Way itinerary",
+          "Check in at Yulara (Ayers Rock Resort); buy your Uluru-Kata Tjuta park pass online before entering the park"
+        ],
+        "drive_time": "Kings Canyon to Uluru, 300 km (Tourism NT; no time stated)",
+        "lodging_suggestion": "Yulara (Ayers Rock Resort)"
+      },
+      {
+        "day_number": 5,
+        "title": "Uluru: Mala walk + sunset",
+        "activities": [
+          "A park pass is required for Uluru-Kata Tjuta National Park: Parks Australia lists adults (18+) at $38 for 3 days or $50 annual, children under 18 free; it covers this park only, and it can be bought online or at the entry station",
+          "Cultural Centre, open 7.00am to 5.45pm daily",
+          "Mala walk from the Mala carpark to Kantju Gorge: 2 km return, about 1 hr 30, Grade 2",
+          "Sunset from the Uluru car sunset viewing area; the park is open every day, with closing times that change by month (Parks Australia publishes the table), and you must leave by closing time",
+          "Ayers Rock Resort to Uluru is about 20 minutes' drive (Parks Australia)"
+        ],
+        "drive_time": "Ayers Rock Resort to Uluru, ~20 min",
+        "lodging_suggestion": "Yulara (Ayers Rock Resort)"
+      },
+      {
+        "day_number": 6,
+        "title": "Uluru base walk",
+        "activities": [
+          "Uluru base walk: about 10 km around the whole rock, Grade 3; Parks Australia recommends starting clockwise from the Mala carpark in the early morning and, in hot weather, finishing before 11.00am, as some tracks close in summer afternoons",
+          "Do not climb Uluru: the climb closed permanently on 26 October 2019 and Parks Australia states penalties apply",
+          "Carry at least one litre of water per person per hour (Parks Australia's heat-safety advice); in summer it strongly recommends not walking after 11.00am"
+        ],
+        "lodging_suggestion": "Yulara (Ayers Rock Resort)"
+      },
+      {
+        "day_number": 7,
+        "title": "Kata Tjuta",
+        "activities": [
+          "Sunrise at Talinguru Nyakunytjaku (30 minutes from Ayers Rock Resort) or the Kata Tjuta dune viewing area",
+          "Valley of the Winds walk: Grade 4, full circuit 3 to 4 hours; Parks Australia states it closes at the first lookout (Karu) from 11am when the forecast or actual temperature reaches 36 degrees C or above. Please do not photograph or film Kata Tjuta's rock formations on this walk, as Anangu ask",
+          "Shorter option: Walpa Gorge walk (2.6 km per Tourism NT), with seating inside the gorge",
+          "Resort to Kata Tjuta is about 45 minutes' drive (Parks Australia); the 3-day pass bought on Day 5 covers this day"
+        ],
+        "drive_time": "Ayers Rock Resort to Kata Tjuta, ~45 min",
+        "lodging_suggestion": "Yulara (Ayers Rock Resort)"
+      },
+      {
+        "day_number": 8,
+        "title": "Fly out of Ayers Rock",
+        "activities": [
+          "Ayers Rock airport (AYQ) is about 10 minutes from the resort; Parks Australia gives approximate flight times of Sydney 3 hr, Melbourne 2 hr 40, Cairns 2 hr 50 and Brisbane 3 hr 15, with Virgin Australia, Qantas and Jetstar named as airlines",
+          "Return any one-way hire car at the airport if arranged with the hire company"
+        ],
+        "drive_time": "Ayers Rock Resort to the airport, ~10 min",
+        "lodging_suggestion": "Yulara (near Ayers Rock airport)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "Tjukurpa",
+        "description": "Anangu creation law and culture; Parks Australia presents Uluru and Kata Tjuta as places where many creation stories converge, and the walks are part of learning those stories."
+      },
+      {
+        "place_type": "dish",
+        "name": "Bush foods and quandong",
+        "description": "Parks Australia describes Anangu bush foods and tools as part of the park's living culture, with quandongs among the foods shown; seasonal food plants flower and fruit through the year."
+      },
+      {
+        "place_type": "culture",
+        "name": "Central Australian Aboriginal art",
+        "description": "Alice Springs' galleries show work by prominent and emerging Indigenous artists (Tourism NT); some remote communities have art centres, and Central Land Council permits are needed to enter most remote Aboriginal communities."
+      },
+      {
+        "place_type": "culture",
+        "name": "Outback roadhouses",
+        "description": "Roadhouses along the Stuart and Lasseter Highways offer fuel, hot meals, refreshments and accommodation (Parks Australia); Curtin Springs is the nearest to Yulara, about 100 km away."
+      },
+      {
+        "place_type": "culture",
+        "name": "Sounds of Silence dinner",
+        "description": "An outdoor dinner under the desert sky with stargazing at Uluru, listed by Tourism NT as a four-hour experience; book ahead in peak season, May to September."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Cape Town, Winelands + Garden Route, South Africa",
+    "category": [
+      "nature",
+      "road-trip"
+    ],
+    "region": "International",
+    "countries": [
+      "South Africa"
+    ],
+    "duration_days_min": 9,
+    "duration_days_max": 9,
+    "best_time_description": "Editorial suggestion: spring (September to November) combines the southern right whale season on the Cape coast (June to November, per Cape Town Tourism) with open-air days in the Winelands and on the Garden Route; February and March suit the same route without whales. The Table Mountain cableway runs weather permitting and may close in bad weather, so keep that day flexible. Check the Robben Island ferry and the cableway the same morning, as both can be cancelled for weather.",
+    "best_time_months": [
+      "September",
+      "October",
+      "November",
+      "February",
+      "March"
+    ],
+    "description": "A nine-day self-drive from Cape Town through the Franschhoek and Robertson wine valleys, inland along Route 62 to Oudtshoorn and the Cango Caves, then down to Plettenberg Bay, Tsitsikamma and George.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Cape Town",
+        "activities": [
+          "Collect your bags at Cape Town International Airport and transfer to the city; an operator's itinerary puts the airport-to-hotel transfer at about 40 minutes",
+          "Evening walk at the V&A Waterfront"
+        ],
+        "drive_time": "Airport to city, ~40 min (operator estimate)",
+        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)"
+      },
+      {
+        "day_number": 2,
+        "title": "Robben Island + Table Mountain",
+        "activities": [
+          "Morning: Robben Island Museum tour. The ferry leaves from the Nelson Mandela Gateway at the V&A Waterfront; the tour takes about 3.5 hours including the ferry, passengers must arrive at least 30 minutes before departure, the museum says early booking is recommended, and it may cancel or retime sailings for weather. Book through the Robben Island Museum site.",
+          "Afternoon: Table Mountain Aerial Cableway. It runs weather permitting and may close in bad weather; check the live status on tablemountain.net or the official app before going up. Tickets can be bought online (Webtickets); standard tickets are valid for 7 days and Fast Track tickets book a specific timeslot.",
+          "If either is closed by weather, swap the order or move it to the next free morning"
+        ],
+        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)"
+      },
+      {
+        "day_number": 3,
+        "title": "Cape Peninsula: Cape Point + Boulders penguins",
+        "activities": [
+          "Cape of Good Hope section of Table Mountain National Park, run by SANParks: Cape Point lighthouse (on foot or by the Flying Dutchman funicular), Buffelsfontein Visitor Centre, and Eland, Red Hartebeest, Bontebok and Zebra inside the fenced section. Gate tickets are bought through SANParks; swimming at Diaz Beach is not allowed because of rip currents.",
+          "Boulders Penguin Colony, Simon's Town: African penguins viewed from boardwalks (a daily conservation fee is payable and parking is limited in peak summer, per SANParks)",
+          "Whale season (southern right whales, June to November per Cape Town Tourism): Cape Point and Boyes Drive between St James and Kalk Bay are named as higher vantage points on the False Bay coast"
+        ],
+        "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)"
+      },
+      {
+        "day_number": 4,
+        "title": "Cape Town to Franschhoek",
+        "activities": [
+          "Drive to Franschhoek, just over 1 hour (operator estimate)",
+          "Wine tastings in the Franschhoek valley; book each estate's tasting in advance and arrange a designated driver or a driver-guide",
+          "Dinner in Franschhoek village"
+        ],
+        "drive_time": "Cape Town to Franschhoek, just over 1 hr (operator estimate)",
+        "lodging_suggestion": "Franschhoek"
+      },
+      {
+        "day_number": 5,
+        "title": "Franschhoek to Robertson",
+        "activities": [
+          "Drive to Robertson, about 90 minutes (operator estimate)",
+          "Robertson wine valley tastings in the afternoon",
+          "Early night: tomorrow is the longest drive of the trip"
+        ],
+        "drive_time": "Franschhoek to Robertson, ~90 min (operator estimate)",
+        "lodging_suggestion": "Robertson"
+      },
+      {
+        "day_number": 6,
+        "title": "Route 62 to Oudtshoorn",
+        "activities": [
+          "Drive Route 62 east from Robertson to Oudtshoorn, about 3.5 hours without stops (operator estimate); Montagu, Barrydale and Calitzdorp lie on this road, so budget time for coffee and fuel stops",
+          "Afternoon in the Klein Karoo: an ostrich-farm tour near Oudtshoorn (book with the farm; opening times vary)"
+        ],
+        "drive_time": "Robertson to Oudtshoorn, ~3.5 hr via Route 62 (operator estimate)",
+        "lodging_suggestion": "Oudtshoorn"
+      },
+      {
+        "day_number": 7,
+        "title": "Cango Caves + on to Plettenberg Bay",
+        "activities": [
+          "Cango Caves, open 09:00 to 16:00 per the caves' own site; online booking is through the Oudtshoorn municipality booking site. Go early.",
+          "Drive south to the coast: about 2.5 hours by the most direct road to Plettenberg Bay, with Knysna on the way (operator estimate)",
+          "Evening on the beach at Plettenberg Bay"
+        ],
+        "drive_time": "Oudtshoorn to Plettenberg Bay, ~2.5 hr (operator estimate)",
+        "lodging_suggestion": "Plettenberg Bay"
+      },
+      {
+        "day_number": 8,
+        "title": "Tsitsikamma",
+        "activities": [
+          "Drive east to the Tsitsikamma Section of Garden Route National Park; the park is 68 km from Plettenberg Bay per SANParks and the operator estimate is about 35 minutes",
+          "Coastal walks in the park (SANParks lists hikes, walks and trails; a daily conservation fee applies and every visitor must hand in the Gate Registration & Indemnity Form with their passport)",
+          "Return to Plettenberg Bay for the night"
+        ],
+        "drive_time": "Plettenberg Bay to Tsitsikamma, ~35 min each way (operator estimate)",
+        "lodging_suggestion": "Plettenberg Bay"
+      },
+      {
+        "day_number": 9,
+        "title": "Knysna + depart from George",
+        "activities": [
+          "Plettenberg Bay to Knysna, about 30 minutes (operator estimate): Knysna Lagoon waterfront and a late lunch (oysters are a Knysna speciality)",
+          "Drive to George Airport, 70 km from Knysna per SANParks, where all the major car-hire companies have offices; fly onward from there"
+        ],
+        "drive_time": "Plettenberg Bay to Knysna ~30 min; Knysna to George 70 km (SANParks)",
+        "lodging_suggestion": "George (airport) or fly out"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Cape Malay bobotie",
+        "description": "A spiced, baked minced-meat dish with an egg topping, central to Cape Malay cooking and easy to find in Cape Town, especially around the Bo-Kaap."
+      },
+      {
+        "place_type": "drink",
+        "name": "Western Cape wine",
+        "description": "Franschhoek and Robertson, both on this route, are wine valleys of the Western Cape; Pinotage, South Africa's own cross, is the local red to ask about."
+      },
+      {
+        "place_type": "dish",
+        "name": "Ostrich",
+        "description": "Oudtshoorn is the centre of South Africa's ostrich farming and ostrich meat appears on menus there."
+      },
+      {
+        "place_type": "dish",
+        "name": "Knysna oysters",
+        "description": "Knysna Lagoon is known for oysters, served in restaurants around the Knysna waterfront."
+      },
+      {
+        "place_type": "tradition",
+        "name": "The braai",
+        "description": "The South African barbecue is a social ritual rather than just a meal; expect a braai if you are invited to someone's home or stay in self-catering accommodation with a grill."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Johannesburg + Kruger National Park, South Africa",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "International",
+    "countries": [
+      "South Africa"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 8,
+    "best_time_description": "SANParks says the dry season (April to September) is traditionally the best game viewing in Kruger because vegetation thins and water is limited to rivers and waterholes, with warm dry days and cold nights; the rainy season (October to March) is hot with lush foliage that makes animals harder to see. Kruger is in a malaria-endemic area: ask a travel doctor about prevention before you go. SANParks accommodation is booked in advance through sanparks.org.",
+    "best_time_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "Two days of Johannesburg history (Apartheid Museum, Constitution Hill, Soweto), a one-hour Airlink flight to Skukuza, and three nights self-driving Kruger from SANParks camps at Skukuza and Lower Sabie.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Johannesburg",
+        "activities": [
+          "Arrive at OR Tambo International Airport and transfer to your hotel",
+          "Complete the SARS online traveller declaration before you travel (mandatory for all travellers since 1 July 2026)",
+          "Rest day: the Kruger days start early"
+        ],
+        "lodging_suggestion": "Johannesburg (near OR Tambo or Rosebank)"
+      },
+      {
+        "day_number": 2,
+        "title": "Apartheid Museum + Constitution Hill",
+        "activities": [
+          "Apartheid Museum: open Tuesday to Sunday 09:00 to 17:00 and most public holidays (so closed Mondays); book tickets online",
+          "Constitution Hill, the former prison and fort that now houses the Constitutional Court: open 9am to 5pm daily per its own site; guided tours of the Old Fort and Women's Jail can be booked through the site"
+        ],
+        "lodging_suggestion": "Johannesburg"
+      },
+      {
+        "day_number": 3,
+        "title": "Soweto",
+        "activities": [
+          "Hector Pieterson Memorial and Museum, Khumalo Street, Orlando West, on the 1976 student uprising. City of Johannesburg pages disagree on opening days (one lists Monday to Saturday, a May 2024 article Tuesday to Sunday), so confirm before you go.",
+          "Vilakazi Street in Orlando West, where Nelson Mandela's former home is a museum; check its hours and book a guide in advance",
+          "Many visitors join a guided Soweto tour; use a guide who is registered and booked in advance"
+        ],
+        "lodging_suggestion": "Johannesburg"
+      },
+      {
+        "day_number": 4,
+        "title": "Fly to Kruger: Skukuza",
+        "activities": [
+          "Airlink flight from OR Tambo to Skukuza Airport, about 1 hour (Airlink's Skukuza airport page lists departures at 10:05 and 13:05; SANParks lists a 10:00 departure; confirm when booking). The alternative is a 428 km drive on the N4 to Malelane Gate (SANParks distance from Johannesburg).",
+          "Collect a rental car (Avis has an office at Skukuza per SANParks) and check in at Skukuza Rest Camp",
+          "Complete the Gate Registration & Indemnity Form and have your passport ready. Camp and entrance gates close at night: SANParks gives 17:30 to 18:30 depending on the month, so be in your camp before closing.",
+          "Late-afternoon self-drive on the tourist roads near the camp"
+        ],
+        "drive_time": "Flight OR Tambo to Skukuza, ~1 hr (Airlink); alternative drive 428 km to Malelane Gate (SANParks)",
+        "lodging_suggestion": "Skukuza Rest Camp (SANParks)"
+      },
+      {
+        "day_number": 5,
+        "title": "Skukuza to Lower Sabie",
+        "activities": [
+          "Start at gate-opening time: camp gates open 04:30 to 06:00 depending on the month, and entrance gates 05:30 to 06:00 (SANParks)",
+          "Self-drive toward Lower Sabie. Speed limits are 50 km/h on tarred roads, 40 km/h on gravel and 20 km/h in rest camps; SANParks recommends an average of about 30 km/h for safety and game viewing. Sable Dam Hide is one of the activities SANParks lists.",
+          "Check in to Lower Sabie Rest Camp before the gates close"
+        ],
+        "drive_time": "Lower Sabie is 1 hr from Crocodile Bridge gate and 1 hr 30 from Paul Kruger gate at minimum legal speeds (SANParks)",
+        "lodging_suggestion": "Lower Sabie Rest Camp (SANParks)"
+      },
+      {
+        "day_number": 6,
+        "title": "Lower Sabie full day",
+        "activities": [
+          "Full day of self-drive around Lower Sabie. Kruger's mammal list includes the Big Five (buffalo, elephant, leopard, lion, rhino) per SANParks; no sighting is guaranteed.",
+          "Book a guided game drive through SANParks (listed under Kruger activities), which is the way to see the park at night or at dawn",
+          "Bush braai or a camp meal; SANParks also lists Bush Braais & Breakfasts as an activity"
+        ],
+        "lodging_suggestion": "Lower Sabie Rest Camp (SANParks)"
+      },
+      {
+        "day_number": 7,
+        "title": "Back to Skukuza",
+        "activities": [
+          "Slow morning drive back to Skukuza (allow the whole morning; no official time is published for this leg, and the average speed on tourist roads is about 30 km/h)",
+          "Skukuza has resident doctors and its day-visitor area has a swimming pool, per SANParks",
+          "Early night before the flight"
+        ],
+        "lodging_suggestion": "Skukuza Rest Camp (SANParks)"
+      },
+      {
+        "day_number": 8,
+        "title": "Fly back to Johannesburg",
+        "activities": [
+          "Return rental car, then Airlink Skukuza to OR Tambo (SANParks lists a 13:20 departure; confirm on the Airlink site)",
+          "Connect to your onward flight from OR Tambo, leaving a generous margin after the flight"
+        ],
+        "drive_time": "Flight Skukuza to OR Tambo (SANParks lists a 13:20 departure; Airlink's Johannesburg to Skukuza flights are about 1 hr)",
+        "lodging_suggestion": "Johannesburg (OR Tambo) or fly out"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "The braai",
+        "description": "The South African barbecue is a social tradition; SANParks even lists Bush Braais & Breakfasts among Kruger's activities."
+      },
+      {
+        "place_type": "dish",
+        "name": "Boerewors and pap",
+        "description": "Coiled spiced sausage grilled over a fire, served with maize-meal porridge (pap), a staple of braais and township eateries."
+      },
+      {
+        "place_type": "dish",
+        "name": "Biltong",
+        "description": "Air-dried cured meat sold across South Africa, including in Kruger camp shops and at roadside stops."
+      },
+      {
+        "place_type": "culture",
+        "name": "Soweto",
+        "description": "South Africa's best-known township, tied to the 1976 student uprising remembered at the Hector Pieterson Memorial and Museum."
+      },
+      {
+        "place_type": "drink",
+        "name": "Rooibos tea",
+        "description": "A caffeine-free herbal tea made from a plant grown in the Western Cape, widely served across South Africa."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "South Korea"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 8,
+    "best_time_description": "Spring and early autumn suit this city-and-train route. VisitKorea's 2026 cherry blossom forecast gave first bloom around 25 March in Busan, 28 March in Gyeongju and 3 April in Seoul, with peak about a week after first bloom; dates shift every year, so check the current forecast. VisitKorea says June to October is also typhoon season and that the rainy season overlaps late June to late July, so check forecasts if you travel then. Winters are cold, often below freezing. Several sights close one weekday (Gyeongbokgung on Tuesdays, the DMZ sites on Mondays), so order the days around that.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October"
+    ],
+    "description": "A classic first trip to South Korea by rail: two days in Seoul, a guided DMZ day, the KTX south to Gyeongju, the former Silla capital, then on to Busan on the coast, with a KTX back to Seoul.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Seoul + Gyeongbokgung Palace",
+        "activities": [
+          "Check in and settle into central Seoul",
+          "Gyeongbokgung Palace: closed every Tuesday (if a public holiday falls on a Tuesday the palace opens and the closure moves to the next non-holiday), with seasonal opening hours listed on royalpalace.go.kr, so check the hours for your month. Visit Seoul says entry is free if you wear a hanbok.",
+          "Changing of the Royal Guard at the palace, listed by VisitKorea at 10:00 and 14:00 and not held on Tuesdays; confirm the day's schedule before going"
+        ],
+        "lodging_suggestion": "Seoul (central, near the palaces)"
+      },
+      {
+        "day_number": 2,
+        "title": "Seoul old and new",
+        "activities": [
+          "Bukchon Hanok Village and the lanes around Insadong",
+          "Gwangjang Market for a street-food lunch",
+          "Evening at Namsan and N Seoul Tower"
+        ],
+        "lodging_suggestion": "Seoul (central, near the palaces)"
+      },
+      {
+        "day_number": 3,
+        "title": "DMZ guided tour from Seoul",
+        "activities": [
+          "Guided DMZ tour: Dora Observatory is reachable only on a reserved guided DMZ Peace Tour departing from Imjingak, and individual visits are not allowed. Book ahead through the official channels or a licensed tour operator.",
+          "Bring your passport: VisitKorea says all visitors must bring ID such as a passport",
+          "The Third Tunnel: VisitKorea lists it as needing advance reservation and closed Mondays, weekday public holidays, Seollal and Chuseok; VisitKorea lists the Dora Observatory as closed Mondays. Do not plan this day for a Monday.",
+          "Return to Seoul in the evening"
+        ],
+        "drive_time": "Guided tour from Imjingak; tour operators set the schedule, so confirm the pick-up and return times when you book",
+        "lodging_suggestion": "Seoul (central, near the palaces)"
+      },
+      {
+        "day_number": 4,
+        "title": "KTX to Gyeongju",
+        "activities": [
+          "KTX from Seoul Station to Singyeongju Station, about 2 hours 10 minutes per the Gyeongju city website (trains roughly hourly from Seoul, first 07:37 and last 00:07 per that page; check korail.com for the day's timetable)",
+          "Singyeongju Station is outside central Gyeongju, so allow for a bus or taxi into town",
+          "Evening walk among the tumuli of Daereungwon and Cheomseongdae observatory"
+        ],
+        "drive_time": "KTX Seoul to Singyeongju, ~2 hr 10 min",
+        "lodging_suggestion": "Gyeongju (near Daereungwon)"
+      },
+      {
+        "day_number": 5,
+        "title": "Gyeongju: Silla heritage",
+        "activities": [
+          "Bulguksa Temple and Seokguram Grotto on Mt Toham",
+          "Donggung Palace and Wolji Pond",
+          "Gyeongju National Museum, for Silla-era collections"
+        ],
+        "lodging_suggestion": "Gyeongju (near Daereungwon)"
+      },
+      {
+        "day_number": 6,
+        "title": "KTX to Busan",
+        "activities": [
+          "Return to Singyeongju Station and take the KTX to Busan, about 30 minutes per the Gyeongju city website",
+          "Haeundae Beach and the Dongbaek Island promenade",
+          "Seafood dinner near Haeundae"
+        ],
+        "drive_time": "KTX Singyeongju to Busan, ~30 min",
+        "lodging_suggestion": "Busan (Haeundae)"
+      },
+      {
+        "day_number": 7,
+        "title": "Busan: Gamcheon, Jagalchi, Haedong Yonggungsa",
+        "activities": [
+          "Gamcheon Culture Village, a hillside neighbourhood of painted houses",
+          "Jagalchi Market, Busan's waterfront seafood market",
+          "Haedong Yonggungsa, a seaside temple on the east coast"
+        ],
+        "lodging_suggestion": "Busan (Haeundae)"
+      },
+      {
+        "day_number": 8,
+        "title": "Busan to Seoul + depart",
+        "activities": [
+          "KTX from Busan Station to Seoul Station: VisitKorea guides give about 3 hours (one says about 3 hr 20 min), so check the exact running time on korail.com for your train",
+          "Connect to Incheon or Gimpo airport for departure, leaving a generous buffer for the rail leg"
+        ],
+        "drive_time": "KTX Busan to Seoul, ~3 hr (VisitKorea; check Korail)",
+        "lodging_suggestion": "Seoul (near your departure airport)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "Kimjang, making and sharing kimchi",
+        "description": "UNESCO inscribed Kimjang on its Representative List of the Intangible Cultural Heritage of Humanity in 2013; the committee describes late autumn as the season when communities make and share large quantities of kimchi."
+      },
+      {
+        "place_type": "culture",
+        "name": "Palace visits in hanbok",
+        "description": "Visit Seoul says admission to Gyeongbokgung is free if you enter wearing a hanbok, the traditional Korean dress."
+      },
+      {
+        "place_type": "dish",
+        "name": "Fresh seafood at Jagalchi Market",
+        "description": "Busan's Jagalchi Market is a waterfront seafood market, where fish and shellfish are sold and can be eaten in the market's restaurants."
+      },
+      {
+        "place_type": "culture",
+        "name": "Silla royal heritage in Gyeongju",
+        "description": "Gyeongju was the capital of the Silla kingdom, and the tumuli, temples and palace ponds in the city are the setting for the day-two sightseeing."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Jeju Island + Jeonju, South Korea",
+    "category": [
+      "nature",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "South Korea"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Late March to May and October suit Jeju's coast and Hallasan. VisitKorea's 2026 cherry blossom forecast put first bloom on Jeju around 25 March, the earliest in the country. VisitKorea says June to October is typhoon season and the rainy season overlaps late June to late July, so flights and Hallasan trails can be disrupted; the Hallasan trail pages say trails can be restricted at short notice in severe weather. Hallasan's summit entry cut-off is earlier in the winter season (October to March: 11:30 at Seongpanak) than in summer (April to September: 12:30), so an October climb needs the earlier start.",
+    "best_time_months": [
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "Jeju Island's volcanic east coast, a reserved Hallasan summit climb and lava-tube landscapes, then a flight back to Seoul and a KTX south to Jeonju's hanok village and bibimbap.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Fly Seoul to Jeju",
+        "activities": [
+          "Flight from Seoul to Jeju: VisitKorea calls the Gimpo to Jeju route the busiest in the world, and says direct Incheon to Jeju flights resumed on 12 May 2026 with a flight time of about 1 hour 15 minutes. Check the airline timetable for the day you fly.",
+          "Jeju International Airport is close to downtown, about 15 minutes by city bus to the Jeju Intercity Bus Terminal per VisitKorea",
+          "Evening in Jeju City"
+        ],
+        "drive_time": "Seoul to Jeju flight, ~1 hr 15 min on the Incheon route (VisitKorea)",
+        "lodging_suggestion": "Jeju City"
+      },
+      {
+        "day_number": 2,
+        "title": "East Jeju: Seongsan Ilchulbong",
+        "activities": [
+          "Seongsan Ilchulbong, the volcanic tuff cone on the east coast, part of the UNESCO site Jeju Volcanic Island and Lava Tubes",
+          "Coastal walk along the east shore",
+          "Early night before the Hallasan climb"
+        ],
+        "lodging_suggestion": "Seogwipo or east Jeju"
+      },
+      {
+        "day_number": 3,
+        "title": "Hallasan summit via the Seongpanak Trail",
+        "activities": [
+          "A reservation is required for the summit sections, booked in advance on the Hallasan reservation site visithalla.jeju.go.kr; the Hallasan pages give daily visitor limits (1,000 on Seongpanak, 500 on Gwaneumsa) so book early",
+          "Seongpanak Trail: 9.6 km one way, about 4 hours 30 minutes up and about 9 hours round trip per the Jeju trail page; the trail opens at 05:00",
+          "Summit entry cut-off at the Jindallaebat checkpoint: 12:30 from April to September and 11:30 from October to March, and the summit must be left by 14:30 in summer or 13:30 in winter (Jeju trail page; the reservation site lists the current table, so check it)",
+          "The summit is 1,950 m; the trail page warns of thin air and recommends the Eorimok or Yeongsil trails (about 1,700 m) for inexperienced hikers; the trail can close in severe weather",
+          "The Gwaneumsa Trail is the other summit route; its Samgakbong to Baengnokdam section was closed 1 August to 30 September 2026 for rockfall-prevention works"
+        ],
+        "lodging_suggestion": "Seogwipo or Jeju City"
+      },
+      {
+        "day_number": 4,
+        "title": "Lava tubes + coast",
+        "activities": [
+          "Manjanggul lava tube, part of the UNESCO Jeju Volcanic Island and Lava Tubes site; check visitjeju.net for the current opening status before you go",
+          "Slow day on the coast after the climb",
+          "Look into Jeju's haenyeo (women divers) culture, which UNESCO inscribed in 2016; visitjeju.net lists where it can be seen"
+        ],
+        "lodging_suggestion": "Jeju City"
+      },
+      {
+        "day_number": 5,
+        "title": "Jeju to Seoul to Jeonju",
+        "activities": [
+          "Morning flight Jeju to Seoul (Gimpo or Incheon), allowing time for the transfer to Yongsan Station",
+          "KTX from Yongsan Station to Jeonju Station, about 1 hour 40 minutes per the Jeonju tourism site, which says Yongsan has more frequent KTX departures to Jeonju than Seoul Station; weekend and holiday seats sell out, so reserve early",
+          "Evening in Jeonju"
+        ],
+        "drive_time": "Flight to Seoul, then KTX Yongsan to Jeonju, ~1 hr 40 min",
+        "lodging_suggestion": "Jeonju (near Hanok Village)"
+      },
+      {
+        "day_number": 6,
+        "title": "Jeonju Hanok Village",
+        "activities": [
+          "From Jeonju Station, a taxi to the hanok village takes about 20 minutes (VisitKorea) and the city bus about 25 minutes (Jeonju city guide)",
+          "Walk the hanok village; the streets are closed to traffic at weekends, so you must get off on the outskirts and walk in",
+          "Gaengnidan Street and a Jeonju bibimbap meal"
+        ],
+        "lodging_suggestion": "Jeonju (near Hanok Village)"
+      },
+      {
+        "day_number": 7,
+        "title": "Jeonju to Seoul + depart",
+        "activities": [
+          "KTX from Jeonju Station to Yongsan Station, about 1 hour 40 minutes",
+          "Transfer to your departure airport, leaving a generous buffer"
+        ],
+        "drive_time": "KTX Jeonju to Yongsan, ~1 hr 40 min",
+        "lodging_suggestion": "Seoul (near your departure airport)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "Jeju haenyeo, the women divers",
+        "description": "UNESCO inscribed the Culture of Jeju Haenyeo (women divers) on its Representative List of the Intangible Cultural Heritage of Humanity in 2016; the divers gather shellfish such as abalone and sea urchin without oxygen masks."
+      },
+      {
+        "place_type": "dish",
+        "name": "Jeonju bibimbap",
+        "description": "Bibimbap, rice topped with seasoned vegetables and other toppings, is the dish most associated with Jeonju and is served in the restaurants around the hanok village."
+      },
+      {
+        "place_type": "culture",
+        "name": "Jeonju Hanok Village",
+        "description": "A district of traditional Korean houses (hanok) in Jeonju; the city says the streets are closed to traffic at weekends."
+      }
+    ],
+    "cover_image_url": null
   }
 ]

@@ -18,6 +18,17 @@ const ALIASES: Record<string, string> = {
   "uk": "UK",
   "u.k.": "UK",
   "united kingdom": "UK",
+  "great britain": "UK",
+  "britain": "UK",
+  "england": "UK",
+  "scotland": "UK",
+  "wales": "UK",
+  "northern ireland": "UK",
+  "republic of korea": "South Korea",
+  "korea": "South Korea",
+  "korea, south": "South Korea",
+  "south korea": "South Korea",
+  "rsa": "South Africa",
 };
 
 export function normalizeCountryInput(raw: string): string {
