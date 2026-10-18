@@ -402,6 +402,21 @@ tourism listing, an automatic footer, or a closing season the venue's own page d
 `prisma/seed-additive.ts` and `update-visa-rules.ts` are the safe loaders; `npm run seed:eats` loads
 road food in place.
 
+**Round 6, second pass (second-opinion audits).** The 10 round-5 guides were audited again by a
+fresh agent each (`reverify_country.py`: cash-declaration thresholds added for Portugal and South
+Korea, ETIAS wording corrected for Portugal/Italy, temporary Schengen border checks noted, Korea's
+K-ETA exemption list noted) and 17 of 20 round-5 itineraries had every dated/timed claim re-checked
+(`scripts/patch_itinerary.py` + `prisma/update-itinerary-days.ts`, which updates day text only and never
+touches coordinates or user trips). Typical findings: a train time quoted for the wrong direction
+(Toronto-Niagara, Québec-Montréal), operator figures replaced by an official "check a live map", a
+season stated more broadly than the venue's page does. Not re-checked: **Sydney-Melbourne, Johannesburg-
+Kruger and Jeju-Jeonju itineraries** (agents hit the session limit) and the road-food extension for the
+40 thin regions (`validate_road_eats.py --extend`, `road_eats_gaps.py <region>`; the prompt is not in the
+repo, the contract is `road-eats-research-contract.md`). The Washington gap list is five Rainier-to-Rockies
+days that are really Montana/Wyoming days; nobody owns them yet. Pages that returned 403/Cloudflare
+(ScotRail, Citylink, SANParks, Korail, travel.state.gov) were not bypassed, so those figures stay
+secondary-sourced.
+
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via

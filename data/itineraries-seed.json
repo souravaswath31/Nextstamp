@@ -12003,11 +12003,11 @@
         "day_number": 5,
         "title": "TGV to Tours",
         "activities": [
-          "TGV from Paris Montparnasse to Tours, about 1 hour (Tours tourist office lists 25 TGV connections a day); note that the high-speed station Saint-Pierre-des-Corps is 5 minutes from Tours",
+          "TGV from Paris Montparnasse to Tours, about 1 hour to 1 hour 15 minutes depending on the train (Tours tourist office lists 25 TGV connections a day); note that the high-speed station Saint-Pierre-des-Corps is 5 minutes from Tours",
           "Place Plumereau and the old town",
           "Tours Cathedral (Cathédrale Saint-Gatien)"
         ],
-        "drive_time": "TGV Paris Montparnasse to Tours, ~1 hr",
+        "drive_time": "TGV Paris Montparnasse to Tours, ~1 hr to 1 hr 15",
         "lodging_suggestion": "Tours (old town or near Tours station)",
         "latitude": 47.390047,
         "longitude": 0.688927,
@@ -12017,12 +12017,12 @@
         "day_number": 6,
         "title": "Amboise",
         "activities": [
-          "TER from Tours to Amboise, about 19 minutes (Rémi TER Centre-Val de Loire)",
+          "TER from Tours to Amboise, about 20 minutes (SNCF Connect lists direct TER journeys of 19 to 22 minutes)",
           "Château royal d'Amboise above the Loire",
           "Clos Lucé, where Leonardo da Vinci spent his last years",
           "Return to Tours by TER"
         ],
-        "drive_time": "TER Tours to Amboise, ~19 min each way",
+        "drive_time": "TER Tours to Amboise, ~20 min each way",
         "lodging_suggestion": "Tours (old town or near Tours station)",
         "latitude": 47.411035,
         "longitude": 0.983698,
@@ -12032,7 +12032,7 @@
         "day_number": 7,
         "title": "Chenonceau",
         "activities": [
-          "TER from Tours to Chenonceaux, about 25 minutes (per the Château de Chenonceau site); the station is about 400 m from the ticket office",
+          "TER from Tours to Chenonceaux, about 25 minutes (SNCF Connect lists 24 to 27 minutes, and only about 10 trains a day, so check the timetable for your outbound and return times); the station is about 400 m from the ticket office",
           "Château de Chenonceau spanning the Cher: the château advises booking tickets online",
           "Return to Tours by TER"
         ],
@@ -12046,10 +12046,10 @@
         "day_number": 8,
         "title": "Optional: return to Paris + depart",
         "activities": [
-          "TGV from Tours to Paris Montparnasse, about 1 hour",
+          "TGV from Tours to Paris Montparnasse, about 1 hour to 1 hour 15 minutes depending on the train",
           "Depart from Paris"
         ],
-        "drive_time": "TGV Tours to Paris Montparnasse, ~1 hr",
+        "drive_time": "TGV Tours to Paris Montparnasse, ~1 hr to 1 hr 15",
         "lodging_suggestion": "Paris (near your departure station or airport)",
         "latitude": null,
         "longitude": null,
@@ -12138,12 +12138,12 @@
         "day_number": 3,
         "title": "Avignon to Marseille",
         "activities": [
-          "TGV from Avignon TGV to Marseille Saint-Charles, about 30 minutes (Avignon tourist office); the slower TER from Avignon Centre takes about 1 hr 30",
+          "Train from Avignon to Marseille Saint-Charles: journey times vary by train (SNCF Connect lists direct trains from Avignon Centre at roughly 50 minutes to 2 hours, averaging about 1 hr 26), so check the timetable for your day; the TGV station is about 5 minutes from Avignon Centre by TER shuttle",
           "Vieux-Port and the Le Panier quarter",
           "MuCEM and the Fort Saint-Jean waterfront",
           "Notre-Dame de la Garde basilica for the harbour views"
         ],
-        "drive_time": "TGV Avignon TGV to Marseille, ~30 min",
+        "drive_time": "Train Avignon to Marseille, ~1 hr 30 on average (check SNCF Connect)",
         "lodging_suggestion": "Marseille (Vieux-Port area)",
         "latitude": 43.296399,
         "longitude": 5.377789,
@@ -12153,8 +12153,8 @@
         "day_number": 4,
         "title": "Calanques",
         "activities": [
-          "Parc national des Calanques: from 1 June to 30 September access to the massif is regulated for fire risk and can be closed entirely on 'red' days, so check the Prefecture status from 6 pm the day before",
-          "Sugiton in summer is by reservation only through the park's booking system",
+          "Parc national des Calanques: from 1 June to 30 September access to the massif is regulated for fire risk and can be closed entirely on 'red' days, so check the Prefecture status from around 6 pm the day before",
+          "Sugiton requires a free online reservation on set summer dates (in 2026: every day from 27 June to 30 August plus certain weekends in June and September); check the park's booking page for the current year's dates",
           "By public transport: bus 22 to the Les Baumettes stop, then about an hour on foot to Morgiou (per the park's Morgiou page)",
           "Afternoon: Marseille Vieux-Port seafood dinner"
         ],
@@ -12300,11 +12300,11 @@
         "day_number": 4,
         "title": "Rome to Florence",
         "activities": [
-          "Italo high-speed train Rome to Florence, about 1 hour 30 minutes (Italo destinations page); Trenitalia also runs frequent Frecciarossa services on the route, so compare times on the day",
+          "Italo high-speed train Rome to Florence, about 1 hour 25 minutes (Italo destinations page); Trenitalia also runs frequent Frecciarossa services on the route, which Trenitalia describes as just over 1 hour 30 minutes, so compare times on the day",
           "Walk to Piazza del Duomo and the Ponte Vecchio",
           "Evening in the Oltrarno district across the Arno"
         ],
-        "drive_time": "Italo Rome to Florence, ~1 hr 30",
+        "drive_time": "Italo Rome to Florence, ~1 hr 25",
         "lodging_suggestion": "Florence (historic centre)",
         "latitude": 43.769796,
         "longitude": 11.25564,
@@ -12327,11 +12327,11 @@
         "day_number": 6,
         "title": "Florence to Venice",
         "activities": [
-          "Italo high-speed train Florence to Venice, about 2 hours 15 minutes (Italo destinations page; Italo's own blog says 2 to 2.5 hours, so allow for variation)",
+          "Italo high-speed train Florence to Venice, about 2 hours (Italo destinations page, which says the time depends on the date and time of day), so check the timetable for your train",
           "Arrive on the Grand Canal and walk to your lodging; Venice has no cars, so expect to walk or use public water transport",
           "Evening cicchetti round of the bacari (small bars) in Cannaregio or San Polo"
         ],
-        "drive_time": "Italo Florence to Venice, ~2 hr 15",
+        "drive_time": "Italo Florence to Venice, ~2 hr",
         "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)",
         "latitude": 45.437191,
         "longitude": 12.33459,
@@ -12444,8 +12444,8 @@
         "day_number": 3,
         "title": "Pompeii day trip",
         "activities": [
-          "Circumvesuviana Napoli-Sorrento line to Pompei Scavi-Villa dei Misteri, about 40 minutes according to the visitnaples.eu guide (Pompeii's own site names this stop for the Porta Marina entrance; the FS Napoli-Salerno train to Pompei is the alternative for the Piazza Anfiteatro side); check the EAV timetable on the day",
-          "Pompeii archaeological park: tickets are personal (named) and sold online through the park's official site; hours change with the season (9:00-17:00, last entry 15:30, from 15 October to 15 March; 9:00-19:00, last entry 17:30, from 16 March to 14 October); closed 25 December and 1 January; free on the first Sunday of the month",
+          "Circumvesuviana Napoli-Sorrento line to Pompei Scavi-Villa dei Misteri, about 40 minutes (EAV's own timetable valid from 17 October 2026 shows 36 to 39 minutes from Napoli Garibaldi and Porta Nolana); Trenitalia regional trains also serve Pompei station, so check both timetables on the day",
+          "Pompeii archaeological park: tickets are personal (named) and sold online through the park's official site, with ticket offices at Porta Marina, Piazza Anfiteatro and Piazza Esedra; hours change with the season (9:00-17:00, last entry 15:30, from 15 October to 15 March; 9:00-19:00, last entry 17:30, from 16 March to 14 October); closed 25 December and 1 January; free on the first Sunday of the month",
           "Return to Naples by train"
         ],
         "drive_time": "Circumvesuviana Naples to Pompei Scavi, ~40 min each way",
@@ -12473,10 +12473,10 @@
         "title": "Naples to Salerno to Amalfi",
         "activities": [
           "Italo high-speed train Naples to Salerno, about 35 minutes (Italo destinations page)",
-          "Travelmar ferry Salerno to Amalfi, about 30 to 35 minutes (Travelmar's own page gives both figures; check the current timetable because sailings vary by season)",
+          "Travelmar ferry Salerno to Amalfi, about 35 minutes on direct sailings (Travelmar's timetable also lists some sailings via Vietri, Cetara, Maiori and Minori that take 60 minutes; check the current timetable)",
           "Amalfi's cathedral square and the lanes behind the harbour"
         ],
-        "drive_time": "Italo ~35 min + Travelmar ferry ~30-35 min",
+        "drive_time": "Italo ~35 min + Travelmar ferry ~35 min",
         "lodging_suggestion": "Amalfi (town centre)",
         "latitude": 40.63367,
         "longitude": 14.602609,
@@ -12486,11 +12486,11 @@
         "day_number": 6,
         "title": "Positano or the Path of the Gods",
         "activities": [
-          "Option A: Travelmar ferry from Amalfi to Positano, about 30 minutes each way (Travelmar), and a day on the beach and the stepped lanes",
+          "Option A: Travelmar ferry from Amalfi to Positano, about 25 minutes each way (Travelmar timetable), and a day on the beach and the stepped lanes",
           "Option B: the Path of the Gods trail: Travelmar's page describes a shuttle from Amalfi to Bomerano (Piazza Capasso), the trailhead, with a morning ferry-plus-shuttle connection from Positano taking about 1 hour 40 minutes in total; Travelmar gives no walking time for the trail itself, so plan the return with the shuttle or ferry timetable",
           "Return to Amalfi by ferry or shuttle"
         ],
-        "drive_time": "Travelmar Amalfi to Positano, ~30 min each way",
+        "drive_time": "Travelmar Amalfi to Positano, ~25 min each way",
         "lodging_suggestion": "Amalfi (town centre)",
         "latitude": 40.628658,
         "longitude": 14.485496,
@@ -12500,7 +12500,7 @@
         "day_number": 7,
         "title": "Amalfi to Salerno + depart",
         "activities": [
-          "Travelmar ferry Amalfi to Salerno, about 35 minutes (check the current timetable)",
+          "Travelmar ferry Amalfi to Salerno, about 35 minutes on direct sailings (some sailings via other towns take 60 minutes; check the current timetable)",
           "Onward by train from Salerno (Italo Salerno to Naples, about 35 minutes) or depart by rail from Salerno"
         ],
         "drive_time": "Travelmar ferry ~35 min + Italo Salerno to Naples ~35 min",
@@ -12585,7 +12585,7 @@
         "day_number": 3,
         "title": "Toledo day trip",
         "activities": [
-          "Renfe Avant from Madrid Puerta de Atocha to Toledo, about 30 minutes (Spain's tourism board); the first train from Atocha leaves at 6:45 am and the return from Toledo starts at 6:25 am (Renfe)",
+          "Renfe Avant from Madrid Puerta de Atocha to Toledo, about 30 minutes (Spain's tourism board); the first train from Atocha leaves at 6:45 am (Renfe), the first Toledo-Madrid Avant at 6:25 am runs Monday to Friday only, and the last Madrid-Toledo train at 8:45 pm runs Sunday to Thursday, so check Renfe's timetable for your day's last return",
           "Toledo's old town is a World Heritage site: the Gothic Cathedral, the Alcazar that dominates the skyline, Santa Maria la Blanca (the oldest synagogue in the city) and the Church of Santo Tome with El Greco's Burial of the Count of Orgaz",
           "Return to Madrid in the evening"
         ],
@@ -12640,7 +12640,7 @@
         "day_number": 7,
         "title": "The Alhambra",
         "activities": [
-          "Alhambra and Generalife (World Heritage): buy tickets only through the official ticket site linked from alhambra-patronato.es and book well ahead; check the site for any timed-entry slots, opening days and ID rules",
+          "Alhambra and Generalife (World Heritage): buy tickets only through the official ticket site linked from alhambra-patronato.es and book well ahead; tickets are personal and non-transferable, each visitor needs a personal ID document, and entry to the Nasrid Palaces is at a fixed time (300 people every half hour) and you are refused if you miss your slot",
           "Afternoon free in the Albaicin or Sacromonte"
         ],
         "lodging_suggestion": "Granada (Albaicin or city centre)",
@@ -12705,7 +12705,7 @@
       "September",
       "October"
     ],
-    "description": "Spain's Mediterranean side: three days in Barcelona, a Euromed train down the coast to Valencia, then an overnight-capable ferry crossing of about 7 hours to Mallorca and Palma's old town.",
+    "description": "Spain's Mediterranean side: three days in Barcelona, a Euromed train down the coast to Valencia, then a ferry crossing of 7 to 9 hours (Baleària describes its Valencia-Palma sailing as an overnight crossing) to Mallorca and Palma's old town.",
     "cost_tier": "mid",
     "days": [
       {
@@ -12723,9 +12723,9 @@
         "day_number": 2,
         "title": "Gaudi's Barcelona",
         "activities": [
-          "Sagrada Familia: buy tickets only on the official sagradafamilia.org site and check its current opening hours before booking",
+          "Sagrada Familia: tickets are for a chosen time slot and late arrivals are refused entry, so buy ahead only through the official sagradafamilia.org site or app and check its current opening hours (they vary by month and day of the week)",
           "Casa Batllo, one of the famous Gaudi sights; book ahead on its official site",
-          "Park Guell; check the official site for ticketing"
+          "Park Guell: tickets are sold online only for an assigned entry time, with 30 minutes after that time to get in; buy on the official parkguell.barcelona site"
         ],
         "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)",
         "latitude": 41.403505,
@@ -12787,10 +12787,10 @@
         "day_number": 7,
         "title": "Ferry to Mallorca",
         "activities": [
-          "Ferry from Valencia to Palma, about 7 hours (Trasmed lists regular day and night departures through the year; Balearia also sails the route and lists 7 to 9 hours depending on the vessel). Check the operator's schedule and book in advance, and decide between a day crossing and a night crossing",
-          "Settle into Palma's old town"
+          "Ferry from Valencia to Palma, 7 to 9 hours depending on the vessel (Baleària lists 7 to 9 hours and describes the Valencia-Palma sailing as an overnight crossing that reaches Palma early in the morning, with cabins available). Check the operator's timetable for your date and book in advance",
+          "Settle into Palma's old town on arrival"
         ],
-        "drive_time": "Ferry Valencia-Palma, ~7 hr",
+        "drive_time": "Ferry Valencia-Palma, ~7 to 9 hr",
         "lodging_suggestion": "Palma de Mallorca (old town)",
         "latitude": 39.613432,
         "longitude": 2.882919,
@@ -12813,7 +12813,7 @@
         "day_number": 9,
         "title": "Mallorca by the mountains",
         "activities": [
-          "Sierra de Tramuntana villages of Soller and Valldemossa, both described by Spain's tourism board; check local bus or hire-car options before you go, as travel times were not verified for this route",
+          "Sierra de Tramuntana villages of Soller and Valldemossa, both described by Spain's tourism board; the TIB public bus line 203 (timetable valid from 1 March 2026) links Palma, Valldemossa, Deia and Soller, taking about 30 minutes from Palma to Valldemossa and about 1 hour to 1 hour 5 minutes to Soller; recheck times at tib.org",
           "Return to Palma"
         ],
         "lodging_suggestion": "Palma de Mallorca (old town)",
@@ -12897,7 +12897,7 @@
         "title": "Belém: Jerónimos + Belém Tower",
         "activities": [
           "Jerónimos Monastery: the official museusemonumentos.pt site lists it as closed Mondays, 1 January, Easter Sunday, 1 May, 13 June and 25 December; tickets can be bought online there, and the church has shorter hours than the cloister",
-          "Belém Tower (Torre de Belém): also closed Mondays on the official site, with last entry at 17:00; buy tickets online or at the ticket office",
+          "Belém Tower (Torre de Belém): also closed Mondays on the official site, which lists it open Tuesday to Sunday 9:30 to 17:30; it reopened on 27 May 2026 after restoration and the monument now uses set time slots, so book a ticket online in advance and check the current slot rules",
           "Pastel de nata in Belém and a walk along the Tagus waterfront"
         ],
         "lodging_suggestion": "Lisbon (Baixa or Alfama)",
@@ -12924,7 +12924,7 @@
         "day_number": 4,
         "title": "Alfa Pendular to Porto",
         "activities": [
-          "CP Alfa Pendular from Lisboa Santa Apolónia to Porto Campanhã: CP's timetable valid since 14 December 2025 shows the 09:00 departure arriving 11:48 (about 2 h 48 min); CP's September 2026 timetable shows the opposite direction, Porto Campanhã 05:40 to Lisboa Oriente 08:23 (2 h 43 min). Book at cp.pt and check current departures",
+          "CP Alfa Pendular from Lisboa Santa Apolónia to Porto Campanhã: CP's timetable valid since 20 September 2026 shows the 09:00 departure (Monday to Saturday) arriving 11:48 (about 2 h 48 min) and the daily 07:00 arriving 09:48; in the opposite direction it shows Porto Campanhã 05:40 to Lisboa Oriente 08:23 (2 h 43 min). Book at cp.pt and check current departures",
           "Walk from São Bento station, whose entrance hall is tiled with azulejos, to the Ribeira waterfront",
           "Dom Luís I Bridge at sunset"
         ],
@@ -13057,7 +13057,7 @@
         "day_number": 3,
         "title": "Évora: Chapel of Bones + countryside",
         "activities": [
-          "Capela dos Ossos in the Igreja de São Francisco: the chapel is lined with human bones; it uses a paid ticket and seasonal opening hours, with the city council and the church listing slightly different hours, so check the church's own site on the day. Open daily except 1 January, Easter Sunday and 25 December per the council listing",
+          "Capela dos Ossos in the Igreja de São Francisco: the chapel is lined with human bones; it uses a paid ticket and seasonal opening hours, with the city council and the church listing slightly different hours, so check the church's own site on the day. Open daily per the council listing, which shows closures on 1 January, Easter Sunday, 25 December and the afternoon of 24 December (that page was last updated in July 2023)",
           "Walk the old town lanes at your own pace",
           "Alentejo dinner: ask for regional dishes at a restaurant in the old town"
         ],
@@ -13331,14 +13331,14 @@
     ],
     "duration_days_min": 8,
     "duration_days_max": 8,
-    "best_time_description": "Ferry frequency and fast-boat service on this route are strongly seasonal. The high-speed SeaJets timetable we found for Santorini to Naxos to Paros was listed for 28 May to 28 September 2026 only, so in autumn you should expect to rely on the slower conventional ferries (Blue Star) and plan extra time; weather also causes cancellations (Blue Star was publishing weather-related schedule changes on its site in mid-October 2026). Late May to September gives the most choice of sailings; shoulder months are quieter. This is an editorial suggestion, not met-service data.",
+    "best_time_description": "Ferry frequency and fast-boat service on this route are strongly seasonal. Blue Star's own destination pages list daily routes to Paros, Naxos and Santorini, but fast boats (SeaJets) mainly run in summer and we could not confirm an official timetable or end date, so in autumn plan on the slower conventional Blue Star ferries and allow extra time; weather also causes cancellations (Blue Star was publishing weather-related schedule changes on its site in mid-October 2026). Late May to September gives the most choice of sailings; shoulder months are quieter. This is an editorial suggestion, not met-service data.",
     "best_time_months": [
       "May",
       "June",
       "September",
       "October"
     ],
-    "description": "A Cyclades island-hop in the classic order from Athens: ferry from Piraeus to Paros, on to Naxos, then Santorini, and back to Athens. Ferries are the connective tissue here, so every hop below carries its operator-stated time and the seasonal caveat.",
+    "description": "A Cyclades island-hop in the classic order from Athens: ferry from Piraeus to Paros, on to Naxos, then Santorini, and back to Athens. Ferries are the connective tissue here, so every hop below says where its timing comes from and what the seasonal caveat is.",
     "cost_tier": "mid",
     "days": [
       {
@@ -13384,11 +13384,11 @@
         "day_number": 4,
         "title": "Ferry Paros to Naxos",
         "activities": [
-          "Sea hop Paros to Naxos: about 40 minutes on the SeaJets summer high-speed listing (from a ferries.gr schedule listing, which is a booking agency not the operator; that summer service was listed only to 28 September 2026). On a conventional Blue Star sailing that calls at both, Blue Star's July 2026 notice lists Paros around 21:30 to 22:15 and Naxos around 23:15 to 23:45, so allow about an hour and expect a late-night arrival",
+          "Sea hop Paros to Naxos: Blue Star's own pages list a Paros to Naxos connection, and fast boats such as SeaJets also serve it in summer, but we could not confirm a current fast-boat timetable, so check seajets.com. On a conventional Blue Star sailing, the operator's 30 July 2026 notice (a weather-adjusted timetable for that day) shows the ship leaving Paros at 22:15 and reaching Naxos at 23:15, so allow about an hour and expect a late-night arrival; check the booking page for your date",
           "The Portara, the marble gateway of the unfinished temple on the Palatia islet beside Naxos town, at sunset",
           "Naxos Chora and its Venetian-era Kastro"
         ],
-        "drive_time": "About 40 minutes high-speed in summer (ferries.gr listing of SeaJets); about 1 hour on the Blue Star conventional sailing",
+        "drive_time": "About 1 hour on the Blue Star conventional sailing (Blue Star notice for 30 July 2026); fast-boat time not confirmed",
         "lodging_suggestion": "Naxos (Chora)",
         "latitude": 37.102071,
         "longitude": 25.376246,
@@ -13411,11 +13411,11 @@
         "day_number": 6,
         "title": "Ferry Naxos to Santorini",
         "activities": [
-          "Sea hop Naxos to Santorini: about 1 hour 30 minutes on the SeaJets summer daily service listed as departing Santorini 08:25 and reaching Naxos 09:55 (ferries.gr listing, booking agency not operator, listed for 28 May to 28 September 2026 only; the opposite direction runs on different days). Outside that period take a conventional Blue Star sailing instead: Blue Star's July 2026 notice shows Naxos around 23:15 to 23:45 and Santorini around 02:00 to 02:20, i.e. about 2 hours 15 minutes to 2 hours 45 minutes, arriving in the small hours",
+          "Sea hop Naxos to Santorini: Blue Star's own Naxos page lists Santorini as a destination from Naxos. The operator's 30 July 2026 notice shows the ship leaving Naxos at 23:45 and reaching Santorini at 02:00, about 2 hours 15 minutes and arriving in the small hours. Fast boats (SeaJets) also serve this leg in summer, but we could not confirm a current timetable, so check seajets.com",
           "Settle into Fira on the caldera rim",
           "Walk the caldera edge in Fira"
         ],
-        "drive_time": "About 1 hour 30 minutes high-speed in summer (ferries.gr listing of SeaJets); about 2 hours 15 minutes to 2 hours 45 minutes on the Blue Star conventional sailing",
+        "drive_time": "About 2 hours 15 minutes on the Blue Star conventional sailing (Blue Star notice for 30 July 2026); fast-boat time not confirmed",
         "lodging_suggestion": "Fira, Santorini",
         "latitude": 36.407111,
         "longitude": 25.456664,
@@ -13425,7 +13425,7 @@
         "day_number": 7,
         "title": "Santorini: Akrotiri + Oia",
         "activities": [
-          "Akrotiri, the Bronze Age town buried by the volcanic eruption; opening days and ticket details were not verified, so check the Ministry of Culture ticket site",
+          "Akrotiri, the Bronze Age town buried by the volcanic eruption: the Ministry of Culture hours page (cyclades.culture.gov.gr) lists Monday and Thursday 08:30-15:30, and other days 08:00-18:00 for 16-31 October (last entry 17:30), with tickets at 20 euros full and 10 euros reduced; hours shorten through autumn and winter hours were not listed on that page, so check it before you go",
           "Oia at the north tip of the island for sunset; it is crowded at the evening, so arrive early",
           "A Santorini winery visit; book ahead, hours not verified"
         ],
@@ -13511,7 +13511,7 @@
         "day_number": 2,
         "title": "Tower of London + the City",
         "activities": [
-          "Tower of London: check the Historic Royal Palaces website for current opening days and hours and book online ahead, especially in school holidays; see the Crown Jewels and the White Tower",
+          "Tower of London: check the Historic Royal Palaces website for current opening days and hours and book tickets online ahead; see the Crown Jewels and the White Tower",
           "Walk across Tower Bridge",
           "St Paul's Cathedral and the Millennium Bridge toward Tate Modern"
         ],
@@ -13710,12 +13710,12 @@
         "day_number": 6,
         "title": "Skye to Mallaig + Fort William",
         "activities": [
-          "Travel south on Skye to Armadale for the CalMac ferry to Mallaig; the crossing takes about 30 to 45 minutes depending on the vessel, with a limited number of sailings, so check the CalMac timetable and book",
-          "Train from Mallaig along the West Highland Line to Fort William (Glasgow to Mallaig is about 5 hours 30 minutes in total on ScotRail's figures; check the timetable, as only a few trains run a day)",
+          "Travel south on Skye to Armadale for the CalMac ferry to Mallaig; the crossing takes about 45 minutes per CalMac, with a limited number of sailings, so check the CalMac timetable and book",
+          "Train from Mallaig along the West Highland Line to Fort William (Glasgow Queen Street to Mallaig is about 5 hours 20 minutes in total on ScotRail's figures; check the timetable, as only a few trains run a day)",
           "Evening in Fort William beneath Ben Nevis"
         ],
         "lodging_suggestion": "Fort William",
-        "drive_time": "CalMac ferry, about 30-45 min; then West Highland Line train",
+        "drive_time": "CalMac ferry, about 45 min; then West Highland Line train",
         "latitude": 57.006132,
         "longitude": -5.829449,
         "eat_town": null
@@ -13725,11 +13725,11 @@
         "title": "Glenfinnan + train to Glasgow",
         "activities": [
           "Visit the Glenfinnan Viaduct viewpoint, reachable by West Highland Line train from Fort William; check the timetable",
-          "ScotRail West Highland Line train from Fort William to Glasgow Queen Street, about 3 hours 50 minutes",
+          "ScotRail West Highland Line train from Fort William to Glasgow Queen Street, about 4 hours on ScotRail's average figure",
           "Arrive Glasgow for the evening, with onward travel or a flight home next day"
         ],
         "lodging_suggestion": "Glasgow",
-        "drive_time": "ScotRail train, about 3 hrs 50 min",
+        "drive_time": "ScotRail train, about 4 hrs",
         "latitude": 55.861155,
         "longitude": -4.250169,
         "eat_town": "Glasgow"
@@ -13856,7 +13856,7 @@
         "title": "Lake Louise + Moraine Lake",
         "activities": [
           "Moraine Lake Road is closed to personal vehicles year-round (Parks Canada). Reserve the Parks Canada shuttle in advance at reservation.pc.gc.ca; for the 2026 season the Lake Louise Lakeshore shuttle ran 15 May to 12 October and the Moraine Lake shuttle 1 June to 12 October, weather permitting, so check the dates for your year",
-          "Park free at the Lake Louise Park and Ride if you hold a shuttle reservation; the Lakeshore lot often fills before sunrise",
+          "Park free at the Lake Louise Park and Ride if you hold a shuttle reservation; Parks Canada does not recommend driving to the Lakeshore lot, which fills and turns vehicles away",
           "Lake Louise lakeshore walk"
         ],
         "lodging_suggestion": "Banff (town) or Lake Louise",
@@ -13869,9 +13869,9 @@
         "title": "Icefields Parkway to Jasper",
         "activities": [
           "Highway 93N, the Icefields Parkway, is 232 km from Lake Louise to Jasper (Parks Canada); allow a full day with stops and start with a full tank, because the only fuel on the route is at Saskatchewan River Crossing and only in summer",
-          "Peyto Lake viewpoint, 43 km from Lake Louise (a short walk to the platform); Bow Lake viewpoint, 30 minutes north of Lake Louise",
+          "Peyto Lake viewpoint, 43 km from Lake Louise (a short walk to the platform); Bow Lake, 39 km north of Lake Louise (Parks Canada)",
           "Columbia Icefield Discovery and Information Centre, 128 km from Lake Louise (visitor centre open May to September)",
-          "Athabasca Falls, 30 km south of Jasper",
+          "Athabasca Falls, 31 km from Jasper",
           "Services run early May to mid-October only; in winter there are no services between Lake Louise and Jasper. A national parks pass is required to drive the parkway. Check 511 Alberta before departing"
         ],
         "drive_time": "Banff to Lake Louise, then 232 km to Jasper; a full day with stops (Parks Canada gives distances, not a drive time)",
@@ -13977,11 +13977,11 @@
         "day_number": 3,
         "title": "Niagara Falls day trip",
         "activities": [
-          "Train from Toronto: GO Transit says it runs Toronto to Niagara Falls on weekdays and weekends all year (check the timetable for the day you travel; the pages checked do not give a journey time); VIA Rail's route page lists 132 km at an average of about 2 hours on 7 departures a week",
+          "Train from Toronto: GO Transit says it has service to Niagara Falls all year round (check the timetable for the day you travel; the pages checked do not give a journey time); VIA Rail's route page lists 132 km at an average of 2 h 40 min from Toronto on 2 departures a week, and 1 h 58 min from Niagara Falls back to Toronto on 7 departures a week",
           "Journey Behind the Falls (Niagara Parks): listed as open daily and year-round; Niagara Parks recommends arriving at least an hour before closing",
           "Walk the Niagara Parkway viewpoints, then return to Toronto in the evening"
         ],
-        "drive_time": "Toronto to Niagara Falls: VIA ~2 hr average (132 km); GO timetable varies",
+        "drive_time": "Toronto to Niagara Falls: VIA ~2 hr 40 min average (132 km), few departures; GO timetable varies",
         "lodging_suggestion": "Toronto (near Union Station)",
         "latitude": 43.078413,
         "longitude": -79.074327,
@@ -14043,9 +14043,9 @@
         "day_number": 8,
         "title": "Depart Québec City",
         "activities": [
-          "Depart from Québec City; to head back to Montréal or Toronto use VIA Rail (Québec City to Montréal about 3 h 26 min on average) and check onward flight times"
+          "Depart from Québec City; to head back to Montréal or Toronto use VIA Rail (Québec City to Montréal about 3 h 19 min on average) and check onward flight times"
         ],
-        "drive_time": "Québec City to Montréal by VIA Rail ~3 hr 26 min average",
+        "drive_time": "Québec City to Montréal by VIA Rail ~3 hr 19 min average",
         "lodging_suggestion": "Québec City (Old Québec)",
         "latitude": null,
         "longitude": null,
@@ -14290,9 +14290,10 @@
         "day_number": 2,
         "title": "West MacDonnell Ranges to Glen Helen",
         "activities": [
-          "Tourism NT's suggested Red Centre Way itinerary lists Alice Springs to Glen Helen as 132 km",
+          "Tourism NT's suggested Red Centre Way itinerary lists Alice Springs to Glen Helen as 132 km, on sealed road along Namatjira Drive (Tourism Central Australia)",
           "Simpsons Gap, one of the most prominent gaps in the West MacDonnell Ranges",
-          "Ellery Creek Big Hole, a popular picnic, walking and swimming spot in Tjoritja / West MacDonnell National Park (Tourism NT also names Ormiston Gorge and Glen Helen for swimming)"
+          "Ellery Creek Big Hole, a popular picnic, walking and swimming spot in Tjoritja / West MacDonnell National Park (Tourism NT also names Ormiston Gorge and Glen Helen for swimming)",
+          "Tourism Central Australia's Mereenie Loop page lists Glen Helen Reception as 'currently unavailable due to closure', so confirm Glen Helen accommodation and fuel are operating before you book"
         ],
         "drive_time": "Alice Springs to Glen Helen, 132 km (Tourism NT; no time stated)",
         "lodging_suggestion": "Glen Helen (West MacDonnell Ranges)",
@@ -14304,11 +14305,13 @@
         "day_number": 3,
         "title": "Glen Helen to Kings Canyon",
         "activities": [
-          "Tourism NT lists Glen Helen to Kings Canyon as 234 km",
+          "Tourism NT lists Glen Helen to Kings Canyon as 234 km, and the route uses the Mereenie Loop, an unsealed road Tourism NT recommends only for 4WD vehicles; Tourism Central Australia adds that it is often corrugated with no facilities or fuel stops",
+          "A Mereenie Loop permit is required (Tourism NT: pick one up at the Hermannsburg general store; Tourism Central Australia lists the Alice Springs Visitor Information Centre and others, about $5 per vehicle, valid three days), and you must check that your hire car is permitted on unsealed roads and covered by insurance",
+          "Without a suitable 4WD, return to Alice Springs and take the fully sealed route to Kings Canyon (Tourism Central Australia: about 5 hours without stops; the Tourism NT Watarrka page says approx. 4 hours)",
           "Optional stop at Tnorala (Gosse Bluff) Conservation Reserve, listed by Tourism NT as a Red Centre Way highlight",
           "Settle in at Kings Canyon / Watarrka National Park and watch the canyon colours change at sunset"
         ],
-        "drive_time": "Glen Helen to Kings Canyon, 234 km (Tourism NT; no time stated)",
+        "drive_time": "Glen Helen to Kings Canyon, 234 km on the unsealed Mereenie Loop (Tourism NT; no time stated, varies with road condition)",
         "lodging_suggestion": "Kings Canyon (Watarrka National Park)",
         "latitude": -24.25031,
         "longitude": 131.577945,
@@ -14318,11 +14321,11 @@
         "day_number": 4,
         "title": "Kings Canyon Rim Walk + drive to Uluru",
         "activities": [
-          "Kings Canyon Rim Walk: Tourism NT says allow about 3 to 4 hours and finish before 10am to avoid the heat; check Parks NT for any heat closure of the walk on the day",
-          "Drive Kings Canyon to Uluru, 300 km per Tourism NT's Red Centre Way itinerary",
+          "Kings Canyon Rim Walk: Tourism NT says allow about 3 to 4 hours; on days forecast to reach 36 degrees C or higher walkers must begin before 9am, and entry is not permitted after that time. Otherwise aim to finish before 10am to avoid the heat",
+          "Drive Kings Canyon to Uluru, 300 km per Tourism NT's Red Centre Way itinerary; Tourism NT says Watarrka is about 3 hours' drive from Uluru",
           "Check in at Yulara (Ayers Rock Resort); buy your Uluru-Kata Tjuta park pass online before entering the park"
         ],
-        "drive_time": "Kings Canyon to Uluru, 300 km (Tourism NT; no time stated)",
+        "drive_time": "Kings Canyon to Uluru, 300 km, about 3 hrs (Tourism NT)",
         "lodging_suggestion": "Yulara (Ayers Rock Resort)",
         "latitude": -25.345554,
         "longitude": 131.036961,
@@ -14333,7 +14336,7 @@
         "title": "Uluru: Mala walk + sunset",
         "activities": [
           "A park pass is required for Uluru-Kata Tjuta National Park: Parks Australia lists adults (18+) at $38 for 3 days or $50 annual, children under 18 free; it covers this park only, and it can be bought online or at the entry station",
-          "Cultural Centre, open 7.00am to 5.45pm daily",
+          "Cultural Centre, open daily from 7.00am; Parks Australia pages give the closing time as 5.45pm or 6.00pm, so check on the day",
           "Mala walk from the Mala carpark to Kantju Gorge: 2 km return, about 1 hr 30, Grade 2",
           "Sunset from the Uluru car sunset viewing area; the park is open every day, with closing times that change by month (Parks Australia publishes the table), and you must leave by closing time",
           "Ayers Rock Resort to Uluru is about 20 minutes' drive (Parks Australia)"
@@ -14442,10 +14445,10 @@
         "day_number": 1,
         "title": "Arrive Cape Town",
         "activities": [
-          "Collect your bags at Cape Town International Airport and transfer to the city; an operator's itinerary puts the airport-to-hotel transfer at about 40 minutes",
+          "Collect your bags at Cape Town International Airport and transfer to the city; Cape Town Tourism places the airport about 20 km from the city centre, and the MyCiTi A01 bus runs from the station outside the main terminal to the Civic Centre in the centre",
           "Evening walk at the V&A Waterfront"
         ],
-        "drive_time": "Airport to city, ~40 min (operator estimate)",
+        "drive_time": "Airport to city centre, about 20 km (Cape Town Tourism)",
         "lodging_suggestion": "Cape Town (City Bowl or V&A Waterfront)",
         "latitude": null,
         "longitude": null,
@@ -14481,11 +14484,11 @@
         "day_number": 4,
         "title": "Cape Town to Franschhoek",
         "activities": [
-          "Drive to Franschhoek, just over 1 hour (operator estimate)",
+          "Drive to Franschhoek; check a live map on the day for the time, as traffic out of Cape Town varies",
           "Wine tastings in the Franschhoek valley; book each estate's tasting in advance and arrange a designated driver or a driver-guide",
           "Dinner in Franschhoek village"
         ],
-        "drive_time": "Cape Town to Franschhoek, just over 1 hr (operator estimate)",
+        "drive_time": "Cape Town to Franschhoek: check a live map for current traffic",
         "lodging_suggestion": "Franschhoek",
         "latitude": -33.907268,
         "longitude": 19.115426,
@@ -14495,11 +14498,11 @@
         "day_number": 5,
         "title": "Franschhoek to Robertson",
         "activities": [
-          "Drive to Robertson, about 90 minutes (operator estimate)",
+          "Drive to Robertson; check a live map for the time and route",
           "Robertson wine valley tastings in the afternoon",
           "Early night: tomorrow is the longest drive of the trip"
         ],
-        "drive_time": "Franschhoek to Robertson, ~90 min (operator estimate)",
+        "drive_time": "Franschhoek to Robertson: check a live map",
         "lodging_suggestion": "Robertson",
         "latitude": -33.803585,
         "longitude": 19.881622,
@@ -14509,10 +14512,10 @@
         "day_number": 6,
         "title": "Route 62 to Oudtshoorn",
         "activities": [
-          "Drive Route 62 east from Robertson to Oudtshoorn, about 3.5 hours without stops (operator estimate); Montagu, Barrydale and Calitzdorp lie on this road, so budget time for coffee and fuel stops",
+          "Drive Route 62 east from Robertson to Oudtshoorn; South African Tourism describes Cape Town to Oudtshoorn on the R62 as about a 5-hour drive, so allow a long day. Montagu, Barrydale and Calitzdorp lie on this road, so budget time for coffee and fuel stops",
           "Afternoon in the Klein Karoo: an ostrich-farm tour near Oudtshoorn (book with the farm; opening times vary)"
         ],
-        "drive_time": "Robertson to Oudtshoorn, ~3.5 hr via Route 62 (operator estimate)",
+        "drive_time": "Robertson to Oudtshoorn via Route 62: check a live map; the longest drive of the trip",
         "lodging_suggestion": "Oudtshoorn",
         "latitude": -33.590295,
         "longitude": 22.204206,
@@ -14523,10 +14526,10 @@
         "title": "Cango Caves + on to Plettenberg Bay",
         "activities": [
           "Cango Caves, open 09:00 to 16:00 per the caves' own site; online booking is through the Oudtshoorn municipality booking site. Go early.",
-          "Drive south to the coast: about 2.5 hours by the most direct road to Plettenberg Bay, with Knysna on the way (operator estimate)",
+          "Drive south to the coast to Plettenberg Bay by the most direct road, with Knysna on the way; check a live map for the time",
           "Evening on the beach at Plettenberg Bay"
         ],
-        "drive_time": "Oudtshoorn to Plettenberg Bay, ~2.5 hr (operator estimate)",
+        "drive_time": "Oudtshoorn to Plettenberg Bay: check a live map",
         "lodging_suggestion": "Plettenberg Bay",
         "latitude": -34.052778,
         "longitude": 23.369444,
@@ -14536,11 +14539,11 @@
         "day_number": 8,
         "title": "Tsitsikamma",
         "activities": [
-          "Drive east to the Tsitsikamma Section of Garden Route National Park; the park is 68 km from Plettenberg Bay per SANParks and the operator estimate is about 35 minutes",
+          "Drive east to the Tsitsikamma Section of Garden Route National Park; the park is 68 km from Plettenberg Bay per SANParks, so check a live map for the time",
           "Coastal walks in the park (SANParks lists hikes, walks and trails; a daily conservation fee applies and every visitor must hand in the Gate Registration & Indemnity Form with their passport)",
           "Return to Plettenberg Bay for the night"
         ],
-        "drive_time": "Plettenberg Bay to Tsitsikamma, ~35 min each way (operator estimate)",
+        "drive_time": "Plettenberg Bay to Tsitsikamma, 68 km each way (SANParks)",
         "lodging_suggestion": "Plettenberg Bay",
         "latitude": -34.001389,
         "longitude": 23.480556,
@@ -14550,10 +14553,10 @@
         "day_number": 9,
         "title": "Knysna + depart from George",
         "activities": [
-          "Plettenberg Bay to Knysna, about 30 minutes (operator estimate): Knysna Lagoon waterfront and a late lunch (oysters are a Knysna speciality)",
-          "Drive to George Airport, 70 km from Knysna per SANParks, where all the major car-hire companies have offices; fly onward from there"
+          "Plettenberg Bay to Knysna: Knysna Lagoon waterfront and a late lunch (oysters are a Knysna speciality)",
+          "Drive to George Airport, about 70 km from Knysna per one SANParks page (another SANParks page says 60 km), where rental facilities are available per SANParks; fly onward from there"
         ],
-        "drive_time": "Plettenberg Bay to Knysna ~30 min; Knysna to George 70 km (SANParks)",
+        "drive_time": "Plettenberg Bay to Knysna: check a live map; Knysna to George ~70 km (SANParks)",
         "lodging_suggestion": "George (airport) or fly out",
         "latitude": -34.035734,
         "longitude": 23.048485,
@@ -14870,10 +14873,10 @@
         "day_number": 8,
         "title": "Busan to Seoul + depart",
         "activities": [
-          "KTX from Busan Station to Seoul Station: VisitKorea guides give about 3 hours (one says about 3 hr 20 min), so check the exact running time on korail.com for your train",
+          "KTX from Busan Station to Seoul Station: Visit Seoul gives about 2 hours 18 minutes for the fastest KTX and VisitKorea guides give about 3 hours, so the running time depends on the train; check the exact time on korail.com for yours",
           "Connect to Incheon or Gimpo airport for departure, leaving a generous buffer for the rail leg"
         ],
-        "drive_time": "KTX Busan to Seoul, ~3 hr (VisitKorea; check Korail)",
+        "drive_time": "KTX Busan to Seoul, about 2 hr 20 min to 3 hr depending on the train (Visit Seoul, VisitKorea; check Korail)",
         "lodging_suggestion": "Seoul (near your departure airport)",
         "latitude": 37.566679,
         "longitude": 126.978291,
