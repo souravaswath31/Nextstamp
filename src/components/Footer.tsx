@@ -11,6 +11,7 @@ const COLUMNS: { title: string; links: { href: string; label: string }[] }[] = [
     links: [
       { href: "/features/visa-check", label: "Passport and visa check" },
       { href: "/features/trip-from-a-link", label: "Trip from a link" },
+      { href: "/escape", label: "Escape Hatch (group trip game)" },
       { href: "/wallet", label: "Trip fund" },
       { href: "/pricing", label: "Pricing" },
     ],

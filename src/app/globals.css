@@ -148,6 +148,21 @@ body {
   outline-offset: 2px;
 }
 
+/* Escape Hatch: dealt cards flip in one after another. */
+@keyframes eh-flip {
+  from {
+    opacity: 0;
+    transform: perspective(700px) rotateX(-70deg) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: perspective(700px) rotateX(0) translateY(0);
+  }
+}
+.eh-flip {
+  animation: eh-flip 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

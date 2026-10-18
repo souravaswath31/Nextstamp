@@ -126,6 +126,19 @@ export default async function Dashboard() {
           tabs away in My Trips, which is where it used to live. */}
       <StartTripCard isFirstTrip={trips.length === 0} easyAccessCount={easyAccessCount} />
 
+      {/* Escape Hatch: the group trip game. A secondary door, below the primary action. */}
+      <Link
+        href="/escape"
+        className="flex flex-wrap items-center justify-between gap-3 rounded-panel border border-line bg-paper px-6 py-5 shadow-paper transition hover:border-coral"
+      >
+        <span>
+          <span className="block font-stamp text-xs uppercase tracking-widest text-coral">Play with friends</span>
+          <span className="mt-1 block font-display text-xl text-ink">Escape Hatch</span>
+          <span className="mt-0.5 block font-body text-sm text-ink/60">Four questions, one veto each, out the door by Friday.</span>
+        </span>
+        <span className="btn-ghost">Start a game</span>
+      </Link>
+
       {/* The decorative hero moves below the fold-level action. It was the
           second thing a new user saw and it did no work. */}
       <Reveal>
