@@ -12083,7 +12083,7 @@
         "description": "Sitting for an hour over a coffee on a Paris café terrace, and ordering the daily 'plat du jour' at lunch, are ordinary parts of the local rhythm rather than tourist rituals."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/paris-loire-valley-chateaux-france.jpg"
   },
   {
     "title": "Provence + the French Riviera, France",
@@ -12234,7 +12234,7 @@
         "description": "Outdoor markets such as the Cours Saleya market in Nice are part of daily life in Provence and the Riviera, selling produce, flowers and local specialities."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/provence-the-french-riviera-france.jpg"
   },
   {
     "title": "Rome, Florence + Venice by Rail, Italy",
@@ -12390,7 +12390,7 @@
         "description": "Both the Accademia in Florence and the MANN archaeology museum in Naples state free admission on the first Sunday of each month; free tickets cannot be booked in advance and are collected on the day, so expect queues."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/rome-florence-venice-by-rail-italy.jpg"
   },
   {
     "title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
@@ -12532,7 +12532,7 @@
         "description": "UNESCO's intangible cultural heritage list for Italy includes the Mediterranean diet (inscribed 2013)."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/naples-pompeii-capri-the-amalfi-coast-italy.jpg"
   },
   {
     "title": "Madrid, Toledo, Seville + Granada, Spain",
@@ -12684,7 +12684,7 @@
         "description": "Ordering several small plates and moving between bars is an ordinary way to eat in Madrid, Seville and Granada rather than a tourist ritual."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/madrid-toledo-seville-granada-spain.jpg"
   },
   {
     "title": "Barcelona, Valencia + Mallorca, Spain",
@@ -12855,7 +12855,7 @@
         "description": "Eating several small plates at a bar is an ordinary way to eat in Barcelona and across Spain rather than a tourist ritual."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/barcelona-valencia-mallorca-spain.jpg"
   },
   {
     "title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
@@ -13003,7 +13003,7 @@
         "description": "Painted ceramic tiles that cover station halls, churches and house fronts across Portugal; São Bento station in Porto is a well-known example."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/lisbon-sintra-porto-douro-valley-by-train-portugal.jpg"
   },
   {
     "title": "Alentejo + Algarve by Train, Portugal",
@@ -13162,7 +13162,7 @@
         "description": "Évora's Chapel of Bones, in the Igreja de São Francisco, is a memento mori chapel lined with human bones."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/alentejo-algarve-by-train-portugal.jpg"
   },
   {
     "title": "Athens, Delphi + Nafplio, Greece",
@@ -13317,7 +13317,7 @@
         "description": "The ancient theatre has hosted performances every summer since the 1950s as part of the Athens Epidaurus Festival, per the Greek National Tourism Organisation."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/athens-delphi-nafplio-greece.jpg"
   },
   {
     "title": "Paros, Naxos + Santorini, Greece",
@@ -13471,7 +13471,7 @@
         "description": "The Bronze Age settlement on Santorini was buried by a volcanic eruption and is an archaeological site you can visit; the Ministry of Culture ticket site has current access details."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/paros-naxos-santorini-greece.jpg"
   },
   {
     "title": "London, Bath + Oxford, England",
@@ -13615,7 +13615,8 @@
         "name": "Oxford college life",
         "description": "Oxford's colleges are working academic communities, which is why some quads and chapels are closed to visitors at certain times; check each college's visiting hours."
       }
-    ]
+    ],
+    "cover_image_url": "/itineraries/london-bath-oxford-england.jpg"
   },
   {
     "title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
@@ -13761,7 +13762,8 @@
         "name": "Hogmanay and ceilidh",
         "description": "Scotland's New Year celebration is centred on Edinburgh, and ceilidh dances with live Scottish folk music are held in village halls and pubs across the Highlands and islands."
       }
-    ]
+    ],
+    "cover_image_url": "/itineraries/edinburgh-scottish-highlands-isle-of-skye-scotland.jpg"
   },
   {
     "title": "Vancouver, Whistler + Banff to Jasper, Canada",
@@ -13924,7 +13926,7 @@
         "description": "Banff, Lake Louise and Jasper are Parks Canada national parks: carry your park pass, reserve the Moraine Lake shuttle, keep your distance from wildlife and pack out all food waste."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/vancouver-whistler-banff-to-jasper-canada.jpg"
   },
   {
     "title": "Toronto, Niagara, Montréal + Québec City, Canada",
@@ -14074,7 +14076,7 @@
         "description": "Old Québec was inscribed as a UNESCO World Heritage site in 1985; the old city's ramparts and Lower Town can be explored on foot."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/toronto-niagara-montreal-quebec-city-canada.jpg"
   },
   {
     "title": "Sydney, Melbourne + the Great Ocean Road, Australia",
@@ -14248,7 +14250,7 @@
         "description": "Melbourne's CBD laneways hold small cafés and bars, and wandering them is a standard way to spend an afternoon in the city centre."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/sydney-melbourne-the-great-ocean-road-australia.jpg"
   },
   {
     "title": "Red Centre Way: Alice Springs, Kings Canyon + Uluru, Australia",
@@ -14416,7 +14418,7 @@
         "description": "An outdoor dinner under the desert sky with stargazing at Uluru, listed by Tourism NT as a four-hour experience; book ahead in peak season, May to September."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/red-centre-way-alice-springs-kings-canyon-uluru-australia.jpg"
   },
   {
     "title": "Cape Town, Winelands + Garden Route, South Africa",
@@ -14590,7 +14592,7 @@
         "description": "The South African barbecue is a social ritual rather than just a meal; expect a braai if you are invited to someone's home or stay in self-catering accommodation with a grill."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/cape-town-winelands-garden-route-south-africa.jpg"
   },
   {
     "title": "Johannesburg + Kruger National Park, South Africa",
@@ -14750,7 +14752,7 @@
         "description": "A caffeine-free herbal tea made from a plant grown in the Western Cape, widely served across South Africa."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/johannesburg-kruger-national-park-south-africa.jpg"
   },
   {
     "title": "Seoul, DMZ, Gyeongju + Busan, South Korea",
@@ -14905,7 +14907,7 @@
         "description": "Gyeongju was the capital of the Silla kingdom, and the tumuli, temples and palace ponds in the city are the setting for the day-two sightseeing."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/seoul-dmz-gyeongju-busan-south-korea.jpg"
   },
   {
     "title": "Jeju Island + Jeonju, South Korea",
@@ -15035,6 +15037,6 @@
         "description": "A district of traditional Korean houses (hanok) in Jeonju; the city says the streets are closed to traffic at weekends."
       }
     ],
-    "cover_image_url": null
+    "cover_image_url": "/itineraries/jeju-island-jeonju-south-korea.jpg"
   }
 ]
