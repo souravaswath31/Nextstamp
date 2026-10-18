@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ShieldCheck, ExternalLink, CalendarClock } from "lucide-react";
+import ExpandableText from "@/components/ExpandableText";
 import {
   CHECK_STATE_CLASSES,
   CHECK_STATE_DOT_CLASSES,
@@ -82,7 +83,7 @@ export default function EntryReadiness({
               />
               <div className="min-w-0 flex-1">
                 <p className="font-body text-sm font-semibold text-ink">{check.label}</p>
-                <p className="mt-0.5 font-body text-sm text-ink/70">{check.detail}</p>
+                <ExpandableText text={check.detail} max={260} className="mt-0.5 font-body text-sm text-ink/70" />
                 {check.action && (
                   <p className="mt-1.5 font-body text-xs text-ink/55">{check.action}</p>
                 )}

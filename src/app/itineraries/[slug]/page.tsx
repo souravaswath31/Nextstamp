@@ -30,6 +30,7 @@ import {
 } from "lucide-react";
 import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/siteUrl";
+import ExpandableText from "@/components/ExpandableText";
 
 export const dynamic = "force-dynamic";
 
@@ -297,12 +298,12 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
                     <VisaBadge status={visaStatuses[i]} />
                   </div>
                   {visaStatuses[i].conditionsText && (
-                    <p className="mt-2 font-body text-xs text-ink/55">
-                      {visaStatuses[i].conditionsText}
-                      {visaStatuses[i].maxStayDays
-                        ? ` Max stay: ${visaStatuses[i].maxStayDays} days.`
-                        : ""}
-                    </p>
+                    <ExpandableText
+                      text={visaStatuses[i].conditionsText as string}
+                      max={200}
+                      suffix={visaStatuses[i].maxStayDays ? ` Max stay: ${visaStatuses[i].maxStayDays} days.` : ""}
+                      className="mt-2 font-body text-xs text-ink/55"
+                    />
                   )}
                   {guideCountries.has(country) && (
                     <Link

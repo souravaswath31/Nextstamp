@@ -8,6 +8,7 @@ import { listCountriesWithFacts } from "@/lib/countryFacts";
 import UnlockCard from "@/components/UnlockCard";
 import { FileStack, Unlock, Trash2, Plus, LogOut, Globe2, FileWarning, ExternalLink } from "lucide-react";
 import type { Metadata } from "next";
+import ExpandableText from "@/components/ExpandableText";
 
 export const metadata: Metadata = { title: "Profile — NextStamp" };
 
@@ -281,7 +282,7 @@ export default async function ProfilePage() {
                   </p>
                 </div>
                 {status.conditionsText && (
-                  <p className="font-body text-xs text-ink/55">{status.conditionsText}</p>
+                  <ExpandableText text={status.conditionsText} max={200} className="font-body text-xs text-ink/55" />
                 )}
                 {status.sourceUrl && (
                   <a

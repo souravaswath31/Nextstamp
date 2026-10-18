@@ -4,6 +4,7 @@ import { useId, useMemo, useState } from "react";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { cascadeComparison, formatVerified, VISA_TYPE_LABEL, type PublicRule } from "@/lib/passportCheck";
 import VisaStamp from "./VisaStamp";
+import { aOrAn } from "@/lib/article";
 
 const RANK: Record<PublicRule["visaType"], number> = {
   "visa-free": 0,
@@ -112,7 +113,7 @@ export default function CascadeDemo({
       </ul>
 
       <p className="mt-4 font-body text-xs text-white/50">
-        Not moved by a {docName} visa ({same.length}): {same.map((r) => r.destination).join(", ") || "none"}.
+        Not moved by {aOrAn(docName)} {docName} visa ({same.length}): {same.map((r) => r.destination).join(", ") || "none"}.
         Those rules are the same either way. Each row was last verified between{" "}
         {formatVerified(rows.map((r) => r.after.verified).sort()[0])} and{" "}
         {formatVerified(rows.map((r) => r.after.verified).sort().slice(-1)[0])}. Not legal advice;
