@@ -246,7 +246,7 @@
         "lodging_suggestion": "New Orleans",
         "latitude": null,
         "longitude": null,
-        "eat_town": "New Orleans"
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -258,7 +258,7 @@
         "lodging_suggestion": "New Orleans",
         "latitude": 29.956142,
         "longitude": -90.073393,
-        "eat_town": "New Orleans"
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -270,7 +270,7 @@
         "lodging_suggestion": "New Orleans",
         "latitude": 29.956142,
         "longitude": -90.073393,
-        "eat_town": "New Orleans"
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -1224,7 +1224,7 @@
         "coffee_wifi_spot": "Wildberry Restaurant, Ashford — weak signal, worth topping up devices before you head further in",
         "latitude": 47.603832,
         "longitude": -122.330062,
-        "eat_town": "Ashford"
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -1238,7 +1238,7 @@
         "coffee_wifi_spot": "Indaba Coffee, Spokane — reliable wifi for a remote-work morning before the border-adjacent stretch",
         "latitude": 46.852203,
         "longitude": -121.757516,
-        "eat_town": "Spokane"
+        "eat_town": null
       },
       {
         "day_number": 3,
@@ -1251,7 +1251,7 @@
         "lodging_suggestion": "West Glacier / Apgar campground",
         "latitude": 47.657193,
         "longitude": -117.42351,
-        "eat_town": "Spokane"
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -1329,7 +1329,7 @@
         "drive_time": "8 hrs to Denver / 20 min to Jackson airport",
         "latitude": 43.741042,
         "longitude": -110.802436,
-        "eat_town": "Denver"
+        "eat_town": null
       }
     ],
     "related_states": [
@@ -15089,7 +15089,8 @@
         "lodging_suggestion": "Black Mountain",
         "coffee_wifi_spot": null,
         "latitude": 35.618944,
-        "longitude": -82.328733
+        "longitude": -82.328733,
+        "eat_town": "Black Mountain"
       },
       {
         "day_number": 2,
@@ -15103,7 +15104,8 @@
         "lodging_suggestion": "Black Mountain",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Black Mountain"
       },
       {
         "day_number": 3,
@@ -15116,7 +15118,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 35.700288,
-        "longitude": -82.379647
+        "longitude": -82.379647,
+        "eat_town": "Black Mountain"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -15157,7 +15160,8 @@
         "lodging_suggestion": "Boulder",
         "coffee_wifi_spot": null,
         "latitude": 40.023831,
-        "longitude": -105.256029
+        "longitude": -105.256029,
+        "eat_town": "Boulder"
       },
       {
         "day_number": 2,
@@ -15171,7 +15175,8 @@
         "drive_time": null,
         "lodging_suggestion": "Estes Park",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Estes Park"
       },
       {
         "day_number": 3,
@@ -15185,7 +15190,8 @@
         "lodging_suggestion": "Estes Park",
         "coffee_wifi_spot": null,
         "latitude": 40.411972,
-        "longitude": -105.817618
+        "longitude": -105.817618,
+        "eat_town": "Estes Park"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -15228,7 +15234,8 @@
         "lodging_suggestion": "Chadds Ford",
         "coffee_wifi_spot": null,
         "latitude": 39.86998,
-        "longitude": -75.593038
+        "longitude": -75.593038,
+        "eat_town": "Chadds Ford"
       },
       {
         "day_number": 2,
@@ -15295,7 +15302,8 @@
         "lodging_suggestion": "Salem",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Salem"
       },
       {
         "day_number": 2,
@@ -15309,7 +15317,8 @@
         "lodging_suggestion": "Gloucester",
         "coffee_wifi_spot": null,
         "latitude": 42.657211,
-        "longitude": -70.617749
+        "longitude": -70.617749,
+        "eat_town": "Gloucester"
       },
       {
         "day_number": 3,
@@ -15362,7 +15371,8 @@
         "lodging_suggestion": "Cape May",
         "coffee_wifi_spot": null,
         "latitude": 38.940386,
-        "longitude": -74.96218
+        "longitude": -74.96218,
+        "eat_town": "Cape May"
       },
       {
         "day_number": 2,
@@ -15377,7 +15387,8 @@
         "lodging_suggestion": "Cape May",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Cape May"
       },
       {
         "day_number": 3,
@@ -15390,7 +15401,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 39.113807,
-        "longitude": -75.148688
+        "longitude": -75.148688,
+        "eat_town": "Cape May"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -15431,7 +15443,8 @@
         "drive_time": null,
         "lodging_suggestion": "Charlottesville",
         "latitude": 38.029899,
-        "longitude": -78.47703
+        "longitude": -78.47703,
+        "eat_town": "Charlottesville"
       },
       {
         "day_number": 2,
@@ -15444,7 +15457,8 @@
         "drive_time": null,
         "lodging_suggestion": "Charlottesville",
         "latitude": 38.010319,
-        "longitude": -78.452333
+        "longitude": -78.452333,
+        "eat_town": "Charlottesville"
       },
       {
         "day_number": 3,
@@ -15457,7 +15471,8 @@
         "drive_time": null,
         "lodging_suggestion": "Charlottesville",
         "latitude": 38.019608,
-        "longitude": -78.883393
+        "longitude": -78.883393,
+        "eat_town": "Charlottesville"
       }
     ],
     "cover_image_url": "/category-road-trip.jpg"
@@ -15499,7 +15514,8 @@
         "lodging_suggestion": "Chattanooga",
         "coffee_wifi_spot": null,
         "latitude": 35.054136,
-        "longitude": -85.32039
+        "longitude": -85.32039,
+        "eat_town": "Chattanooga"
       },
       {
         "day_number": 2,
@@ -15514,7 +15530,8 @@
         "lodging_suggestion": "Chattanooga",
         "coffee_wifi_spot": null,
         "latitude": 35.006253,
-        "longitude": -85.342102
+        "longitude": -85.342102,
+        "eat_town": "Chattanooga"
       },
       {
         "day_number": 3,
@@ -15527,7 +15544,8 @@
         "lodging_suggestion": "Chattanooga",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Chattanooga"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -15708,7 +15726,8 @@
         "drive_time": null,
         "lodging_suggestion": "Watkins Glen",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Watkins Glen"
       },
       {
         "day_number": 2,
@@ -15720,7 +15739,8 @@
         "drive_time": null,
         "lodging_suggestion": "Watkins Glen",
         "latitude": 42.361497,
-        "longitude": -76.92885
+        "longitude": -76.92885,
+        "eat_town": "Watkins Glen"
       },
       {
         "day_number": 3,
@@ -15733,7 +15753,8 @@
         "drive_time": null,
         "lodging_suggestion": "Ithaca",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ithaca"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -15777,7 +15798,8 @@
         "coffee_wifi_spot": null,
         "cover_image_url": null,
         "latitude": 32.786909,
-        "longitude": -97.349447
+        "longitude": -97.349447,
+        "eat_town": "Fort Worth"
       },
       {
         "day_number": 2,
@@ -15792,7 +15814,8 @@
         "coffee_wifi_spot": null,
         "cover_image_url": null,
         "latitude": 31.530698,
-        "longitude": -97.130495
+        "longitude": -97.130495,
+        "eat_town": "Waco"
       },
       {
         "day_number": 3,
@@ -15807,7 +15830,8 @@
         "coffee_wifi_spot": null,
         "cover_image_url": null,
         "latitude": 31.604453,
-        "longitude": -97.175173
+        "longitude": -97.175173,
+        "eat_town": "Waco"
       }
     ],
     "cover_image_url": "/category-city.jpg"
@@ -15850,7 +15874,8 @@
         "lodging_suggestion": "Fredericksburg",
         "coffee_wifi_spot": null,
         "latitude": 30.269224,
-        "longitude": -98.86494
+        "longitude": -98.86494,
+        "eat_town": "Fredericksburg"
       },
       {
         "day_number": 2,
@@ -15863,7 +15888,8 @@
         "lodging_suggestion": "Fredericksburg",
         "coffee_wifi_spot": null,
         "latitude": 30.506469,
-        "longitude": -98.818797
+        "longitude": -98.818797,
+        "eat_town": "Fredericksburg"
       },
       {
         "day_number": 3,
@@ -15876,7 +15902,8 @@
         "lodging_suggestion": "Fredericksburg",
         "coffee_wifi_spot": null,
         "latitude": 30.277382,
-        "longitude": -98.409022
+        "longitude": -98.409022,
+        "eat_town": "Fredericksburg"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -15917,7 +15944,8 @@
         "lodging_suggestion": "Galena",
         "drive_time": null,
         "latitude": 42.416889,
-        "longitude": -90.426145
+        "longitude": -90.426145,
+        "eat_town": "Galena"
       },
       {
         "day_number": 2,
@@ -15930,7 +15958,8 @@
         "lodging_suggestion": "Galena",
         "drive_time": null,
         "latitude": 42.140991,
-        "longitude": -90.157599
+        "longitude": -90.157599,
+        "eat_town": "Galena"
       },
       {
         "day_number": 3,
@@ -15943,7 +15972,8 @@
         "lodging_suggestion": "Galena",
         "drive_time": null,
         "latitude": 42.411257,
-        "longitude": -90.424395
+        "longitude": -90.424395,
+        "eat_town": "Galena"
       }
     ]
   },
@@ -15985,7 +16015,8 @@
         "lodging_suggestion": "Galveston",
         "coffee_wifi_spot": null,
         "latitude": 29.201875,
-        "longitude": -94.96761
+        "longitude": -94.96761,
+        "eat_town": "Galveston"
       },
       {
         "day_number": 2,
@@ -15999,7 +16030,8 @@
         "lodging_suggestion": "Galveston",
         "coffee_wifi_spot": null,
         "latitude": 29.274644,
-        "longitude": -94.852409
+        "longitude": -94.852409,
+        "eat_town": "Galveston"
       },
       {
         "day_number": 3,
@@ -16056,7 +16088,8 @@
         "lodging_suggestion": "Gettysburg",
         "coffee_wifi_spot": null,
         "latitude": 39.811557,
-        "longitude": -77.226415
+        "longitude": -77.226415,
+        "eat_town": "Gettysburg"
       },
       {
         "day_number": 2,
@@ -16070,7 +16103,8 @@
         "lodging_suggestion": "Gettysburg",
         "coffee_wifi_spot": null,
         "latitude": 39.791094,
-        "longitude": -77.235744
+        "longitude": -77.235744,
+        "eat_town": "Gettysburg"
       },
       {
         "day_number": 3,
@@ -16126,7 +16160,8 @@
         "lodging_suggestion": "Augusta",
         "coffee_wifi_spot": null,
         "latitude": 38.588207,
-        "longitude": -90.903748
+        "longitude": -90.903748,
+        "eat_town": "Augusta"
       },
       {
         "day_number": 2,
@@ -16141,7 +16176,8 @@
         "lodging_suggestion": "Hermann",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Hermann"
       },
       {
         "day_number": 3,
@@ -16155,7 +16191,8 @@
         "lodging_suggestion": "Washington",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Washington"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -16196,7 +16233,8 @@
         "lodging_suggestion": "Beacon",
         "coffee_wifi_spot": null,
         "latitude": 41.50058,
-        "longitude": -73.984426
+        "longitude": -73.984426,
+        "eat_town": "Beacon"
       },
       {
         "day_number": 2,
@@ -16210,7 +16248,8 @@
         "lodging_suggestion": "Rhinebeck",
         "coffee_wifi_spot": null,
         "latitude": 41.500171,
-        "longitude": -73.982602
+        "longitude": -73.982602,
+        "eat_town": "Beacon"
       },
       {
         "day_number": 3,
@@ -16223,7 +16262,8 @@
         "lodging_suggestion": "Hudson",
         "coffee_wifi_spot": null,
         "latitude": 41.784196,
-        "longitude": -73.937391
+        "longitude": -73.937391,
+        "eat_town": "Hudson"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -16278,7 +16318,8 @@
         "drive_time": null,
         "lodging_suggestion": "Palm Springs",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Palm Springs"
       },
       {
         "day_number": 3,
@@ -16291,7 +16332,8 @@
         "drive_time": null,
         "lodging_suggestion": "Palm Springs",
         "latitude": 33.787264,
-        "longitude": -116.539557
+        "longitude": -116.539557,
+        "eat_town": "Palm Springs"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -16331,7 +16373,8 @@
         "lodging_suggestion": "Cooksburg",
         "coffee_wifi_spot": null,
         "latitude": 41.337957,
-        "longitude": -79.221306
+        "longitude": -79.221306,
+        "eat_town": "Cooksburg"
       },
       {
         "day_number": 2,
@@ -16400,7 +16443,8 @@
         "drive_time": null,
         "lodging_suggestion": "Madison",
         "latitude": 43.072634,
-        "longitude": -89.380316
+        "longitude": -89.380316,
+        "eat_town": "Madison"
       },
       {
         "day_number": 2,
@@ -16414,7 +16458,8 @@
         "drive_time": null,
         "lodging_suggestion": "Baraboo",
         "latitude": 43.414195,
-        "longitude": -89.715028
+        "longitude": -89.715028,
+        "eat_town": "Baraboo"
       },
       {
         "day_number": 3,
@@ -16426,7 +16471,8 @@
         "drive_time": null,
         "lodging_suggestion": "Baraboo",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Baraboo"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -16536,7 +16582,8 @@
         "lodging_suggestion": "Red Wing",
         "drive_time": null,
         "latitude": 44.569482,
-        "longitude": -92.526008
+        "longitude": -92.526008,
+        "eat_town": "Red Wing"
       },
       {
         "day_number": 2,
@@ -16562,7 +16609,8 @@
         "lodging_suggestion": "Winona",
         "drive_time": null,
         "latitude": 44.024929,
-        "longitude": -91.677227
+        "longitude": -91.677227,
+        "eat_town": "Winona"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -16605,7 +16653,8 @@
         "drive_time": null,
         "lodging_suggestion": "Clarksdale",
         "latitude": 34.194821,
-        "longitude": -90.563885
+        "longitude": -90.563885,
+        "eat_town": "Clarksdale"
       },
       {
         "day_number": 2,
@@ -16619,7 +16668,8 @@
         "drive_time": null,
         "lodging_suggestion": "Cleveland",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Clarksdale"
       },
       {
         "day_number": 3,
@@ -16632,7 +16682,8 @@
         "drive_time": null,
         "lodging_suggestion": "Oxford",
         "latitude": 34.359829,
-        "longitude": -89.524746
+        "longitude": -89.524746,
+        "eat_town": "Oxford"
       }
     ]
   },
@@ -16739,7 +16790,8 @@
         "drive_time": null,
         "lodging_suggestion": "Mountain View",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Mountain View"
       },
       {
         "day_number": 2,
@@ -16753,7 +16805,8 @@
         "drive_time": null,
         "lodging_suggestion": "Mountain View",
         "latitude": 35.882823,
-        "longitude": -92.118371
+        "longitude": -92.118371,
+        "eat_town": "Mountain View"
       },
       {
         "day_number": 3,
@@ -16766,7 +16819,8 @@
         "drive_time": null,
         "lodging_suggestion": "Mountain View",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Mountain View"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -16876,7 +16930,8 @@
         "drive_time": null,
         "lodging_suggestion": "Logan",
         "latitude": 40.972408,
-        "longitude": -112.211243
+        "longitude": -112.211243,
+        "eat_town": "Logan"
       },
       {
         "day_number": 2,
@@ -16890,7 +16945,8 @@
         "drive_time": null,
         "lodging_suggestion": "Garden City",
         "latitude": 41.921144,
-        "longitude": -111.456857
+        "longitude": -111.456857,
+        "eat_town": "Logan"
       },
       {
         "day_number": 3,
@@ -16945,7 +17001,8 @@
         "drive_time": null,
         "lodging_suggestion": "Ojai",
         "latitude": 34.445612,
-        "longitude": -119.245326
+        "longitude": -119.245326,
+        "eat_town": "Ojai"
       },
       {
         "day_number": 2,
@@ -16959,7 +17016,8 @@
         "drive_time": null,
         "lodging_suggestion": "Santa Barbara",
         "latitude": 34.424326,
-        "longitude": -119.702511
+        "longitude": -119.702511,
+        "eat_town": "Santa Barbara"
       },
       {
         "day_number": 3,
@@ -16973,7 +17031,8 @@
         "drive_time": null,
         "lodging_suggestion": "Ventura",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Ventura"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -17158,7 +17217,8 @@
         "lodging_suggestion": "Tucson",
         "coffee_wifi_spot": null,
         "latitude": 32.297861,
-        "longitude": -111.161718
+        "longitude": -111.161718,
+        "eat_town": "Tucson"
       },
       {
         "day_number": 2,
@@ -17231,7 +17291,8 @@
         "lodging_suggestion": "Furnace Creek",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Furnace Creek"
       },
       {
         "day_number": 2,
@@ -17246,7 +17307,8 @@
         "lodging_suggestion": "Stovepipe Wells",
         "coffee_wifi_spot": null,
         "latitude": 36.220659,
-        "longitude": -116.726753
+        "longitude": -116.726753,
+        "eat_town": "Stovepipe Wells"
       },
       {
         "day_number": 3,
@@ -17261,7 +17323,8 @@
         "lodging_suggestion": "Las Vegas",
         "coffee_wifi_spot": null,
         "latitude": 36.480046,
-        "longitude": -116.875667
+        "longitude": -116.875667,
+        "eat_town": "Furnace Creek"
       }
     ],
     "cover_image_url": "/category-nature.jpg"
@@ -17302,7 +17365,8 @@
         "lodging_suggestion": "Wilmington",
         "coffee_wifi_spot": null,
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": "Wilmington"
       },
       {
         "day_number": 2,
@@ -17316,7 +17380,8 @@
         "lodging_suggestion": "Carolina Beach",
         "coffee_wifi_spot": null,
         "latitude": 33.971653,
-        "longitude": -77.917717
+        "longitude": -77.917717,
+        "eat_town": "Carolina Beach"
       },
       {
         "day_number": 3,
@@ -17329,7 +17394,8 @@
         "lodging_suggestion": null,
         "coffee_wifi_spot": null,
         "latitude": 34.043277,
-        "longitude": -77.912313
+        "longitude": -77.912313,
+        "eat_town": "Wilmington"
       }
     ],
     "cover_image_url": "/category-water.jpg"

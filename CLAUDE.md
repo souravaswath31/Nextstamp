@@ -1104,6 +1104,14 @@ copy-for-the-group-chat text. Rounds: `lobby -> duels -> draw -> vote -> pact ->
   routes that already exist (Louisville/Bardstown, Mobile, Astoria/Cannon Beach, Leelanau, Indiana Dunes,
   the High Road to Taos, Casco Bay). Nearly all are `mid` tier, so groups with budgets under about $800 for
   three days will see "over budget" cards; that is the cost model being honest, not a bug.
+- **Road food for the weekend routes.** One agent per state (22) ran the extend flow
+  (`road_eats_gaps.py <state>`, `validate_road_eats.py --extend`). 46 eats were kept after I dropped
+  three weak ones, and 66 of the 99 new days now have an eat town. Nothing qualified for Corpus Christi,
+  the Lake Erie islands, Mendocino, the Olympic Peninsula, any of the three Florida routes or the
+  Bluffs' middle day; those days show nothing, which is the evidence bar working. **A multi-state route
+  appears in several regions, and `--extend` nulls any mapping to a town that is not a stop of the region
+  it is run for** (running `delaware` wiped Brandywine's Chadds Ford). Run the extend files for the
+  *primary* state last, then confirm with `--check-existing` and by printing the routes' `eat_town`s.
 - **Not built:** other countries and passports (visa filtering is deliberately out of scope for the game),
   accounts for players, saving a game to My Trips.
 
