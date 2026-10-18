@@ -14,6 +14,7 @@ import { getUpcomingHolidays } from "@/lib/holidays";
 import { getRate } from "@/lib/currency";
 import { getFcdoAdvisory, getStateDeptAdvisory } from "@/lib/advisories";
 import { splitSources, type CountryFactFull } from "@/lib/countryFacts";
+import { countryHeroFor } from "@/lib/countryHero";
 
 // The curated country data set as a browsable page — part of the free content
 // library, like /states. Intentionally public: personalization (the visa
@@ -78,6 +79,17 @@ export default async function CountryPage({ params }: { params: { slug: string }
   return (
     <div className="space-y-8">
       <BackButton label="Back" />
+
+      {countryHeroFor(slugify(fact.country)) && (
+        <div className="-mx-5 overflow-hidden rounded-hero sm:-mx-8">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={countryHeroFor(slugify(fact.country)) as string}
+            alt=""
+            className="h-48 w-full object-cover sm:h-72"
+          />
+        </div>
+      )}
 
       <div>
         <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Country guide</p>
