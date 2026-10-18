@@ -370,6 +370,76 @@ rules, 134 itineraries (36 international). Process lessons worth keeping:
 - New itineraries have **no road-food data** (`seed:eats`); the international route eats are
   per-route and none were researched for these.
 
+**Content round 6 (October 2026): re-verification and road food for the new routes.** Every
+visa rule for all 28 destinations was re-checked in place against official pages and is dated
+2026-10-17 (`scripts/reverify_visa.py`: `brief`, `list-stale`, `apply [--allow-new] [--dry-run]`;
+rules the agent could not confirm are simply left out of the patch and keep their old date;
+`prisma/update-visa-rules.ts` loads changes by key and deletes nothing). The 19 older country
+guides had their entry-critical fields (passport rule, formalities, health, emergency numbers)
+refreshed through `scripts/reverify_country.py` (patches validated by the full guide validator before
+writing; `seed-countries.ts <names>` loads them). Briefs: `scripts/visa-reverify-contract.md`,
+`scripts/country-reverify-contract.md`. What it found, so nobody re-learns it:
+- **Old rules cited banned or non-official sources** (visafreecountries.com, timeout.com, undated
+  PDFs); all were replaced. A mechanical check now rejects those hosts in `reverify_visa.py apply`.
+- **Real corrections**: Canada's stay in Costa Rica 90 -> 180; UK and Brazil in Peru 183 -> 90;
+  Thailand's old text wrongly said the 30-day rule replaced India's visa on arrival; Serbia's India
+  row e-visa -> advance visa; Sri Lanka Canada/Australia visa on arrival -> mandatory free ETA;
+  Philippines eTravel is "within 72 hours" of arrival (an agent had written "at least").
+- **~25 new documented cascade rows** (India via US/UK/Canada/Australia/Singapore/Japan for several
+  destinations; Brazil into Mexico via US/Canada/UK). Schengen is not modelled (held documents are
+  per country); it is named in the rule text instead.
+- **The built-in browser tools get through pages the fetch tool cannot** (mofa.go.jp, Smartraveller,
+  INM images). They do not get through Cloudflare human checks (travel.state.gov), which must not be
+  bypassed; cite another official page and say so.
+- **Unverified items left on purpose**: Sri Lanka's Brazil fee (US$50/US$60) is from the visa-rule
+  agent's read of the fee table and the guide agent found no figure; Maldives' India row is
+  conservative (30 days on arrival) against India's own list showing 90; Armenia's Canada stay is null.
+Road food: `validate_road_eats.py` gained `--dry-run`; 20 new international routes were researched
+(18 merged with 1-4 eats per stop, deliberately thin). Egypt and Jeju have nothing that met the
+evidence bar after three attempts each; Dubai and Georgia + Armenia have a few. I removed from agent
+output, before merging, every eat whose only date was an image filename, upload folder, an undated
+tourism listing, an automatic footer, or a closing season the venue's own page did not date.
+`prisma/seed-additive.ts` and `update-visa-rules.ts` are the safe loaders; `npm run seed:eats` loads
+road food in place.
+
+**Round 6, second pass (second-opinion audits).** The 10 round-5 guides were audited again by a
+fresh agent each (`reverify_country.py`: cash-declaration thresholds added for Portugal and South
+Korea, ETIAS wording corrected for Portugal/Italy, temporary Schengen border checks noted, Korea's
+K-ETA exemption list noted) and 17 of 20 round-5 itineraries had every dated/timed claim re-checked
+(`scripts/patch_itinerary.py` + `prisma/update-itinerary-days.ts`, which updates day text only and never
+touches coordinates or user trips). Typical findings: a train time quoted for the wrong direction
+(Toronto-Niagara, Québec-Montréal), operator figures replaced by an official "check a live map", a
+season stated more broadly than the venue's page does. Not re-checked: **Sydney-Melbourne, Johannesburg-
+Kruger and Jeju-Jeonju itineraries** (agents hit the session limit) and the road-food extension for the
+40 thin regions (`validate_road_eats.py --extend`, `road_eats_gaps.py <region>`; the prompt is not in the
+repo, the contract is `road-eats-research-contract.md`). The Washington gap list is five Rainier-to-Rockies
+days that are really Montana/Wyoming days; nobody owns them yet. Pages that returned 403/Cloudflare
+(ScotRail, Citylink, SANParks, Korail, travel.state.gov) were not bypassed, so those figures stay
+secondary-sourced.
+
+**Round 6, third pass (everything above closed out).** Sydney-Melbourne, Johannesburg-Kruger and
+Jeju-Jeonju were fact-checked and loaded. The five open visa points were re-checked: Sri Lanka's Brazil
+fee is confirmed at US$50 (applicant/mission) / US$60 (on arrival) from eta.gov.lk; Armenia's Canada row
+now says a visa is required (Canada is not on mfa.am's visa-free list) with `max_stay_days` left null (120
+is the longest single visitor visa, not a confirmed e-visa stay); the UK ETA fee is £20 (gov.uk; a February
+2026 release still says £16); the USA ESTA fee is $40.62 from 16 Oct 2026 (Federal Register notice of 1 Oct
+2026; CBP pages do not state it). **Maldives** (settled, but weakly): the only Maldives-side page that states a length is an undated
+visitmaldives.com editorial post ("a 30 day free on-arrival visa for all travellers"); immigration.gov.mv
+gives no length and India's MEA list says 90 days, so the rows keep 30 and the India text records the 90. The US Ebola entry text matches CDC but its
+order lapses around 10 Nov 2026 unless continued, so that sentence goes stale first.
+Road-food extension covered 27 regions with unmapped days; most found nothing that met the bar (the dated
+evidence rule removed roughly four in five candidates). Merged: Kentucky, Montana, Nevada, South Dakota,
+Georgia, Vermont, Massachusetts, Rhode Island, New Hampshire, Virginia, Iowa and Kansas (mostly day
+mappings), Johannesburg-Kruger, Costa Rica, Dubai-Abu Dhabi. Empty after two attempts: Egypt, Jeju,
+Edinburgh-Skye, Paros-Santorini, Red Centre, Oregon, Michigan, Minnesota, North Dakota, Alabama,
+Colorado, New York, Illinois, North Carolina, Maine, Wyoming. A further 18 regions (international routes, West Virginia, Nebraska, Maryland, Hawaii, Tennessee, South Carolina)
+were run afterwards: merged Sydney-Melbourne, Seoul-Busan, Japan, Nebraska, Maryland, South Carolina and
+day mappings for Vietnam and Cape Town; nothing qualified for Maldives-Sri Lanka, Colombia, Thailand, Bali,
+Morocco, Georgia-Armenia, Athens-Delphi, Turkey, Hawaii, Tennessee and West Virginia. 161 itinerary days
+still have no eat town (many are departure days); 601 eats in all. A **web-search budget per session** (`CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`) ran out for
+several late agents; raise it if a rerun is wanted. A source class that would help is dated 2025-26
+press features and municipal market pages, not a looser bar.
+
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via
