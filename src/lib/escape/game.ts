@@ -37,7 +37,7 @@ type Result = {
   bossName: string | null;
   roles: Record<string, string>; // playerId -> role
   meta: DeckMeta;
-  count?: { winner: number; note: string; picks: number[]; vetoed: boolean[]; ballots: { name: string; pick: number | null; veto: number | null }[] };
+  count?: { winner: number; note: string; tied?: number[]; picks: number[]; vetoed: boolean[]; ballots: { name: string; pick: number | null; veto: number | null }[] };
   shared?: boolean;
 };
 
@@ -393,6 +393,7 @@ async function maybeCount(gameId: string, force: boolean) {
   res.count = {
     winner: w.winner,
     note: w.note,
+    tied: w.tied,
     picks: w.picks,
     vetoed: w.vetoed,
     ballots: voted.map((p) => ({ name: p.name, pick: p.pick, veto: p.veto })),

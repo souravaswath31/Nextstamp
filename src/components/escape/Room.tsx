@@ -652,7 +652,11 @@ function Pact({ view, run }: { view: GameView; run: (a: Action) => Promise<void>
   const count = view.count;
   const winner = count ? cards[count.winner] : null;
   const waiting = view.players.filter((p) => !p.committed).map((p) => p.name);
+  // A tie goes to the spinner first; the pact screen opens once the spin has landed (or was skipped).
+  const [spun, setSpun] = useState(false);
   if (!count || !winner) return <Panel>Counting...</Panel>;
+  if (count.tied && count.tied.length > 1 && !spun)
+    return <TieSpin cards={cards} tied={count.tied} winner={count.winner} picks={count.picks} onDone={() => setSpun(true)} />;
   const label = (i: number | null) => (i == null ? "·" : LETTERS[i]);
   return (
     <div className="space-y-6">
@@ -688,6 +692,83 @@ function Pact({ view, run }: { view: GameView; run: (a: Action) => Promise<void>
           </button>
         )}
       </div>
+    </div>
+  );
+}
+
+// Equal votes: the tied cards take turns lighting up, slow down, and stop on the winner. The winner is already
+// fixed on the server (a seeded draw), so every phone lands on the same card; this is only the show.
+function TieSpin({ cards, tied, winner, picks, onDone }: { cards: Card[]; tied: number[]; winner: number; picks: number[]; onDone: () => void }) {
+  const [phase, setPhase] = useState<"ready" | "spinning" | "landed">("ready");
+  const [lit, setLit] = useState<number | null>(null);
+  const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  useEffect(() => () => clearTimeout(timer.current), []);
+
+  const spin = () => {
+    const reduce = typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) {
+      setLit(winner);
+      setPhase("landed");
+      return;
+    }
+    setPhase("spinning");
+    // Walk the tied cards in order, a little slower each step, and stop on the winner after at least 14 steps.
+    let step = 0;
+    const tick = () => {
+      const at = tied[step % tied.length];
+      setLit(at);
+      if (step >= 14 && at === winner) {
+        setPhase("landed");
+        return;
+      }
+      step++;
+      timer.current = setTimeout(tick, 90 + step * 22);
+    };
+    tick();
+  };
+
+  const names = `Cards ${tied.map((i) => LETTERS[i]).join(" and ")}`;
+  return (
+    <div className="space-y-6">
+      <Step
+        n="Round 5 · Tiebreaker"
+        title={phase === "landed" ? `Card ${LETTERS[winner]} it is.` : "It's a tie."}
+        sub={phase === "landed" ? "The spin has spoken. No take-backs." : `${names} each got ${picks[tied[0]]} ${picks[tied[0]] === 1 ? "pick" : "picks"}. Spin the cards and let luck choose.`}
+      />
+      <ul className="grid gap-3 sm:grid-cols-2" aria-live="polite">
+        {tied.map((i) => {
+          const on = lit === i;
+          const won = phase === "landed" && i === winner;
+          return (
+            <li
+              key={i}
+              className={`rounded-panel border-2 p-5 transition-all duration-150 ${
+                won ? "scale-[1.03] border-coral bg-coral/15" : on ? "scale-[1.03] border-coral bg-paper" : "border-line bg-paper opacity-70"
+              }`}
+            >
+              <p className="font-stamp text-xs uppercase tracking-widest text-coral">Card {LETTERS[i]}</p>
+              <p className="mt-1 font-display text-xl leading-tight text-ink">{cards[i]?.title}</p>
+              <p className="mt-1 font-body text-sm text-ink/60">{cards[i]?.stateNames}</p>
+            </li>
+          );
+        })}
+      </ul>
+      {phase === "ready" && (
+        <div className="flex flex-wrap items-center gap-4">
+          <button type="button" onClick={spin} className="btn-pill btn-pill-primary px-8 py-4 text-lg">
+            <RefreshCw size={18} /> Spin the cards
+          </button>
+          <button type="button" onClick={onDone} className="btn-ghost">
+            Skip the spin
+          </button>
+        </div>
+      )}
+      {phase === "spinning" && <p className="font-body text-ink/60">Spinning...</p>}
+      {phase === "landed" && (
+        <button type="button" onClick={onDone} className="btn-pill btn-pill-primary px-8 py-4 text-lg">
+          Lock it in
+        </button>
+      )}
     </div>
   );
 }

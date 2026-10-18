@@ -187,7 +187,8 @@ describe("pickWinner", () => {
     const b = pickWinner(ballots, 3, 9);
     expect(a.winner).toBe(b.winner);
     expect([0, 1]).toContain(a.winner);
-    expect(a.note).toMatch(/coin flip/);
+    expect(a.note).toMatch(/spin/);
+    expect(a.tied).toEqual([0, 1]);
   });
 
   it("cancels vetoes when every card is vetoed", () => {
@@ -196,10 +197,18 @@ describe("pickWinner", () => {
     expect(r.winner).toBe(2);
   });
 
-  it("falls back to the draw order when nobody picked", () => {
+  it("spins the live cards when nobody picked", () => {
     const r = pickWinner([{ pick: null, veto: null }], 3, 1);
-    expect(r.winner).toBe(0);
-    expect(r.note).toMatch(/draw order/);
+    expect(r.tied).toEqual([0, 1, 2]);
+    expect(r.tied).toContain(r.winner);
+    expect(r.note).toMatch(/spun/);
+  });
+
+  it("two friends who pick different cards tie, and vetoed cards stay out of the spin", () => {
+    const r = pickWinner([{ pick: 0, veto: 2 }, { pick: 1, veto: null }], 3, 5);
+    expect(r.tied).toEqual([0, 1]);
+    const clear = pickWinner([{ pick: 0, veto: null }, { pick: 0, veto: null }], 3, 5);
+    expect(clear.tied).toEqual([]);
   });
 });
 
