@@ -8410,6 +8410,66 @@
     ]
   },
   {
+    "region_key": "route:dubai-abu-dhabi",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Old Dubai (Al Fahidi and Bur Dubai)",
+        "eats": [
+          {
+            "name": "XVA Café",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "The page mentions Middle Eastern inspired vegetarian options and a signature mint lemonade; it also says freshly prepared vegetarian and vegan food including main courses, salads, soups and desserts.",
+            "why": "A single independent courtyard cafe inside the Al Fahidi Historical Neighbourhood, linked on its own site to the XVA Hotel and gallery, so it suits a meal break during the Old Dubai walk.",
+            "price_tier": null,
+            "hours_note": "Own page states: \"XVA Café is open from 7 am to 10 pm everyday.\"",
+            "open_evidence": "Own site xvagallery.com shows a \"© 2026 XVA Gallery\" footer, event listings with 2026 dates, and the cafe hours (viewed 2026-10-17); the page does not state who owns the cafe.",
+            "source_url": "https://www.xvagallery.com/hotel-cafe-2/",
+            "source_name": "XVA Gallery's own website (Hotel & Café page)"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Dubai + Abu Dhabi",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Dubai + Abu Dhabi",
+        "day_number": 2,
+        "town": "Old Dubai (Al Fahidi and Bur Dubai)"
+      },
+      {
+        "itinerary_title": "Dubai + Abu Dhabi",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Dubai + Abu Dhabi",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Dubai + Abu Dhabi",
+        "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Dubai + Abu Dhabi",
+        "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Dubai + Abu Dhabi",
+        "day_number": 7,
+        "town": null
+      }
+    ]
+  },
+  {
     "region_key": "route:edinburgh-scottish-highlands-isle-of-skye-scotland",
     "last_verified_date": "2026-10-17",
     "stops": [
@@ -8574,6 +8634,114 @@
         "itinerary_title": "El Nido, Palawan, Philippines",
         "day_number": 5,
         "town": "El Nido town"
+      }
+    ]
+  },
+  {
+    "region_key": "route:georgia-armenia",
+    "last_verified_date": "2026-10-17",
+    "stops": [
+      {
+        "town": "Tbilisi",
+        "eats": [
+          {
+            "name": "Istoria",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Tbilisian Khinkali (pork and beef) or Mokhevuri Khinkali (lamb and beef), both priced on the page at 2.90 GEL each.",
+            "why": "A restaurant on Abano Street in the Abanotubani bathhouse district, so a handy meal after the sulfur baths; it belongs to a three-venue local Abanotubani Group with two bathhouses, Chreli Abano and Erekle's Abano.",
+            "price_tier": null,
+            "hours_note": "The page states no opening hours or closing days; call +995 599 800 800 (number on its page) before going.",
+            "open_evidence": "Own website shows a 2026 copyright footer and a current menu with prices (viewed 2026-10-17); it states no hours.",
+            "source_url": "https://restaurantistoria.ge/en/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Kazbegi",
+        "note": "The restaurant's site gives its address as 126 km on the Mtskheta-Stepantsminda-Larsi road, so it sits on the highway rather than being confirmed inside Stepantsminda town. Our read: we could verify only this one place in the area. Our advice: confirm by phone before the drive and keep a snack in the car.",
+        "note_source_url": "https://cozy.ge/",
+        "eats": [
+          {
+            "name": "Cozy Restaurant & Hotel Kazbegi",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "From its hot dishes list: Lobio (beans cooked in a clay pot), Chicken or Pork Ojakhuri, Shkmeruli (chicken in creamy garlic and butter sauce) or Veal Chakapuli.",
+            "why": "A Georgian restaurant with a small river running through its yard, run by Cozy Ltd with a connected hotel, on its own account operating since 2015.",
+            "price_tier": null,
+            "hours_note": "The site states no opening hours or season; its menu says the omelette with sulguni is available from 10:00 to 12:00 only. Hot dishes on its menu are priced in GEL (for example Lobio 19.00).",
+            "open_evidence": "Own website shows a 2015-2026 copyright footer and a current online menu with prices (viewed 2026-10-17); no hours or season are stated.",
+            "source_url": "https://cozy.ge/menu",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Yerevan",
+        "eats": [
+          {
+            "name": "Dolmama",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The signature dolma of grape leaves filled with lamb mince and short-grain rice, served with mountain mint, walnut yogurt and pomegranate seeds; the page also lists a beef stew and an Ishkhan trout carpaccio.",
+            "why": "A single-location, independent Armenian restaurant at 10 Pushkin Street, open since 1998 by its own account, with a courtyard under a grape vine that the page says is 190 years old.",
+            "price_tier": null,
+            "hours_note": "Own page lists daily 11:00-23:30, Monday to Sunday, with no closing days stated; the courtyard opens March through November. The page notes a 10% service charge.",
+            "open_evidence": "Own website shows a 2026 copyright footer, current daily hours and a current menu (viewed 2026-10-17); the page's age wording is internally inconsistent (twenty-seven years since 1998), so the footer year is the dating evidence.",
+            "source_url": "https://www.dolmama.am",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Gata Tavern",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Per its own article, khorovats (barbecue), dolma, spas (yogurt soup) and gata (pastry), which its FAQ says can be ordered in one visit.",
+            "why": "An independent Armenian tavern at Tumanyan 22 with barbecue, hot dishes, lamb and poultry sections on its menu.",
+            "price_tier": null,
+            "hours_note": "Own page lists Monday to Sunday 10:00-24:00; no closing days stated.",
+            "open_evidence": "Own website shows a 2026 footer and blog posts dated August 31, September 23, September 29, October 1 and October 12, 2026, and states hours (viewed 2026-10-17).",
+            "source_url": "https://gatapandok.am/en/5-traditional-armenian-dishes/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      }
+    ],
+    "day_map": [
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 1,
+        "town": "Tbilisi"
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 2,
+        "town": "Tbilisi"
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 3,
+        "town": "Kazbegi"
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 4,
+        "town": null
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 5,
+        "town": "Yerevan"
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 6,
+        "town": "Yerevan"
+      },
+      {
+        "itinerary_title": "Georgia + Armenia",
+        "day_number": 7,
+        "town": null
       }
     ]
   },

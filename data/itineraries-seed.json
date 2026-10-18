@@ -460,7 +460,8 @@
         ],
         "lodging_suggestion": "Dubai",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 2,
@@ -471,7 +472,8 @@
         ],
         "lodging_suggestion": "Dubai",
         "latitude": 25.264993,
-        "longitude": 55.295252
+        "longitude": 55.295252,
+        "eat_town": "Old Dubai (Al Fahidi and Bur Dubai)"
       },
       {
         "day_number": 3,
@@ -482,7 +484,8 @@
         ],
         "lodging_suggestion": "Dubai",
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       },
       {
         "day_number": 4,
@@ -494,7 +497,8 @@
         "drive_time": "1.5 hrs each way",
         "lodging_suggestion": "Dubai",
         "latitude": 25.264723,
-        "longitude": 55.292415
+        "longitude": 55.292415,
+        "eat_town": null
       },
       {
         "day_number": 5,
@@ -505,7 +509,8 @@
         ],
         "lodging_suggestion": "Dubai",
         "latitude": 25.264723,
-        "longitude": 55.292415
+        "longitude": 55.292415,
+        "eat_town": null
       },
       {
         "day_number": 6,
@@ -516,14 +521,16 @@
         ],
         "lodging_suggestion": "Dubai",
         "latitude": 25.264723,
-        "longitude": 55.292415
+        "longitude": 55.292415,
+        "eat_town": null
       },
       {
         "day_number": 7,
         "title": "Fly home",
         "activities": [],
         "latitude": null,
-        "longitude": null
+        "longitude": null,
+        "eat_town": null
       }
     ],
     "food_culture": [
@@ -1083,7 +1090,7 @@
         "lodging_suggestion": "Tbilisi",
         "latitude": null,
         "longitude": null,
-        "eat_town": null
+        "eat_town": "Tbilisi"
       },
       {
         "day_number": 2,
@@ -1095,7 +1102,7 @@
         "lodging_suggestion": "Tbilisi",
         "latitude": 41.693459,
         "longitude": 44.801449,
-        "eat_town": null
+        "eat_town": "Tbilisi"
       },
       {
         "day_number": 3,
@@ -1107,7 +1114,7 @@
         "lodging_suggestion": "Kazbegi",
         "latitude": 42.65799,
         "longitude": 44.640808,
-        "eat_town": null
+        "eat_town": "Kazbegi"
       },
       {
         "day_number": 4,
@@ -1131,7 +1138,7 @@
         "lodging_suggestion": "Yerevan",
         "latitude": 41.693459,
         "longitude": 44.801449,
-        "eat_town": null
+        "eat_town": "Yerevan"
       },
       {
         "day_number": 6,
@@ -1143,7 +1150,7 @@
         "lodging_suggestion": "Yerevan",
         "latitude": 41.692588,
         "longitude": 44.814267,
-        "eat_town": null
+        "eat_town": "Yerevan"
       },
       {
         "day_number": 7,
