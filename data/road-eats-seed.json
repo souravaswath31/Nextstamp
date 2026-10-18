@@ -410,7 +410,7 @@
   },
   {
     "region_key": "arizona",
-    "last_verified_date": "2026-10-03",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Grand Canyon South Rim",
@@ -699,12 +699,27 @@
         "itinerary_title": "Phoenix, Scottsdale & Tucson: Sonoran Desert Cities",
         "day_number": 6,
         "town": "Phoenix"
+      },
+      {
+        "itinerary_title": "Saguaro Country and Bisbee, Arizona",
+        "day_number": 1,
+        "town": "Tucson"
+      },
+      {
+        "itinerary_title": "Saguaro Country and Bisbee, Arizona",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Saguaro Country and Bisbee, Arizona",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
   {
     "region_key": "arkansas",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Bentonville",
@@ -816,6 +831,23 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Mountain View",
+        "eats": [
+          {
+            "name": "Skillet Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "Southern cooking; the park page lists separate breakfast and lunch/dinner menus but names no specific dishes.",
+            "why": "It sits inside Ozark Folk Center State Park, so it is the easy meal between Craft Village and the music programs on the day the route is already there.",
+            "price_tier": null,
+            "hours_note": "Closed Mondays. Open to the public only during the park season, which the page lists as April 14 to November 14, 2026, so it closes for the winter in less than a month. Daily hours should be confirmed with the park before going.",
+            "open_evidence": "Arkansas.com's official state-parks page for the Skillet lists 2026 season dates (opens April 14, 2026, ends November 14, 2026), a Monday closure and breakfast and lunch/dinner menus (viewed 2026-10-18).",
+            "source_url": "https://www.arkansas.com/state-parks/parks/ozark-folk-center-state-park/lodging-food/skillet-restaurant",
+            "source_name": "Arkansas.com (Arkansas State Parks) - Skillet Restaurant"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -868,12 +900,27 @@
         "itinerary_title": "Hot Springs & Central Arkansas",
         "day_number": 5,
         "town": "Little Rock"
+      },
+      {
+        "itinerary_title": "Mountain View Folk Country, Arkansas",
+        "day_number": 1,
+        "town": "Mountain View"
+      },
+      {
+        "itinerary_title": "Mountain View Folk Country, Arkansas",
+        "day_number": 2,
+        "town": "Mountain View"
+      },
+      {
+        "itinerary_title": "Mountain View Folk Country, Arkansas",
+        "day_number": 3,
+        "town": "Mountain View"
       }
     ]
   },
   {
     "region_key": "california",
-    "last_verified_date": "2026-10-03",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Yosemite Valley",
@@ -1093,6 +1140,74 @@
             "source_name": "Calistoga Inn's own website"
           }
         ]
+      },
+      {
+        "town": "Palm Springs",
+        "eats": [
+          {
+            "name": "Sherman's Deli & Bakery",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "Hot corned beef on rye or cinnamon bread French toast, both named on the restaurant's own pages, with in-house cheesecakes and pies from the bakery per Visit Palm Springs.",
+            "why": "A long-running Palm Springs deli and bakery downtown on Tahquitz Canyon Way, open from breakfast to evening, with only one other location (in Palm Desert).",
+            "price_tier": null,
+            "hours_note": "Own site states daily 8am to 9pm.",
+            "open_evidence": "Own website shows hours, an October 2025 printable menu link and a 2025 copyright footer, and Visit Palm Springs' bakery post published 2025-09-25 lists it at the same address; the venue's page shows no 2026 date (viewed 2026-10-18)",
+            "source_url": "https://www.shermansdeli.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Ojai",
+        "eats": [
+          {
+            "name": "Boccali's Pizza & Pasta",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Pizza or a pasta such as lasagna or eggplant parmesan from the menu page, plus the strawberry shortcake the menu lists for February to October.",
+            "why": "A single-location Italian-American restaurant on East Ojai Avenue that runs its own pumpkin patch in autumn, a short drive from the downtown arcade.",
+            "price_tier": null,
+            "hours_note": "Own site states Monday and Tuesday 4pm to 9pm, Sunday and Wednesday to Saturday 11:45am to 9pm. Strawberry shortcake is listed Feb-Oct, apple cobbler Nov-Jan.",
+            "open_evidence": "Own website homepage carries an update dated Saturday, October 17, 2026 saying the restaurant is open for indoor and patio dining (viewed 2026-10-18)",
+            "source_url": "https://www.boccalis.com/menu.html",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Santa Barbara",
+        "eats": [
+          {
+            "name": "Brophy Bros.",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Clam chowder, garlic baked clams or fish and chips, all named on the restaurant's own page, with oysters also mentioned.",
+            "why": "A Santa Barbara harbor clam bar on Harbor Way, serving since 1986 per its own site, with a second location at Ventura Harbor.",
+            "price_tier": null,
+            "hours_note": "Its own pages disagree on closing time for the Santa Barbara restaurant (9pm in the header, 10pm elsewhere); check before going.",
+            "open_evidence": "Own website carries a 2026 copyright and lists the Santa Barbara address and menu items (viewed 2026-10-18); the page shows no dated notice beyond the footer",
+            "source_url": "https://www.brophybros.com",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Ventura",
+        "eats": [
+          {
+            "name": "Brophy Bros. Ventura",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "Fish and chips, garlic baked clams or ahi poke salad, all named on the restaurant's own page; clam chowder is mentioned in its intro.",
+            "why": "A clam bar at Ventura Harbor on Spinnaker Drive, close to where the Anacapa boats leave, and part of a two-restaurant local group.",
+            "price_tier": null,
+            "hours_note": "Own site states Sunday to Thursday 11am to 9pm, Friday and Saturday 11am to 10pm; happy hour Monday to Friday 3pm to 6pm.",
+            "open_evidence": "Own website lists hours and menu with a 2026 copyright, and Visit Ventura's listing shows the same address and hours alongside its 2026-2027 visitor guide (viewed 2026-10-18)",
+            "source_url": "https://www.brophybrosventura.com",
+            "source_name": "Venue's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -1150,12 +1265,72 @@
         "itinerary_title": "Napa Valley & San Francisco",
         "day_number": 5,
         "town": "Calistoga"
+      },
+      {
+        "itinerary_title": "Joshua Tree & Palm Springs, California",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Joshua Tree & Palm Springs, California",
+        "day_number": 2,
+        "town": "Palm Springs"
+      },
+      {
+        "itinerary_title": "Joshua Tree & Palm Springs, California",
+        "day_number": 3,
+        "town": "Palm Springs"
+      },
+      {
+        "itinerary_title": "Mendocino Coast, California",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Mendocino Coast, California",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Mendocino Coast, California",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Santa Barbara, Ojai & the Channel Islands, California",
+        "day_number": 1,
+        "town": "Ojai"
+      },
+      {
+        "itinerary_title": "Santa Barbara, Ojai & the Channel Islands, California",
+        "day_number": 2,
+        "town": "Santa Barbara"
+      },
+      {
+        "itinerary_title": "Santa Barbara, Ojai & the Channel Islands, California",
+        "day_number": 3,
+        "town": "Ventura"
+      },
+      {
+        "itinerary_title": "Death Valley from Las Vegas: Badlands, Salt Flats and Dunes",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Death Valley from Las Vegas: Badlands, Salt Flats and Dunes",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Death Valley from Las Vegas: Badlands, Salt Flats and Dunes",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
   {
     "region_key": "colorado",
-    "last_verified_date": "2026-10-03",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Denver",
@@ -1332,6 +1507,35 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Estes Park",
+        "eats": [
+          {
+            "name": "Egg of Estes",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The site's autumn seasonal specials are the Pumpkin Pecan Waffle Combo, Harvest Tacos and Sunrise Chili Rellenos; Visit Estes Park's listing pictures a Lemon Poppy Seed Curd French Toast.",
+            "why": "Downtown Estes Park breakfast spot on E Elkhorn Ave, open from 6 a.m. on weekdays (its site says it was formerly the Egg and I). Our read: the early opening suits a pre-dawn start toward Rocky Mountain National Park.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Friday 6:00 am-2:00 pm and Saturday-Sunday 6:00 am-2:30 pm; the autumn items are marked as seasonal specials.",
+            "open_evidence": "Own website shows a 2026 copyright, current hours and autumn seasonal specials, and Visit Estes Park's 17 Dec 2025 holiday-dining post lists it open 7am-2pm on Christmas Eve and New Year's Eve (viewed 2026-10-18).",
+            "source_url": "https://www.eggofestes.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "The Hive",
+            "kind": "brewery",
+            "meal": "any",
+            "what_to_order": "Truffle Mushroom Pizza, Brewmaster's Brat Sampler, Rocky Mountain Elk Burger or Brewmaster Lager Fish and Chips, with Estes Park Brewery beers such as Glacier Crisp Pilsner.",
+            "why": "The kitchen and taproom inside Estes Park Brewery on Prospect Village Drive (a short way from the downtown core), where the article says eight Estes Park Brewery beers are available for free tasting.",
+            "price_tier": "$$",
+            "hours_note": "The article gives no general opening hours; it says a locals' special menu runs Thursdays from 5 p.m. until closing, year-round. Check hours before going.",
+            "open_evidence": "Estes Valley Voice, 2 July 2026, describes a summer 2026 visit to The Hive with a busy dining room, beer garden and bar, and lists the current menu with prices (viewed 2026-10-18).",
+            "source_url": "https://estesvalleyvoice.com/2026/07/02/the-hive-serves-up-local-flavor-mountain-views-and-a-welcoming-vibe/",
+            "source_name": "Estes Valley Voice (local newspaper), 2 July 2026"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -1409,6 +1613,21 @@
         "itinerary_title": "Denver & the Front Range: Breweries, Murals & Red Rocks",
         "day_number": 6,
         "town": "Denver"
+      },
+      {
+        "itinerary_title": "Boulder to Estes Park: The Peak to Peak Weekend",
+        "day_number": 1,
+        "town": "Boulder"
+      },
+      {
+        "itinerary_title": "Boulder to Estes Park: The Peak to Peak Weekend",
+        "day_number": 2,
+        "town": "Estes Park"
+      },
+      {
+        "itinerary_title": "Boulder to Estes Park: The Peak to Peak Weekend",
+        "day_number": 3,
+        "town": "Estes Park"
       }
     ]
   },
@@ -1595,7 +1814,7 @@
   },
   {
     "region_key": "delaware",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "New Castle",
@@ -1718,12 +1937,27 @@
         "itinerary_title": "Delaware History & Bayshore: New Castle to Trap Pond",
         "day_number": 4,
         "town": "Seaford"
+      },
+      {
+        "itinerary_title": "Brandywine Valley: Wyeth Country and the du Pont Mills",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Brandywine Valley: Wyeth Country and the du Pont Mills",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Brandywine Valley: Wyeth Country and the du Pont Mills",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
   {
     "region_key": "florida",
-    "last_verified_date": "2026-10-03",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Miami",
@@ -1960,6 +2194,51 @@
         "itinerary_title": "Orlando Theme Parks & the Space Coast",
         "day_number": 6,
         "town": "Cocoa Beach"
+      },
+      {
+        "itinerary_title": "Jupiter and the Treasure Coast, Florida",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Jupiter and the Treasure Coast, Florida",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Jupiter and the Treasure Coast, Florida",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Sarasota, Siesta Key & the Gulf Barrier Islands",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Sarasota, Siesta Key & the Gulf Barrier Islands",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Sarasota, Siesta Key & the Gulf Barrier Islands",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Amelia Island to St. Augustine: Florida's First Coast Forts",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Amelia Island to St. Augustine: Florida's First Coast Forts",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Amelia Island to St. Augustine: Florida's First Coast Forts",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
@@ -2114,6 +2393,21 @@
       {
         "itinerary_title": "Savannah & the Georgia Coast",
         "day_number": 6,
+        "town": null
+      },
+      {
+        "itinerary_title": "Chattanooga & Lookout Mountain, Tennessee",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Chattanooga & Lookout Mountain, Tennessee",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Chattanooga & Lookout Mountain, Tennessee",
+        "day_number": 3,
         "town": null
       }
     ]
@@ -2350,7 +2644,7 @@
   },
   {
     "region_key": "idaho",
-    "last_verified_date": "2026-10-14",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Stanley",
@@ -2518,12 +2812,27 @@
         "itinerary_title": "Boise & the Snake River Valley",
         "day_number": 6,
         "town": null
+      },
+      {
+        "itinerary_title": "Antelope Island to Bear Lake, Utah",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Antelope Island to Bear Lake, Utah",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Antelope Island to Bear Lake, Utah",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
   {
     "region_key": "illinois",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Chicago",
@@ -2635,6 +2944,18 @@
             "open_evidence": "Own website shows current hours, online ordering and a footer dated July 2026 (viewed 2026-10-15).",
             "source_url": "https://cannovaspizzeria.pizza/",
             "source_name": "Venue's own website"
+          },
+          {
+            "name": "Galena Bakehouse",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "Hand-laminated croissants, the raspberry cheese danish or Argentinian cheese buns, or an empanada (the site lists breakfast and lunch flavours, including egg and sausage).",
+            "why": "A small grab-and-go bakery on S. Main Street run by two owners who moved from New York City, which adds a breakfast and pastry option to a Galena stop that so far has only dinner and lunch places.",
+            "price_tier": null,
+            "hours_note": "Own site: open Thursday-Monday 8am-3pm, 'or sellout', closed Tuesday and Wednesday (a July 2024 KWQC feature gives the same days and hours). No 2026 hours or closure notice was found.",
+            "open_evidence": "Own website lists hours and a menu and shows a customer review dated November 2025, but its footer says 2021 and carries no 2026 date; Enjoy Illinois (state tourism board) has a live listing under a 2026 footer; KWQC feature dated July 16, 2024 gives the same hours and owners (viewed 2026-10-18). Evidence is moderate, not strong.",
+            "source_url": "https://www.thegalenabakehouse.com/",
+            "source_name": "Venue's own website"
           }
         ]
       },
@@ -2723,6 +3044,21 @@
         "itinerary_title": "Southern Illinois: Shawnee National Forest & Garden of the Gods",
         "day_number": 5,
         "town": null
+      },
+      {
+        "itinerary_title": "Galena and the Mississippi Palisades, Illinois",
+        "day_number": 1,
+        "town": "Galena"
+      },
+      {
+        "itinerary_title": "Galena and the Mississippi Palisades, Illinois",
+        "day_number": 2,
+        "town": "Galena"
+      },
+      {
+        "itinerary_title": "Galena and the Mississippi Palisades, Illinois",
+        "day_number": 3,
+        "town": "Galena"
       }
     ]
   },
@@ -4016,6 +4352,21 @@
         "itinerary_title": "Western Maryland: Deep Creek Lake & Antietam",
         "day_number": 5,
         "town": "McHenry / Deep Creek Lake"
+      },
+      {
+        "itinerary_title": "Gettysburg Battlefield & Catoctin Foothills",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Gettysburg Battlefield & Catoctin Foothills",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Gettysburg Battlefield & Catoctin Foothills",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
@@ -4177,6 +4528,23 @@
             "source_name": "Cape Ann Marina (venue's own website)"
           }
         ]
+      },
+      {
+        "town": "Salem",
+        "eats": [
+          {
+            "name": "Red's Sandwich Shop",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Its own site lists corned beef hash, French toast, a grilled English muffin and avocado toast.",
+            "why": "A one-address breakfast and lunch counter at 15 Central Street, a short walk from the waterfront, which its own site says has served Salem since 1945.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Saturday 7am-2pm and Sunday 7am-1pm; Destination Salem's listing and 2024 official guide say Monday-Saturday 7am-3pm, so the Monday-Saturday closing time differs between sources. Check before going; expect a wait during Salem's October Haunted Happenings.",
+            "open_evidence": "Own website lists current hours and breakfast items (viewed 2026-10-18; the page shows no year); Destination Salem (the tourism board) blog post dated 2026-03-23 calls it a longtime local favorite for breakfast and lunch, and its 2024 Official Guide lists the shop with hours.",
+            "source_url": "https://www.redssandwichshop.com",
+            "source_name": "Red's Sandwich Shop's own website, with Destination Salem (salem.org)"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -4234,6 +4602,21 @@
         "itinerary_title": "The Berkshires",
         "day_number": 5,
         "town": "Williamstown"
+      },
+      {
+        "itinerary_title": "Salem, Cape Ann & Newburyport",
+        "day_number": 1,
+        "town": "Salem"
+      },
+      {
+        "itinerary_title": "Salem, Cape Ann & Newburyport",
+        "day_number": 2,
+        "town": "Gloucester"
+      },
+      {
+        "itinerary_title": "Salem, Cape Ann & Newburyport",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
@@ -4447,7 +4830,7 @@
   },
   {
     "region_key": "minnesota",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Duluth",
@@ -4569,6 +4952,40 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Red Wing",
+        "eats": [
+          {
+            "name": "Hanisch Bakery & Coffee Shop",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The Honeymooner (a Bavarian cream filled donut), the YOLO (dulce de leche caramel with dark chocolate) or the espresso donut, all named by the owner in the KTTC segment.",
+            "why": "A family bakery on 3rd Street in historic downtown Red Wing, an easy walk-in stop before or after Barn Bluff and Main Street.",
+            "price_tier": null,
+            "hours_note": "Own site lists closed Sunday and Monday; its home page gives Tuesday-Saturday 6am-4pm while its contact page gives bakery Tuesday-Friday 6am-4pm and Saturday 7am-4pm, so check before going. The site carries no year on its hours.",
+            "open_evidence": "KTTC Midwest Access segment published 2026-06-30 interviews the owner about current donuts; own website lists 410 W 3rd St, Red Wing and hours but shows no year (viewed 2026-10-18).",
+            "source_url": "https://www.kttc.com/2026/06/30/midwest-access-june-30-2026/",
+            "source_name": "KTTC Midwest Access, June 30, 2026"
+          }
+        ]
+      },
+      {
+        "town": "Winona",
+        "eats": [
+          {
+            "name": "Bloedow Bakery",
+            "kind": "bakery",
+            "meal": "breakfast",
+            "what_to_order": "The maple long john, chocolate frosted cake donut, glazed croissant or date-filled cookie, as named in The Current's guide.",
+            "why": "A donut bakery at 451 E Broadway St, a short stop on the way to or from Garvin Heights and the riverfront.",
+            "price_tier": null,
+            "hours_note": "Own site lists Tuesday-Friday 6am-3pm and Saturday 7:30am-2pm, with no hours for Sunday or Monday; the site's copyright line says 2023 and it lists no holiday closures. Closed Sunday and Monday is not stated outright, so confirm.",
+            "open_evidence": "The Current (MPR) Winona food guide published 2026-05-06 lists it at 451 E Broadway St; KTTC reported in June 2024 it is open Tuesday to Saturday; own website lists hours and address (page copyright 2023) (viewed 2026-10-18).",
+            "source_url": "https://www.thecurrent.org/feature/2026/05/06/mid-west-music-fest-2026-where-to-eat-and-explore-in-winona",
+            "source_name": "The Current (Minnesota Public Radio), May 2026"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -4621,12 +5038,27 @@
         "itinerary_title": "Minneapolis-St. Paul: The Twin Cities",
         "day_number": 5,
         "town": null
+      },
+      {
+        "itinerary_title": "Mississippi River Bluffs: Red Wing to Winona",
+        "day_number": 1,
+        "town": "Red Wing"
+      },
+      {
+        "itinerary_title": "Mississippi River Bluffs: Red Wing to Winona",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Mississippi River Bluffs: Red Wing to Winona",
+        "day_number": 3,
+        "town": "Winona"
       }
     ]
   },
   {
     "region_key": "mississippi",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Vicksburg",
@@ -4772,6 +5204,52 @@
             "source_name": "Coastal Mississippi; venue's own website"
           }
         ]
+      },
+      {
+        "town": "Clarksdale",
+        "eats": [
+          {
+            "name": "Yazoo Pass Espresso Bar, Bistro and Bakery",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The Visit Clarksdale page names no dishes; it describes an espresso bar, bistro and bakery with gluten-free and vegetarian options available on request.",
+            "why": "A downtown breakfast-and-lunch stop inside the old Woolworth's building, handy before the Delta Blues Museum opens.",
+            "price_tier": null,
+            "hours_note": "Per Visit Clarksdale: Mon-Tue breakfast 7-11am and lunch 11am-2pm; Wed-Fri breakfast 7-11am, lunch 11am-2pm, dinner 5:30-9pm; Sat breakfast 8-11am, lunch 11am-2pm, dinner 5:30-9pm; Sunday not listed. Call (662) 627-8686 to confirm.",
+            "open_evidence": "Clarksdale-Coahoma County Tourism page dated September 7, 2025 lists 207 Yazoo Avenue with full weekly hours (viewed 2026-10-18); the cafe's own site could not be fetched, so this rests on the tourism page alone.",
+            "source_url": "https://www.visitclarksdale.com/blog/eats/yazoo-pass-62c5p",
+            "source_name": "Visit Clarksdale (Clarksdale-Coahoma County Tourism)"
+          },
+          {
+            "name": "Ground Zero Blues Club",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Visit Clarksdale's page describes a down-home menu of hamburgers, fried catfish and pork barbecue.",
+            "why": "The live-blues juke joint on Delta Avenue where a meal and the music come together, which is the point of a Clarksdale night.",
+            "price_tier": null,
+            "hours_note": "Visit Clarksdale lists Wed-Thu 5-11pm and Fri-Sat 11am-midnight (undated). The club's own posts also mention a Thursday 11am opening and a Sunday blues brunch, so confirm hours and the music schedule before going.",
+            "open_evidence": "Visit Clarksdale page states 'Ground Zero has reopened' (March 19, 2025) and the club's own site shows a 2025 copyright with hours and a live-music schedule (both viewed 2026-10-18); neither page carries a 2026 date.",
+            "source_url": "https://www.visitclarksdale.com/blog/2017/6/23/ground-zero",
+            "source_name": "Visit Clarksdale (Clarksdale-Coahoma County Tourism)"
+          }
+        ]
+      },
+      {
+        "town": "Oxford",
+        "eats": [
+          {
+            "name": "Ajax Diner",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "The diner's own site mentions chicken and dumplings, fried catfish, Mississippi pot roast, meatloaf and country-fried steaks, plus daily plate lunch specials.",
+            "why": "A plate-lunch diner on Courthouse Square that the diner's own site dates to 1997, an easy meal on the Rowan Oak and Square day.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday-Saturday 11am-9pm; the Michelin Guide page lists it closed Sunday. The site page shows no year.",
+            "open_evidence": "WLBT (Jackson) report of 2025-11-04 lists Ajax Diner, 118 Courthouse Sq., Oxford, among the Michelin Guide American South recipients; ajaxdiner.com shows Mon-Sat 11am-9pm hours and Visit Oxford's page (copyright 2026) lists it, all viewed 2026-10-18.",
+            "source_url": "https://www.ajaxdiner.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -4819,12 +5297,27 @@
         "itinerary_title": "Mississippi Gulf Coast & Biloxi",
         "day_number": 5,
         "town": "Bay St. Louis"
+      },
+      {
+        "itinerary_title": "Mississippi Delta Blues & Faulkner's Oxford",
+        "day_number": 1,
+        "town": "Clarksdale"
+      },
+      {
+        "itinerary_title": "Mississippi Delta Blues & Faulkner's Oxford",
+        "day_number": 2,
+        "town": "Clarksdale"
+      },
+      {
+        "itinerary_title": "Mississippi Delta Blues & Faulkner's Oxford",
+        "day_number": 3,
+        "town": "Oxford"
       }
     ]
   },
   {
     "region_key": "missouri",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Camdenton",
@@ -4989,6 +5482,83 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Augusta",
+        "note": "Our read: the only Augusta eat that met the evidence bar is the winery restaurant below, so bring a snack for the Katy Trail stretch and check hours before riding in.",
+        "note_source_url": "http://balduccivineyards.com/",
+        "eats": [
+          {
+            "name": "Balducci Vineyards",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Thin-crust pizza (14-inch, with a Buffalo Chicken or BBQ Chicken option), French Dip Au Jus, or the Cod Fish Sandwich from the food menu.",
+            "why": "A winery kitchen in Augusta's wine country with a full lunch menu of pizza, sandwiches and salads; it is a short drive off the Katy Trail rather than on it, so plan to drive from the trailhead.",
+            "price_tier": null,
+            "hours_note": "Home page states open daily 11am-5pm, until 7pm on Saturdays, and until 8pm on the 2nd Friday of each month (Pasta Fridays); the food page notes outside food and drink are not allowed and some items may be unavailable.",
+            "open_evidence": "Own website shows current hours and footer '© 2026 Balducci Vineyards', and the food page lists the current menu (viewed 2026-10-18)",
+            "source_url": "http://balduccivineyards.com/food/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Hermann",
+        "eats": [
+          {
+            "name": "Hermann Wurst Haus",
+            "kind": "market",
+            "meal": "breakfast",
+            "what_to_order": "Deli sandwiches and hickory-smoked pulled pork or brisket from the deli menu, or the all-you-can-eat breakfast on Saturdays and Sundays.",
+            "why": "A sausage maker and deli on Hermann's main street (First Street) that opens at 8 am, handy before the wineries open.",
+            "price_tier": null,
+            "hours_note": "Own deli page: Mon-Thu 8am-6pm, Fri-Sat 8am-7pm, Sun 8am-4pm; all-you-can-eat breakfast Sat and Sun 8am-12pm. A local visitor listing shows shorter hours, so confirm before a late visit.",
+            "open_evidence": "Own website footer '© 2026 Hermann Wurst Haus', blog posts dated February-March 2026, and a deli page listing current hours and an October 2026 menu file (viewed 2026-10-18)",
+            "source_url": "https://hermannwursthaus.com/deli-menu/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Vintage 1847 Restaurant at Stone Hill Winery",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The Classic Reuben or the Vintage Burger from the lunch menu.",
+            "why": "The winery's own sit-down restaurant on the Stone Hill grounds, a few minutes above Hermann's riverfront district, so lunch can pair with a cellar visit.",
+            "price_tier": null,
+            "hours_note": "Mon and Thu-Sat 11:30am-8pm, Sun 11:30am-4pm; closed Tuesday and Wednesday, closed for the month of January, and closed Easter, Thanksgiving Day, Christmas Eve and Christmas Day. The page says reservations are not accepted on Saturdays in October.",
+            "open_evidence": "Own website lists current hours and lunch items, with footer '© 2026 Stone Hill Winery' (viewed 2026-10-18)",
+            "source_url": "https://stonehillwinery.com/vintage-restaurant/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Washington",
+        "eats": [
+          {
+            "name": "Cowan's Restaurant",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Fried chicken and the homemade mile-high pies; breakfast is served all day.",
+            "why": "A longtime downtown Washington home-cooking restaurant, a few blocks from the riverfront, useful for a hearty breakfast before the drive home.",
+            "price_tier": null,
+            "hours_note": "Visit Missouri's page lists Wednesday-Saturday 6am-8pm and Sunday 6am-7pm only, and says fried chicken and pies are served five days a week.",
+            "open_evidence": "Visit Missouri listing shows current hours and menu (viewed 2026-10-18), and a KCTV5 'Destination Heartland: Washington, Missouri' feature dated 2026-07-23 names Cowan's among the town's restaurants",
+            "source_url": "https://visitmo.com/things-to-do/cowans-restaurant",
+            "source_name": "Visit Missouri (state tourism board)"
+          },
+          {
+            "name": "Oak & Front Kitchen + Bar",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "From the lunch and dinner menu: the Kim Reuben, Schnitzel Parmo or Pot Roast.",
+            "why": "A riverfront restaurant on Front Street overlooking the Missouri, within walking distance of Washington's Amtrak depot and riverfront park.",
+            "price_tier": null,
+            "hours_note": "Own site: Tue 11am-2pm, Wed-Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 10am-3pm (brunch menu); closed Monday. Listed as Suite 201 at 120 West Front Street.",
+            "open_evidence": "Own website shows current hours and menu, with footer '© 2026 Oak & Front | Kitchen + Bar' (viewed 2026-10-18)",
+            "source_url": "https://www.oakandfront.com/menu",
+            "source_name": "Venue's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -5051,6 +5621,21 @@
         "itinerary_title": "St. Louis & Kansas City",
         "day_number": 6,
         "town": "Kansas City"
+      },
+      {
+        "itinerary_title": "Hermann and the Missouri River Wine Country, Missouri",
+        "day_number": 1,
+        "town": "Augusta"
+      },
+      {
+        "itinerary_title": "Hermann and the Missouri River Wine Country, Missouri",
+        "day_number": 2,
+        "town": "Hermann"
+      },
+      {
+        "itinerary_title": "Hermann and the Missouri River Wine Country, Missouri",
+        "day_number": 3,
+        "town": "Washington"
       }
     ]
   },
@@ -5489,6 +6074,44 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Furnace Creek",
+        "note": "The NPS lists the park's dining as resort venues at Furnace Creek, Stovepipe Wells and Panamint Springs, and encourages visitors to pack their own picnic food. The NPS page lists no opening hours for any of them. Our advice: carry lunch and water for the Badwater, Dante's View and dune days, and call ahead for hours.",
+        "note_source_url": "https://www.nps.gov/deva/planyourvisit/where-to-eat.htm",
+        "eats": [
+          {
+            "name": "The Ranch 1849 Buffet",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "A buffet at The Ranch at Death Valley; neither source names individual dishes.",
+            "why": "The main sit-down option at the Ranch in Furnace Creek, the park's central base for Zabriskie Point, Golden Canyon and Harmony Borax Works.",
+            "price_tier": null,
+            "hours_note": "No hours stated on the NPS page; the resort's dining page says it serves breakfast, lunch and dinner and directs visitors to call (760) 786-2345 for seasonal hours.",
+            "open_evidence": "NPS Death Valley 'where to eat' page, last updated May 11, 2026, lists The Ranch 1849 Buffet among Furnace Creek dining (viewed 2026-10-18); the resort's own dining page carries no year.",
+            "source_url": "https://www.nps.gov/deva/planyourvisit/where-to-eat.htm",
+            "source_name": "National Park Service, Death Valley National Park"
+          }
+        ]
+      },
+      {
+        "town": "Stovepipe Wells",
+        "note": "Stovepipe Wells Village has a restaurant and a saloon, and a general store that sells groceries and ice with a microwave, per the NPS. Our advice: if you are sleeping here, eat dinner in the village rather than driving back to Furnace Creek after the dunes.",
+        "note_source_url": "https://www.nps.gov/deva/planyourvisit/where-to-eat.htm",
+        "eats": [
+          {
+            "name": "Toll Road Restaurant",
+            "kind": "regional",
+            "meal": "any",
+            "what_to_order": "The NPS page mentions vegan and vegetarian options, and its Stovepipe Wells page describes an all-new menu of fresh, seasonal fare.",
+            "why": "The village restaurant at Stovepipe Wells, the closest sit-down meal to the Mesquite Flat Dunes.",
+            "price_tier": null,
+            "hours_note": "NPS lists breakfast, lunch and dinner but no hours; it points to the Stovepipe Wells Village dining page for current hours.",
+            "open_evidence": "NPS Death Valley 'where to eat' page, last updated May 11, 2026, lists Toll Road Restaurant serving breakfast, lunch and dinner, and the NPS Stovepipe Wells page (updated April 23, 2025) says it was recently renovated (both viewed 2026-10-18); stovepipedeathvalley.com footer shows 2026.",
+            "source_url": "https://www.nps.gov/deva/planyourvisit/where-to-eat.htm",
+            "source_name": "National Park Service, Death Valley National Park"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -5536,6 +6159,21 @@
         "itinerary_title": "Reno & Lake Tahoe: Nevada's North Shore",
         "day_number": 5,
         "town": null
+      },
+      {
+        "itinerary_title": "Death Valley from Las Vegas: Badlands, Salt Flats and Dunes",
+        "day_number": 1,
+        "town": "Furnace Creek"
+      },
+      {
+        "itinerary_title": "Death Valley from Las Vegas: Badlands, Salt Flats and Dunes",
+        "day_number": 2,
+        "town": "Stovepipe Wells"
+      },
+      {
+        "itinerary_title": "Death Valley from Las Vegas: Badlands, Salt Flats and Dunes",
+        "day_number": 3,
+        "town": "Furnace Creek"
       }
     ]
   },
@@ -5728,7 +6366,7 @@
   },
   {
     "region_key": "new-jersey",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Seaside Park",
@@ -5962,6 +6600,21 @@
         "itinerary_title": "Northern New Jersey: Princeton, Morristown & the Delaware Water Gap",
         "day_number": 5,
         "town": null
+      },
+      {
+        "itinerary_title": "Cape May Point: Fall Birds, Lighthouse and Delaware Bay",
+        "day_number": 1,
+        "town": "Cape May"
+      },
+      {
+        "itinerary_title": "Cape May Point: Fall Birds, Lighthouse and Delaware Bay",
+        "day_number": 2,
+        "town": "Cape May"
+      },
+      {
+        "itinerary_title": "Cape May Point: Fall Birds, Lighthouse and Delaware Bay",
+        "day_number": 3,
+        "town": "Cape May"
       }
     ]
   },
@@ -6218,7 +6871,7 @@
   },
   {
     "region_key": "new-york",
-    "last_verified_date": "2026-10-14",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Tannersville",
@@ -6321,6 +6974,88 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Watkins Glen",
+        "note": "Our read: this is the only Watkins Glen eat we could verify as operating this fall, so treat it as a starting point and check for others on arrival.",
+        "note_source_url": "https://www.nickelspitbbq.com/",
+        "eats": [
+          {
+            "name": "Nickel's Pit BBQ",
+            "kind": "bbq",
+            "meal": "dinner",
+            "what_to_order": "Barbecue; the venue's site links a Watkins Glen menu but names no specific dishes on the pages we could read.",
+            "why": "A barbecue restaurant on North Franklin Street in the village centre, with a separate Watkins Glen kitchen schedule published for this fall.",
+            "price_tier": null,
+            "hours_note": "Kitchen hours Fall 2026 (Watkins Glen): Monday-Thursday 4-9pm, Friday 4-10pm, Saturday 12-10pm, Sunday 12-9pm.",
+            "open_evidence": "Own website lists 'Kitchen Hours Fall 2026' for the Watkins Glen location at 207 N Franklin St (viewed 2026-10-18).",
+            "source_url": "https://www.nickelspitbbq.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Ithaca",
+        "eats": [
+          {
+            "name": "Ithaca Bakery",
+            "kind": "bakery",
+            "meal": "lunch",
+            "what_to_order": "Soups such as Broccoli Cheddar, Chicken & Rice or Minestrone, and the salads and sandwiches listed on the site.",
+            "why": "A local bakery and soup-and-sandwich stop with two Ithaca locations (400 N. Meadow Street and Triphammer Marketplace), handy for a lunch between the gorge walks.",
+            "price_tier": null,
+            "hours_note": "Site says soups are available from 10:30am daily; no other hours stated. Takes online orders for take-out, delivery or curbside pick-up.",
+            "open_evidence": "Own website shows a 2026 copyright, current online ordering and a soup menu (viewed 2026-10-18).",
+            "source_url": "https://www.ithacabakery.com/",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Moosewood Restaurant",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Per the Cornell Daily Sun (Sept 2025), the Summer 2025 menu included a black bean burger, lasagna with vegetable sauce and chili verde; the current menu may differ.",
+            "why": "A long-running Ithaca restaurant at 215 N Cayuga St (the Dewitt Building, main entrance on Seneca St), serving lunch, dinner and weekend brunch.",
+            "price_tier": null,
+            "hours_note": "Own site: lunch weekdays 11:30am-3pm, dinner daily 5-9pm, Saturday and Sunday brunch 11am-2:30pm; the page says 'Closed Tuesday Lunch'. The page shows no year.",
+            "open_evidence": "Own website lists current lunch, dinner and brunch hours (page shows no year); The Cornell Daily Sun reviewed the Summer 2025 menu on 2025-09-11 (both viewed 2026-10-18).",
+            "source_url": "https://moosewood.com/",
+            "source_name": "Venue's own website; Cornell Daily Sun (Sept 2025)"
+          }
+        ]
+      },
+      {
+        "town": "Beacon",
+        "eats": [
+          {
+            "name": "Beacon Bread Company",
+            "kind": "cafe",
+            "meal": "any",
+            "what_to_order": "Breakfast, brunch and lunch served all day; the site names bourbon glazed bread pudding, financiers, a French citrus loaf and beet-cured salmon.",
+            "why": "A Main Street bakery and full-service restaurant at 193-195 Main St, open since 2014 per its site, close to the riverfront and Dia Beacon.",
+            "price_tier": null,
+            "hours_note": "The site gives no opening hours. It says there are no reservations for breakfast or lunch and the average wait for parties of 2-4 is about 45 minutes, longer on holiday weekends.",
+            "open_evidence": "Own website shows a 2025 copyright, an online-ordering link and a current menu (viewed 2026-10-18); the page shows no 2026 date.",
+            "source_url": "https://www.beaconbread.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Hudson",
+        "eats": [
+          {
+            "name": "Talbott & Arding Cheese and Provisions",
+            "kind": "market",
+            "meal": "lunch",
+            "what_to_order": "Pressed sandwiches from the daily menu, or cheeses from the counter; the site names Comté, Jake's Gouda and Shelburne 2 Year Cheddar among others.",
+            "why": "A cheese and provisions shop at 202 Allen St in Hudson, where this itinerary sleeps, good for a picnic-style lunch around Olana.",
+            "price_tier": null,
+            "hours_note": "Closed Mondays. Site lists Tuesday-Sunday 10am-5pm, Friday and Saturday until 6pm; its two hours sections disagree on Wednesday, so confirm before going.",
+            "open_evidence": "Own website shows a 2026 copyright, a Thanksgiving 2026 pre-order link and a December 19, 2026 event at the shop (viewed 2026-10-18).",
+            "source_url": "https://talbottandarding.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -6373,12 +7108,42 @@
         "itinerary_title": "New York City: Five Boroughs",
         "day_number": 6,
         "town": "Arthur Avenue, Bronx"
+      },
+      {
+        "itinerary_title": "Finger Lakes Gorges: Watkins Glen and Ithaca",
+        "day_number": 1,
+        "town": "Watkins Glen"
+      },
+      {
+        "itinerary_title": "Finger Lakes Gorges: Watkins Glen and Ithaca",
+        "day_number": 2,
+        "town": "Watkins Glen"
+      },
+      {
+        "itinerary_title": "Finger Lakes Gorges: Watkins Glen and Ithaca",
+        "day_number": 3,
+        "town": "Ithaca"
+      },
+      {
+        "itinerary_title": "Hudson Valley: Beacon, Hyde Park and Olana",
+        "day_number": 1,
+        "town": "Beacon"
+      },
+      {
+        "itinerary_title": "Hudson Valley: Beacon, Hyde Park and Olana",
+        "day_number": 2,
+        "town": "Beacon"
+      },
+      {
+        "itinerary_title": "Hudson Valley: Beacon, Hyde Park and Olana",
+        "day_number": 3,
+        "town": "Hudson"
       }
     ]
   },
   {
     "region_key": "north-carolina",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Asheville",
@@ -6500,6 +7265,81 @@
             "source_name": "OuterBanks.com (Outer Banks Visitors Bureau)"
           }
         ]
+      },
+      {
+        "town": "Black Mountain",
+        "eats": [
+          {
+            "name": "Louise's Kitchen",
+            "kind": "cafe",
+            "meal": "breakfast",
+            "what_to_order": "The venue's menu lists Biscuits & Gravy, Grit Cakes, Blueberry Waffle and the Black Mountain Cheese Steak at lunch.",
+            "why": "A downtown Black Mountain breakfast and lunch spot that opens at 7:30 on weekdays, handy before a day in Pisgah or on the Parkway.",
+            "price_tier": null,
+            "hours_note": "Per the venue's site: Monday-Saturday 7:30 AM-2:00 PM, Sunday 10:00 AM-2:00 PM; closed Thanksgiving (27 November) and Christmas (25 December), with the year not stated.",
+            "open_evidence": "Own website lists current hours and menu and carries a dated notice of a January 2026 closure with reopening on 29 January 2026 (viewed 2026-10-18); VisitBlackMountainNC's foodie guide, updated August 2026, also lists it as a breakfast spot.",
+            "source_url": "https://louisesblackmtn.com/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Wilmington",
+        "eats": [
+          {
+            "name": "Dixie Grill",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "No dish is named on the pages we viewed; the venue's menu pages are linked from its site.",
+            "why": "Downtown on Market Street near the Riverwalk; its own site says it was established in 1901 and moved to 116 Market Street in the 1970s.",
+            "price_tier": null,
+            "hours_note": "Per the venue's site: breakfast and lunch daily 8am-2pm; a separate evening service runs Thursday-Saturday from 6pm to about 10pm. The hours page shows no year.",
+            "open_evidence": "Own website lists daily hours and an order-online link (viewed 2026-10-18; the page shows no year), and the Wilmington and Beaches Convention & Visitors Bureau locals' guide published 8 May 2026 (footer 2026) lists it under Wilmington eats.",
+            "source_url": "https://dixiegrillwilmington.com/our-story",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Dockside Restaurant",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "The Wilmington and Beaches post names House-Made Chips, Peel & Eat Shrimp and Fish Tacos.",
+            "why": "Sits on the Intracoastal Waterway on Airlie Road, described by the visitors bureau as a longtime Carolina tradition.",
+            "price_tier": null,
+            "hours_note": "Per Good Life Wilmington (22 July 2026): 11:30 a.m.-8:30 p.m. daily. Not confirmed on the venue's own site.",
+            "open_evidence": "Wilmington and Beaches Convention & Visitors Bureau locals' guide published 8 May 2026 (footer 2026) features it, and Good Life Wilmington's seafood guide dated 22 July 2026 lists its address (1308 Airlie Road) and hours (viewed 2026-10-18).",
+            "source_url": "https://www.wilmingtonandbeaches.com/blog/post/a-locals-guide-to-wilmington-eats/",
+            "source_name": "Wilmington and Beaches Convention & Visitors Bureau"
+          },
+          {
+            "name": "Hieronymus Seafood Restaurant & Oyster Bar",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "The venue's site shows Seafood Gumbo, Shrimp and grits, Parmesan crusted grouper and a Fried Captain's Platter.",
+            "why": "A family restaurant on Market Street whose own site says it opened there in 1980 and traces its roots to a commercial fishing boat bought in 1972.",
+            "price_tier": null,
+            "hours_note": "Sources differ: the venue's site lists 3:00-9:00 PM every day, while Good Life Wilmington (22 July 2026) lists 3-8:30 p.m. Monday-Wednesday and Sunday and 3-9 p.m. Thursday-Saturday. Confirm before going.",
+            "open_evidence": "Good Life Wilmington's casual seafood guide dated 22 July 2026 lists it at 5035 Market St. with hours, and the venue's own site shows current hours and menu photos (viewed 2026-10-18; the site shows no current year).",
+            "source_url": "https://hieronymusseafood.us/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Carolina Beach",
+        "eats": [
+          {
+            "name": "Michael's Seafood Restaurant",
+            "kind": "seafood",
+            "meal": "any",
+            "what_to_order": "WECT names its Seafood Chowder, and the venue's site lists Blue Fin Crab Dip, Shrimp Taco and Crabcake Sandwich.",
+            "why": "A single-location Carolina Beach restaurant whose own site says 'Fresh Seafood Since 1998', on the way to or from Fort Fisher.",
+            "price_tier": null,
+            "hours_note": "Per the venue's site: 11:00 AM-9:00 PM, seven days a week. The page shows no year.",
+            "open_evidence": "WECT's Cape Fear Foodie feature on Carolina Beach (4 June 2025) names it as open for over 25 years, and the venue's own site lists hours and a current menu (viewed 2026-10-18; the site shows no year).",
+            "source_url": "https://www.wect.com/2025/06/04/cape-fear-foodie-carolina-beach/",
+            "source_name": "WECT (local TV news) and the venue's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -6557,6 +7397,36 @@
         "itinerary_title": "North Carolina's Outer Banks",
         "day_number": 6,
         "town": null
+      },
+      {
+        "itinerary_title": "Black Mountain, Pisgah and the Parkway, North Carolina",
+        "day_number": 1,
+        "town": "Black Mountain"
+      },
+      {
+        "itinerary_title": "Black Mountain, Pisgah and the Parkway, North Carolina",
+        "day_number": 2,
+        "town": "Black Mountain"
+      },
+      {
+        "itinerary_title": "Black Mountain, Pisgah and the Parkway, North Carolina",
+        "day_number": 3,
+        "town": "Black Mountain"
+      },
+      {
+        "itinerary_title": "Wilmington and the Cape Fear Coast, North Carolina",
+        "day_number": 1,
+        "town": "Wilmington"
+      },
+      {
+        "itinerary_title": "Wilmington and the Cape Fear Coast, North Carolina",
+        "day_number": 2,
+        "town": "Carolina Beach"
+      },
+      {
+        "itinerary_title": "Wilmington and the Cape Fear Coast, North Carolina",
+        "day_number": 3,
+        "town": "Wilmington"
       }
     ]
   },
@@ -6661,7 +7531,7 @@
   },
   {
     "region_key": "ohio",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Logan",
@@ -6784,6 +7654,21 @@
       {
         "itinerary_title": "Cleveland & Cuyahoga Valley National Park",
         "day_number": 5,
+        "town": null
+      },
+      {
+        "itinerary_title": "Lake Erie Islands: Put-in-Bay and Kelleys Island",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Lake Erie Islands: Put-in-Bay and Kelleys Island",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Lake Erie Islands: Put-in-Bay and Kelleys Island",
+        "day_number": 3,
         "town": null
       }
     ]
@@ -7189,7 +8074,7 @@
   },
   {
     "region_key": "pennsylvania",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Philadelphia",
@@ -7335,6 +8220,40 @@
             "source_name": "Fallingwater's own website"
           }
         ]
+      },
+      {
+        "town": "Chadds Ford",
+        "eats": [
+          {
+            "name": "Hank's Place",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Pancakes, per Visit Wilmington's write-up of the diner.",
+            "why": "A long-running horse-country diner at the Route 1 and Route 100 crossroads that reopened in a rebuilt building in July 2025 after the 2021 Hurricane Ida flood closed the old one.",
+            "price_tier": null,
+            "hours_note": "Per County Lines (July 2025), open seven days a week 7 a.m. to 3 p.m. from the July 15, 2025 reopening, with dinner Tuesday to Saturday until 7 p.m. planned within 30 days; confirm current hours before you go.",
+            "open_evidence": "Visit Wilmington (published 2025-10-23) lists it at 1625 Creek Rd, reopened July 2025 in a new building; County Lines magazine (2025-07-14) gave the July 15 reopening and hours (both viewed 2026-10-18); the restaurant's own site could not be fetched.",
+            "source_url": "https://www.visitwilmingtonde.com/goodtaste/stories/post/new-on-the-dining-scene-homestyle-love-haute-french-burgers-and-bourbon/",
+            "source_name": "Visit Wilmington (tourism board)"
+          }
+        ]
+      },
+      {
+        "town": "Cooksburg",
+        "eats": [
+          {
+            "name": "Gateway Lodge",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "The dining page lists Pierogies with Wild Boar Sausage, the Gateway Smash Burger and Cedar Planked Salmon on the casual menu.",
+            "why": "A farm-to-table lodge restaurant in Cooksburg itself, close to Cook Forest State Park, where evening options are few.",
+            "price_tier": "$$",
+            "hours_note": "Per its dining page: casual Wild Crafter's Kitchen Wednesday to Friday 5 to 8 p.m.; Saturday 5 to 8 p.m. is a three-course Taste of the Wilds dinner at $75 per person plus tax and an 18% service charge, advance reservations required; live music Thursday to Saturday. The page does not say whether non-guests can dine, so call 814.744.8017.",
+            "open_evidence": "Own dining page lists a Fall 2026 menu and Taste of the Wilds for October and November 2026, and the site footer shows 2026 (viewed 2026-10-18).",
+            "source_url": "https://www.gatewaylodge.com/dining",
+            "source_name": "Gateway Lodge (own website)"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -7392,6 +8311,51 @@
         "itinerary_title": "Pittsburgh & the Laurel Highlands",
         "day_number": 6,
         "town": "Pittsburgh"
+      },
+      {
+        "itinerary_title": "Brandywine Valley: Wyeth Country and the du Pont Mills",
+        "day_number": 1,
+        "town": "Chadds Ford"
+      },
+      {
+        "itinerary_title": "Brandywine Valley: Wyeth Country and the du Pont Mills",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Brandywine Valley: Wyeth Country and the du Pont Mills",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Gettysburg Battlefield & Catoctin Foothills",
+        "day_number": 1,
+        "town": "Gettysburg"
+      },
+      {
+        "itinerary_title": "Gettysburg Battlefield & Catoctin Foothills",
+        "day_number": 2,
+        "town": "Gettysburg"
+      },
+      {
+        "itinerary_title": "Gettysburg Battlefield & Catoctin Foothills",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Pennsylvania Wilds: Cook Forest, Kinzua Bridge & Oil Creek",
+        "day_number": 1,
+        "town": "Cooksburg"
+      },
+      {
+        "itinerary_title": "Pennsylvania Wilds: Cook Forest, Kinzua Bridge & Oil Creek",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Pennsylvania Wilds: Cook Forest, Kinzua Bridge & Oil Creek",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
@@ -11819,7 +12783,7 @@
   },
   {
     "region_key": "tennessee",
-    "last_verified_date": "2026-10-14",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Nashville",
@@ -11952,6 +12916,47 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Chattanooga",
+        "eats": [
+          {
+            "name": "Bluegrass Grill",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The menu on its own site lists Glorious Grits, a Mediterranean Frittata, a Brunch Smash Burger and brown sugar butter baked French toast.",
+            "why": "A single-location, family-run breakfast and lunch spot on Main Street in the Southside, a short walk from the riverfront start of the trip.",
+            "price_tier": null,
+            "hours_note": "Per its own site: Tuesday to Saturday 6:30 am to 2 pm, Sunday brunch 9 am to 2 pm, closed Monday.",
+            "open_evidence": "Own website lists current hours, online ordering and a Sunday brunch menu with prices (the page shows no year), and the Chattanooga Pulse's 26 June 2026 Southside feature tells readers to grab a brunch-style meal there (viewed 2026-10-18).",
+            "source_url": "https://www.bluegrassgrillchattanooga.com/menu",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Purple Daisy Picnic Cafe",
+            "kind": "bbq",
+            "meal": "dinner",
+            "what_to_order": "The Pulse article mentions smoked BBQ pork, ribs and wings, a pulled pork sandwich, smoked meatloaf and banana pudding.",
+            "why": "In St. Elmo next to the Incline Railway's lower station, so it fits a day on Lookout Mountain and the Incline.",
+            "price_tier": null,
+            "hours_note": "Per the Pulse (18 May 2026): Monday to Saturday 11 am to 8 pm and Sunday 11 am to 3 pm; the article says the smoked sloppy Joes and smoked meatloaf often sell out.",
+            "open_evidence": "Chattanooga Pulse feature published 18 May 2026 describes it as open at 4001 St. Elmo Ave with current hours and a new Sunday opening (viewed 2026-10-18).",
+            "source_url": "https://www.chattanoogapulse.com/food-drink/dining-out/the-purple-daisy-cafe-an-iconic-diner-at-the-foot-of-lookout/",
+            "source_name": "The Pulse (Chattanooga local press), 2026-05-18"
+          },
+          {
+            "name": "Cafe 7 at Rock City",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "Rock City's dining page says Cafe 7 serves food on dining terraces with a Seven States view and that the menu changes seasonally; no dishes are named on that page.",
+            "why": "On Lookout Mountain, Georgia, inside Rock City Gardens rather than in Chattanooga itself, so it suits a lunch break during the Rock City visit.",
+            "price_tier": null,
+            "hours_note": "Inside the gardens, so Rock City admission applies; the dining page lists Cafe 7 as open daily and says the menu changes seasonally. Confirm hours before you go.",
+            "open_evidence": "Rock City's own dining page, with a 2026 copyright and a banner for 2027 passes, lists Cafe 7 among the open venues, and the same page gives October 2026 hours for the Starbucks outside the gate (viewed 2026-10-18).",
+            "source_url": "https://www.seerockcity.com/dining-at-rock-city/",
+            "source_name": "Rock City's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -12014,12 +13019,27 @@
         "itinerary_title": "Great Smoky Mountains: Gatlinburg, Pigeon Forge & the Park",
         "day_number": 5,
         "town": "Gatlinburg"
+      },
+      {
+        "itinerary_title": "Chattanooga & Lookout Mountain, Tennessee",
+        "day_number": 1,
+        "town": "Chattanooga"
+      },
+      {
+        "itinerary_title": "Chattanooga & Lookout Mountain, Tennessee",
+        "day_number": 2,
+        "town": "Chattanooga"
+      },
+      {
+        "itinerary_title": "Chattanooga & Lookout Mountain, Tennessee",
+        "day_number": 3,
+        "town": "Chattanooga"
       }
     ]
   },
   {
     "region_key": "texas",
-    "last_verified_date": "2026-10-03",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Terlingua",
@@ -12179,6 +13199,69 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Galveston",
+        "eats": [
+          {
+            "name": "Gaido's",
+            "kind": "seafood",
+            "meal": "dinner",
+            "what_to_order": "Gulf seafood, which the James Beard Foundation says the restaurant serves fresh, and the Gaido's Famous Pecan Pie named on its own site.",
+            "why": "A Seawall Boulevard seafood restaurant that opened in 1911 and is still run by the Gaido family, honoured as a James Beard America's Classic.",
+            "price_tier": null,
+            "hours_note": "Own site lists Sunday to Thursday 11 a.m. to 9 p.m. and Friday and Saturday 11 a.m. to 10 p.m.; the site shows no year beside the hours.",
+            "open_evidence": "James Beard Foundation announced it as a 2025 America's Classics winner on 2025-02-26, and its own site (viewed 2026-10-18) lists current hours with a 2025 copyright footer; galveston.com also lists it for Galveston Restaurant Week, January 12-30, 2026.",
+            "source_url": "https://www.jamesbeard.org/stories/announcing-the-2025-restaurant-and-chef-americas-classics-winners",
+            "source_name": "James Beard Foundation"
+          },
+          {
+            "name": "Shrimp 'N Stuff",
+            "kind": "seafood",
+            "meal": "lunch",
+            "what_to_order": "Shrimp or oyster po-boys, gumbo, fried seafood platters and fish tacos, all named on its own site.",
+            "why": "A casual island seafood spot that says it has served Galveston since 1976; it has two restaurants (Avenue O and Downtown on Ball Street) plus a food truck.",
+            "price_tier": null,
+            "hours_note": "Own locations page: Avenue O Sunday to Thursday 10:30 a.m. to 8 p.m., Friday and Saturday 10:30 a.m. to 9 p.m.; Downtown Sunday to Thursday 10 a.m. to 8 p.m., Friday and Saturday 10 a.m. to 9 p.m.; the page shows no year beside the hours.",
+            "open_evidence": "Own site (viewed 2026-10-18) shows a 2026 copyright footer and current menu and locations pages, and galveston.com lists both restaurants for Galveston Restaurant Week, January 12-30, 2026.",
+            "source_url": "https://shrimpnstuff.com/locations/",
+            "source_name": "Venue's own website"
+          }
+        ]
+      },
+      {
+        "town": "Waco",
+        "eats": [
+          {
+            "name": "Health Camp",
+            "kind": "diner",
+            "meal": "lunch",
+            "what_to_order": "Burgers, shakes and malts, the three items Destination Waco's listing names.",
+            "why": "A burger stand at 2601 Circle Road on the Waco Traffic Circle that began as a mobile canteen for Connally Air Force Base personnel; the restaurant opened there in 1949 per Destination Waco.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "KWTX report of 2026-08-09 on the I-35 Valley Mills flyover demolition quotes Health Camp workers on Circle Road watching it, and Destination Waco's listing (viewed 2026-10-18) carries a 2026 footer; no current hours were found.",
+            "source_url": "https://destinationwaco.org/places/health-camp/",
+            "source_name": "Destination Waco (tourism board)"
+          }
+        ]
+      },
+      {
+        "town": "Fort Worth",
+        "eats": [
+          {
+            "name": "Joe T. Garcia's",
+            "kind": "regional",
+            "meal": "dinner",
+            "what_to_order": "Cheese enchiladas and margaritas, the two items NBC DFW's report highlights.",
+            "why": "On North Commerce Street in Fort Worth's North Side rather than inside the Stockyards district itself; a family-run Tex-Mex restaurant that began in the Garcia family's home in 1935.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday to Thursday 11 a.m. to 2:30 p.m. and 5 p.m. to 10 p.m., Friday and Saturday 11 a.m. to 11 p.m., Sunday 11 a.m. to 10 p.m.; the site shows no year beside the hours.",
+            "open_evidence": "NBC DFW report of 2025-07-04 on its 90th anniversary quotes the owner saying it is 'business as usual', and its own site (viewed 2026-10-18) lists current hours and 2201 N Commerce St.",
+            "source_url": "https://www.nbcdfw.com/news/local/iconic-restaurant-joe-t-garcias-celebrates-90th-anniversary/3878239/",
+            "source_name": "NBC DFW"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -12231,12 +13314,72 @@
         "itinerary_title": "Texas Hill Country: Austin to San Antonio",
         "day_number": 6,
         "town": "San Antonio"
+      },
+      {
+        "itinerary_title": "Corpus Christi and Padre Island Seashore, Texas",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Corpus Christi and Padre Island Seashore, Texas",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Corpus Christi and Padre Island Seashore, Texas",
+        "day_number": 3,
+        "town": null
+      },
+      {
+        "itinerary_title": "Fort Worth Stockyards to Waco, Texas",
+        "day_number": 1,
+        "town": "Fort Worth"
+      },
+      {
+        "itinerary_title": "Fort Worth Stockyards to Waco, Texas",
+        "day_number": 2,
+        "town": "Waco"
+      },
+      {
+        "itinerary_title": "Fort Worth Stockyards to Waco, Texas",
+        "day_number": 3,
+        "town": "Waco"
+      },
+      {
+        "itinerary_title": "Enchanted Rock & the Hill Country Backroads: Fredericksburg Long Weekend",
+        "day_number": 1,
+        "town": "Fredericksburg"
+      },
+      {
+        "itinerary_title": "Enchanted Rock & the Hill Country Backroads: Fredericksburg Long Weekend",
+        "day_number": 2,
+        "town": "Fredericksburg"
+      },
+      {
+        "itinerary_title": "Enchanted Rock & the Hill Country Backroads: Fredericksburg Long Weekend",
+        "day_number": 3,
+        "town": "Fredericksburg"
+      },
+      {
+        "itinerary_title": "Galveston and the Upper Texas Coast Weekend",
+        "day_number": 1,
+        "town": "Galveston"
+      },
+      {
+        "itinerary_title": "Galveston and the Upper Texas Coast Weekend",
+        "day_number": 2,
+        "town": "Galveston"
+      },
+      {
+        "itinerary_title": "Galveston and the Upper Texas Coast Weekend",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
   {
     "region_key": "utah",
-    "last_verified_date": "2026-10-03",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Springdale",
@@ -12487,6 +13630,47 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Logan",
+        "eats": [
+          {
+            "name": "Herm's Inn",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "The menu lists a Meat Lovers Skillet, Stuffed French Toast, Chicken & Biscuit, Inside Out Grilled Cheese, Mac of the Day and Herm's Burger.",
+            "why": "On Canyon Road at the mouth of Logan Canyon, so it sits on the way in to the US-89 drive to Bear Lake.",
+            "price_tier": null,
+            "hours_note": "Own site lists Tuesday to Sunday, 8am to 2pm (the page shows no year beyond a 2024 footer). It was closed on Saturday 1 August 2026 during a nearby grass fire.",
+            "open_evidence": "Utah Public Radio, 2026-08-01, reports the Canyon Road restaurant Herms Inn served as the command post for a 31 July 2026 grass fire, and the restaurant's own site lists current hours (viewed 2026-10-18).",
+            "source_url": "https://www.hermsinn.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Angie's",
+            "kind": "diner",
+            "meal": "any",
+            "what_to_order": "The Kitchen Sink sundae, a half-gallon of soft-serve with four whole bananas and three toppings served in a metal sink.",
+            "why": "A long-running Logan diner at 690 Main St. whose sink-sized sundae comes with a bumper sticker for anyone who finishes it alone.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "Salt Lake Tribune feature of 2026-03-10 describes ordering the Kitchen Sink sundae at Angie's, 690 Main St., Logan, and KSL News of 2026-06-11 reports a June 2026 fundraiser night at the restaurant (viewed 2026-10-18).",
+            "source_url": "https://www.sltrib.com/artsliving/food/2026/03/10/beadmeatsfood-takes-kitchen-sink",
+            "source_name": "Salt Lake Tribune (March 2026)"
+          },
+          {
+            "name": "Aggie Ice Cream",
+            "kind": "dessert",
+            "meal": "snack",
+            "what_to_order": "The flavor list includes Huckleberry, Lemon Custard, Raspberry Sherbet and Peach Cobbler.",
+            "why": "Utah State University's own creamery, with two shops in Logan: the Creamery at 750 N 1200 E and Blue Square at 1111 N 800 E.",
+            "price_tier": null,
+            "hours_note": "Official page lists the Creamery Monday to Thursday 11am-9pm and Friday-Saturday 11am-10pm, Blue Square Monday to Saturday 11am-9pm, both closed Sundays; the page carries no year.",
+            "open_evidence": "USU's official events calendar lists Aggie Ice Cream events at Blue Square on 2026-06-19 and 2026-09-04, and the shop's own page lists a chocolate tasting on October 28 and turkey pickup through November 23 (no year stated); viewed 2026-10-18.",
+            "source_url": "https://www.usu.edu/aggieicecream/index.php",
+            "source_name": "Utah State University (Aggie Ice Cream official page)"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -12569,6 +13753,21 @@
         "itinerary_title": "Salt Lake City & Park City",
         "day_number": 6,
         "town": "Park City"
+      },
+      {
+        "itinerary_title": "Antelope Island to Bear Lake, Utah",
+        "day_number": 1,
+        "town": "Logan"
+      },
+      {
+        "itinerary_title": "Antelope Island to Bear Lake, Utah",
+        "day_number": 2,
+        "town": "Logan"
+      },
+      {
+        "itinerary_title": "Antelope Island to Bear Lake, Utah",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
@@ -12869,6 +14068,35 @@
             "source_name": "Walker Bakeshop's own website, with Edible DC feature (edibledc.com/my-sperryville)"
           }
         ]
+      },
+      {
+        "town": "Charlottesville",
+        "eats": [
+          {
+            "name": "The Nook",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Its own menu lists eggs Benedict with smoked salmon and southwest breakfast potatoes, banana French toast, and The Nook Burger.",
+            "why": "A family-run diner on East Main Street, on the Downtown Mall, that its own site says has served the town since 1951 and is marking its 75th year in 2026.",
+            "price_tier": null,
+            "hours_note": "Own site lists Monday through Sunday, 8:00am to 3:00pm; its specials section says it is updating specials.",
+            "open_evidence": "Own website lists current hours, menu and a 2026 copyright with a 75-years-since-1951 banner, and a C-VILLE Weekly feature dated 2026-08-12 on its 75th anniversary describes its current dishes (viewed 2026-10-18).",
+            "source_url": "https://thenookcville.com",
+            "source_name": "Venue's own website"
+          },
+          {
+            "name": "Michie Tavern",
+            "kind": "regional",
+            "meal": "lunch",
+            "what_to_order": "The daily midday buffet of 18th-century Southern recipes, which its dining page lists as including fried chicken, pulled pork barbecue, black-eyed peas, and cornbread and biscuits.",
+            "why": "The historic tavern sits at the foot of the road up to Monticello, so lunch fits between the Monticello tour and the rest of day two.",
+            "price_tier": null,
+            "hours_note": "Midday fare served 11:30 a.m. to 3:00 p.m., seven days a week; reservations only for groups of 15 or more; dinner is for private groups only. The dining page lists the adult buffet at $27.95.",
+            "open_evidence": "Own dining page lists current lunch hours and buffet prices and links a 2026 private-dinner flyer, and the homepage lists a 2026 feature (viewed 2026-10-18); the page itself shows no copyright year.",
+            "source_url": "https://www.michietavern.com/dining",
+            "source_name": "Venue's own website"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -12921,12 +14149,27 @@
         "itinerary_title": "Virginia Beach & the Historic Triangle",
         "day_number": 6,
         "town": "Williamsburg"
+      },
+      {
+        "itinerary_title": "Charlottesville, Monticello & Blue Ridge Wineries, Virginia",
+        "day_number": 1,
+        "town": "Charlottesville"
+      },
+      {
+        "itinerary_title": "Charlottesville, Monticello & Blue Ridge Wineries, Virginia",
+        "day_number": 2,
+        "town": "Charlottesville"
+      },
+      {
+        "itinerary_title": "Charlottesville, Monticello & Blue Ridge Wineries, Virginia",
+        "day_number": 3,
+        "town": "Charlottesville"
       }
     ]
   },
   {
     "region_key": "washington",
-    "last_verified_date": "2026-10-14",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Seattle",
@@ -13080,17 +14323,17 @@
       {
         "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
         "day_number": 1,
-        "town": "Ashford"
+        "town": null
       },
       {
         "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
         "day_number": 2,
-        "town": "Spokane"
+        "town": null
       },
       {
         "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
         "day_number": 3,
-        "town": "Spokane"
+        "town": null
       },
       {
         "itinerary_title": "Seattle → Denver: Rainier to the Rockies",
@@ -13151,6 +14394,21 @@
         "itinerary_title": "Seattle & the San Juan Islands",
         "day_number": 6,
         "town": "Seattle"
+      },
+      {
+        "itinerary_title": "Olympic Peninsula: Port Townsend to Rialto Beach",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Olympic Peninsula: Port Townsend to Rialto Beach",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Olympic Peninsula: Port Townsend to Rialto Beach",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
@@ -13276,7 +14534,7 @@
   },
   {
     "region_key": "wisconsin",
-    "last_verified_date": "2026-10-15",
+    "last_verified_date": "2026-10-18",
     "stops": [
       {
         "town": "Sturgeon Bay",
@@ -13456,6 +14714,23 @@
             "source_name": "Venue's own website"
           }
         ]
+      },
+      {
+        "town": "Baraboo",
+        "eats": [
+          {
+            "name": "Log Cabin Family Restaurant",
+            "kind": "diner",
+            "meal": "breakfast",
+            "what_to_order": "Breakfast and pie; per WiscNews the on-site bakery makes the pies and breads that go into the breakfast plates.",
+            "why": "A log-built family restaurant on the east side of Baraboo, handy before a Devil's Lake or Circus World day; Travel Wisconsin says it has sold over 1,000,000 slices of pie.",
+            "price_tier": null,
+            "hours_note": null,
+            "open_evidence": "WiscNews (John Gittings, 2 Aug 2025) ran a feature on the restaurant and its bakery and named it in a Baraboo dining roundup the same day, and Travel Wisconsin lists it (all viewed 2026-10-18); the article bodies are paywalled so only headlines, summaries and photo captions were read, and no page with current hours was found.",
+            "source_url": "https://wiscnews.com/life-entertainment/local/food-drink/article_749eb3b4-8baf-46a2-9266-254ca51d12c2.html",
+            "source_name": "WiscNews (Baraboo News Republic), 2 Aug 2025"
+          }
+        ]
       }
     ],
     "day_map": [
@@ -13503,6 +14778,36 @@
         "itinerary_title": "Milwaukee & Madison, Wisconsin",
         "day_number": 5,
         "town": "Spring Green"
+      },
+      {
+        "itinerary_title": "Madison, Baraboo & Devil's Lake, Wisconsin",
+        "day_number": 1,
+        "town": "Madison"
+      },
+      {
+        "itinerary_title": "Madison, Baraboo & Devil's Lake, Wisconsin",
+        "day_number": 2,
+        "town": "Baraboo"
+      },
+      {
+        "itinerary_title": "Madison, Baraboo & Devil's Lake, Wisconsin",
+        "day_number": 3,
+        "town": "Baraboo"
+      },
+      {
+        "itinerary_title": "Mississippi River Bluffs: Red Wing to Winona",
+        "day_number": 1,
+        "town": null
+      },
+      {
+        "itinerary_title": "Mississippi River Bluffs: Red Wing to Winona",
+        "day_number": 2,
+        "town": null
+      },
+      {
+        "itinerary_title": "Mississippi River Bluffs: Red Wing to Winona",
+        "day_number": 3,
+        "town": null
       }
     ]
   },
