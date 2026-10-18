@@ -340,6 +340,36 @@ the destination's own site is unreachable, a *foreign* government's page about t
 country — UK FCDO, Global Affairs Canada — is an acceptable fallback, and the record is
 expected to say so in the field rather than implying a first-hand citation.
 
+**Content round 5 (October 2026): ten countries added.** France, Italy, Spain, Portugal,
+Greece, UK, Canada, Australia, South Korea, South Africa: each a country guide, visa rules for
+the 8 passports (7 where the passport *is* the destination, since the app treats a citizen as
+"no visa needed" in code), and 2 itineraries. Totals after: 29 guides, 28 destinations, 232
+rules, 134 itineraries (36 international). Process lessons worth keeping:
+- `scripts/content-research-contract.md` is the briefing every research agent gets (sources,
+  budget, per-artifact shape, how to treat ETA-style schemes: an authorisation that is actually
+  required is `e-visa`, and the text must say whether it is in force *today*; EU citizens inside
+  the EU are `visa-free` with `max_stay_days` null). Each validator now has `--dry-run`, so an
+  agent can self-check without touching the seed files.
+- **A cascade can live in a normal rule**: Canada has a second Brazil row with
+  `requires_held_document_country: "USA"` (eTA instead of a visa for holders of a valid US visa).
+- **Dates that will go stale before a 2027 release**: ETIAS (scheduled Q4 2026 and not in force
+  when researched), South Korea's K-ETA waiver (ends 2026-12-31), South Africa's India ETA
+  becoming compulsory. Every record is dated 2026-10-17. Re-verify everything shortly before
+  launch; the checker flags a rule stale after 180 days regardless.
+- **Geocoding non-US itineraries**: `geocode_itineraries.py` (one country code, best-ranked hit)
+  mis-resolved about 1 day in 4 for these countries (Monaco and the Calanques to Corsica, Amboise
+  to the Somme, Faro to a street in Sintra). `scripts/geocode_round.py` picks the candidate
+  nearest the trip's running position, and `scripts/geocode_round_overrides.json` pins the hard
+  days with a query plus a `must` region token the result has to contain. Always run it with
+  `--dry-run` and read every line; a coordinate that is plausible but wrong passes every check.
+  A day it cannot resolve is left empty rather than guessed (one Mallorca day).
+- **Adding content must not use `npm run seed`** (destructive, severs every user trip's
+  itinerary link). Use `npx tsx prisma/seed-additive.ts` (insert-only: missing itineraries by
+  title, missing visa rules by key; `--dry-run` first) plus
+  `npx tsx prisma/seed-countries.ts <names>` for new country guides.
+- New itineraries have **no road-food data** (`seed:eats`); the international route eats are
+  per-route and none were researched for these.
+
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via
