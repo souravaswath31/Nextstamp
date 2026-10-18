@@ -1080,6 +1080,298 @@
     "longitude": 31.39927
   },
   {
+    "country": "France",
+    "iso2": "FR",
+    "currency_code": "EUR",
+    "currency_name": "Euro",
+    "primary_timezone": "Europe/Paris",
+    "timezone_label": "CEST (UTC+2, summer time in effect)",
+    "timezone_note": "This record covers metropolitan France only (mainland France and Corsica), which uses a single time zone, Europe/Paris. France's overseas departments and territories use other zones (France.fr lists Guadeloupe and Martinique at -5, Mayotte and La Reunion at +3, New Caledonia at +11) and are not covered here. Per service-public.gouv.fr, clocks go back one hour on the night of 24 to 25 October 2026 (3 a.m. becomes 2 a.m.), so metropolitan France returns to CET (UTC+1) on 25 October 2026; the label above reflects the state on 17 October 2026, and the same page says the switches follow the last Sundays of March and October.",
+    "passport_validity_rule": "France is in the Schengen area. The EU's Your Europe portal states that for a short stay the passport should be valid for at least 3 months after the date you intend to leave the EU and must have been issued within the last 10 years; France's service-public.gouv.fr states the same ten-year issue limit and a margin of at least three months beyond planned departure. Short stays are limited to 90 days in any 180-day period across the whole Schengen area. This applies to metropolitan France.",
+    "passport_validity_months_beyond_entry": 3,
+    "passport_validity_basis": "exit",
+    "blank_pages_required": null,
+    "onward_ticket_required": null,
+    "entry_requirement_notes": "ETIAS is NOT in force today (17 October 2026). The European Commission's ETIAS page states that ETIAS 'is currently not in operation and no applications for travel authorisations are collected at this point' and that the EU will announce the start date several months before launch; that page is dated 6 October 2025. France's diplomatie.gouv.fr page (April 2026) says it expects ETIAS in the last quarter of 2026, but that is an expectation, not a confirmed date, and no start date was found on any official page opened for this record, so do not treat any date as fact and check travel-europe.europa.eu before travelling. When it starts it will be a pre-travel authorisation (not a visa) for visa-exempt nationals; the French MFA page gives a fee of EUR 20, validity of three years or until the passport expires, and exemption for people under 18 or over 70. What is already live is the Entry/Exit System (EES): per diplomatie.gouv.fr it was phased in from 12 October 2025 and fully operational from 10 April 2026, replaces passport stamping, and records entry, exit and length of stay with a facial image and (except for under-12s) fingerprints; holders of long-stay visas and residence permits are not registered. Whether you need a Schengen visa depends on nationality (see the visa rules for your passport and france-visas.gouv.fr). Official pages opened for this record did not state an onward-ticket requirement, a minimum number of blank passport pages for visa-exempt visitors, or a proof-of-funds figure, so those are left null rather than guessed.",
+    "passport_source_url": "https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm",
+    "health": {
+      "required_vaccinations": [],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (chickenpox, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "COVID-19",
+        "Measles (all international travellers fully vaccinated with MMR)",
+        "Hepatitis A (for smaller cities, villages, rural areas or street food)",
+        "Hepatitis B (unvaccinated travellers under 60)",
+        "Rabies (depending on activities and access to post-exposure care)",
+        "Mpox (only for travellers with specific higher-risk exposures)"
+      ],
+      "malaria_risk": "None listed on CDC's France page",
+      "notes": "No vaccination is a condition of entry: CDC's France page states yellow fever vaccine is not recommended and not required for entry, and everything in the recommended list is medical advice only. CDC's page, last updated 23 April 2025, has no malaria section; it notes bug bites can spread disease in France (use repellent) and lists a Level 1 notice mainly about rising global measles cases (28 May 2025). Tick-borne encephalitis appears on the page with no France-specific recommendation. CDC is used as a fallback because no French health-ministry page was opened for this record.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/france"
+    },
+    "money": {
+      "card_acceptance": "France.fr states 'Credit cards are accepted in a large number of shops, hotels, and restaurants' and that shopkeepers often state a minimum charge, and that virtually all ATMs take Visa and MasterCard. The article was last updated on 6 March 2019, so treat contactless and minimum-spend details as unverified.",
+      "cash_culture": null,
+      "tipping": "France.fr states that almost all restaurants include tax and a 15% service charge in their prices (service compris), that a 15% tip is appropriate where service is not included (service non compris), 10-15% of the metered fare for taxi drivers, and about 1.50 EUR each for hotel porters and chambermaids (article last updated 6 March 2019). Tips are customary, not mandatory; the consumer agency DGCCRF's page could not be opened to confirm the legal position.",
+      "atm_notes": "France.fr advises that ATMs often have the best exchange rates, that withdrawing cash on a credit card is treated as a cash advance, that most French ATM keypads have numbers only (convert any letters in a PIN), and to tell your card company you will be abroad. Non-EU residents can claim VAT refunds on purchases over 175 EUR at a single store (per the same 2019 article; check current thresholds).",
+      "source_url": "https://www.france.fr/en/article/money-france/"
+    },
+    "power": {
+      "plug_types": [
+        "E"
+      ],
+      "voltage": "220V (as stated by France.fr)",
+      "frequency": "50Hz",
+      "adapter_note": "France.fr states electricity runs on a 220-volt, 50-hertz AC current, that France uses a Type E plug (a round pin plus a grounding pin), that visitors bringing appliances need a plug adapter, and that a voltage transformer may also be needed though most major appliances now have one built in. The article is dated 22 March 2012, so the 220V figure is the tourism board's wording; the IEC's World Plugs could not be opened to cross-check.",
+      "source_url": "https://www.france.fr/en/article/what-are-electricity-requirements-france/"
+    },
+    "emergency": {
+      "police": "17",
+      "ambulance": "15",
+      "fire": "18",
+      "universal": "112",
+      "tourist_police": null,
+      "notes": "service-public.gouv.fr lists 15 as the Samu (emergency medical assistance), 17 as police or gendarmerie, 18 as firefighters and 112 as the European emergency number. The same page lists 114 for deaf and hard-of-hearing callers (France.fr's German-language page says this works by SMS or chat), 196 for maritime rescue, 191 for aeronautical rescue, 115 for social emergencies and 119 for children in danger. France.fr describes 112 as working without an active SIM or credit and routing you to police, ambulance or fire. 0 800 112 112 is a free callback line and does not take emergency calls. 116 117 is for urgent non-life-threatening care outside surgery hours. No dedicated tourist police line was found on an official page, so that field is null.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/actualites/A17758?lang=en"
+    },
+    "getting_around": {
+      "summary": "Metropolitan France's long-distance backbone is rail. France.fr describes TGV INOUI as high-speed travel at up to 300 km/h linking Paris with Lyon, Marseille, Strasbourg and Bordeaux in roughly 2 to 3 hours, and Paris to Nice in under 6 hours; slower regional TER trains serve towns, vineyards and coastal villages. SNCF Connect states tickets for TGV INOUI and Intercites open on set dates (12 November 2026 for TGV INOUI travel from 7 January to 2 July 2027, and for Intercites travel through 31 March 2027), and that OUIGO Classique tickets go on sale 60 days before departure. No official fare for any TGV, Intercites or OUIGO journey was found, so none is given here: fares vary by date and booking time, so check SNCF Connect. In Paris and the Ile-de-France, Ile-de-France Mobilites runs the metro, RER, trains, trams and buses on a shared ticket and pass system.",
+      "passes": [
+        {
+          "name": "Ile-de-France single tickets (metro-train-RER and bus-tram)",
+          "covers": "Ile-de-France Mobilites' 2026 tariff release lists a metro-train-RER ticket at 2.55 EUR (reduced 1.30 EUR) and a bus-tram ticket at 2.05 EUR (reduced 1.05 EUR).",
+          "worth_it": "Fine for occasional trips. The release was published ahead of the IDFM board vote of 10 December 2025 and states the fares are for entry into force on 1 January 2026; confirm at the station or on iledefrance-mobilites.fr, and note the airport fare and Paris Visite tourist pass were not verified and are not listed.",
+          "buy_before_arrival": false
+        },
+        {
+          "name": "Navigo Semaine (weekly) and Navigo Mois (monthly) passes",
+          "covers": "All-zone Navigo passes for the Ile-de-France network; IDFM's 2026 release lists Navigo Semaine at 32.40 EUR (reduced 16.20 EUR) and Navigo Mois at 90.80 EUR (reduced 45.40 EUR).",
+          "worth_it": "At the 2.55 EUR single-ticket fare the weekly price equals about 13 single trips, so it pays off only if you ride the network heavily across a week. Same caveat as above: figures come from a release dated before the December 2025 vote.",
+          "buy_before_arrival": false
+        },
+        {
+          "name": "SNCF long-distance tickets (TGV INOUI, Intercites, OUIGO)",
+          "covers": "Point-to-point tickets for France's high-speed and intercity trains, sold on SNCF Connect; no national pass was found on an official page.",
+          "worth_it": "Not a pass: book each journey. Sales open on the dates SNCF Connect lists (see summary), so for peak travel dates buy as soon as sales open.",
+          "buy_before_arrival": true
+        }
+      ],
+      "source_url": "https://www.france.fr/en/article/Rail-Europe/"
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": null,
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": null
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 7,
+        "avg_low_c": 3,
+        "precipitation_note": "53.7 mm normal rainfall; mean daily max 6.9 C and min 2.5 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data). Meteo-France's own Paris-Montsouris station page was opened but showed only annual 1991-2020 normals (no monthly table), so these monthly figures are the older 1971-2000 normals published by the WMO.",
+        "crowd_note": "Cold, grey and short days; among the quieter months for visitors outside the New Year period (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 8,
+        "avg_low_c": 3,
+        "precipitation_note": "43.7 mm normal rainfall; mean daily max 8.2 C and min 2.8 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Still cold and quiet; the driest month of the year in this table (editorial judgement on crowds).",
+        "rating": "low"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 12,
+        "avg_low_c": 5,
+        "precipitation_note": "48.5 mm normal rainfall; mean daily max 11.8 C and min 5.1 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Spring starts to arrive but jackets are still needed; crowds build through the month (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 15,
+        "avg_low_c": 7,
+        "precipitation_note": "53.0 mm normal rainfall; mean daily max 14.7 C and min 6.8 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Mild and changeable; a popular spring month, so book rail and hotels ahead for Easter weeks (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 19,
+        "avg_low_c": 11,
+        "precipitation_note": "65.0 mm normal rainfall; mean daily max 19.0 C and min 10.5 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Warm and green with long evenings; one of the best-balanced months for city and countryside (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 22,
+        "avg_low_c": 13,
+        "precipitation_note": "54.6 mm normal rainfall; mean daily max 21.8 C and min 13.3 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Long days and comfortable warmth; busy at major sights (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 24,
+        "avg_low_c": 16,
+        "precipitation_note": "63.1 mm normal rainfall; mean daily max 24.4 C and min 15.5 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Warm and busiest at major sights and on the TGV; book ahead (editorial judgement). Heat waves can exceed the average.",
+        "rating": "peak"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 25,
+        "avg_low_c": 15,
+        "precipitation_note": "43.0 mm normal rainfall; mean daily max 24.6 C and min 15.4 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Warmest month in this table; many local residents holiday, so some small businesses in cities close while coasts are crowded (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 21,
+        "avg_low_c": 13,
+        "precipitation_note": "54.7 mm normal rainfall; mean daily max 20.8 C and min 12.5 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Warm days, cooler evenings and fewer crowds than July and August (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 16,
+        "avg_low_c": 9,
+        "precipitation_note": "59.7 mm normal rainfall; mean daily max 15.8 C and min 9.2 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Cooling and showery; autumn colour and thinner crowds. Clocks go back on 25 October 2026 (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 10,
+        "avg_low_c": 5,
+        "precipitation_note": "51.9 mm normal rainfall; mean daily max 10.4 C and min 5.3 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Cold, damp and dark early; low season for sightseeing (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 8,
+        "avg_low_c": 4,
+        "precipitation_note": "58.7 mm normal rainfall; mean daily max 7.8 C and min 3.6 C (1971-2000 base period, Paris (station Paris / Le Bourget) as published by the WMO World Weather Information Service from Meteo-France data).",
+        "crowd_note": "Cold and wet, but Christmas markets and festive lights draw visitors in the run-up to Christmas (editorial judgement).",
+        "rating": "shoulder"
+      }
+    ],
+    "climate_reference_city": "Paris",
+    "climate_source_url": "https://worldweather.wmo.int/en/json/194_en.json",
+    "phrases": [
+      {
+        "phrase_en": "Hello / Good day",
+        "local": "Bonjour",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Good evening",
+        "local": "Bonsoir",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Goodbye",
+        "local": "Au revoir",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you",
+        "local": "Merci",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Please",
+        "local": "S'il vous plaît",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Excuse me / Sorry",
+        "local": "Excusez-moi",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Yes",
+        "local": "Oui",
+        "romanization": null
+      },
+      {
+        "phrase_en": "No",
+        "local": "Non",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How much is this?",
+        "local": "Combien ça coûte ?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "Où sont les toilettes ?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "I don't understand",
+        "local": "Je ne comprends pas",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Do you speak English?",
+        "local": "Parlez-vous anglais ?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Help!",
+        "local": "Au secours !",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Water, please",
+        "local": "De l'eau, s'il vous plaît",
+        "romanization": null
+      },
+      {
+        "phrase_en": "The bill, please",
+        "local": "L'addition, s'il vous plaît",
+        "romanization": null
+      },
+      {
+        "phrase_en": "A ticket to ..., please",
+        "local": "Un billet pour ..., s'il vous plaît",
+        "romanization": null
+      }
+    ],
+    "phrases_language": "French",
+    "sources": [
+      "https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F21921?lang=en",
+      "https://home-affairs.ec.europa.eu/policies/schengen/smart-borders/european-travel-information-authorisation-system_en",
+      "https://www.diplomatie.gouv.fr/en/services-to-foreigners/visiting-france/ees-the-new-european-border-entryexit-system-goes-live-on-10-april-2026",
+      "https://www.service-public.gouv.fr/particuliers/actualites/A17758?lang=en",
+      "https://www.france.fr/de/artikel/im-notfall-wen-muss-man-kontaktieren/",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/france",
+      "https://www.service-public.gouv.fr/particuliers/actualites/A15263?lang=en",
+      "https://www.france.fr/en/article/practical-conversions/",
+      "https://www.france.fr/en/article/what-are-electricity-requirements-france/",
+      "https://www.france.fr/en/article/money-france/",
+      "https://www.france.fr/en/article/Rail-Europe/",
+      "https://www.sncf-connect.com/en-ch/help/ticket-sales-opening",
+      "https://presse.iledefrance-mobilites.fr/tarifs-navigo-2026-une-evolution-tarifaire-limitee-pour-accompagner-loffre-supplementaire/",
+      "https://worldweather.wmo.int/en/json/194_en.json",
+      "https://worldweather.wmo.int/en/json/full_city_list.txt",
+      "https://meteofrance.com/climat/normales/france/ile-de-france/PARIS-MONTSOURIS"
+    ],
+    "last_verified_date": "2026-10-17",
+    "latitude": null,
+    "longitude": null
+  },
+  {
     "country": "Georgia",
     "iso2": "GE",
     "currency_code": "GEL",
@@ -1343,6 +1635,302 @@
     "last_verified_date": "2026-09-28",
     "latitude": 41.693459,
     "longitude": 44.801449
+  },
+  {
+    "country": "Greece",
+    "iso2": "GR",
+    "currency_code": "EUR",
+    "currency_name": "Euro",
+    "primary_timezone": "Europe/Athens",
+    "timezone_label": "EEST (UTC+3, summer time in effect)",
+    "timezone_note": "Greece uses a single time zone, Europe/Athens. The European Commission's summertime page lists Greece among the Eastern European Time (EET) members and states that Member States switch to summer time on the last Sunday of March and back to standard time on the last Sunday of October; the last Sunday of October 2026 is 25 October, so Greece returns from EEST (UTC+3) to EET (UTC+2) on 25 October 2026. The label above reflects the state on 17 October 2026. The WMO World Weather Information Service entry for Athens shows +0300 with daylight saving in effect.",
+    "passport_validity_rule": "Greece is in the Schengen area. The EU's Your Europe portal states that for a short stay the passport should be valid for at least 3 months after the date you intend to leave the EU and must have been issued within the last 10 years (the page was last checked 19 August 2026); the UK FCDO and the Government of Canada state the same 3-month margin beyond the date you leave the Schengen area. Short stays are limited to 90 days in any 180-day period across the whole Schengen area. The Greek National Tourism Organisation (visitgreece.gr) describes the same 90-days-within-six-months limit for visa-exempt nationals and refers other nationals to the Greek embassy or consulate.",
+    "passport_validity_months_beyond_entry": 3,
+    "passport_validity_basis": "exit",
+    "blank_pages_required": null,
+    "onward_ticket_required": null,
+    "entry_requirement_notes": "ETIAS is NOT in force today (17 October 2026). The European Commission's ETIAS page (dated 6 October 2025) states that ETIAS 'is currently not in operation and no applications for travel authorisations are collected at this point' and that the EU will announce the start date several months before launch. The Government of Canada's Greece advice, modified 5 October 2026, says applications are not yet open and to apply only through the official EU website once the system is launched. France's diplomatie.gouv.fr (April 2026) says ETIAS is expected in the last quarter of 2026 with a EUR 20 fee (free under 18 or over 70); that is an expectation, not a confirmed start date, and no confirmed date was found on any page opened for this record, so check travel-europe.europa.eu before travelling. When it starts it will be a pre-travel authorisation, not a visa, for visa-exempt nationals. The Entry/Exit System (EES) is already live: per diplomatie.gouv.fr it has been phased in since 12 October 2025 and is fully operational from 10 April 2026, replacing passport stamping, and Canada's advice says facial image and fingerprints are collected on entry with nothing to do before you travel. The UK FCDO page (undated in the text opened) says Greek authorities indicated they would not collect fingerprints and photos from UK travellers under EES; treat that as a statement about UK travellers that may have changed. Whether you need a Schengen visa depends on nationality (see the visa rules for your passport and the Greek embassy or consulate in your country). The FCDO says you may need to show a return or onward ticket and prove you have enough money; no Greek government page opened for this record states an onward-ticket rule, a minimum number of blank pages, or a proof-of-funds figure, so those fields are null rather than guessed. mfa.gr and civilprotection.gov.gr returned errors to automated fetches, so this record relies on EU, UK, Canadian, French and Greek tourism-board (GNTO) pages.",
+    "passport_source_url": "https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm",
+    "health": {
+      "required_vaccinations": [],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (chickenpox, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "COVID-19",
+        "Measles (all international travellers fully vaccinated with MMR, including an early infant dose for babies 6-11 months)",
+        "Hepatitis A (especially for smaller cities, villages, rural areas or street food)",
+        "Hepatitis B (unvaccinated travellers under 60)",
+        "Rabies (discuss with a clinician depending on activities and access to post-exposure care)",
+        "Mpox (only for travellers with specific higher-risk exposures)"
+      ],
+      "malaria_risk": "CDC's Greece page has no malaria section; the Government of Canada's advice says limited malaria transmission may occur but risk to travellers is very low",
+      "notes": "No vaccination is a condition of entry: CDC's Greece page states yellow fever vaccine is not required for entry and not recommended; everything in the recommended list is medical advice only. CDC's page was last reviewed 25 August 2026 (yellow fever section updated 23 April 2025) and carries a Level 1 notice about rising global measles cases (28 May 2025). EU travellers should carry an EHIC or equivalent, per visitgreece.gr; the UK FCDO says UK travellers need a GHIC or EHIC for medically necessary state healthcare, that it is not a substitute for travel insurance, and advises insurance covering local treatment and medical evacuation. The Government of Canada says health care is adequate but varies across the country. FCDO says to dial 112 or 166 for an ambulance. EODY (eody.gov.gr), the national public health organisation, returned an error to automated fetches, so CDC, FCDO and GNTO are used as fallbacks; no official statement on tap water or West Nile virus was opened.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/greece"
+    },
+    "money": {
+      "card_acceptance": null,
+      "cash_culture": null,
+      "tipping": null,
+      "atm_notes": "visitgreece.gr's travel tips state that credit card holders may take money from the ATMs of the collaborating banks, that its currency is the euro (banknotes 5 to 500 EUR; coins 1 and 2 EUR and 1 to 50 cents), and that bank hours are Mon-Thu 8:00-14:30 and Fri 8:00-13:30, closed on public holidays. Its 'Before you travel' page advises calling your bank or card company before travelling so they know you will use the card in Greece. No official source opened gave card-acceptance levels, tipping norms or VAT-refund thresholds, so those are null.",
+      "source_url": "https://www.visitgreece.gr/en/before-you-travel/travel-tips"
+    },
+    "power": {
+      "plug_types": [
+        "F"
+      ],
+      "voltage": "230V",
+      "frequency": "50Hz",
+      "adapter_note": "visitgreece.gr states electric power in Greece is 230 V / 50 Hz and the plugs are type F; its 'Before you travel' page adds that North American appliances need a transformer and British appliances need an adaptor. Non-official guides say type C plugs also fit the sockets; that was not confirmed by an official source, so only type F is listed here.",
+      "source_url": "https://www.visitgreece.gr/en/before-you-travel/travel-tips"
+    },
+    "emergency": {
+      "police": "100",
+      "ambulance": "166",
+      "fire": "199",
+      "universal": "112",
+      "tourist_police": "1571",
+      "notes": "visitgreece.gr (Greek National Tourism Organisation) lists 112 as the European emergency number, 100 police, 166 First Aid National Center (ambulances), 199 Fire Authority, 1571 Tourist Police (24/7), 1016 SOS Doctors and 210 77 93 777 for the Poisoning Phone Center. The Government of Canada's Greece page confirms 112 and 100 and 1571 for tourist police but does not list 166 or 199; the UK FCDO says to call 112 in immediate danger and to dial 112 or 166 for an ambulance, to call 112 if you see a wildfire, and to make sure your phone can receive emergency alerts (it points to @112Greece for official updates). Some non-official websites list 171 for the tourist police; the two official pages opened (GNTO and Canada) give 1571, so 1571 is used. No official page opened gave a coast guard number, so none is listed. civilprotection.gov.gr (the civil protection authority) returned HTTP 403 to automated fetches.",
+      "source_url": "https://www.visitgreece.gr/before-you-travel/health-safety"
+    },
+    "getting_around": {
+      "summary": "Islands: the Government of Canada's Greece advice states that ferries between mainland Greece and its islands meet European safety standards but that weather conditions and strong winds can cause cancellations or significant delays, and that the meltemi wind may bring high waves and disrupt transportation; the UK FCDO warns of regular strikes, sometimes called at short notice, that can disrupt buses, trains, ferries and air travel. No ferry operator timetable or the Ministry of Maritime Affairs' ferry pages could be opened (that ministry's passenger-rights portal and Coast Guard site returned HTTP 403 and the ministry site had an expired certificate), so no operator, route, journey time or fare is given here; check each operator's own page close to the date. Athens: OASA (the Athens urban transport organisation) runs buses and trolleybuses and sells the ATH.ENA ticket and card used across the city's transport; its Visit Athens page says Metro Line 3 connects the airport directly to Syntagma and that Airport Express buses X93, X95, X96 and X97 run on a 24-hour basis, and that you can pay with a contactless bank card or mobile wallet without pre-buying a ticket. Intercity rail: Hellenic Train runs the national passenger trains; its Athens-Thessaloniki page says the route runs daily with frequent services but states no journey time or fare, and links a timetable PDF, so no journey time is given here (third-party sites disagree). Hellenic Train sells single journeys, multi-trip cards and OASA interoperable tickets and offers online ticket purchase.",
+      "passes": [
+        {
+          "name": "ATH.ENA ticket: 90-minute, 24-hour and 5-day (Athens)",
+          "covers": "OASA's prices page lists the 90-minute ticket at 1.20 EUR (discounted 0.50 EUR), the 24-hour ticket at 4.10 EUR and the 5-day ticket at 8.20 EUR. The 90-minute and 5-day tickets exclude the airport routes and the X80 bus line; the 24-hour ticket is not valid on the Airport Express buses or on Metro Line 3 between Koropi and the airport, and is valid on the X80.",
+          "worth_it": "The 24-hour ticket pays for itself after about four 90-minute tickets (4.10 against 1.20 each). The prices page carries no effective date and a 2023 footer, so confirm current fares at oasa.gr or at the station.",
+          "buy_before_arrival": false
+        },
+        {
+          "name": "3-day tourist ticket (Athens)",
+          "covers": "OASA lists it at 20.00 EUR; its Visit Athens page says it gives unlimited city travel for three days plus one ride to and one ride from the airport on the X93, X95, X96, X97 or the metro.",
+          "worth_it": "Compare with the separate airport tickets OASA lists: Airport Express bus 5.50 EUR one way, Metro airport ticket 9.00 EUR one way (16.00 EUR for the 2-way ticket, valid 30 days), plus 24-hour tickets for city travel. Same undated-prices caveat as above.",
+          "buy_before_arrival": false
+        },
+        {
+          "name": "Hellenic Train tickets (intercity and regional)",
+          "covers": "Point-to-point tickets, multi-trip cards and OASA interoperable tickets, sold on Hellenic Train's own site and at sale points. No national rail pass was found on an official page.",
+          "worth_it": "Not a pass: book each journey on hellenictrain.gr. No fare or journey time was stated on the official pages opened.",
+          "buy_before_arrival": true
+        }
+      ],
+      "source_url": "https://www.oasa.gr/en/visit-athens/"
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": null,
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": null
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 13,
+        "avg_low_c": 5,
+        "precipitation_note": "56.9 mm normal rainfall over 12.6 rain days; mean daily max 12.5 C and min 5.2 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Mild but the wettest part of the year; city sights are quiet (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 14,
+        "avg_low_c": 5,
+        "precipitation_note": "46.7 mm normal rainfall over 10.4 rain days; mean daily max 13.5 C and min 5.4 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Cool and still quiet; island ferries and many island businesses run reduced winter schedules (editorial judgement, ferry point not sourced).",
+        "rating": "low"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 16,
+        "avg_low_c": 7,
+        "precipitation_note": "40.7 mm normal rainfall over 10.2 rain days; mean daily max 15.7 C and min 6.7 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Warming up with spring flowers; crowds start to build late in the month (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 20,
+        "avg_low_c": 10,
+        "precipitation_note": "30.8 mm normal rainfall over 8.1 rain days; mean daily max 20.2 C and min 9.6 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Pleasant sightseeing weather; Easter weeks are busy, book ahead (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 26,
+        "avg_low_c": 14,
+        "precipitation_note": "22.7 mm normal rainfall over 6.2 rain days; mean daily max 26.0 C and min 13.9 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Warm, dry and not yet at peak summer heat; one of the best-balanced months for Athens and the mainland (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 31,
+        "avg_low_c": 18,
+        "precipitation_note": "10.6 mm normal rainfall over 3.7 rain days; mean daily max 31.1 C and min 18.2 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Hot and dry; busy at major sites and on the islands (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 34,
+        "avg_low_c": 21,
+        "precipitation_note": "5.8 mm normal rainfall over 1.9 rain days; mean daily max 33.5 C and min 20.8 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Hottest period in the table with the least rain; peak crowds and heat; Canada's advice says wildfires are common between July and September (editorial judgement on crowds).",
+        "rating": "peak"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 33,
+        "avg_low_c": 21,
+        "precipitation_note": "6.0 mm normal rainfall over 1.7 rain days; mean daily max 33.2 C and min 20.7 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Same heat as July and the busiest holiday month on the islands; wildfire season (editorial judgement on crowds; wildfire timing per Government of Canada).",
+        "rating": "peak"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 29,
+        "avg_low_c": 17,
+        "precipitation_note": "13.9 mm normal rainfall over 3.3 rain days; mean daily max 29.2 C and min 17.3 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Still warm, sea warm, and crowds thin compared with August (editorial judgement); Canada's advice still lists wildfires through September.",
+        "rating": "peak"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 23,
+        "avg_low_c": 13,
+        "precipitation_note": "52.6 mm normal rainfall over 7.2 rain days; mean daily max 23.3 C and min 13.4 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Warm days that cool down, with rain returning; thinner crowds (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 18,
+        "avg_low_c": 10,
+        "precipitation_note": "58.3 mm normal rainfall over 9.7 rain days; mean daily max 18.1 C and min 9.8 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "Cooler and wetter; low season for sightseeing and islands (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 14,
+        "avg_low_c": 7,
+        "precipitation_note": "69.1 mm normal rainfall over 12.1 rain days; mean daily max 14.1 C and min 6.8 C (Athens station as published by the WMO World Weather Information Service from Hellenic National Meteorological Service data; the WWIS entry gives 1955-1997 as the period for the rainfall figures and states no period for the temperatures, and the entry dates from 2001, so treat these as old normals).",
+        "crowd_note": "The wettest month in the table; short days, quiet outside the festive period (editorial judgement).",
+        "rating": "low"
+      }
+    ],
+    "climate_reference_city": "Athens",
+    "climate_source_url": "https://worldweather.wmo.int/en/json/177_en.json",
+    "phrases": [
+      {
+        "phrase_en": "Hello / Good day",
+        "local": "Γεια σας",
+        "romanization": "Yia sas"
+      },
+      {
+        "phrase_en": "Good morning",
+        "local": "Καλημέρα",
+        "romanization": "Kaliméra"
+      },
+      {
+        "phrase_en": "Good evening",
+        "local": "Καλησπέρα",
+        "romanization": "Kalispéra"
+      },
+      {
+        "phrase_en": "Goodbye",
+        "local": "Αντίο",
+        "romanization": "Adío"
+      },
+      {
+        "phrase_en": "Thank you",
+        "local": "Ευχαριστώ",
+        "romanization": "Efcharistó"
+      },
+      {
+        "phrase_en": "Please / You're welcome",
+        "local": "Παρακαλώ",
+        "romanization": "Parakaló"
+      },
+      {
+        "phrase_en": "Excuse me / Sorry",
+        "local": "Συγγνώμη",
+        "romanization": "Signómi"
+      },
+      {
+        "phrase_en": "Yes",
+        "local": "Ναι",
+        "romanization": "Ne"
+      },
+      {
+        "phrase_en": "No",
+        "local": "Όχι",
+        "romanization": "Óchi"
+      },
+      {
+        "phrase_en": "How much is this?",
+        "local": "Πόσο κάνει;",
+        "romanization": "Póso káni?"
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "Πού είναι η τουαλέτα;",
+        "romanization": "Pou íne i tualéta?"
+      },
+      {
+        "phrase_en": "I don't understand",
+        "local": "Δεν καταλαβαίνω",
+        "romanization": "Den katalavéno"
+      },
+      {
+        "phrase_en": "Do you speak English?",
+        "local": "Μιλάτε αγγλικά;",
+        "romanization": "Miláte angliká?"
+      },
+      {
+        "phrase_en": "Help!",
+        "local": "Βοήθεια!",
+        "romanization": "Voíthia!"
+      },
+      {
+        "phrase_en": "Water, please",
+        "local": "Νερό, παρακαλώ",
+        "romanization": "Neró, parakaló"
+      },
+      {
+        "phrase_en": "The bill, please",
+        "local": "Τον λογαριασμό, παρακαλώ",
+        "romanization": "Ton logariasmó, parakaló"
+      }
+    ],
+    "phrases_language": "Greek",
+    "sources": [
+      "https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm",
+      "https://home-affairs.ec.europa.eu/policies/schengen/smart-borders/european-travel-information-authorisation-system_en",
+      "https://www.diplomatie.gouv.fr/en/services-to-foreigners/visiting-france/ees-the-new-european-border-entryexit-system-goes-live-on-10-april-2026",
+      "https://travel.gc.ca/destinations/greece",
+      "https://www.gov.uk/foreign-travel-advice/greece",
+      "https://www.gov.uk/foreign-travel-advice/greece/entry-requirements",
+      "https://www.gov.uk/foreign-travel-advice/greece/health",
+      "https://www.gov.uk/foreign-travel-advice/greece/safety-and-security",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/greece",
+      "https://www.visitgreece.gr/en/before-you-travel/passports-visas",
+      "https://www.visitgreece.gr/before-you-travel/health-safety",
+      "https://www.visitgreece.gr/en/before-you-travel/travel-tips",
+      "https://www.visitgreece.gr/before-you-travel/",
+      "https://www.visitgreece.gr/en/before-you-travel/climate",
+      "https://transport.ec.europa.eu/transport-themes/summertime_en",
+      "https://www.oasa.gr/en/tickets/prices-of-products/",
+      "https://www.oasa.gr/en/visit-athens/",
+      "https://www.hellenictrain.gr/en",
+      "https://www.hellenictrain.gr/en/athens-thessaloniki",
+      "https://worldweather.wmo.int/en/json/177_en.json",
+      "https://worldweather.wmo.int/en/json/full_city_list.txt"
+    ],
+    "last_verified_date": "2026-10-17",
+    "latitude": null,
+    "longitude": null
   },
   {
     "country": "Indonesia",
@@ -1621,6 +2209,289 @@
     "last_verified_date": "2026-09-28",
     "latitude": -8.672337,
     "longitude": 115.226234
+  },
+  {
+    "country": "Italy",
+    "iso2": "IT",
+    "currency_code": "EUR",
+    "currency_name": "Euro",
+    "primary_timezone": "Europe/Rome",
+    "timezone_label": "CEST (UTC+2, summer time in effect)",
+    "timezone_note": "Italy has a single time zone, Central European Time (CET, UTC+1), and moves to UTC+2 for summer time (italia.it). The Italian tourism portal says the clocks change overnight between Saturday and Sunday and the exact dates change each year. Under the EU-wide rule as recorded in the IANA tz database for Europe/Rome, summer time (CEST, UTC+2) began on 29 March 2026 and ends on 25 October 2026, when clocks return to CET (UTC+1); that date pair is the IANA/EU schedule and was not read off an Italian government page. The label above reflects the state on 2026-10-17.",
+    "passport_validity_rule": "Italy applies the Schengen rule. The Italian tourism portal (italia.it) states that non-EU visitors need a passport valid for at least three months after the planned date of departure from the Schengen Area; the UK FCDO's Italy entry guidance adds that the passport must also have been issued less than 10 years before the date of arrival (passports renewed before 1 October 2018 may fail this test). The three months run from leaving the Schengen Area, not from arriving in Italy. EU and Schengen-country citizens may use a valid national ID card instead of a passport.",
+    "passport_validity_months_beyond_entry": 3,
+    "passport_validity_basis": "exit",
+    "blank_pages_required": null,
+    "onward_ticket_required": null,
+    "entry_requirement_notes": "Visa-free short stays are Schengen-wide: the UK FCDO states that visitors who do not need a visa may stay up to 90 days in any 180-day period across the Schengen Area, with earlier Schengen visits in the previous 180 days counting toward the 90. ETIAS is NOT in force today (checked 2026-10-17): the European Commission's Migration and Home Affairs page states ETIAS \"is currently not in operation and no applications for travel authorisations are collected at this point\", and its 28 April 2026 article says it is scheduled to start in the last quarter of 2026 with the exact date to be communicated later; no start date had been published on the pages checked. The UK government warns that websites selling ETIAS authorisations now are fraudulent. The separate Entry/Exit System (EES) IS operating: the Commission says it has been fully operational across all Schengen countries since 10 April 2026 (the UK government dates its start to 12 October 2025), so non-EU visitors may be asked for fingerprints and a photo at the border, free of charge, and should allow longer queues. The FCDO says that at Italian border control you may be asked to show accommodation proof, travel insurance, a return or onward ticket and enough money for the stay; this is stated as something you may need to show, not as a fixed rule with a published amount, so onward_ticket_required is left null. Cash or travellers' cheques worth 10,000 euros or more must be declared on entry or exit (FCDO). Registration: hotels and other accommodation providers register guests with the police; a visitor arriving from another Schengen country who is not staying somewhere that does so must file a declaration of presence with the local questura within 8 days (FCDO and italia.it). Italian police can stop you for an identity check at any time, so carry photo ID (FCDO). Tourist tax: many major Italian cities charge a small per-night tourist tax that varies by city and hotel star rating and is usually collected by the hotel, often in cash (FCDO). Italy's own foreign ministry pages (esteri.it, viaggiaresicuri.it) and travel-europe.europa.eu could not be read by an automated fetch, so the rules above come from the italia.it tourism portal, the European Commission's home-affairs pages and the UK FCDO as fallbacks.",
+    "passport_source_url": "https://www.italia.it/en/italy/practical-information/travel-document-italy",
+    "health": {
+      "required_vaccinations": [],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (chickenpox, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "COVID-19",
+        "Measles (MMR), including an early dose for infants 6-11 months",
+        "Hepatitis A",
+        "Hepatitis B",
+        "Mpox (for adults expecting certain activities, per CDC)",
+        "Rabies (depending on activities and access to post-exposure care)",
+        "Tick-borne encephalitis (for extensive tick exposure in endemic areas)"
+      ],
+      "malaria_risk": "None listed - the CDC's Italy page lists no malaria risk or prevention guidance.",
+      "notes": "Nothing is checked at the border: the CDC states Italy does not require yellow fever vaccination and does not recommend it for Italy. Other CDC-listed risks are dengue and leishmaniasis (insect and sand-fly bites) and leptospirosis from contaminated water or soil; the UK FCDO adds ticks, West Nile disease and altitude sickness in the Alps and Dolomites. Italy's tourism portal says medical assistance is guaranteed to anyone who goes to a public hospital or similar facility, that foreign nationals temporarily visiting are entitled to basic dental care, and recommends buying travel health insurance before departure. The FCDO notes that UK prescriptions are not accepted, that pharmacies are marked with a green cross, and that a GHIC or EHIC covers medically necessary state healthcare but is not a substitute for travel insurance. Call 118 for an ambulance. No official source reached here stated whether tap water is safe to drink, so this record does not say.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/italy"
+    },
+    "money": {
+      "card_acceptance": "The Italian tourism portal states that in addition to cash you can pay with the most popular credit cards (Visa, Mastercard/Cirrus/Maestro, American Express, and the domestic Bancomat, Postamat and PagoBancomat systems), and that in larger centres you can pay with your smartphone through dedicated apps. It does not say how universal acceptance is among small businesses.",
+      "cash_culture": "The tourism portal gives no view on how cash-reliant Italy is. One official note on cash: the UK FCDO says hotels often ask for the city tourist tax in cash and advises getting a receipt.",
+      "tipping": "Italy's tourism portal states that tipping is not compulsory and there are no established rules; it says it is customary to leave about 10% of the bill if you were satisfied with the service.",
+      "atm_notes": "The tourism portal says banks with 24/7 ATMs are spread across Italy and that you can exchange currency or withdraw cash at airports, large train stations and banks or exchange agencies. It states no fee or limit information.",
+      "source_url": "https://www.italia.it/en/italy/practical-information/money-payments-and-tipping-in-italy"
+    },
+    "power": {
+      "plug_types": [
+        "C",
+        "L"
+      ],
+      "voltage": "220 V AC as stated by italia.it",
+      "frequency": "50 Hz",
+      "adapter_note": "italia.it says Italian sockets follow standard CEI 23-50 and are symmetrical and non-polarised, so a plug fits either way. It names the C-type socket (2 or 3 round holes) and the L-type socket (larger pins), and says the multistandard socket accepts all types of Italian plugs and the German Schuko plug. Adapters are sold in supermarkets, dedicated shops and most hotels. Check your device's rated input voltage before plugging in; the portal gives 220 V and 50 Hz.",
+      "source_url": "https://www.italia.it/en/italy/practical-information"
+    },
+    "emergency": {
+      "police": "113",
+      "ambulance": "118",
+      "fire": "115",
+      "universal": "112",
+      "tourist_police": null,
+      "notes": "italia.it states that the single number for emergencies in Italy is 112, free and dialled without a prefix, and lists State Police 113 (accidents, thefts, etc.), fire brigade 115 (fires, weather emergencies) and urgent medical help 118 (also relevant to mountain or cave rescue). Other numbers on the same page: sea rescue 1530, forest ranger 1515, travel information 1518, and Automobile Club d'Italia roadside assistance 803.116. The UK FCDO's Italy page lists the numbers slightly differently (118 ambulance, 115 fire, and 112 for police) and mentions the 112 Where ARE U app, which works only in some parts of Italy; both sources agree 112, 115 and 118, so 112 is the safe first call and the operator routes you. No official source consulted confirmed a dedicated tourist police line, so that field is null.",
+      "source_url": "https://www.italia.it/en/italy/practical-information/emergency-and-assistance"
+    },
+    "getting_around": {
+      "summary": "Rail is the backbone for visitors. italia.it says Trenitalia and Italo Treno run more than 300 daily connections between the big cities, and that Milan to Rome by high-speed train takes just over three hours; Italo's own site lists Rome-Florence 1h 30min, Milan-Florence 1h 55min, Rome-Naples 1h and Milan-Venice 2h 30min, and says its trains connect 51 major cities via 58 stations. Trenitalia's high-speed brand is Frecciarossa, alongside Frecciargento, Frecciabianca, Intercity and Regionale services. Tickets can be bought on each operator's website, via apps, at travel agencies or at station offices; check on regional tickets whether you must validate them at a station machine before boarding. In cities, italia.it says it is compulsory to buy a bus, tram or metro ticket at an authorised outlet (tobacconists, newsagents, bars) before boarding and validate it once on board; metros exist in Milan, Rome, Naples, Brescia, Turin, Catania and Genoa. No official operator page reached here gave a city transit pass price, so none is listed. Driving: the FCDO says you need a pass to drive into the historic centre of many Italian cities in a private or hire car; the boundaries are usually marked ZTL in black on a yellow background and passing the sign without a pass can lead to a fine. Italy's consulate in Toronto adds that ZTL cameras issue fines that are mailed to the owner's home country and that a rental company can pass on the driver's details. italia.it says ZTL rules vary by city, with signs at each entrance. Transport strikes are often called at short notice (FCDO).",
+      "passes": [
+        {
+          "name": "Trenitalia Pass",
+          "covers": "Trenitalia describes it on its English homepage as the offer dedicated to international visitors exploring Italy. The homepage does not state its price, validity or which trains it covers.",
+          "worth_it": "Not assessed: no price or coverage could be verified from an operator page. Compare against ordinary point-to-point fares on Trenitalia or Italo before buying.",
+          "buy_before_arrival": null
+        }
+      ],
+      "source_url": "https://www.italia.it/en/italy/practical-information/how-to-travel-around-italy"
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": "italia.it says you can use a SIM card from an Italian operator with your chosen amount of data, and recommends buying an Italian SIM for longer stays to keep costs down. It also says hotels, transport providers and many bars, restaurants and attractions offer free Wi-Fi, and that Piazza Wi-Fi Italia is a national free network with an offline hotspot map in the wifi.italia.it app. It advises checking roaming tariffs beforehand and points to europa.eu for roaming cost details. It does not mention eSIM or any ID requirement to buy a SIM.",
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": "https://www.italia.it/en/italy/practical-information/phones-internet-and-data-roaming-italy"
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 12,
+        "avg_low_c": 3,
+        "precipitation_note": "66.9 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Among the cooler, quieter months in Rome; New Year and Epiphany (6 January) are national holidays. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "low"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 13,
+        "avg_low_c": 4,
+        "precipitation_note": "73.3 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Typically a quieter, cooler month for city sightseeing. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "low"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 15,
+        "avg_low_c": 5,
+        "precipitation_note": "57.8 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Still cool and showery; sightseeing queues are shorter than in spring and summer. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 18,
+        "avg_low_c": 8,
+        "precipitation_note": "80.5 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Mild but one of the wetter spring months; Easter, Easter Monday and 25 April (Liberation Day) are national holidays and busy travel dates. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 23,
+        "avg_low_c": 12,
+        "precipitation_note": "52.8 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Warm and comparatively dry; 1 May is a national holiday and the main sightseeing season is under way. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "peak"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 27,
+        "avg_low_c": 15,
+        "precipitation_note": "34.0 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Warm to hot and drier; 2 June (Republic Day) is a national holiday. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "peak"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 30,
+        "avg_low_c": 18,
+        "precipitation_note": "19.2 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "The driest month in these Rome normals and among the hottest; expect heat in the middle of the day. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "peak"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 31,
+        "avg_low_c": 18,
+        "precipitation_note": "36.8 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "The warmest month on the normals; 15 August (Ferragosto) is a national holiday, when offices and most businesses close while bars, cafes and restaurants often stay open. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "peak"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 27,
+        "avg_low_c": 15,
+        "precipitation_note": "73.3 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Summer warmth easing, with rainfall picking up; a comfortable month for walking. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "peak"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 21,
+        "avg_low_c": 11,
+        "precipitation_note": "113.3 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Mild, but one of the wettest months in Rome; bring a rain layer. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 16,
+        "avg_low_c": 7,
+        "precipitation_note": "115.4 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "The wettest month in these normals; 1 November (All Saints) is a national holiday. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "low"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 13,
+        "avg_low_c": 4,
+        "precipitation_note": "81.0 mm normal for Rome (1971-2000 base period).",
+        "crowd_note": "Cool and damp; 8, 25 and 26 December are national holidays. Crowd and season ratings are editorial judgement, not met-service data.",
+        "rating": "shoulder"
+      }
+    ],
+    "climate_reference_city": "Rome",
+    "climate_source_url": "https://worldweather.wmo.int/en/json/201_en.json",
+    "phrases": [
+      {
+        "phrase_en": "Hello / Good day",
+        "local": "Buongiorno",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Hi / Bye (informal)",
+        "local": "Ciao",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Good evening",
+        "local": "Buonasera",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Goodbye",
+        "local": "Arrivederci",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Please",
+        "local": "Per favore",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you",
+        "local": "Grazie",
+        "romanization": null
+      },
+      {
+        "phrase_en": "You're welcome",
+        "local": "Prego",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Excuse me / Sorry",
+        "local": "Scusi",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Yes",
+        "local": "Sì",
+        "romanization": null
+      },
+      {
+        "phrase_en": "No",
+        "local": "No",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How much is this?",
+        "local": "Quanto costa?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "Dov'è il bagno?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Do you speak English?",
+        "local": "Parla inglese?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "I don't understand",
+        "local": "Non capisco",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Help!",
+        "local": "Aiuto!",
+        "romanization": null
+      },
+      {
+        "phrase_en": "The bill, please",
+        "local": "Il conto, per favore",
+        "romanization": null
+      }
+    ],
+    "phrases_language": "Italian",
+    "sources": [
+      "https://www.italia.it/en/italy/practical-information/travel-document-italy",
+      "https://www.gov.uk/foreign-travel-advice/italy/entry-requirements",
+      "https://www.gov.uk/foreign-travel-advice/italy/getting-help",
+      "https://www.gov.uk/foreign-travel-advice/italy/health",
+      "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security",
+      "https://www.gov.uk/guidance/eu-entryexit-system",
+      "https://home-affairs.ec.europa.eu/policies/schengen/smart-borders/european-travel-information-authorisation-system_en",
+      "https://home-affairs.ec.europa.eu/news/main-differences-between-ees-and-etias-what-travellers-need-know-2026-04-28_en",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/italy",
+      "https://www.italia.it/en/italy/practical-information",
+      "https://www.italia.it/en/italy/practical-information/emergency-and-assistance",
+      "https://www.italia.it/en/italy/practical-information/money-payments-and-tipping-in-italy",
+      "https://www.italia.it/en/italy/practical-information/time-zones-and-public-holidays-italy",
+      "https://www.italia.it/en/italy/practical-information/phones-internet-and-data-roaming-italy",
+      "https://www.italia.it/en/italy/practical-information/how-to-travel-around-italy",
+      "https://www.italia.it/en/italy/practical-information/medical-care-and-embassies-italy",
+      "https://constoronto.esteri.it/en/?p=960",
+      "https://www.trenitalia.com/en.html",
+      "https://www.italotreno.com/en",
+      "https://worldweather.wmo.int/en/json/201_en.json"
+    ],
+    "last_verified_date": "2026-10-17"
   },
   {
     "country": "Japan",
@@ -3290,6 +4161,297 @@
     "longitude": 121.032971
   },
   {
+    "country": "Portugal",
+    "iso2": "PT",
+    "currency_code": "EUR",
+    "currency_name": "Euro",
+    "primary_timezone": "Europe/Lisbon",
+    "timezone_label": "WEST (UTC+1, summer time in effect)",
+    "timezone_note": "Primary zone is Europe/Lisbon, which covers mainland Portugal; Madeira (Atlantic/Madeira) keeps the same clock as the mainland, while the Azores (Atlantic/Azores) run one hour behind it (UTC-1 in winter, UTC+0 in summer). The Azores and Madeira are not separate entries in this record; the zone differences are from the IANA database, not from a page opened for this record. Summer time follows the EU rule of the last Sunday of March to the last Sunday of October, so on 17 October 2026 mainland Portugal is on WEST (UTC+1) and clocks go back to WET (UTC+0) on Sunday 25 October 2026 (the last Sunday of October that year). A web search listed the Observatorio Astronomico de Lisboa (oal.ul.pt) as giving 25 October 2026 for the change, but its pages could not be opened (expired TLS certificate), so the date rests on the last-Sunday rule rather than on a page cited here.",
+    "passport_validity_rule": "Portugal is in the Schengen area. The EU's Your Europe portal states that for a short stay the passport should be valid for at least 3 months after the date you intend to leave the EU and must have been issued within the last 10 years (counted from the day you enter). UK FCDO's Portugal entry page gives the same two conditions. Portugal's own visa portal (vistos.mne.gov.pt), for visa applicants, asks for a travel document valid over 3 months after the date of exit. Short stays are limited to 90 days in any 180-day period across the whole Schengen area. This applies to the mainland, Madeira and the Azores.",
+    "passport_validity_months_beyond_entry": 3,
+    "passport_validity_basis": "exit",
+    "blank_pages_required": null,
+    "onward_ticket_required": null,
+    "entry_requirement_notes": "ETIAS is NOT in force today (17 October 2026), as far as any official page opened for this record shows. The European Commission's ETIAS page (dated 6 October 2025) states that ETIAS 'is currently not in operation and no applications for travel authorisations are collected at this point' and that the EU will announce the start date several months before launch. A later Commission news item (28 April 2026) says ETIAS 'is scheduled to start in the last quarter of 2026' with the exact date to be communicated later, and the French foreign ministry (April 2026) says it is 'not yet operational'. No page opened for this record announces an actual start date, so do not treat any date as fact; check travel-europe.europa.eu before you travel. When it starts it will be a pre-travel authorisation (not a visa) for visa-exempt nationals: the Commission gives a fee of EUR 20 (people under 18 or over 70 exempt from the fee) and validity of 3 years or until the passport expires. What is already live is the Entry/Exit System (EES): the Commission says it has been fully operational across all Schengen countries since 10 April 2026; per UK FCDO it replaces manual passport stamping, you may be asked to register fingerprints and a photo at the border, and the digital record is valid for 3 years. Whether you need a Schengen visa depends on nationality (see the visa rules for your passport and vistos.mne.gov.pt). Official pages say border officers may ask for proof of enough money and an onward or return ticket (FCDO), and Portugal's visa portal requires a return reservation and bank statements from visa applicants, but no page opened for this record states that visa-exempt visitors must hold an onward ticket as a fixed condition or gives a proof-of-funds figure, and the consulates quote differing figures, so onward_ticket_required, blank pages and funds are left null rather than guessed. FCDO's entry page gives no separate entry rules for Madeira or the Azores.",
+    "passport_source_url": "https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm",
+    "health": {
+      "required_vaccinations": [],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (chickenpox, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "COVID-19 (eligible travellers up to date)",
+        "Measles (all international travellers fully vaccinated with MMR)",
+        "Hepatitis A (especially for smaller cities, villages, rural areas or street food)",
+        "Hepatitis B (unvaccinated travellers under 60)",
+        "Rabies (pre-exposure vaccination to be decided with a healthcare provider)",
+        "Mpox (only for travellers with specific higher-risk exposures)"
+      ],
+      "malaria_risk": "None listed on CDC's Portugal page",
+      "notes": "No vaccination is a condition of entry: CDC's Portugal page states yellow fever vaccine is not recommended and not required for entry (page section last updated 23 April 2025; the page was last reviewed 25 August 2026). The recommended list is medical advice only. The page has no malaria section, carries only a Level 1 global measles notice (28 May 2025) and has no notices specific to Madeira or the Azores. It also names leptospirosis, leishmaniasis (sand fly bites), hantavirus and tuberculosis under non-vaccine-preventable risks and says road crashes are a major risk. Emergency care is via 112. For non-urgent medical advice, UK FCDO's health page lists SNS 24 on +351 808 24 24 24 on the mainland (press 9 for English), +351 800 24 24 20 for Madeira and Porto Santo, and +351 808 24 60 24 for the Azores, and says a GHIC or EHIC covers medically necessary state healthcare but is not an alternative to travel insurance. CDC and FCDO are used as fallbacks because no page from Portugal's health ministry (sns.gov.pt / dgs.pt) was opened for this record.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/portugal"
+    },
+    "money": {
+      "card_acceptance": null,
+      "cash_culture": null,
+      "tipping": null,
+      "atm_notes": null,
+      "source_url": null
+    },
+    "power": {
+      "plug_types": null,
+      "voltage": null,
+      "frequency": null,
+      "adapter_note": null,
+      "source_url": null
+    },
+    "emergency": {
+      "police": "112",
+      "ambulance": "112",
+      "fire": "112",
+      "universal": "112",
+      "tourist_police": null,
+      "notes": "UK FCDO's Portugal pages (a fallback; no Portuguese government emergency page could be opened) list one number, 112, for ambulance, fire and police, and say the police are the PSP (Policia de Seguranca Publica) in cities and the GNR (Guarda Nacional Republicana) in smaller towns and rural areas. The structured police, ambulance and fire fields therefore all hold 112. For non-emergency medical advice FCDO lists SNS 24 on 808 24 24 24 (mainland; press 9 for English), 800 24 24 20 (Madeira and Porto Santo) and 808 24 60 24 (Azores). No dedicated tourist police line and no separate direct ambulance or fire number was found on an official page, so tourist_police is null.",
+      "source_url": "https://www.gov.uk/foreign-travel-advice/portugal/getting-help"
+    },
+    "getting_around": {
+      "summary": "Long-distance travel on the mainland is led by CP (Comboios de Portugal). Per CP's own pages, the Alfa Pendular is its fastest service (maximum speed 220 km/h, introduced 1999; 301 seats, free Wi-Fi, a cafeteria and bar carriage) with Braga to Faro and Lisbon to Porto given as typical journeys, and Intercidades is a separate intercity service connecting the main cities (Minho to the Algarve, Lisbon to Porto, the Alentejo and the Centre). CP advertises up to 65% off when you buy Alfa Pendular or Intercidades tickets in advance. No official journey time or fare for any route was opened for this record, so none is given: check the CP timetable and fares on cp.pt. Lisbon and Porto each run their own operator fares (see the passes below). Carris Metropolitana (the regional bus network around Lisbon), the Madeira and Azores bus and ferry networks, and domestic flights were not researched.",
+      "passes": [
+        {
+          "name": "Lisbon Carris/Metro single ticket and 24-hour tickets",
+          "covers": "Metro de Lisboa's 2026 fare sheet (effective 1 January 2026) lists a Carris/Metro single ticket at 1.90 EUR (one journey on the whole Carris/Metro network within 1 hour of first validation, not valid for consecutive Metro rides) and a 24-hour ticket for unlimited travel on Carris and Metro at 7.25 EUR, with variants adding Transtejo (Cacilhas) at 10.35 EUR and CP at 11.40 EUR. The sheet does not say which CP lines the 11.40 EUR ticket covers.",
+          "worth_it": "A 24-hour ticket at 7.25 EUR equals roughly four single tickets, so it pays off on a day of four or more separate journeys. The sheet also lists a navegante occasional card at 0.50 EUR to hold the ticket; confirm the current figures with Metro de Lisboa or Carris before buying.",
+          "buy_before_arrival": false
+        },
+        {
+          "name": "Porto Andante Tour and Andante 24 (Z2)",
+          "covers": "Metro do Porto's tariff in force from 1 January 2026 lists Andante Tour 1 at 7.75 EUR (24 consecutive hours from first validation) and Andante Tour 3 at 16.55 EUR (72 consecutive hours), and an Andante 24 ticket for zone Z2 at 5.35 EUR (24 hours in the zones bought). The Andante site says the Tour card works across the Andante intermodal network but not on the Funicular dos Guindais or the STCP tram, and cannot be topped up.",
+          "worth_it": "The Tour passes are for visitors using metro, bus and train widely, while the Andante 24 (Z2) is cheaper if you stay inside the zones you bought. Which zone your trips need was not checked, and the Metro do Porto page gave an Andante Azul (occasional) card at 0.60 EUR and a Z2 single at 1.40 EUR; check andante.pt for the zone map.",
+          "buy_before_arrival": false
+        },
+        {
+          "name": "CP long-distance tickets (Alfa Pendular, Intercidades)",
+          "covers": "Point-to-point tickets for CP's Alfa Pendular and Intercidades trains, sold on cp.pt; no national rail pass was found on an official page.",
+          "worth_it": "Not a pass: book each journey. CP advertises up to 65% off for advance purchase, so for fixed travel dates buy early; the discount terms were not read in full.",
+          "buy_before_arrival": true
+        }
+      ],
+      "source_url": "https://www.cp.pt/info/en/alfa-pendular-train"
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": null,
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": null
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 15,
+        "avg_low_c": 9,
+        "precipitation_note": "103.8 mm normal rainfall (10.0 days with 1 mm or more); mean daily max 15.1 C and min 8.6 C (1991-2020 normal, Lisboa / Instituto Geofisico, station 535, as published by IPMA, Portugal's met service). IPMA flags the series as hybrid (observed plus modelled data).",
+        "crowd_note": "Mild, wet and breezy with the fewest visitors outside the New Year period (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 16,
+        "avg_low_c": 9,
+        "precipitation_note": "77.8 mm normal rainfall (7.9 days with 1 mm or more); mean daily max 16.4 C and min 9.1 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA).",
+        "crowd_note": "Still cool and showery; quiet outside Carnival weekend (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 19,
+        "avg_low_c": 11,
+        "precipitation_note": "68.7 mm normal rainfall (7.6 days with 1 mm or more); mean daily max 18.9 C and min 11.0 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA).",
+        "crowd_note": "Spring warmth arrives and visitor numbers build through the month (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 20,
+        "avg_low_c": 12,
+        "precipitation_note": "71.8 mm normal rainfall (7.9 days with 1 mm or more); mean daily max 20.4 C and min 12.3 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA).",
+        "crowd_note": "Comfortable for walking the hills; busy around Easter, so book trains and rooms ahead (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 23,
+        "avg_low_c": 14,
+        "precipitation_note": "57.8 mm normal rainfall (5.8 days with 1 mm or more); mean daily max 23.1 C and min 14.4 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA).",
+        "crowd_note": "Warm, drier and long evenings; one of the best-balanced months for the city and day trips (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 26,
+        "avg_low_c": 17,
+        "precipitation_note": "14.1 mm normal rainfall (2.0 days with 1 mm or more); mean daily max 26.1 C and min 16.8 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA).",
+        "crowd_note": "Dry and sunny; busy with city festivals and crowded at major sights (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 28,
+        "avg_low_c": 18,
+        "precipitation_note": "2.6 mm normal rainfall (0.6 days with 1 mm or more); mean daily max 28.2 C and min 18.2 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA). Hot spells can exceed the average; IPMA's table counts on average 8.5 days at or above 30 C in July.",
+        "crowd_note": "Hot, dry and busy, especially on the coast; book ahead (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 29,
+        "avg_low_c": 19,
+        "precipitation_note": "5.4 mm normal rainfall (1.1 days with 1 mm or more); mean daily max 28.8 C and min 18.8 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA). The warmest month in the table; the station's record high of 43.3 C was set in August 2018. UK FCDO notes a high wildfire risk across Portugal from April to October.",
+        "crowd_note": "Peak domestic holiday month, so beaches and coastal towns are crowded and prices high (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 27,
+        "avg_low_c": 18,
+        "precipitation_note": "38.6 mm normal rainfall (3.8 days with 1 mm or more); mean daily max 26.6 C and min 17.6 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA).",
+        "crowd_note": "Still warm with fewer crowds than July and August (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 23,
+        "avg_low_c": 15,
+        "precipitation_note": "110.6 mm normal rainfall (8.7 days with 1 mm or more); mean daily max 22.8 C and min 15.3 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA). Clocks go back on 25 October 2026.",
+        "crowd_note": "Pleasant early on, then the rains return; thinner crowds (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 18,
+        "avg_low_c": 12,
+        "precipitation_note": "133.9 mm normal rainfall (9.9 days with 1 mm or more), the wettest month in the table; mean daily max 18.1 C and min 11.8 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA).",
+        "crowd_note": "Wet and grey spells with low visitor numbers (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 15,
+        "avg_low_c": 9,
+        "precipitation_note": "108.5 mm normal rainfall (10.0 days with 1 mm or more); mean daily max 15.4 C and min 9.4 C (1991-2020 normal, Lisboa / Instituto Geofisico, IPMA).",
+        "crowd_note": "Mild but wet; quiet until the Christmas and New Year rush in the city (editorial judgement).",
+        "rating": "shoulder"
+      }
+    ],
+    "climate_reference_city": "Lisbon",
+    "climate_source_url": "https://www.ipma.pt/bin/file.data/climate-normal/cn_91-20_LISBOA_GEOFISICO.pdf",
+    "phrases": [
+      {
+        "phrase_en": "Hello",
+        "local": "Olá",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Good morning / Good day",
+        "local": "Bom dia",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Good evening / Good night",
+        "local": "Boa noite",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Goodbye",
+        "local": "Adeus",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you (man / woman speaking)",
+        "local": "Obrigado / Obrigada",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Please",
+        "local": "Por favor",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Excuse me / Sorry",
+        "local": "Com licença / Desculpe",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Yes",
+        "local": "Sim",
+        "romanization": null
+      },
+      {
+        "phrase_en": "No",
+        "local": "Não",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How much is this?",
+        "local": "Quanto custa?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "Onde fica a casa de banho?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "I don't understand",
+        "local": "Não compreendo",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Do you speak English?",
+        "local": "Fala inglês?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Help!",
+        "local": "Socorro!",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Water, please",
+        "local": "Água, por favor",
+        "romanization": null
+      },
+      {
+        "phrase_en": "The bill, please",
+        "local": "A conta, por favor",
+        "romanization": null
+      }
+    ],
+    "phrases_language": "Portuguese",
+    "sources": [
+      "https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm",
+      "https://home-affairs.ec.europa.eu/policies/schengen/smart-borders/european-travel-information-authorisation-system_en",
+      "https://home-affairs.ec.europa.eu/news/main-differences-between-ees-and-etias-what-travellers-need-know-2026-04-28_en",
+      "https://home-affairs.ec.europa.eu/news/european-travel-authorisation-etias-will-cost-eur-20-2025-07-17_en",
+      "https://www.diplomatie.gouv.fr/en/services-to-foreigners/visiting-france/ees-the-new-european-border-entryexit-system-goes-live-on-10-april-2026",
+      "https://vistos.mne.gov.pt/en/short-stay-visas-schengen/required-documentation/short-stay-visa",
+      "https://www.gov.uk/foreign-travel-advice/portugal",
+      "https://www.gov.uk/foreign-travel-advice/portugal/entry-requirements",
+      "https://www.gov.uk/foreign-travel-advice/portugal/safety-and-security",
+      "https://www.gov.uk/foreign-travel-advice/portugal/health",
+      "https://www.gov.uk/foreign-travel-advice/portugal/getting-help",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/portugal",
+      "https://www.ipma.pt/bin/file.data/climate-normal/cn_91-20_LISBOA_GEOFISICO.pdf",
+      "https://www.cp.pt/info/en/alfa-pendular-train",
+      "https://www.cp.pt/info/en/intercidades-train",
+      "https://www.metrolisboa.pt/en/wp-content/uploads/sites/3/2025/12/Tarifas_site_2026_UK-1.pdf",
+      "https://www.metrodoporto.pt/pages/287",
+      "https://andante.pt/en/purchase/andante-tour/"
+    ],
+    "last_verified_date": "2026-10-17",
+    "latitude": null,
+    "longitude": null
+  },
+  {
     "country": "Serbia",
     "iso2": "RS",
     "currency_code": "RSD",
@@ -3553,6 +4715,283 @@
     "last_verified_date": "2026-09-28",
     "latitude": 44.815332,
     "longitude": 20.445659
+  },
+  {
+    "country": "Spain",
+    "iso2": "ES",
+    "currency_code": "EUR",
+    "currency_name": "Euro",
+    "primary_timezone": "Europe/Madrid",
+    "timezone_label": "CEST (UTC+2, summer time in effect)",
+    "timezone_note": "Mainland Spain and the Balearic Islands use Europe/Madrid: CET (UTC+1) in winter and CEST (UTC+2) in summer. The Canary Islands are on Atlantic/Canary, one hour behind the mainland (WET, UTC+0 in winter; WEST, UTC+1 in summer), which spain.info confirms in its practical-tips page ('UTC +1, except in the Canary Islands, where UTC +0 (one hour behind) is used'; clocks change twice a year). Offsets and the 2026 clock-change dates were checked against the IANA tz database (via Python zoneinfo) on 2026-10-17: summer time began 29 March 2026 and ends 25 October 2026, when mainland clocks return to CET (UTC+1). The label above reflects the state on 2026-10-17.",
+    "passport_validity_rule": "Spain applies the Schengen rule. The EU's Your Europe portal states the passport should be valid for at least 3 months after the date you intend to leave the EU and must have been issued within the previous 10 years on the day you enter. Spain's consulate in Washington gives the same condition: valid until at least three months after the planned date of departure from the Schengen territory. This is a 3-months-beyond-departure rule, not a six-month rule.",
+    "passport_validity_months_beyond_entry": 3,
+    "passport_validity_basis": "exit",
+    "blank_pages_required": null,
+    "onward_ticket_required": true,
+    "entry_requirement_notes": "Spain follows the Schengen short-stay rules: up to 90 days in any 180-day period for visa-exempt nationals (Your Europe), and tourists of some nationalities need a visit visa. Spain's consulate in Washington lists a round-trip or return ticket as required 'in all cases', and spain.info says a tourist must prove the availability of economic resources for the planned stay and for the return or transfer to another country. Funds: the Spanish consulate in Washington gives 122 EUR per person per day in 2026 with at least 1,099 EUR for stays of 9 days or more; the Spanish embassy in Canberra gives 122.10 EUR per day with a 1,098.90 EUR minimum. The two differ by rounding; the Canberra figure is the more precise one and the amounts are re-set each year, so carry proof of funds (cash, card, bank statement) and check the figure for your travel year. ETIAS: the European Commission's ETIAS page says ETIAS 'is currently not in operation and no applications for travel authorisations are collected at this point' (page last updated 6 October 2025), and a Commission news item of 28 April 2026 says it is scheduled to start in the last quarter of 2026 with the exact date to be announced later in the year. Spain's Washington consulate likewise says it is expected to become operational in the last quarter of 2026 and that no action is required from travellers yet. No start date had been confirmed in any source opened on 2026-10-17, so ETIAS is NOT in force today; re-check before travel. EES: the Commission's 28 April 2026 news item states the Entry/Exit System has been fully operational across all Schengen countries since 10 April 2026; non-EU travellers are registered (including biometrics) on entry and exit instead of having passports stamped. EU, EEA and Swiss citizens may enter with a national identity card or passport. These rules apply to mainland Spain, the Balearic and Canary Islands; no source opened here gave separate rules for Ceuta or Melilla, so none are stated.",
+    "passport_source_url": "https://www.exteriores.gob.es/Consulados/washington/en/ServiciosConsulares/Paginas/Consular/Condiciones-de-entrada-en-Espana.aspx",
+    "health": {
+      "required_vaccinations": [],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (chickenpox, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "COVID-19",
+        "Hepatitis A",
+        "Hepatitis B (unvaccinated travellers under 60; those 60 and older may get it)",
+        "Measles (MMR)",
+        "Mpox (for adults expecting certain activities such as new sexual partners)",
+        "Rabies (depending on activities and access to post-exposure care)"
+      ],
+      "malaria_risk": null,
+      "notes": "Nothing is checked at the Spanish border: the CDC states yellow fever vaccination is not required for entry and does not recommend it for Spain. The CDC Spain page does not list a malaria risk, so the field is left null rather than asserted as 'none'. The CDC notes dengue and leishmaniasis (spread by mosquitoes and sand flies) and advises avoiding bites. On care for visitors, spain.info states emergency treatment is guaranteed for everyone in hospitals and some health centres, care at private centres is always paid for, free care for illness or accident under the European Health Card applies to citizens of the EU, Switzerland, Norway, Iceland and Liechtenstein, and it recommends always travelling with international medical insurance. Medicines are bought at pharmacies, identified by green crosses.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/spain"
+    },
+    "money": {
+      "card_acceptance": "spain.info states that bank cards, especially Visa and MasterCard, are accepted in most shops, restaurants, hotels and museums, that cash is also accepted, and that withdrawal or currency-exchange fees are often charged. For local buses, spain.info's airport FAQ adds that fares are usually paid on boarding and cash is usually the only payment allowed, with change often limited to 20 EUR.",
+      "cash_culture": null,
+      "tipping": null,
+      "atm_notes": "spain.info says withdrawal or currency-exchange fees are often charged; it names no specific ATM network and no official source consulted gave fee levels.",
+      "source_url": "https://www.spain.info/en/about-spain/"
+    },
+    "power": {
+      "plug_types": null,
+      "voltage": null,
+      "frequency": null,
+      "adapter_note": null,
+      "source_url": null
+    },
+    "emergency": {
+      "police": null,
+      "ambulance": null,
+      "fire": null,
+      "universal": "112",
+      "tourist_police": null,
+      "notes": "spain.info's safety page states 'The emergency telephone number is 112', free to call and available throughout Spain; this is the only emergency number any opened official page confirmed. Separate police, ambulance and fire numbers (often quoted as 091, 061 and 080) were not confirmed by any official page opened here, so those life-safety fields are null. Call 112 for all three services. No dedicated tourist-police line was confirmed.",
+      "source_url": "https://www.spain.info/en/travel-tips/safety/"
+    },
+    "getting_around": {
+      "summary": "Spain's tourism board describes high-speed AVE trains connecting major destinations such as Barcelona, Seville or Valencia with Madrid in three hours or less; its table gives Madrid to Barcelona 2 h 30 min, Madrid to Seville 2 h 30 min, Madrid to Valencia 1 h 40 min and Madrid to Zaragoza 1 h 35 min. Long-distance and AVE trains are run by Renfe, which also operates Cercanias commuter networks around major cities. In Madrid, Renfe's Cercanias page says one-way fares can be paid at the turnstiles with a contactless bank card or phone and that tickets must be validated at the departure and arrival stations. For city buses and the metro, spain.info's airport FAQ says metro and train journeys are paid for at the station (usually from ticket machines), while bus fares are usually paid on boarding, often in cash only.",
+      "passes": [
+        {
+          "name": "Renfe Spain Rail Pass",
+          "covers": "Renfe's pass for people with residence outside Spain: you choose 4, 6, 8 or 10 trips and Standard or Comfort seats (Premium is not available). It covers Long Distance trains including AVE, and regional Media Distancia and Avant trains with seat reservation. The pass is personal and non-transferable.",
+          "worth_it": "Renfe's page states no price, so whether it beats point-to-point tickets cannot be judged from the official source. Each journey must still be validated by booking a ticket for that specific route (online under 'My passes', at ticket offices, travel agencies or by phone), you have up to 6 months from purchase to make the first trip, and the pass is valid for one month after the first trip.",
+          "buy_before_arrival": null
+        },
+        {
+          "name": "Madrid unlimited-travel transport pass (30-day and annual)",
+          "covers": "Renfe's Cercanias Madrid page says the pass allows any number of trips by bus, metro and Cercanias during its validity; options include 30-day and annual passes, loaded onto a Public Transport Card that can be topped up at station self-service machines.",
+          "worth_it": "Renfe's page gives no price and does not say whether visitors can obtain one, so it is listed for awareness only; single one-way tickets and contactless turnstile payment are the stated alternatives for a short stay.",
+          "buy_before_arrival": null
+        }
+      ],
+      "source_url": "https://www.spain.info/en/getting-around/"
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": "spain.info states that visitors using non-EU phone numbers may pay extra for calls and mobile data, depending on their provider, and suggests buying a prepaid SIM card with a data package suited to your needs. It adds that travellers from the EU use their phones at the same roaming rates as at home. No official source opened here covers eSIM availability or any ID or registration requirement for a prepaid SIM.",
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": "https://www.spain.info/gcc/en/practical-tips/"
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 10,
+        "avg_low_c": 3,
+        "precipitation_note": "33 mm normal (Madrid, Retiro, AEMET 1981-2010); cold, dry days in the capital, and other regions of Spain differ. AEMET means: high 9.8 C, low 2.7 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: quiet outside the early-January holiday period.",
+        "rating": "low"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 12,
+        "avg_low_c": 4,
+        "precipitation_note": "34 mm normal; still cool, with nights close to freezing in Madrid. AEMET means: high 12.0 C, low 3.7 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: low season for city breaks and inland sightseeing.",
+        "rating": "low"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 16,
+        "avg_low_c": 6,
+        "precipitation_note": "25 mm normal; one of the drier spring months in Madrid. AEMET means: high 16.3 C, low 6.2 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: shoulder season; Holy Week falls in March or April in different years and busies many towns.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 18,
+        "avg_low_c": 8,
+        "precipitation_note": "45 mm normal; mild with some showers. AEMET means: high 18.2 C, low 7.7 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: pleasant for walking and sightseeing; Holy Week can bring crowds and closures.",
+        "rating": "peak"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 22,
+        "avg_low_c": 11,
+        "precipitation_note": "50 mm normal; the wettest of the spring months in Madrid but still warm and mostly mild. AEMET means: high 22.2 C, low 11.3 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: comfortable temperatures ahead of the summer heat.",
+        "rating": "peak"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 28,
+        "avg_low_c": 16,
+        "precipitation_note": "21 mm normal; warm and getting hot inland. AEMET means: high 28.2 C, low 16.1 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: start of the main summer travel season.",
+        "rating": "peak"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 32,
+        "avg_low_c": 19,
+        "precipitation_note": "12 mm normal, among the driest months; the average high is above 32 C in Madrid, so individual days can be hotter. AEMET means: high 32.1 C, low 19.0 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: peak summer; inland cities are hot, and coastal destinations are typically busiest.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 31,
+        "avg_low_c": 19,
+        "precipitation_note": "10 mm normal, the driest month of the year in Madrid. AEMET means: high 31.3 C, low 18.8 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: peak summer holiday month; very hot inland.",
+        "rating": "shoulder"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 26,
+        "avg_low_c": 15,
+        "precipitation_note": "22 mm normal; warm days and cooler nights. AEMET means: high 26.4 C, low 15.4 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: warm but easing, a comfortable month for most regions.",
+        "rating": "peak"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 19,
+        "avg_low_c": 11,
+        "precipitation_note": "60 mm normal, the wettest month of the year in Madrid; clocks go back on 25 October 2026. AEMET means: high 19.4 C, low 10.7 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: mild and quieter than summer, with rain more likely.",
+        "rating": "peak"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 14,
+        "avg_low_c": 6,
+        "precipitation_note": "58 mm normal; cool and one of the wetter months. AEMET means: high 13.5 C, low 6.3 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: low season for most visitor areas.",
+        "rating": "low"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 10,
+        "avg_low_c": 4,
+        "precipitation_note": "51 mm normal; cold and damp. AEMET means: high 10.0 C, low 3.6 C (rounded to whole degrees in the fields).",
+        "crowd_note": "Editorial judgement: quiet except around Christmas and New Year.",
+        "rating": "shoulder"
+      }
+    ],
+    "climate_reference_city": "Madrid",
+    "climate_source_url": "https://www.aemet.es/en/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?k=mad&l=3195",
+    "phrases": [
+      {
+        "phrase_en": "Hello",
+        "local": "Hola",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you",
+        "local": "Gracias",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Please",
+        "local": "Por favor",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Yes",
+        "local": "Sí",
+        "romanization": null
+      },
+      {
+        "phrase_en": "No",
+        "local": "No",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Excuse me / Sorry",
+        "local": "Perdón / Disculpe",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How much is this?",
+        "local": "¿Cuánto cuesta?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "¿Dónde están los servicios?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "I don't understand",
+        "local": "No entiendo",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Do you speak English?",
+        "local": "¿Habla inglés?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Help!",
+        "local": "¡Ayuda!",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Water",
+        "local": "Agua",
+        "romanization": null
+      },
+      {
+        "phrase_en": "The bill, please",
+        "local": "La cuenta, por favor",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Good morning",
+        "local": "Buenos días",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Goodbye",
+        "local": "Adiós",
+        "romanization": null
+      }
+    ],
+    "phrases_language": "Spanish",
+    "sources": [
+      "https://www.exteriores.gob.es/Consulados/washington/en/ServiciosConsulares/Paginas/Consular/Condiciones-de-entrada-en-Espana.aspx",
+      "https://www.exteriores.gob.es/Embajadas/canberra/en/ServiciosConsulares/Paginas/Consular/Visados-Schengen.aspx",
+      "https://www.exteriores.gob.es/Embajadas/ottawa/en/ServiciosConsulares/Paginas/Economic-means-required-for-Entry,-Stay,-and-Residence-in-Spain.aspx",
+      "https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm",
+      "https://home-affairs.ec.europa.eu/policies/schengen/smart-borders/european-travel-information-authorisation-system_en",
+      "https://home-affairs.ec.europa.eu/news/main-differences-between-ees-and-etias-what-travellers-need-know-2026-04-28_en",
+      "https://www.spain.info/en/travel-tips/visa-passport/",
+      "https://www.spain.info/en/travel-tips/safety/",
+      "https://www.spain.info/en/travel-tips/general-healthcare/",
+      "https://www.spain.info/en/about-spain/",
+      "https://www.spain.info/gcc/en/practical-tips/",
+      "https://www.spain.info/en/how-to-get-there/",
+      "https://www.spain.info/en/getting-around/",
+      "https://www.renfe.com/es/en/travel/prepare-your-trip/abonos-ave-y-largadistancia/spain-rail-pass",
+      "https://www.renfe.com/es/en/suburban/suburban-madrid/fares/tickets",
+      "https://www.aemet.es/en/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?k=mad&l=3195",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/spain"
+    ],
+    "last_verified_date": "2026-10-17"
   },
   {
     "country": "Sri Lanka",
@@ -4670,6 +6109,303 @@
     "last_verified_date": "2026-09-28",
     "latitude": 25.074282,
     "longitude": 55.188562
+  },
+  {
+    "country": "UK",
+    "iso2": "GB",
+    "currency_code": "GBP",
+    "currency_name": "Pound sterling",
+    "primary_timezone": "Europe/London",
+    "timezone_label": "BST (UTC+1, summer time in effect); GMT (UTC+0) from 25 October 2026",
+    "timezone_note": "The whole United Kingdom is on one clock. GOV.UK states that the clocks go back one hour at 2am on Sunday 25 October 2026 (the last Sunday in October), ending British Summer Time, and go forward one hour at 1am on Sunday 28 March 2027. VisitBritain describes the same pattern: Greenwich Mean Time in winter, British Summer Time (clocks forward one hour) in summer. The IANA zone Europe/London agrees. Today (17 October 2026) the UK is therefore on BST, UTC+1.",
+    "passport_validity_rule": "GOV.UK's Standard Visitor eligibility page says: 'You must have a passport or travel document to enter the UK. It should be valid for the whole of your stay.' The UK therefore has no fixed six-month rule; the stated test is validity for the length of the stay, which the app encodes as duration-of-stay with no extra months. Two practical points: an Electronic Travel Authorisation (ETA) is linked to the one passport used in the application and ends when that passport expires (ETA 4.1 and 4.3 of the Immigration Rules), so a passport with little life left gives a short ETA; and airlines can apply their own stricter checks at boarding. Sourcing note: the 'whole of your stay' wording is from the Standard Visitor (visa) pages; the ETA pages opened for this record set no separate minimum remaining validity for ETA holders.",
+    "passport_validity_months_beyond_entry": 0,
+    "passport_validity_basis": "duration-of-stay",
+    "blank_pages_required": null,
+    "onward_ticket_required": null,
+    "entry_requirement_notes": "The ETA is in force today (17 October 2026). GOV.UK's news release of 24 February 2026 says that from 25 February 2026 non-visa nationals are barred from entering the UK without an Electronic Travel Authorisation, and that airlines will prevent passengers boarding without an ETA, eVisa or other valid documentation. Who needs one: GOV.UK says 'Most visitors need an ETA or a visa', depending on nationality and purpose, and that you usually need an ETA rather than a visa if you are from Europe, the USA, Australia, Canada or certain other countries. Whether YOUR nationality can get an ETA is read from the live GOV.UK eligibility page ('Check if you can get an ETA', last updated 9 April 2026 when read for this record) and the 'Check if you need an ETA or visa' tool at gov.uk/check-uk-visa, not from memory: the list changes (for example Nicaragua and St Lucia were removed on 5 March 2026, Botswana on 14 October 2025), and nationalities not on it must apply for a visa instead. At the time of reading, that page listed the EU states other than Ireland, Switzerland, Norway, Iceland, Liechtenstein, the USA, Canada, Australia, Japan, Singapore, Brazil, Mexico and the Gulf states among others; nationality shown on the passport is what counts. Cost and validity per GOV.UK: 20 GBP per person, non-refundable, applied for online or in the UK ETA app; it lasts 2 years or until the passport expires, whichever is sooner; unlimited trips while valid; each traveller needs one, including babies and children; a decision usually comes by email within a day but can take up to 3 working days, so apply before booking non-refundable travel. Only apply on GOV.UK or the official app; GOV.UK warns other sites may charge more. The ETA covers visits of up to 6 months per visit and now also covers Jersey, Guernsey and the Isle of Man (since 9 April 2026); it does not guarantee entry. Who does not need one (GOV.UK): British and Irish citizens (dual British or Irish citizens cannot get one), people with a UK visa or permission to live, work or study in the UK or the Crown Dependencies, people living in Ireland who travel from Ireland, Guernsey, Jersey or the Isle of Man, and airside transit passengers who do not pass border control; transit through border control does need an ETA. Visa nationals (about 115 countries and territories on the Immigration Rules visa national list) must get a visa before travel. For visitors, GOV.UK's eligibility page says you must be able to pay for your return or onward journey, support yourself during the trip and leave at the end of your visit; it does not state that a booked ticket must be shown, so onward_ticket_required is left null (not confirmed either way) and no blank-page count was found.",
+    "passport_source_url": "https://www.gov.uk/standard-visitor/eligibility",
+    "health": {
+      "required_vaccinations": [],
+      "recommended_vaccinations": [
+        "Routine vaccines up to date (chickenpox, DTaP/Tdap/Td, influenza, MMR, polio, shingles)",
+        "COVID-19 (eligible travellers)",
+        "Measles (all international travellers fully vaccinated with MMR)",
+        "Polio (unvaccinated or incompletely vaccinated travellers complete a series; adults with a childhood series may take one lifetime booster)",
+        "Hepatitis A (for street food or rural areas)",
+        "Hepatitis B (unvaccinated travellers under 60)",
+        "Rabies (depending on activities and access to post-exposure care)",
+        "Mpox (only for travellers with specific higher-risk exposures)"
+      ],
+      "malaria_risk": "None listed on CDC's United Kingdom page",
+      "notes": "No vaccination is required to enter the UK: CDC's United Kingdom page states yellow fever vaccine is not required for entry. The recommendations above are CDC medical advice, not entry conditions. CDC is used as a fallback because no UKHSA or NHS page listing vaccines for visitors was opened for this record; CDC's page was last reviewed 25 August 2026 and carries a Level 2 notice on global polio (updated 23 September 2026, saying poliovirus has been identified in the UK in the past year) and a Level 1 global measles notice (28 May 2025). Healthcare: the NHS website says A&E services are free to everyone, but that visitors who are not ordinarily resident and need NHS hospital treatment are charged 150% of the national NHS rate, and that eye tests, dental treatment and prescriptions are charged even for visitors; for stays under 6 months it advises making sure you are covered by personal medical insurance. That NHS page was last reviewed in April 2023, so check nhs.uk for current rules. For urgent but non-life-threatening problems, NHS 111 gives advice; 999 is for life-threatening emergencies.",
+      "source_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-kingdom"
+    },
+    "money": {
+      "card_acceptance": "VisitBritain states that credit, debit, contact and contactless payment cards are widely used throughout Britain, that Visa and Mastercard are the most common, and that American Express and Diners Club are only sometimes accepted. It also says some small shops, markets and cafes may not accept card or digital payments. VisitBritain's separate travel-tips page says most places accept contactless payments but it is a safe bet to have some cash on hand when arriving. Neither page carries a date.",
+      "cash_culture": "VisitBritain: some small shops, markets and cafes may not take cards, so a little cash is useful. London buses do not take cash (VisitBritain); you touch in with a contactless card or Oyster.",
+      "tipping": "VisitBritain states 'Tipping is not expected in Britain like it is in some other countries.' In taxis it is customary to round the fare up to the nearest pound; in restaurants an optional service charge may be added to the bill, and if none is added a tip is a thank-you for good service; hotel porters who take luggage to your room are customarily tipped about 2 GBP. (The page's restaurant percentage is not reproduced here because the fetched text omitted its unit.)",
+      "atm_notes": null,
+      "source_url": "https://www.visitbritain.com/en/plan-your-trip/useful-information"
+    },
+    "power": {
+      "plug_types": [
+        "G"
+      ],
+      "voltage": "220/240V AC (as stated by VisitBritain)",
+      "frequency": "50Hz",
+      "adapter_note": "VisitBritain states that the voltage in Britain is 220/240 AC, 50Hz, that plugs (type G) have three rectangular pins, and that visitors will probably need an adaptor for electrical equipment. The page carries no date, and the IEC World Plugs listing was not opened to cross-check.",
+      "source_url": "https://www.visitbritain.com/en/plan-your-trip/useful-information"
+    },
+    "emergency": {
+      "police": "999",
+      "ambulance": "999",
+      "fire": "999",
+      "universal": "999",
+      "tourist_police": null,
+      "notes": "GOV.UK states: '999 and 112 is the national emergency response service in the UK' and '112 is the pan-European equivalent to 999 and can be used in the UK'; the page lists police, ambulance, fire and coastguard as the services reached (page last updated 1 April 2025). So 999 is the number to dial and 112 also works; the structured fields give 999. There is no separate number per service. Non-emergency: VisitBritain gives 101 for police matters that need no immediate response and 111 as the national non-emergency medical number (NHS 111 handles urgent but non-life-threatening problems). The NHS says 999 is for life-threatening emergencies such as serious road traffic accidents, strokes and heart attacks. Not confirmed from an official page opened for this record, so omitted: free-of-charge status, the Emergency SMS service for deaf callers, and any tourist-police line (null).",
+      "source_url": "https://www.gov.uk/guidance/999-and-112-the-uks-national-emergency-numbers"
+    },
+    "getting_around": {
+      "summary": "Britain's long-distance network is National Rail: VisitBritain says it has more than 2,500 stations with different train companies serving different areas, and recommends the National Rail Journey Planner. National Rail says Advance tickets (fixed to one train and date) can usually be bought up to 12 weeks ahead, are non-refundable unless your train is delayed or cancelled and you choose not to travel, and can be amended up to the time of departure for a 10 GBP fee plus any fare difference; VisitBritain adds that booking early can lower fares and that two singles are sometimes cheaper than a return. No fare for any specific journey is given here because fares vary by route, date and time. In London, TfL's pay-as-you-go system covers the Underground, buses, trams, DLR and most National Rail services within London: National Rail says contactless works on National Rail, Underground, DLR, buses and trams within London, Oyster is accepted on the same plus London Overground, most Elizabeth line services and most National Rail in Zones 1 to 9, and daily and weekly capping applies to both. National Rail also notes that railcard and child discounts do not apply to contactless but do apply to Oyster (with named exceptions). VisitBritain says London buses do not take cash and that Tube services run from about 5:30am until midnight with some lines running overnight at weekends. Regional notes: VisitBritain says large areas such as the West Midlands and Greater Manchester have cards valid on all public transport in their region, that trams run in Edinburgh, Birmingham, Sheffield, Manchester, Nottingham and Blackpool, and that the Glasgow Subway and Tyne and Wear Metro serve those cities; it gives no Wales-specific transport detail. Note that most of the figures above come from pages undated or last updated in 2026; confirm before travel.",
+      "passes": [
+        {
+          "name": "Contactless or Oyster pay as you go (London)",
+          "covers": "Pay-as-you-go travel on the Underground, DLR, London buses and trams and National Rail services in London (contactless), and the same plus London Overground, most Elizabeth line services and most National Rail in Zones 1 to 9 (Oyster), per National Rail. Oyster holds up to 90 GBP of pay-as-you-go credit; daily and weekly capping applies to both.",
+          "worth_it": "Capping means you pay no more than the cap for a day's travel, and National Rail notes that capping can cost less than a One Day Travelcard. No fare or cap figure for contactless was opened from tfl.gov.uk (it returned 403 to automated fetches), so none is stated for it here. Railcard and child discounts do not apply to contactless.",
+          "buy_before_arrival": false
+        },
+        {
+          "name": "Visitor Oyster card",
+          "covers": "A TfL pay-as-you-go card for visitors; VisitBritain says it works on buses, the Tube, trams and most rail services within zones 1 to 6.",
+          "worth_it": "TfL's Visitor Shop states each card includes a non-refundable 10.50 GBP card fee, the smallest card costs 20.50 GBP (10.50 GBP fee plus 10 GBP credit), unused cards can be returned for a refund within 1 month of purchase, and a day of unlimited travel in zones 1 to 2 is 'currently capped at 8.90 GBP' (page undated, copyright TfL 2026). The Visitor Shop page did not say whether contactless costs the same or less; the card mainly helps if you do not want to use an overseas bank card for each journey.",
+          "buy_before_arrival": true
+        },
+        {
+          "name": "BritRail Pass",
+          "covers": "VisitBritain describes it as a tourist-only pass with unlimited journeys on National Rail services across England, Scotland and Wales, excluding non-National Rail services such as Eurostar and the London Underground; a paper pass must be activated before use.",
+          "worth_it": "No price or validity options appear on the VisitBritain page, so whether it beats point-to-point or Advance tickets for your route could not be checked from an official source; compare against National Rail fares for your actual journeys.",
+          "buy_before_arrival": null
+        }
+      ],
+      "source_url": "https://www.visitbritain.com/en/plan-your-trip/travelling-around-britain"
+    },
+    "connectivity": {
+      "esim_supported": null,
+      "local_sim_notes": null,
+      "typical_cost": null,
+      "registration_required": null,
+      "source_url": null
+    },
+    "climate": [
+      {
+        "month": "January",
+        "avg_high_c": 8,
+        "avg_low_c": 3,
+        "precipitation_note": "58.8 mm rainfall; mean daily max 8.42 C, min 2.68 C; 61.1 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period). IMPORTANT: this whole table is London (Heathrow) only, not a UK-wide average. Scotland, Wales, Northern Ireland and the north and west of England differ; check metoffice.gov.uk for your destination.",
+        "crowd_note": "Short days and the quietest stretch of the year for most visitors (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "February",
+        "avg_high_c": 9,
+        "avg_low_c": 3,
+        "precipitation_note": "45.0 mm rainfall; mean daily max 8.98 C, min 2.65 C; 78.8 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Still low season; the driest of the winter months in this table (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "March",
+        "avg_high_c": 12,
+        "avg_low_c": 4,
+        "precipitation_note": "38.8 mm rainfall; mean daily max 11.73 C, min 4.14 C; 124.5 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Days lengthen but it is still cool; the driest month in the table (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "April",
+        "avg_high_c": 15,
+        "avg_low_c": 6,
+        "precipitation_note": "42.3 mm rainfall; mean daily max 15.00 C, min 6.03 C; 176.7 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Spring shoulder season (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "May",
+        "avg_high_c": 18,
+        "avg_low_c": 9,
+        "precipitation_note": "45.9 mm rainfall; mean daily max 18.37 C, min 9.08 C; 207.5 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Mild and bright; a popular shoulder month (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "June",
+        "avg_high_c": 22,
+        "avg_low_c": 12,
+        "precipitation_note": "47.2 mm rainfall; mean daily max 21.57 C, min 12.03 C; 208.4 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Long daylight hours and the start of the summer peak (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "July",
+        "avg_high_c": 24,
+        "avg_low_c": 14,
+        "precipitation_note": "45.8 mm rainfall; mean daily max 23.89 C, min 14.18 C; 217.8 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Warmest month at this station; peak season (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "August",
+        "avg_high_c": 23,
+        "avg_low_c": 14,
+        "precipitation_note": "52.8 mm rainfall; mean daily max 23.40 C, min 14.06 C; 202.1 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Peak season and school holidays; expect the highest demand for rooms and trains (editorial judgement).",
+        "rating": "peak"
+      },
+      {
+        "month": "September",
+        "avg_high_c": 20,
+        "avg_low_c": 12,
+        "precipitation_note": "49.6 mm rainfall; mean daily max 20.22 C, min 11.62 C; 157.1 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Still mild with fewer visitors than August (editorial judgement).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "October",
+        "avg_high_c": 16,
+        "avg_low_c": 9,
+        "precipitation_note": "65.1 mm rainfall; mean daily max 15.81 C, min 8.78 C; 115.2 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Autumn shoulder season; rainfall rises. Clocks go back to GMT on 25 October 2026 (editorial judgement on crowds).",
+        "rating": "shoulder"
+      },
+      {
+        "month": "November",
+        "avg_high_c": 11,
+        "avg_low_c": 5,
+        "precipitation_note": "66.6 mm rainfall; mean daily max 11.47 C, min 5.26 C; 70.7 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Wettest month in the table and short days (editorial judgement).",
+        "rating": "low"
+      },
+      {
+        "month": "December",
+        "avg_high_c": 9,
+        "avg_low_c": 3,
+        "precipitation_note": "57.0 mm rainfall; mean daily max 8.79 C, min 3.08 C; 55.0 hours of sunshine (Met Office location-specific long-term averages, Heathrow station, 1991-2020 period).",
+        "crowd_note": "Short days; demand picks up around the Christmas holidays (editorial judgement).",
+        "rating": "shoulder"
+      }
+    ],
+    "climate_reference_city": "London (Heathrow)",
+    "climate_source_url": "https://www.metoffice.gov.uk/research/climate/maps-and-data/location-specific-long-term-averages/gcpsvg3nc",
+    "phrases": [
+      {
+        "phrase_en": "Hello",
+        "local": "Hello / Hiya",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How are you? (greeting)",
+        "local": "You alright?  (often just a greeting; a usual reply is \"Yeah, you?\")",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Thank you",
+        "local": "Cheers / Ta  (informal; \"Thank you\" is always fine)",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Please",
+        "local": "Please",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Excuse me / Sorry",
+        "local": "Sorry / Excuse me  (\"Sorry\" is also used to get past someone)",
+        "romanization": null
+      },
+      {
+        "phrase_en": "How much is this?",
+        "local": "How much is this?",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Where is the toilet?",
+        "local": "Where's the loo?  (also \"the toilets\"; signs say Toilets, WC, Ladies, Gents)",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Help",
+        "local": "Help!  (in an emergency dial 999 or 112)",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Queue (a line of people waiting)",
+        "local": "Queue",
+        "romanization": null
+      },
+      {
+        "phrase_en": "The check (restaurant)",
+        "local": "The bill, please",
+        "romanization": null
+      },
+      {
+        "phrase_en": "French fries / potato chips",
+        "local": "Chips (hot, from a chippy) / crisps (in a packet)",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Takeout (food to go)",
+        "local": "Takeaway",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Elevator",
+        "local": "Lift",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Subway (London)",
+        "local": "The Tube  (the Underground; \"Mind the gap\" is the platform announcement)",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Sidewalk",
+        "local": "Pavement",
+        "romanization": null
+      },
+      {
+        "phrase_en": "Five or ten pound note",
+        "local": "A fiver / a tenner",
+        "romanization": null
+      }
+    ],
+    "phrases_language": "English. The UK has no foreign language to learn: English is what you will be spoken to in. These sixteen entries are everyday British vocabulary that visitors from other English-speaking countries and non-native speakers actually run into (queue, loo, lift, chips and so on), not a foreign language. The 'English' column gives the standard international wording and the other column the usual British equivalent. They are editorial, compiled for this record, not from a cited official source; no government body publishes a list of British usage. Welsh, Scottish Gaelic and Irish are also official or recognised languages in parts of the UK, but none was researched here and all visitors can use English throughout.",
+    "sources": [
+      "https://www.gov.uk/eta",
+      "https://www.gov.uk/eta/apply",
+      "https://www.gov.uk/eta/when-not-need-eta",
+      "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+      "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-electronic-travel-authorisation",
+      "https://www.gov.uk/government/news/uk-enforces-digital-permission-to-travel",
+      "https://www.gov.uk/standard-visitor/eligibility",
+      "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+      "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+      "https://www.gov.uk/when-do-the-clocks-change",
+      "https://www.gov.uk/guidance/999-and-112-the-uks-national-emergency-numbers",
+      "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/",
+      "https://www.nhs.uk/nhs-services/visiting-or-moving-to-england/how-to-access-nhs-services-in-england-if-you-are-visiting-from-abroad/",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-kingdom",
+      "https://www.visitbritain.com/en/plan-your-trip/useful-information",
+      "https://www.visitbritain.com/en/plan-your-trip/travelling-britain",
+      "https://www.visitbritain.com/en/plan-your-trip/travelling-around-britain",
+      "https://www.metoffice.gov.uk/research/climate/maps-and-data/location-specific-long-term-averages/gcpsvg3nc",
+      "https://www.nationalrail.co.uk/tickets-railcards-and-offers/ticket-types/oyster-contactless-and-travelcards/",
+      "https://www.nationalrail.co.uk/tickets-railcards-and-offers/ticket-types/advance-tickets/",
+      "https://visitorshop.tfl.gov.uk/en/london-visitor-oyster-card"
+    ],
+    "last_verified_date": "2026-10-17",
+    "latitude": null,
+    "longitude": null
   },
   {
     "country": "USA",

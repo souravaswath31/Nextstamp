@@ -24,6 +24,8 @@ as "fact-checked."
 
 Usage:
     python3 scripts/validate_visa_rules.py <candidates.json>
+    python3 scripts/validate_visa_rules.py --dry-run <candidates.json>
+    (--dry-run validates and reports without writing anything)
 """
 import json
 import sys
@@ -79,6 +81,9 @@ def validate_one(rule, existing_keys):
 
 
 def main():
+    dry_run = "--dry-run" in sys.argv
+    if dry_run:
+        sys.argv.remove("--dry-run")
     if len(sys.argv) != 2:
         print("usage: python3 scripts/validate_visa_rules.py <candidates.json>")
         sys.exit(1)
@@ -118,7 +123,9 @@ def main():
 
     print(f"\n{len(passed)} passed, {len(rejected)} rejected out of {len(candidates)} candidates.")
 
-    if passed:
+    if passed and dry_run:
+        print("Dry run: nothing written.")
+    elif passed:
         merged = existing + passed
         SEED_PATH.write_text(json.dumps(merged, indent=2, ensure_ascii=False) + "\n")
         print(f"Merged {len(passed)} visa rules into {SEED_PATH.relative_to(ROOT)} ({len(existing)} -> {len(merged)}).")

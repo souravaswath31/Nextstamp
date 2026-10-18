@@ -11915,5 +11915,1566 @@
       }
     ],
     "cover_image_url": "/category-nature.jpg"
+  },
+  {
+    "title": "Paris + Loire Valley Châteaux, France",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "International",
+    "countries": [
+      "France"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "Late spring and early autumn are comfortable for walking Paris and the Loire château grounds and are outside the peak summer crowds; this is an editorial suggestion rather than met-service data. Check opening days for the Louvre (closed Tuesdays) and Versailles (closed Mondays) when ordering the days.",
+    "best_time_months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "France's classic first-timer arc: four days in Paris including a Versailles day trip, then a fast TGV to Tours as a base for the Loire châteaux of Amboise and Chenonceau, all reachable by train without a car.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Paris",
+        "activities": [
+          "Check in and walk the Seine embankments toward Île de la Cité",
+          "Evening in the Latin Quarter or Le Marais"
+        ],
+        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)"
+      },
+      {
+        "day_number": 2,
+        "title": "Louvre + the Tuileries",
+        "activities": [
+          "Louvre Museum: book a timeslot on the official louvre.fr site before you go (timeslot booking is recommended, and reservations have been compulsory for all visitors in some periods, so check the dates for your trip). Closed Tuesdays, 1 January, 1 May and 25 December.",
+          "Walk the Tuileries Garden toward Place de la Concorde",
+          "Evening stroll along the Seine"
+        ],
+        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)"
+      },
+      {
+        "day_number": 3,
+        "title": "Palace of Versailles day trip",
+        "activities": [
+          "RER line C from central Paris to Versailles Château Rive Gauche, the station closest to the Palace (about a 10-minute walk); the RER C has been closed for works in some summers, so check before you travel",
+          "Palace of Versailles, open every day except Monday: buy a timed-entry ticket only from the official Château de Versailles ticket office, and arrive at opening on busy days",
+          "Gardens and the Grand Canal",
+          "Return to Paris for the evening"
+        ],
+        "drive_time": "RER C from central Paris (check the timetable on the day)",
+        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)"
+      },
+      {
+        "day_number": 4,
+        "title": "Eiffel Tower + Montmartre",
+        "activities": [
+          "Eiffel Tower: buy tickets only on the official ticket.toureiffel.paris site, where timed tickets can be booked in advance; the official site says elevator tickets open up to 90 days ahead",
+          "Trocadéro viewpoint and the Champ de Mars",
+          "Montmartre: Sacré-Cœur and the streets around Place du Tertre"
+        ],
+        "lodging_suggestion": "Paris (Le Marais or Latin Quarter)"
+      },
+      {
+        "day_number": 5,
+        "title": "TGV to Tours",
+        "activities": [
+          "TGV from Paris Montparnasse to Tours, about 1 hour (Tours tourist office lists 25 TGV connections a day); note that the high-speed station Saint-Pierre-des-Corps is 5 minutes from Tours",
+          "Place Plumereau and the old town",
+          "Tours Cathedral (Cathédrale Saint-Gatien)"
+        ],
+        "drive_time": "TGV Paris Montparnasse to Tours, ~1 hr",
+        "lodging_suggestion": "Tours (old town or near Tours station)"
+      },
+      {
+        "day_number": 6,
+        "title": "Amboise",
+        "activities": [
+          "TER from Tours to Amboise, about 19 minutes (Rémi TER Centre-Val de Loire)",
+          "Château royal d'Amboise above the Loire",
+          "Clos Lucé, where Leonardo da Vinci spent his last years",
+          "Return to Tours by TER"
+        ],
+        "drive_time": "TER Tours to Amboise, ~19 min each way",
+        "lodging_suggestion": "Tours (old town or near Tours station)"
+      },
+      {
+        "day_number": 7,
+        "title": "Chenonceau",
+        "activities": [
+          "TER from Tours to Chenonceaux, about 25 minutes (per the Château de Chenonceau site); the station is about 400 m from the ticket office",
+          "Château de Chenonceau spanning the Cher: the château advises booking tickets online",
+          "Return to Tours by TER"
+        ],
+        "drive_time": "TER Tours to Chenonceaux, ~25 min each way",
+        "lodging_suggestion": "Tours (old town or near Tours station)"
+      },
+      {
+        "day_number": 8,
+        "title": "Optional: return to Paris + depart",
+        "activities": [
+          "TGV from Tours to Paris Montparnasse, about 1 hour",
+          "Depart from Paris"
+        ],
+        "drive_time": "TGV Tours to Paris Montparnasse, ~1 hr",
+        "lodging_suggestion": "Paris (near your departure station or airport)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "The baguette",
+        "description": "The craftsmanship and culture of the baguette de pain was inscribed by UNESCO on its intangible cultural heritage list in 2022; a boulangerie breakfast is a daily Paris ritual."
+      },
+      {
+        "place_type": "tradition",
+        "name": "The gastronomic meal of the French",
+        "description": "UNESCO recognises the gastronomic meal of the French (inscribed 2010) as intangible heritage: a social custom of celebrating moments with a structured, shared meal."
+      },
+      {
+        "place_type": "drink",
+        "name": "Loire Valley wines",
+        "description": "Touraine, around Tours and Amboise, is a Loire wine region; Vouvray and Chinon are well-known names from the area and are easy to find in Tours restaurants and caves."
+      },
+      {
+        "place_type": "dish",
+        "name": "Sainte-Maure de Touraine goat cheese",
+        "description": "A goat cheese from the Touraine area with a protected designation of origin, recognisable by the straw running through its centre."
+      },
+      {
+        "place_type": "culture",
+        "name": "Café terrace culture",
+        "description": "Sitting for an hour over a coffee on a Paris café terrace, and ordering the daily 'plat du jour' at lunch, are ordinary parts of the local rhythm rather than tourist rituals."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Provence + the French Riviera, France",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "France"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Late spring and early autumn are comfortable for walking in Avignon, Marseille and Nice and fall outside the peak summer crowds; this is an editorial suggestion. Summer brings fire-risk rules in the Calanques (see Day 4), so check access before planning a hike.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A south-of-France route by train: Avignon's papal city, Marseille and the Calanques, then Nice and a day trip to Monaco, using TGV and regional trains with no car needed.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Avignon",
+        "activities": [
+          "TGV from Paris Gare de Lyon to Avignon TGV station, about 2 hr 40 (Avignon tourist office); the TGV station is about 6 km from the centre, linked to Avignon Centre station by a few-minute TER ride",
+          "Walk the ramparts and old town",
+          "Pont Saint-Bénézet (the Pont d'Avignon) at sunset"
+        ],
+        "drive_time": "TGV Paris to Avignon, ~2 hr 40",
+        "lodging_suggestion": "Avignon (inside the walls)"
+      },
+      {
+        "day_number": 2,
+        "title": "Palais des Papes + the Luberon",
+        "activities": [
+          "Palais des Papes: check ticketing and opening days on the official site before you go",
+          "Rocher des Doms park above the Rhône",
+          "Afternoon: Roussillon and Gordes in the Luberon are reached by bus or guided excursion, not by train (per the Avignon tourist office), so book a guided excursion or arrange a car"
+        ],
+        "lodging_suggestion": "Avignon (inside the walls)"
+      },
+      {
+        "day_number": 3,
+        "title": "Avignon to Marseille",
+        "activities": [
+          "TGV from Avignon TGV to Marseille Saint-Charles, about 30 minutes (Avignon tourist office); the slower TER from Avignon Centre takes about 1 hr 30",
+          "Vieux-Port and the Le Panier quarter",
+          "MuCEM and the Fort Saint-Jean waterfront",
+          "Notre-Dame de la Garde basilica for the harbour views"
+        ],
+        "drive_time": "TGV Avignon TGV to Marseille, ~30 min",
+        "lodging_suggestion": "Marseille (Vieux-Port area)"
+      },
+      {
+        "day_number": 4,
+        "title": "Calanques",
+        "activities": [
+          "Parc national des Calanques: from 1 June to 30 September access to the massif is regulated for fire risk and can be closed entirely on 'red' days, so check the Prefecture status from 6 pm the day before",
+          "Sugiton in summer is by reservation only through the park's booking system",
+          "By public transport: bus 22 to the Les Baumettes stop, then about an hour on foot to Morgiou (per the park's Morgiou page)",
+          "Afternoon: Marseille Vieux-Port seafood dinner"
+        ],
+        "lodging_suggestion": "Marseille (Vieux-Port area)"
+      },
+      {
+        "day_number": 5,
+        "title": "Marseille to Nice",
+        "activities": [
+          "Train from Marseille to Nice, about 2 hr 40 (Nice Côte d'Azur tourist office)",
+          "Promenade des Anglais",
+          "Evening in Vieux Nice and the Cours Saleya"
+        ],
+        "drive_time": "Train Marseille to Nice, ~2 hr 40",
+        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)"
+      },
+      {
+        "day_number": 6,
+        "title": "Monaco day trip",
+        "activities": [
+          "TER from Nice to Monaco-Monte-Carlo, about 23 minutes with around sixty round trips a day; TER tickets to Monaco do not need a seat reservation (Monaco tourism site)",
+          "Monaco-Monte-Carlo station is underground with several exits",
+          "Prince's Palace area and the Oceanographic Museum",
+          "Return to Nice by TER"
+        ],
+        "drive_time": "TER Nice to Monaco, ~23 min each way",
+        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)"
+      },
+      {
+        "day_number": 7,
+        "title": "Nice old town + departure",
+        "activities": [
+          "Climb or ride up Colline du Château for the view over the Baie des Anges",
+          "Musée Matisse in the Cimiez district: check opening days before you go",
+          "Depart from Nice airport, or take the TGV to Paris (about 6 hours, per the Nice tourist office)"
+        ],
+        "drive_time": "TGV Nice to Paris, ~6 hr (if not flying)",
+        "lodging_suggestion": "Nice (Vieux Nice or near Nice-Ville station)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Bouillabaisse",
+        "description": "Marseille's traditional fish stew, closely associated with the Vieux-Port; many harbourside restaurants list it, so ask whether it must be ordered ahead."
+      },
+      {
+        "place_type": "drink",
+        "name": "Châteauneuf-du-Pape",
+        "description": "A Rhône wine named for the popes' summer residence near Avignon, and one of the best-known wines of the Avignon area."
+      },
+      {
+        "place_type": "dish",
+        "name": "Socca and salade niçoise",
+        "description": "Socca, a chickpea-flour pancake cooked on a large pan, and the raw-vegetable salade niçoise are classic Nice dishes found around Vieux Nice."
+      },
+      {
+        "place_type": "drink",
+        "name": "Pastis",
+        "description": "An aniseed spirit diluted with cold water, closely associated with Marseille and Provençal café terraces."
+      },
+      {
+        "place_type": "culture",
+        "name": "Provençal markets",
+        "description": "Outdoor markets such as the Cours Saleya market in Nice are part of daily life in Provence and the Riviera, selling produce, flowers and local specialities."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Rome, Florence + Venice by Rail, Italy",
+    "category": [
+      "city"
+    ],
+    "region": "International",
+    "countries": [
+      "Italy"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "Spring (April to early June) and early autumn (September to October) are comfortable for walking all three cities and sit outside peak summer; this is an editorial suggestion rather than met-service data. Museum opening days drive the order: the Uffizi is closed on Mondays, and the Vatican Museums are open Monday to Saturday plus the last Sunday of the month (free entry that day).",
+    "best_time_months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Italy's classic first-timer arc by high-speed train, no car needed: three days in Rome, a fast Italo/Frecciarossa-type hop to Florence for the Renaissance museums, then on to Venice.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Rome",
+        "activities": [
+          "Check in and walk the historic centre: Piazza Navona and the Trevi Fountain, both open public squares",
+          "Evening meal in a trattoria in the centre"
+        ],
+        "lodging_suggestion": "Rome (near Termini or the historic centre)"
+      },
+      {
+        "day_number": 2,
+        "title": "Colosseum, Roman Forum + Palatine",
+        "activities": [
+          "Colosseum, Roman Forum and Palatine: buy a timed-entry ticket only from the Parco archeologico del Colosseo's official ticketing site (ticketing.colosseo.it); the Colosseum entry is fixed to the booked time and the park advises arriving at the Colosseum entrance 15 minutes before it",
+          "The Forum and Palatine can be done before or after the Colosseum slot on the standard ticket",
+          "Evening walk back through the centre"
+        ],
+        "lodging_suggestion": "Rome (near Termini or the historic centre)"
+      },
+      {
+        "day_number": 3,
+        "title": "Vatican Museums",
+        "activities": [
+          "Vatican Museums and the Sistine Chapel: book online only at tickets.museivaticani.va, which the museums name as their only official online ticket site (beware look-alike sites). Open Monday to Saturday 8:00-20:00 (last entry 18:00) and the last Sunday of each month 9:00-14:00 (last entry 12:30), when entry is free; check the closure calendar for your dates",
+          "St Peter's Basilica is next door; check its own opening and dress rules before you go",
+          "Afternoon free in the centre"
+        ],
+        "lodging_suggestion": "Rome (near Termini or the historic centre)"
+      },
+      {
+        "day_number": 4,
+        "title": "Rome to Florence",
+        "activities": [
+          "Italo high-speed train Rome to Florence, about 1 hour 30 minutes (Italo destinations page); Trenitalia also runs frequent Frecciarossa services on the route, so compare times on the day",
+          "Walk to Piazza del Duomo and the Ponte Vecchio",
+          "Evening in the Oltrarno district across the Arno"
+        ],
+        "drive_time": "Italo Rome to Florence, ~1 hr 30",
+        "lodging_suggestion": "Florence (historic centre)"
+      },
+      {
+        "day_number": 5,
+        "title": "Uffizi + Accademia",
+        "activities": [
+          "Uffizi Gallery: open Tuesday to Sunday 8:15-18:30, closed Mondays, 1 January and 25 December; a ticket bought in advance for a set date is a named ticket (EUR 29 versus EUR 25 on the day, per the Uffizi site), so book on uffizi.it",
+          "Galleria dell'Accademia (Michelangelo's David): book entry on the museum's official booking site via galleriaaccademiafirenze.it and check its opening days first; admission is free on the first Sunday of each month, and free days cannot be pre-booked",
+          "Late afternoon on the Ponte Vecchio and along the Arno"
+        ],
+        "lodging_suggestion": "Florence (historic centre)"
+      },
+      {
+        "day_number": 6,
+        "title": "Florence to Venice",
+        "activities": [
+          "Italo high-speed train Florence to Venice, about 2 hours 15 minutes (Italo destinations page; Italo's own blog says 2 to 2.5 hours, so allow for variation)",
+          "Arrive on the Grand Canal and walk to your lodging; Venice has no cars, so expect to walk or use public water transport",
+          "Evening cicchetti round of the bacari (small bars) in Cannaregio or San Polo"
+        ],
+        "drive_time": "Italo Florence to Venice, ~2 hr 15",
+        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)"
+      },
+      {
+        "day_number": 7,
+        "title": "Venice: San Marco + the lagoon",
+        "activities": [
+          "Piazza San Marco and the Doge's Palace: buy tickets from the official Doge's Palace site (palazzoducale.visitmuve.it, which sells through Vivaticket) and check the opening hours for your date; some tickets there have no entry time slot, so check the ticket type",
+          "Venice's day-visitor access fee was charged only on set days in spring and summer 2026 (3 April to 26 July) and the city's portal said it no longer applied from 27 July; check cda.ve.it for the rules on your dates",
+          "Wander the canals away from San Marco"
+        ],
+        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)"
+      },
+      {
+        "day_number": 8,
+        "title": "Depart Venice",
+        "activities": [
+          "Last morning in the city",
+          "Rail onward, or depart from Venice by air (check the airport transfer in advance)"
+        ],
+        "lodging_suggestion": "Venice (historic centre, or Mestre if on a budget)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "Italian cooking",
+        "description": "UNESCO inscribed 'Italian cooking, between sustainability and biocultural diversity' on its intangible cultural heritage list in 2025."
+      },
+      {
+        "place_type": "dish",
+        "name": "Sarde in saor and baccalà mantecato",
+        "description": "Sardines in a sweet-and-sour onion marinade and creamed salt cod are typical Venetian cicchetti (small bites), eaten informally at bacari standing up, according to Venice's official tourism site (Venezia Unica)."
+      },
+      {
+        "place_type": "culture",
+        "name": "Andar per ombre",
+        "description": "The Venetian custom of going from bacaro to bacaro for a small glass of wine and cicchetti, a social evening ritual rather than a sit-down meal; the districts of Cannaregio and San Polo are named by Italy's tourism site as home to many bacari."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Opera singing in Italy",
+        "description": "UNESCO listed 'The practice of opera singing in Italy' as intangible heritage in 2023; if you want to attend a performance, check the opera houses' own programmes for your dates."
+      },
+      {
+        "place_type": "culture",
+        "name": "Free first Sundays at state museums",
+        "description": "Both the Accademia in Florence and the MANN archaeology museum in Naples state free admission on the first Sunday of each month; free tickets cannot be booked in advance and are collected on the day, so expect queues."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Naples, Pompeii, Capri + the Amalfi Coast, Italy",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "Italy"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 7,
+    "best_time_description": "Late spring (May to June) and early autumn (September to early October) suit ferries, coastal walks and Pompeii's open-air site and avoid peak-summer crowds; this is an editorial suggestion rather than met-service data. Ferry and shuttle timetables on the Amalfi Coast and to Capri change by season, so check each operator's timetable for your dates.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A south-Italy route without a car: Naples for archaeology and pizza, a Pompeii day by train, a fast ferry to Capri, then Salerno and a ferry to Amalfi, with Positano or the Path of the Gods as day options.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Naples",
+        "activities": [
+          "Italo high-speed train from Rome to Naples takes about 1 hour (Italo destinations page); allow more time if arriving from elsewhere",
+          "Stroll the historic centre (UNESCO World Heritage, inscribed 1995) around Spaccanapoli",
+          "Evening pizza in the old town"
+        ],
+        "drive_time": "Italo Rome to Naples, ~1 hr",
+        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)"
+      },
+      {
+        "day_number": 2,
+        "title": "Naples: archaeology museum + old town",
+        "activities": [
+          "Museo Archeologico Nazionale di Napoli (MANN): closed Tuesdays (except some public holidays) and not every gallery is open every day while rooms are being renovated, so check the 'schedule of open rooms' on museoarcheologiconapoli.it and buy tickets through its official sales channel; admission is free on the first Sunday of the month",
+          "Afternoon in the historic centre"
+        ],
+        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)"
+      },
+      {
+        "day_number": 3,
+        "title": "Pompeii day trip",
+        "activities": [
+          "Circumvesuviana Napoli-Sorrento line to Pompei Scavi-Villa dei Misteri, about 40 minutes according to the visitnaples.eu guide (Pompeii's own site names this stop for the Porta Marina entrance; the FS Napoli-Salerno train to Pompei is the alternative for the Piazza Anfiteatro side); check the EAV timetable on the day",
+          "Pompeii archaeological park: tickets are personal (named) and sold online through the park's official site; hours change with the season (9:00-17:00, last entry 15:30, from 15 October to 15 March; 9:00-19:00, last entry 17:30, from 16 March to 14 October); closed 25 December and 1 January; free on the first Sunday of the month",
+          "Return to Naples by train"
+        ],
+        "drive_time": "Circumvesuviana Naples to Pompei Scavi, ~40 min each way",
+        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)"
+      },
+      {
+        "day_number": 4,
+        "title": "Capri day trip",
+        "activities": [
+          "SNAV fast ferry from Napoli Molo Beverello to Capri, about 50 minutes (SNAV timetable page); other operators and Caremar sail from Naples too, with slower ferries taking longer",
+          "Capri town and the Piazzetta, and a walk to the Giardini di Augusto (check opening times)",
+          "Check the last sailing back to Naples before you commit to an evening on the island"
+        ],
+        "drive_time": "SNAV fast ferry Naples to Capri, ~50 min each way",
+        "lodging_suggestion": "Naples (historic centre or near Napoli Centrale)"
+      },
+      {
+        "day_number": 5,
+        "title": "Naples to Salerno to Amalfi",
+        "activities": [
+          "Italo high-speed train Naples to Salerno, about 35 minutes (Italo destinations page)",
+          "Travelmar ferry Salerno to Amalfi, about 30 to 35 minutes (Travelmar's own page gives both figures; check the current timetable because sailings vary by season)",
+          "Amalfi's cathedral square and the lanes behind the harbour"
+        ],
+        "drive_time": "Italo ~35 min + Travelmar ferry ~30-35 min",
+        "lodging_suggestion": "Amalfi (town centre)"
+      },
+      {
+        "day_number": 6,
+        "title": "Positano or the Path of the Gods",
+        "activities": [
+          "Option A: Travelmar ferry from Amalfi to Positano, about 30 minutes each way (Travelmar), and a day on the beach and the stepped lanes",
+          "Option B: the Path of the Gods trail: Travelmar's page describes a shuttle from Amalfi to Bomerano (Piazza Capasso), the trailhead, with a morning ferry-plus-shuttle connection from Positano taking about 1 hour 40 minutes in total; Travelmar gives no walking time for the trail itself, so plan the return with the shuttle or ferry timetable",
+          "Return to Amalfi by ferry or shuttle"
+        ],
+        "drive_time": "Travelmar Amalfi to Positano, ~30 min each way",
+        "lodging_suggestion": "Amalfi (town centre)"
+      },
+      {
+        "day_number": 7,
+        "title": "Amalfi to Salerno + depart",
+        "activities": [
+          "Travelmar ferry Amalfi to Salerno, about 35 minutes (check the current timetable)",
+          "Onward by train from Salerno (Italo Salerno to Naples, about 35 minutes) or depart by rail from Salerno"
+        ],
+        "drive_time": "Travelmar ferry ~35 min + Italo Salerno to Naples ~35 min",
+        "lodging_suggestion": "Salerno (near the station)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "Art of the Neapolitan pizzaiuolo",
+        "description": "UNESCO inscribed the art of the Neapolitan 'pizzaiuolo' on its intangible cultural heritage list in 2017; it recognises the craft of the pizza-maker (dough, shaping and wood-fired baking) rather than the dish itself."
+      },
+      {
+        "place_type": "dish",
+        "name": "Mozzarella di Bufala Campana",
+        "description": "A buffalo-milk cheese with an EU protected designation of origin (first registered in 1996), which may only be made in a defined area covering parts of Campania and neighbouring regions."
+      },
+      {
+        "place_type": "dish",
+        "name": "Limone Costa d'Amalfi",
+        "description": "Lemons from the Amalfi Coast carry an EU protected geographical indication, so lemons sold under that name must come from the designated coastal area."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Mediterranean diet",
+        "description": "UNESCO's intangible cultural heritage list for Italy includes the Mediterranean diet (inscribed 2013)."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Madrid, Toledo, Seville + Granada, Spain",
+    "category": [
+      "city"
+    ],
+    "region": "International",
+    "countries": [
+      "Spain"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 9,
+    "best_time_description": "Spring and autumn are the editorial pick for walking Madrid and the Andalusian cities on foot; this is a suggestion, not met-service data, so check the climate table for your month. Check each museum's weekly closing day before fixing the order of days.",
+    "best_time_months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "description": "A classic first-timer rail loop from the capital: Madrid and a half-hour Avant hop to UNESCO-listed Toledo, high-speed AVE south to Seville, a Renfe Avant on to Granada and the Alhambra, then back to Madrid. All by train, no car.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Madrid",
+        "activities": [
+          "Check in and walk the Plaza Mayor area",
+          "Evening tapas around the old centre, or a visit to the San Miguel market, a converted traditional market now a gourmet destination"
+        ],
+        "lodging_suggestion": "Madrid (Centro or Retiro area)"
+      },
+      {
+        "day_number": 2,
+        "title": "Prado, Retiro + Royal Palace",
+        "activities": [
+          "Prado Museum, one of the major museums of the world; book on the museum's official site and check its opening hours before you go",
+          "Retiro Park and the Paseo del Prado boulevard, together on the UNESCO World Heritage List",
+          "Royal Palace; check opening days and any ceremonial closures on the official Patrimonio Nacional site"
+        ],
+        "lodging_suggestion": "Madrid (Centro or Retiro area)"
+      },
+      {
+        "day_number": 3,
+        "title": "Toledo day trip",
+        "activities": [
+          "Renfe Avant from Madrid Puerta de Atocha to Toledo, about 30 minutes (Spain's tourism board); the first train from Atocha leaves at 6:45 am and the return from Toledo starts at 6:25 am (Renfe)",
+          "Toledo's old town is a World Heritage site: the Gothic Cathedral, the Alcazar that dominates the skyline, Santa Maria la Blanca (the oldest synagogue in the city) and the Church of Santo Tome with El Greco's Burial of the Count of Orgaz",
+          "Return to Madrid in the evening"
+        ],
+        "drive_time": "Avant Madrid-Toledo, ~30 min each way",
+        "lodging_suggestion": "Madrid (Centro or Retiro area)"
+      },
+      {
+        "day_number": 4,
+        "title": "AVE to Seville",
+        "activities": [
+          "AVE from Madrid Puerta de Atocha to Sevilla Santa Justa, from about 2 hours 30 minutes (Spain's tourism board); Renfe's first departure is at 07:00",
+          "Afternoon in the old town around the Cathedral, the largest Gothic cathedral in Europe, and its Giralda tower",
+          "Evening tapas in Triana"
+        ],
+        "drive_time": "AVE Madrid-Seville, from ~2 hr 30",
+        "lodging_suggestion": "Seville (Santa Cruz or Centro)"
+      },
+      {
+        "day_number": 5,
+        "title": "Alcazar, Plaza de Espana + flamenco",
+        "activities": [
+          "Real Alcazar palace and gardens: buy tickets from the official Real Alcazar site and check its opening hours before you go",
+          "Plaza de Espana",
+          "Evening flamenco at a tablao or neighbourhood peña; reserve ahead"
+        ],
+        "lodging_suggestion": "Seville (Santa Cruz or Centro)"
+      },
+      {
+        "day_number": 6,
+        "title": "Avant to Granada",
+        "activities": [
+          "Renfe Avant from Sevilla Santa Justa to Granada, about 2 hours 37 to 2 hours 45 minutes on the four direct Avant trains in Renfe's online timetable for 18 October 2026 (07:40, 09:55, 12:17 and 19:15 departures; schedules change, so recheck on renfe.com)",
+          "Walk the Albaicin, a World Heritage neighbourhood",
+          "Evening in the old town; tapas"
+        ],
+        "drive_time": "Avant Seville-Granada, ~2 hr 40",
+        "lodging_suggestion": "Granada (Albaicin or city centre)"
+      },
+      {
+        "day_number": 7,
+        "title": "The Alhambra",
+        "activities": [
+          "Alhambra and Generalife (World Heritage): buy tickets only through the official ticket site linked from alhambra-patronato.es and book well ahead; check the site for any timed-entry slots, opening days and ID rules",
+          "Afternoon free in the Albaicin or Sacromonte"
+        ],
+        "lodging_suggestion": "Granada (Albaicin or city centre)"
+      },
+      {
+        "day_number": 8,
+        "title": "Return to Madrid + depart",
+        "activities": [
+          "Train from Granada to Madrid, from about 3 hours 30 minutes (Spain's tourism board); check the Renfe timetable for the exact service",
+          "Depart from Madrid"
+        ],
+        "drive_time": "Granada-Madrid, from ~3 hr 30",
+        "lodging_suggestion": "Madrid (near Atocha or Barajas airport)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "culture",
+        "name": "Tapas in Triana",
+        "description": "Seville's tourism board recommends Triana, the district known for traditional ceramics and handicrafts, for tapas."
+      },
+      {
+        "place_type": "culture",
+        "name": "Flamenco in Seville",
+        "description": "Spain's tourism board notes you can see flamenco at a tablao or a neighbourhood peña in Seville, and that the city hosts the Biennial, a major international flamenco festival."
+      },
+      {
+        "place_type": "culture",
+        "name": "San Miguel market, Madrid",
+        "description": "A converted traditional market that Spain's tourism board calls a gastronomic shrine, good for grazing on small plates in the centre."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Tapas culture",
+        "description": "Ordering several small plates and moving between bars is an ordinary way to eat in Madrid, Seville and Granada rather than a tourist ritual."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Barcelona, Valencia + Mallorca, Spain",
+    "category": [
+      "city",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "Spain"
+    ],
+    "duration_days_min": 9,
+    "duration_days_max": 10,
+    "best_time_description": "Late spring and early autumn suit city walking and a Mediterranean island at a comfortable pace and avoid peak summer crowds; this is an editorial suggestion, not met-service data. Ferry frequency varies by season, so check the operator's schedule for your dates.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Spain's Mediterranean side: three days in Barcelona, a Euromed train down the coast to Valencia, then an overnight-capable ferry crossing of about 7 hours to Mallorca and Palma's old town.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Barcelona",
+        "activities": [
+          "Check in and walk the old town, then La Boqueria, a traditional market"
+        ],
+        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)"
+      },
+      {
+        "day_number": 2,
+        "title": "Gaudi's Barcelona",
+        "activities": [
+          "Sagrada Familia: buy tickets only on the official sagradafamilia.org site and check its current opening hours before booking",
+          "Casa Batllo, one of the famous Gaudi sights; book ahead on its official site",
+          "Park Guell; check the official site for ticketing"
+        ],
+        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)"
+      },
+      {
+        "day_number": 3,
+        "title": "Montjuic + old town",
+        "activities": [
+          "Montjuic park for views over the city and port",
+          "Afternoon in the old town",
+          "Evening at a neighbourhood tapas bar"
+        ],
+        "lodging_suggestion": "Barcelona (Eixample or Gothic Quarter)"
+      },
+      {
+        "day_number": 4,
+        "title": "Euromed to Valencia",
+        "activities": [
+          "Renfe Euromed from Barcelona Sants to Valencia, about 2 hours 47 minutes to 3 hours 26 minutes depending on the train (Renfe's online timetable for 18 October 2026 lists Euromed departures at 10:15, 16:15, 18:15 and 20:15; schedules change, so recheck on renfe.com)",
+          "Evening in the old centre"
+        ],
+        "drive_time": "Euromed Barcelona-Valencia, ~2 hr 47 to 3 hr 26",
+        "lodging_suggestion": "Valencia (old town or near the Turia gardens)"
+      },
+      {
+        "day_number": 5,
+        "title": "Central Market + Silk Exchange",
+        "activities": [
+          "Central Market, a Modernist market that Spain's tourism board calls Europe's largest fresh produce market; check its opening days before going",
+          "La Lonja de la Seda (Silk Exchange), a World Heritage building with an orange-tree courtyard",
+          "Paella lunch"
+        ],
+        "lodging_suggestion": "Valencia (old town or near the Turia gardens)"
+      },
+      {
+        "day_number": 6,
+        "title": "City of Arts and Sciences + Albufera",
+        "activities": [
+          "City of Arts and Sciences by Santiago Calatrava and Felix Candela, including the Oceanografic, which the tourism board calls Europe's largest aquarium",
+          "Sunset at the Albufera, a navigable lake beside the sea"
+        ],
+        "lodging_suggestion": "Valencia (old town or near the Turia gardens)"
+      },
+      {
+        "day_number": 7,
+        "title": "Ferry to Mallorca",
+        "activities": [
+          "Ferry from Valencia to Palma, about 7 hours (Trasmed lists regular day and night departures through the year; Balearia also sails the route and lists 7 to 9 hours depending on the vessel). Check the operator's schedule and book in advance, and decide between a day crossing and a night crossing",
+          "Settle into Palma's old town"
+        ],
+        "drive_time": "Ferry Valencia-Palma, ~7 hr",
+        "lodging_suggestion": "Palma de Mallorca (old town)"
+      },
+      {
+        "day_number": 8,
+        "title": "Palma old town",
+        "activities": [
+          "Palma Cathedral (La Seu), which Spain's tourism board lists as a must-see",
+          "Almudaina Palace and the Lonja (the Exchange) nearby",
+          "Evening in the old town"
+        ],
+        "lodging_suggestion": "Palma de Mallorca (old town)"
+      },
+      {
+        "day_number": 9,
+        "title": "Mallorca by the mountains",
+        "activities": [
+          "Sierra de Tramuntana villages of Soller and Valldemossa, both described by Spain's tourism board; check local bus or hire-car options before you go, as travel times were not verified for this route",
+          "Return to Palma"
+        ],
+        "lodging_suggestion": "Palma de Mallorca (old town)"
+      },
+      {
+        "day_number": 10,
+        "title": "Depart Palma",
+        "activities": [
+          "Depart from Palma de Mallorca; check flight times back to the mainland or home"
+        ],
+        "lodging_suggestion": "Palma (near the airport or the port)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Paella in Valencia",
+        "description": "Spain's tourism board calls paella Valencia's star dish and recommends paella by the sea at beaches such as Malvarrosa, with El Palmar known for its paella."
+      },
+      {
+        "place_type": "culture",
+        "name": "La Boqueria",
+        "description": "A traditional market in Barcelona that Spain's tourism board names among the city's markets; good for browsing local produce."
+      },
+      {
+        "place_type": "culture",
+        "name": "Valencia Central Market",
+        "description": "A Modernist covered market that Spain's tourism board calls Europe's largest fresh produce market; wandering the stalls is a highlight of the city."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Tapas culture",
+        "description": "Eating several small plates at a bar is an ordinary way to eat in Barcelona and across Spain rather than a tourist ritual."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Lisbon, Sintra, Porto + Douro Valley by Train, Portugal",
+    "category": [
+      "city",
+      "nature"
+    ],
+    "region": "International",
+    "countries": [
+      "Portugal"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "Spring and early autumn suit walking Lisbon and Porto and a day on the Douro line, and avoid the peak-summer crowds at Sintra; this is an editorial suggestion, not met-service data. Jerónimos Monastery and Belém Tower are closed on Mondays, so keep Belém off a Monday.",
+    "best_time_months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "Portugal's classic first-timer line done entirely without a car: three days in Lisbon including Belém and a Sintra day trip, the Alfa Pendular up to Porto, then a day on CP's Linha do Douro to Pinhão in the wine valley.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Lisbon",
+        "activities": [
+          "Check in and walk the Baixa and Alfama districts toward the Sé (cathedral) and the miradouros (viewpoints)",
+          "Evening dinner in Alfama; fado houses are in this district"
+        ],
+        "lodging_suggestion": "Lisbon (Baixa or Alfama)"
+      },
+      {
+        "day_number": 2,
+        "title": "Belém: Jerónimos + Belém Tower",
+        "activities": [
+          "Jerónimos Monastery: the official museusemonumentos.pt site lists it as closed Mondays, 1 January, Easter Sunday, 1 May, 13 June and 25 December; tickets can be bought online there, and the church has shorter hours than the cloister",
+          "Belém Tower (Torre de Belém): also closed Mondays on the official site, with last entry at 17:00; buy tickets online or at the ticket office",
+          "Pastel de nata in Belém and a walk along the Tagus waterfront"
+        ],
+        "lodging_suggestion": "Lisbon (Baixa or Alfama)"
+      },
+      {
+        "day_number": 3,
+        "title": "Sintra day trip",
+        "activities": [
+          "CP urban train from Lisboa Rossio to Sintra, about 40 minutes direct on CP's journey planner",
+          "Pena Palace: entry to the palace needs a booked time slot bought in advance from the official Parques de Sintra site; if you arrive before your slot you cannot enter, and tickets cannot be changed or refunded if you miss it. The walk from the park entrance to the palace is about 30 minutes",
+          "Optional: Monserrate Park and Palace (Parques de Sintra notes roof restoration works with scaffolding until the first quarter of 2027)",
+          "Return train to Lisbon in the evening"
+        ],
+        "drive_time": "CP train Lisboa Rossio to Sintra, ~40 min",
+        "lodging_suggestion": "Lisbon (Baixa or Alfama)"
+      },
+      {
+        "day_number": 4,
+        "title": "Alfa Pendular to Porto",
+        "activities": [
+          "CP Alfa Pendular from Lisboa Santa Apolónia to Porto Campanhã: CP's timetable valid since 14 December 2025 shows the 09:00 departure arriving 11:48 (about 2 h 48 min); CP's September 2026 timetable shows the opposite direction, Porto Campanhã 05:40 to Lisboa Oriente 08:23 (2 h 43 min). Book at cp.pt and check current departures",
+          "Walk from São Bento station, whose entrance hall is tiled with azulejos, to the Ribeira waterfront",
+          "Dom Luís I Bridge at sunset"
+        ],
+        "drive_time": "CP Alfa Pendular Lisbon to Porto, ~2 h 45 min",
+        "lodging_suggestion": "Porto (Ribeira or Baixa)"
+      },
+      {
+        "day_number": 5,
+        "title": "Porto: Lello + Gaia port lodges",
+        "activities": [
+          "Livraria Lello: buy a timed ticket online from the official Livraria Lello site (tickets are non-refundable and can be moved once, up to 24 hours before); check the day's opening hours on that site",
+          "Porto Cathedral (Sé do Porto) and the old streets of the Ribeira",
+          "Cross the Dom Luís I Bridge to Vila Nova de Gaia for a port lodge visit and tasting"
+        ],
+        "lodging_suggestion": "Porto (Ribeira or Baixa)"
+      },
+      {
+        "day_number": 6,
+        "title": "Douro Valley by train to Pinhão",
+        "activities": [
+          "CP Linha do Douro InterRegional from Porto Campanhã 09:30 to Régua 11:20 and Pinhão 11:46 (about 2 h 16 min), from CP's timetable valid since 5 August 2026; the 07:30 departure reaches Pinhão at 09:51. Check the timetable on the day, as CP warns that connections are guaranteed only in normal operating conditions",
+          "Pinhão station and the terraced vineyards on the river",
+          "Lunch in Pinhão and a river or vineyard visit booked locally in advance",
+          "Afternoon train back to Porto; the timetable shows departures from Pinhão at 14:07 and 18:11, and the trip back takes about 2 h 20 min, so confirm the arrival time at cp.pt"
+        ],
+        "drive_time": "CP Linha do Douro Porto Campanhã to Pinhão, ~2 h 15 min",
+        "lodging_suggestion": "Porto (Ribeira or Baixa)"
+      },
+      {
+        "day_number": 7,
+        "title": "Return to Lisbon + depart",
+        "activities": [
+          "CP Alfa Pendular from Porto Campanhã back to Lisbon, about 2 h 45 min (see day 4 for the sourced times)",
+          "Final evening in Lisbon (Chiado or Bairro Alto) or depart from Lisbon airport"
+        ],
+        "drive_time": "CP Alfa Pendular Porto to Lisbon, ~2 h 45 min",
+        "lodging_suggestion": "Lisbon (near your departure airport or station)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Pastel de nata",
+        "description": "The custard tart sold in bakeries across Lisbon; Belém is the neighbourhood most associated with it."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Fado",
+        "description": "Portugal's urban song tradition, inscribed by UNESCO on its intangible cultural heritage list in 2011; Lisbon's Alfama and Mouraria districts are where visitors usually hear it live."
+      },
+      {
+        "place_type": "dish",
+        "name": "Francesinha",
+        "description": "A Porto sandwich of bread, cured meats and cheese covered with a hot sauce; ask locally where the neighbourhood favourites are."
+      },
+      {
+        "place_type": "drink",
+        "name": "Port wine",
+        "description": "A fortified wine from the Douro Valley; the lodges in Vila Nova de Gaia, across the river from Porto, offer tours and tastings."
+      },
+      {
+        "place_type": "culture",
+        "name": "Azulejos",
+        "description": "Painted ceramic tiles that cover station halls, churches and house fronts across Portugal; São Bento station in Porto is a well-known example."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Alentejo + Algarve by Train, Portugal",
+    "category": [
+      "off-the-beaten-path",
+      "water"
+    ],
+    "region": "International",
+    "countries": [
+      "Portugal"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 9,
+    "best_time_description": "May, June, September and October are an editorial suggestion: the Alentejo plain is exposed in midsummer and the Algarve coast is busiest then; this is not met-service data. Evening-only and weekday-only trains are noted in the days below.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A slower southern route: an Intercidades to Évora in the Alentejo for two nights, back to Lisbon and down to Faro on the Linha do Sul, then CP's Algarve line west to Lagos and its clifftop coast, all by train.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Lisbon",
+        "activities": [
+          "Check in and walk the Baixa, Chiado and the Tagus waterfront",
+          "Early night: the Évora train leaves early on weekdays"
+        ],
+        "lodging_suggestion": "Lisbon (near Lisboa Oriente or Baixa)"
+      },
+      {
+        "day_number": 2,
+        "title": "Train to Évora",
+        "activities": [
+          "CP Intercidades from Lisboa Oriente 07:02 to Évora 08:47 (about 1 h 45), Monday to Friday; on Saturdays, Sundays and public holidays the 09:58 departure reaches Évora at 11:40 (CP timetable valid since 6 September 2026); a daily train leaves at 17:02 and arrives 18:41. Book at cp.pt",
+          "Praça do Giraldo and the old town inside the walls",
+          "Évora Cathedral (Sé de Évora) and the Roman Temple"
+        ],
+        "drive_time": "CP Intercidades Lisboa Oriente to Évora, ~1 h 45",
+        "lodging_suggestion": "Évora (old town)"
+      },
+      {
+        "day_number": 3,
+        "title": "Évora: Chapel of Bones + countryside",
+        "activities": [
+          "Capela dos Ossos in the Igreja de São Francisco: the chapel is lined with human bones; it uses a paid ticket and seasonal opening hours, with the city council and the church listing slightly different hours, so check the church's own site on the day. Open daily except 1 January, Easter Sunday and 25 December per the council listing",
+          "Walk the old town lanes at your own pace",
+          "Alentejo dinner: ask for regional dishes at a restaurant in the old town"
+        ],
+        "lodging_suggestion": "Évora (old town)"
+      },
+      {
+        "day_number": 4,
+        "title": "Évora to Lisbon to Faro",
+        "activities": [
+          "CP Intercidades Évora 09:14 to Lisboa Oriente 10:57 (daily, 1 h 43)",
+          "Lunch in Parque das Nações near Lisboa Oriente during the gap",
+          "CP Intercidades Lisboa Oriente 14:02 to Faro 17:39 (daily, about 3 h 37), per CP's September 2026 timetable; book a seat at cp.pt in advance. The 08:23 Alfa Pendular reaches Faro at 11:27 and the 17:23 reaches it at 20:23 if you prefer another departure"
+        ],
+        "drive_time": "CP Évora to Lisbon ~1 h 45, then Lisbon to Faro ~3 h 35",
+        "lodging_suggestion": "Faro (near the station and old town)"
+      },
+      {
+        "day_number": 5,
+        "title": "Faro old town + Ria Formosa",
+        "activities": [
+          "Walk the Cidade Velha (old town) inside Faro's walls, entering through the Arco da Vila",
+          "Ria Formosa Natural Park: the lagoon and barrier islands lie directly south of Faro; check which boat operators run on the day",
+          "Evening seafood dinner in Faro"
+        ],
+        "lodging_suggestion": "Faro (near the station and old town)"
+      },
+      {
+        "day_number": 6,
+        "title": "Train to Lagos",
+        "activities": [
+          "CP Algarve line from Faro 08:36 to Lagos 10:07 (about 1 h 31), per the CP timetable valid since 19 July 2026, when the line became fully electric with direct trains; check the day's timetable",
+          "Lagos old town and the waterfront",
+          "Praia Dona Ana"
+        ],
+        "drive_time": "CP Algarve line Faro to Lagos, ~1 h 30",
+        "lodging_suggestion": "Lagos (old town)"
+      },
+      {
+        "day_number": 7,
+        "title": "Ponta da Piedade + beaches",
+        "activities": [
+          "Walk from Lagos to Ponta da Piedade, a headland of sea cliffs and grottoes just south of the town",
+          "Boat tours of the grottoes are sold locally; ask about sea conditions on the day",
+          "Beach afternoon at Meia Praia or Praia Dona Ana"
+        ],
+        "lodging_suggestion": "Lagos (old town)"
+      },
+      {
+        "day_number": 8,
+        "title": "Lagos to Faro to Lisbon",
+        "activities": [
+          "CP Algarve line from Lagos 13:22 to Faro 14:53 (about 1 h 31)",
+          "CP Alfa Pendular from Faro 16:00 to Lisboa Oriente 19:05 (about 3 h 05, daily); an earlier Alfa Pendular leaves Faro at 07:00 and reaches Lisboa Oriente at 10:05 (CP September 2026 timetable)",
+          "Final evening in Lisbon"
+        ],
+        "drive_time": "CP Lagos to Faro ~1 h 30, then Faro to Lisbon ~3 h",
+        "lodging_suggestion": "Lisbon (near Lisboa Oriente or your departure airport)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Cataplana",
+        "description": "A seafood stew cooked and served in a hinged copper pan of the same name, a staple of Algarve restaurants."
+      },
+      {
+        "place_type": "dish",
+        "name": "Alentejo regional cooking",
+        "description": "The Alentejo is known for hearty bread-based and pork dishes; ask for the day's regional plate at a restaurant in Évora."
+      },
+      {
+        "place_type": "drink",
+        "name": "Alentejo wine",
+        "description": "The Alentejo is a major Portuguese wine region; many Évora wine bars pour local reds by the glass."
+      },
+      {
+        "place_type": "culture",
+        "name": "Cork oak landscapes",
+        "description": "The Alentejo plain is dotted with cork oaks; Portugal is a leading cork producer, and cork goods are sold in Évora's shops."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Capela dos Ossos",
+        "description": "Évora's Chapel of Bones, in the Igreja de São Francisco, is a memento mori chapel lined with human bones."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Athens, Delphi + Nafplio, Greece",
+    "category": [
+      "city"
+    ],
+    "region": "International",
+    "countries": [
+      "Greece"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 8,
+    "best_time_description": "Spring and autumn are comfortable for climbing archaeological sites on foot and sit outside the peak summer crowds; this is an editorial suggestion rather than met-service data. The Epidaurus theatre hosts festival performances in summer, so a summer trip can pair Day 7 with an evening show, but check dates and tickets in advance.",
+    "best_time_months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A bus-only first-timer's Greece: three days in Athens, an overnight at Delphi on the slopes of Mount Parnassus, then Nafplio in the Peloponnese with a half-day at the ancient theatre of Epidaurus. Every leg is a KTEL intercity bus from Athens, no car needed.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Athens",
+        "activities": [
+          "Check in and walk the old streets of Plaka and the Anafiotika quarter below the Acropolis rock",
+          "Evening meal in Plaka or Monastiraki"
+        ],
+        "lodging_suggestion": "Athens (Plaka or Monastiraki)"
+      },
+      {
+        "day_number": 2,
+        "title": "Acropolis + Acropolis Museum",
+        "activities": [
+          "Acropolis of Athens: entry is by timed slot, so book your slot in advance on the Hellenic Ministry of Culture's official ticketing platform (reported as hhticket.gr; confirm the address and current opening hours there before paying) and go in the first morning slot if you can",
+          "Acropolis Museum at the foot of the hill; opening days and ticket prices were not verified, so check its official site",
+          "Afternoon in Plaka and Monastiraki"
+        ],
+        "lodging_suggestion": "Athens (Plaka or Monastiraki)"
+      },
+      {
+        "day_number": 3,
+        "title": "Ancient Agora + National Archaeological Museum",
+        "activities": [
+          "Ancient Agora of Athens with the Temple of Hephaestus; opening days and entry rules were not verified, so check the Ministry of Culture ticket site",
+          "National Archaeological Museum; opening days were not verified, so check its official site",
+          "Evening walk or climb up Lycabettus Hill for views over the city"
+        ],
+        "lodging_suggestion": "Athens (Plaka or Monastiraki)"
+      },
+      {
+        "day_number": 4,
+        "title": "Athens to Delphi",
+        "activities": [
+          "Intercity KTEL bus from Athens to Delphi: the Greek National Tourism Organisation gives about 2.5 hours; the KTEL Fokidas Athens agency is at Liosion 260 and its regular timetable is on ktel-fokidas.gr (departure times not verified here, so check the day before)",
+          "Afternoon at the Delphi archaeological site, the ancient oracle of Apollo on the slopes of Mount Parnassus; opening days and ticket details were not verified, so check the Ministry of Culture ticket site",
+          "Evening in the town of Delphi"
+        ],
+        "drive_time": "KTEL bus Athens to Delphi, about 2.5 hours (Greek National Tourism Organisation)",
+        "lodging_suggestion": "Delphi (town centre)"
+      },
+      {
+        "day_number": 5,
+        "title": "Delphi and back to Athens",
+        "activities": [
+          "Morning at the Delphi Archaeological Museum, beside the site; opening days were not verified, so check before you go",
+          "KTEL bus back to Athens, the same Athens-Delphi service (allow about 2.5 hours; return timetable on ktel-fokidas.gr)",
+          "Evening in Athens"
+        ],
+        "drive_time": "KTEL bus Delphi to Athens, about 2.5 hours",
+        "lodging_suggestion": "Athens (Plaka or Monastiraki)"
+      },
+      {
+        "day_number": 6,
+        "title": "Athens to Nafplio",
+        "activities": [
+          "Intercity KTEL bus from Athens to Nafplio: the Greek National Tourism Organisation gives about 1.5 to 2 hours (departure terminal and times not verified, so check with KTEL before you travel)",
+          "Walk Nafplio's old town and the seafront",
+          "Bourtzi, the fortress on the islet of Agioi Theodoroi just off the waterfront"
+        ],
+        "drive_time": "KTEL bus Athens to Nafplio, about 1.5 to 2 hours (Greek National Tourism Organisation)",
+        "lodging_suggestion": "Nafplio (old town)"
+      },
+      {
+        "day_number": 7,
+        "title": "Palamidi + Epidaurus",
+        "activities": [
+          "Palamidi, the castle on the hill above Nafplio with views over the sea and the old town's red roofs",
+          "Bus to Epidaurus, about 1 hour from Nafplio (Greek National Tourism Organisation)",
+          "Ancient Theatre of Epidaurus, built around 340 to 330 BC and part of the Sanctuary of Asklepios UNESCO World Heritage Site; opening hours and ticket prices were not verified, so check the Ministry of Culture ticket site, and book ahead for any festival performance",
+          "Return to Nafplio by bus"
+        ],
+        "drive_time": "Bus Nafplio to Epidaurus, about 1 hour each way (Greek National Tourism Organisation)",
+        "lodging_suggestion": "Nafplio (old town)"
+      },
+      {
+        "day_number": 8,
+        "title": "Return to Athens + depart",
+        "activities": [
+          "KTEL bus from Nafplio back to Athens, about 1.5 to 2 hours (same service as Day 6)",
+          "Allow generous time before an onward flight"
+        ],
+        "drive_time": "KTEL bus Nafplio to Athens, about 1.5 to 2 hours",
+        "lodging_suggestion": "Athens (near your departure point or airport)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "The Mediterranean diet",
+        "description": "Inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2013, shared between Greece, Cyprus, Croatia, Spain, Italy, Morocco and Portugal; a shared table of olive oil, vegetables, bread and fish is the everyday version you will meet in tavernas."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Rebetiko",
+        "description": "A music and dance tradition that emerged among urban working-class communities in the early 1900s, inscribed by UNESCO in 2017 for Greece; Athens has venues that play it live, which are worth looking up for an evening."
+      },
+      {
+        "place_type": "culture",
+        "name": "The oracle at Delphi",
+        "description": "The ancient oracle of Apollo on the slopes of Mount Parnassus, one of the most renowned oracles of antiquity according to the Greek National Tourism Organisation."
+      },
+      {
+        "place_type": "culture",
+        "name": "Epidaurus theatre and festival",
+        "description": "The ancient theatre has hosted performances every summer since the 1950s as part of the Athens Epidaurus Festival, per the Greek National Tourism Organisation."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "Paros, Naxos + Santorini, Greece",
+    "category": [
+      "water",
+      "nature"
+    ],
+    "region": "International",
+    "countries": [
+      "Greece"
+    ],
+    "duration_days_min": 8,
+    "duration_days_max": 8,
+    "best_time_description": "Ferry frequency and fast-boat service on this route are strongly seasonal. The high-speed SeaJets timetable we found for Santorini to Naxos to Paros was listed for 28 May to 28 September 2026 only, so in autumn you should expect to rely on the slower conventional ferries (Blue Star) and plan extra time; weather also causes cancellations (Blue Star was publishing weather-related schedule changes on its site in mid-October 2026). Late May to September gives the most choice of sailings; shoulder months are quieter. This is an editorial suggestion, not met-service data.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "A Cyclades island-hop in the classic order from Athens: ferry from Piraeus to Paros, on to Naxos, then Santorini, and back to Athens. Ferries are the connective tissue here, so every hop below carries its operator-stated time and the seasonal caveat.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Athens",
+        "activities": [
+          "Check in near Piraeus or central Athens so the ferry port is easy to reach next morning",
+          "Evening walk in Plaka or around Piraeus harbour"
+        ],
+        "lodging_suggestion": "Piraeus or central Athens"
+      },
+      {
+        "day_number": 2,
+        "title": "Ferry Piraeus to Paros",
+        "activities": [
+          "Blue Star Ferries conventional ferry from Piraeus to Paros: Blue Star's own page says the journey lasts 4 hours 10 minutes, with daily routes to and from Paros; departure times differ by day, so check the booking page for the exact sailing and book ahead",
+          "Arrive in Parikia and walk the old town and the harbour",
+          "Panagia Ekatontapyliani (the Church of a Hundred Doors) in Parikia"
+        ],
+        "drive_time": "Blue Star ferry Piraeus to Paros, 4 hours 10 minutes (Blue Star Ferries)",
+        "lodging_suggestion": "Parikia, Paros"
+      },
+      {
+        "day_number": 3,
+        "title": "Paros: Naoussa + Lefkes",
+        "activities": [
+          "Naoussa, the fishing harbour town on the north coast",
+          "Lefkes, the hill village inland",
+          "Local buses and rental cars run between the villages; no bus times were verified, so check on the island"
+        ],
+        "lodging_suggestion": "Parikia, Paros"
+      },
+      {
+        "day_number": 4,
+        "title": "Ferry Paros to Naxos",
+        "activities": [
+          "Sea hop Paros to Naxos: about 40 minutes on the SeaJets summer high-speed listing (from a ferries.gr schedule listing, which is a booking agency not the operator; that summer service was listed only to 28 September 2026). On a conventional Blue Star sailing that calls at both, Blue Star's July 2026 notice lists Paros around 21:30 to 22:15 and Naxos around 23:15 to 23:45, so allow about an hour and expect a late-night arrival",
+          "The Portara, the marble gateway of the unfinished temple on the Palatia islet beside Naxos town, at sunset",
+          "Naxos Chora and its Venetian-era Kastro"
+        ],
+        "drive_time": "About 40 minutes high-speed in summer (ferries.gr listing of SeaJets); about 1 hour on the Blue Star conventional sailing",
+        "lodging_suggestion": "Naxos (Chora)"
+      },
+      {
+        "day_number": 5,
+        "title": "Naxos villages",
+        "activities": [
+          "Temple of Demeter near Sangri, in the Naxos countryside",
+          "Halki and Apeiranthos, two of the island's mountain villages",
+          "Local buses or a rental car are the way around; no bus times were verified, so check in Naxos town"
+        ],
+        "lodging_suggestion": "Naxos (Chora)"
+      },
+      {
+        "day_number": 6,
+        "title": "Ferry Naxos to Santorini",
+        "activities": [
+          "Sea hop Naxos to Santorini: about 1 hour 30 minutes on the SeaJets summer daily service listed as departing Santorini 08:25 and reaching Naxos 09:55 (ferries.gr listing, booking agency not operator, listed for 28 May to 28 September 2026 only; the opposite direction runs on different days). Outside that period take a conventional Blue Star sailing instead: Blue Star's July 2026 notice shows Naxos around 23:15 to 23:45 and Santorini around 02:00 to 02:20, i.e. about 2 hours 15 minutes to 2 hours 45 minutes, arriving in the small hours",
+          "Settle into Fira on the caldera rim",
+          "Walk the caldera edge in Fira"
+        ],
+        "drive_time": "About 1 hour 30 minutes high-speed in summer (ferries.gr listing of SeaJets); about 2 hours 15 minutes to 2 hours 45 minutes on the Blue Star conventional sailing",
+        "lodging_suggestion": "Fira, Santorini"
+      },
+      {
+        "day_number": 7,
+        "title": "Santorini: Akrotiri + Oia",
+        "activities": [
+          "Akrotiri, the Bronze Age town buried by the volcanic eruption; opening days and ticket details were not verified, so check the Ministry of Culture ticket site",
+          "Oia at the north tip of the island for sunset; it is crowded at the evening, so arrive early",
+          "A Santorini winery visit; book ahead, hours not verified"
+        ],
+        "lodging_suggestion": "Fira, Santorini"
+      },
+      {
+        "day_number": 8,
+        "title": "Return to Athens",
+        "activities": [
+          "Ferry Santorini to Piraeus: Blue Star states the Piraeus to Santorini journey lasts from 6 hours 6 minutes (sailings vary, and a slower sailing takes longer). Sailing days and times were not verified for your date, so check the booking page",
+          "Santorini also has an airport with flights to Athens; flight times and airlines were not verified here, so check with the airline",
+          "Leave at least a full day of slack before an international flight home, because ferries are weather-dependent"
+        ],
+        "drive_time": "Blue Star ferry Santorini to Piraeus, from 6 hours 6 minutes (Blue Star Ferries)",
+        "lodging_suggestion": "Athens or Piraeus (near your departure point)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Fava Santorinis",
+        "description": "Fava Santorinis has EU protected designation of origin status (granted in 2010), made from the seeds of Lathyrus clymenum grown on eight Cyclades islands and milled locally."
+      },
+      {
+        "place_type": "dish",
+        "name": "Graviera Naxou",
+        "description": "Graviera Naxou is a cheese with an EU protected-name registration (listed in Commission Regulation (EC) No 1107/96); look for it in Naxos tavernas and food shops."
+      },
+      {
+        "place_type": "tradition",
+        "name": "The Mediterranean diet",
+        "description": "Inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2013, shared between Greece, Cyprus, Croatia, Spain, Italy, Morocco and Portugal; on the islands this shows up as vegetables, olive oil, bread and fish."
+      },
+      {
+        "place_type": "culture",
+        "name": "Akrotiri",
+        "description": "The Bronze Age settlement on Santorini was buried by a volcanic eruption and is an archaeological site you can visit; the Ministry of Culture ticket site has current access details."
+      }
+    ],
+    "cover_image_url": null
+  },
+  {
+    "title": "London, Bath + Oxford, England",
+    "category": [
+      "city",
+      "budget"
+    ],
+    "region": "International",
+    "countries": [
+      "UK"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "Late spring (May-June) and early autumn (September) are comfortable for walking London and for day trips to Bath and Oxford and sit outside the peak July-August crowds; this is an editorial suggestion rather than met-service data.",
+    "best_time_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "description": "England's classic first-timer arc: five days of London's landmarks and museums, plus two easy rail day trips from Paddington, to Georgian Bath (about 1 hour 20 minutes) and to Oxford's colleges (about 1 hour). No car needed.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive London",
+        "activities": [
+          "Arrive and check in; ETA holders and visa holders should have their approval ready before boarding",
+          "Evening walk along the South Bank from Westminster Bridge past the London Eye toward Tower Bridge"
+        ],
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+      },
+      {
+        "day_number": 2,
+        "title": "Tower of London + the City",
+        "activities": [
+          "Tower of London: check the Historic Royal Palaces website for current opening days and hours and book online ahead, especially in school holidays; see the Crown Jewels and the White Tower",
+          "Walk across Tower Bridge",
+          "St Paul's Cathedral and the Millennium Bridge toward Tate Modern"
+        ],
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+      },
+      {
+        "day_number": 3,
+        "title": "Westminster + museums",
+        "activities": [
+          "Westminster Abbey and the Houses of Parliament exterior: check the Abbey's opening days before you go",
+          "St James's Park to Buckingham Palace",
+          "The British Museum, which has free general entry (special exhibitions may be ticketed)"
+        ],
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+      },
+      {
+        "day_number": 4,
+        "title": "Day trip to Bath",
+        "activities": [
+          "GWR train from London Paddington to Bath Spa, about 1 hour 20 minutes (GWR's fastest service is 1 hour 19 minutes; trains run roughly every 30 minutes)",
+          "Bath Abbey and the Roman Baths: check the Roman Baths website for current opening hours and ticket booking",
+          "Royal Crescent and the Circus, then the Pulteney Bridge",
+          "Return train to Paddington in the evening"
+        ],
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
+        "drive_time": "GWR train, about 1 hr 20 min each way"
+      },
+      {
+        "day_number": 5,
+        "title": "Day trip to Oxford",
+        "activities": [
+          "Train from London Paddington to Oxford, about 1 hour (GWR's fastest service is 52 minutes; up to 168 trains a day)",
+          "Walk the college quads and the Radcliffe Camera; check each college's visiting days, as colleges close to visitors during term events and exams",
+          "The Ashmolean Museum (free entry)",
+          "Punting or a riverside walk on the Cherwell or Thames, then return to London"
+        ],
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)",
+        "drive_time": "GWR train, about 1 hr each way"
+      },
+      {
+        "day_number": 6,
+        "title": "Markets, galleries + West End",
+        "activities": [
+          "Borough Market or Portobello Road Market for lunch (check market days before going)",
+          "National Gallery on Trafalgar Square (free entry)",
+          "Evening in the West End theatres; book seats in advance"
+        ],
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+      },
+      {
+        "day_number": 7,
+        "title": "Depart London",
+        "activities": [
+          "Morning at leisure: Hyde Park and Kensington Gardens",
+          "Travel to the airport for departure"
+        ],
+        "lodging_suggestion": "London (South Bank, Bloomsbury or near Paddington)"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "tradition",
+        "name": "Afternoon tea",
+        "description": "A tea service of sandwiches, scones with clotted cream and jam, and cakes, served in London hotels and tea rooms and in Bath's tea rooms; booking ahead is usual at the well-known venues."
+      },
+      {
+        "place_type": "dish",
+        "name": "Fish and chips",
+        "description": "Battered fish with chips, a standard British takeaway and sit-down dish found in every town on this route."
+      },
+      {
+        "place_type": "dish",
+        "name": "Sunday roast",
+        "description": "A weekend lunch of roast meat, roast potatoes, Yorkshire pudding and gravy, served in pubs across London, Bath and Oxford."
+      },
+      {
+        "place_type": "drink",
+        "name": "Real ale in a pub",
+        "description": "Cask-conditioned beer served in British pubs."
+      },
+      {
+        "place_type": "culture",
+        "name": "Oxford college life",
+        "description": "Oxford's colleges are working academic communities, which is why some quads and chapels are closed to visitors at certain times; check each college's visiting hours."
+      }
+    ]
+  },
+  {
+    "title": "Edinburgh, Scottish Highlands + Isle of Skye, Scotland",
+    "category": [
+      "nature",
+      "off-the-beaten-path"
+    ],
+    "region": "International",
+    "countries": [
+      "UK"
+    ],
+    "duration_days_min": 7,
+    "duration_days_max": 8,
+    "best_time_description": "Late spring to early autumn (May to September) has the longest daylight and the fullest ferry, bus and rail timetables in the Highlands; this is an editorial suggestion rather than met-service data. Some Skye and Highland services run reduced timetables outside summer, so check each operator before booking.",
+    "best_time_months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "description": "A public-transport route north from Scotland's capital: two days in Edinburgh, the train to Inverness, a bus to Skye, then the ferry from Armadale to Mallaig and the West Highland Line south to Fort William and Glasgow.",
+    "cost_tier": "mid",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrive Edinburgh",
+        "activities": [
+          "Arrive and check in; ETA holders and visa holders should have their approval ready before boarding",
+          "Walk the Royal Mile from Edinburgh Castle esplanade down toward Holyrood",
+          "Evening in the Old Town or Grassmarket"
+        ],
+        "lodging_suggestion": "Edinburgh (Old Town or New Town)"
+      },
+      {
+        "day_number": 2,
+        "title": "Edinburgh Castle + Arthur's Seat",
+        "activities": [
+          "Edinburgh Castle, open daily from 9.30am; the official site recommends booking online ahead because tickets often sell out in summer",
+          "Holyrood Palace and Holyrood Park",
+          "Walk up Arthur's Seat, the hill inside Holyrood Park (wear proper shoes and check the weather)"
+        ],
+        "lodging_suggestion": "Edinburgh (Old Town or New Town)"
+      },
+      {
+        "day_number": 3,
+        "title": "Train to Inverness",
+        "activities": [
+          "ScotRail direct train from Edinburgh Waverley to Inverness, about 3 hours 45 minutes on ScotRail's own average figure (fastest services are quicker)",
+          "Walk the River Ness and Inverness Castle area",
+          "Evening in the city centre"
+        ],
+        "lodging_suggestion": "Inverness",
+        "drive_time": "ScotRail train, about 3 hrs 45 min"
+      },
+      {
+        "day_number": 4,
+        "title": "Inverness to Skye",
+        "activities": [
+          "Citylink bus from Inverness to Portree on Skye, about 3 to 3.5 hours depending on the service; only a few departures run each day, so check the Citylink timetable and book ahead",
+          "Check in and walk around Portree harbour"
+        ],
+        "lodging_suggestion": "Portree, Isle of Skye",
+        "drive_time": "Citylink bus, about 3-3.5 hrs"
+      },
+      {
+        "day_number": 5,
+        "title": "Skye sights",
+        "activities": [
+          "Without a car, a guided small-group tour from Portree or local buses are the realistic ways to reach the Old Man of Storr, the Quiraing and Fairy Pools; check operators and book ahead",
+          "Dunvegan Castle on the west coast",
+          "Evening in Portree"
+        ],
+        "lodging_suggestion": "Portree, Isle of Skye"
+      },
+      {
+        "day_number": 6,
+        "title": "Skye to Mallaig + Fort William",
+        "activities": [
+          "Travel south on Skye to Armadale for the CalMac ferry to Mallaig; the crossing takes about 30 to 45 minutes depending on the vessel, with a limited number of sailings, so check the CalMac timetable and book",
+          "Train from Mallaig along the West Highland Line to Fort William (Glasgow to Mallaig is about 5 hours 30 minutes in total on ScotRail's figures; check the timetable, as only a few trains run a day)",
+          "Evening in Fort William beneath Ben Nevis"
+        ],
+        "lodging_suggestion": "Fort William",
+        "drive_time": "CalMac ferry, about 30-45 min; then West Highland Line train"
+      },
+      {
+        "day_number": 7,
+        "title": "Glenfinnan + train to Glasgow",
+        "activities": [
+          "Visit the Glenfinnan Viaduct viewpoint, reachable by West Highland Line train from Fort William; check the timetable",
+          "ScotRail West Highland Line train from Fort William to Glasgow Queen Street, about 3 hours 50 minutes",
+          "Arrive Glasgow for the evening, with onward travel or a flight home next day"
+        ],
+        "lodging_suggestion": "Glasgow",
+        "drive_time": "ScotRail train, about 3 hrs 50 min"
+      }
+    ],
+    "food_culture": [
+      {
+        "place_type": "dish",
+        "name": "Haggis, neeps and tatties",
+        "description": "Scotland's national dish of spiced offal pudding served with mashed swede and potato, on menus across Edinburgh and the Highlands."
+      },
+      {
+        "place_type": "dish",
+        "name": "Cullen skink",
+        "description": "A thick Scottish smoked haddock, potato and onion soup, common in Highland pubs and cafes."
+      },
+      {
+        "place_type": "dish",
+        "name": "Scottish seafood",
+        "description": "Langoustines, scallops and mussels landed on the west coast; Skye and Mallaig restaurants and harbour stalls serve local shellfish."
+      },
+      {
+        "place_type": "drink",
+        "name": "Scotch whisky",
+        "description": "Scotland's whisky regions include Speyside and the Highlands; Skye has its own distillery, Talisker, at Carbost, which offers distillery visits (check the distillery's own site for how to book)."
+      },
+      {
+        "place_type": "tradition",
+        "name": "Hogmanay and ceilidh",
+        "description": "Scotland's New Year celebration is centred on Edinburgh, and ceilidh dances with live Scottish folk music are held in village halls and pubs across the Highlands and islands."
+      }
+    ]
   }
 ]
