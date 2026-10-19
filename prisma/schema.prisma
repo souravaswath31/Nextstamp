@@ -54,6 +54,8 @@ model HeldDocument {
   validUntil DateTime?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }
 
 model Itinerary {
@@ -110,6 +112,8 @@ model ItineraryDay {
   eatTown           String?
 
   itinerary Itinerary @relation(fields: [itineraryId], references: [id], onDelete: Cascade)
+
+  @@index([itineraryId])
 }
 
 // Same shape and purpose as StatePlace's food_culture entries, scoped to
@@ -185,6 +189,8 @@ model UserTrip {
   expenses      TripExpense[]
   savedPlaces   TripSavedPlace[]
   imports       TripImport[]
+
+  @@index([userId])
 }
 
 // A place pulled into a trip from the content library — a state-guide place,
@@ -276,6 +282,8 @@ model TripExpense {
 
   trip   UserTrip @relation(fields: [tripId], references: [id], onDelete: Cascade)
   paidBy User     @relation(fields: [paidById], references: [id], onDelete: Cascade)
+
+  @@index([tripId])
 }
 
 // Where to eat along a road-trip route.
@@ -326,6 +334,8 @@ model RoadEat {
   sortOrder    Int     @default(0)
 
   stop RoadEatStop @relation(fields: [stopId], references: [id], onDelete: Cascade)
+
+  @@index([stopId])
 }
 
 // Everything a traveller needs to know about a destination that isn't the
@@ -456,6 +466,8 @@ model TripCollaborator {
   user User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([tripId, userId])
+
+  @@index([userId])
 }
 
 // State/destination guides — a curated place directory, distinct from the
@@ -603,6 +615,8 @@ model EscapeGame {
   updatedAt DateTime @default(now()) @updatedAt
 
   players EscapePlayer[]
+
+  @@index([createdAt])
 }
 
 model EscapePlayer {
