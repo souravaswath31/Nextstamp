@@ -27,7 +27,7 @@ export default function VisaBadge({ status }: { status: VisaStatus }) {
         </span>
         {status.viaCascade && (
           <span className="mt-1 rounded-full bg-coral/10 px-2 py-1 font-body text-xs font-medium text-coralDark">
-            via your US visa
+            {status.viaDocumentCountry ? `via your ${status.viaDocumentCountry} visa or permit` : "via a document you hold"}
           </span>
         )}
       </div>

@@ -11,6 +11,7 @@ export type VisaStatus = {
     | "advance-visa-required"
     | "unknown";          // no rule on file yet
   viaCascade: boolean;    // true if this status depends on a held document, not the passport alone
+  viaDocumentCountry?: string | null; // which country's visa/permit that is (e.g. "USA", "UK", "Japan")
   conditionsText?: string;
   maxStayDays?: number | null;
   feeNotes?: string | null;
@@ -94,6 +95,7 @@ export async function getVisaStatusForUser(
     destinationCountry,
     status: chosen.visaType as VisaStatus["status"],
     viaCascade: Boolean(chosen.requiresHeldDocumentCountry),
+    viaDocumentCountry: chosen.requiresHeldDocumentCountry ?? null,
     conditionsText: chosen.conditionsText,
     maxStayDays: chosen.maxStayDays,
     feeNotes: chosen.feeNotes,
