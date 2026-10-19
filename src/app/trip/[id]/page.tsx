@@ -412,7 +412,7 @@ export default async function TripPage({ params }: { params: { id: string } }) {
         <Reveal>
           <section className="rounded-panel bg-paper p-6 shadow-paper">
             <h2 className="flex items-center gap-2 font-display text-xl text-ink">
-              <Plane size={19} className="text-ink/35" /> Book it
+              <Plane size={19} className="text-ink/55" /> Book it
             </h2>
             <p className="mt-1 mb-4 font-body text-sm text-ink/60">
               We don&apos;t quote fares or prices, since no free source gives us ones we could stand behind.

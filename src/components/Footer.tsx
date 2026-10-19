@@ -37,6 +37,7 @@ const COLUMNS: { title: string; links: { href: string; label: string }[] }[] = [
     links: [
       { href: "/about", label: "About" },
       { href: "/features/visa-check#sources", label: "How we source visa rules" },
+      { href: "/contact", label: "Contact" },
       { href: "/terms", label: "Terms (draft)" },
       { href: "/privacy", label: "Privacy (draft)" },
     ],
@@ -57,7 +58,7 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {COLUMNS.map((col) => (
             <nav key={col.title} aria-label={col.title}>
-              <p className="font-stamp text-[11px] uppercase tracking-widest text-ink/40">
+              <p className="font-stamp text-[11px] uppercase tracking-widest text-ink/55">
                 {col.title}
               </p>
               <ul className="mt-3 space-y-2">

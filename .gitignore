@@ -31,3 +31,6 @@ tsconfig.tsbuildinfo
 # Playwright
 test-results/
 playwright-report/
+
+# Source-monitor working files live on the source-monitor branch, never on main
+/monitor/

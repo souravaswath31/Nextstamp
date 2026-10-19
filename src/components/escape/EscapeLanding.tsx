@@ -67,7 +67,7 @@ export default function EscapeLanding({ states }: { states: { slug: string; name
           </h2>
           <p className="font-body text-sm text-ink/60">You will be the host. Everyone joins with a five-letter code.</p>
           <label className="block">
-            <span className="font-stamp text-xs uppercase tracking-widest text-ink/50">Your first name</span>
+            <span className="font-stamp text-xs uppercase tracking-widest text-ink/55">Your first name</span>
             <input
               id="host-name"
               value={name}
@@ -79,7 +79,7 @@ export default function EscapeLanding({ states }: { states: { slug: string; name
             />
           </label>
           <label className="block">
-            <span className="font-stamp text-xs uppercase tracking-widest text-ink/50">Where are you starting from?</span>
+            <span className="font-stamp text-xs uppercase tracking-widest text-ink/55">Where are you starting from?</span>
             <select
               id="host-from"
               value={from}
@@ -104,7 +104,7 @@ export default function EscapeLanding({ states }: { states: { slug: string; name
           </h2>
           <p className="font-body text-sm text-ink/60">Type the code from the host&rsquo;s screen, or open the invite link they sent.</p>
           <label className="block">
-            <span className="font-stamp text-xs uppercase tracking-widest text-ink/50">Room code</span>
+            <span className="font-stamp text-xs uppercase tracking-widest text-ink/55">Room code</span>
             <input
               id="room-code"
               value={code}
@@ -144,7 +144,7 @@ export default function EscapeLanding({ states }: { states: { slug: string; name
             </li>
           ))}
         </ol>
-        <p className="mt-4 font-body text-xs text-ink/50">
+        <p className="mt-4 font-body text-xs text-ink/55">
           Trips, days and stops are real NextStamp itineraries cut down to your days. Costs are rough and leave out getting there.
           Distance is a straight line, not a drive time. Nothing is booked.
         </p>

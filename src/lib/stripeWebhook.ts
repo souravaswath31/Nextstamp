@@ -4,9 +4,11 @@ import { PRODUCT_TAG, sessionToGrant, type Grant } from "./entitlement";
 export type WebhookDeps = {
   grant: (g: Grant) => Promise<void>;
   revoke: (paymentIntentId: string) => Promise<number>;
+  /** Turns access back on after a dispute is won. Optional so older callers and tests still type-check. */
+  restore?: (paymentIntentId: string) => Promise<number>;
 };
 
-export type WebhookOutcome = "granted" | "revoked" | "ignored";
+export type WebhookOutcome = "granted" | "revoked" | "restored" | "ignored";
 
 /**
  * What each Stripe event does to an entitlement. Signature verification happens
@@ -17,7 +19,7 @@ export type WebhookOutcome = "granted" | "revoked" | "ignored";
  *   still pending for delayed methods; sessionToGrant refuses those and the
  *   async event grants later.)
  * - charge.refunded (fully refunded) and charge.dispute.created: switch access
- *   off for that payment.
+ *   off for that payment. charge.dispute.closed with status "won" switches it back on.
  * Everything else is acknowledged and ignored, so Stripe never retries it.
  */
 export async function handleStripeEvent(event: Stripe.Event, deps: WebhookDeps): Promise<WebhookOutcome> {
@@ -41,6 +43,14 @@ export async function handleStripeEvent(event: Stripe.Event, deps: WebhookDeps):
       const pi = typeof dispute.payment_intent === "string" ? dispute.payment_intent : dispute.payment_intent?.id;
       if (!pi) return "ignored";
       return (await deps.revoke(pi)) > 0 ? "revoked" : "ignored";
+    }
+    case "charge.dispute.closed": {
+      // Only a dispute we WON gives access back; a lost one stays revoked.
+      const dispute = event.data.object as Stripe.Dispute;
+      if (dispute.status !== "won" || !deps.restore) return "ignored";
+      const pi = typeof dispute.payment_intent === "string" ? dispute.payment_intent : dispute.payment_intent?.id;
+      if (!pi) return "ignored";
+      return (await deps.restore(pi)) > 0 ? "restored" : "ignored";
     }
     default:
       return "ignored";

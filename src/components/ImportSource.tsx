@@ -20,7 +20,7 @@ export default function ImportSource({ tripId, source }: { tripId: string; sourc
             : "The source for this trip has been deleted."}
       </p>
       {source.sourceUrl && (
-        <p className="mt-3 break-all font-body text-xs text-ink/50">
+        <p className="mt-3 break-all font-body text-xs text-ink/55">
           {source.platform ? `${source.platform}: ` : ""}
           {source.sourceUrl}
         </p>
@@ -38,7 +38,7 @@ export default function ImportSource({ tripId, source }: { tripId: string; sourc
           <button type="submit" className="font-body text-xs font-semibold text-stampRed underline-offset-4 hover:underline">
             Delete the saved source
           </button>
-          <span className="ml-2 font-body text-xs text-ink/40">The trip and its stops stay.</span>
+          <span className="ml-2 font-body text-xs text-ink/55">The trip and its stops stay.</span>
         </form>
       )}
     </section>

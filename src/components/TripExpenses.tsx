@@ -74,7 +74,7 @@ export default function TripExpenses({
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h2 className="flex items-center gap-2 font-display text-xl text-ink">
-            <Receipt size={19} className="text-ink/35" /> Expenses
+            <Receipt size={19} className="text-ink/55" /> Expenses
           </h2>
           <p className="mt-1 font-body text-sm text-ink/60">
             What you actually spent, against the estimate — and who owes whom at the end.
@@ -115,7 +115,7 @@ export default function TripExpenses({
           </p>
         )}
         {summary.unconvertedCount > 0 && (
-          <p className="mt-2 font-body text-xs text-ink/50">
+          <p className="mt-2 font-body text-xs text-ink/55">
             {summary.unconvertedCount} expense{summary.unconvertedCount === 1 ? "" : "s"} in a
             currency the free ECB rate feed doesn&apos;t carry, so {summary.unconvertedCount === 1 ? "it isn't" : "they aren't"}{" "}
             in this total or the settlement. Listed below either way.
@@ -127,17 +127,17 @@ export default function TripExpenses({
         <form action={submit} className="mt-4 space-y-3 rounded-card bg-paperDark p-4">
           <div className="grid gap-3 sm:grid-cols-2">
             <label className="flex flex-col gap-1.5">
-              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">What was it</span>
+              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">What was it</span>
               <input
                 id={`exp-label-${tripId}`}
                 name="label"
                 required
                 placeholder="Dinner in Kyoto"
-                className="rounded-card bg-paper px-3 py-1.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+                className="rounded-card bg-paper px-3 py-1.5 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
               />
             </label>
             <label className="flex flex-col gap-1.5">
-              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Category</span>
+              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Category</span>
               <select
                 id={`exp-category-${tripId}`}
                 name="category"
@@ -152,7 +152,7 @@ export default function TripExpenses({
               </select>
             </label>
             <label className="flex flex-col gap-1.5">
-              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Amount</span>
+              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Amount</span>
               <input
                 id={`exp-amount-${tripId}`}
                 name="amount"
@@ -164,7 +164,7 @@ export default function TripExpenses({
               />
             </label>
             <label className="flex flex-col gap-1.5">
-              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Currency</span>
+              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Currency</span>
               <input
                 id={`exp-currency-${tripId}`}
                 name="currency"
@@ -175,7 +175,7 @@ export default function TripExpenses({
               />
             </label>
             <label className="flex flex-col gap-1.5">
-              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">When</span>
+              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">When</span>
               <input
                 id={`exp-date-${tripId}`}
                 name="spentOn"
@@ -188,7 +188,7 @@ export default function TripExpenses({
 
           {participants.length > 1 && (
             <fieldset>
-              <legend className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              <legend className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                 Split between
               </legend>
               <div className="mt-1.5 flex flex-wrap gap-3">
@@ -224,7 +224,7 @@ export default function TripExpenses({
       {/* --- Settle up. */}
       {summary.settlements.length > 0 && (
         <div className="mt-5">
-          <h3 className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Settle up</h3>
+          <h3 className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Settle up</h3>
           <ul className="mt-2 space-y-1.5">
             {summary.settlements.map((s, i) => (
               <li
@@ -234,7 +234,7 @@ export default function TripExpenses({
                 <span className={s.fromUserId === currentUserId ? "font-semibold text-ink" : "text-ink/75"}>
                   {s.fromUserId === currentUserId ? "You" : nameFor(s.fromUserId)}
                 </span>
-                <ArrowRight size={13} className="text-ink/30" />
+                <ArrowRight size={13} className="text-ink/55" />
                 <span className={s.toUserId === currentUserId ? "font-semibold text-ink" : "text-ink/75"}>
                   {s.toUserId === currentUserId ? "you" : nameFor(s.toUserId)}
                 </span>
@@ -275,7 +275,7 @@ export default function TripExpenses({
                 <li key={e.id} className="group flex items-baseline gap-3 py-2.5">
                   <div className="min-w-0 flex-1">
                     <p className="font-body text-sm text-ink">{e.label}</p>
-                    <p className="font-body text-xs text-ink/45">
+                    <p className="font-body text-xs text-ink/55">
                       {EXPENSE_CATEGORY_LABELS[e.category] ?? e.category} ·{" "}
                       {new Date(e.spentOn).toLocaleDateString("en-US", {
                         month: "short",
@@ -291,7 +291,7 @@ export default function TripExpenses({
                       {formatCurrency(fromMinor(e.amountMinor, e.currency), e.currency, 2)}
                     </p>
                     {e.currency !== "USD" && (
-                      <p className="font-body text-[11px] tabular-nums text-ink/40">
+                      <p className="font-body text-[11px] tabular-nums text-ink/55">
                         {e.amountMinorUsd === null
                           ? "no USD rate"
                           : `≈ ${formatUsd(e.amountMinorUsd / 100)}`}
@@ -301,7 +301,7 @@ export default function TripExpenses({
                   <button
                     onClick={() => remove(e.id)}
                     disabled={isPending}
-                    className="shrink-0 text-ink/20 opacity-0 transition-opacity hover:text-stampRed group-hover:opacity-100 disabled:opacity-50"
+                    className="shrink-0 text-ink/55 opacity-0 transition-opacity hover:text-stampRed group-hover:opacity-100 disabled:opacity-50"
                     aria-label={`Delete ${e.label}`}
                   >
                     <Trash2 size={14} />

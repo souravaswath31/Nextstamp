@@ -36,7 +36,7 @@ export default async function CountriesPage() {
       </div>
 
       <div>
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Reference</p>
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">Reference</p>
         <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">
           Country guides
         </h1>
@@ -65,18 +65,18 @@ export default async function CountriesPage() {
                   className="card-lift group flex h-full flex-col rounded-panel bg-paper p-5 shadow-paper"
                 >
                   <h2 className="font-display text-xl text-ink">{fact.country}</h2>
-                  <p className="mt-1 font-body text-xs text-ink/50">{fact.timezoneLabel}</p>
+                  <p className="mt-1 font-body text-xs text-ink/55">{fact.timezoneLabel}</p>
 
                   <dl className="mt-4 space-y-2">
                     <div className="flex items-center gap-2">
-                      <Banknote size={13} className="shrink-0 text-ink/30" />
+                      <Banknote size={13} className="shrink-0 text-ink/55" />
                       <dd className="font-body text-xs text-ink/65">
                         {fact.currencyCode} — {fact.currencyName}
                       </dd>
                     </div>
                     {plugs.length > 0 && (
                       <div className="flex items-center gap-2">
-                        <Plug size={13} className="shrink-0 text-ink/30" />
+                        <Plug size={13} className="shrink-0 text-ink/55" />
                         <dd className="font-body text-xs text-ink/65">
                           Type {plugs.join("/")}
                           {fact.powerVoltage ? ` · ${fact.powerVoltage}` : ""}
@@ -85,13 +85,13 @@ export default async function CountriesPage() {
                     )}
                     {emergency && (
                       <div className="flex items-center gap-2">
-                        <Phone size={13} className="shrink-0 text-ink/30" />
+                        <Phone size={13} className="shrink-0 text-ink/55" />
                         <dd className="font-body text-xs tabular-nums text-ink/65">{emergency}</dd>
                       </div>
                     )}
                   </dl>
 
-                  <p className="mt-4 font-body text-xs text-ink/40">
+                  <p className="mt-4 font-body text-xs text-ink/55">
                     {fact.climate.length > 0 && `${fact.climate.length}-month climate`}
                     {fact.climate.length > 0 && fact.phrases.length > 0 && " · "}
                     {fact.phrases.length > 0 && `${fact.phrases.length} phrases`}

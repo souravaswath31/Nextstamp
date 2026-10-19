@@ -65,7 +65,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
             <span className="font-display text-2xl">{user.name.charAt(0).toUpperCase()}</span>
           </span>
           <div>
-            <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Profile</p>
+            <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">Profile</p>
             <h1 className="mt-0.5 font-display text-4xl tracking-tightest text-ink">{user.name}</h1>
             <p className="mt-0.5 font-body text-sm text-ink/60">Based in {user.homeBaseLocation ?? "—"}</p>
           </div>
@@ -75,7 +75,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
           <form action={updatePassportCountry} className="flex items-center gap-2">
             <label
               htmlFor="passport-country"
-              className="font-stamp text-[11px] uppercase tracking-wide text-ink/45"
+              className="font-stamp text-[11px] uppercase tracking-wide text-ink/55"
             >
               Passport
             </label>
@@ -96,7 +96,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
           <form action={updatePassportExpiry} className="flex items-center gap-2">
             <label
               htmlFor="passport-expiry"
-              className="font-stamp text-[11px] uppercase tracking-wide text-ink/45"
+              className="font-stamp text-[11px] uppercase tracking-wide text-ink/55"
             >
               Expires
             </label>
@@ -142,7 +142,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
 
       <section>
         <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
-          <FileStack size={20} className="text-ink/35" /> Held documents
+          <FileStack size={20} className="text-ink/55" /> Held documents
         </h2>
         <p className="mt-1 font-body text-sm text-ink/55">
           Visas and residency permits beyond your passport — this is what the visa
@@ -169,7 +169,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
                     {doc.country} {doc.subtype ? `— ${doc.subtype}` : ""}
                   </p>
                   {doc.validUntil && (
-                    <p className={`font-body text-xs ${expiry.severity === "ok" || expiry.severity === "none" ? "text-ink/50" : "font-semibold"}`}>
+                    <p className={`font-body text-xs ${expiry.severity === "ok" || expiry.severity === "none" ? "text-ink/55" : "font-semibold"}`}>
                       {expiry.label}
                     </p>
                   )}
@@ -189,12 +189,12 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
             name="country"
             placeholder="Country (e.g. USA)"
             required
-            className="rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+            className="rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
           />
           <input
             name="subtype"
             placeholder="Type (e.g. H1B)"
-            className="rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+            className="rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
           />
           <input
             name="validUntil"
@@ -211,7 +211,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
 
       <section>
         <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
-          <Globe2 size={20} className="text-ink/35" /> Where you can go without a visa hassle
+          <Globe2 size={20} className="text-ink/55" /> Where you can go without a visa hassle
         </h2>
         <p className="mt-1 font-body text-sm text-ink/55">
           Destinations your {user.passportCountry} passport{user.heldDocuments.length > 0 ? " and held documents" : ""}{" "}
@@ -222,7 +222,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
         </p>
 
         {easyAccess.length === 0 ? (
-          <p className="mt-4 font-body text-sm text-ink/50">
+          <p className="mt-4 font-body text-sm text-ink/55">
             No easy-access destinations on file yet for this passport — check back as the
             visa engine's coverage grows.
           </p>
@@ -254,7 +254,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
 
       <section>
         <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
-          <FileWarning size={20} className="text-ink/35" /> Where you'll need a visa
+          <FileWarning size={20} className="text-ink/55" /> Where you'll need a visa
         </h2>
         <p className="mt-1 font-body text-sm text-ink/55">
           Destinations your {user.passportCountry} passport can reach, but only after
@@ -264,7 +264,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
         </p>
 
         {visaRequired.length === 0 ? (
-          <p className="mt-4 font-body text-sm text-ink/50">
+          <p className="mt-4 font-body text-sm text-ink/55">
             No visa-required destinations on file yet for this passport.
           </p>
         ) : (
@@ -306,7 +306,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
           <img src="/illustration-visa-cascade.jpg" alt="" className="h-24 w-auto shrink-0" />
           <div>
             <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
-              <Unlock size={20} className="text-ink/35" /> What opens up
+              <Unlock size={20} className="text-ink/55" /> What opens up
             </h2>
             <p className="mt-1 font-body text-sm text-ink/55">
               Destinations that become easier because of a document you hold — beyond
@@ -329,7 +329,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
               Via your {doc.country} {doc.subtype}
             </p>
             {unlocks.length === 0 ? (
-              <p className="mt-2 font-body text-sm text-ink/50">
+              <p className="mt-2 font-body text-sm text-ink/55">
                 No cascade rules on file for this document yet.
               </p>
             ) : (
@@ -392,7 +392,7 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
       </section>
 
       <form action={signOutAction}>
-        <button className="flex items-center gap-1.5 font-body text-xs text-ink/45 hover:text-ink hover:underline">
+        <button className="flex items-center gap-1.5 font-body text-xs text-ink/55 hover:text-ink hover:underline">
           <LogOut size={13} /> Sign out
         </button>
       </form>

@@ -97,7 +97,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
       )}
 
       <div>
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Country guide</p>
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">Country guide</p>
         <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">
           {fact.country}
         </h1>
@@ -105,7 +105,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
           {fact.currencyName} · {fact.timezoneLabel}
           {fact.phrasesLanguage ? ` · ${fact.phrasesLanguage}` : ""}
         </p>
-        <p className="mt-2 font-body text-xs text-ink/40">
+        <p className="mt-2 font-body text-xs text-ink/55">
           Last verified{" "}
           {fact.lastVerifiedDate.toLocaleDateString("en-US", {
             month: "long",
@@ -121,7 +121,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
       {user && visaStatus ? (
         <section className="rounded-panel bg-paper p-6 shadow-paper">
           <h2 className="flex items-center gap-2 font-display text-lg text-ink">
-            <ShieldCheck size={17} className="text-ink/35" /> Your entry, {fact.country}
+            <ShieldCheck size={17} className="text-ink/55" /> Your entry, {fact.country}
           </h2>
           <div className="mt-3">
             <VisaBadge status={visaStatus} />
@@ -130,7 +130,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
       ) : (
         <section className="rounded-panel bg-paper p-6 shadow-paper">
           <p className="flex items-center gap-2 font-display text-lg text-ink">
-            <Sparkles size={17} className="text-ink/35" /> Can you enter {fact.country}?
+            <Sparkles size={17} className="text-ink/55" /> Can you enter {fact.country}?
           </p>
           <p className="mt-1.5 font-body text-sm text-ink/60">
             Everything below is the same for everyone. Whether you need a visa isn&apos;t — it
@@ -148,14 +148,14 @@ export default async function CountryPage({ params }: { params: { slug: string }
         <h2 className="font-display text-lg text-ink">Entry requirements</h2>
         <dl className="mt-3 space-y-3">
           <div>
-            <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
               Passport validity
             </dt>
             <dd className="font-body text-sm text-ink/75">{fact.passportValidityRule}</dd>
           </div>
           {fact.blankPagesRequired !== null && (
             <div>
-              <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                 Blank pages
               </dt>
               <dd className="font-body text-sm text-ink/75">
@@ -164,7 +164,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
             </div>
           )}
           <div>
-            <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
               Proof of onward travel
             </dt>
             <dd className="font-body text-sm text-ink/75">
@@ -181,7 +181,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
           </div>
           {fact.entryRequirementNotes && (
             <div>
-              <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                 Also checked
               </dt>
               <dd><ExpandableText text={fact.entryRequirementNotes} max={380} className="font-body text-sm text-ink/75" /></dd>
@@ -240,7 +240,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
 
       {sources.length > 0 && (
         <section className="rounded-panel bg-paperDark p-5">
-          <h2 className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+          <h2 className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
             Every source behind this page
           </h2>
           <ul className="mt-2 space-y-1">
@@ -250,7 +250,7 @@ export default async function CountryPage({ params }: { params: { slug: string }
                   href={s}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="break-all font-body text-xs text-ink/50 hover:text-coralDark hover:underline"
+                  className="break-all font-body text-xs text-ink/55 hover:text-coralDark hover:underline"
                 >
                   {s}
                 </a>

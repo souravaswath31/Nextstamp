@@ -40,7 +40,7 @@ export default async function OnboardingPage() {
             alt=""
             className="mx-auto h-28 w-auto"
           />
-          <p className="mt-2 font-stamp text-xs uppercase tracking-widest text-ink/45">Welcome</p>
+          <p className="mt-2 font-stamp text-xs uppercase tracking-widest text-ink/55">Welcome</p>
           <h1 className="mt-1 font-display text-3xl tracking-tightest text-ink">One more thing</h1>
           <p className="mt-2 font-body text-sm text-ink/55">
             The visa engine checks status against your actual passport — tell us which one you
@@ -50,7 +50,7 @@ export default async function OnboardingPage() {
 
         <form action={completeOnboarding} className="space-y-4">
           <div>
-            <label htmlFor="onboarding-name" className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <label htmlFor="onboarding-name" className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
               Name
             </label>
             <input
@@ -65,7 +65,7 @@ export default async function OnboardingPage() {
           <div>
             <label
               htmlFor="onboarding-passport-country"
-              className="font-stamp text-[11px] uppercase tracking-wide text-ink/45"
+              className="font-stamp text-[11px] uppercase tracking-wide text-ink/55"
             >
               Passport country
             </label>
@@ -77,7 +77,7 @@ export default async function OnboardingPage() {
               autoComplete="off"
               maxLength={56}
               required
-              className="mt-1.5 w-full rounded-full bg-paperDark px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+              className="mt-1.5 w-full rounded-full bg-paperDark px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
             />
             <datalist id="supported-passports">
               {supported.map((p) => (
@@ -96,7 +96,7 @@ export default async function OnboardingPage() {
           <div>
             <label
               htmlFor="onboarding-passport-expiry"
-              className="font-stamp text-[11px] uppercase tracking-wide text-ink/45"
+              className="font-stamp text-[11px] uppercase tracking-wide text-ink/55"
             >
               Passport expiry <span className="normal-case tracking-normal">(optional)</span>
             </label>
@@ -106,7 +106,7 @@ export default async function OnboardingPage() {
               type="date"
               className="mt-1.5 w-full rounded-full bg-paperDark px-4 py-2.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
             />
-            <p className="mt-1.5 font-body text-xs text-ink/45">
+            <p className="mt-1.5 font-body text-xs text-ink/55">
               Lets us check each trip against the destination&apos;s own validity rule — the thing
               that actually stops people at check-in.
             </p>

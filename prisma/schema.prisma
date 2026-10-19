@@ -656,3 +656,30 @@ model EscapeOutcome {
   nothingFit  Boolean  @default(false)
   wish        String? // "where did you actually want to go?"
 }
+
+// A visitor's note that a visa rule looks wrong. Never edits a rule; it is a lead for a human to
+// check against the official page. status: "new" | "checked" | "fixed" | "not-a-change".
+model RuleReport {
+  id           String   @id @default(cuid())
+  passport     String
+  destination  String
+  heldDocument String?
+  message      String
+  contact      String?
+  userId       String?
+  status       String   @default("new")
+  createdAt    DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([passport, destination])
+}
+
+// Counters behind the shared rate limiter (src/lib/rateLimitDb.ts). The key is a hash, never an
+// address. Rows older than a day are swept opportunistically.
+model RateLimit {
+  key         String   @id
+  windowStart DateTime @default(now())
+  count       Int      @default(0)
+
+  @@index([windowStart])
+}

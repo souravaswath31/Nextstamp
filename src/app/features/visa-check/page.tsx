@@ -64,7 +64,7 @@ export default async function VisaCheckFeaturePage() {
             <div className="mt-8">
               <CascadeDemo rules={rules} passport={passport} docCountry={doc} />
             </div>
-            <p className="mt-4 max-w-2xl font-body text-sm text-white/50">
+            <p className="mt-4 max-w-2xl font-body text-sm text-white/55">
               Each easier entry has its own conditions, such as the type of visa and how long it must
               remain valid. Read the condition text on the result before you rely on it.
             </p>
@@ -101,7 +101,7 @@ export default async function VisaCheckFeaturePage() {
           criminal record, a previous overstay or a passport with little validity left can change the
           outcome. Border officers decide at the border.
         </p>
-        <p className="text-white/50">{NOT_LEGAL_ADVICE}</p>
+        <p className="text-white/55">{NOT_LEGAL_ADVICE}</p>
         <div className="pt-2">
           <CtaLink href={checkHref}>{user ? "See your destinations" : "Check a destination"}</CtaLink>
         </div>

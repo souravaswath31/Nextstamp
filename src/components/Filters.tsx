@@ -43,7 +43,7 @@ export default function Filters({
   return (
     <div className="space-y-5 rounded-panel bg-paper p-5 shadow-paper sm:p-6">
       <div>
-        <p className="flex items-center gap-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+        <p className="flex items-center gap-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/55">
           <SlidersHorizontal size={12} /> Category
         </p>
         <div className="mt-2.5 flex flex-wrap gap-2">
@@ -65,7 +65,7 @@ export default function Filters({
 
       <div className="flex flex-wrap gap-4">
         <label className="flex flex-col gap-1.5">
-          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
             Region
           </span>
           <select
@@ -83,7 +83,7 @@ export default function Filters({
         </label>
 
         <label className="flex flex-col gap-1.5">
-          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
             Budget
           </span>
           <select
@@ -101,7 +101,7 @@ export default function Filters({
         </label>
 
         <label className="flex flex-col gap-1.5">
-          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
             Visa ease
           </span>
           <select

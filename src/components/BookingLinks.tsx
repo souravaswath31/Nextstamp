@@ -20,13 +20,13 @@ function LinkCard({ link }: { link: SupplierLink }) {
       className="group block rounded-card bg-paperDark px-4 py-3 transition-colors hover:bg-ink/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-coral"
     >
       <p className="flex flex-wrap items-center gap-1.5 font-body text-sm font-semibold text-ink">
-        <Icon size={13} className="text-ink/40" aria-hidden="true" /> {link.provider}
-        <ExternalLink size={11} className="text-ink/30" aria-hidden="true" />
+        <Icon size={13} className="text-ink/55" aria-hidden="true" /> {link.provider}
+        <ExternalLink size={11} className="text-ink/55" aria-hidden="true" />
         <span className="rounded-full bg-ink/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-ink/60">
           {link.affiliate ? "Affiliate link" : "Outside supplier"}
         </span>
       </p>
-      <p className="mt-0.5 max-w-[18rem] font-body text-xs text-ink/50">{link.note}</p>
+      <p className="mt-0.5 max-w-[18rem] font-body text-xs text-ink/55">{link.note}</p>
     </a>
   );
 }
@@ -35,7 +35,7 @@ function Row({ heading, links }: { heading?: string; links: SupplierLink[] }) {
   if (links.length === 0) return null;
   return (
     <div>
-      {heading && <h3 className="mb-2 font-body text-xs font-semibold uppercase tracking-wider text-ink/45">{heading}</h3>}
+      {heading && <h3 className="mb-2 font-body text-xs font-semibold uppercase tracking-wider text-ink/55">{heading}</h3>}
       <div className="flex flex-wrap gap-2.5">
         {links.map((l) => (
           <LinkCard key={l.id} link={l} />

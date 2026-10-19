@@ -60,6 +60,7 @@ function deps() {
   const d: WebhookDeps = {
     grant: async (g) => { calls.push(`grant:${g.userId}`); },
     revoke: async (pi) => { calls.push(`revoke:${pi}`); return pi === "pi_known" ? 1 : 0; },
+    restore: async (pi) => { calls.push(`restore:${pi}`); return pi === "pi_known" ? 1 : 0; },
   };
   return { d, calls };
 }
@@ -87,6 +88,13 @@ describe("handleStripeEvent", () => {
     expect(await handleStripeEvent(ev("charge.refunded", { refunded: true, payment_intent: "pi_unknown" }), d)).toBe("ignored");
     expect(await handleStripeEvent(ev("charge.refunded", { refunded: true, payment_intent: "pi_known", metadata: { product: "other" } }), d)).toBe("ignored");
     expect(calls).toEqual(["revoke:pi_known", "revoke:pi_known", "revoke:pi_unknown"]);
+  });
+  it("restores access only when a dispute is won", async () => {
+    const { d, calls } = deps();
+    expect(await handleStripeEvent(ev("charge.dispute.closed", { status: "won", payment_intent: "pi_known" }), d)).toBe("restored");
+    expect(await handleStripeEvent(ev("charge.dispute.closed", { status: "lost", payment_intent: "pi_known" }), d)).toBe("ignored");
+    expect(await handleStripeEvent(ev("charge.dispute.closed", { status: "won", payment_intent: "pi_unknown" }), d)).toBe("ignored");
+    expect(calls).toEqual(["restore:pi_known", "restore:pi_unknown"]);
   });
   it("acknowledges and ignores everything else", async () => {
     const { d, calls } = deps();

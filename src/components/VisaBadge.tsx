@@ -1,4 +1,5 @@
-import { AlertTriangle, ExternalLink } from "lucide-react";
+import { AlertTriangle } from "lucide-react";
+import TrustNotes from "./TrustNotes";
 import type { VisaStatus } from "@/lib/visa";
 import { VISA_STATUS_CLASSES } from "@/lib/types";
 
@@ -10,11 +11,6 @@ const STATUS_LABEL: Record<VisaStatus["status"], string> = {
   "advance-visa-required": "Advance visa needed",
   unknown: "Not checked yet",
 };
-
-function formatVerifiedDate(d?: Date | string | null) {
-  if (!d) return null;
-  return new Date(d).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
-}
 
 export default function VisaBadge({ status }: { status: VisaStatus }) {
   return (
@@ -31,21 +27,19 @@ export default function VisaBadge({ status }: { status: VisaStatus }) {
           </span>
         )}
       </div>
-      {status.needsVerification ? (
+      {status.needsVerification && !status.sourceUrl ? (
         <span className="flex items-center gap-1.5 font-body text-xs text-stampRed">
           <AlertTriangle size={13} /> Verify before booking — no confirmed source on file
         </span>
       ) : (
-        status.sourceUrl && (
-          <a
-            href={status.sourceUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center gap-1.5 font-body text-xs text-forest underline decoration-forest/40 underline-offset-2 hover:decoration-forest"
-          >
-            Source verified {formatVerifiedDate(status.lastVerifiedDate)} <ExternalLink size={12} />
-          </a>
-        )
+        <TrustNotes
+          conditions={status.conditionsText ?? ""}
+          sourceUrl={status.sourceUrl ?? null}
+          verified={status.lastVerifiedDate ?? null}
+          passport={status.passportCountry ?? ""}
+          destination={status.destinationCountry}
+          heldDocument={status.viaDocumentCountry}
+        />
       )}
     </div>
   );

@@ -102,7 +102,7 @@ export default function NavBar({ isAuthenticated }: { isAuthenticated: boolean }
                 key={tab.href}
                 href={tab.href}
                 className={`flex flex-1 flex-col items-center gap-0.5 rounded-card px-2 py-1 text-center font-body text-[10px] transition-colors ${
-                  active ? "font-medium text-coral" : "text-ink/50"
+                  active ? "font-medium text-coral" : "text-ink/55"
                 }`}
               >
                 <Icon size={22} strokeWidth={active ? 2.2 : 1.8} />

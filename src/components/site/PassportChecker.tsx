@@ -2,14 +2,14 @@
 
 import { useId, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowUpRight, ShieldCheck, TriangleAlert } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 import {
   cascadeDocumentsFor,
-  formatVerified,
   resolveCheck,
   type PublicRule,
 } from "@/lib/passportCheck";
 import VisaStamp, { VISA_TONE } from "./VisaStamp";
+import TrustNotes from "@/components/TrustNotes";
 import WaitlistForm from "./WaitlistForm";
 import ExpandableText from "@/components/ExpandableText";
 
@@ -51,11 +51,11 @@ export default function PassportChecker({
 
   const result = resolveCheck(rules, passports, passport, destination, holdsDoc ? docs : []);
   const field =
-    "w-full rounded-card border border-white/15 bg-white/[0.06] px-4 py-3 font-body text-[15px] text-white placeholder:text-white/35 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50";
+    "w-full rounded-card border border-white/15 bg-white/[0.06] px-4 py-3 font-body text-[15px] text-white placeholder:text-white/55 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50";
 
   return (
     <div id="check" className="scroll-mt-20 rounded-panel border border-white/10 bg-nightRaised p-5 sm:p-7">
-      <p className="font-stamp text-[11px] uppercase tracking-widest text-white/45">Check a destination</p>
+      <p className="font-stamp text-[11px] uppercase tracking-widest text-white/55">Check a destination</p>
 
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <div>
@@ -116,7 +116,7 @@ export default function PassportChecker({
           />
           <span className="font-body text-sm text-white/80">
             I hold a valid {docLabel(doc)} visa
-            <span className="block text-xs text-white/45">
+            <span className="block text-xs text-white/55">
               A {docLabel(doc)} visa changes the answer for some {matchedPassport} passport trips.
             </span>
           </span>
@@ -225,14 +225,14 @@ function CheckOutput({
 
       <dl className="mt-3 grid gap-x-6 gap-y-2 font-body text-sm sm:grid-cols-2">
         <div>
-          <dt className="text-xs text-white/45">Maximum stay</dt>
+          <dt className="text-xs text-white/55">Maximum stay</dt>
           <dd className="text-white/85">
             {rule.maxStayDays ? `${rule.maxStayDays} days` : "Not stated in the source"}
           </dd>
         </div>
         {rule.feeNotes && (
           <div>
-            <dt className="text-xs text-white/45">Fee</dt>
+            <dt className="text-xs text-white/55">Fee</dt>
             <dd className="text-white/85">{rule.feeNotes}</dd>
           </div>
         )}
@@ -240,34 +240,24 @@ function CheckOutput({
 
       <ExpandableText text={rule.conditions} max={260} className="mt-3 font-body text-sm leading-relaxed text-white/65" />
 
-      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-white/10 pt-3 font-body text-xs text-white/50">
-        {rule.sourceUrl ? (
-          <a
-            href={rule.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 font-semibold text-white/75 hover:text-coral"
-          >
-            Official source <ArrowUpRight size={12} aria-hidden="true" />
-          </a>
-        ) : (
-          <span>No source on file</span>
-        )}
-        <span>Last verified {formatVerified(rule.verified)}</span>
+      <div className="mt-4 border-t border-white/10 pt-3">
+        <TrustNotes
+          conditions={rule.conditions}
+          sourceUrl={rule.sourceUrl}
+          verified={rule.verified}
+          passport={rule.passport}
+          destination={rule.destination}
+          heldDocument={viaDocument}
+          tone="marketing"
+        />
         {guide && (
-          <Link href={`/country/${guide}`} className="font-semibold text-white/75 hover:text-coral">
+          <Link href={`/country/${guide}`} className="mt-2 inline-block font-body text-xs font-semibold text-white/75 hover:text-coral">
             {rule.destination} guide
           </Link>
         )}
       </div>
 
-      {stale && (
-        <p className="mt-3 flex items-start gap-2 font-body text-xs text-stamp">
-          <TriangleAlert size={14} className="mt-0.5 shrink-0" aria-hidden="true" />
-          This rule was last checked more than six months ago. Confirm it with the official source.
-        </p>
-      )}
-      <p className="mt-3 font-body text-xs text-white/40">
+      <p className="mt-3 font-body text-xs text-white/55">
         Not legal advice. Rules change; confirm with the official source before you book.
       </p>
     </div>

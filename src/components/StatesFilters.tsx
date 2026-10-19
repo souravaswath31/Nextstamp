@@ -37,13 +37,13 @@ export default function StatesFilters({ regions }: { regions: string[] }) {
   return (
     <div className="flex flex-wrap gap-3">
       <div className="relative min-w-[200px] flex-1">
-        <Search size={15} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/40" />
+        <Search size={15} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/55" />
         <input
           type="text"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search states…"
-          className="w-full rounded-full bg-paperDark py-2.5 pl-10 pr-4 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+          className="w-full rounded-full bg-paperDark py-2.5 pl-10 pr-4 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
         />
       </div>
       <select

@@ -62,7 +62,7 @@ export default function StartTripCard({
           onChange={(e) => setTitle(e.target.value)}
           placeholder="Two weeks in Japan"
           aria-label="Name your trip"
-          className="min-w-0 flex-1 rounded-full bg-paperDark px-5 py-3 font-body text-base text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+          className="min-w-0 flex-1 rounded-full bg-paperDark px-5 py-3 font-body text-base text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
         />
         <button
           type="submit"

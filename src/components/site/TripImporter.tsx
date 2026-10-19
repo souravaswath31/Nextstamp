@@ -104,9 +104,9 @@ export default function TripImporter() {
               value={url}
               onChange={(e) => setUrl(e.target.value)}
               placeholder="https://www.youtube.com/watch?v=…"
-              className="w-full rounded-full border border-white/15 bg-white/[0.06] px-5 py-3 font-body text-sm text-white placeholder:text-white/35 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50"
+              className="w-full rounded-full border border-white/15 bg-white/[0.06] px-5 py-3 font-body text-sm text-white placeholder:text-white/55 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50"
             />
-            <p className="font-body text-xs text-white/45">
+            <p className="font-body text-xs text-white/55">
               We read only what the platform shares publicly. If it won&apos;t share the caption, you&apos;ll be asked to paste it instead.
             </p>
           </>
@@ -123,7 +123,7 @@ export default function TripImporter() {
               maxLength={8000}
               value={text}
               onChange={(e) => setText(e.target.value)}
-              className="w-full rounded-card border border-white/15 bg-white/[0.06] px-4 py-3 font-body text-sm text-white placeholder:text-white/35 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50"
+              className="w-full rounded-card border border-white/15 bg-white/[0.06] px-4 py-3 font-body text-sm text-white placeholder:text-white/55 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50"
             />
           </>
         )}
@@ -139,7 +139,7 @@ export default function TripImporter() {
       >
         {busy ? "Reading the post…" : "Find the places"}
       </button>
-      <p className="font-body text-xs text-white/45">
+      <p className="font-body text-xs text-white/55">
         Uses an AI model to read the post. Nothing is saved as a trip until you review the places and confirm.
       </p>
     </form>
@@ -258,7 +258,7 @@ function Review({ importId, draft, onBack }: { importId: string; draft: DraftTri
         {draft.notes.map((n) => (
           <p key={n} className="mt-3 font-body text-xs text-white/55">{n}</p>
         ))}
-        <p className="mt-3 font-body text-xs text-white/45">
+        <p className="mt-3 font-body text-xs text-white/55">
           If you untick stops, the order is worked out again when you create the trip.
         </p>
       </section>
@@ -300,7 +300,7 @@ function StopRow({ stop, checked, onToggle }: { stop: DraftStop; checked: boolea
               <Quote size={11} className="mt-0.5 shrink-0" aria-hidden="true" /> {stop.quote}
             </span>
           )}
-          <span className="mt-1 flex items-center gap-1 font-body text-xs text-white/45">
+          <span className="mt-1 flex items-center gap-1 font-body text-xs text-white/55">
             {placed ? <MapPin size={11} aria-hidden="true" /> : <MapPinOff size={11} aria-hidden="true" />}
             {placed
               ? stop.locatedBy === "guide" ? "On the map, from our guide" : "On the map, from a place lookup"

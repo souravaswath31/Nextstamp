@@ -43,7 +43,7 @@ export default function AddToTripButton({
     return (
       <Link
         href="/login"
-        className="inline-flex items-center gap-1 font-body text-xs text-ink/40 transition-colors hover:text-coralDark"
+        className="inline-flex items-center gap-1 font-body text-xs text-ink/55 transition-colors hover:text-coralDark"
       >
         <BookmarkPlus size={12} /> Sign in to add this to a trip
       </Link>
@@ -54,7 +54,7 @@ export default function AddToTripButton({
     return (
       <Link
         href="/"
-        className="inline-flex items-center gap-1 font-body text-xs text-ink/40 transition-colors hover:text-coralDark"
+        className="inline-flex items-center gap-1 font-body text-xs text-ink/55 transition-colors hover:text-coralDark"
       >
         <BookmarkPlus size={12} /> Start a trip to save this to
       </Link>

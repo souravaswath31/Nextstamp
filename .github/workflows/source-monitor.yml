@@ -1,0 +1,62 @@
+name: Source monitor
+
+# Watches the official pages behind every visa rule. It never edits a rule: it opens an issue listing
+# the pages that changed, with a model's one-line hint if ANTHROPIC_API_KEY is set as a secret.
+# Tier A (popular destinations) runs daily, everything weekly. Snapshots live on the `source-monitor`
+# branch so main stays clean.
+on:
+  schedule:
+    - cron: "17 5 * * *"   # daily, tier A
+    - cron: "43 5 * * 1"   # Mondays, everything
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: "A or all"
+        default: "all"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Load snapshots from the source-monitor branch
+        run: |
+          if git ls-remote --exit-code --heads origin source-monitor >/dev/null 2>&1; then
+            git fetch origin source-monitor
+            git checkout origin/source-monitor -- monitor 2>/dev/null || true
+          fi
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the monitor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          TIER="${{ github.event.inputs.tier }}"
+          if [ -z "$TIER" ]; then
+            if [ "${{ github.event.schedule }}" = "17 5 * * *" ]; then TIER=A; else TIER=all; fi
+          fi
+          python3 scripts/monitor_sources.py --tier "$TIER" --report monitor/report.md | tee monitor/summary.txt
+      - name: Save snapshots
+        run: |
+          git config user.name "source-monitor"
+          git config user.email "source-monitor@users.noreply.github.com"
+          git checkout --orphan snapshots-tmp
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          git add -f monitor/state.json monitor/snapshots
+          git commit -m "Snapshots $(date -u +%F)" >/dev/null
+          git push -f origin snapshots-tmp:source-monitor
+      - name: Open an issue if pages changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q "changed=0" monitor/summary.txt; then echo "Nothing changed."; exit 0; fi
+          gh issue create --title "Source pages changed $(date -u +%F)" --body-file monitor/report.md || \
+            gh issue create --title "Source pages changed $(date -u +%F)" --body "See the workflow run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"

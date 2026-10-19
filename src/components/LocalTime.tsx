@@ -38,7 +38,7 @@ export default function LocalTime({
 
   return (
     <div className="rounded-card bg-paperDark px-4 py-3.5">
-      <p className="flex items-center gap-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+      <p className="flex items-center gap-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/55">
         <Clock size={12} /> Local time
       </p>
       {reading ? (
@@ -55,8 +55,8 @@ export default function LocalTime({
       ) : (
         <p className="mt-1.5 font-body text-sm text-ink/70">{label}</p>
       )}
-      {note && <p className="mt-2 font-body text-xs text-ink/50">{note}</p>}
-      {lag && <p className="mt-2 font-body text-xs text-ink/50">{lag}</p>}
+      {note && <p className="mt-2 font-body text-xs text-ink/55">{note}</p>}
+      {lag && <p className="mt-2 font-body text-xs text-ink/55">{lag}</p>}
     </div>
   );
 }

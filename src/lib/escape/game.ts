@@ -162,6 +162,16 @@ export async function joinGame(code: string, rawName: unknown): Promise<{ token:
 
 // ---- the view a player gets ---------------------------------------------------------------------
 export async function viewFor(code: string, token: string | null, sinceVersion?: string | null): Promise<GameView | { unchanged: true }> {
+  // The common poll is "has anything changed?": answer it from one narrow query (the version fields and
+  // this player's token) instead of loading the whole game, deck and every player each time.
+  if (sinceVersion && token) {
+    const head = await prisma.escapeGame.findUnique({
+      where: { code: code.toUpperCase() },
+      select: { updatedAt: true, _count: { select: { players: true } }, players: { where: { token }, select: { id: true }, take: 1 } },
+    });
+    if (!head || head.players.length === 0) throw new GameError(404, "No game with that code. Check it and try again.");
+    if (`${head.updatedAt.getTime()}:${head._count.players}` === sinceVersion) return { unchanged: true };
+  }
   const game = await getGame(code);
   const me = token ? game.players.find((p) => p.token === token) : null;
   // Same answer as a missing room, so probing codes without a token learns nothing.

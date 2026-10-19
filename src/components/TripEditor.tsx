@@ -311,16 +311,16 @@ export default function TripEditor({
 
       <section className="rounded-panel bg-paper p-5 shadow-paper">
         <h2 className="flex items-center gap-2 font-display text-lg text-ink">
-          <CalendarRange size={17} className="text-ink/35" /> Dates &amp; destination
+          <CalendarRange size={17} className="text-ink/55" /> Dates &amp; destination
         </h2>
-        <p className="mt-1 font-body text-xs text-ink/50">
+        <p className="mt-1 font-body text-xs text-ink/55">
           Entry requirements, holidays, climate and currency all key off these — they&apos;re what
           turns a wish list into a trip.
         </p>
 
         <div className="mt-4 grid gap-3 sm:grid-cols-3">
           <label className="flex flex-col gap-1.5">
-            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
               Leaving
             </span>
             <input
@@ -332,7 +332,7 @@ export default function TripEditor({
             />
           </label>
           <label className="flex flex-col gap-1.5">
-            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
               Coming home
             </span>
             <input
@@ -345,7 +345,7 @@ export default function TripEditor({
             />
           </label>
           <label className="flex flex-col gap-1.5">
-            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
               Destination country
             </span>
             <input
@@ -354,7 +354,7 @@ export default function TripEditor({
               value={destination}
               onChange={(e) => setDestination(e.target.value)}
               placeholder="e.g. Japan"
-              className="rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+              className="rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
             />
             <datalist id="known-destinations">
               {knownDestinations.map((c) => (
@@ -391,7 +391,7 @@ export default function TripEditor({
 
       <section className="flex flex-wrap items-end gap-6 rounded-panel bg-paper p-5 shadow-paper">
         <label className="flex flex-col gap-1.5">
-          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+          <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
             Budget tier
           </span>
           <select
@@ -405,11 +405,11 @@ export default function TripEditor({
           </select>
         </label>
         <div>
-          <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+          <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
             Estimated cost
           </p>
           <p className="font-display text-3xl text-coralDark">{formatUsd(estimatedCost)}</p>
-          <p className="font-body text-xs text-ink/50">
+          <p className="font-body text-xs text-ink/55">
             {days.length} day{days.length === 1 ? "" : "s"} · rough estimate, not a quote
           </p>
           <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
@@ -417,10 +417,10 @@ export default function TripEditor({
               const b = getBudgetBreakdown(estimatedCost);
               return (
                 <>
-                  <span className="font-body text-xs text-ink/50">Lodging {formatUsd(b.lodging)}</span>
-                  <span className="font-body text-xs text-ink/50">Food {formatUsd(b.food)}</span>
-                  <span className="font-body text-xs text-ink/50">Transport {formatUsd(b.transport)}</span>
-                  <span className="font-body text-xs text-ink/50">Activities {formatUsd(b.activities)}</span>
+                  <span className="font-body text-xs text-ink/55">Lodging {formatUsd(b.lodging)}</span>
+                  <span className="font-body text-xs text-ink/55">Food {formatUsd(b.food)}</span>
+                  <span className="font-body text-xs text-ink/55">Transport {formatUsd(b.transport)}</span>
+                  <span className="font-body text-xs text-ink/55">Activities {formatUsd(b.activities)}</span>
                 </>
               );
             })()}
@@ -430,7 +430,7 @@ export default function TripEditor({
 
       <section className="rounded-panel bg-paper p-5 shadow-paper">
         <h2 className="flex items-center gap-2 font-display text-lg text-ink">
-          <Users size={17} className="text-ink/35" /> Co-travelers
+          <Users size={17} className="text-ink/55" /> Co-travelers
         </h2>
 
         {collaboratorList.length === 0 && (
@@ -444,7 +444,7 @@ export default function TripEditor({
               <div key={c.userId} className="flex items-center justify-between rounded-card bg-paperDark px-3.5 py-2">
                 <div>
                   <p className="font-body text-sm text-ink">{c.name}</p>
-                  {isOwner && c.email && <p className="font-body text-xs text-ink/50">{c.email}</p>}
+                  {isOwner && c.email && <p className="font-body text-xs text-ink/55">{c.email}</p>}
                 </div>
                 {isOwner && (
                   <button
@@ -462,7 +462,7 @@ export default function TripEditor({
         {isOwner ? (
           token ? (
             <div className="mt-3 flex flex-wrap items-center gap-2">
-              <Link2 size={14} className="text-ink/40" />
+              <Link2 size={14} className="text-ink/55" />
               <span className="truncate font-body text-xs text-ink/55">
                 {inviteOrigin}/trip/{tripId}/join?token={token}
               </span>
@@ -492,7 +492,7 @@ export default function TripEditor({
         ) : (
           <>
             {collaboratorList.length === 0 && (
-              <p className="mt-2 font-body text-xs text-ink/50">Only the trip owner can invite co-travelers.</p>
+              <p className="mt-2 font-body text-xs text-ink/55">Only the trip owner can invite co-travelers.</p>
             )}
             <button
               onClick={leaveThisTrip}
@@ -506,7 +506,7 @@ export default function TripEditor({
 
         {isOwner && (
           <div className="mt-5 border-t border-line pt-4">
-            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
               Public link
             </p>
             <p className="mt-1 font-body text-xs text-ink/55">
@@ -607,7 +607,7 @@ export default function TripEditor({
                 }
                 placeholder="One activity per line"
                 rows={3}
-                className="mt-3 w-full rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+                className="mt-3 w-full rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
               />
 
               <div className="mt-3 grid gap-2 sm:grid-cols-3">
@@ -615,19 +615,19 @@ export default function TripEditor({
                   value={day.driveTime ?? ""}
                   onChange={(e) => updateDay(index, { driveTime: e.target.value })}
                   placeholder="Drive time"
-                  className="rounded-card bg-paperDark px-3 py-1.5 font-body text-xs text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+                  className="rounded-card bg-paperDark px-3 py-1.5 font-body text-xs text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
                 />
                 <input
                   value={day.lodgingSuggestion ?? ""}
                   onChange={(e) => updateDay(index, { lodgingSuggestion: e.target.value })}
                   placeholder="Lodging"
-                  className="rounded-card bg-paperDark px-3 py-1.5 font-body text-xs text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+                  className="rounded-card bg-paperDark px-3 py-1.5 font-body text-xs text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
                 />
                 <input
                   value={day.coffeeWifiSpot ?? ""}
                   onChange={(e) => updateDay(index, { coffeeWifiSpot: e.target.value })}
                   placeholder="Remote-work stop"
-                  className="rounded-card bg-paperDark px-3 py-1.5 font-body text-xs text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+                  className="rounded-card bg-paperDark px-3 py-1.5 font-body text-xs text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
                 />
               </div>
             </div>

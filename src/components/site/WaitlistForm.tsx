@@ -65,7 +65,7 @@ export default function WaitlistForm({
           required
           autoComplete="email"
           placeholder="you@example.com"
-          className="min-w-0 flex-1 rounded-full border border-white/15 bg-white/[0.06] px-5 py-3 font-body text-sm text-white placeholder:text-white/35 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50"
+          className="min-w-0 flex-1 rounded-full border border-white/15 bg-white/[0.06] px-5 py-3 font-body text-sm text-white placeholder:text-white/55 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50"
         />
         <Submit label={label} />
       </div>
