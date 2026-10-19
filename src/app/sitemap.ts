@@ -17,7 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     prisma.countryFact.findMany({ select: { country: true, lastVerifiedDate: true } }),
   ]).catch((err) => {
     console.error("[sitemap] database unavailable, serving fixed pages only", err instanceof Error ? err.message : err);
-    return [[], [], []] as [{ slug: string; createdAt: Date }[], { slug: string; createdAt: Date }[], { country: string; lastVerifiedDate: Date | null }[]];
+    return [[], [], []] as [{ slug: string; createdAt: Date }[], { slug: string; createdAt: Date }[], { country: string; lastVerifiedDate: Date }[]];
   });
 
   return [
