@@ -904,5 +904,219 @@
   "must": [
    "Zanzibar"
   ]
+ },
+ "Tromsø Arctic|3": {
+  "q": "Polaria, Tromsø",
+  "must": [
+   "Tromsø"
+  ]
+ },
+ "Oslo, Bergen|3": {
+  "q": "Fram Museum, Oslo",
+  "must": [
+   "Oslo"
+  ]
+ },
+ "Oslo, Bergen|4": {
+  "q": "Flåm, Aurland",
+  "must": [
+   "Vestland"
+  ]
+ },
+ "Stockholm, the Archipelago|3": {
+  "q": "Vaxholm",
+  "must": [
+   "Stockholm"
+  ]
+ },
+ "Stockholm, the Archipelago|4": {
+  "q": "Grinda",
+  "must": [
+   "Stockholm"
+  ]
+ },
+ "Stockholm, the Archipelago|5": {
+  "q": "Uppsala",
+  "must": [
+   "Uppsala"
+  ]
+ },
+ "Gothenburg, Marstrand|3": {
+  "q": "Saltholmen, Gothenburg",
+  "must": [
+   "Gothenburg"
+  ]
+ },
+ "Gothenburg, Marstrand|5": {
+  "q": "Hönö",
+  "must": [
+   "Gothenburg"
+  ]
+ },
+ "Copenhagen, Roskilde|2": {
+  "q": "Amalienborg, Copenhagen",
+  "must": [
+   "Copenhagen"
+  ]
+ },
+ "Copenhagen, Roskilde|3": {
+  "q": "Helsingør",
+  "must": [
+   "Helsingør"
+  ]
+ },
+ "Copenhagen, Roskilde|5": {
+  "q": "H.C. Andersens Hus, Odense",
+  "must": [
+   "Odense"
+  ]
+ },
+ "Aarhus, Legoland|3": {
+  "q": "LEGOLAND Billund",
+  "must": [
+   "Billund"
+  ]
+ },
+ "Aarhus, Legoland|6": {
+  "q": "Skagen",
+  "must": [
+   "Skagen"
+  ]
+ },
+ "Budapest, Szentendre|3": {
+  "q": "Országház, Budapest",
+  "must": [
+   "Budapest"
+  ]
+ },
+ "Luang Prabang, Vang|7": {
+  "q": "Patuxai, Vientiane",
+  "must": [
+   "Vientiane"
+  ]
+ },
+ "Pakse, Bolaven|5": {
+  "q": "Don Khon",
+  "must": [
+   "Champasak"
+  ]
+ },
+ "Fergana Valley|6": {
+  "q": "Chorsu Bazaar, Tashkent",
+  "must": [
+   "Tashkent"
+  ]
+ },
+ "Montego Bay, Negril|2": {
+  "q": "Rose Hall Great House, Montego Bay",
+  "must": [
+   "Saint James"
+  ]
+ },
+ "La Paz, Lake Titicaca|4": {
+  "q": "Copacabana, Manco Kapac",
+  "must": [
+   "Manco Kapac"
+  ]
+ },
+ "Uyuni Salt Flat|2": {
+  "q": "Uyuni, Antonio Quijarro",
+  "must": [
+   "Quijarro"
+  ]
+ },
+ "Etosha National Park|1": {
+  "q": "Namutoni Camp, Etosha",
+  "must": [
+   "Oshikoto",
+   "Etosha"
+  ]
+ },
+ "Etosha National Park|2": {
+  "q": "Namutoni Camp, Etosha",
+  "must": [
+   "Oshikoto",
+   "Etosha"
+  ]
+ },
+ "Maun, Okavango|2": {
+  "q": "Okavango Delta",
+  "must": [
+   "North-West"
+  ]
+ },
+ "Maun, Okavango|4": {
+  "q": "Moremi Game Reserve",
+  "must": [
+   "Moremi",
+   "North-West"
+  ]
+ },
+ "Maun, Okavango|5": {
+  "q": "Moremi Game Reserve",
+  "must": [
+   "Moremi",
+   "North-West"
+  ]
+ },
+ "Maun, Okavango|7": {
+  "q": "Chobe National Park",
+  "must": [
+   "Chobe"
+  ]
+ },
+ "Kasane, Chobe|4": {
+  "q": "Chobe National Park",
+  "must": [
+   "Chobe"
+  ]
+ },
+ "Kigali, Gorilla|3": {
+  "q": "Volcanoes National Park",
+  "must": [
+   "Northern Province"
+  ]
+ },
+ "Kigali, Gorilla|5": {
+  "q": "Lake Kivu, Rubavu",
+  "must": [
+   "Rubavu"
+  ]
+ },
+ "Akagera Safari|3": {
+  "q": "Akagera National Park",
+  "must": [
+   "Akagera"
+  ]
+ },
+ "Akagera Safari|6": {
+  "q": "Nyungwe Forest National Park",
+  "must": [
+   "Nyungwe"
+  ]
+ },
+ "Havana + Varadero|4": {
+  "q": "Varadero",
+  "must": [
+   "Matanzas"
+  ]
+ },
+ "Havana + Varadero|5": {
+  "q": "Varadero",
+  "must": [
+   "Matanzas"
+  ]
+ },
+ "Havana + Varadero|6": {
+  "q": "Matanzas",
+  "must": [
+   "Matanzas"
+  ]
+ },
+ "Tel Aviv, Jerusalem|3": {
+  "q": "Jaffa Gate, Jerusalem",
+  "must": [
+   "Jerusalem"
+  ]
  }
 }
