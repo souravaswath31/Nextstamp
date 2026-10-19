@@ -1118,5 +1118,158 @@
   "must": [
    "Jerusalem"
   ]
+ },
+ "Tirana, Berat|8": {
+  "q": "Skanderbeg Square, Tirana",
+  "must": [
+   "Skanderbeg"
+  ]
+ },
+ "Skadar Lake, Cetinje|4": {
+  "q": "Žabljak, Durmitor",
+  "must": [
+   "Žabljak Municipality"
+  ]
+ },
+ "Sofia, Rila|7": {
+  "q": "Alexander Nevsky Cathedral, Sofia",
+  "must": [
+   "Sofia"
+  ]
+ },
+ "Saaremaa Island|1": {
+  "q": "Kuressaare, Saaremaa",
+  "must": [
+   "Saaremaa"
+  ]
+ },
+ "Saaremaa Island|2": {
+  "q": "Kuressaare Castle",
+  "must": [
+   "Saaremaa"
+  ]
+ },
+ "Larnaca, Nicosia|7": {
+  "q": "Paphos, Cyprus",
+  "must": [
+   "Paphos Municipality"
+  ]
+ },
+ "Astana + Burabay|4": {
+  "q": "Burabay National Park",
+  "must": [
+   "Akmola"
+  ]
+ },
+ "Dakar, Gor|6": {
+  "q": "Place de l'Indépendance, Dakar",
+  "must": [
+   "Dakar"
+  ]
+ },
+ "Petite C|6": {
+  "q": "Place de l'Indépendance, Dakar",
+  "must": [
+   "Dakar"
+  ]
+ },
+ "Nosy Be + Morondava|2": {
+  "q": "Nosy Be, Diana",
+  "must": [
+   "Diana"
+  ]
+ },
+ "Nosy Be + Morondava|6": {
+  "q": "Morondava, Menabe",
+  "must": [
+   "Menabe"
+  ]
+ },
+ "Nosy Be + Morondava|3": {
+  "q": "Lokobe National Park",
+  "must": [
+   "Diana",
+   "Lokobe"
+  ]
+ },
+ "Antananarivo, Andasibe|2": {
+  "q": "Andasibe, Alaotra-Mangoro",
+  "must": [
+   "Alaotra"
+  ]
+ },
+ "Antananarivo, Andasibe|6": {
+  "q": "Ranomafana, Vatovavy",
+  "must": [
+   "Vatovavy"
+  ]
+ },
+ "Gorillas + Chimps|3": {
+  "q": "Kanyanchu, Kibale",
+  "must": [
+   "Kibale"
+  ]
+ },
+ "Gorillas + Chimps|4": {
+  "q": "Kazinga Channel",
+  "must": [
+   "Queen Elizabeth"
+  ]
+ },
+ "Gorillas + Chimps|6": {
+  "q": "Buhoma, Bwindi",
+  "must": [
+   "Kanungu"
+  ]
+ },
+ "Gorillas + Chimps|7": {
+  "q": "Bwindi Impenetrable National Park",
+  "must": [
+   "Kanungu",
+   "Bwindi"
+  ]
+ },
+ "Kampala, Entebbe|2": {
+  "q": "Kasubi Tombs, Kampala",
+  "must": [
+   "Kampala"
+  ]
+ },
+ "Kampala, Entebbe|3": {
+  "q": "Source of the Nile, Jinja",
+  "must": [
+   "Jinja"
+  ]
+ },
+ "Kampala, Entebbe|4": {
+  "q": "Jinja",
+  "must": [
+   "Jinja"
+  ]
+ },
+ "Antigua, Lake|4": {
+  "q": "Chichicastenango",
+  "must": [
+   "Quiché"
+  ]
+ },
+ "Antigua, Lake|5": {
+  "q": "San Juan La Laguna",
+  "must": [
+   "Sololá"
+  ]
+ },
+ "Viti Levu|2": {
+  "q": "Sigatoka",
+  "must": [
+   "Western"
+  ]
+ },
+ "Addis Ababa + Bale|4": {
+  "q": "Sanetti Plateau",
+  "must": [
+   "Oromia",
+   "Bale"
+  ]
  }
 }
