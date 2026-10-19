@@ -1,4 +1,5 @@
 import { normalizeCountryInput } from "./countries";
+import { easiest, heldKeySet } from "./heldDocs";
 
 /**
  * The public passport checker's resolution logic, kept pure (no Prisma) so the
@@ -72,9 +73,11 @@ export function resolveCheck(
   const forPair = rules.filter((r) => r.passport === passport && r.destination === destination);
   if (forPair.length === 0) return { kind: "no-rule", passport, destination };
 
-  const held = new Set(heldDocumentCountries);
-  const viaDoc = forPair.find((r) => r.requiresDocCountry && held.has(r.requiresDocCountry));
-  const chosen = viaDoc ?? forPair.find((r) => !r.requiresDocCountry) ?? forPair[0];
+  const held = heldKeySet(heldDocumentCountries);
+  const base = forPair.find((r) => !r.requiresDocCountry);
+  const viaCandidates = forPair.filter((r) => r.requiresDocCountry && held.has(r.requiresDocCountry));
+  const chosen = easiest([...(base ? [base] : []), ...viaCandidates]) ?? forPair[0];
+  const viaDoc = chosen.requiresDocCountry ? chosen : undefined;
 
   const ageDays = (asOf.getTime() - new Date(chosen.verified).getTime()) / 86_400_000;
   return {

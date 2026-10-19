@@ -52,7 +52,7 @@ export default function Room({ code }: { code: string }) {
       setView(r);
     } catch (e) {
       if (e instanceof ApiError && (e.status === 403 || e.status === 404)) {
-        if (e.status === 403) forgetToken(code);
+        forgetToken(code);
         setLost(e.message);
       }
     }

@@ -12,6 +12,9 @@ import { userHasFullAccess } from "./entitlementDb";
 import { createClient } from "@/utils/supabase/server";
 import type { TripDay, TripStatus } from "./types";
 import { normalizeCountryInput } from "./countries";
+import { deleteAccountData } from "./accountData";
+import { createAdminClient } from "@/utils/supabase/admin";
+import { MAX_MINOR, cleanText, cleanTripDays, coordinate, currencyCode, isoDate } from "./validate";
 import { EXPENSE_CATEGORIES, type ExpenseCategory } from "./expenses";
 import { fromMinor, getRate, toMinor } from "./currency";
 
@@ -65,7 +68,7 @@ export async function createTripFromItinerary(itineraryId: string) {
 export async function createBlankTrip(formData: FormData) {
   const user = await getCurrentUser();
   requireFullAccess(user, "trips");
-  const title = String(formData.get("title") ?? "New trip").trim() || "New trip";
+  const title = cleanText(formData.get("title"), 100) || "New trip";
 
   const trip = await prisma.userTrip.create({
     data: {
@@ -112,12 +115,14 @@ export async function updateTripDays(tripId: string, days: TripDay[], costTier: 
     requireFullAccess({ fullAccess: false }, "trips");
   }
 
-  const safeTitle = title.trim() || "Untitled trip";
+  const safeTitle = cleanText(title, 100) || "Untitled trip";
+  const safeDays = cleanTripDays(days);
+  const safeTier = ["budget", "mid", "splurge"].includes(costTier) ? costTier : "mid";
   await prisma.userTrip.update({
     where: { id: tripId },
     data: {
-      customDaysJson: JSON.stringify(days),
-      costTier,
+      customDaysJson: JSON.stringify(safeDays),
+      costTier: safeTier,
       title: safeTitle,
     },
   });
@@ -182,6 +187,25 @@ export async function joinTripViaToken(tripId: string, token: string) {
   redirect(`/trip/${tripId}`);
 }
 
+// Replaces the invite link. The old link stops working at once; people already on the trip stay.
+export async function resetShareToken(tripId: string): Promise<string> {
+  const user = await getCurrentUser();
+  const { trip, isOwner } = await getTripWithAccess(tripId, user.id);
+  if (!trip || !isOwner) throw new Error("Only the trip owner can reset the invite link.");
+  const shareToken = randomUUID();
+  await prisma.userTrip.update({ where: { id: tripId }, data: { shareToken } });
+  revalidatePath(`/trip/${tripId}`);
+  return shareToken;
+}
+
+// A co-traveler can walk away from a trip on their own.
+export async function leaveTrip(tripId: string) {
+  const user = await getCurrentUser();
+  await prisma.tripCollaborator.deleteMany({ where: { tripId, userId: user.id } });
+  revalidatePath("/my-trips");
+  redirect("/my-trips");
+}
+
 export async function removeCollaborator(tripId: string, collaboratorUserId: string) {
   const user = await getCurrentUser();
   const { trip, isOwner } = await getTripWithAccess(tripId, user.id);
@@ -205,16 +229,13 @@ export async function updateTripPlanning(tripId: string, formData: FormData) {
 
   const startRaw = String(formData.get("startDate") ?? "").trim();
   const endRaw = String(formData.get("endDate") ?? "").trim();
-  const destinationRaw = String(formData.get("destinationCountry") ?? "").trim();
+  const destinationRaw = cleanText(formData.get("destinationCountry"), 56);
 
   // Dates come from <input type="date"> as yyyy-mm-dd. Parsed as UTC noon so
   // the stored instant lands on the intended calendar day in every timezone —
   // a bare "2027-03-14" parsed as UTC midnight displays as March 13 for
   // anyone west of Greenwich.
-  const parseDay = (v: string): Date | null => {
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(v)) return null;
-    return new Date(`${v}T12:00:00.000Z`);
-  };
+  const parseDay = (v: string): Date | null => isoDate(v);
 
   const startDate = startRaw ? parseDay(startRaw) : null;
   let endDate = endRaw ? parseDay(endRaw) : null;
@@ -318,7 +339,7 @@ export async function addPackingItem(tripId: string, formData: FormData) {
   const { canEdit } = await getTripWithAccess(tripId, user.id);
   if (!canEdit) throw new Error("You don't have access to this trip.");
 
-  const label = String(formData.get("label") ?? "").trim();
+  const label = cleanText(formData.get("label"), 80);
   if (!label) return;
 
   await prisma.tripPackingItem.upsert({
@@ -359,7 +380,7 @@ export async function savePlaceToTrip(tripId: string, place: SavePlaceInput) {
   const { canEdit } = await getTripWithAccess(tripId, user.id);
   if (!canEdit) throw new Error("You don't have access to this trip.");
 
-  const name = place.name.trim();
+  const name = cleanText(place.name, 120);
   if (!name) return;
 
   // Upsert rather than create: saving the same place twice from the guide is a
@@ -369,11 +390,12 @@ export async function savePlaceToTrip(tripId: string, place: SavePlaceInput) {
     create: {
       tripId,
       name,
-      note: place.note?.trim() || null,
-      sourceKind: place.sourceKind ?? null,
-      sourceSlug: place.sourceSlug ?? null,
-      latitude: place.latitude ?? null,
-      longitude: place.longitude ?? null,
+      note: cleanText(place.note, 500) || null,
+      sourceKind: cleanText(place.sourceKind, 40) || null,
+      sourceSlug: cleanText(place.sourceSlug, 120) || null,
+      // Both or neither: half a coordinate pair cannot be drawn.
+      latitude: coordinate(place.latitude, "lat") !== null && coordinate(place.longitude, "lon") !== null ? place.latitude! : null,
+      longitude: coordinate(place.latitude, "lat") !== null && coordinate(place.longitude, "lon") !== null ? place.longitude! : null,
       addedById: user.id,
     },
     update: {},
@@ -442,9 +464,10 @@ export async function addExpense(tripId: string, formData: FormData) {
   const { trip, canEdit } = await getTripWithAccess(tripId, user.id);
   if (!trip || !canEdit) throw new Error("You don't have access to this trip.");
 
-  const label = String(formData.get("label") ?? "").trim();
+  const label = cleanText(formData.get("label"), 100);
   const category = String(formData.get("category") ?? "other").trim();
-  const currency = (String(formData.get("currency") ?? "USD").trim() || "USD").toUpperCase();
+  const currency = currencyCode(String(formData.get("currency") ?? "USD").trim() || "USD");
+  if (!currency) return;
   const amountRaw = String(formData.get("amount") ?? "").trim();
   const spentOnRaw = String(formData.get("spentOn") ?? "").trim();
 
@@ -453,6 +476,7 @@ export async function addExpense(tripId: string, formData: FormData) {
   if (!EXPENSE_CATEGORIES.includes(category as ExpenseCategory)) return;
 
   const amountMinor = toMinor(amount, currency);
+  if (!Number.isSafeInteger(amountMinor) || amountMinor <= 0 || amountMinor > MAX_MINOR) return;
 
   // The rate that applied on the day it was spent is the honest one, so it's
   // stored rather than recomputed at read time. A currency the ECB feed
@@ -464,7 +488,8 @@ export async function addExpense(tripId: string, formData: FormData) {
     const rate = await getRate(currency, "USD");
     if (rate.supported && rate.rate) {
       fxRate = rate.rate;
-      amountMinorUsd = Math.round(fromMinor(amountMinor, currency) * rate.rate * 100);
+      const usd = Math.round(fromMinor(amountMinor, currency) * rate.rate * 100);
+      amountMinorUsd = Number.isSafeInteger(usd) && usd <= 2_000_000_000 ? usd : null;
     } else {
       fxRate = null;
       amountMinorUsd = null;
@@ -488,9 +513,7 @@ export async function addExpense(tripId: string, formData: FormData) {
       currency,
       amountMinorUsd,
       fxRate,
-      spentOn: /^\d{4}-\d{2}-\d{2}$/.test(spentOnRaw)
-        ? new Date(`${spentOnRaw}T12:00:00.000Z`)
-        : new Date(),
+      spentOn: isoDate(spentOnRaw) ?? new Date(),
       splitBetween: (split.length > 0 ? split : [user.id]).join(","),
     },
   });
@@ -514,9 +537,7 @@ export async function updatePassportExpiry(formData: FormData) {
   await prisma.user.update({
     where: { id: user.id },
     data: {
-      passportExpiry: /^\d{4}-\d{2}-\d{2}$/.test(raw)
-        ? new Date(`${raw}T12:00:00.000Z`)
-        : null,
+      passportExpiry: isoDate(raw),
     },
   });
   revalidatePath("/profile");
@@ -526,7 +547,7 @@ export async function updatePassportExpiry(formData: FormData) {
 
 export async function updatePassportCountry(formData: FormData) {
   const user = await getCurrentUser();
-  const raw = String(formData.get("passportCountry") ?? "").trim();
+  const raw = cleanText(formData.get("passportCountry"), 56);
   if (!raw) return;
   const passportCountry = normalizeCountryInput(raw);
   await prisma.user.update({ where: { id: user.id }, data: { passportCountry } });
@@ -538,12 +559,14 @@ export async function updatePassportCountry(formData: FormData) {
 export async function addHeldDocument(formData: FormData) {
   const user = await getCurrentUser();
   requireFullAccess(user, "documents");
-  const rawCountry = String(formData.get("country") ?? "").trim();
-  const subtype = String(formData.get("subtype") ?? "").trim();
-  const validUntilRaw = String(formData.get("validUntil") ?? "").trim();
+  const rawCountry = cleanText(formData.get("country"), 56);
+  const subtype = cleanText(formData.get("subtype"), 40);
+  const validUntil = isoDate(String(formData.get("validUntil") ?? ""));
 
   if (!rawCountry) return;
   const country = normalizeCountryInput(rawCountry);
+  // A generous ceiling that still stops a script from filling the table.
+  if ((await prisma.heldDocument.count({ where: { userId: user.id } })) >= 25) return;
 
   await prisma.heldDocument.create({
     data: {
@@ -551,7 +574,7 @@ export async function addHeldDocument(formData: FormData) {
       type: "visa",
       country,
       subtype: subtype || null,
-      validUntil: validUntilRaw ? new Date(validUntilRaw) : null,
+      validUntil,
     },
   });
   revalidatePath("/profile");
@@ -577,16 +600,14 @@ export async function completeOnboarding(formData: FormData) {
   } = await supabase.auth.getUser();
   if (!authUser || !authUser.email) redirect("/login");
 
-  const name = String(formData.get("name") ?? "").trim() || authUser.email.split("@")[0];
-  const rawPassport = String(formData.get("passportCountry") ?? "").trim();
+  const name = cleanText(formData.get("name"), 60) || authUser.email.split("@")[0].slice(0, 60);
+  const rawPassport = cleanText(formData.get("passportCountry"), 56);
   if (!rawPassport) return;
   const passportCountry = normalizeCountryInput(rawPassport);
 
   // Optional at signup — see the note on the field in the onboarding page.
   const rawExpiry = String(formData.get("passportExpiry") ?? "").trim();
-  const passportExpiry = /^\d{4}-\d{2}-\d{2}$/.test(rawExpiry)
-    ? new Date(`${rawExpiry}T12:00:00.000Z`)
-    : null;
+  const passportExpiry = isoDate(rawExpiry);
 
   await prisma.user.upsert({
     where: { id: authUser.id },
@@ -602,4 +623,29 @@ export async function signOutAction() {
   const supabase = createClient(cookieStore);
   await supabase.auth.signOut();
   redirect("/login");
+}
+
+// Permanently removes the account and everything attached to it. The person must type DELETE; the
+// button alone is not enough, because this cannot be undone. Trips they own go with them (co-travelers
+// lose access), and so do expenses they paid on other trips.
+export async function deleteAccount(formData: FormData) {
+  const user = await getCurrentUser();
+  if (cleanText(formData.get("confirm"), 10).toUpperCase() !== "DELETE") {
+    redirect("/profile?delete=confirm");
+  }
+  await deleteAccountData(user.id, user.email);
+
+  // The sign-in record lives in Supabase Auth. Without the service-role key it stays (and a later
+  // sign-in would simply start a fresh account), which is logged so it can be cleared by hand.
+  const admin = createAdminClient();
+  if (admin) {
+    const { error } = await admin.auth.admin.deleteUser(user.id);
+    if (error) console.error("[account] auth user was not deleted", user.id, error.message);
+  } else {
+    console.error("[account] SUPABASE_SERVICE_ROLE_KEY not set; auth user left in place", user.id);
+  }
+
+  const supabase = createClient(await cookies());
+  await supabase.auth.signOut();
+  redirect("/?account=deleted");
 }
