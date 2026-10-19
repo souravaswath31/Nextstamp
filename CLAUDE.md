@@ -444,7 +444,7 @@ press features and municipal market pages, not a looser bar.
 Croatia, Czechia, Iceland, Singapore, Malaysia, Taiwan, India, China, Nepal, Cambodia, New Zealand, Brazil,
 Argentina, Chile, Ecuador, Dominican Republic, Jordan, Kenya, Tanzania: each a country guide, visa rules for the
 other passports (the destination's own passport omitted) and 2 itineraries. Totals after: 53 guides, 52
-destinations, 446 rules, 215 itineraries. Two agents per country (guide; rules + itineraries), the same
+destinations, 446 rules, 215 itineraries after round 7 (round 8 below). Two agents per country (guide; rules + itineraries), the same
 `content-research-contract.md`. Things worth knowing:
 - **Agents ran out of web-search budget** in the last batch (Brazil, Argentina, Chile, Ecuador, Kenya,
   Tanzania, Dominican Republic): flights, bus/drive times and park fees are often "check the operator" rather
@@ -462,6 +462,25 @@ destinations, 446 rules, 215 itineraries. Two agents per country (guide; rules +
 - Covers are the generic category images until real ones are generated.
 - Aliases for the new names ("Czech Republic", "Holland", "PRC"...) are in `src/lib/countries.ts`; FCDO slugs
   needed nothing (all 25 verified live), State Dept names are unchecked.
+
+**Content round 8 (October 2026): 24 more countries.** Norway, Sweden, Denmark, Poland, Hungary, Belgium,
+Hong Kong, Laos, Uzbekistan, Cuba, Jamaica, Panama, Bolivia, Namibia, Botswana, Rwanda, Ghana, Mauritius, Oman,
+Qatar, Israel, Finland, Slovenia, Romania. Same two-agents-per-country process as round 7. Totals after: 77 guides,
+76 destinations, 649 rules, 263 itineraries. Worth knowing:
+- Agents ran out of web-search budget again and many official sites blocked fetches (UDI, Migri, SNCB, SJ, gov.il,
+  Finnish and Slovenian rail, KWS). Gaps are "check the operator", never a guess. Several climate tables are the
+  agent's own 1991-2020 averages from open data (disclosed in each record); Bolivia's temperatures are null because
+  its met service publishes only chart images (the UI hides null temperatures).
+- **Rows I dropped:** Uzbekistan's five Indian "held visa" rows (the only source was two news outlets, no decree
+  text). Kept, because an official page backs them: India cascades for Taiwan, Oman, Panama, Argentina, Chile and
+  the Dominican Republic.
+- **Items that will go stale first:** Cuba and Israel carry FCDO/GAC advise-against-travel text; Mauritius carries an
+  October 2026 unrest and curfew notice (FCDO, GAC) and Panama a 9 Oct 2026 earthquake note; Rwanda, Botswana, Ghana
+  and Mauritius carry Ebola entry measures; Jamaica notes Hurricane Melissa recovery; Namibia's April 2025 visa
+  regime comes from a "draft" ministry fact sheet. Re-read them before relying on them.
+- Hong Kong geocoding needed `cn`/`mo` allowed as country codes (Nominatim returns it under China) and a
+  hand-set anchor. `scripts/geocode_round.py` carries per-country hop caps and `geocode_round_overrides.json`
+  about 180 reviewed overrides.
 
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
