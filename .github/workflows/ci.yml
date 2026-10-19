@@ -1,0 +1,24 @@
+name: CI
+
+# Runs on every pull request and on pushes to main. Type check and unit tests need no secrets or
+# database. The production build is left to Vercel, which has the database; building here would
+# need a live DATABASE_URL because several public pages and the sitemap read it at build time.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx prisma generate
+      - run: npx tsc --noEmit
+      - run: npx vitest run
