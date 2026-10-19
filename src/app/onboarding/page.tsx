@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import { createClient } from "@/utils/supabase/server";
 import { completeOnboarding } from "@/lib/actions";
-import { getSupportedPassports } from "@/lib/supportedPassports";
+import { getPassportCoverage } from "@/lib/supportedPassports";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = { title: "Welcome — NextStamp" };
@@ -22,7 +22,8 @@ export default async function OnboardingPage() {
     redirect("/login");
   }
 
-  const supported = await getSupportedPassports();
+  const coverage = await getPassportCoverage();
+  const supported = coverage.map((c) => c.passport);
 
   return (
     <div
@@ -85,7 +86,8 @@ export default async function OnboardingPage() {
               ))}
             </datalist>
             <p className="mt-1.5 font-body text-xs text-ink/55">
-              Visa results work for {supported.join(", ")}. Any other passport can still use the guides and itineraries,
+              Visa results cover {coverage.map((c) => `${c.passport} (${c.destinations} destinations)`).join(", ")}. Where we have
+              not checked a pair yet, we say so rather than guess. Any other passport can still use the guides and itineraries,
               and you can ask for yours with the visa checker on the home page.
             </p>
           </div>
