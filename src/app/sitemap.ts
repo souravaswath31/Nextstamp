@@ -12,11 +12,16 @@ export const revalidate = 3600;
 // my-trips, and trip/[id] are personal pages behind a real login and have
 // nothing for a crawler (or a logged-out visitor) to index.
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // If the database is unreachable (a build during an outage), serve the fixed pages rather than
+  // failing the whole deploy; the next hourly refresh fills in the guides and itineraries.
   const [states, itineraries, countries] = await Promise.all([
     prisma.stateGuide.findMany({ select: { slug: true, createdAt: true } }),
     prisma.itinerary.findMany({ where: { isPublic: true }, select: { slug: true, createdAt: true } }),
     prisma.countryFact.findMany({ select: { country: true, lastVerifiedDate: true } }),
-  ]);
+  ]).catch((err) => {
+    console.error("[sitemap] database unavailable, serving fixed pages only", err instanceof Error ? err.message : err);
+    return [[], [], []] as [{ slug: string; createdAt: Date }[], { slug: string; createdAt: Date }[], { country: string; lastVerifiedDate: Date }[]];
+  });
 
   return [
     { url: BASE_URL, changeFrequency: "weekly", priority: 1 },
