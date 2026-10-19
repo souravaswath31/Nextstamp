@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mountain, Building2, Waves, Gem, Wallet, Route, Compass, type LucideIcon } from "lucide-react";
 import { CATEGORY_LABELS, CATEGORY_COLOR_CLASSES } from "@/lib/types";
 
@@ -53,11 +54,13 @@ export default function ItineraryCard(props: Props) {
     >
       {props.coverImageUrl && (
         <div className="relative h-36 w-full overflow-hidden">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          {/* next/image serves a card-sized WebP instead of the 1600px banner. */}
+          <Image
             src={props.coverImageUrl}
             alt=""
-            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+            fill
+            sizes="(min-width: 1024px) 360px, (min-width: 640px) 45vw, 100vw"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
           />
           <span className="absolute right-3 top-3 rounded-full bg-night/70 px-2.5 py-1 font-stamp text-[11px] text-white backdrop-blur-sm">
             {duration}

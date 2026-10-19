@@ -18,6 +18,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${state.name} — NextStamp`,
     description,
+    alternates: { canonical: `/state/${params.slug}` },
     openGraph: { title: `${state.name} — NextStamp`, description },
   };
 }

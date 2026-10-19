@@ -5,7 +5,9 @@ import { prisma } from "@/lib/prisma";
 import Reveal from "@/components/Reveal";
 import { splitList } from "@/lib/countryFacts";
 
-export const dynamic = "force-dynamic";
+// Public and the same for everyone, so it is served from cache and refreshed hourly.
+export const revalidate = 3600;
+
 
 export const metadata: Metadata = {
   title: "Country guides — NextStamp",
@@ -26,6 +28,9 @@ export default async function CountriesPage() {
         <img
           src="/flatlay-passport-stamps.jpg"
           alt=""
+          width={1600}
+          height={600}
+          decoding="async"
           className="h-40 w-full object-cover sm:h-56"
         />
       </div>

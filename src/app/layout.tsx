@@ -4,7 +4,6 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Chrome from "@/components/Chrome";
 import { SITE_URL } from "@/lib/siteUrl";
-import { getOptionalUser } from "@/lib/currentUser";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,19 +38,20 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function RootLayout({
+// No cookie or database read here on purpose: it keeps every public page cacheable. The navigation learns
+// whether you are signed in on the client (see useHasSession); pages that show personal data check the
+// real session themselves.
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const user = await getOptionalUser();
-
   return (
     <html lang="en">
       <body
         className={`${inter.variable} ${plexMono.variable} font-body flex min-h-screen flex-col`}
       >
-        <Chrome isAuthenticated={!!user}>{children}</Chrome>
+        <Chrome>{children}</Chrome>
         <Analytics />
       </body>
     </html>
