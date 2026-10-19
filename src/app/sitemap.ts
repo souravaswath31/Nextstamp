@@ -2,6 +2,9 @@ import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 
 import { SITE_URL } from "@/lib/siteUrl";
+import { getPublicRules } from "@/lib/siteData";
+import { cascadeDocuments, cascadeSlug, isIndexablePair, pairSlug, passportsIn } from "@/lib/visaPages";
+import { slugify } from "@/lib/slug";
 
 const BASE_URL = SITE_URL;
 
@@ -23,7 +26,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     return [[], [], []] as [{ slug: string; createdAt: Date }[], { slug: string; createdAt: Date }[], { country: string; lastVerifiedDate: Date }[]];
   });
 
+  // Visa pages: hubs, per-passport pages, cascade pages, and only the staged pair pages that qualify for indexing.
+  const rules = await getPublicRules().catch(() => []);
+  const passports = passportsIn(rules);
+  const visaPages: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/visa`, changeFrequency: "weekly", priority: 0.8 },
+    ...passports.map((p) => ({ url: `${BASE_URL}/visa/from/${slugify(p)}`, changeFrequency: "weekly" as const, priority: 0.7 })),
+    ...passports.flatMap((p) => cascadeDocuments(rules, p).map((d) => ({ url: `${BASE_URL}/visa/${cascadeSlug(p, d)}`, changeFrequency: "weekly" as const, priority: 0.7 }))),
+    ...passports.flatMap((p) =>
+      Array.from(new Set(rules.filter((r) => r.passport === p).map((r) => r.destination)))
+        .filter((d) => isIndexablePair(rules, p, d))
+        .map((d) => ({ url: `${BASE_URL}/visa/${pairSlug(p, d)}`, changeFrequency: "weekly" as const, priority: 0.6 }))
+    ),
+  ];
+
   return [
+    ...visaPages,
     { url: BASE_URL, changeFrequency: "weekly", priority: 1 },
     { url: `${BASE_URL}/states`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/explore`, changeFrequency: "weekly", priority: 0.9 },
