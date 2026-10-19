@@ -42,4 +42,13 @@ describe("normalizeCountryInput", () => {
     expect(normalizeCountryInput("")).toBe("");
     expect(normalizeCountryInput("   ")).toBe("");
   });
+
+  it("maps common alternative names onto the stored names for the new destinations", () => {
+    expect(normalizeCountryInput("Czech Republic")).toBe("Czechia");
+    expect(normalizeCountryInput("holland")).toBe("Netherlands");
+    expect(normalizeCountryInput("Republic of Ireland")).toBe("Ireland");
+    expect(normalizeCountryInput("PRC")).toBe("China");
+    expect(normalizeCountryInput("new zealand")).toBe("New Zealand");
+    expect(normalizeCountryInput("Viet Nam")).toBe("Vietnam");
+  });
 });

@@ -328,5 +328,581 @@
    "Jasper",
    "Alberta"
   ]
+ },
+ "Tyrol + Salzburgerland|7": {
+  "q": "Mirabellplatz, Salzburg",
+  "must": [
+   "5020"
+  ]
+ },
+ "Westport, Galway|4": {
+  "q": "Eyre Square, Galway",
+  "must": [
+   "Galway"
+  ]
+ },
+ "Delhi, Agra, Jaipur|2": {
+  "q": "Red Fort, Delhi",
+  "must": [
+   "Delhi"
+  ]
+ },
+ "Delhi, Agra, Jaipur|3": {
+  "q": "Taj Mahal, Agra",
+  "must": [
+   "Uttar Pradesh"
+  ]
+ },
+ "Delhi, Agra, Jaipur|4": {
+  "q": "Jaipur, Rajasthan",
+  "must": [
+   "Rajasthan"
+  ]
+ },
+ "Delhi, Agra, Jaipur|5": {
+  "q": "City Palace, Jaipur",
+  "must": [
+   "Rajasthan"
+  ]
+ },
+ "Delhi, Agra, Jaipur|6": {
+  "q": "Pushkar, Rajasthan",
+  "must": [
+   "Rajasthan"
+  ]
+ },
+ "Delhi, Agra, Jaipur|7": {
+  "q": "Jodhpur, Rajasthan",
+  "must": [
+   "Rajasthan"
+  ]
+ },
+ "Delhi, Agra, Jaipur|8": {
+  "q": "Udaipur, Rajasthan",
+  "must": [
+   "Rajasthan"
+  ]
+ },
+ "Delhi, Agra, Jaipur|9": {
+  "q": "City Palace, Udaipur, Rajasthan",
+  "must": [
+   "Rajasthan"
+  ]
+ },
+ "Delhi, Agra, Jaipur|10": {
+  "q": "New Delhi",
+  "must": [
+   "Delhi"
+  ]
+ },
+ "Kerala Backwaters|2": {
+  "q": "Fort Kochi",
+  "must": [
+   "Kerala"
+  ]
+ },
+ "Kerala Backwaters|3": {
+  "q": "Alappuzha",
+  "must": [
+   "Kerala"
+  ]
+ },
+ "Kerala Backwaters|4": {
+  "q": "Thekkady",
+  "must": [
+   "Kerala"
+  ]
+ },
+ "Kerala Backwaters|5": {
+  "q": "Periyar Tiger Reserve",
+  "must": [
+   "Kerala"
+  ]
+ },
+ "Kerala Backwaters|6": {
+  "q": "Madurai",
+  "must": [
+   "Tamil Nadu"
+  ]
+ },
+ "Kerala Backwaters|7": {
+  "q": "Thanjavur",
+  "must": [
+   "Tamil Nadu"
+  ]
+ },
+ "Kerala Backwaters|8": {
+  "q": "Brihadisvara Temple, Thanjavur",
+  "must": [
+   "Tamil Nadu"
+  ]
+ },
+ "Beijing, Xi'an|4": {
+  "q": "Xi'an, Shaanxi",
+  "must": [
+   "Shaanxi"
+  ]
+ },
+ "Beijing, Xi'an|5": {
+  "q": "Mausoleum of the First Qin Emperor, Lintong",
+  "must": [
+   "Shaanxi"
+  ]
+ },
+ "Beijing, Xi'an|6": {
+  "q": "Xi'an City Wall",
+  "must": [
+   "Shaanxi"
+  ]
+ },
+ "Beijing, Xi'an|7": {
+  "q": "The Bund, Shanghai",
+  "must": [
+   "Shanghai"
+  ]
+ },
+ "Beijing, Xi'an|8": {
+  "q": "Yu Garden, Shanghai",
+  "must": [
+   "Shanghai"
+  ]
+ },
+ "Chengdu, Chongqing|2": {
+  "q": "Chengdu Research Base of Giant Panda Breeding",
+  "must": [
+   "Chengdu"
+  ]
+ },
+ "Chengdu, Chongqing|3": {
+  "q": "Dujiangyan",
+  "must": [
+   "Sichuan"
+  ]
+ },
+ "Chengdu, Chongqing|4": {
+  "q": "Chongqing",
+  "must": [
+   "Chongqing"
+  ]
+ },
+ "Chengdu, Chongqing|5": {
+  "q": "Hongyadong, Chongqing",
+  "must": [
+   "Chongqing"
+  ]
+ },
+ "Chengdu, Chongqing|6": {
+  "q": "Zhangjiajie",
+  "must": [
+   "Hunan"
+  ]
+ },
+ "Chengdu, Chongqing|7": {
+  "q": "Zhangjiajie National Forest Park",
+  "must": [
+   "Hunan"
+  ]
+ },
+ "Chengdu, Chongqing|8": {
+  "q": "Tianmen Mountain",
+  "must": [
+   "Hunan"
+  ]
+ },
+ "Taipei, Jiufen|2": {
+  "q": "Longshan Temple, Taipei",
+  "must": [
+   "Taipei"
+  ]
+ },
+ "Taipei, Jiufen|8": {
+  "q": "Taipei Main Station",
+  "must": [
+   "Taipei"
+  ]
+ },
+ "Tainan, Kaohsiung|2": {
+  "q": "Chihkan Tower, Tainan",
+  "must": [
+   "Tainan"
+  ]
+ },
+ "Tainan, Kaohsiung|7": {
+  "q": "Taipei Main Station",
+  "must": [
+   "Taipei"
+  ]
+ },
+ "Kuching, Bako|2": {
+  "q": "Bako National Park",
+  "must": [
+   "Sarawak"
+  ]
+ },
+ "Kuching, Bako|3": {
+  "q": "Semenggoh Nature Reserve",
+  "must": [
+   "Sarawak"
+  ]
+ },
+ "Kuching, Bako|4": {
+  "q": "Gunung Mulu National Park",
+  "must": [
+   "Sarawak"
+  ]
+ },
+ "Kuching, Bako|5": {
+  "q": "Gunung Mulu National Park",
+  "must": [
+   "Sarawak"
+  ]
+ },
+ "Kuching, Bako|6": {
+  "q": "Kuching, Sarawak",
+  "must": [
+   "Sarawak"
+  ]
+ },
+ "Auckland, Rotorua|4": {
+  "q": "Te Puia, Rotorua",
+  "must": [
+   "Rotorua"
+  ]
+ },
+ "Auckland, Rotorua|6": {
+  "q": "Te Papa Museum, Wellington",
+  "must": [
+   "Wellington"
+  ]
+ },
+ "Christchurch, Aoraki|2": {
+  "q": "Kaikoura, Canterbury",
+  "must": [
+   "Canterbury"
+  ]
+ },
+ "Singapore Classic|3": {
+  "q": "Sentosa, Singapore",
+  "must": [
+   "Singapore"
+  ]
+ },
+ "Singapore Hawker|4": {
+  "q": "Henderson Waves, Singapore",
+  "must": [
+   "Singapore"
+  ]
+ },
+ "Poon Hill|5": {
+  "q": "Tikhedhunga",
+  "must": [
+   "Kaski"
+  ]
+ },
+ "Poon Hill|9": {
+  "q": "Pokhara",
+  "must": [
+   "Kaski"
+  ]
+ },
+ "Phnom Penh, Kampot|2": {
+  "q": "Royal Palace, Phnom Penh",
+  "must": [
+   "Phnom Penh"
+  ]
+ },
+ "Phnom Penh, Kampot|9": {
+  "q": "Phnom Penh",
+  "must": [
+   "Phnom Penh"
+  ]
+ },
+ "Rio de Janeiro + Foz|4": {
+  "q": "Paço Imperial, Rio de Janeiro",
+  "must": [
+   "Rio de Janeiro"
+  ]
+ },
+ "Salvador + Lençóis|2": {
+  "q": "Pelourinho, Salvador",
+  "must": [
+   "Bahia"
+  ]
+ },
+ "Salvador + Lençóis|3": {
+  "q": "Igreja do Bonfim, Salvador",
+  "must": [
+   "Bahia"
+  ]
+ },
+ "Salvador + Lençóis|4": {
+  "q": "São Luís, Maranhão",
+  "must": [
+   "Maranhão"
+  ]
+ },
+ "Salvador + Lençóis|5": {
+  "q": "Barreirinhas, Maranhão",
+  "must": [
+   "Maranhão"
+  ]
+ },
+ "Salvador + Lençóis|6": {
+  "q": "Lagoa Azul, Barreirinhas",
+  "must": [
+   "Maranhão"
+  ]
+ },
+ "Salvador + Lençóis|8": {
+  "q": "São Luís, Maranhão",
+  "must": [
+   "Maranhão"
+  ]
+ },
+ "Buenos Aires, Iguazu|2": {
+  "q": "Plaza de Mayo, Buenos Aires",
+  "must": [
+   "Buenos Aires"
+  ]
+ },
+ "Buenos Aires, Iguazu|4": {
+  "q": "Puerto Iguazú, Misiones",
+  "must": [
+   "Misiones"
+  ]
+ },
+ "Buenos Aires, Iguazu|7": {
+  "q": "Parque General San Martín, Mendoza",
+  "must": [
+   "Mendoza"
+  ]
+ },
+ "Buenos Aires, Iguazu|8": {
+  "q": "Luján de Cuyo, Mendoza",
+  "must": [
+   "Mendoza"
+  ]
+ },
+ "Buenos Aires, Iguazu|9": {
+  "q": "Uspallata, Mendoza",
+  "must": [
+   "Mendoza"
+  ]
+ },
+ "Patagonia: El Calafate|3": {
+  "q": "Mount Fitz Roy, El Chaltén",
+  "must": [
+   "Chaltén"
+  ]
+ },
+ "Patagonia: El Calafate|8": {
+  "q": "Pampa Linda, Bariloche",
+  "must": [
+   "Bariloche"
+  ]
+ },
+ "Santiago, Valparaiso|3": {
+  "q": "Ascensor Concepción, Valparaíso",
+  "must": [
+   "Provincia de Valparaíso"
+  ]
+ },
+ "Santiago, Valparaiso|6": {
+  "q": "Laguna Cejar, San Pedro de Atacama",
+  "must": [
+   "San Pedro de Atacama"
+  ]
+ },
+ "Santiago, Valparaiso|7": {
+  "q": "Laguna Miscanti",
+  "must": [
+   "Antofagasta"
+  ]
+ },
+ "Santiago, Valparaiso|8": {
+  "q": "El Tatio geysers",
+  "must": [
+   "Antofagasta"
+  ]
+ },
+ "Punta Arenas, Puerto Natales|2": {
+  "q": "Isla Magdalena, Punta Arenas",
+  "must": [
+   "Magallanes"
+  ]
+ },
+ "Punta Arenas, Puerto Natales|5": {
+  "q": "Lago Pehoé, Torres del Paine",
+  "must": [
+   "Torres del Paine"
+  ]
+ },
+ "Punta Arenas, Puerto Natales|7": {
+  "q": "Mirador Base Las Torres, Torres del Paine",
+  "must": [
+   "Torres del Paine"
+  ]
+ },
+ "Quito, Cotopaxi|2": {
+  "q": "Palacio de Carondelet, Quito",
+  "must": [
+   "Quito"
+  ]
+ },
+ "Quito, Cotopaxi|6": {
+  "q": "Pailón del Diablo, Baños",
+  "must": [
+   "Tungurahua"
+  ]
+ },
+ "Quito, Cotopaxi|8": {
+  "q": "Parque Calderón, Cuenca",
+  "must": [
+   "Cuenca"
+  ]
+ },
+ "Galápagos: Santa Cruz|1": {
+  "q": "Isla Santa Cruz, Galápagos",
+  "must": [
+   "Galápagos"
+  ]
+ },
+ "Galápagos: Santa Cruz|4": {
+  "q": "Volcán Sierra Negra, Isabela",
+  "must": [
+   "Galápagos"
+  ]
+ },
+ "Galápagos: Santa Cruz|6": {
+  "q": "Puerto Baquerizo Moreno, San Cristóbal",
+  "must": [
+   "Galápagos"
+  ]
+ },
+ "Galápagos: Santa Cruz|7": {
+  "q": "Isla San Cristóbal, Galápagos",
+  "must": [
+   "Galápagos"
+  ]
+ },
+ "Santo Domingo, La Romana|2": {
+  "q": "Zona Colonial, Santo Domingo",
+  "must": [
+   "Santo Domingo"
+  ]
+ },
+ "Santo Domingo, La Romana|3": {
+  "q": "Faro a Colón, Santo Domingo",
+  "must": [
+   "Santo Domingo"
+  ]
+ },
+ "Santo Domingo, La Romana|4": {
+  "q": "La Romana",
+  "must": [
+   "La Romana"
+  ]
+ },
+ "Puerto Plata, Jarabacoa|2": {
+  "q": "Puerto Plata",
+  "must": [
+   "Puerto Plata"
+  ]
+ },
+ "Puerto Plata, Jarabacoa|5": {
+  "q": "Salto de Jimenoa Uno, Jarabacoa",
+  "must": [
+   "La Vega"
+  ]
+ },
+ "Amman, Jerash|3": {
+  "q": "Dead Sea, Balqa",
+  "must": [
+   "Balqa"
+  ]
+ },
+ "Amman, Jerash|5": {
+  "q": "Al Khazneh, Petra",
+  "must": [
+   "Petra"
+  ]
+ },
+ "Madaba, Karak|6": {
+  "q": "Berenice Beach, Aqaba",
+  "must": [
+   "Aqaba"
+  ]
+ },
+ "Nairobi, Maasai|5": {
+  "q": "Maasai Mara National Reserve",
+  "must": [
+   "Narok"
+  ]
+ },
+ "Nairobi, Maasai|6": {
+  "q": "Maasai Mara National Reserve",
+  "must": [
+   "Narok"
+  ]
+ },
+ "Amboseli, Tsavo|3": {
+  "q": "Amboseli National Park",
+  "must": [
+   "Kajiado"
+  ]
+ },
+ "Amboseli, Tsavo|5": {
+  "q": "Mzima Springs",
+  "must": [
+   "Taita"
+  ]
+ },
+ "Tarangire, Ngorongoro|3": {
+  "q": "Ngorongoro Conservation Area",
+  "must": [
+   "Ngorongoro"
+  ]
+ },
+ "Tarangire, Ngorongoro|4": {
+  "q": "Ngorongoro Crater",
+  "must": [
+   "Ngorongoro"
+  ]
+ },
+ "Tarangire, Ngorongoro|5": {
+  "q": "Serengeti National Park",
+  "must": [
+   "Serengeti"
+  ]
+ },
+ "Tarangire, Ngorongoro|6": {
+  "q": "Serengeti National Park",
+  "must": [
+   "Serengeti"
+  ]
+ },
+ "Nyerere Safari|2": {
+  "q": "Nyerere National Park",
+  "must": [
+   "Nyerere National Park"
+  ]
+ },
+ "Nyerere Safari|3": {
+  "q": "Nyerere National Park",
+  "must": [
+   "Nyerere National Park"
+  ]
+ },
+ "Nyerere Safari|5": {
+  "q": "Stone Town, Zanzibar",
+  "must": [
+   "Zanzibar"
+  ]
+ },
+ "Nyerere Safari|7": {
+  "q": "Nungwi, Zanzibar",
+  "must": [
+   "Zanzibar"
+  ]
  }
 }

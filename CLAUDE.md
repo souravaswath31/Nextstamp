@@ -440,6 +440,29 @@ still have no eat town (many are departure days); 601 eats in all. A **web-searc
 several late agents; raise it if a rerun is wanted. A source class that would help is dated 2025-26
 press features and municipal market pages, not a looser bar.
 
+**Content round 7 (October 2026): 24 more countries.** Germany, Netherlands, Switzerland, Austria, Ireland,
+Croatia, Czechia, Iceland, Singapore, Malaysia, Taiwan, India, China, Nepal, Cambodia, New Zealand, Brazil,
+Argentina, Chile, Ecuador, Dominican Republic, Jordan, Kenya, Tanzania: each a country guide, visa rules for the
+other passports (the destination's own passport omitted) and 2 itineraries. Totals after: 53 guides, 52
+destinations, 446 rules, 215 itineraries. Two agents per country (guide; rules + itineraries), the same
+`content-research-contract.md`. Things worth knowing:
+- **Agents ran out of web-search budget** in the last batch (Brazil, Argentina, Chile, Ecuador, Kenya,
+  Tanzania, Dominican Republic): flights, bus/drive times and park fees are often "check the operator" rather
+  than a number, and some entries (food_culture, landmarks) are from the agent's general knowledge and say so.
+  A re-run with a larger budget is the lever; do not fill the gaps by hand.
+- **Rows I dropped on purpose:** Singapore's eight Indian "held visa" rows for the 96-hour transit scheme
+  (visa-free for 4 days, transit only) would have shown Singapore as "visa-free" for tourists in the easy-access
+  count. Dated edges to re-check before 2027: China's 30-day visa-free entry ends 31 Dec 2026 (embassy notices),
+  Malaysia's India 30 days ends 31 Dec 2026, the Dominican Republic's short-passport-validity waiver ends
+  31 Dec 2026, ETIAS is still not in force, Kenya and Tanzania introduced mandatory travel insurance in Oct 2026.
+- **Geocoding needed overrides for about 100 days.** `geocode_round.py`'s 900 km hop cap rejected Kerala from
+  Delhi (it now has per-country caps) and several names resolved to a namesake (Udaipur in Tripura, Xi'an in
+  Jilin, Nyerere on Zanzibar, Pelourinho in Sergipe, a "Santa Cruz" in Cotopaxi). Pins are overridden in
+  `scripts/geocode_round_overrides.json` (query plus a `must` region token). Always read the whole dry run.
+- Covers are the generic category images until real ones are generated.
+- Aliases for the new names ("Czech Republic", "Holland", "PRC"...) are in `src/lib/countries.ts`; FCDO slugs
+  needed nothing (all 25 verified live), State Dept names are unchecked.
+
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via

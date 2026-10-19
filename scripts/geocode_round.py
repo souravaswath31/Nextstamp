@@ -49,7 +49,11 @@ NEIGHBOURS = {
 }
 # Largest sensible hop between consecutive stops, km. Flight-connected trips need more.
 CAP_KM = {"Canada": 4500, "Australia": 3500, "South Africa": 1500, "South Korea": 500,
-          "UK": 800, "France": 800, "Italy": 1000, "Spain": 1100, "Portugal": 600, "Greece": 700}
+          "UK": 800, "France": 800, "Italy": 1000, "Spain": 1100, "Portugal": 600, "Greece": 700,
+          # Round 7: large or flight-connected countries (the 900 km default rejects Kerala from Delhi).
+          "India": 3000, "China": 3000, "Malaysia": 2000, "Brazil": 3500, "Argentina": 3500, "Chile": 4500,
+          "Ecuador": 1500, "Tanzania": 1500, "Kenya": 800, "Jordan": 400, "New Zealand": 1200, "Nepal": 400,
+          "Cambodia": 500, "Taiwan": 400, "Singapore": 100, "Dominican Republic": 500}
 
 EXTRA_NOISE = re.compile(r"^(tgv|train|bus|ferry|fly|flight|drive|rail|coach|transfer)\s+(to|from)\s+", re.I)
 # "Seoul to Busan" style: the stop is the destination of the leg.
