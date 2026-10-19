@@ -515,6 +515,21 @@ official sources (`scripts/visa-reverify-contract.md`), applied with `reverify_v
   UAE for Indians with a US visa is disputed between ICP/MOFA (residence permit) and GDRFA (US visa), and the row says so.
 - Italy rows cite the 2018 original of EU Regulation 2018/1806 (EUR-Lex would not load), so later amendments are unchecked.
 
+**New passports (October 2026): Philippines, Pakistan, Nigeria.** 314 rules from four research agents (one slice of about 25
+destinations each, all three passports per destination). Coverage is partial on purpose: 74, 73 and 75 of 100 destinations.
+A pair with no row shows "we haven't researched this yet", never a guess, and onboarding states each passport's coverage.
+Things to know before relying on a row:
+- **Nigeria to USA** quotes Presidential Proclamation 10998 (suspends entry on B-1/B-2 and other visas for Nigerian nationals,
+  with exceptions, effective 1 Jan 2026) and the CBP visa-bond list. It is the most consequential row in the file; re-read it
+  against the proclamation text whenever the proclamation is reviewed (every 180 days).
+- "Visa required" for the Schengen states rests on EU Regulation 2018/1806 Annex I (the 2018 original; EUR-Lex would not load),
+  and for Australia/Singapore on the nationality being absent from the exempt or visa-required list. Rows say so.
+- Philippines to Ireland carries `Valid until 2026-10-31.` and will show as ended from 1 Nov unless renewed.
+- Weak spots flagged in the row text: Tanzania (the guidelines contradict themselves on Nigeria), Israel (2022 table),
+  Botswana (stay and fee unknown), Austria (embassy page only).
+- Left out where no official page could be read: Cuba, Kazakhstan, Guatemala, Panama, Cambodia, Cyprus, Madagascar, Peru,
+  Qatar, Japan, Egypt, Azerbaijan, Laos and others. They need a person with a browser.
+
 **Launch hardening notes (October 2026).** Where things live now:
 - **Rule trust display**: `src/lib/ruleTrust.ts` derives age band (90/180/365 days), a known end date from the text
   sentences `Valid until YYYY-MM-DD.` / `Changes on YYYY-MM-DD:`, whether the source is another government's advice, and
