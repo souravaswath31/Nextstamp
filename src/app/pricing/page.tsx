@@ -64,6 +64,11 @@ export default async function PricingPage({
                 No payment was taken. You can buy any time.
               </p>
             )}
+            {purchase === "error" && (
+              <p role="alert" className="mb-3 rounded-card border border-stampRed/40 bg-stampRed/10 px-5 py-4 font-body text-sm text-bone">
+                We couldn&apos;t start the checkout, and nothing was charged. Try again in a minute.
+              </p>
+            )}
             {purchase === "pending" && !user?.fullAccess && (
               <p role="status" className="mb-3 rounded-card border border-stamp/40 bg-stamp/10 px-5 py-4 font-body text-sm text-bone">
                 We haven&apos;t had confirmation of your payment yet. It can take a minute. Refresh this page, and if
