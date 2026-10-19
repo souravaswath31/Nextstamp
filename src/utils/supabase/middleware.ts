@@ -1,5 +1,6 @@
 import { createServerClient, type CookieOptionsWithName } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
+import { hasAuthCookie } from "@/lib/authCookie";
 
 type CookieToSet = { name: string; value: string; options?: CookieOptionsWithName };
 
@@ -9,6 +10,14 @@ const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!;
 // Refreshes the Supabase session cookie on every request so server components
 // (which can only read cookies, not set them) always see a valid session.
 export async function updateSession(request: NextRequest) {
+  // No sign-in cookie means no session to refresh: skip the Supabase round trip (crawlers, first visits).
+  if (!hasAuthCookie(request.cookies.getAll().map((c) => c.name))) {
+    if (request.nextUrl.pathname.startsWith("/my-trips")) {
+      return NextResponse.redirect(new URL("/login", request.url));
+    }
+    return NextResponse.next({ request });
+  }
+
   let supabaseResponse = NextResponse.next({ request });
 
   const supabase = createServerClient(supabaseUrl, supabaseKey, {
