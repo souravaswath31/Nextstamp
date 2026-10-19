@@ -133,13 +133,13 @@ function LoginForm() {
 
             <div className="flex items-center gap-3" aria-hidden>
               <span className="h-px flex-1 bg-line" />
-              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/35">or</span>
+              <span className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">or</span>
               <span className="h-px flex-1 bg-line" />
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-3">
             <div className="relative">
-              <Mail size={15} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/40" />
+              <Mail size={15} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/55" />
               <input
                 type="email"
                 required
@@ -147,7 +147,7 @@ function LoginForm() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="you@example.com"
-                className="w-full rounded-full bg-paperDark py-2.5 pl-10 pr-4 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+                className="w-full rounded-full bg-paperDark py-2.5 pl-10 pr-4 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
               />
             </div>
               <button

@@ -97,7 +97,7 @@ describe("RoadEats", () => {
     const g = group();
     g.stop.eats[0].priceTier = null;
     const html = renderToStaticMarkup(<RoadEats groups={[g]} />);
-    expect(html).not.toContain("tabular-nums text-ink/45");
+    expect(html).not.toContain("tabular-nums text-ink/55");
   });
 
   it("omits the closing-days callout when nothing was stated", () => {

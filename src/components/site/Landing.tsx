@@ -8,7 +8,7 @@ import PassportChecker from "./PassportChecker";
 import CascadeDemo from "./CascadeDemo";
 
 const SECTION = "mx-auto w-full max-w-6xl px-5 sm:px-8";
-const EYEBROW = "font-stamp text-[11px] uppercase tracking-widest text-white/45";
+const EYEBROW = "font-stamp text-[11px] uppercase tracking-widest text-white/55";
 
 export default async function Landing() {
   const [rules, stats, featured, states, guides] = await Promise.all([
@@ -50,7 +50,7 @@ export default async function Landing() {
               the official rule with the date we checked it, including when a visa you already carry
               changes the answer.
             </p>
-            <p className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 font-body text-sm text-white/50">
+            <p className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 font-body text-sm text-white/55">
               <span>No signup to check.</span>
               <span>
                 {stats.passports.length} passports, {stats.destinations.length} destinations.
@@ -95,7 +95,7 @@ export default async function Landing() {
               <li key={step.title} className="rounded-panel border border-white/10 bg-nightRaised p-6">
                 <div className="flex items-center gap-3">
                   <span className="font-stamp text-xs text-coral">Step {i + 1}</span>
-                  <step.icon size={18} className="text-white/35" aria-hidden="true" />
+                  <step.icon size={18} className="text-white/55" aria-hidden="true" />
                 </div>
                 <h3 className="mt-4 font-display text-xl text-white">{step.title}</h3>
                 <p className="mt-2 font-body text-sm leading-relaxed text-white/60">{step.body}</p>
@@ -160,7 +160,7 @@ export default async function Landing() {
                     href={`/itineraries/${it.slug}`}
                     className="group flex h-full flex-col rounded-panel border border-white/10 bg-nightRaised p-6 transition-colors hover:border-white/25 hover:bg-nightLift"
                   >
-                    <span className="font-stamp text-[11px] uppercase tracking-widest text-white/45">
+                    <span className="font-stamp text-[11px] uppercase tracking-widest text-white/55">
                       {CATEGORY_LABELS[first] ?? first} · {days}
                     </span>
                     <h3 className="mt-3 font-display text-xl leading-snug text-white">{it.title}</h3>

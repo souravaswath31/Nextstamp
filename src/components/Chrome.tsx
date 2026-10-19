@@ -25,11 +25,17 @@ export default function Chrome({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="flex flex-1 flex-col bg-night text-ink">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-night"
+      >
+        Skip to content
+      </a>
       <NavBar isAuthenticated={isAuthenticated} />
       {fullBleed ? (
-        <main className="flex-1">{children}</main>
+        <main id="main" tabIndex={-1} className="flex-1 focus:outline-none">{children}</main>
       ) : (
-        <main className="mx-auto w-full max-w-6xl flex-1 px-5 pb-28 pt-8 sm:px-8 sm:pt-10">
+        <main id="main" tabIndex={-1} className="mx-auto w-full max-w-6xl flex-1 px-5 pb-28 pt-8 focus:outline-none sm:px-8 sm:pt-10">
           {children}
         </main>
       )}

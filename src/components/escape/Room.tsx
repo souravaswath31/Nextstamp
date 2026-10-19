@@ -174,7 +174,7 @@ function TopBar({ view }: { view: GameView }) {
         aria-label={`Room code ${view.code.split("").join(" ")}. Copy invite link`}
       >
         {view.code}
-        {copied === "invite" ? <Check size={14} className="text-forest" /> : <Link2 size={14} className="text-ink/50" />}
+        {copied === "invite" ? <Check size={14} className="text-forest" /> : <Link2 size={14} className="text-ink/55" />}
       </button>
     </div>
   );
@@ -207,7 +207,7 @@ function PlayerStrip({ view }: { view: GameView }) {
               {p.id === view.you.id ? " (you)" : ""}
             </span>
             {p.isHost && <Crown size={13} className="text-stamp" aria-label="Host" />}
-            {b && <span className={`font-stamp text-[10px] uppercase tracking-wider ${good ? "text-forest" : "text-ink/45"}`}>{b}</span>}
+            {b && <span className={`font-stamp text-[10px] uppercase tracking-wider ${good ? "text-forest" : "text-ink/55"}`}>{b}</span>}
           </li>
         );
       })}
@@ -294,7 +294,7 @@ function Lobby({ view, run }: { view: GameView; run: (a: Action) => Promise<void
         sub={isHost ? "Friends join with the code or the link. Start when everyone is here." : "The host sets the basics and starts the game. Meanwhile, tell the others to hurry."}
       />
       <div className="rounded-panel bg-paper p-6 text-center shadow-paper">
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/50">Room code</p>
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">Room code</p>
         <p className="mt-2 font-stamp text-5xl tracking-[0.35em] text-ink sm:text-6xl">{view.code}</p>
         <div className="mt-5 flex flex-wrap justify-center gap-3">
           <button type="button" onClick={() => copy("link", link)} className="btn-pill btn-pill-primary">
@@ -357,7 +357,7 @@ function Lobby({ view, run }: { view: GameView; run: (a: Action) => Promise<void
             options={(["drive", "hop", "any"] as Reach[]).map((r) => ({ v: r, label: r === "drive" ? "A drive (~300 mi)" : REACH_LABEL[r] }))}
           />
         </Field>
-        <p className="font-body text-xs text-ink/50">Budget is private: each friend sets their own in the next round, and the group takes the lowest.</p>
+        <p className="font-body text-xs text-ink/55">Budget is private: each friend sets their own in the next round, and the group takes the lowest.</p>
       </div>
 
       {isHost ? (
@@ -382,7 +382,7 @@ function Lobby({ view, run }: { view: GameView; run: (a: Action) => Promise<void
 function Field({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div>
-      <p className="mb-2 font-stamp text-xs uppercase tracking-widest text-ink/50">{label}</p>
+      <p className="mb-2 font-stamp text-xs uppercase tracking-widest text-ink/55">{label}</p>
       {children}
     </div>
   );
@@ -452,7 +452,7 @@ function Duels({ view, run }: { view: GameView; run: (a: Action) => Promise<void
           className="mt-5 w-full accent-coral"
           aria-label="Your budget per person in dollars"
         />
-        <div className="mt-1 flex justify-between font-stamp text-xs text-ink/45">
+        <div className="mt-1 flex justify-between font-stamp text-xs text-ink/55">
           <span>$100</span>
           <span>$1,500</span>
         </div>
@@ -664,7 +664,7 @@ function Pact({ view, run }: { view: GameView; run: (a: Action) => Promise<void>
       <TripCard card={winner} index={count.winner} />
       <div className="overflow-x-auto rounded-panel border border-line">
         <table className="w-full min-w-[18rem] text-left font-body text-sm text-ink">
-          <thead className="font-stamp text-xs uppercase tracking-wider text-ink/50">
+          <thead className="font-stamp text-xs uppercase tracking-wider text-ink/55">
             <tr>
               <th className="px-4 py-2">Friend</th>
               <th className="px-4 py-2">Picked</th>

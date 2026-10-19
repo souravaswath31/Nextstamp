@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import { ArrowRight } from "lucide-react";
 
 export const SECTION = "mx-auto w-full max-w-6xl px-5 sm:px-8";
-export const EYEBROW = "font-stamp text-[11px] uppercase tracking-widest text-white/45";
+export const EYEBROW = "font-stamp text-[11px] uppercase tracking-widest text-white/55";
 
 export function PageHeader({
   eyebrow,

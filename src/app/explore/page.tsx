@@ -78,7 +78,7 @@ export default async function ExplorePage({
       </div>
 
       <div className="text-center sm:text-left">
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Library</p>
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">Library</p>
         <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">Explore itineraries</h1>
       </div>
 
@@ -142,7 +142,7 @@ function PageLink({
   children: React.ReactNode;
 }) {
   if (disabled) {
-    return <span className="text-ink/30">{children}</span>;
+    return <span className="text-ink/55">{children}</span>;
   }
   const params = new URLSearchParams();
   for (const [key, value] of Object.entries(searchParams)) {

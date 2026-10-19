@@ -43,7 +43,7 @@ export default function EntryReadiness({
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h2 className="flex items-center gap-2 font-display text-xl text-ink">
-            <ShieldCheck size={19} className="text-ink/35" /> Entry readiness
+            <ShieldCheck size={19} className="text-ink/55" /> Entry readiness
           </h2>
           <p className="mt-1 font-body text-sm text-ink/60">
             {OVERALL_HEADLINE[overall]}
@@ -62,7 +62,7 @@ export default function EntryReadiness({
       </div>
 
       {daysUntilDeparture !== null && daysUntilDeparture >= 0 && (
-        <p className="mt-3 flex items-center gap-1.5 font-body text-xs text-ink/50">
+        <p className="mt-3 flex items-center gap-1.5 font-body text-xs text-ink/55">
           <CalendarClock size={13} />
           {daysUntilDeparture === 0
             ? "You leave today."
@@ -104,7 +104,7 @@ export default function EntryReadiness({
       </div>
 
       {!compact && (
-        <p className="mt-5 font-body text-xs text-ink/45">
+        <p className="mt-5 font-body text-xs text-ink/55">
           Checked against your passport, your held documents, and this trip&apos;s dates. We show
           what our sources say and when they were last verified — entry policies change, so
           confirm anything critical with the official source before you book.{" "}

@@ -208,7 +208,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
           </div>
         )}
         <div className="mt-6 text-center sm:text-left">
-          <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">
+          <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">
             {itinerary.region} · {countries.join(", ")}
           </p>
           <h1 className="mt-2 font-display text-4xl tracking-tightest text-ink sm:text-6xl">{itinerary.title}</h1>
@@ -229,7 +229,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
           <div className="flex gap-3">
             <CalendarDays size={17} className="mt-0.5 shrink-0 text-coralDark" />
             <div>
-              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                 Duration
               </p>
               <p className="mt-0.5 font-body text-sm text-ink">
@@ -242,7 +242,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
           <div className="flex gap-3">
             <Sun size={17} className="mt-0.5 shrink-0 text-stamp" />
             <div>
-              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                 Best time
               </p>
               <p className="mt-0.5 font-body text-sm text-ink">
@@ -253,7 +253,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
           <div className="flex gap-3">
             <Wallet size={17} className="mt-0.5 shrink-0 text-forest" />
             <div>
-              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                 Budget tier
               </p>
               <p className="mt-0.5 font-body text-sm capitalize text-ink">{itinerary.costTier}</p>
@@ -264,7 +264,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
 
       <Reveal>
         <section className="rounded-panel bg-gradient-to-br from-coral/[0.06] to-transparent p-6 shadow-paper sm:p-8">
-          <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+          <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
             Estimated cost for {itinerary.durationDaysMin} days, per person
           </p>
           <p className="mt-1 font-display text-4xl text-coralDark">
@@ -283,7 +283,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
               );
             })()}
           </div>
-          <p className="mt-5 font-body text-xs text-ink/45">
+          <p className="mt-5 font-body text-xs text-ink/55">
             Rough split based on typical vacation spending patterns, not this destination specifically — doesn't include flights. Adjust the tier once you're planning to see the estimate change.
           </p>
         </section>
@@ -318,7 +318,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
                   )}
                 </div>
               ))}
-              <p className="font-body text-xs text-ink/45">
+              <p className="font-body text-xs text-ink/55">
                 Not legal advice. Rules change; confirm with the official source before you book.
               </p>
             </div>
@@ -374,7 +374,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
                       <li key={i}>{a}</li>
                     ))}
                   </ul>
-                  <div className="mt-2 flex flex-wrap gap-x-5 gap-y-1.5 font-body text-xs text-ink/45">
+                  <div className="mt-2 flex flex-wrap gap-x-5 gap-y-1.5 font-body text-xs text-ink/55">
                     {day.driveTime && (
                       <span className="flex items-center gap-1"><Car size={13} /> {day.driveTime}</span>
                     )}
@@ -421,7 +421,7 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
                   <div className="flex items-baseline justify-between gap-2">
                     <h3 className="font-display text-base text-ink">{note.name}</h3>
                     {note.placeType && (
-                      <span className="whitespace-nowrap font-stamp text-[10px] uppercase text-ink/40">
+                      <span className="whitespace-nowrap font-stamp text-[10px] uppercase text-ink/55">
                         {note.placeType}
                       </span>
                     )}
@@ -506,9 +506,9 @@ function BudgetLine({
 }) {
   return (
     <div className="flex items-start gap-2">
-      <Icon size={15} className="mt-0.5 shrink-0 text-ink/30" />
+      <Icon size={15} className="mt-0.5 shrink-0 text-ink/55" />
       <div>
-        <p className="font-body text-xs text-ink/50">{label}</p>
+        <p className="font-body text-xs text-ink/55">{label}</p>
         <p className="font-display text-base text-ink">{formatUsd(amount)}</p>
       </div>
     </div>

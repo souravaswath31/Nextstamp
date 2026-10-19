@@ -515,6 +515,24 @@ official sources (`scripts/visa-reverify-contract.md`), applied with `reverify_v
   UAE for Indians with a US visa is disputed between ICP/MOFA (residence permit) and GDRFA (US visa), and the row says so.
 - Italy rows cite the 2018 original of EU Regulation 2018/1806 (EUR-Lex would not load), so later amendments are unchecked.
 
+**Launch hardening notes (October 2026).** Where things live now:
+- **Rule trust display**: `src/lib/ruleTrust.ts` derives age band (90/180/365 days), a known end date from the text
+  sentences `Valid until YYYY-MM-DD.` / `Changes on YYYY-MM-DD:`, whether the source is another government's advice, and
+  whether the text admits an open question. `src/components/TrustNotes.tsx` renders it for both the signed-in pages and the
+  public checker. Write end dates in exactly that sentence form or the UI will not see them.
+- **Report an error**: `RuleReport` table, `POST /api/report-rule`. A report is a lead; it never edits a rule.
+- **Shared rate limiter**: `src/lib/rateLimitDb.ts` (table `RateLimit`, hashed keys). The old in-memory limiter in
+  `waitlist.ts` is no longer used by any route.
+- **Email**: `src/lib/mail.ts` (Resend). Dark until `RESEND_API_KEY` and `MAIL_FROM` are set; sign-in email is Supabase SMTP,
+  configured in the Supabase dashboard, not here.
+- **Source monitor**: `scripts/monitor_sources.py` and `.github/workflows/source-monitor.yml`. Snapshots live on the
+  `source-monitor` branch, never on main. It opens an issue; it never edits data.
+- **Health check**: `GET /api/health` (database ping) for an uptime monitor.
+- **CSP** is report-only (`next.config.js`, `/api/csp-report`). Read the logs, fix the policy, then enforce.
+- **Stripe Tax** is off until `STRIPE_AUTOMATIC_TAX=1`; **dispute won** restores access; a second payment by an active
+  user is logged for a manual refund.
+- SQL files applied by hand: `2026-10-launch-indexes.sql`, `2026-10-rule-reports.sql`, `2026-10-rate-limit.sql`.
+
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via

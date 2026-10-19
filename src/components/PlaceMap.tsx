@@ -136,7 +136,7 @@ export default function PlaceMap({
   return (
     <section className="rounded-panel bg-paper p-5 shadow-paper">
       <h2 className="flex items-center gap-2 font-display text-lg text-ink">
-        <MapPinned size={17} className="text-ink/35" /> {title} on a map
+        <MapPinned size={17} className="text-ink/55" /> {title} on a map
       </h2>
 
       {!apiKey ? (
@@ -173,7 +173,7 @@ export default function PlaceMap({
       )}
 
       {omittedCount > 0 && (
-        <p className="mt-2.5 font-body text-xs text-ink/45">
+        <p className="mt-2.5 font-body text-xs text-ink/55">
           {omittedCount} place{omittedCount === 1 ? " isn't" : "s aren't"} shown — we couldn&apos;t
           find {omittedCount === 1 ? "it" : "them"} in OpenStreetMap, and a pin in roughly the
           right area would be worse than none.

@@ -45,7 +45,7 @@ export default function ItineraryCard(props: Props) {
       : `${props.durationDaysMin}–${props.durationDaysMax} days`;
 
   const HeadlineIcon = CATEGORY_ICONS[cats[0]] ?? Compass;
-  const tileClass = TILE_CLASSES[cats[0]] ?? "bg-ink/5 text-ink/50";
+  const tileClass = TILE_CLASSES[cats[0]] ?? "bg-ink/5 text-ink/55";
 
   return (
     <Link
@@ -73,7 +73,7 @@ export default function ItineraryCard(props: Props) {
           <HeadlineIcon size={20} />
         </span>
         {!props.coverImageUrl && (
-          <span className="mt-1 whitespace-nowrap font-stamp text-xs text-ink/45">
+          <span className="mt-1 whitespace-nowrap font-stamp text-xs text-ink/55">
             {duration}
           </span>
         )}
@@ -97,7 +97,7 @@ export default function ItineraryCard(props: Props) {
           {props.costTier}
         </span>
       </div>
-      <p className="mt-3 font-body text-xs text-ink/40">
+      <p className="mt-3 font-body text-xs text-ink/55">
         Best: {props.bestTimeMonths.split(",").join(", ")}
       </p>
       </div>

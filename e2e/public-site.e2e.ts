@@ -24,8 +24,8 @@ test.describe("passport checker (landing page)", () => {
   test("India, no US visa, UAE -> visa required in advance, with source and date", async ({ page }) => {
     const c = await check(page, "India", "UAE");
     await expect(c.getByText("Visa required in advance")).toBeVisible();
-    await expect(c.getByRole("link", { name: /Official source/ })).toHaveAttribute("href", /^https?:\/\//);
-    await expect(c.getByText(/Last verified/)).toBeVisible();
+    await expect(c.getByRole("link", { name: /Checked .* against / })).toHaveAttribute("href", /^https?:\/\//);
+    await expect(c.getByRole("button", { name: /Report an error/ })).toBeVisible();
     await expect(c.getByText(/Not legal advice/)).toBeVisible();
   });
 

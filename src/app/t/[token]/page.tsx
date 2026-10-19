@@ -103,7 +103,7 @@ export default async function PublicTripPage({ params }: { params: { token: stri
       </div>
 
       <div>
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">
           Shared trip plan
         </p>
         <h1 className="mt-2 font-display text-4xl tracking-tightest text-ink sm:text-5xl">
@@ -112,21 +112,21 @@ export default async function PublicTripPage({ params }: { params: { token: stri
         <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-1.5">
           {trip.destinationCountry && (
             <span className="flex items-center gap-1.5 font-body text-sm text-ink/65">
-              <MapPin size={14} className="text-ink/35" /> {trip.destinationCountry}
+              <MapPin size={14} className="text-ink/55" /> {trip.destinationCountry}
             </span>
           )}
           {range && (
             <span className="flex items-center gap-1.5 font-body text-sm text-ink/65">
-              <CalendarRange size={14} className="text-ink/35" /> {range}
+              <CalendarRange size={14} className="text-ink/55" /> {range}
             </span>
           )}
           {nights !== null && (
             <span className="flex items-center gap-1.5 font-body text-sm text-ink/65">
-              <Clock size={14} className="text-ink/35" /> {nights} night{nights === 1 ? "" : "s"}
+              <Clock size={14} className="text-ink/55" /> {nights} night{nights === 1 ? "" : "s"}
             </span>
           )}
         </div>
-        <p className="mt-2 font-body text-sm text-ink/50">
+        <p className="mt-2 font-body text-sm text-ink/55">
           Planned by {trip.user.name} in NextStamp.
         </p>
       </div>
@@ -159,15 +159,15 @@ export default async function PublicTripPage({ params }: { params: { token: stri
                 {(day.driveTime || day.lodgingSuggestion || day.coffeeWifiSpot) && (
                   <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 pl-11">
                     {day.driveTime && (
-                      <span className="font-body text-xs text-ink/45">Drive: {day.driveTime}</span>
+                      <span className="font-body text-xs text-ink/55">Drive: {day.driveTime}</span>
                     )}
                     {day.lodgingSuggestion && (
-                      <span className="font-body text-xs text-ink/45">
+                      <span className="font-body text-xs text-ink/55">
                         Stay: {day.lodgingSuggestion}
                       </span>
                     )}
                     {day.coffeeWifiSpot && (
-                      <span className="font-body text-xs text-ink/45">
+                      <span className="font-body text-xs text-ink/55">
                         Work stop: {day.coffeeWifiSpot}
                       </span>
                     )}

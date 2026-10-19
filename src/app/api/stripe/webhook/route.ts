@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { paymentsConfigured } from "@/lib/entitlement";
-import { grantEntitlement, revokeByPaymentIntent } from "@/lib/entitlementDb";
+import { grantEntitlement, restoreByPaymentIntent, revokeByPaymentIntent } from "@/lib/entitlementDb";
 import { getStripe } from "@/lib/stripeServer";
 import { handleStripeEvent } from "@/lib/stripeWebhook";
 
@@ -22,9 +22,11 @@ export async function POST(req: Request) {
   }
 
   try {
-    const outcome = await handleStripeEvent(event, { grant: grantEntitlement, revoke: revokeByPaymentIntent });
+    const outcome = await handleStripeEvent(event, { grant: grantEntitlement, revoke: revokeByPaymentIntent, restore: restoreByPaymentIntent });
     return NextResponse.json({ received: true, outcome });
-  } catch {
+  } catch (err) {
+    // Logged with the event id so a failed delivery in the Stripe dashboard can be matched to a log line.
+    console.error("[stripe webhook] handler failed", event.id, event.type, err instanceof Error ? err.message : err);
     // A 500 makes Stripe retry, which is what we want for a transient database error.
     return NextResponse.json({ error: "Handler failed." }, { status: 500 });
   }

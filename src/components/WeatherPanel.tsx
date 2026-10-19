@@ -15,9 +15,9 @@ export default function WeatherPanel({ outlook }: { outlook: WeatherOutlook }) {
     return (
       <section className="rounded-panel bg-paper p-5 shadow-paper">
         <h3 className="flex items-center gap-2 font-display text-base text-ink">
-          <CloudSun size={16} className="text-ink/35" /> Forecast for your dates
+          <CloudSun size={16} className="text-ink/55" /> Forecast for your dates
         </h3>
-        <p className="mt-1 font-body text-xs text-ink/50">
+        <p className="mt-1 font-body text-xs text-ink/55">
           {outlook.location ? `${outlook.location}. ` : ""}A real forecast, so it only exists
           this close to departure — it will sharpen as the days approach.
         </p>
@@ -27,7 +27,7 @@ export default function WeatherPanel({ outlook }: { outlook: WeatherOutlook }) {
               key={d.date}
               className="min-w-[7.5rem] shrink-0 rounded-card bg-paperDark px-3.5 py-3 text-center"
             >
-              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                 {formatForecastDate(d.date)}
               </p>
               {d.iconUrl && (
@@ -35,7 +35,7 @@ export default function WeatherPanel({ outlook }: { outlook: WeatherOutlook }) {
                 <img src={d.iconUrl} alt="" className="mx-auto mt-1 h-10 w-10" />
               )}
               <p className="mt-0.5 font-display text-lg tabular-nums text-ink">
-                {d.maxC}° <span className="text-ink/40">/ {d.minC}°</span>
+                {d.maxC}° <span className="text-ink/55">/ {d.minC}°</span>
               </p>
               <p className="mt-0.5 font-body text-[11px] leading-tight text-ink/60">
                 {d.conditionText}
@@ -46,7 +46,7 @@ export default function WeatherPanel({ outlook }: { outlook: WeatherOutlook }) {
             </div>
           ))}
         </div>
-        <p className="mt-3 font-body text-[11px] text-ink/35">Forecast data from WeatherAPI.com.</p>
+        <p className="mt-3 font-body text-[11px] text-ink/55">Forecast data from WeatherAPI.com.</p>
       </section>
     );
   }
@@ -54,9 +54,9 @@ export default function WeatherPanel({ outlook }: { outlook: WeatherOutlook }) {
   return (
     <section className="rounded-panel bg-paper p-5 shadow-paper">
       <h3 className="flex items-center gap-2 font-display text-base text-ink">
-        <CloudSun size={16} className="text-ink/35" /> What the weather is usually like
+        <CloudSun size={16} className="text-ink/55" /> What the weather is usually like
       </h3>
-      <p className="mt-1 flex items-start gap-1.5 font-body text-xs text-ink/50">
+      <p className="mt-1 flex items-start gap-1.5 font-body text-xs text-ink/55">
         <Info size={12} className="mt-0.5 shrink-0" />
         <span>
           Your dates are too far out for a forecast to mean anything, so these are long-run
@@ -77,7 +77,7 @@ export default function WeatherPanel({ outlook }: { outlook: WeatherOutlook }) {
               )}
               <span
                 className={`rounded-full px-2 py-0.5 font-body text-[11px] font-semibold ${
-                  CLIMATE_RATING_CLASSES[m.rating] ?? "bg-ink/5 text-ink/50"
+                  CLIMATE_RATING_CLASSES[m.rating] ?? "bg-ink/5 text-ink/55"
                 }`}
               >
                 {CLIMATE_RATING_LABELS[m.rating] ?? m.rating}

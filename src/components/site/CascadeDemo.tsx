@@ -42,7 +42,7 @@ export default function CascadeDemo({
     <div className="rounded-panel border border-white/10 bg-nightRaised p-5 sm:p-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="font-stamp text-[11px] uppercase tracking-widest text-white/45">{passport} passport</p>
+          <p className="font-stamp text-[11px] uppercase tracking-widest text-white/55">{passport} passport</p>
           <p className="mt-1 font-display text-2xl text-white sm:text-3xl">
             {holds
               ? `${changed.length} of ${rows.length} destinations get easier`
@@ -86,14 +86,14 @@ export default function CascadeDemo({
               <span className="flex flex-wrap items-center gap-2">
                 <VisaStamp type={shown.visaType} />
                 {holds && r.before && (
-                  <span className="inline-flex items-center gap-1.5 font-body text-xs text-white/45">
+                  <span className="inline-flex items-center gap-1.5 font-body text-xs text-white/55">
                     <span className="line-through">{VISA_TYPE_LABEL[r.before.visaType]}</span>
                     <ArrowRight size={12} aria-hidden="true" />
                     <span className="text-coral">via your {docName} visa</span>
                   </span>
                 )}
               </span>
-              <span className="flex items-center gap-3 font-body text-xs text-white/50">
+              <span className="flex items-center gap-3 font-body text-xs text-white/55">
                 {shown.maxStayDays ? `${shown.maxStayDays} days` : "Stay not stated"}
                 {shown.sourceUrl && (
                   <a
@@ -112,7 +112,7 @@ export default function CascadeDemo({
         })}
       </ul>
 
-      <p className="mt-4 font-body text-xs text-white/50">
+      <p className="mt-4 font-body text-xs text-white/55">
         Not moved by {aOrAn(docName)} {docName} visa ({same.length}): {same.map((r) => r.destination).join(", ") || "none"}.
         Those rules are the same either way. Each row was last verified between{" "}
         {formatVerified(rows.map((r) => r.after.verified).sort()[0])} and{" "}

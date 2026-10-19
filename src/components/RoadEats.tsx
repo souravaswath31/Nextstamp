@@ -41,7 +41,7 @@ export default function RoadEats({
   return (
     <section>
       <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
-        <UtensilsCrossed size={21} className="text-ink/35" /> {heading}
+        <UtensilsCrossed size={21} className="text-ink/55" /> {heading}
       </h2>
       <p className="mt-1 max-w-2xl font-body text-sm text-ink/55">
         A few real stops in each town you&apos;ll be passing through, picked for being local
@@ -56,16 +56,16 @@ export default function RoadEats({
             <div key={group.town}>
               <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
                 <h3 className="font-display text-xl text-ink">
-                  <span className="font-stamp text-[11px] uppercase tracking-widest text-ink/40">
+                  <span className="font-stamp text-[11px] uppercase tracking-widest text-ink/55">
                     {formatDayRange(group.dayNumbers)}
                   </span>
-                  <span className="mx-2 text-ink/20">·</span>
+                  <span className="mx-2 text-ink/55">·</span>
                   {group.town}
                 </h3>
                 <p
                   className={`flex items-center gap-1 font-body text-[11px] ${
                     fresh.level === "fresh"
-                      ? "text-ink/40"
+                      ? "text-ink/55"
                       : fresh.level === "aging"
                         ? "text-stamp"
                         : "font-semibold text-stampRed"
@@ -88,7 +88,7 @@ export default function RoadEats({
                           href={group.stop.noteSourceUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="whitespace-nowrap text-[11px] font-semibold text-ink/45 hover:text-coralDark hover:underline"
+                          className="whitespace-nowrap text-[11px] font-semibold text-ink/55 hover:text-coralDark hover:underline"
                         >
                           Source
                         </a>
@@ -109,7 +109,7 @@ export default function RoadEats({
                         {KIND_LABELS[eat.kind] ?? eat.kind}
                       </span>
                       {eat.priceTier && (
-                        <span className="font-body text-[11px] font-semibold tabular-nums text-ink/45">
+                        <span className="font-body text-[11px] font-semibold tabular-nums text-ink/55">
                           {eat.priceTier}
                         </span>
                       )}
@@ -138,7 +138,7 @@ export default function RoadEats({
                     )}
 
                     <div className="mt-auto pt-4">
-                      <p className="font-body text-[11px] text-ink/40">
+                      <p className="font-body text-[11px] text-ink/55">
                         {eat.openEvidence}
                       </p>
                       <div className="mt-2.5 flex flex-wrap items-center justify-between gap-2">
@@ -146,7 +146,7 @@ export default function RoadEats({
                           href={eat.sourceUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 font-body text-[11px] font-semibold text-ink/45 hover:text-coralDark hover:underline"
+                          className="inline-flex items-center gap-1 font-body text-[11px] font-semibold text-ink/55 hover:text-coralDark hover:underline"
                         >
                           {eat.sourceName} <ExternalLink size={10} />
                         </a>

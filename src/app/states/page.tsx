@@ -41,7 +41,7 @@ export default async function StatesPage({
       </div>
 
       <div className="text-center sm:text-left">
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">
           Destination guides
         </p>
         <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">Explore by state</h1>
@@ -65,7 +65,7 @@ export default async function StatesPage({
             <div className="p-5">
               <h2 className="font-display text-xl text-ink">{s.name}</h2>
               <p className="mt-1 font-body text-sm text-ink/60">{s.heroTagline}</p>
-              <p className="mt-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/35">{s.region}</p>
+              <p className="mt-1.5 font-stamp text-[11px] uppercase tracking-wide text-ink/55">{s.region}</p>
             </div>
           </Link>
         ))}

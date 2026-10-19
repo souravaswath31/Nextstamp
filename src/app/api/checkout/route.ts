@@ -28,10 +28,18 @@ export async function POST(req: Request) {
 
   if (await userHasFullAccess(user.id)) return back("/profile");
 
+  // Sales tax / VAT / GST: off until Stripe Tax is set up in the Stripe dashboard (registrations and an
+  // origin address), because Stripe rejects the request if it is switched on without that. Set
+  // STRIPE_AUTOMATIC_TAX=1 to turn it on. STRIPE_TAX_BEHAVIOR=exclusive adds tax on top of the $5;
+  // the default, inclusive, keeps the price at exactly what the pricing page says.
+  const taxOn = process.env.STRIPE_AUTOMATIC_TAX === "1";
+  const taxBehavior = process.env.STRIPE_TAX_BEHAVIOR === "exclusive" ? "exclusive" : "inclusive";
+
   let session;
   try {
     session = await getStripe().checkout.sessions.create({
       mode: "payment",
+      ...(taxOn ? { automatic_tax: { enabled: true }, billing_address_collection: "required" as const } : {}),
       client_reference_id: user.id,
       customer_email: user.email,
       line_items: [
@@ -40,6 +48,7 @@ export async function POST(req: Request) {
           price_data: {
             currency: PRICE_CURRENCY,
             unit_amount: PRICE_MINOR,
+            ...(taxOn ? { tax_behavior: taxBehavior as "inclusive" | "exclusive" } : {}),
             product_data: {
               name: PRODUCT_NAME,
               description: "One payment, no subscription. Unlocks saved trips, the cascade explorer, document-based visa results and expiry warnings.",

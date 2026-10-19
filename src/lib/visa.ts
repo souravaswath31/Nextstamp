@@ -4,6 +4,7 @@ import { easiest, heldDocumentKeys, heldKeySet } from "./heldDocs";
 
 export type VisaStatus = {
   destinationCountry: string;
+  passportCountry?: string;
   status:
     | "resident"          // user already holds valid status for this country
     | "visa-free"
@@ -91,6 +92,7 @@ export async function getVisaStatusForUser(
 
   return {
     destinationCountry,
+    passportCountry: user.passportCountry,
     status: chosen.visaType as VisaStatus["status"],
     viaCascade: Boolean(chosen.requiresHeldDocumentCountry),
     viaDocumentCountry: chosen.requiresHeldDocumentCountry ?? null,

@@ -62,7 +62,7 @@ export default async function MyTripsPage() {
   return (
     <div className="space-y-10">
       <div className="text-center sm:text-left">
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">
           Trip tracker
         </p>
         <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">My Trips</h1>
@@ -73,7 +73,7 @@ export default async function MyTripsPage() {
           id="new-trip-title"
           name="title"
           placeholder="Start a trip from scratch..."
-          className="flex-1 rounded-card bg-paperDark px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+          className="flex-1 rounded-card bg-paperDark px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
         />
         <button type="submit" className="btn-pill btn-pill-primary !px-5">
           <Plus size={15} /> Create
@@ -130,12 +130,12 @@ export default async function MyTripsPage() {
                         <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1">
                           {trip.destinationCountry && (
                             <span className="flex items-center gap-1 font-body text-xs text-ink/55">
-                              <MapPin size={11} className="text-ink/30" /> {trip.destinationCountry}
+                              <MapPin size={11} className="text-ink/55" /> {trip.destinationCountry}
                             </span>
                           )}
                           {range && (
                             <span className="flex items-center gap-1 font-body text-xs text-ink/55">
-                              <CalendarRange size={11} className="text-ink/30" /> {range}
+                              <CalendarRange size={11} className="text-ink/55" /> {range}
                             </span>
                           )}
                           {daysAway !== null && daysAway >= 0 && (
@@ -144,13 +144,13 @@ export default async function MyTripsPage() {
                             </span>
                           )}
                           {trip.isPublic && (
-                            <span className="flex items-center gap-1 font-body text-xs text-ink/40">
+                            <span className="flex items-center gap-1 font-body text-xs text-ink/55">
                               <Globe size={11} /> Public link
                             </span>
                           )}
                         </div>
                         {trip.userId !== user.id && (
-                          <p className="mt-1 font-body text-xs text-ink/45">
+                          <p className="mt-1 font-body text-xs text-ink/55">
                             Shared by {trip.user.name}
                           </p>
                         )}

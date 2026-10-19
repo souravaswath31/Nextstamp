@@ -52,7 +52,7 @@ function SourceLink({ url }: { url: string | null | undefined }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="mt-2 inline-flex items-center gap-1 font-body text-[11px] font-semibold text-ink/40 hover:text-coralDark hover:underline"
+      className="mt-2 inline-flex items-center gap-1 font-body text-[11px] font-semibold text-ink/55 hover:text-coralDark hover:underline"
     >
       Source <ExternalLink size={10} />
     </a>
@@ -70,7 +70,7 @@ function MonthHeading({ month: m }: { month: CountryClimate }) {
       )}
       <span
         className={`rounded-full px-2 py-0.5 font-body text-[11px] font-semibold ${
-          CLIMATE_RATING_CLASSES[m.rating] ?? "bg-ink/5 text-ink/50"
+          CLIMATE_RATING_CLASSES[m.rating] ?? "bg-ink/5 text-ink/55"
         }`}
       >
         {CLIMATE_RATING_LABELS[m.rating] ?? m.rating}
@@ -91,7 +91,7 @@ function Card({
   return (
     <div className="rounded-panel bg-paper p-5 shadow-paper">
       <h3 className="flex items-center gap-2 font-display text-base text-ink">
-        <span className="text-ink/35">{icon}</span>
+        <span className="text-ink/55">{icon}</span>
         {title}
       </h3>
       <div className="mt-2.5">{children}</div>
@@ -128,12 +128,12 @@ export default function DestinationBriefing({
       {hasAdvisory && (
         <section className="rounded-panel bg-paper p-5 shadow-paper">
           <h3 className="flex items-center gap-2 font-display text-base text-ink">
-            <AlertTriangle size={16} className="text-ink/35" /> Government advisories
+            <AlertTriangle size={16} className="text-ink/55" /> Government advisories
           </h3>
           <div className="mt-3 grid gap-3 sm:grid-cols-2">
             {stateDept && (
               <div className="rounded-card bg-paperDark px-4 py-3">
-                <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+                <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                   US State Department
                 </p>
                 <span
@@ -144,7 +144,7 @@ export default function DestinationBriefing({
                   {stateDept.levelText}
                 </span>
                 {stateDept.publishedAt && (
-                  <p className="mt-1.5 font-body text-[11px] text-ink/45">
+                  <p className="mt-1.5 font-body text-[11px] text-ink/55">
                     Updated {stateDept.publishedAt}
                   </p>
                 )}
@@ -153,7 +153,7 @@ export default function DestinationBriefing({
             )}
             {fcdo && (
               <div className="rounded-card bg-paperDark px-4 py-3">
-                <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+                <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                   UK Foreign Office
                 </p>
                 {fcdo.alertStatus.length > 0 ? (
@@ -177,7 +177,7 @@ export default function DestinationBriefing({
           {fcdo && (
             // Open Government Licence v3.0 requires attribution for FCDO
             // content. Don't remove this.
-            <p className="mt-3 font-body text-[11px] text-ink/35">
+            <p className="mt-3 font-body text-[11px] text-ink/55">
               UK advisory content © Crown copyright, contains public sector information licensed
               under the{" "}
               <a
@@ -205,13 +205,13 @@ export default function DestinationBriefing({
               {holidays.map((h) => (
                 <li key={`${h.date}-${h.name}`} className="flex items-baseline justify-between gap-3">
                   <span className="font-body text-sm text-ink">{h.localName}</span>
-                  <span className="shrink-0 font-body text-xs tabular-nums text-ink/50">
+                  <span className="shrink-0 font-body text-xs tabular-nums text-ink/55">
                     {formatHolidayDate(h.date)}
                   </span>
                 </li>
               ))}
             </ul>
-            <p className="mt-2.5 font-body text-[11px] text-ink/35">
+            <p className="mt-2.5 font-body text-[11px] text-ink/55">
               Holiday data from Nager.Date.
             </p>
           </Card>
@@ -224,7 +224,7 @@ export default function DestinationBriefing({
         {shortClimate.length > 0 && (
           <Card icon={<Thermometer size={16} />} title="Weather you're walking into">
             {fact.climateReferenceCity && (
-              <p className="font-body text-xs text-ink/50">
+              <p className="font-body text-xs text-ink/55">
                 Averages for {fact.climateReferenceCity}.
               </p>
             )}
@@ -236,7 +236,7 @@ export default function DestinationBriefing({
                     <p className="mt-0.5 font-body text-xs text-ink/60">{m.precipitationNote}</p>
                   )}
                   {m.crowdNote && (
-                    <p className="mt-0.5 font-body text-xs text-ink/45">{m.crowdNote}</p>
+                    <p className="mt-0.5 font-body text-xs text-ink/55">{m.crowdNote}</p>
                   )}
                 </li>
               ))}
@@ -255,11 +255,11 @@ export default function DestinationBriefing({
               $1 ≈ {rate.rate.toLocaleString("en-US", { maximumFractionDigits: 2 })}{" "}
               {fact.currencyCode}
               {rate.asOf && (
-                <span className="font-body text-xs text-ink/40"> · ECB rate, {rate.asOf}</span>
+                <span className="font-body text-xs text-ink/55"> · ECB rate, {rate.asOf}</span>
               )}
             </p>
           ) : (
-            <p className="mt-1 font-body text-xs text-ink/50">
+            <p className="mt-1 font-body text-xs text-ink/55">
               The European Central Bank&apos;s free rate feed doesn&apos;t cover{" "}
               {fact.currencyCode}, so we&apos;re not showing a rate rather than showing a guess.
             </p>
@@ -267,25 +267,25 @@ export default function DestinationBriefing({
           <dl className="mt-3 space-y-2">
             {fact.moneyCardAcceptance && (
               <div>
-                <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Cards</dt>
+                <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Cards</dt>
                 <dd className="font-body text-sm text-ink/70">{fact.moneyCardAcceptance}</dd>
               </div>
             )}
             {fact.moneyCashCulture && (
               <div>
-                <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Cash</dt>
+                <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Cash</dt>
                 <dd className="font-body text-sm text-ink/70">{fact.moneyCashCulture}</dd>
               </div>
             )}
             {fact.moneyTipping && (
               <div>
-                <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Tipping</dt>
+                <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Tipping</dt>
                 <dd className="font-body text-sm text-ink/70">{fact.moneyTipping}</dd>
               </div>
             )}
             {fact.moneyAtmNotes && (
               <div>
-                <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">ATMs</dt>
+                <dt className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">ATMs</dt>
                 <dd className="font-body text-sm text-ink/70">{fact.moneyAtmNotes}</dd>
               </div>
             )}
@@ -315,7 +315,7 @@ export default function DestinationBriefing({
             )}
             {recommendedVax.length > 0 && (
               <div className="mb-2.5">
-                <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+                <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
                   Recommended
                 </p>
                 <p className="font-body text-sm text-ink/70">{recommendedVax.join(", ")}</p>
@@ -359,31 +359,31 @@ export default function DestinationBriefing({
             <div className="grid grid-cols-2 gap-2.5">
               {fact.emergencyUniversal && (
                 <div>
-                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">All emergencies</p>
+                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">All emergencies</p>
                   <p className="font-display text-xl tabular-nums text-stampRed">{fact.emergencyUniversal}</p>
                 </div>
               )}
               {fact.emergencyPolice && (
                 <div>
-                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Police</p>
+                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Police</p>
                   <p className="font-display text-xl tabular-nums text-ink">{fact.emergencyPolice}</p>
                 </div>
               )}
               {fact.emergencyAmbulance && (
                 <div>
-                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Ambulance</p>
+                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Ambulance</p>
                   <p className="font-display text-xl tabular-nums text-ink">{fact.emergencyAmbulance}</p>
                 </div>
               )}
               {fact.emergencyFire && (
                 <div>
-                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Fire</p>
+                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Fire</p>
                   <p className="font-display text-xl tabular-nums text-ink">{fact.emergencyFire}</p>
                 </div>
               )}
               {fact.emergencyTouristPolice && (
                 <div>
-                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">Tourist police</p>
+                  <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Tourist police</p>
                   <p className="font-display text-xl tabular-nums text-ink">{fact.emergencyTouristPolice}</p>
                 </div>
               )}
@@ -452,9 +452,9 @@ export default function DestinationBriefing({
       {isFullYearView && (
         <section className="rounded-panel bg-paper p-5 shadow-paper">
           <h3 className="flex items-center gap-2 font-display text-base text-ink">
-            <Thermometer size={16} className="text-ink/35" /> Month by month
+            <Thermometer size={16} className="text-ink/55" /> Month by month
           </h3>
-          <p className="mt-1 font-body text-xs text-ink/50">
+          <p className="mt-1 font-body text-xs text-ink/55">
             {fact.climateReferenceCity
               ? `Temperatures and rainfall are national met-service averages for ${fact.climateReferenceCity} — one city, not a national average.`
               : "Temperatures and rainfall are national met-service averages."}{" "}
@@ -470,7 +470,7 @@ export default function DestinationBriefing({
                   <p className="mt-1 font-body text-xs text-ink/60">{m.precipitationNote}</p>
                 )}
                 {m.crowdNote && (
-                  <p className="mt-1 font-body text-xs text-ink/45">{m.crowdNote}</p>
+                  <p className="mt-1 font-body text-xs text-ink/55">{m.crowdNote}</p>
                 )}
               </div>
             ))}
@@ -484,10 +484,10 @@ export default function DestinationBriefing({
       {fact.phrases.length > 0 && (
         <section className="rounded-panel bg-paper p-5 shadow-paper">
           <h3 className="flex items-center gap-2 font-display text-base text-ink">
-            <Languages size={16} className="text-ink/35" /> A few words of{" "}
+            <Languages size={16} className="text-ink/55" /> A few words of{" "}
             {fact.phrasesLanguage ?? "the local language"}
           </h3>
-          <p className="mt-1 font-body text-xs text-ink/50">
+          <p className="mt-1 font-body text-xs text-ink/55">
             {/* Deliberately not "hand-checked" or "verified": most of these lists
                 come from a tourism board's own phrase page, but some were
                 assembled by the researcher from general language knowledge with
@@ -503,7 +503,7 @@ export default function DestinationBriefing({
                 <dd className="shrink-0 text-right">
                   <span className="font-body text-sm font-semibold text-ink">{p.local}</span>
                   {p.romanization && (
-                    <span className="block font-body text-xs italic text-ink/45">
+                    <span className="block font-body text-xs italic text-ink/55">
                       {p.romanization}
                     </span>
                   )}

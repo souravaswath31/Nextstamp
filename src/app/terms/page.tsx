@@ -10,7 +10,7 @@ export default function TermsPage() {
   return (
     <div className="mx-auto max-w-2xl space-y-8">
       <div>
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Legal</p>
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">Legal</p>
         <h1 className="mt-2 font-display text-4xl tracking-tightest text-ink">Terms of Service</h1>
         <p className="mt-3 inline-block rounded-full bg-stampRed/10 px-3 py-1 font-stamp text-xs font-semibold uppercase tracking-widest text-stampRed">Draft — needs a lawyer</p>
         <p className="mt-3 font-body text-sm text-ink/55">Last updated {new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })}.</p>
@@ -91,7 +91,7 @@ export default function TermsPage() {
         </p>
       </section>
 
-      <p className="font-body text-xs text-ink/40">
+      <p className="font-body text-xs text-ink/55">
         See also our <Link href="/privacy" className="text-coral underline">Privacy Policy</Link>.
       </p>
     </div>

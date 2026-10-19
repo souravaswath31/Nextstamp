@@ -107,7 +107,7 @@ export default async function Dashboard() {
   return (
     <div className="mx-auto w-full max-w-6xl space-y-20 px-5 pb-28 pt-8 sm:space-y-28 sm:px-8 sm:pt-10">
       <section className="pt-6 text-center sm:pt-14">
-        <p className="flex items-center justify-center gap-1.5 font-stamp text-xs uppercase tracking-widest text-ink/45">
+        <p className="flex items-center justify-center gap-1.5 font-stamp text-xs uppercase tracking-widest text-ink/55">
           <MapPinned size={13} /> {user.homeBaseLocation ?? "Home base not set"}
         </p>
         <h1 className="mx-auto mt-3 max-w-2xl font-display text-5xl leading-[1.05] tracking-tightest text-ink sm:text-6xl">
@@ -158,7 +158,7 @@ export default async function Dashboard() {
             href={`/trip/${nextTrip.id}`}
             className="card-lift block rounded-panel bg-paper px-6 py-5 shadow-paper"
           >
-            <p className="font-stamp text-[11px] uppercase tracking-widest text-ink/45">
+            <p className="font-stamp text-[11px] uppercase tracking-widest text-ink/55">
               Next trip
             </p>
             <div className="mt-1.5 flex flex-wrap items-baseline gap-x-3 gap-y-1">
@@ -306,7 +306,7 @@ export default async function Dashboard() {
             // only route to creating a trip, and it wasn't a control. Now that
             // the primary action sits at the top of the page, this just says
             // what the section is for.
-            <p className="mt-4 font-body text-sm text-ink/50">
+            <p className="mt-4 font-body text-sm text-ink/55">
               {trips.length === 0
                 ? "Trips you're planning will appear here."
                 : "Nothing in planning right now — your ideas and finished trips are in My Trips."}
@@ -322,7 +322,7 @@ export default async function Dashboard() {
                   <div>
                     <span className="font-display text-base text-ink">{trip.title}</span>
                     {(trip.destinationCountry || trip.startDate) && (
-                      <p className="font-body text-xs text-ink/50">
+                      <p className="font-body text-xs text-ink/55">
                         {[
                           trip.destinationCountry,
                           trip.startDate
@@ -354,7 +354,7 @@ export default async function Dashboard() {
             className="card-lift block rounded-panel bg-paper px-6 py-5 shadow-paper"
           >
             <h2 className="flex items-center gap-2 font-display text-2xl text-ink">
-              <BookOpen size={20} className="text-ink/35" /> Country guides
+              <BookOpen size={20} className="text-ink/55" /> Country guides
             </h2>
             <p className="mt-1.5 max-w-xl font-body text-sm text-ink/60">
               Passport validity rules, climate month by month, what the emergency number actually

@@ -87,7 +87,7 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
       </div>
 
       <div className="text-center sm:text-left">
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">{state.region}</p>
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">{state.region}</p>
         <h1 className="mt-2 font-display text-5xl tracking-tightest text-ink sm:text-6xl">{state.name}</h1>
         <p className="mt-3 font-body text-xl text-ink/60">{state.heroTagline}</p>
         <p className="mx-auto mt-3 max-w-2xl font-body text-base text-ink/70 sm:mx-0">{state.heroDescription}</p>
@@ -97,7 +97,7 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
         <div className="flex gap-2.5">
           <CalendarRange size={16} className="mt-0.5 shrink-0 text-coralDark" />
           <div>
-            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Best time to visit</p>
+            <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Best time to visit</p>
             <p className="mt-1 font-body text-sm text-ink/80">{state.bestTimeToVisit}</p>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
           <div className="flex gap-2.5">
             <ThermometerSun size={16} className="mt-0.5 shrink-0 text-stamp" />
             <div>
-              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Know before you go</p>
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Know before you go</p>
               <p className="mt-1 font-body text-sm text-ink/80">{state.altitudeOrClimateNote}</p>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
           <div className="flex gap-2.5">
             <TicketCheck size={16} className="mt-0.5 shrink-0 text-teal" />
             <div>
-              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">Permits & reservations</p>
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">Permits & reservations</p>
               <p className="mt-1 font-body text-sm text-ink/80">{state.permitsNote}</p>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
           <div className="flex gap-2.5">
             <Backpack size={16} className="mt-0.5 shrink-0 text-forest" />
             <div>
-              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/50">What to bring</p>
+              <p className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">What to bring</p>
               <p className="mt-1 font-body text-sm text-ink/80">{state.gearNote}</p>
             </div>
           </div>
@@ -171,7 +171,7 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
                     <div className="flex items-baseline justify-between gap-2">
                       <h3 className="font-display text-base text-ink">{p.name}</h3>
                       {p.placeType && (
-                        <span className="whitespace-nowrap font-stamp text-[10px] uppercase text-ink/40">
+                        <span className="whitespace-nowrap font-stamp text-[10px] uppercase text-ink/55">
                           {PLACE_TYPE_LABEL[p.placeType] ?? p.placeType}
                         </span>
                       )}
@@ -183,7 +183,7 @@ export default async function StateGuidePage({ params }: { params: { slug: strin
                       </p>
                     )}
                     {p.nearestTown && (
-                      <p className="mt-1 font-body text-xs text-ink/40">Near {p.nearestTown}</p>
+                      <p className="mt-1 font-body text-xs text-ink/55">Near {p.nearestTown}</p>
                     )}
                     <div className="mt-3">
                       <AddToTripButton

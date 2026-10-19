@@ -58,7 +58,7 @@ export default function SavedPlaces({
   return (
     <section className="rounded-panel bg-paper p-6 shadow-paper">
       <h2 className="flex items-center gap-2 font-display text-xl text-ink">
-        <Bookmark size={19} className="text-ink/35" /> Places you&apos;ve saved
+        <Bookmark size={19} className="text-ink/55" /> Places you&apos;ve saved
       </h2>
       <p className="mt-1 font-body text-sm text-ink/60">
         Pulled in from the guides. Drop them onto a day when you know where they fit.
@@ -76,7 +76,7 @@ export default function SavedPlaces({
               <div className="min-w-0 flex-1">
                 <p className="flex items-center gap-1.5 font-body text-sm font-semibold text-ink">
                   {p.name}
-                  {p.hasCoords && <MapPin size={11} className="shrink-0 text-ink/30" />}
+                  {p.hasCoords && <MapPin size={11} className="shrink-0 text-ink/55" />}
                 </p>
                 {p.note && <p className="mt-0.5 font-body text-xs text-ink/60">{p.note}</p>}
                 {p.sourceKind === "import_post" && (
@@ -93,7 +93,7 @@ export default function SavedPlaces({
                 {(p.sourceKind === "state_place" || p.sourceKind === "import_post" || p.sourceKind === "import_suggested") && p.sourceSlug && (
                   <Link
                     href={`/state/${p.sourceSlug}`}
-                    className="mt-1 inline-block font-body text-[11px] text-ink/40 hover:text-coralDark hover:underline"
+                    className="mt-1 inline-block font-body text-[11px] text-ink/55 hover:text-coralDark hover:underline"
                   >
                     from the {p.sourceSlug.replace(/-/g, " ")} guide
                   </Link>
@@ -131,13 +131,13 @@ export default function SavedPlaces({
                     )}
                   </div>
                 ) : (
-                  <span className="font-body text-[11px] text-ink/40">Add a day first</span>
+                  <span className="font-body text-[11px] text-ink/55">Add a day first</span>
                 )}
 
                 <button
                   onClick={() => remove(p.id)}
                   disabled={isPending}
-                  className="text-ink/20 opacity-0 transition-opacity hover:text-stampRed group-hover:opacity-100 disabled:opacity-50"
+                  className="text-ink/55 opacity-0 transition-opacity hover:text-stampRed group-hover:opacity-100 disabled:opacity-50"
                   aria-label={`Remove ${p.name}`}
                 >
                   <Trash2 size={13} />

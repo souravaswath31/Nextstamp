@@ -139,7 +139,7 @@ export default function RouteMap({
   return (
     <section className="rounded-panel bg-paper p-5 shadow-paper">
       <h2 className="flex items-center gap-2 font-display text-lg text-ink">
-        <Route size={17} className="text-ink/35" /> {heading}
+        <Route size={17} className="text-ink/55" /> {heading}
       </h2>
 
       {!apiKey ? (
@@ -161,7 +161,7 @@ export default function RouteMap({
             role="application"
             aria-label={heading}
           />
-          <p className="mt-2.5 font-body text-xs text-ink/45">
+          <p className="mt-2.5 font-body text-xs text-ink/55">
             Pins are numbered by day. The line shows the order you travel in, not a driving
             route — we don&apos;t have road data and won&apos;t draw a road that might not exist.
           </p>
@@ -169,7 +169,7 @@ export default function RouteMap({
       )}
 
       {unmappedCount > 0 && (
-        <p className="mt-2 font-body text-xs text-ink/45">
+        <p className="mt-2 font-body text-xs text-ink/55">
           {unmappedCount} day{unmappedCount === 1 ? "" : "s"} aren&apos;t pinned — those are
           rest days, travel days, or stops we couldn&apos;t place confidently.
         </p>

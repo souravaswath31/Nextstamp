@@ -4,7 +4,7 @@ import { SECTION } from "./MarketingBits";
 export type Field = { name: string; label: string; type?: "text" | "date"; placeholder?: string; required?: boolean };
 
 const INPUT =
-  "w-full rounded-full border border-white/15 bg-white/[0.06] px-5 py-3 font-body text-sm text-white placeholder:text-white/35 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50";
+  "w-full rounded-full border border-white/15 bg-white/[0.06] px-5 py-3 font-body text-sm text-white placeholder:text-white/55 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/50";
 
 /** A plain GET form: the results are a shareable URL and work without JavaScript. */
 export default function LinkSearch({

@@ -160,7 +160,7 @@ export default function PackingChecklist({
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h2 className="flex items-center gap-2 font-display text-xl text-ink">
-            <Backpack size={19} className="text-ink/35" /> Packing
+            <Backpack size={19} className="text-ink/55" /> Packing
           </h2>
           <p className="mt-1 font-body text-sm text-ink/60">
             Tick things off, and claim what you&apos;re bringing so two of you don&apos;t both pack
@@ -170,9 +170,9 @@ export default function PackingChecklist({
         <div className="shrink-0 text-right">
           <p className="font-display text-2xl tabular-nums text-ink">
             {packedCount}
-            <span className="text-ink/35">/{total}</span>
+            <span className="text-ink/55">/{total}</span>
           </p>
-          <p className="font-body text-xs text-ink/45">packed</p>
+          <p className="font-body text-xs text-ink/55">packed</p>
         </div>
       </div>
 
@@ -193,7 +193,7 @@ export default function PackingChecklist({
       <div className="mt-6 space-y-6">
         {groups.map((group) => (
           <div key={group.title}>
-            <h3 className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <h3 className="font-stamp text-[11px] uppercase tracking-wide text-ink/55">
               {group.title}
             </h3>
             <ul className="mt-2.5 space-y-1">
@@ -216,7 +216,7 @@ export default function PackingChecklist({
                     <label
                       htmlFor={`pack-${tripId}-${encodeURIComponent(row.label).slice(0, 40)}`}
                       className={`flex-1 cursor-pointer font-body text-sm ${
-                        row.packed ? "text-ink/35 line-through" : "text-ink/80"
+                        row.packed ? "text-ink/55 line-through" : "text-ink/80"
                       }`}
                     >
                       {row.label}
@@ -233,7 +233,7 @@ export default function PackingChecklist({
                         className={`flex items-center gap-1 rounded-full px-2 py-0.5 font-body text-[11px] transition-colors disabled:opacity-50 ${
                           claimedByMe
                             ? "bg-teal/12 font-semibold text-teal"
-                            : "text-ink/35 hover:bg-ink/5 hover:text-ink/70"
+                            : "text-ink/55 hover:bg-ink/5 hover:text-ink/70"
                         }`}
                         aria-label={claimedByMe ? `You're bringing ${row.label}` : `Claim ${row.label}`}
                       >
@@ -243,7 +243,7 @@ export default function PackingChecklist({
                         <button
                           onClick={() => remove(row)}
                           disabled={isPending}
-                          className="text-ink/25 opacity-0 transition-opacity hover:text-stampRed group-hover:opacity-100 disabled:opacity-50"
+                          className="text-ink/55 opacity-0 transition-opacity hover:text-stampRed group-hover:opacity-100 disabled:opacity-50"
                           aria-label={`Remove ${row.label}`}
                         >
                           <Trash2 size={13} />
@@ -270,7 +270,7 @@ export default function PackingChecklist({
             }
           }}
           placeholder="Add something of your own"
-          className="min-w-0 flex-1 rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
+          className="min-w-0 flex-1 rounded-card bg-paperDark px-3 py-1.5 font-body text-sm text-ink placeholder:text-ink/55 focus:outline-none focus:ring-2 focus:ring-ink/10"
         />
         <button
           onClick={add}

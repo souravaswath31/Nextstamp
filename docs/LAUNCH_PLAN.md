@@ -148,3 +148,20 @@ not be the first time a lapsing rule is handled.
 ## 6. Not doing before launch
 
 Booking-email import, direct booking, Chinese/Turkish/Vietnamese passports and languages, a native app. Revisit after launch data.
+
+## 7. Status log
+
+Updated 19 Oct 2026. "Open PR" means built and waiting for the owner to merge.
+
+**Done and merged:** PR 19 (authz fix, open redirect, error pages, timeouts, headers, indexes), PR 20 (plan, ETIAS wording, badge label).
+
+**Built, open PRs (merge in this order):** 21 (code 1: Schengen/multi-document matching, validation, invite reset, leave trip, account export and delete, privacy rewrite), 22 (performance: cacheable layout, no-cookie fast paths), 23 (CI), 24 (visa data pass: 174 rules corrected, 52 added, USA as a destination), then the trust PR (rule age and end-date warnings, report-an-error, shared rate limiter, optional email, dispute-won restore, Stripe Tax switch, report-only CSP, contrast, skip link, contact page, health check, source monitor).
+
+**Deliberately not done, with reasons**
+- Making itinerary, country, state and explore pages fully cacheable: they show personal visa results, so they need those blocks moved to client components. Anonymous visitors are already cheap (no Supabase call). Revisit if traffic data says it matters.
+- Refund window and public refund wording: needs decision D7. Stripe Tax is built behind `STRIPE_AUTOMATIC_TAX=1` and needs the Stripe dashboard set up first.
+- Sentry: needs an account and an npm install. `/api/health` plus Vercel's own logs and Stripe webhook alerts cover the launch minimum.
+- Gemini cover images for about 144 itineraries: waiting for the owner's go-ahead.
+- Bolivia, Japan, Norway, Vietnam e-visa and several Saudi rows: official sites block automated reads. They need a person with a browser.
+
+**Owner actions still open:** domain, email-sending account (Supabase SMTP and Resend), `SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_SUPPORT_EMAIL`, `NEXT_PUBLIC_SITE_URL`, `MAIL_FROM` and `RESEND_API_KEY`, Anthropic key for the monitor (optional), lawyer review, D1 to D7, apply the two SQL files if not already applied, revoke the old Vercel token, restrict the MapTiler key.

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const CURRENCIES = ["USD", "EUR", "GBP", "INR", "CAD", "AUD", "JPY", "SGD", "BRL", "CHF", "MXN"];
 
 const input =
-  "w-full rounded-card border border-line bg-paper px-3.5 py-2.5 font-body text-sm text-ink placeholder:text-ink/35 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/30";
+  "w-full rounded-card border border-line bg-paper px-3.5 py-2.5 font-body text-sm text-ink placeholder:text-ink/55 focus:border-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral/30";
 
 export default async function WalletPage() {
   const user = await getOptionalUser();
@@ -41,7 +41,7 @@ export default async function WalletPage() {
   return (
     <div className="mx-auto max-w-3xl space-y-8">
       <div>
-        <p className="font-stamp text-xs uppercase tracking-widest text-ink/45">Trip fund</p>
+        <p className="font-stamp text-xs uppercase tracking-widest text-ink/55">Trip fund</p>
         <h1 className="mt-2 font-display text-4xl tracking-tightest text-ink">What you&apos;ve set aside</h1>
         <p className="mt-3 max-w-xl font-body text-ink/60">
           Set a target for a trip, and write down what you put toward it.
@@ -59,7 +59,7 @@ export default async function WalletPage() {
 
       {!user ? (
         <div className="rounded-panel bg-paper p-6 text-center shadow-paper">
-          <PiggyBank size={28} className="mx-auto text-ink/30" aria-hidden="true" />
+          <PiggyBank size={28} className="mx-auto text-ink/55" aria-hidden="true" />
           <p className="mt-3 font-body text-sm text-ink/60">Sign in to keep a trip fund.</p>
           <Link href="/login" className="btn-pill btn-pill-primary mt-4">Sign in</Link>
         </div>
@@ -96,7 +96,7 @@ export default async function WalletPage() {
           </form>
 
           {funds.length === 0 ? (
-            <p className="font-body text-sm text-ink/50">No funds yet. Create one above.</p>
+            <p className="font-body text-sm text-ink/55">No funds yet. Create one above.</p>
           ) : (
             <ul className="space-y-5">
               {funds.map((f) => {
@@ -114,7 +114,7 @@ export default async function WalletPage() {
                         )}
                       </div>
                       <form action={deleteFund.bind(null, f.id)}>
-                        <button type="submit" className="font-body text-xs text-ink/45 hover:text-stampRed" aria-label={`Delete ${f.name}`}>
+                        <button type="submit" className="font-body text-xs text-ink/55 hover:text-stampRed" aria-label={`Delete ${f.name}`}>
                           <Trash2 size={15} />
                         </button>
                       </form>
@@ -122,7 +122,7 @@ export default async function WalletPage() {
 
                     <p className="mt-4 font-display text-3xl tabular-nums text-ink">
                       {money(p.savedMinor)}
-                      <span className="ml-2 font-body text-sm font-normal text-ink/50">of {money(p.targetMinor)}</span>
+                      <span className="ml-2 font-body text-sm font-normal text-ink/55">of {money(p.targetMinor)}</span>
                     </p>
                     <div
                       className="mt-3 h-2 overflow-hidden rounded-full bg-ink/10"
@@ -134,7 +134,7 @@ export default async function WalletPage() {
                     >
                       <div className={`h-full rounded-full ${p.reached ? "bg-forest" : "bg-coral"}`} style={{ width: `${p.percent}%` }} />
                     </div>
-                    <p className="mt-2 font-body text-xs text-ink/50">
+                    <p className="mt-2 font-body text-xs text-ink/55">
                       {p.reached ? "Target reached." : `${money(p.remainingMinor)} to go.`}
                     </p>
 
@@ -165,7 +165,7 @@ export default async function WalletPage() {
                                 {money(Math.abs(e.amountMinor))}
                               </span>
                               <form action={deleteFundEntry.bind(null, e.id)}>
-                                <button type="submit" aria-label="Delete entry" className="text-ink/35 hover:text-stampRed">
+                                <button type="submit" aria-label="Delete entry" className="text-ink/55 hover:text-stampRed">
                                   <Trash2 size={13} />
                                 </button>
                               </form>

@@ -80,7 +80,7 @@ export default async function PricingPage({
 
         <div className="mt-8 grid gap-5 md:grid-cols-2">
           <div className="rounded-panel border border-white/10 bg-nightRaised p-7">
-            <p className="font-stamp text-[11px] uppercase tracking-widest text-white/45">Free</p>
+            <p className="font-stamp text-[11px] uppercase tracking-widest text-white/55">Free</p>
             <p className="mt-2 font-display text-4xl text-white">$0</p>
             <ul className="mt-6 space-y-3">
               {FREE.map((f) => (
@@ -95,7 +95,7 @@ export default async function PricingPage({
           <div className="rounded-panel border border-coral/40 bg-nightRaised p-7">
             <p className="font-stamp text-[11px] uppercase tracking-widest text-coral">One-time</p>
             <p className="mt-2 font-display text-4xl text-white">
-              $5 <span className="font-body text-base font-normal text-white/50">once</span>
+              $5 <span className="font-body text-base font-normal text-white/55">once</span>
             </p>
             <ul className="mt-6 space-y-3">
               {PAID.map((f) => (
@@ -105,7 +105,7 @@ export default async function PricingPage({
                 </li>
               ))}
             </ul>
-            <p className="mt-6 font-body text-xs text-white/45">
+            <p className="mt-6 font-body text-xs text-white/55">
               Everything in Free is included.
             </p>
             {!live ? (
@@ -122,20 +122,20 @@ export default async function PricingPage({
                 <button type="submit" className="btn-pill btn-pill-accent">
                   Buy full access, {PRICE_LABEL} once
                 </button>
-                <p className="mt-2 font-body text-xs text-white/45">
+                <p className="mt-2 font-body text-xs text-white/55">
                   You&apos;ll pay on Stripe&apos;s page. NextStamp never sees your card details.
                 </p>
               </form>
             ) : (
               <div className="mt-4">
                 <CtaLink href="/login">Sign in to buy</CtaLink>
-                <p className="mt-2 font-body text-xs text-white/45">Your purchase is tied to your account.</p>
+                <p className="mt-2 font-body text-xs text-white/55">Your purchase is tied to your account.</p>
               </div>
             )}
           </div>
         </div>
 
-        <p className="mt-8 max-w-2xl pb-14 font-body text-xs leading-relaxed text-white/45">
+        <p className="mt-8 max-w-2xl pb-14 font-body text-xs leading-relaxed text-white/55">
           NextStamp doesn&apos;t book or sell travel, and the price is for the software, not for any
           trip. Visa information is not legal advice; confirm with the official source before you book.
           {live && " Receipts come from Stripe. A refunded payment turns full access off. To ask for a refund or report a problem with a payment, write to us (see the contact details on the Privacy page)."}
