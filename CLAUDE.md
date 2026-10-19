@@ -107,7 +107,7 @@ prisma/schema.prisma        Data model (see below)
 prisma/seed.ts               Seeds global content from data/*.json — never touches users
 data/itineraries-seed.json   114 itineraries: day-by-day, food_culture (international only), related_states (domestic only)
 data/state-guides-seed.json  50 states × ~17 places each (amazing/common/hidden/food_culture)
-data/visa-rules-seed.json    154 rules: 8 passports × up to 18 destinations each
+data/visa-rules-seed.json    901 rules: 8 passports × 101 destinations (incl. USA) plus held-document rows (count the file, do not trust this number)
 data/country-facts-seed.json Country guides: entry rules, health, money, power, emergency numbers, transit, connectivity, 12-month climate, phrasebook
 scripts/generate_itinerary_draft.py   Draft generator for a state's places (see below)
 scripts/validate_itineraries.py       Content pipeline gate — see "Content pipeline engines"
@@ -496,6 +496,24 @@ Totals after: 101 guides, 850 rules, 309 itineraries. Worth knowing:
   Kuressaare, Burabay, Dakar, Nosy Be, Ranomafana, Morondava). The Morondava day-6 pin was fixed by hand in the seed
   (Nominatim returns Mahabo, 100 km inland).
 - Gemini cover-image prompts are still owed for rounds 7-9; until then new itineraries use `/category-<x>.jpg`.
+
+**Launch data pass (October 2026).** Five research agents re-verified or added rules for about 60 destinations against
+official sources (`scripts/visa-reverify-contract.md`), applied with `reverify_visa.py apply --allow-new` and loaded with
+`prisma/update-visa-rules.ts`. 901 rules after. What to know:
+- **`Schengen` is a held-document key** meaning a visa or residence permit from any Schengen state. A person's German or
+  French permit satisfies it (`src/lib/heldDocs.ts`, used by `visa.ts` and `passportCheck.ts`). When several documents
+  qualify, the easiest entry wins. The old Albania key "Germany" was retired.
+- **USA is now a destination** for the seven other passports (ESTA $40.62 from 16 Oct 2026, Canada visa-exempt,
+  B-1/B-2 for India and Brazil). The $250 visa integrity fee was NOT confirmed as collected; rows say not to assume it.
+- Rows with an end date carry a sentence `Valid until YYYY-MM-DD.` in `conditions_text`. China, South Korea (K-ETA),
+  Malaysia (India), Dominican Republic, Mongolia and others lapse **31 Dec 2026** and none was renewed on 19 Oct. Re-check
+  them from 1 Nov and before launch; `docs/LAUNCH_PLAN.md` lists the calendar.
+- Things an agent could not confirm were **left out and keep their old dates**: Norway (UDI blocks fetches), Bolivia,
+  Japan (MOFA 403), Vietnam e-visa rows, several Saudi rows, Philippines non-India rows. Do not read "date 17-19 Oct" as
+  "checked by a person that day" for those.
+- Corrections found: Singapore to Kenya is visa-free (was e-visa); Egypt fees are $30/$65; Qatar USA stay is 30 days;
+  UAE for Indians with a US visa is disputed between ICP/MOFA (residence permit) and GDRFA (US visa), and the row says so.
+- Italy rows cite the 2018 original of EU Regulation 2018/1806 (EUR-Lex would not load), so later amendments are unchecked.
 
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
