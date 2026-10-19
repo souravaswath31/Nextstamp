@@ -165,3 +165,5 @@ Updated 19 Oct 2026. "Open PR" means built and waiting for the owner to merge.
 - Bolivia, Japan, Norway, Vietnam e-visa and several Saudi rows: official sites block automated reads. They need a person with a browser.
 
 **Owner actions still open:** domain, email-sending account (Supabase SMTP and Resend), `SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_SUPPORT_EMAIL`, `NEXT_PUBLIC_SITE_URL`, `MAIL_FROM` and `RESEND_API_KEY`, Anthropic key for the monitor (optional), lawyer review, D1 to D7, apply the two SQL files if not already applied, revoke the old Vercel token, restrict the MapTiler key.
+
+**Update, later the same day.** Open PRs now also include 26 (public visa pages: hub, per-passport, pair and held-visa pages, staged for indexing) and 27 (Philippines, Pakistan, Nigeria: 314 rules, partial coverage stated honestly). A Vercel preview build failed on the performance PR because `/login` needed a Suspense boundary; fixed on that branch and carried forward. `docs/LAUNCH_KIT.md` holds the drafts (Show HN, forum replies, beta invite, press report outline, video outline, waitlist email) for you to post; I cannot post for you.

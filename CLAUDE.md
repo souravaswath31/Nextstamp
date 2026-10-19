@@ -530,6 +530,12 @@ Things to know before relying on a row:
 - Left out where no official page could be read: Cuba, Kazakhstan, Guatemala, Panama, Cambodia, Cyprus, Madagascar, Peru,
   Qatar, Japan, Egypt, Azerbaijan, Laos and others. They need a person with a browser.
 
+**Verify the real build before opening a PR.** The assistant's sandbox cannot reach the database, so `next build` there stops at the
+first page that reads it and hides later failures. A change that made every page cacheable broke `/login` on Vercel
+(`useSearchParams` without a Suspense boundary) and only the Vercel build caught it. Run `npm run build` in a terminal that has
+the database before pushing anything that touches layouts, rendering modes or `use client` pages. Type check and unit tests
+(`.github/workflows/ci.yml`) do not catch this class of error.
+
 **Launch hardening notes (October 2026).** Where things live now:
 - **Rule trust display**: `src/lib/ruleTrust.ts` derives age band (90/180/365 days), a known end date from the text
   sentences `Valid until YYYY-MM-DD.` / `Changes on YYYY-MM-DD:`, whether the source is another government's advice, and
