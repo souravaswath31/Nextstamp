@@ -482,6 +482,21 @@ Qatar, Israel, Finland, Slovenia, Romania. Same two-agents-per-country process a
   hand-set anchor. `scripts/geocode_round.py` carries per-country hop caps and `geocode_round_overrides.json`
   about 180 reviewed overrides.
 
+**Content round 9 (October 2026): 24 more countries.** Albania, Montenegro, Bulgaria, Estonia, Latvia, Lithuania,
+Slovakia, Cyprus, Malta, Mongolia, Bhutan, Kazakhstan, Saudi Arabia, Azerbaijan, Tunisia, Senegal, Ethiopia, Zambia,
+Zimbabwe, Madagascar, Uganda, Guatemala, Uruguay, Fiji. Same process as rounds 7 and 8, run as three batches of eight.
+Totals after: 101 guides, 850 rules, 309 itineraries. Worth knowing:
+- **Saudi Arabia has a guide and visa rules but no itineraries.** The UK advises against all but essential travel to
+  the whole country and Canada advises against non-essential travel nationwide, so no routes were published. It is a
+  product call, not a data gap: overrule it by researching two itineraries and merging them.
+- Ethiopia's routes carry advisory text. Albania's guide has a null climate table (the source record was weak).
+- Cascade rows (`requires_held_document_country`) were kept only where an official page backs them; Saudi and
+  Singapore transit rows sourced to news or search extracts were dropped.
+- Geocoding: new per-country caps in `CAP_KM`; about 25 more overrides for namesake mispins (Tirana, Zabljak,
+  Kuressaare, Burabay, Dakar, Nosy Be, Ranomafana, Morondava). The Morondava day-6 pin was fixed by hand in the seed
+  (Nominatim returns Mahabo, 100 km inland).
+- Gemini cover-image prompts are still owed for rounds 7-9; until then new itineraries use `/category-<x>.jpg`.
+
 **Visa engine status:** 8 passports (India, USA, UK, Canada, Australia, Germany, Singapore,
 Brazil) × 18 destinations = 154 rules, all cross-checked with `npx tsx` against the live
 database after merging (verify every (passport, destination) pair actually resolves via

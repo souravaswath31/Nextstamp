@@ -59,7 +59,13 @@ CAP_KM = {"Canada": 4500, "Australia": 3500, "South Africa": 1500, "South Korea"
           "Norway": 2000, "Sweden": 1000, "Hong Kong": 100, "Laos": 800, "Uzbekistan": 1300, "Cuba": 1000,
           "Jamaica": 300, "Panama": 600, "Bolivia": 800, "Namibia": 1000, "Botswana": 900, "Rwanda": 300,
           "Ghana": 800, "Mauritius": 150, "Oman": 1000, "Qatar": 150, "Israel": 400, "Finland": 1200,
-          "Slovenia": 300, "Romania": 700}
+          "Slovenia": 300, "Romania": 700,
+          # Round 9
+          "Albania": 600, "Montenegro": 300, "Bulgaria": 600, "Estonia": 400, "Latvia": 400, "Lithuania": 400,
+          "Slovakia": 500, "Cyprus": 250, "Malta": 80, "Mongolia": 1500, "Bhutan": 500, "Kazakhstan": 1500,
+          "Saudi Arabia": 1500, "Azerbaijan": 500, "Tunisia": 900, "Senegal": 500, "Ethiopia": 1500,
+          "Zambia": 1000, "Zimbabwe": 800, "Madagascar": 1200, "Uganda": 600, "Guatemala": 500,
+          "Uruguay": 600, "Fiji": 400}
 
 EXTRA_NOISE = re.compile(r"^(tgv|train|bus|ferry|fly|flight|drive|rail|coach|transfer)\s+(to|from)\s+", re.I)
 # "Seoul to Busan" style: the stop is the destination of the leg.
