@@ -1,5 +1,6 @@
 import { prisma } from "./prisma";
 import type { HeldDocument, User, VisaRule } from "@prisma/client";
+import { easiest, heldDocumentKeys, heldKeySet } from "./heldDocs";
 
 export type VisaStatus = {
   destinationCountry: string;
@@ -59,7 +60,7 @@ export async function getVisaStatusForUser(
 
   // Already resident/visa-holder there (e.g. USA via the H1B) — no lookup needed.
   const residentDoc = user.heldDocuments.find(
-    (d) => d.country === destinationCountry && isDocumentLive(d, asOf)
+    (d) => heldDocumentKeys(d.country)[0] === destinationCountry && isDocumentLive(d, asOf)
   );
   if (residentDoc) {
     return {
@@ -81,15 +82,12 @@ export async function getVisaStatusForUser(
 
   // Prefer any rule unlocked by a document the user actually holds live —
   // that's usually the better outcome (e.g. visa-free beats e-visa).
-  const cascadeRule = rules.find(
-    (r) =>
-      r.requiresHeldDocumentCountry &&
-      user.heldDocuments.some(
-        (d) => d.country === r.requiresHeldDocumentCountry && isDocumentLive(d, asOf)
-      )
-  );
-
-  const chosen = cascadeRule ?? rules.find((r) => !r.requiresHeldDocumentCountry) ?? rules[0];
+  const liveKeys = heldKeySet(user.heldDocuments.filter((d) => isDocumentLive(d, asOf)).map((d) => d.country));
+  // Several documents can qualify (a US visa and a UK one): take the easiest entry, not the first row
+  // found. The passport-only row goes first so a tie never shows a "via your document" label for nothing.
+  const base = rules.find((r) => !r.requiresHeldDocumentCountry);
+  const cascades = rules.filter((r) => r.requiresHeldDocumentCountry && liveKeys.has(r.requiresHeldDocumentCountry));
+  const chosen = easiest([...(base ? [base] : []), ...cascades]) ?? rules[0];
 
   return {
     destinationCountry,
@@ -112,7 +110,7 @@ export async function getVisaStatusForUser(
  */
 export async function getCascadeExplorer(passportCountry: string, documentCountry: string) {
   const rules = await prisma.visaRule.findMany({
-    where: { passportCountry, requiresHeldDocumentCountry: documentCountry },
+    where: { passportCountry, requiresHeldDocumentCountry: { in: heldDocumentKeys(documentCountry) } },
   });
 
   // Group by destination, keep the best (visa-free > visa-on-arrival > e-visa) row.

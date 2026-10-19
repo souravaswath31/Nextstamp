@@ -110,3 +110,26 @@ describe("matchCountry", () => {
     expect(matchCountry("   ", PASSPORTS)).toBeNull();
   });
 });
+
+describe("held documents from a Schengen state and multiple documents", () => {
+  const turkey = [
+    rule({ destination: "Turkey", visaType: "advance-visa-required" }),
+    rule({ destination: "Turkey", visaType: "e-visa", requiresDocCountry: "Schengen" }),
+    rule({ destination: "Turkey", visaType: "visa-free", requiresDocCountry: "UK" }),
+  ];
+  it("a German permit satisfies a Schengen rule", () => {
+    const r = resolveCheck(turkey, ["India"], "India", "Turkey", ["Germany"]);
+    expect(r.kind === "rule" && r.rule.visaType).toBe("e-visa");
+    expect(r.kind === "rule" && r.viaDocument).toBe("Schengen");
+  });
+  it("picks the easiest of several qualifying documents", () => {
+    const r = resolveCheck(turkey, ["India"], "India", "Turkey", ["Germany", "UK"]);
+    expect(r.kind === "rule" && r.rule.visaType).toBe("visa-free");
+    expect(r.kind === "rule" && r.viaDocument).toBe("UK");
+  });
+  it("no document means the passport-only rule and no 'via' label", () => {
+    const r = resolveCheck(turkey, ["India"], "India", "Turkey", []);
+    expect(r.kind === "rule" && r.rule.visaType).toBe("advance-visa-required");
+    expect(r.kind === "rule" && r.viaDocument).toBeNull();
+  });
+});

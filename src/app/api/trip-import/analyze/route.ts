@@ -12,6 +12,9 @@ export const dynamic = "force-dynamic";
 const MAX_IMAGES = 4;
 const MAX_IMAGE_BYTES = 1_200_000; // the browser downsizes first; this is the backstop
 const PER_HOUR = 8;
+// A ceiling on the whole site, so free sign-ups cannot run up the AI and mapping bill. Rows are the
+// counter, so it holds across serverless instances. Raise it with TRIP_IMPORT_DAILY_CAP.
+const DAILY_CAP = Math.max(1, Number(process.env.TRIP_IMPORT_DAILY_CAP) || 400);
 
 const fail = (status: number, error: string) => NextResponse.json({ ok: false, error }, { status });
 
@@ -41,6 +44,8 @@ export async function POST(req: Request) {
     where: { userId: user.id, createdAt: { gt: new Date(Date.now() - 3600_000) } },
   });
   if (recent >= PER_HOUR) return fail(429, "That's a lot of imports for one hour. Try again a little later.");
+  const today = await prisma.tripImport.count({ where: { createdAt: { gt: new Date(Date.now() - 24 * 3600_000) } } });
+  if (today >= DAILY_CAP) return fail(429, "Imports are very busy today. Try again tomorrow, or add your stops by hand.");
 
   const images: ImageInput[] = [];
   if (mode === "screenshots") {

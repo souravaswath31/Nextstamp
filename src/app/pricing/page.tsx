@@ -138,7 +138,7 @@ export default async function PricingPage({
         <p className="mt-8 max-w-2xl pb-14 font-body text-xs leading-relaxed text-white/45">
           NextStamp doesn&apos;t book or sell travel, and the price is for the software, not for any
           trip. Visa information is not legal advice; confirm with the official source before you book.
-          {live && " Receipts come from Stripe. A refunded payment turns full access off. To ask for a refund or report a problem with a payment, contact us through the project's GitHub page."}
+          {live && " Receipts come from Stripe. A refunded payment turns full access off. To ask for a refund or report a problem with a payment, write to us (see the contact details on the Privacy page)."}
         </p>
       </section>
     </>

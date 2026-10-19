@@ -259,7 +259,8 @@ export default async function TripPage({ params }: { params: { id: string } }) {
         collaborators={trip.collaborators.map((c) => ({
           userId: c.userId,
           name: c.user.name,
-          email: c.user.email,
+          // Co-travelers see each other by name; only the owner gets the address.
+          email: isOwner ? c.user.email : "",
         }))}
         initialStartDate={toDateInput(trip.startDate)}
         initialEndDate={toDateInput(trip.endDate)}

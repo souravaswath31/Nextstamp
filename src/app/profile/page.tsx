@@ -1,7 +1,7 @@
 import { getCurrentUser } from "@/lib/currentUser";
 import { getCascadeExplorer, getEasyAccessDestinations, getVisaRequiredDestinations } from "@/lib/visa";
 import Link from "next/link";
-import { addHeldDocument, removeHeldDocument, updatePassportCountry, updatePassportExpiry, signOutAction } from "@/lib/actions";
+import { addHeldDocument, removeHeldDocument, updatePassportCountry, updatePassportExpiry, signOutAction, deleteAccount } from "@/lib/actions";
 import { VISA_STATUS_BORDER_CLASSES, VISA_STATUS_TEXT_CLASSES } from "@/lib/types";
 import { getExpiryStatus, EXPIRY_SEVERITY_CLASSES } from "@/lib/documents";
 import { listCountriesWithFacts } from "@/lib/countryFacts";
@@ -25,7 +25,7 @@ const VISA_REQUIRED_LABELS: Record<string, string> = {
   "advance-visa-required": "Advance visa needed",
 };
 
-export default async function ProfilePage() {
+export default async function ProfilePage({ searchParams }: { searchParams?: { delete?: string } }) {
   const user = await getCurrentUser();
 
   const [cascadeSections, easyAccess, visaRequired] = await Promise.all([
@@ -359,6 +359,37 @@ export default async function ProfilePage() {
           Full access, bought {user.entitlement.createdAt.toISOString().slice(0, 10)}. One payment, no subscription.
         </p>
       )}
+
+      <section className="rounded-panel border border-line p-5">
+        <h2 className="font-display text-lg text-ink">Your data</h2>
+        <p className="mt-1 max-w-prose font-body text-sm text-ink/65">
+          Download everything NextStamp holds about you, or delete your account. Card details are held by Stripe, never by us.
+        </p>
+        <a href="/api/account/export" className="btn-pill mt-3 inline-flex">
+          Download my data
+        </a>
+        <form action={deleteAccount} className="mt-5 max-w-sm space-y-2">
+          <label htmlFor="delete-confirm" className="font-body text-sm text-ink">
+            Delete my account
+          </label>
+          <p className="font-body text-xs text-ink/65">
+            This removes your documents, trips you own (co-travelers lose access), expenses you paid and your purchase record
+            here. It cannot be undone. Type DELETE to confirm.
+          </p>
+          <input
+            id="delete-confirm"
+            name="confirm"
+            autoComplete="off"
+            className="w-full rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
+          />
+          {searchParams?.delete === "confirm" && (
+            <p role="alert" className="font-body text-xs text-stampRed">
+              Type the word DELETE to confirm.
+            </p>
+          )}
+          <button className="font-body text-sm text-stampRed hover:underline">Delete account</button>
+        </form>
+      </section>
 
       <form action={signOutAction}>
         <button className="flex items-center gap-1.5 font-body text-xs text-ink/45 hover:text-ink hover:underline">

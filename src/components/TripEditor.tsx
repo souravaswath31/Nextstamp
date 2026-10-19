@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, ArrowUp, ArrowDown, Trash2, Plus, Save, CheckCircle2, Users, Link2, Copy, RefreshCw, CalendarRange, MapPin, Globe, EyeOff } from "lucide-react";
-import { updateTripDays, updateTripStatus, deleteTrip, ensureShareToken, removeCollaborator, updateTripPlanning, setTripPublic } from "@/lib/actions";
+import { updateTripDays, updateTripStatus, deleteTrip, ensureShareToken, resetShareToken, leaveTrip, removeCollaborator, updateTripPlanning, setTripPublic } from "@/lib/actions";
 import { estimateTripCost, getBudgetBreakdown, formatUsd, type CostTier } from "@/lib/costs";
 import { TRIP_STATUSES, type TripDay, type TripStatus } from "@/lib/types";
 import { createClient } from "@/utils/supabase/client";
@@ -94,6 +94,20 @@ export default function TripEditor({
     startTransition(async () => {
       const newToken = await ensureShareToken(tripId);
       setToken(newToken);
+    });
+  }
+
+  function resetInvite() {
+    if (!confirm("Reset the invite link? The old link will stop working. People already on the trip stay.")) return;
+    startTransition(async () => {
+      setToken(await resetShareToken(tripId));
+    });
+  }
+
+  function leaveThisTrip() {
+    if (!confirm("Leave this trip? You will lose access unless someone invites you again.")) return;
+    startTransition(async () => {
+      await leaveTrip(tripId);
     });
   }
 
@@ -430,7 +444,7 @@ export default function TripEditor({
               <div key={c.userId} className="flex items-center justify-between rounded-card bg-paperDark px-3.5 py-2">
                 <div>
                   <p className="font-body text-sm text-ink">{c.name}</p>
-                  <p className="font-body text-xs text-ink/50">{c.email}</p>
+                  {isOwner && c.email && <p className="font-body text-xs text-ink/50">{c.email}</p>}
                 </div>
                 {isOwner && (
                   <button
@@ -458,6 +472,13 @@ export default function TripEditor({
               >
                 <Copy size={12} /> {copied ? "Copied!" : "Copy link"}
               </button>
+              <button
+                onClick={resetInvite}
+                disabled={isPending}
+                className="shrink-0 font-body text-xs text-ink/55 hover:underline disabled:opacity-50"
+              >
+                Reset link
+              </button>
             </div>
           ) : (
             <button
@@ -469,9 +490,18 @@ export default function TripEditor({
             </button>
           )
         ) : (
-          collaboratorList.length === 0 && (
-            <p className="mt-2 font-body text-xs text-ink/50">Only the trip owner can invite co-travelers.</p>
-          )
+          <>
+            {collaboratorList.length === 0 && (
+              <p className="mt-2 font-body text-xs text-ink/50">Only the trip owner can invite co-travelers.</p>
+            )}
+            <button
+              onClick={leaveThisTrip}
+              disabled={isPending}
+              className="mt-3 font-body text-xs text-stampRed hover:underline disabled:opacity-50"
+            >
+              Leave this trip
+            </button>
+          </>
         )}
 
         {isOwner && (

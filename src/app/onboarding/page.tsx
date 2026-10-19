@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import { createClient } from "@/utils/supabase/server";
 import { completeOnboarding } from "@/lib/actions";
+import { getSupportedPassports } from "@/lib/supportedPassports";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = { title: "Welcome — NextStamp" };
@@ -20,6 +21,8 @@ export default async function OnboardingPage() {
   if (!authUser) {
     redirect("/login");
   }
+
+  const supported = await getSupportedPassports();
 
   return (
     <div
@@ -47,11 +50,13 @@ export default async function OnboardingPage() {
 
         <form action={completeOnboarding} className="space-y-4">
           <div>
-            <label className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
+            <label htmlFor="onboarding-name" className="font-stamp text-[11px] uppercase tracking-wide text-ink/45">
               Name
             </label>
             <input
+              id="onboarding-name"
               name="name"
+              maxLength={60}
               defaultValue={authUser.email?.split("@")[0]}
               required
               className="mt-1.5 w-full rounded-full bg-paperDark px-4 py-2.5 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
@@ -68,9 +73,21 @@ export default async function OnboardingPage() {
               id="onboarding-passport-country"
               name="passportCountry"
               placeholder="e.g. India"
+              list="supported-passports"
+              autoComplete="off"
+              maxLength={56}
               required
               className="mt-1.5 w-full rounded-full bg-paperDark px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-ink/10"
             />
+            <datalist id="supported-passports">
+              {supported.map((p) => (
+                <option key={p} value={p} />
+              ))}
+            </datalist>
+            <p className="mt-1.5 font-body text-xs text-ink/55">
+              Visa results work for {supported.join(", ")}. Any other passport can still use the guides and itineraries,
+              and you can ask for yours with the visa checker on the home page.
+            </p>
           </div>
           {/* Optional on purpose: asking for an expiry date at signup is a
               reasonable amount of friction to add, but making it required

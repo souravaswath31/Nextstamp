@@ -164,7 +164,8 @@ export async function joinGame(code: string, rawName: unknown): Promise<{ token:
 export async function viewFor(code: string, token: string | null, sinceVersion?: string | null): Promise<GameView | { unchanged: true }> {
   const game = await getGame(code);
   const me = token ? game.players.find((p) => p.token === token) : null;
-  if (!me) throw new GameError(403, "You are not in this game.");
+  // Same answer as a missing room, so probing codes without a token learns nothing.
+  if (!me) throw new GameError(404, "No game with that code. Check it and try again.");
   const version = `${game.updatedAt.getTime()}:${game.players.length}`;
   if (sinceVersion && sinceVersion === version) return { unchanged: true };
 
