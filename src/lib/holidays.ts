@@ -23,6 +23,7 @@ async function fetchHolidaysForYear(iso2: string, year: number): Promise<PublicH
   try {
     const res = await fetch(`${NAGER_BASE}/PublicHolidays/${year}/${iso2}`, {
       next: { revalidate: ONE_DAY },
+      signal: AbortSignal.timeout(4000),
     });
     if (!res.ok) return [];
     const data = (await res.json()) as unknown;

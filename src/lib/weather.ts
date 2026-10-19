@@ -78,7 +78,7 @@ async function fetchForecast(
     `&q=${encodeURIComponent(query)}&days=${days}&aqi=no&alerts=no`;
 
   try {
-    const res = await fetch(url, { next: { revalidate: ONE_HOUR } });
+    const res = await fetch(url, { next: { revalidate: ONE_HOUR }, signal: AbortSignal.timeout(4000) });
     if (!res.ok) return null;
     const data = (await res.json()) as {
       location?: { name?: string; country?: string };

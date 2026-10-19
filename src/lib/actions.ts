@@ -560,7 +560,9 @@ export async function addHeldDocument(formData: FormData) {
 }
 
 export async function removeHeldDocument(documentId: string) {
-  await prisma.heldDocument.delete({ where: { id: documentId } });
+  const user = await getCurrentUser();
+  // Scoped to the signed-in user: a document id on its own proves nothing.
+  await prisma.heldDocument.deleteMany({ where: { id: documentId, userId: user.id } });
   revalidatePath("/profile");
   revalidatePath("/explore");
 }

@@ -1,13 +1,14 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { createClient } from "@/utils/supabase/server";
+import { safeNext } from "@/lib/safeNext";
 
 // Where Supabase sends the user back — from a magic-link email OR from Google
 // OAuth. Both use the same PKCE code exchange, so one handler covers both.
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
-  const next = searchParams.get("next") ?? "/";
+  const next = safeNext(searchParams.get("next"));
 
   // The provider reports its own failures here as query params — a declined
   // Google consent screen, an expired link. Pass the reason back to /login

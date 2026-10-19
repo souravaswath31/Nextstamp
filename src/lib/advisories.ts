@@ -73,6 +73,7 @@ export async function getFcdoAdvisory(country: string): Promise<FcdoAdvisory | n
   try {
     const res = await fetch(`https://www.gov.uk/api/content/foreign-travel-advice/${slug}`, {
       next: { revalidate: SIX_HOURS },
+      signal: AbortSignal.timeout(4000),
     });
     if (!res.ok) return null;
     const data = (await res.json()) as {
@@ -180,6 +181,7 @@ async function getAdvisoryFeed(): Promise<string | null> {
     try {
       const res = await fetch("https://travel.state.gov/_res/rss/TAsTWs.xml", {
         next: { revalidate: SIX_HOURS },
+        signal: AbortSignal.timeout(4000),
       });
       if (!res.ok) return null;
       const xml = await res.text();

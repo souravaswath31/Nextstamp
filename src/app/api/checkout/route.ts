@@ -28,28 +28,34 @@ export async function POST(req: Request) {
 
   if (await userHasFullAccess(user.id)) return back("/profile");
 
-  const session = await getStripe().checkout.sessions.create({
-    mode: "payment",
-    client_reference_id: user.id,
-    customer_email: user.email,
-    line_items: [
-      {
-        quantity: 1,
-        price_data: {
-          currency: PRICE_CURRENCY,
-          unit_amount: PRICE_MINOR,
-          product_data: {
-            name: PRODUCT_NAME,
-            description: "One payment, no subscription. Unlocks saved trips, the cascade explorer, document-based visa results and expiry warnings.",
+  let session;
+  try {
+    session = await getStripe().checkout.sessions.create({
+      mode: "payment",
+      client_reference_id: user.id,
+      customer_email: user.email,
+      line_items: [
+        {
+          quantity: 1,
+          price_data: {
+            currency: PRICE_CURRENCY,
+            unit_amount: PRICE_MINOR,
+            product_data: {
+              name: PRODUCT_NAME,
+              description: "One payment, no subscription. Unlocks saved trips, the cascade explorer, document-based visa results and expiry warnings.",
+            },
           },
         },
-      },
-    ],
-    metadata: { product: PRODUCT_TAG },
-    payment_intent_data: { metadata: { product: PRODUCT_TAG, userId: user.id } },
-    success_url: `${SITE_URL}/purchase/return?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${SITE_URL}/pricing?purchase=cancelled`,
-  });
+      ],
+      metadata: { product: PRODUCT_TAG },
+      payment_intent_data: { metadata: { product: PRODUCT_TAG, userId: user.id } },
+      success_url: `${SITE_URL}/purchase/return?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${SITE_URL}/pricing?purchase=cancelled`,
+    });
+  } catch (err) {
+    console.error("[checkout] could not create a Stripe session", err instanceof Error ? err.message : err);
+    return back("/pricing?purchase=error");
+  }
 
   return NextResponse.redirect(session.url ?? new URL("/pricing", SITE_URL), 303);
 }

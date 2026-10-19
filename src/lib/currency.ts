@@ -30,6 +30,7 @@ export async function getSupportedCurrencies(): Promise<Record<string, string>> 
   try {
     const res = await fetch(`${FRANKFURTER_BASE}/currencies`, {
       next: { revalidate: 86_400 },
+      signal: AbortSignal.timeout(4000),
     });
     if (!res.ok) return {};
     const data = (await res.json()) as Record<string, string>;
@@ -51,6 +52,7 @@ export async function getRate(base: string, target: string): Promise<ConversionR
   try {
     const res = await fetch(`${FRANKFURTER_BASE}/latest?base=${b}&symbols=${t}`, {
       next: { revalidate: SIX_HOURS },
+      signal: AbortSignal.timeout(4000),
     });
     if (!res.ok) {
       return { supported: false, base: b, target: t, rate: null, asOf: null };
