@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import Image from "next/image";
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { Mail, Send, CheckCircle2 } from "lucide-react";
 import { createClient } from "@/utils/supabase/client";
@@ -33,7 +34,7 @@ function GoogleMark() {
   );
 }
 
-export default function LoginPage() {
+function LoginForm() {
   const searchParams = useSearchParams();
   const next = searchParams.get("next");
   const [email, setEmail] = useState("");
@@ -167,5 +168,14 @@ export default function LoginPage() {
         )}
       </div>
     </div>
+  );
+}
+
+// useSearchParams needs a Suspense boundary now that the root layout no longer forces every page to be dynamic.
+export default function LoginPage() {
+  return (
+    <Suspense fallback={null}>
+      <LoginForm />
+    </Suspense>
   );
 }
