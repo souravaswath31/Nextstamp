@@ -105,7 +105,7 @@ export default async function Dashboard() {
   const easyAccessCount = (await getEasyAccessDestinations(user)).length;
 
   return (
-    <div className="space-y-20 sm:space-y-28">
+    <div className="mx-auto w-full max-w-6xl space-y-20 px-5 pb-28 pt-8 sm:space-y-28 sm:px-8 sm:pt-10">
       <section className="pt-6 text-center sm:pt-14">
         <p className="flex items-center justify-center gap-1.5 font-stamp text-xs uppercase tracking-widest text-ink/45">
           <MapPinned size={13} /> {user.homeBaseLocation ?? "Home base not set"}

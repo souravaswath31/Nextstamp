@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/utils/supabase/server";
 import type { HeldDocument } from "@prisma/client";
 import { prisma } from "./prisma";
+import { hasAuthCookie } from "./authCookie";
 import { computeAccess, paymentsConfigured } from "./entitlement";
 
 /**
@@ -39,6 +40,7 @@ async function withAccess<U extends { id: string; createdAt: Date; heldDocuments
 // return shape hasn't changed, only where it comes from.
 export async function getCurrentUser() {
   const cookieStore = await cookies();
+  if (!hasAuthCookie(cookieStore.getAll().map((c) => c.name))) redirect("/login");
   const supabase = createClient(cookieStore);
   const {
     data: { user: authUser },
@@ -69,6 +71,7 @@ export async function getCurrentUser() {
 // there's no user to personalize for.
 export async function getOptionalUser() {
   const cookieStore = await cookies();
+  if (!hasAuthCookie(cookieStore.getAll().map((c) => c.name))) return null;
   const supabase = createClient(cookieStore);
   const {
     data: { user: authUser },

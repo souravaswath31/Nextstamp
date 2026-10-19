@@ -200,6 +200,9 @@ export default async function ItineraryDetailPage({ params }: { params: { slug: 
             <img
               src={itinerary.coverImageUrl}
               alt=""
+              width={1600}
+              height={600}
+              decoding="async"
               className="h-48 w-full object-cover sm:h-72"
             />
           </div>

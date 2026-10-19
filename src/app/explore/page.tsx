@@ -70,6 +70,9 @@ export default async function ExplorePage({
         <img
           src="/hero-tropical.jpg"
           alt=""
+          width={1600}
+          height={600}
+          decoding="async"
           className="h-40 w-full object-cover sm:h-56"
         />
       </div>

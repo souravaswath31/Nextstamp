@@ -3,7 +3,9 @@ import Link from "next/link";
 import { getSiteStats } from "@/lib/siteData";
 import { Block, PageHeader } from "@/components/site/MarketingBits";
 
-export const dynamic = "force-dynamic";
+// Public and the same for everyone, so it is served from cache and refreshed hourly.
+export const revalidate = 3600;
+
 
 export const metadata: Metadata = {
   title: "About NextStamp",

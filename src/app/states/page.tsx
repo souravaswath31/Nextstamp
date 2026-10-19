@@ -4,9 +4,11 @@ import TerrainHero from "@/components/TerrainHero";
 import StatesFilters from "@/components/StatesFilters";
 import type { Metadata } from "next";
 
+// Public and the same for everyone, so it is served from cache and refreshed hourly.
+export const revalidate = 3600;
+
 export const metadata: Metadata = { title: "US state guides — NextStamp", description: "Browse state-by-state guides to the places worth the drive, with maps, hidden spots and local food." };
 
-export const dynamic = "force-dynamic";
 
 export default async function StatesPage({
   searchParams,
@@ -31,6 +33,9 @@ export default async function StatesPage({
         <img
           src="/hero-mountain-drive.jpg"
           alt=""
+          width={1600}
+          height={600}
+          decoding="async"
           className="h-40 w-full object-cover sm:h-56"
         />
       </div>

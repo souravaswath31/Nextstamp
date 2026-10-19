@@ -5,6 +5,9 @@ import { SITE_URL } from "@/lib/siteUrl";
 
 const BASE_URL = SITE_URL;
 
+// Rebuilt at most hourly, so new itineraries and guides reach crawlers without a redeploy.
+export const revalidate = 3600;
+
 // Only the free browsable library goes in the sitemap — dashboard, profile,
 // my-trips, and trip/[id] are personal pages behind a real login and have
 // nothing for a crawler (or a logged-out visitor) to index.

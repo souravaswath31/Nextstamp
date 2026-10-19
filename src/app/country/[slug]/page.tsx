@@ -52,6 +52,7 @@ export async function generateMetadata({
   return {
     title: `${fact.country} travel guide — NextStamp`,
     description,
+    alternates: { canonical: `/country/${params.slug}` },
     openGraph: { title: `${fact.country} — NextStamp`, description },
   };
 }
@@ -87,6 +88,9 @@ export default async function CountryPage({ params }: { params: { slug: string }
           <img
             src={countryHeroFor(slugify(fact.country)) as string}
             alt=""
+            width={1600}
+            height={600}
+            decoding="async"
             className="h-48 w-full object-cover sm:h-72"
           />
         </div>
