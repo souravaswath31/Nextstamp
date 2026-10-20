@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PRICE_LABEL, REFUND_DAYS, TRIAL_DAYS } from "@/lib/entitlement";
 
 export const metadata: Metadata = {
   title: "Terms of Service — NextStamp",
@@ -49,6 +50,27 @@ export default function TermsPage() {
           You sign in with an email link or with Google; there is no NextStamp password. Keep access to your email
           account secure, since that's what secures your NextStamp account. You're
           responsible for the accuracy of the passport and document information you enter.
+        </p>
+      </section>
+
+      <section className="space-y-3" id="subscription">
+        <h2 className="font-display text-xl text-ink">Free trial, subscription, cancelling and refunds</h2>
+        <p className="font-body text-sm text-ink/70">
+          Browsing, the passport check and the guides are free. The personal features (saved trips, document-based visa results,
+          the cascade explorer, expiry warnings) are part of a plan with a {TRIAL_DAYS}-day free trial, then {PRICE_LABEL}.
+          To start the trial you add a card on Stripe&apos;s page; nothing is charged during the trial. On day {TRIAL_DAYS + 1}
+          the card is charged {PRICE_LABEL}, and the plan renews and charges again every year until you cancel. There is one free
+          trial per person.
+        </p>
+        <p className="font-body text-sm text-ink/70">
+          You can cancel at any time from Manage billing on the pricing page or your profile. If you cancel before the trial ends you are not
+          charged. If you cancel after a charge you keep access until the end of the period you paid for, and the plan does not renew.
+          Within {REFUND_DAYS} days of any charge, ask for a refund and you will get it, no questions asked; a refund ends the plan.
+          Payments are processed by Stripe. Prices may include or add sales tax, VAT or GST where the law requires it, shown before you pay.
+        </p>
+        <p className="font-body text-sm text-ink/70">
+          If a renewal payment fails we keep your access while Stripe retries the card for a few days; if it keeps failing the plan ends.
+          We may change the price for future renewals, and will tell you before it applies to you.
         </p>
       </section>
 

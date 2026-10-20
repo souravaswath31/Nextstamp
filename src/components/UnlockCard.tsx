@@ -15,7 +15,7 @@ export default function UnlockCard({ feature, children }: { feature: FeatureKey;
       </p>
       {children && <div className="mt-1 font-body text-sm text-ink/60">{children}</div>}
       <Link href={`/pricing?unlock=${feature}`} className="btn-pill btn-pill-accent mt-4 !px-5 !py-2 !text-sm">
-        Unlock for {PRICE_LABEL}, once
+        Try free for 30 days, then {PRICE_LABEL}
       </Link>
     </div>
   );

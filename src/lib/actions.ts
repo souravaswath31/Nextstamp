@@ -13,6 +13,8 @@ import { createClient } from "@/utils/supabase/server";
 import type { TripDay, TripStatus } from "./types";
 import { normalizeCountryInput } from "./countries";
 import { deleteAccountData } from "./accountData";
+import { paymentsConfigured } from "./entitlement";
+import { getStripe } from "./stripeServer";
 import { createAdminClient } from "@/utils/supabase/admin";
 import { MAX_MINOR, cleanText, cleanTripDays, coordinate, currencyCode, isoDate } from "./validate";
 import { EXPENSE_CATEGORIES, type ExpenseCategory } from "./expenses";
@@ -632,6 +634,20 @@ export async function deleteAccount(formData: FormData) {
   const user = await getCurrentUser();
   if (cleanText(formData.get("confirm"), 10).toUpperCase() !== "DELETE") {
     redirect("/profile?delete=confirm");
+  }
+  // A live subscription is cancelled FIRST. If that fails the account is left intact and the person is told, because
+  // deleting the account while Stripe keeps billing the card would be the worst outcome.
+  const sub = await prisma.entitlement.findUnique({ where: { userId: user.id }, select: { stripeSubscriptionId: true, status: true } });
+  if (sub?.stripeSubscriptionId && sub.status !== "canceled" && paymentsConfigured()) {
+    try {
+      await getStripe().subscriptions.cancel(sub.stripeSubscriptionId);
+    } catch (err) {
+      const code = (err as { code?: string }).code;
+      if (code !== "resource_missing") {
+        console.error("[account] could not cancel the subscription; account not deleted", user.id, err instanceof Error ? err.message : err);
+        redirect("/profile?delete=billing");
+      }
+    }
   }
   await deleteAccountData(user.id, user.email);
 

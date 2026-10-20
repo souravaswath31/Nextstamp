@@ -566,7 +566,8 @@ model TripFundEntry {
 model Entitlement {
   id                    String   @id @default(cuid())
   userId                String   @unique
-  status                String   @default("active") // "active" | "refunded"
+  // "trialing" | "active" | "past_due" | "canceled" | "refunded" (plus Stripe's other subscription states)
+  status                String   @default("active")
   source                String // "stripe" | "grant"
   stripeSessionId       String?  @unique
   stripePaymentIntentId String?  @unique
@@ -574,7 +575,16 @@ model Entitlement {
   currency              String?
   createdAt             DateTime @default(now())
 
+  // Mirrors the Stripe subscription (30-day trial, then yearly). Stripe is the source of truth.
+  stripeCustomerId     String?
+  stripeSubscriptionId String?   @unique
+  trialEnd             DateTime?
+  currentPeriodEnd     DateTime?
+  cancelAtPeriodEnd    Boolean   @default(false)
+
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([stripeCustomerId])
 }
 
 // A trip drafted from a social post (Phase B). Holds only what the user needs to
