@@ -24,6 +24,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return { robots: { index: false } };
   if (parsed.kind === "pair") {
     const base = baseRule(rules, parsed.passport, parsed.destination);
+    if (pairRules(rules, parsed.passport, parsed.destination).length === 0) {
+      return { title: `${parsed.passport} passport to ${parsed.destination} — not researched yet — NextStamp`, robots: { index: false, follow: true } };
+    }
     const title = `${parsed.destination} visa for ${parsed.passport} passport holders — NextStamp`;
     return {
       title,
@@ -97,7 +100,25 @@ export default async function VisaPage({ params }: Props) {
   const { passport, destination } = parsed;
   const base = baseRule(rules, passport, destination);
   const all = pairRules(rules, passport, destination);
-  if (all.length === 0) notFound();
+  if (all.length === 0) {
+    // A real passport and a real destination we simply have not researched together. Say so plainly rather than
+    // showing a 404, and keep it out of search results.
+    const researched = Array.from(new Set(rules.filter((r) => r.passport === passport).map((r) => r.destination))).sort();
+    return (
+      <div className="mx-auto max-w-3xl space-y-6">
+        <Crumbs items={[["Visa checker", "/visa"], [`${passport} passport`, `/visa/from/${slugify(passport)}`], [destination, null]]} />
+        <h1 className="font-display text-4xl tracking-tightest text-ink sm:text-5xl">{passport} passport to {destination}</h1>
+        <p className="max-w-2xl font-body text-lg text-ink/85">
+          We haven&apos;t researched this pair yet. That is not the same as &ldquo;no visa needed&rdquo;. Check {destination}&apos;s embassy or immigration authority before you book.
+        </p>
+        <p className="font-body text-sm text-ink/75">
+          We add pairs only when we can source them from an official page. Meanwhile there are {researched.length} destinations we have checked for the {passport} passport.
+        </p>
+        <Link href={`/visa/from/${slugify(passport)}`} className="btn-pill btn-pill-primary inline-flex">See the {researched.length} we have checked</Link>
+        <Disclaimer />
+      </div>
+    );
+  }
   const lead = base ?? all[0];
   const variants = all.filter((r) => r.requiresDocCountry);
   const others = Array.from(new Set(rules.filter((r) => r.passport === passport && r.destination !== destination).map((r) => r.destination))).sort().slice(0, 12);

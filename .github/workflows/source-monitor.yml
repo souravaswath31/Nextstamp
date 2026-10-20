@@ -20,10 +20,10 @@ permissions:
 
 jobs:
   watch:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - name: Load snapshots from the source-monitor branch
@@ -32,7 +32,7 @@ jobs:
             git fetch origin source-monitor
             git checkout origin/source-monitor -- monitor 2>/dev/null || true
           fi
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Run the monitor
