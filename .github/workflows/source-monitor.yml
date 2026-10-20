@@ -39,6 +39,8 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
+          # First run: there is no snapshots branch yet, so the folder does not exist for tee to write into.
+          mkdir -p monitor/snapshots
           TIER="${{ github.event.inputs.tier }}"
           if [ -z "$TIER" ]; then
             if [ "${{ github.event.schedule }}" = "17 5 * * *" ]; then TIER=A; else TIER=all; fi
