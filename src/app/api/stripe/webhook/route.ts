@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { paymentsConfigured } from "@/lib/entitlement";
-import { grantEntitlement, restoreByPaymentIntent, revokeByPaymentIntent } from "@/lib/entitlementDb";
+import { restoreByCustomer, revokeByCustomer, saveSubscription } from "@/lib/entitlementDb";
 import { getStripe } from "@/lib/stripeServer";
 import { handleStripeEvent } from "@/lib/stripeWebhook";
 
@@ -22,7 +22,23 @@ export async function POST(req: Request) {
   }
 
   try {
-    const outcome = await handleStripeEvent(event, { grant: grantEntitlement, revoke: revokeByPaymentIntent, restore: restoreByPaymentIntent });
+    const stripe = getStripe();
+    const outcome = await handleStripeEvent(event, {
+      save: saveSubscription,
+      revoke: revokeByCustomer,
+      restore: restoreByCustomer,
+      customerOfPaymentIntent: async (pi) => {
+        const intent = await stripe.paymentIntents.retrieve(pi);
+        return typeof intent.customer === "string" ? intent.customer : intent.customer?.id ?? null;
+      },
+      // A refund ends the plan: cancel any live subscription so the person is not billed again.
+      cancelForCustomer: async (customerId) => {
+        const subs = await stripe.subscriptions.list({ customer: customerId, status: "all", limit: 10 });
+        for (const s of subs.data) {
+          if (s.status !== "canceled" && s.metadata?.product === "nextstamp-full-access") await stripe.subscriptions.cancel(s.id);
+        }
+      },
+    });
     return NextResponse.json({ received: true, outcome });
   } catch (err) {
     // Logged with the event id so a failed delivery in the Stripe dashboard can be matched to a log line.

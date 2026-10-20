@@ -22,7 +22,11 @@ export async function exportAccount(userId: string) {
     account: { id: user.id, email: user.email, name: user.name, passportCountry: user.passportCountry, passportExpiry: user.passportExpiry, createdAt: user.createdAt },
     heldDocuments: user.heldDocuments,
     purchase: user.entitlement
-      ? { status: user.entitlement.status, source: user.entitlement.source, amountMinor: user.entitlement.amountMinor, currency: user.entitlement.currency, createdAt: user.entitlement.createdAt }
+      ? {
+          status: user.entitlement.status, source: user.entitlement.source, amountMinor: user.entitlement.amountMinor, currency: user.entitlement.currency,
+          trialEnd: user.entitlement.trialEnd, currentPeriodEnd: user.entitlement.currentPeriodEnd, cancelAtPeriodEnd: user.entitlement.cancelAtPeriodEnd,
+          createdAt: user.entitlement.createdAt,
+        }
       : null,
     trips: user.trips.map((t) => ({ ...t, shareToken: undefined, publicToken: undefined, collaborators: t.collaborators.map((c) => ({ name: c.user.name, joinedAt: c.createdAt })) })),
     tripsYouJoined: user.tripCollaborations.map((c) => ({ tripId: c.trip.id, title: c.trip.title, joinedAt: c.createdAt })),

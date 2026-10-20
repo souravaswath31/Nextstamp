@@ -39,7 +39,7 @@ export default function PrivacyPage() {
           <li><strong className="text-ink">Trips drafted from a post</strong> — if you use &ldquo;Trip from a link&rdquo;, we keep the link and the public text we read from it so you can see where each stop came from. Screenshots are read once and not stored. You can delete the saved text from the trip page.</li>
           <li><strong className="text-ink">Escape Hatch games</strong> — the first name you type, your answers and votes, and the game&rsquo;s settings. A game is deleted automatically after 7 days. If you choose to share a result, only the trip chosen and the group size are kept, with no names.</li>
           <li><strong className="text-ink">Waitlist signups</strong> — your email and what you asked to hear about. We do not send marketing email from it.</li>
-          <li><strong className="text-ink">Payment record</strong> — if you buy full access, we keep that you paid, the amount and the date. Card details go straight to Stripe and never reach us.</li>
+          <li><strong className="text-ink">Plan and payment record</strong> — if you start the free trial or subscribe, we keep your plan status, trial and renewal dates, the amount and your Stripe customer reference. Card details go straight to Stripe and never reach us.</li>
           <li><strong className="text-ink">Page-view counts</strong> — Vercel Web Analytics counts visits to pages. It sets no cookie and we do not attach it to your account, your documents or your trips.</li>
         </ul>
       </section>
@@ -77,7 +77,7 @@ export default function PrivacyPage() {
           From your <Link href="/profile" className="text-coral underline">Profile</Link> you can download everything we hold
           about you as a file, remove a document, and delete your account. Deleting your account removes your documents,
           the trips you own (people you shared them with lose access), expenses you paid on trips, your trip fund and your
-          purchase record here. It cannot be undone. You can also correct your passport details at any time. If you are in
+          plan record here, and cancels any subscription so you are not billed again. It cannot be undone. You can also correct your passport details at any time. If you are in
           the EU, UK or California you have the rights to access, correct, delete and port your data; the tools above cover
           them, and you can write to us for anything they do not.
         </p>

@@ -244,10 +244,10 @@ export default async function Landing() {
             <div>
               <p className={EYEBROW}>Pricing</p>
               <h2 className="mt-3 max-w-2xl font-display text-3xl tracking-tightest text-white sm:text-4xl">
-                Free to browse and check. $5, once, for the personal parts.
+                Free to browse and check. 30 days free for the personal parts, then $39 a year.
               </h2>
               <p className="mt-3 max-w-2xl font-body text-white/60">
-                No subscription. Payment isn&apos;t switched on yet; until it is, everything is free.
+                Cancel any time, and get a refund within 14 days of any charge. Payment isn&apos;t switched on yet; until it is, everything is free.
               </p>
             </div>
             <Link href="/pricing" className="btn-pill btn-pill-accent self-start">

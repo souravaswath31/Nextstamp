@@ -1,3 +1,4 @@
+import { describeSubscription } from "@/lib/entitlement";
 import { getCurrentUser } from "@/lib/currentUser";
 import { getCascadeExplorer, getEasyAccessDestinations, getVisaRequiredDestinations } from "@/lib/visa";
 import Link from "next/link";
@@ -25,7 +26,7 @@ const VISA_REQUIRED_LABELS: Record<string, string> = {
   "advance-visa-required": "Advance visa needed",
 };
 
-export default async function ProfilePage({ searchParams }: { searchParams?: { delete?: string } }) {
+export default async function ProfilePage({ searchParams }: { searchParams?: { delete?: string; billing?: string } }) {
   const user = await getCurrentUser();
 
   const [cascadeSections, easyAccess, visaRequired] = await Promise.all([
@@ -354,10 +355,21 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
         immigration site before booking or traveling.
       </p>
 
-      {user.entitlement?.status === "active" && user.entitlement.source === "stripe" && (
-        <p className="font-body text-xs text-ink/55">
-          Full access, bought {user.entitlement.createdAt.toISOString().slice(0, 10)}. One payment, no subscription.
-        </p>
+      {user.entitlement?.source === "stripe" && (
+        <section className="rounded-panel border border-line p-5">
+          <h2 className="font-display text-lg text-ink">Your plan</h2>
+          <p className="mt-1 max-w-prose font-body text-sm text-ink/75">
+            {describeSubscription(user.entitlement, (d) => d.toLocaleDateString("en-US", { day: "numeric", month: "long", year: "numeric" }))}
+          </p>
+          {searchParams?.billing === "error" && (
+            <p role="alert" className="mt-2 font-body text-xs text-stampRed">We couldn&apos;t open the billing page. Try again in a minute.</p>
+          )}
+          {user.entitlement.stripeCustomerId && (
+            <form action="/api/billing-portal" method="post" className="mt-3">
+              <button type="submit" className="btn-pill">Manage billing or cancel</button>
+            </form>
+          )}
+        </section>
       )}
 
       <section className="rounded-panel border border-line p-5">
@@ -373,8 +385,8 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
             Delete my account
           </label>
           <p className="font-body text-xs text-ink/65">
-            This removes your documents, trips you own (co-travelers lose access), expenses you paid and your purchase record
-            here. It cannot be undone. Type DELETE to confirm.
+            This removes your documents, trips you own (co-travelers lose access), expenses you paid and your plan record
+            here, and cancels any subscription so you are not billed again. It cannot be undone. Type DELETE to confirm.
           </p>
           <input
             id="delete-confirm"
@@ -382,6 +394,11 @@ export default async function ProfilePage({ searchParams }: { searchParams?: { d
             autoComplete="off"
             className="w-full rounded-card bg-paperDark px-3 py-2 font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-ink/10"
           />
+          {searchParams?.delete === "billing" && (
+            <p role="alert" className="font-body text-xs text-stampRed">
+              We couldn&apos;t cancel your subscription, so your account was not deleted and you won&apos;t be billed for a deleted account. Cancel from Your plan above, then try again.
+            </p>
+          )}
           {searchParams?.delete === "confirm" && (
             <p role="alert" className="font-body text-xs text-stampRed">
               Type the word DELETE to confirm.

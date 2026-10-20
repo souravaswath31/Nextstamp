@@ -14,9 +14,9 @@ Indian passport plus a valid US visa unlocks visa-free or on-arrival access to 2
 that neither document unlocks alone. Everything else (state guides, itineraries, packing
 lists, budgets) exists to make this a complete trip-planning tool, not just a visa checker.
 
-**Business model (not yet built):** eventually a $5 one-time purchase unlocking
+**Business model (built, off until Stripe keys are set):** a 30-day free trial, then $39 a year, unlocking
 personalization (visa status, cascade, saving trips) on top of a free browsable content
-library. Payment is intentionally not built yet — see Roadmap.
+library. See Phase D below and `docs/STRIPE_SETUP.md`.
 
 **Current stage:** a real, deployed, multi-user product. Supabase Auth (email magic link)
 replaced the single hardcoded user; Postgres (hosted on Supabase) replaced local SQLite;
@@ -1156,35 +1156,32 @@ database; the waitlist tests delete their `@example.test` rows afterwards.
   **Direct booking is a separate project and is not started.** It would need
   seller-of-travel registration where required, supplier contracts and legal review; do not
   start it without the project owner.
-- **Phase D, the $5 purchase (built; inert until Stripe keys are set).** Stripe Checkout,
-  one-time, `mode: "payment"` with the price inline (`src/lib/entitlement.ts`: 500 USD, tagged
-  `metadata.product = nextstamp-full-access`), `client_reference_id = user.id`. Routes:
-  `POST /api/checkout` (auth + same-origin; redirects to Stripe), `POST /api/stripe/webhook`
-  (raw-body signature check; grants on `checkout.session.completed` /
-  `async_payment_succeeded` only when paid and tagged; revokes on a full `charge.refunded` or
-  `charge.dispute.created`; partial refunds keep access), `GET /purchase/return` (asks Stripe about
-  the session and grants immediately so the buyer isn't waiting on the webhook; idempotent).
-  `Entitlement` table (one row per user; source `stripe` or `grant`; status `active|refunded`);
-  `prisma/sql/2026-10-phase-d.sql` must be applied **before** keys are set;
-  `prisma/grant-entitlement.ts <email>` gives someone access without paying (`--revoke` undoes it).
-  **The central rule: payment unconfigured => everyone has full access and the Entitlement table
-  is never queried**, so deploying this changes nothing until the owner flips it on.
-  Gate: `getCurrentUser()`/`getOptionalUser()` return `fullAccess`, `entitlement`, and a
-  `heldDocuments` that is **empty for users without access** (so every visa/readiness computation
-  follows the gate by default; the real list is `savedHeldDocuments`). Paid features per the brief:
-  documents tied to results (`addHeldDocument` gated, docs ignored when locked), the cascade
-  explorer and expiry warnings (profile/dashboard show an `UnlockCard`), and creating or
-  customising trips (`createTripFromItinerary`, `createBlankTrip`, `createTripFromImport`, `updateTripDays`; the last
-  checks the **trip owner's** access, so collaborators on a paid trip don't pay). Gated actions
-  redirect to `/pricing?unlock=<feature>` rather than throw. Not gated on purpose: browsing, the
-  public checker, the trip readiness report on trips someone already has, packing/expenses.
-  Env: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, optional `PAID_GRANDFATHER_BEFORE` (accounts
-  created before it keep access; **unset means nobody is grandfathered**, a product decision for
-  the owner). **Open before going live:** refund policy and tax handling (Stripe Tax) are owner/legal
-  decisions and the pricing page only states the mechanism; terms and privacy are drafts. **Not run
-  against real Stripe** (no keys): signature verification and event handling are unit-tested with
-  Stripe's own test-header generator, the routes were exercised with dummy keys (bad signature,
-  logged out, bad origin), the Stripe-hosted checkout redirect itself was not.
+- **Phase D, the subscription (rebuilt Oct 2026; inert until Stripe keys are set).** The owner's decision: **annual price
+  only, $39 a year, a 30-day free trial for everyone with a card collected up front (nothing charged for 30 days, then
+  charged on day 31 and yearly after), a 14-day no-questions refund after any charge.** It replaced an earlier $5 one-time
+  purchase. Stripe Checkout `mode: "subscription"` with `payment_method_collection: "always"`,
+  `subscription_data.trial_period_days = 30` (omitted for anyone who has had a subscription before: one trial per person),
+  price inline (`src/lib/entitlement.ts`: `PRICE_MINOR` 3900, `TRIAL_DAYS`, `REFUND_DAYS`, one place that every page reads),
+  tagged `metadata.product = nextstamp-full-access` on the session AND the subscription (`subscription_data.metadata`
+  also carries `userId`). Stripe is the source of truth; `Entitlement` mirrors it (`status` trialing|active|past_due|canceled|
+  refunded..., `trialEnd`, `currentPeriodEnd`, `cancelAtPeriodEnd`, `stripeCustomerId`, `stripeSubscriptionId`).
+  Routes: `POST /api/checkout`, `POST /api/billing-portal` (Stripe customer portal: update card, cancel in one click),
+  `POST /api/stripe/webhook` (raw-body signature check; mirrors `customer.subscription.created|updated|deleted`; a full
+  `charge.refunded` or `charge.dispute.created` switches access off AND cancels the subscription so a refund is never
+  followed by another charge; `charge.dispute.closed` won restores it; partial refunds keep access),
+  `GET /purchase/return` (asks Stripe about the session's subscription and mirrors it immediately; idempotent).
+  Access: `trialing`, `active` and `past_due` (Stripe is retrying the card) keep it; everything else ends it. A manual grant
+  (`prisma/grant-entitlement.ts <email>`) is never overwritten by Stripe. **Deleting an account cancels the subscription first
+  and refuses to delete if the cancellation fails.** SQL applied by hand: `prisma/sql/2026-10-phase-d.sql` then
+  `prisma/sql/2026-10-subscriptions.sql`. **The central rule is unchanged: payment unconfigured => everyone has full access and
+  the Entitlement table is never queried.** Gated features and how gating works are as before (`fullAccess`, empty
+  `heldDocuments` for users without access, gated actions redirect to `/pricing?unlock=<feature>`, trip edits check the
+  **owner's** access). Env: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, optional `STRIPE_AUTOMATIC_TAX=1`,
+  `PAID_GRANDFATHER_BEFORE` (now normally unset: the trial replaces grandfathering). **Setup, test and go-live steps are in
+  `docs/STRIPE_SETUP.md`.** **Not run against real Stripe** (no keys): subscription mapping, access rules and event handling are
+  unit-tested, the Stripe-hosted checkout and portal redirects were not. Auto-renewal law (FTC negative-option rule, state
+  auto-renewal laws, EU consumer rules) makes the lawyer review of `/terms` (new "Free trial, subscription..." section) and the
+  trial-ending reminder email (a Stripe dashboard setting) **required before going live**, not optional.
 
 ## Escape Hatch (`/escape`) - the multiplayer trip game
 
