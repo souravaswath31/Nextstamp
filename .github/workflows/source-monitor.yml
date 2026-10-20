@@ -52,7 +52,10 @@ jobs:
           git config user.email "source-monitor@users.noreply.github.com"
           git checkout --orphan snapshots-tmp
           git rm -rf --cached . >/dev/null 2>&1 || true
-          git add -f monitor/state.json monitor/snapshots
+          # Vercel builds every branch that is pushed. This one holds saved pages, not an app, so a build
+          # always fails and emails the owner. A vercel.json at its root switches deployments off for it.
+          printf '{\n  "git": { "deploymentEnabled": false },\n  "ignoreCommand": "exit 0"\n}\n' > vercel.json
+          git add -f vercel.json monitor/state.json monitor/snapshots
           git commit -m "Snapshots $(date -u +%F)" >/dev/null
           git push -f origin snapshots-tmp:source-monitor
       - name: Open an issue if pages changed
