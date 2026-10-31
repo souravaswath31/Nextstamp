@@ -1,0 +1,2259 @@
+{
+ "http://web.archive.org/web/20260201064231/https://igm.gob.gt/wp-content/uploads/2025/09/24.1.3-Reglamento-de-Visas-ACUERDO-NUMERO-IGM-015-2025.pdf": {
+  "checked": "2026-10-26T11:30:54+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "http://www.cgt-paris.diplomatie.gov.tn/index.php?id=139": {
+  "checked": "2026-10-26T11:30:55+00:00",
+  "status": "error URLError"
+ },
+ "https://abuja.mofa.go.ug/visa/visa-services": {
+  "checked": "2026-10-26T11:30:57+00:00",
+  "hash": "cf4bfe602ea963f8300292a58baa5acd44d85393f555c50d1cffc89152a560bd",
+  "status": "ok"
+ },
+ "https://adoption.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html": {
+  "checked": "2026-10-31T10:54:49+00:00",
+  "hash": "61fb99b2b9a03f8c02c492b5de4e939d449194ea19bccaab391abad317a03bb4",
+  "status": "ok"
+ },
+ "https://al.usembassy.gov/entering-and-residing/": {
+  "checked": "2026-10-26T11:30:59+00:00",
+  "status": "http 403"
+ },
+ "https://ambasadat.gov.al/united-kingdom/en/newsroom/pyetje-te-shpeshta/": {
+  "checked": "2026-10-26T11:31:00+00:00",
+  "hash": "aeb28a32ca67f083d5bc78db63186619c07b59b10475dbfa9b742a5643c6c43f",
+  "status": "ok"
+ },
+ "https://api.ireland.ie/en/dfa/visas-for-ireland/": {
+  "checked": "2026-10-26T11:31:06+00:00",
+  "hash": "2ac7be02e42bf8f64d35abe38fdcd3ada174841348423f35e0605a87aa0bb2a5",
+  "status": "ok"
+ },
+ "https://aplicacao.itamaraty.gov.br/ApiConcordia/Documento/download/34815": {
+  "checked": "2026-10-31T10:54:51+00:00",
+  "status": "http 406"
+ },
+ "https://aplicacao.itamaraty.gov.br/ApiConcordia/Documento/download/9149": {
+  "checked": "2026-10-26T11:31:09+00:00",
+  "status": "http 406"
+ },
+ "https://armenia.travel/plan-your-trip/flights-visa/": {
+  "checked": "2026-10-26T11:31:09+00:00",
+  "hash": "6300fdb2453da078d6d803f150e625459be315971df4453a7c5ddf28641facda",
+  "status": "ok"
+ },
+ "https://assets.ireland.ie/documents/List_of_Visa_Required_Non_Visa_Required_Nationalities_-_May_2025.pdf": {
+  "checked": "2026-10-26T11:31:21+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://australie.diplomatie.belgium.be/en/travel-belgium/visa-belgium": {
+  "checked": "2026-10-26T11:31:28+00:00",
+  "hash": "6fbdd0539bd7cd0b7c5741ac8c8095edb21ece8e27ecd9252a4f19efcdd3959d",
+  "status": "ok"
+ },
+ "https://bhutan.travel/visa": {
+  "checked": "2026-10-26T11:31:29+00:00",
+  "hash": "3c8f0a0df745793463e30a9122b160d9cbc1ea3a877a69d9a7da025a8850704a",
+  "status": "ok"
+ },
+ "https://bolivianembassy.co.uk/visa-grupos-1-2-3/": {
+  "checked": "2026-10-26T11:31:30+00:00",
+  "hash": "75efecfa7b0d8d4bf94bb9ae338c2ae21e17a7ec6bc1c0a66e82fa41b6b9219e",
+  "status": "ok"
+ },
+ "https://brazil.diplomatie.belgium.be/pt-br/visto-para-belgica/curta-estadia-na-belgica-e-no-espaco-schengen": {
+  "checked": "2026-10-26T11:31:32+00:00",
+  "hash": "3779a801cc72afcbda0050a7ead0b2cb045471c0b45b627093fd9a4fb464e085",
+  "status": "ok"
+ },
+ "https://canada.diplomatie.belgium.be/en/visa/visa-belgium": {
+  "checked": "2026-10-26T11:31:34+00:00",
+  "hash": "d86a9d2968a4ca67d0da855c5b2f874242aab812b833b1c9e029ecf82ba853c4",
+  "status": "ok"
+ },
+ "https://canberra.mfa.gov.az/en/category/asan-visa-e-visa/asan-viza-e-visa": {
+  "checked": "2026-10-26T11:31:36+00:00",
+  "status": "error URLError"
+ },
+ "https://cancilleria.gob.bo/mre/2025/12/01/23577/": {
+  "checked": "2026-10-26T11:31:38+00:00",
+  "hash": "c20ed8b0ec982ecd0c7f8b5055c143b61df1d1a182f6dc391520d0e232393d11",
+  "status": "ok"
+ },
+ "https://catla.cancilleria.gob.ar/en/node/75864": {
+  "checked": "2026-10-26T11:31:41+00:00",
+  "hash": "668488696770508e49b77bf73a585e06273802335623f6c9fef1736cdb8346cc",
+  "status": "ok"
+ },
+ "https://cdn.www.gob.pe/uploads/document/file/3284513/2315744-exoneracion-de-visas-pas-ordinario-16-07-2026-v2.pdf": {
+  "checked": "2026-10-26T11:31:43+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://cmrea.cancilleria.gob.ar/en/node/81411": {
+  "checked": "2026-10-26T11:31:45+00:00",
+  "hash": "7b24e1db3352beccdda7fcd5df4a29d159ddab7e49f61f4dd5592eab823c09ac",
+  "status": "ok"
+ },
+ "https://consular.dfa.gov.ph/visa-free-privileges-for-indian-nationals-entering-the-philippines/": {
+  "checked": "2026-10-31T10:54:52+00:00",
+  "status": "http 403"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=15&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:47+00:00",
+  "hash": "276d8f4e4695f549b236da0f5828c0aa5f2adc7a850d24b73cb884896f69db55",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=165&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:48+00:00",
+  "hash": "28174b04dad9d7c3e9ce6de3566e2a78b48ca793d2c017f34a7d78f329b3f44a",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=172&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:49+00:00",
+  "hash": "73df356cd295d51969bf39360482e233d38d02454afc33de3aabf84c81dc46fb",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=184&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:50+00:00",
+  "hash": "276d8f4e4695f549b236da0f5828c0aa5f2adc7a850d24b73cb884896f69db55",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=211&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:51+00:00",
+  "hash": "b141c5c420c013c0d87a1b9c5c61418bd97e0ef89107aeb8bfbd39ebd0ce36a0",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=31&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:52+00:00",
+  "hash": "2b3223794e057ff9f7fd1ace4eff314d51054568c58ce426ea523a409269bbc5",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=39&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:53+00:00",
+  "hash": "276d8f4e4695f549b236da0f5828c0aa5f2adc7a850d24b73cb884896f69db55",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=4&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:54+00:00",
+  "hash": "276d8f4e4695f549b236da0f5828c0aa5f2adc7a850d24b73cb884896f69db55",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=64&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:55+00:00",
+  "hash": "276d8f4e4695f549b236da0f5828c0aa5f2adc7a850d24b73cb884896f69db55",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=67&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:56+00:00",
+  "hash": "99db7fc63421f687ca0a694bc7b12835cc2028f62c84838809758d2ec7c0614f",
+  "status": "ok"
+ },
+ "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=92&tipoPasaporte=Ordinario&tipoVisa=visa_ts": {
+  "checked": "2026-10-26T11:31:57+00:00",
+  "hash": "644b0ab3eb25275a321c8721fa88be09d39a158482dda49a52c22096c4fda4d4",
+  "status": "ok"
+ },
+ "https://csidn.cancilleria.gob.ar/en/visas-foreign-citizens": {
+  "checked": "2026-10-26T11:32:00+00:00",
+  "hash": "ecb4409083041968e87955b8455b1e90ee14b52bfece58b334f8d84fead4841a",
+  "status": "ok"
+ },
+ "https://ctoro.cancilleria.gob.ar/en/node/677": {
+  "checked": "2026-10-26T11:32:03+00:00",
+  "hash": "a993c7648e49bcc164047dfe714a9d9fc4088af068cfc4e87f8ec1f79bbe3f3f",
+  "status": "ok"
+ },
+ "https://delhi.mfa.gov.hu/en/21-short-term-stay-in-hungary-not-exceeding-the-90-days-period": {
+  "changed": "2026-10-26T11:32:08+00:00",
+  "checked": "2026-10-26T11:32:08+00:00",
+  "hash": "b97183441cb9d27b4642478836f41499fc514ab87363617090afc4308bd82f7c",
+  "status": "ok"
+ },
+ "https://delhi.mfa.gov.hu/en/2_2-short-term-stay-in-hungary-visa-free-entry-to-hungary": {
+  "changed": "2026-10-26T11:32:11+00:00",
+  "checked": "2026-10-26T11:32:11+00:00",
+  "hash": "a2dfe040e6d593b8449817e7b2746721a6014e9774b8f65537dcfc5077837acd",
+  "status": "ok"
+ },
+ "https://ealem.cancilleria.gob.ar/es/node/84766": {
+  "checked": "2026-10-26T11:32:13+00:00",
+  "hash": "c2144603b9fab4300f1d6c30705a8c50ca4728fb7eb7894436c78af8c9adbab3",
+  "status": "ok"
+ },
+ "https://eindi.cancilleria.gob.ar/en/01-tourist-visa": {
+  "checked": "2026-10-26T11:32:16+00:00",
+  "hash": "1bf025c989c00f6f869ccee200bae8d56ba023c5bc3e54f8bf418a7beb95bf3b",
+  "status": "ok"
+ },
+ "https://embassyofpanama.org/visas-1": {
+  "checked": "2026-10-26T11:32:17+00:00",
+  "hash": "032af855d5b73a14b626b076bd7ebfdf7b6993d66b057ac4c91508055d384b0c",
+  "status": "ok"
+ },
+ "https://embwashington.mfaft.gov.jm/pdf/Country-Listing-March-3-2025.pdf": {
+  "checked": "2026-10-26T11:32:19+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://en.consul.mn/visa/c/83": {
+  "checked": "2026-10-26T11:32:20+00:00",
+  "hash": "3d4853d4a32c535b4b70d91bfa8db8e9ecb59a0fe10ceea47b5667d62199cf61",
+  "status": "ok"
+ },
+ "https://en.nia.gov.cn/n147418/n147463/c181470/content.html": {
+  "checked": "2026-10-31T10:54:56+00:00",
+  "hash": "445cee09cfa886971650d110d62dab8527d0e93b170c4a56bebb727090f40641",
+  "status": "ok"
+ },
+ "https://en.nia.gov.cn/n147418/n147463/c183390/content.html": {
+  "checked": "2026-10-31T10:54:57+00:00",
+  "hash": "75e8709cd12aee7a1e0e835a2996eeb9e8c9a8d45eebc25c057e136167d0b87c",
+  "status": "ok"
+ },
+ "https://epolo.cancilleria.gob.ar/userfiles/de_turismo_es_0.pdf": {
+  "checked": "2026-10-26T11:32:26+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://esing.cancilleria.gob.ar/en/node/82017": {
+  "checked": "2026-10-26T11:32:28+00:00",
+  "hash": "9930cff1432b3d7a692868254982e4392e8021fe66cc25a4cc47e77ca125e33a",
+  "status": "ok"
+ },
+ "https://eta.dha.gov.za/faq": {
+  "checked": "2026-10-26T11:32:30+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://eta.gov.lv": {
+  "checked": "2026-10-26T11:32:32+00:00",
+  "hash": "906bb13cb4498504fc476479a460736d70714f51248f6d8ad5c27ac96e3d8f58",
+  "status": "ok"
+ },
+ "https://etakenya.go.ke/how-to-apply": {
+  "checked": "2026-10-26T11:32:33+00:00",
+  "hash": "5698b9df972a53efc8934f3a2002d4db96af8297859c991a73d032aaa77e45be",
+  "status": "ok"
+ },
+ "https://eur-lex.europa.eu/eli/reg/2018/1806/oj/eng": {
+  "checked": "2026-10-31T10:54:58+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1806": {
+  "checked": "2026-10-26T11:32:34+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1806": {
+  "checked": "2026-10-26T11:32:34+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm": {
+  "changed": "2026-10-29T11:30:40+00:00",
+  "checked": "2026-10-31T10:54:59+00:00",
+  "hash": "aebec9b008d8ac885af4a9128d9a078429b5f08f4cb7c77ff3366b432b1be842",
+  "status": "ok"
+ },
+ "https://evisa.gov.bw/bw-evisa-api/api/v1/dictionary/nationalities": {
+  "checked": "2026-10-26T11:32:37+00:00",
+  "hash": "1b853664c55a4bb8877ce2b73cec7af0029d33501f46d679d3a518742e4875b7",
+  "status": "ok"
+ },
+ "https://evisa.imigrasi.go.id/front/info/evoa": {
+  "checked": "2026-10-31T10:55:00+00:00",
+  "status": "http 403"
+ },
+ "https://evisa.immigration.gov.gh/applicant-guide.html": {
+  "checked": "2026-10-26T11:32:41+00:00",
+  "hash": "3bcf84db14d6ff3aaee6f97cf2c31c904ab0e82cf4d258cdfb34d5325b58a99d",
+  "status": "ok"
+ },
+ "https://evisa.immigration.gov.gh/eta-applicant-guide.html": {
+  "checked": "2026-10-26T11:32:44+00:00",
+  "hash": "860c380b1e5d5f4107e0459ec6b921457ba58e31b4bde2419d6e1ed2ee83088b",
+  "status": "ok"
+ },
+ "https://evisa.xuatnhapcanh.gov.vn/en_US/web/guest/trang-chu-ttdt": {
+  "checked": "2026-10-31T10:55:03+00:00",
+  "hash": "7de62a81aeabb17fee1a2c3871f5aa93b63a632cbc32c2a18361674b756b43be",
+  "status": "ok"
+ },
+ "https://evisamada-mg.com/fr/home": {
+  "checked": "2026-10-26T11:32:47+00:00",
+  "hash": "0fc5ba552015652938f889d3ccaa6794906b37a1c6c13edcca52cf4e9b778d9b",
+  "status": "ok"
+ },
+ "https://eviza.mae.ro/ShortStayVisa": {
+  "checked": "2026-10-26T11:32:49+00:00",
+  "hash": "974a48409a8881a6dec59a9128ee5149787c64284cf2f7e8e834248a96514c9b",
+  "status": "ok"
+ },
+ "https://extranjeria.igm.gob.gt/index.php/clasificacion-paises": {
+  "checked": "2026-10-26T11:32:50+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://gdrfad.gov.ae/en/services/9017d6d0-8fb5-11f1-5210-4cd98f768936": {
+  "changed": "2026-10-30T11:23:26+00:00",
+  "checked": "2026-10-31T10:55:06+00:00",
+  "hash": "8ba3cb299506ca4bb0ecc33b4ae96b8feefcbbc9e77cb32a1d69bc686454fd5b",
+  "status": "ok"
+ },
+ "https://gis.gov.gh/visas/": {
+  "checked": "2026-10-26T11:32:58+00:00",
+  "hash": "587198a1b46b0916f898fd509a6697e44be531c52d78471f0ce127976ed3faa1",
+  "status": "ok"
+ },
+ "https://gov.hr/en/registration-of-temporary-residence-for-eea-nationals/1208": {
+  "checked": "2026-10-26T11:33:00+00:00",
+  "hash": "b1a3a44a034c9b3d098b77df8d3e32c5500fc7f24ed72913c7ad689692f59a1b",
+  "status": "ok"
+ },
+ "https://gov.uz/en/eco/news/view/99182": {
+  "changed": "2026-10-26T11:33:03+00:00",
+  "checked": "2026-10-26T11:33:03+00:00",
+  "hash": "7ab5a497495950e16e7f5636ce613fb2180e5bf3b1381c23a292976d190719a7",
+  "status": "ok"
+ },
+ "https://gov.uz/en/mfa/activity_page/o-zbekiston-respublikasi-vizasi": {
+  "changed": "2026-10-26T11:33:06+00:00",
+  "checked": "2026-10-26T11:33:06+00:00",
+  "hash": "6ed6bd6ad8e0f6a52bbb4b5665a7dca3292c343c0045812d60aa4a581b69d32b",
+  "status": "ok"
+ },
+ "https://home-affairs.ec.europa.eu/system/files/2020-05/regulation-2018-1806.pdf": {
+  "checked": "2026-10-31T10:55:07+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/": {
+  "checked": "2026-10-31T10:55:10+00:00",
+  "hash": "dd59cdecc79ac01a27c8c264ecc48d02aef704edec87ab0fff2592040906f479",
+  "status": "ok"
+ },
+ "https://identita.gov.mt/wp-content/uploads/2023/10/List-of-Third-Countries-whose-nationals-must-be-in-possession-of-a-visa-when-crossing-the-external-borders-.pdf": {
+  "checked": "2026-10-26T11:33:12+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://identita.gov.mt/wp-content/uploads/2023/10/List-of-third-countries-whose-nationals-are-exempted-from-holding-a-visa-when-crossing-the-external-borders.pdf": {
+  "checked": "2026-10-26T11:33:12+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://igm.gob.gt/files/REGLAMENTO-VISAS-GUATEMALTECAS-AMN-04-2025.pdf": {
+  "checked": "2026-10-26T11:33:13+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://image.mfa.go.th/mfa/0/eb9u2bRVs7/VISA/2025/FAQs_on_Thailand_s_e-visa/FAQs_on_Thailand.pdf": {
+  "checked": "2026-10-31T10:55:12+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://image.mfa.go.th/mfa/0/xPBEVeSDJi/visa.pdf": {
+  "checked": "2026-10-31T10:55:12+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://image.mfa.go.th/mfa/0/zE6021nSnu/0303/%E0%B8%9C.30.pdf": {
+  "checked": "2026-10-31T10:55:13+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601": {
+  "checked": "2026-10-31T10:55:13+00:00",
+  "hash": "b666305d68048393ab53065014d3bce5026ca96f64596bd4ec672a27af645133",
+  "status": "ok"
+ },
+ "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651": {
+  "checked": "2026-10-31T10:55:14+00:00",
+  "hash": "6374f7612430ba4f377c1c6a9747ae73ee3cee78c05a81b05067768e07a0e444",
+  "status": "ok"
+ },
+ "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas": {
+  "checked": "2026-10-31T10:55:15+00:00",
+  "hash": "beb2e29d4392e37fbf366220de8b544cd54ce49459a9b60855f5d4818b461bd3",
+  "status": "ok"
+ },
+ "https://immigration.go.ke/eta/": {
+  "checked": "2026-10-26T11:33:20+00:00",
+  "hash": "75bdd41801a2933ca78d36ba72c6e07f365193225f5faf1f547be07fbd4035c9",
+  "status": "ok"
+ },
+ "https://immigration.gov.mn/en/articles/264/": {
+  "checked": "2026-10-26T11:33:22+00:00",
+  "hash": "d0e77ed5c6d32e6bd48fc4fa6c9fafb89a236cb2331fd9f731f5b25732689402",
+  "status": "ok"
+ },
+ "https://immigration.gov.mn/en/articles/537/": {
+  "checked": "2026-10-26T11:33:24+00:00",
+  "hash": "02167346f9f481f5811e2fe6b68fed12088313cc4258b6cab9345f02f979034b",
+  "status": "ok"
+ },
+ "https://immigration.gov.np/eta-visa-nepal": {
+  "checked": "2026-10-26T11:33:25+00:00",
+  "status": "error URLError"
+ },
+ "https://in.china-embassy.gov.cn/eng/lsfw/qz/202504/t20250411_11593188.htm": {
+  "changed": "2026-10-31T10:55:18+00:00",
+  "checked": "2026-10-31T10:55:18+00:00",
+  "hash": "ad93d8bf645c2519395e4260d81b330677d377353f70de56a2ead92158ac2680",
+  "status": "ok"
+ },
+ "https://ind-chennai.mofa.go.kr/in-chennai-en/brd/m_2785/view.do?seq=750165": {
+  "checked": "2026-10-31T10:55:21+00:00",
+  "hash": "085479b7cba0dc0054b1b52b90d296424ee634932173769999eaaff430a51988",
+  "status": "ok"
+ },
+ "https://india.diplo.de/in-en/service/schengen-visa-faq-2610538": {
+  "changed": "2026-10-30T11:23:41+00:00",
+  "checked": "2026-10-31T10:55:23+00:00",
+  "hash": "347e1479f414e40c4a75c2665f23af0313907f533ef782e01536f428b801b0a7",
+  "status": "ok"
+ },
+ "https://india.diplomatie.belgium.be/en/travel-belgium/visa-belgium/visa-belgium-if-you-live-india": {
+  "checked": "2026-10-26T11:33:34+00:00",
+  "hash": "b11afe61389cc96d567cb01ac239640e00ffe8675593be23047356c2b4d5e53c",
+  "status": "ok"
+ },
+ "https://india.mfa.am/en/visaforindians/": {
+  "checked": "2026-10-26T11:33:36+00:00",
+  "hash": "59c79ef7faf67fa4f06b66cdeba0be1a24744722c12354c2ab120c6fe5a61e28",
+  "status": "ok"
+ },
+ "https://indianvisaonline.gov.in/evisa/tvoa.html": {
+  "checked": "2026-10-26T11:33:38+00:00",
+  "hash": "d731921c179293ec7bba999cbd9fe78f5ab3e4538d82c41948796b192dc98b88",
+  "status": "ok"
+ },
+ "https://irishimmigration.ie/wp-content/uploads/2023/02/Irish-Short-Stay-Visa-Waiver-Programme-February-2023.pdf": {
+  "checked": "2026-10-26T11:33:39+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://island.is/en/entry-requirements-to-iceland": {
+  "checked": "2026-10-26T11:33:41+00:00",
+  "hash": "47251130151068631aeffd58d10dbfa640a0c12bbe3eea0c21a585dc18841129",
+  "status": "ok"
+ },
+ "https://israel-entry.piba.gov.il/learn-about": {
+  "checked": "2026-10-26T11:33:42+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://israel-entry.piba.gov.il/learn-about-evisa-b2": {
+  "checked": "2026-10-26T11:33:42+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://jordanpass.jo/Contents/FAQs.aspx": {
+  "checked": "2026-10-26T11:33:43+00:00",
+  "hash": "4913431ae1eeaa97e3502e621f25eb36b2187f12cf990fc584f91cc806b06e5d",
+  "status": "ok"
+ },
+ "https://laoevisa.gov.la/fee-calculator": {
+  "checked": "2026-10-26T11:33:45+00:00",
+  "hash": "d019f76785e7f5072fb9e8dda35d33d4fd863079dca96d4836871df382a73991",
+  "status": "ok"
+ },
+ "https://matsne.gov.ge/en/document/view/2867377": {
+  "checked": "2026-10-26T11:33:48+00:00",
+  "hash": "2ddb50521adeb18918e7259b5baee6050a664d78993907dc3f6c7486cf265074",
+  "status": "ok"
+ },
+ "https://melbourne-cg.mfa.gov.tr/Mission/ShowInfoNote/121247": {
+  "checked": "2026-10-31T10:55:25+00:00",
+  "hash": "6da9661d3a7bf0e213a4c7628b4601caf48c9e839aa7589923a0bf45078773fc",
+  "status": "ok"
+ },
+ "https://mfa.gov.az/en/category/viza/vizasiz-gedis-gelis-rejimi-tetbiq-olunan-olkeler": {
+  "checked": "2026-10-26T11:33:53+00:00",
+  "status": "error URLError"
+ },
+ "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/australija": {
+  "checked": "2026-10-26T11:33:55+00:00",
+  "hash": "46357ae1c3b0d23e0a42844ef5aa389e37306a8e16d3ad6b24b54b0ca6c8f4c2",
+  "status": "ok"
+ },
+ "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/kanada": {
+  "checked": "2026-10-26T11:33:57+00:00",
+  "hash": "46357ae1c3b0d23e0a42844ef5aa389e37306a8e16d3ad6b24b54b0ca6c8f4c2",
+  "status": "ok"
+ },
+ "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/nemacka": {
+  "checked": "2026-10-26T11:34:00+00:00",
+  "hash": "bee42c087e8c0726281f33f0d58938d8ca59d632525d3c91d8ffbcf76693294c",
+  "status": "ok"
+ },
+ "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/nigerija": {
+  "checked": "2026-10-26T11:34:02+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/singapur": {
+  "checked": "2026-10-26T11:34:03+00:00",
+  "hash": "46357ae1c3b0d23e0a42844ef5aa389e37306a8e16d3ad6b24b54b0ca6c8f4c2",
+  "status": "ok"
+ },
+ "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/sjedinjene-americke-drzave": {
+  "checked": "2026-10-26T11:34:06+00:00",
+  "hash": "46357ae1c3b0d23e0a42844ef5aa389e37306a8e16d3ad6b24b54b0ca6c8f4c2",
+  "status": "ok"
+ },
+ "https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/ujedinjeno-kraljevstvo": {
+  "checked": "2026-10-26T11:34:08+00:00",
+  "hash": "1cfe0d81e9890b294c08050b0d3157fbb196826dc6d7933309bc76bc7b8cb102",
+  "status": "ok"
+ },
+ "https://mha.gov.na/countries-exempted": {
+  "checked": "2026-10-26T11:34:10+00:00",
+  "status": "error URLError"
+ },
+ "https://migration.gov.rw/visa-on-arrival": {
+  "checked": "2026-10-26T11:34:14+00:00",
+  "hash": "715bf5cdd3bf634040221b8d11a9aab6d155d7dcce1e72ef89193fd0ab4a072d",
+  "status": "ok"
+ },
+ "https://misiones.cubaminrex.cu/en/australia/consular-services": {
+  "checked": "2026-10-26T11:34:16+00:00",
+  "status": "error URLError"
+ },
+ "https://misiones.cubaminrex.cu/en/india/consular-services": {
+  "checked": "2026-10-26T11:34:16+00:00",
+  "status": "error URLError"
+ },
+ "https://misiones.cubaminrex.cu/es/articulo/la-visa-de-turismo-electronica-sera-obligatoria-para-la-entrada-cuba-desde-finales-de-1": {
+  "checked": "2026-10-26T11:34:16+00:00",
+  "status": "error URLError"
+ },
+ "https://mofa.gov.vn/tin-chi-tiet/chi-tiet/viet-nam-39-s-visa-exemption-list-57163-596.html": {
+  "changed": "2026-10-31T10:55:29+00:00",
+  "checked": "2026-10-31T10:55:29+00:00",
+  "hash": "40108f161e9ccc5e77084152d432a0e1ebfea5d37438ec3ceddbb23c37c8b033",
+  "status": "ok"
+ },
+ "https://moi.gov.jo/En/Pages/Restricted_and_Non_Restricted_Countries_Nationalities": {
+  "checked": "2026-10-26T11:34:22+00:00",
+  "hash": "bb10e892acb017b0730d98033d0952a3fffbbe2d3de6ffb3c3d98ced56811575",
+  "status": "ok"
+ },
+ "https://mvep.gov.hr/news-114694/visas/168136?big=0": {
+  "checked": "2026-10-26T11:34:24+00:00",
+  "hash": "8c2b4eb6484d370e8738e16f8d824fc3936fd7921242635aeecc6fc7751b8141",
+  "status": "ok"
+ },
+ "https://my.gov.uz/en/for-foreigners": {
+  "checked": "2026-10-26T11:34:28+00:00",
+  "hash": "bf92fe07a25e572ddfefb4f5334e99911e3f813e58fddad10483183b3f40518f",
+  "status": "ok"
+ },
+ "https://mzv.gov.cz/jnp/en/information_for_aliens/short_stay_visa/list_of_states_whose_citizens_are/index.html": {
+  "changed": "2026-10-26T11:34:31+00:00",
+  "checked": "2026-10-26T11:34:31+00:00",
+  "hash": "844d767b0c60d074864f7ed81f789b2006a709e2979d627ea968c78f844ee35e",
+  "status": "ok"
+ },
+ "https://mzv.gov.cz/jnp/en/information_for_aliens/short_stay_visa/list_of_states_whose_citizens_are_exempt/index.html": {
+  "changed": "2026-10-26T11:34:33+00:00",
+  "checked": "2026-10-26T11:34:33+00:00",
+  "hash": "c896c09e8a975b63774fef0243ee96a22bbdc73e8e988f712bda3d6f96664a1c",
+  "status": "ok"
+ },
+ "https://na.usembassy.gov/new-entry-requirements-for-u-s-citizen-tourists-entering-namibia-effective-april-1-2025/": {
+  "checked": "2026-10-26T11:34:34+00:00",
+  "status": "http 403"
+ },
+ "https://namibiaembassyusa.org/wp-content/uploads/2025/04/IMPLEMENTATION-OF-NEW-VISA-REQUIREMENTS-AND-ADDITITON-TO-THE-LIST-OF-COUNTRIES-BENEFITING-FROM-VISA-ON-ARRIVAL2025.pdf": {
+  "checked": "2026-10-26T11:34:34+00:00",
+  "status": "http 403"
+ },
+ "https://namibiaembassyusa.org/wp-content/uploads/2025/09/FactSheetVisaRequirementstoNamibia.pdf": {
+  "checked": "2026-10-26T11:34:34+00:00",
+  "status": "http 403"
+ },
+ "https://newdelhi.mfa.gov.az/en/category/asan-visa-e-visa": {
+  "checked": "2026-10-26T11:34:36+00:00",
+  "status": "error URLError"
+ },
+ "https://newyork.china-consulate.gov.cn/eng/lsfw/Visa/202512/t20251230_11790001.htm": {
+  "checked": "2026-10-31T10:55:31+00:00",
+  "hash": "a4c750c3aaf02dc7b5b08e849f10c17670679553a4be8d52f0b9e1576a1efa3d",
+  "status": "ok"
+ },
+ "https://newyorkpcg.org/pcgny/helpie_faq/what-are-the-requirements-for-visa-free-entry-to-the-philippines/": {
+  "checked": "2026-10-31T10:55:33+00:00",
+  "hash": "57ee24860b240c36f03e09156975f66b35789cfbf39c3b5810be19a707bfe7e7",
+  "status": "ok"
+ },
+ "https://nyidanmark.dk/-/media/Files/US/Visum/Diverse-filer/Overview-of-travel-documents-visa-requirements-and-border-crossing-points180625.pdf": {
+  "checked": "2026-10-26T11:34:46+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://nyidanmark.dk/en-GB/Words-and-concepts/US/Visum/Countries-with-a-visa-requirement-and-visa-free-countries/": {
+  "checked": "2026-10-26T11:34:47+00:00",
+  "hash": "4bce622baeedaaee811fe5d4201f4c47db1005e019fab861d4d9554b39a652f5",
+  "status": "ok"
+ },
+ "https://nyidanmark.dk/en-GB/You-want-to-apply/Short-stay-visa/Private-visits-and-tourist-visits-": {
+  "checked": "2026-10-26T11:34:49+00:00",
+  "hash": "7c0524683ae7fbafa1b5a58365e6520323628b47a1b778702d93f6adb24a3ec6",
+  "status": "ok"
+ },
+ "https://nyidanmark.dk/en-GB/You-want-to-apply/Short-stay-visa/Visa-free-visits": {
+  "checked": "2026-10-26T11:34:50+00:00",
+  "hash": "049d44ec1fb919bba330e8ad2018f35d7e9d2237c854cf616351bde422df711b",
+  "status": "ok"
+ },
+ "https://oif.gov.hu/factsheets/registration-certificate-for-eea-nationals": {
+  "checked": "2026-10-26T11:34:52+00:00",
+  "hash": "d072babd62fe7031d19760e5763932a9503d62fdca8069aabe2f079bf9acb65c",
+  "status": "ok"
+ },
+ "https://passport.govmu.org/passport/wp-content/uploads/2021/03/Visa-Requirement-Country-2025.pdf": {
+  "checked": "2026-10-26T11:34:55+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://portal.moi.gov.qa/wps/wcm/connect/wcmlib-internet-en/sa-departmentcommittee/generaladministrationofnationalitybordersandexpatriateaffairs/visas/dd": {
+  "checked": "2026-10-31T10:55:36+00:00",
+  "hash": "fb44a829fc8611a0a25d2bc6d208419431a5b8d608f1dc0ae4ed67ac7c75046e",
+  "status": "ok"
+ },
+ "https://portal.moi.gov.qa/wps/wcm/connect/wcmlib-internet-en/sa-departmentcommittee/generaladministrationofnationalitybordersandexpatriateaffairs/visas/sad": {
+  "checked": "2026-10-31T10:55:39+00:00",
+  "hash": "ccd69f545d37f559d8db4e678eecbb5c42f86383148cdeac84962a6c2e0b7c62",
+  "status": "ok"
+ },
+ "https://singapore.diplomatie.belgium.be/en/travel-belgium/visa-belgium/short-stay-visa": {
+  "checked": "2026-10-26T11:35:01+00:00",
+  "hash": "0c04058f1746d24f79a5de9118caae4c7e5a19ef79e2d9770f900f25b74d5bf2",
+  "status": "ok"
+ },
+ "https://tia.immigration.gov.np/arrival-information": {
+  "checked": "2026-10-26T11:35:02+00:00",
+  "status": "error URLError"
+ },
+ "https://tokyo.philembassy.net/consular-section/services/visa/visa-free-entry-for-temporary-visits/": {
+  "changed": "2026-10-30T11:23:58+00:00",
+  "checked": "2026-10-31T10:55:41+00:00",
+  "hash": "ac43afe7bb6ccdab418db097f10fc04d6753eadca4e1a6c1898cb90c05bc58ae",
+  "status": "ok"
+ },
+ "https://trade.gov/country-commercial-guides/slovakia-business-travel": {
+  "checked": "2026-10-26T11:35:05+00:00",
+  "hash": "683fc17e05982c38de0e413786de18198e1b7b7b672e919793ef46961b00040a",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/albania": {
+  "checked": "2026-10-26T11:35:07+00:00",
+  "hash": "77be5cbe68a6be40125deeed0f894f4fc31bf87861449e1d418cb6172f29d9f2",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/azerbaijan": {
+  "checked": "2026-10-26T11:35:09+00:00",
+  "hash": "35e7c66eb8e8153ec68ddc10b3325b078bfeb78d7a3a0231493b9d1eb4635869",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/bolivia": {
+  "checked": "2026-10-26T11:35:11+00:00",
+  "hash": "e9d6d46b7b39d05faf957e49160ea67442ee6ca44a5ceecede2a6de6ca809267",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/botswana": {
+  "checked": "2026-10-26T11:35:13+00:00",
+  "hash": "28b3a78fe2b8e5133c52c7ca5c4104c6d12a4c56865dcf41e7d94c002fe3f8b5",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/bulgaria": {
+  "checked": "2026-10-26T11:35:16+00:00",
+  "hash": "24ed0ae8fa3823687c04430c9b970da4db5bce874cc2fc974c361a0ffce0c146",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/colombia": {
+  "checked": "2026-10-26T11:35:18+00:00",
+  "hash": "3cc7c82ec209cdc3ed478479ebb00283722576342e7503b1f5a8a26a319c8b33",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/croatia": {
+  "checked": "2026-10-26T11:35:22+00:00",
+  "hash": "000f79c6e42a3293e20c8d950d853fb6578a6439dff4b946a3d931bee3f65fdb",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/cuba": {
+  "checked": "2026-10-26T11:35:24+00:00",
+  "hash": "10f390cb0bddb7065090aaa86bfecf97bc5ee5ef2df186a71515f8135565051e",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/cyprus": {
+  "checked": "2026-10-26T11:35:26+00:00",
+  "hash": "bd567eb9ad6ae99fd6b955c6a567a478885423636e33ccd98be29d8a5921604c",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/ecuador": {
+  "checked": "2026-10-26T11:35:28+00:00",
+  "hash": "ca78e5f14d21e42a0527d79b36155b41f1007fe69e3cb3aae212e0d68f5ed25d",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/ethiopia": {
+  "checked": "2026-10-26T11:35:30+00:00",
+  "hash": "53f2fdb328d106874134ac7108fb91ef294507dedfbc5952de59ed498c9e5471",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/finland": {
+  "checked": "2026-10-26T11:35:33+00:00",
+  "hash": "0b7f85931f6ab419898abb3002eef247221f70d9683e20f74708af738b40073e",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/georgia": {
+  "checked": "2026-10-26T11:35:35+00:00",
+  "hash": "4432327f694b6fea34531dc409d3514a67d412a74e453ba64416c8dba5558484",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/guatemala": {
+  "checked": "2026-10-26T11:35:37+00:00",
+  "hash": "214d384e1e0155bd0c19e30a608620a9c51ead2ace918333d3b7b2d78c862a95",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/hungary": {
+  "checked": "2026-10-26T11:35:39+00:00",
+  "hash": "1208c4e4bc787c64cca2145fa2d9b1f920ba981b3920c683cf7388f454700b81",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/iceland": {
+  "checked": "2026-10-26T11:35:40+00:00",
+  "hash": "19e03c6290f79ed91b1abffc79a44122f06570a23ed37f74d93ae51b4f8c1b39",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/ireland": {
+  "checked": "2026-10-26T11:35:42+00:00",
+  "hash": "2548fc1c3f0173b91799365ab8f95a9c6ab7b10169d3dc2e7cb39570c1fff655",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/japan": {
+  "changed": "2026-10-27T10:33:45+00:00",
+  "checked": "2026-10-31T10:55:43+00:00",
+  "hash": "bb77bf8e453f5aed80b8d67c5ae91e2d2c80693614e08d564d159326464ea013",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/jordan": {
+  "changed": "2026-10-26T11:35:48+00:00",
+  "checked": "2026-10-26T11:35:48+00:00",
+  "hash": "04e1ba63eed87a8c5d544b91ba0ed2d4ed7ba37603129423cfaa23d23c4e91b9",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/kazakhstan": {
+  "checked": "2026-10-26T11:35:49+00:00",
+  "hash": "349d6083fcad9ecf377b04d268ae4dd6dd1f6736335f53f91d6ada9c894bbb3c",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/laos": {
+  "checked": "2026-10-26T11:35:51+00:00",
+  "hash": "d7d9724f37903f39fd61c44e9d976ff18bb8954cdb06cf0faa9c180b4ad0eb2e",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/lithuania": {
+  "checked": "2026-10-26T11:35:53+00:00",
+  "hash": "602c3d0f4322f9cddc636e4ce85687f3337c7c25fbe4249426b025a1335fbc5d",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/madagascar": {
+  "checked": "2026-10-26T11:35:55+00:00",
+  "hash": "f3610288fc3e7892f1fdd410b201f29503aa123fb6fd48064df3bb137b540371",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/malaysia": {
+  "checked": "2026-10-31T10:55:47+00:00",
+  "hash": "0b7c833317463d5f82a873087d5afd44dc6b266fbe36a10cfd01a051fcdfbfa3",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/maldives": {
+  "checked": "2026-10-31T10:55:50+00:00",
+  "hash": "feabedaba0ce7cac91231912e1cac5abb575b70393bdaa3a2d7569c92eef845b",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/mauritius": {
+  "checked": "2026-10-26T11:36:00+00:00",
+  "hash": "72bf86b224fb9abb380fbb5f8d98dae642efb461efd59cfa29fd3ac19ed4e38a",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/mexico": {
+  "checked": "2026-10-31T10:55:52+00:00",
+  "hash": "83047de556a22d8db07efbafa4d7eb0189adea0b33442faf03bd14dedaa04d0b",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/morocco": {
+  "checked": "2026-10-31T10:55:54+00:00",
+  "hash": "f6424755929f1beec33492a1e3b39f01fb7de0b0bbd841c6e008c2f0f512e159",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/namibia": {
+  "checked": "2026-10-26T11:36:06+00:00",
+  "hash": "77deb9291cec0dab8093895330c62907a8fa8ac6053e1e06a219e0292a920fd4",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/norway": {
+  "checked": "2026-10-26T11:36:08+00:00",
+  "hash": "c50f5b9558a986bace69a7ef3149439e2ee7f0823d51970e4259830d84051331",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/panama": {
+  "checked": "2026-10-26T11:36:10+00:00",
+  "hash": "c24220a536f2a64b9cafd85c80b1bb2e26266e2d0ef48a5f524c11682f398cb1",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/philippines": {
+  "checked": "2026-10-31T10:55:56+00:00",
+  "hash": "734bdc0188b741f694924cc1b2e9cd07e464aec0514ed6bb9d5ba5284c2ac007",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/romania": {
+  "checked": "2026-10-26T11:36:13+00:00",
+  "hash": "0353a078bb740d93947153b0d3bc2057567b21a877960e175dca0618c36cd90e",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/saudi-arabia": {
+  "changed": "2026-10-30T11:24:09+00:00",
+  "checked": "2026-10-31T10:55:58+00:00",
+  "hash": "b5eef0fb6fda593e14e556ab73c6fe2ace4408bb51b2d6587766071b433dbb46",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/senegal": {
+  "checked": "2026-10-26T11:36:17+00:00",
+  "hash": "71df742d391ee47cbe8ca55326e8a1b3a93f6aad286dfe848bb1164078a61981",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/singapore": {
+  "checked": "2026-10-31T10:55:59+00:00",
+  "hash": "2aa333cb970ca1d14038b86b7a26639ec767e17d44059e397ad4b03ac47661ed",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/slovakia": {
+  "checked": "2026-10-26T11:36:23+00:00",
+  "hash": "5f75e44a370dd7eb56d24ad3493a9fff31020900a9311066069f30ca35a9b64d",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/south-korea": {
+  "checked": "2026-10-31T10:56:01+00:00",
+  "hash": "1690547dd449f780a5918fce288fe3acfa186c1f49b7d6b416fdcba0575a8783",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/tunisia": {
+  "checked": "2026-10-26T11:36:27+00:00",
+  "hash": "59b51b7512be41247d745aabf1c31aece7d3d0abb74e654823b35ea2ea68e717",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/turkey": {
+  "checked": "2026-10-31T10:56:05+00:00",
+  "hash": "5639c6344cac42531d7ee32c07328f135feec0e5886c0359747bf40a97d908aa",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/united-arab-emirates": {
+  "checked": "2026-10-31T10:56:09+00:00",
+  "hash": "332a2487f8c61811bb17ee25a551ea5c2de6de0b369148ca2788113a82562890",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/uruguay": {
+  "checked": "2026-10-26T11:36:33+00:00",
+  "hash": "903a47f25151bbfd68bd449034849aa0976cc901c99537ba0bc2bb0fcfc0dd7e",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/vietnam": {
+  "checked": "2026-10-31T10:56:11+00:00",
+  "hash": "e436b9962bc76af5acb8bd3baa400b52a6c6f393235fb939fa67552b8d5546e1",
+  "status": "ok"
+ },
+ "https://travel.gc.ca/destinations/zimbabwe": {
+  "checked": "2026-10-26T11:36:36+00:00",
+  "hash": "04acf5fd19c3bdb452ab84d6852c57058a154d0f9828acb551b0ee56a06c102a",
+  "status": "ok"
+ },
+ "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Norway.html": {
+  "checked": "2026-10-26T11:36:37+00:00",
+  "status": "http 403"
+ },
+ "https://unitedstates.diplomatie.belgium.be/en/visa-belgium/schengen-visa-c-visa-90-days": {
+  "checked": "2026-10-26T11:36:39+00:00",
+  "hash": "fe3ff738f3456f385a6864497c30c386a218f1f2c9b5d72a7691c52a0dc771a9",
+  "status": "ok"
+ },
+ "https://usa-dallas.mofa.go.kr/us-dallas-en/brd/m_26375/view.do?seq=761099": {
+  "checked": "2026-10-31T10:56:13+00:00",
+  "hash": "b0b0218f25b50740cc9e96d8f10b96474a82b8f494a3b8b95e852e21450b5eb7",
+  "status": "ok"
+ },
+ "https://visa.immigration.go.tz/guidelines": {
+  "checked": "2026-10-26T11:36:42+00:00",
+  "status": "error URLError"
+ },
+ "https://visa.visitsaudi.com/": {
+  "checked": "2026-10-31T10:56:14+00:00",
+  "hash": "6859157a418f6001e7fe267ce4277f4b885284f5d36147fb8e6e481e360330a7",
+  "status": "ok"
+ },
+ "https://visa2egypt.gov.eg/eVisa/FAQ": {
+  "checked": "2026-10-31T10:56:16+00:00",
+  "hash": "669eb0e1406f176f492da53034fd4affca630afea3f5501bbb7bea4ac7d262b3",
+  "status": "ok"
+ },
+ "https://vistoperitalia.esteri.it/": {
+  "checked": "2026-10-31T10:56:18+00:00",
+  "hash": "449cbb34cf1f9debd2a775ec17e7532396ef72256a0efbe8ef1ed88e25711198",
+  "status": "ok"
+ },
+ "https://vistos.mne.gov.pt/en/short-stay-visas-schengen/general-information/who-needs-a-visa": {
+  "checked": "2026-10-31T10:56:21+00:00",
+  "status": "http 403"
+ },
+ "https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-schengen-visa": {
+  "checked": "2026-10-26T11:36:49+00:00",
+  "hash": "d329992592b6dd5514a36fd325915eadb04ceb62a502fc54d286e212caa0493c",
+  "status": "ok"
+ },
+ "https://vm.ee/en/consular-visa-and-travel-information/visa-information/who-does-not-need-visa-visit-estonia": {
+  "checked": "2026-10-26T11:36:51+00:00",
+  "hash": "70d81726ee93e8b9de3f7a74a2cbd53b7b1eefcaed820288246b2b1261fca054",
+  "status": "ok"
+ },
+ "https://washington.mfa.gov.sg/visa-and-entry-requirements/": {
+  "changed": "2026-10-30T11:24:27+00:00",
+  "checked": "2026-10-31T10:56:23+00:00",
+  "hash": "b9b7f5dd0c0ef5a081e4273694f91565345155cc663655ea2fa53b13f167e79a",
+  "status": "ok"
+ },
+ "https://web.archive.org/web/20260809142828/https://punetejashtme.gov.al/en/informacione-mbi-regjimin-e-vizave-te-shtetasve-te-huaj/": {
+  "checked": "2026-10-26T11:36:54+00:00",
+  "hash": "371184db779f3b197017c943a799a0f38856b38f35a647823fa1822504740781",
+  "status": "ok"
+ },
+ "https://welcometoserbia.gov.rs/short-stay-visa-visa-c": {
+  "checked": "2026-10-26T11:36:56+00:00",
+  "hash": "12c928c8a600c49d8efa91ba0ff1bffc993d0cfaa312b6519752106d7519d464",
+  "status": "ok"
+ },
+ "https://welcometoserbia.gov.rs/short-term-stay-with-a-visa-of-another-foreign-country": {
+  "checked": "2026-10-26T11:36:57+00:00",
+  "hash": "20d5b2412d949ba352cb2b15712de7df76ad8240b787851f2e075c41da7bef74",
+  "status": "ok"
+ },
+ "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf": {
+  "checked": "2026-10-31T10:56:24+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.aduana.gob.ec/wp-content/uploads/2025/10/Reglamento-a-la-Ley-Organica-de-Movilidad-Humana.pdf": {
+  "checked": "2026-10-26T11:37:01+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.auswaertiges-amt.de/de/reiseundsicherheit/armeniensicherheit-201872": {
+  "changed": "2026-10-26T11:37:02+00:00",
+  "checked": "2026-10-26T11:37:02+00:00",
+  "hash": "6b4555309092e480324655aad78a0a206e074b35ec0cf5c0a0db393002fbbac7",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/reiseundsicherheit/japansicherheit-213032": {
+  "changed": "2026-10-31T10:56:25+00:00",
+  "checked": "2026-10-31T10:56:25+00:00",
+  "hash": "d1c591a24636bee28daf0eb575a382ecd8421f167ec86671b918b467dad4164e",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/reiseundsicherheit/korearepubliksicherheit-216132": {
+  "changed": "2026-10-30T11:24:29+00:00",
+  "checked": "2026-10-31T10:56:27+00:00",
+  "hash": "836d08a805c74d08be553127584eece42d6f943041a9d137a1d782ba82ec798e",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kubasicherheit-212208": {
+  "changed": "2026-10-26T11:37:08+00:00",
+  "checked": "2026-10-26T11:37:08+00:00",
+  "hash": "bf2a068495b1363a1cb49b063c3eebc92d1a79c5e9400379a41ef7369c1a2514",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048": {
+  "changed": "2026-10-26T11:37:10+00:00",
+  "checked": "2026-10-26T11:37:10+00:00",
+  "hash": "e75989a490b4da3967179543bcd4b80a966470e921ef2ebaec608043e345ed9b",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/reiseundsicherheit/maledivensicherheit-220382": {
+  "changed": "2026-10-29T11:31:57+00:00",
+  "checked": "2026-10-31T10:56:28+00:00",
+  "hash": "660ac830e8555e2a7c3bdd4bfc79e095bffa7f4b3021149339b3abcbd32440e7",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuerkeisicherheit-201962": {
+  "changed": "2026-10-29T11:31:58+00:00",
+  "checked": "2026-10-31T10:56:31+00:00",
+  "hash": "22a937a6717b26c108ba9fcbaafaf68da701667a984923d89ed33c8d59e2bb64",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/albanien-node/albaniensicherheit-216248": {
+  "changed": "2026-10-26T11:37:15+00:00",
+  "checked": "2026-10-26T11:37:15+00:00",
+  "hash": "9090fd679904f4db9f20935ce29a5b859409f617bda29f74c8ea9a6bf8c93ac0",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/bolivien-node/boliviensicherheit-213428": {
+  "changed": "2026-10-26T11:37:17+00:00",
+  "checked": "2026-10-26T11:37:17+00:00",
+  "hash": "debfb37fa8239c4bb1a1114f97c53b890a57f038bd5b332d4a9970a8c2f42fea",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/georgien-node/georgiensicherheit-201918": {
+  "changed": "2026-10-26T11:37:19+00:00",
+  "checked": "2026-10-26T11:37:19+00:00",
+  "hash": "f03db99755804ae11b807bc97fcbd414aad7bdde2ef3811ec46f38348742b3e5",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/guatemala-node/guatemalasicherheit-221882": {
+  "changed": "2026-10-26T11:37:21+00:00",
+  "checked": "2026-10-26T11:37:21+00:00",
+  "hash": "f8baa08abb0a2ebea85771301721bd800b1d51d0f83e7ccf40fd327cd37a251e",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516": {
+  "changed": "2026-10-26T11:37:24+00:00",
+  "checked": "2026-10-26T11:37:24+00:00",
+  "hash": "a1d4003152013995f187b286036306a19fe7b476a491eb401e86fb09b92535ae",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/malaysia-node/malaysiasicherheit-223616": {
+  "changed": "2026-10-29T11:32:00+00:00",
+  "checked": "2026-10-31T10:56:33+00:00",
+  "hash": "c71077e80485da815a27797702eaec6af5fd23f0e2f3fe2b78edfc6d2e565fc8",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/marokko-node/marokkosicherheit-224080": {
+  "changed": "2026-10-29T11:32:03+00:00",
+  "checked": "2026-10-31T10:56:35+00:00",
+  "hash": "45b231e7bfa7ca5312782131b9f3012cd4c0bd9a5ed1e5e9cc4cd2847f1c6b61",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/mauritius-node/mauritiussicherheit-206994": {
+  "changed": "2026-10-26T11:37:30+00:00",
+  "checked": "2026-10-26T11:37:30+00:00",
+  "hash": "e124a86227c864d514a5b72b1924d12f3c1280713eb31e716e47a44f6d2c2c88",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/mexiko-node/mexikosicherheit-213648": {
+  "changed": "2026-10-29T11:32:04+00:00",
+  "checked": "2026-10-31T10:56:36+00:00",
+  "hash": "acb29d4999242482d6fd225ac04a3862955e1976079aae9c3bdb190e44b080d2",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/namibia-node/namibiasicherheit-208314": {
+  "changed": "2026-10-26T11:37:34+00:00",
+  "checked": "2026-10-26T11:37:34+00:00",
+  "hash": "7ca9dde41af056a04b77da1ba5c4cdff0a7579974e0485ebb6dfc64aa0471d17",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/norwegen-node/norwegensicherheit-205878": {
+  "changed": "2026-10-26T11:37:37+00:00",
+  "checked": "2026-10-26T11:37:37+00:00",
+  "hash": "25c5ca62d9a770190573b6f1a9c437677cbbdc7a0ca51af06736fade05d8f539",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/panama-node/panamasicherheit-206378": {
+  "changed": "2026-10-26T11:37:39+00:00",
+  "checked": "2026-10-26T11:37:39+00:00",
+  "hash": "aa9c176810dcbb1e24ec1ba01d53c72b2327f948cd5dbeee4493c9018f418f8e",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/peru-node/perusicherheit-211938": {
+  "changed": "2026-10-26T11:37:42+00:00",
+  "checked": "2026-10-26T11:37:42+00:00",
+  "hash": "fa6bd87e0ab7b2333aa5c2932ef5ca6fd3aafbc1f4c140eed23a0614303044d4",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/philippinen-node/philippinensicherheit-212492": {
+  "changed": "2026-10-29T11:32:05+00:00",
+  "checked": "2026-10-31T10:56:37+00:00",
+  "hash": "88624e7696546bf86f03f0f85029124b4c3dbc65c1c35941f914eb5e448120a7",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/ruanda-node/ruandasicherheit-212026": {
+  "changed": "2026-10-26T11:37:46+00:00",
+  "checked": "2026-10-26T11:37:46+00:00",
+  "hash": "3ea353044430437bb00291165ea001501de5f0d87b36ddba2f741c2a03d24c79",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/rumaenien-node/rumaeniensicherheit-210822": {
+  "changed": "2026-10-26T11:37:48+00:00",
+  "checked": "2026-10-26T11:37:48+00:00",
+  "hash": "3279825addf215b94b263d291d5c275bff4aca6d722142d9506935d71b08ff30",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/singapur-node/singapursicherheit-225412": {
+  "changed": "2026-10-29T11:32:06+00:00",
+  "checked": "2026-10-31T10:56:39+00:00",
+  "hash": "bc890c1f47c73869cf71c469428d32434927308978ca80dad2583585255c564d",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/tunesien-node/tunesiensicherheit-219024": {
+  "changed": "2026-10-26T11:37:53+00:00",
+  "checked": "2026-10-26T11:37:53+00:00",
+  "hash": "9445028b193843771fb4f40c36591cfc05ff2344f9d825507034a82d327b9314",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/uruguay-node/uruguaysicherheit-201138": {
+  "changed": "2026-10-26T11:37:54+00:00",
+  "checked": "2026-10-26T11:37:54+00:00",
+  "hash": "a08a202bc380ffef8d44a85dfb7f6d7da2e6ad328146d66c35189897158c66a3",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/de/service/laender/vereinigte-arabische-emirate-node/vereinigtearabischeemiratesicherheit-202332": {
+  "changed": "2026-10-30T11:24:41+00:00",
+  "checked": "2026-10-31T10:56:41+00:00",
+  "hash": "e872ec0f5bb5b6fa8f18b16ca4aaae9690f65ff9efc7359060e778ce3345400b",
+  "status": "ok"
+ },
+ "https://www.auswaertiges-amt.de/en/visa-service/231148-231148": {
+  "checked": "2026-10-31T10:56:43+00:00",
+  "hash": "13329c319956b6dddaa9bde6c50455282848d8dd918bb38c8f02b147ee8efb0a",
+  "status": "ok"
+ },
+ "https://www.bmeia.gv.at/en/austrian-embassy-london/travelling-to-austria/entry-requirements-visa-and-immigration/do-i-need-a-visa": {
+  "checked": "2026-10-26T11:38:03+00:00",
+  "hash": "1c114e843ff8c1ee3fdb1d7c315aef5deb6c58f206ef550d6cc80695415e7974",
+  "status": "ok"
+ },
+ "https://www.boca.gov.tw/cp-149-4486-7785a-2.html": {
+  "checked": "2026-10-26T11:38:04+00:00",
+  "hash": "27fc41fc1338f41d1beb1779e9c5381f05749497a916bbc495551f84d85d6c05",
+  "status": "ok"
+ },
+ "https://www.boca.gov.tw/cp-159-249-4162c-2.html": {
+  "checked": "2026-10-26T11:38:06+00:00",
+  "hash": "f202da4b7ed9205dbee047c4b72096703ea63fce8a283f8d797fc5458235909e",
+  "status": "ok"
+ },
+ "https://www.boca.gov.tw/cp-181-8051-69fbd-2.html": {
+  "checked": "2026-10-26T11:38:07+00:00",
+  "hash": "0bc4583194962159638aa55eb33702a64707b920a8c791bef4b4788d830c7b2b",
+  "status": "ok"
+ },
+ "https://www.boca.gov.tw/cp-220-1885-b6ae7-2.html": {
+  "checked": "2026-10-26T11:38:08+00:00",
+  "hash": "f70741d1e844c20cf02d50764c1e358229ae75615505f12d246a55558f2b3fe3",
+  "status": "ok"
+ },
+ "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/check-visa-eta.html": {
+  "checked": "2026-10-31T10:56:44+00:00",
+  "hash": "6c15c1a5316229e4a44abee3b9264bc8172fa4446d09bfc234210424b62bda0d",
+  "status": "ok"
+ },
+ "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html": {
+  "checked": "2026-10-31T10:56:44+00:00",
+  "hash": "c5435355828674bfd078e2196a6efd16c4f8e19e61da9d0f3c74e87f2fd7f96c",
+  "status": "ok"
+ },
+ "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/eligibility/eta-x.html": {
+  "changed": "2026-10-31T10:56:45+00:00",
+  "checked": "2026-10-31T10:56:45+00:00",
+  "hash": "9c731b4f0027a2f77a3005cb76a81c2217ebb7f7783b24cc4b19f8bfeca583fa",
+  "status": "ok"
+ },
+ "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html": {
+  "checked": "2026-10-31T10:56:46+00:00",
+  "hash": "6d902484bef55cfb130adead693137b55d94fde1169b74c478e77f727ceb76d5",
+  "status": "ok"
+ },
+ "https://www.cancilleria.gob.ec/2020/06/30/lista-de-paises-que-deben-presentar-visa-al-ingresar-al-ecuador/": {
+  "checked": "2026-10-26T11:38:13+00:00",
+  "hash": "4d2b6794057810d0475bf4daf5340a1b2d073683b89f13cfed61fae161292ede",
+  "status": "error URLError"
+ },
+ "https://www.cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5488_2022.htm": {
+  "checked": "2026-10-26T11:38:13+00:00",
+  "hash": "f7ffad166c0f56bf83133671e11624d177c84ae1b4cf82d8c435e2e6d288c776",
+  "status": "http 403"
+ },
+ "https://www.chile.gob.cl/nueva-delhi/site/tax/port/all/taxport_7___1.html": {
+  "checked": "2026-10-26T11:38:13+00:00",
+  "hash": "4c4b675cd183d3332efc94e2cf404415f6d7803f7e65a9ad2e47c10917e9465d",
+  "status": "ok"
+ },
+ "https://www.consulado.gob.cl/consulados/site/docs/20190220/20190220161313/cuadro_de_visas_corregido060326.pdf": {
+  "checked": "2026-10-26T11:38:14+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco": {
+  "checked": "2026-10-31T10:56:47+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://www.dha.gov.za/index.php/immigration-services/exempt-countries": {
+  "checked": "2026-10-26T11:38:19+00:00",
+  "hash": "cdd242a5add39f0ac1397f21d7608ce6d50f9fa10d138d7530c0753404db5735",
+  "status": "ok"
+ },
+ "https://www.dhs.gov/visa-waiver-program": {
+  "checked": "2026-10-31T10:56:47+00:00",
+  "status": "http 403"
+ },
+ "https://www.diplomatie.gouv.sn/visiter-le-senegal": {
+  "changed": "2026-10-26T11:38:22+00:00",
+  "checked": "2026-10-26T11:38:22+00:00",
+  "hash": "7d63a1f5f301dacda2c851db0281d8188f634aa47266a0d570e4d5c7b4de9c43",
+  "status": "ok"
+ },
+ "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-212/section-212.1": {
+  "checked": "2026-10-31T10:56:47+00:00",
+  "hash": "dc3de348433afcc58ba5d50df7d69cf9c5c1779a16945e3dbb46bd9bf862e164",
+  "status": "ok"
+ },
+ "https://www.eta.gov.lk/slvisa/visainfo/fees.jsp?locale=en_US": {
+  "checked": "2026-10-31T10:56:49+00:00",
+  "hash": "6296b763681ca29cc54b5b4765c8b993df8e37deef0186b55dd50cc11bd0c8f5",
+  "status": "ok"
+ },
+ "https://www.evisa.gov.et/information/tourist": {
+  "checked": "2026-10-26T11:38:27+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://www.evisa.gov.ge/geovisa/countries/index.html": {
+  "checked": "2026-10-26T11:38:28+00:00",
+  "hash": "e309b1104b3e89e7576d485f40c0bf623b3e7ff09838826847476e8145289d00",
+  "status": "ok"
+ },
+ "https://www.evisa.gov.kh/information/tourist_visa/4": {
+  "checked": "2026-10-31T10:56:51+00:00",
+  "status": "http 302"
+ },
+ "https://www.evisa.gov.zw/faq.html": {
+  "checked": "2026-10-26T11:38:32+00:00",
+  "hash": "2da2a69a8a396b47b0682f7943e79e9319ca11a1c313ff342199f97f9179a39a",
+  "status": "ok"
+ },
+ "https://www.federalregister.gov/documents/2025/12/19/2025-23570/restricting-and-limiting-the-entry-of-foreign-nationals-to-protect-the-security-of-the-united-states": {
+  "checked": "2026-10-31T10:56:52+00:00",
+  "hash": "dc3de348433afcc58ba5d50df7d69cf9c5c1779a16945e3dbb46bd9bf862e164",
+  "status": "ok"
+ },
+ "https://www.fm.gov.om/en/visitors/entry-visas/": {
+  "changed": "2026-10-26T11:38:45+00:00",
+  "checked": "2026-10-26T11:38:45+00:00",
+  "hash": "30cde8ee39becfd0ac0ea14aa10d2ac7e559cdd97a03c03bddcc1e43aa64c993",
+  "status": "ok"
+ },
+ "https://www.gacetaoficial.gob.pa/storage/gacetas/2024/10/30149_D/GacetaNo_30149d_20241028.pdf": {
+  "checked": "2026-10-26T11:38:50+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.geoconsul.gov.ge/en/HtmlPage/html/956": {
+  "checked": "2026-10-26T11:38:52+00:00",
+  "hash": "66e07f617e97e7bb2e7c70b9f194ad905c349c48557bebd4bdff0a834f8ad27c",
+  "status": "ok"
+ },
+ "https://www.gob.mx/sre/prensa/electronic-visa-for-brazilian-nationals": {
+  "changed": "2026-10-30T11:24:52+00:00",
+  "checked": "2026-10-31T10:56:53+00:00",
+  "hash": "b5cc838889eede02c9bd627e68f6508699214f3b37d0b154bace8a47a510383f",
+  "status": "ok"
+ },
+ "https://www.gob.pe/institucion/embajada-del-peru-en-singapur/informes-publicaciones/4022248-visa-frequently-asked-questions": {
+  "checked": "2026-10-26T11:38:54+00:00",
+  "hash": "42d053afc4530c7803915a856369b986b61984e461ca73b8359e925a7f7e5ded",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/assuntos/portal-consular/vistos/qgrv-simples-port-15jan26.pdf": {
+  "checked": "2026-10-26T11:38:58+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.gov.br/mre/pt-br/consulado-istambul/english/requirements-for-entry-into-turkey": {
+  "changed": "2026-10-27T10:34:44+00:00",
+  "checked": "2026-10-31T10:56:55+00:00",
+  "hash": "72b1a52fb5f34a44c2c9283cf70cf204e9edca2b6f59e0bcc2ae57bd54fcee76",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/consulado-lagos/vistos-visas/visit-visa": {
+  "changed": "2026-10-26T11:39:15+00:00",
+  "checked": "2026-10-26T11:39:15+00:00",
+  "hash": "33643c62accfa72871280b768db93305a2d9acadc550a3693bb01d6a20c58ddb",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/consulado-montevideu/turismo-no-uruguai/requisitos-de-entrada-no-uruguai": {
+  "checked": "2026-10-26T11:39:17+00:00",
+  "hash": "edbfd3c8f1ab7a9eb385d5a8f805187b7536c514d7690c6f1764c2b97b601493",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/consulado-nova-york/servicos-consulares/visto-visa-2/eVisa": {
+  "checked": "2026-10-26T11:39:19+00:00",
+  "hash": "781727a324e74d943466b885ea1df5d6d594e113f8680213fd2667eb2df3a848",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/consulado-santa-cruz-de-la-sierra/conselho-aos-viajante/requisitos-para-entrada-na-bolivia": {
+  "checked": "2026-10-26T11:39:20+00:00",
+  "hash": "3a83fcfe406b9f1174df59ca7512440ddfdb41e6ace8d2b6e48abfd1c2219fa8",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/embaixada-abu-dhabi/abu-dhabi-arquivos/portugues-1/alertas-para-turistas-e-residentes/alertas-para-turistas-e-residentes-nos-emirados-arabes-unidos": {
+  "changed": "2026-10-27T10:34:46+00:00",
+  "checked": "2026-10-31T10:56:57+00:00",
+  "hash": "49d0c0b51c088d99bcacd79afe0fb2a3d666bfc8c2c94c878b790b75521d041d",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/embaixada-bangkok/informacoes-uteis/tailandia-informacoes-uteis": {
+  "changed": "2026-10-27T10:34:47+00:00",
+  "checked": "2026-10-31T10:56:59+00:00",
+  "hash": "e0dbd5533989d3f7d6e242ac66e308dce3e6c72ee62bde812a81853d616babea",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/embaixada-havana/consular-1/recomendacoes-a-turistas-e-visitantes-brasileiros": {
+  "checked": "2026-10-26T11:39:25+00:00",
+  "hash": "6a219c4a6ad5e9b658bfa461200b2aa608060b7f484a21511104515ba078d659",
+  "status": "error RemoteDisconnected"
+ },
+ "https://www.gov.br/mre/pt-br/embaixada-manila/embassy-of-brazil-in-manila/consular-services/visa-general-conditions-and-information": {
+  "checked": "2026-10-26T11:39:26+00:00",
+  "hash": "a88d3abc27bc67b987ab81d902e9f7e08dbd23a39df24999e3482217819f730d",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/embaixada-nova-delhi/embassy-of-brazil-in-new-delhi/visas/business-e-visas": {
+  "checked": "2026-10-26T11:39:27+00:00",
+  "hash": "29bad7a6d22e40c50b155fe76375207ced8840216a086142a6f9e14772bd3966",
+  "status": "error RemoteDisconnected"
+ },
+ "https://www.gov.br/mre/pt-br/embaixada-rabat/rabat-arquivos/informacoes-uteis": {
+  "changed": "2026-10-27T10:34:48+00:00",
+  "checked": "2026-10-31T10:57:06+00:00",
+  "hash": "00142f13b05d04b0049df00d06ae78f3702c88a283f795049d12ce73a6be0751",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/embaixada-seul/consular/visa/via": {
+  "changed": "2026-10-27T10:34:50+00:00",
+  "checked": "2026-10-31T10:57:11+00:00",
+  "hash": "452e8eeeeabd03a92aec3be7550e9c8a4a2529d7da8db669df66176dc5ac9479",
+  "status": "ok"
+ },
+ "https://www.gov.br/mre/pt-br/embaixada-singapura/noticias/informacao-para-brasileiros-com-voos-cancelados-em-razao-da-situacao-no-oriente-medio": {
+  "changed": "2026-10-27T10:34:55+00:00",
+  "checked": "2026-10-31T10:57:17+00:00",
+  "hash": "860c3624ccb11b96211da61df9f40e00d24ba6e98df78e00d5b1386548407465",
+  "status": "ok"
+ },
+ "https://www.gov.cy/en/information/visas/": {
+  "checked": "2026-10-26T11:39:32+00:00",
+  "status": "http 403"
+ },
+ "https://www.gov.cy/mfa-highcomnewdelhi/en/consular-services/visa-information/": {
+  "checked": "2026-10-26T11:39:32+00:00",
+  "status": "http 403"
+ },
+ "https://www.gov.cy/mfa/en/documents/categories-of-persons-and-countries-whose-nationals-do-not-require-a-visa/": {
+  "checked": "2026-10-26T11:39:32+00:00",
+  "status": "http 403"
+ },
+ "https://www.gov.il/BlobFolder/reports/tourist-visa-table/en/2022_Foreign_Visa_to_Israel.pdf": {
+  "checked": "2026-10-26T11:39:38+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.gov.kz/memleket/entities/mfa/press/article/details/6764?lang=en": {
+  "checked": "2026-10-26T11:39:39+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/australia": {
+  "checked": "2026-10-26T11:39:41+00:00",
+  "hash": "1ce63e9a51dbe22a17c87f6f4309c0bda60f36ea9a471e1df1315cd484d8ba02",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/brazil": {
+  "checked": "2026-10-26T11:39:43+00:00",
+  "hash": "1d408cc0027c4eca0d4a5b627dd273540d9ce79a568834b952dcbe718ddaff9f",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/canada": {
+  "checked": "2026-10-26T11:39:45+00:00",
+  "hash": "5d48bab611c1f1ca989e51c9bb9b967e1146d2bce52479e68b1ed4cdca422c08",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/germany": {
+  "checked": "2026-10-26T11:39:49+00:00",
+  "hash": "672ce8be23995d3d98e6630fc32d59ea8b8f44593e47f4256899fa1b0a72d676",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/india": {
+  "checked": "2026-10-26T11:39:52+00:00",
+  "hash": "5e14c349b5cafeedf9a3aa05f6e6a9135fa48b7359a6502857c8098c1ca9f702",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/nigeria": {
+  "checked": "2026-10-26T11:39:54+00:00",
+  "hash": "ba9e8c9c74e76f54ffc5b2d4ea6db5f7ed8bbe250e2186d43596533b91a2e2a8",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/philippines": {
+  "checked": "2026-10-26T11:39:56+00:00",
+  "hash": "7dd2c1d48023e2ad0393c8d021fe04603a0c91109a848a5e64b274433b682724",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/singapore": {
+  "checked": "2026-10-26T11:39:58+00:00",
+  "hash": "2278fddff8e95eeb3640c0036c354c5a2db7c927d9bc54ace46591ca4c57ac15",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/united-kingdom-of-great-britain-and-northern-ireland": {
+  "checked": "2026-10-26T11:40:01+00:00",
+  "hash": "28c81d8548dfd76a6a5c182179e00a9a052916906d641bd51b57b87ef70f6f6d",
+  "status": "ok"
+ },
+ "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/united-states-of-america": {
+  "checked": "2026-10-26T11:40:03+00:00",
+  "hash": "69804353505d8cf2b8ec12e0902dd62eafc54d76dc4045aa80b4db805aef3286",
+  "status": "ok"
+ },
+ "https://www.gov.pl/web/india/c-type-schengen-visa": {
+  "checked": "2026-10-26T11:40:04+00:00",
+  "hash": "a591dc894ec55b4e71a271ea09b7ade6edfee43553cfc4da2e58d6dcae23a24f",
+  "status": "ok"
+ },
+ "https://www.gov.pl/web/uae/list-of-countries-whose-citizens-are-required-to-have-visas-when-entering-poland": {
+  "checked": "2026-10-26T11:40:06+00:00",
+  "hash": "2c9c711a7aca2714cf2adc50639154bb4c78cca29c950cf8b9aa3f55f7bbe1b5",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/countries/australia/for-australian-citizens/": {
+  "checked": "2026-10-26T11:40:09+00:00",
+  "hash": "8721151c645c9e864c7cbf01dbef9893e2b1897163dd22fadf5cc3660db805d3",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/countries/brazil/for-citizens-of-brazil/": {
+  "checked": "2026-10-26T11:40:10+00:00",
+  "hash": "ee015e84cc713371fe4559877e9aa358dbed08c5a4ad333955e1e7937b3998d7",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/countries/nigerija/for-citizens-of-nigeria/": {
+  "checked": "2026-10-26T11:40:12+00:00",
+  "hash": "bfda4daa4b1ed753c0093c1ed7197916ae95272e518761b503ad0fcae9e69d90",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/countries/pakistan/for-pakistani-citizens/": {
+  "checked": "2026-10-26T11:40:14+00:00",
+  "hash": "f565f4018dc4ac2d5f27c629e0424af6065e01370a6bfbf670d85159c777c009",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/countries/philippines/for-philippine-citizens/": {
+  "checked": "2026-10-26T11:40:15+00:00",
+  "hash": "0eaf1a841a2c1e36d63c9804a45e4376bd9702d4a4b25729c6fddd428049abfb",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/countries/singapore/for-citizens-of-singapore/": {
+  "checked": "2026-10-26T11:40:17+00:00",
+  "hash": "20d83d46d43087408d76e08928f2c0c70cc64809efaeda22efa86c49368a0df3",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/countries/the-united-states/for-citizens-of-usa/": {
+  "checked": "2026-10-26T11:40:19+00:00",
+  "hash": "1f336d6a0eafa1fcaa15d77b8b13b2f45d7656449a8b8630ade6c0841dec0997",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/representations/embassy-new-delhi/visa-information/": {
+  "checked": "2026-10-26T11:40:24+00:00",
+  "hash": "decee0965fa99ee650ffaaff596ed7546f554c1d22cc6a6e1bfab4b308fdf99c",
+  "status": "ok"
+ },
+ "https://www.gov.si/en/representations/embassy-ottawa/vizumske-informacije-veleposlanistva-ottawa/": {
+  "checked": "2026-10-26T11:40:28+00:00",
+  "hash": "fb47417676526a28ddd8692409f6517a99be1587609e2c88e6d8b213d247ce0c",
+  "status": "ok"
+ },
+ "https://www.gov.uk/eta": {
+  "checked": "2026-10-31T10:57:17+00:00",
+  "hash": "134726bc21c235626eea744763401a70a1c2362f2be695cf2cfa838bd496eadb",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/albania/entry-requirements": {
+  "checked": "2026-10-26T11:40:29+00:00",
+  "hash": "8ce5f54ef98435a427e26969deba55420e4a90f283203138587e6fcb56e0bfb5",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/armenia/entry-requirements": {
+  "checked": "2026-10-26T11:40:30+00:00",
+  "hash": "15ea561d8248911eadcc97ba1e4eb6787daae580e61839b58575354b86da3b99",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/austria/entry-requirements": {
+  "checked": "2026-10-26T11:40:31+00:00",
+  "hash": "68cab3666fdc256af3851fecad2bea8d7e1a87fa20ee7251a55cddf515fc507a",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/azerbaijan/entry-requirements": {
+  "changed": "2026-10-26T11:40:31+00:00",
+  "checked": "2026-10-26T11:40:31+00:00",
+  "hash": "03bddf1a0eabae4c1c10b111e0da10eacf0580d99387547d00eb1c3845045a7f",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/belgium/entry-requirements": {
+  "checked": "2026-10-26T11:40:32+00:00",
+  "hash": "db271e28c8c270afe22df671e4d06f3ca49f744c42931523396163118fc73462",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/bolivia/entry-requirements": {
+  "checked": "2026-10-26T11:40:33+00:00",
+  "hash": "1d1f166b18ed985006a75e2d61a0c02c43a068362e95154a36d9a83ba8ed641c",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/botswana/entry-requirements": {
+  "checked": "2026-10-26T11:40:34+00:00",
+  "hash": "d8319d7580a3af89981c060cdf62c075046b979351ff422f92b564aca54563e8",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/bulgaria/entry-requirements": {
+  "checked": "2026-10-26T11:40:34+00:00",
+  "hash": "9b8548a66bb0281bca9f4a812b3cadf22970331f612b938148005f195484c29b",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/colombia/entry-requirements": {
+  "checked": "2026-10-26T11:40:35+00:00",
+  "hash": "eaf6e664065fbdfdb3e96e775abd28d8e2c1906e004edf5db401924659274785",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/croatia/entry-requirements": {
+  "checked": "2026-10-26T11:40:36+00:00",
+  "hash": "8c9e971491b5776e3ef28e8b44ed43c58936240e851784fac39c380db482ed09",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/cuba/entry-requirements": {
+  "checked": "2026-10-26T11:40:36+00:00",
+  "hash": "e880741c1df8da02f409a01a0847abc201af3c5c3a9ef588c5a9d10a7f4dab07",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements": {
+  "checked": "2026-10-26T11:40:37+00:00",
+  "hash": "35ea40487f2928f6b887102ae644be072c1a9b547e7d175d1627115c37821d8e",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements": {
+  "checked": "2026-10-26T11:40:39+00:00",
+  "hash": "6f2b770aefe0248b0b978625a6107db412b92ea831c5a2648b6c7cf8e1916500",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/ethiopia/entry-requirements": {
+  "checked": "2026-10-26T11:40:39+00:00",
+  "hash": "776628f988bd2c059737371a5063ee91b6bbd4a5d61523cf3c9d487673b0d0b9",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/finland/entry-requirements": {
+  "checked": "2026-10-26T11:40:40+00:00",
+  "hash": "d064cb85ffcd5c8e54a083b8075ff476e75753379506392199d51e827d2396e2",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/france/entry-requirements": {
+  "checked": "2026-10-31T10:57:19+00:00",
+  "hash": "180c38faddbc8ad064d017baa40cb496eb34fc94d986c0990e8d56d3f9cda7d0",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/georgia/entry-requirements": {
+  "checked": "2026-10-26T11:40:41+00:00",
+  "hash": "f7a99e164a4f5a57eeb9cdd1bddbde3b6afc9f0a94018a43a24a787416966c28",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/greece/entry-requirements": {
+  "checked": "2026-10-31T10:57:20+00:00",
+  "hash": "c90bb59de0f7ae35f6cd3c154a96b71ca691017a40508bc81b01144dacf31ec5",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements": {
+  "checked": "2026-10-26T11:40:43+00:00",
+  "hash": "a3d096721c38cb60ee1b8bfb44338968c1933759e5738d9a856de49539596373",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/hungary/entry-requirements": {
+  "checked": "2026-10-26T11:40:43+00:00",
+  "hash": "55085d7d3af1126aa6da1ed0319723df1105df9942d598b3853925ae0b92a630",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/iceland/entry-requirements": {
+  "checked": "2026-10-26T11:40:44+00:00",
+  "hash": "25fdf9eab59bbae89111ecbd26114c66a277f0c9f31b32be873e5b9778867e6e",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/ireland/entry-requirements": {
+  "checked": "2026-10-26T11:40:45+00:00",
+  "hash": "872759c199ae1c7b2f3446af30aa99f83ec6499e809190f46a2757afa6e66abf",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/italy/entry-requirements": {
+  "checked": "2026-10-31T10:57:21+00:00",
+  "hash": "8b8782cee2d7d73f387e4536706ad9f42f5c1f44ff8403124a2cbd8ff319b735",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/japan/entry-requirements": {
+  "checked": "2026-10-31T10:57:22+00:00",
+  "hash": "fc3d6f38c19aee4615be9931f69d245b053ded9dc739bb68dd74ccb4ec6a5021",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/jordan/entry-requirements": {
+  "checked": "2026-10-26T11:40:47+00:00",
+  "hash": "3534d578c39907ccc618aefa72b927b5701fe02a6cb5084e99444c4dda65f9c0",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/kazakhstan/entry-requirements": {
+  "checked": "2026-10-26T11:40:48+00:00",
+  "hash": "9f29e9d4ffab8ba8eadc966949a86401290fba11cab1990f5ded8fb40d06489b",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/laos/entry-requirements": {
+  "checked": "2026-10-26T11:40:49+00:00",
+  "hash": "19279c40d88e857bfbbd3f9d32976d6f028311919b5eab374a4dcee080f0bd58",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/lithuania/entry-requirements": {
+  "checked": "2026-10-26T11:40:49+00:00",
+  "hash": "7852d3cf89fae0c95fec4029a78573910cec7eba99e4c42f0b2c763e9c5732fd",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/madagascar/entry-requirements": {
+  "checked": "2026-10-26T11:40:50+00:00",
+  "hash": "9d5db7c1e05f1b9436f6931b5df7b356bf28d1e4e80f3bad290ae897f913c6ff",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/malaysia/entry-requirements": {
+  "checked": "2026-10-31T10:57:23+00:00",
+  "hash": "e405f45ed399eb4ceeba42c8ddf19b6f876344266a301095bd54a2d8f7f16d7e",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/maldives/entry-requirements": {
+  "checked": "2026-10-31T10:57:25+00:00",
+  "hash": "7e62f54535ca36eef8645b3c090038cece38422d785cc854e9aabdf45de50a28",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/mauritius/entry-requirements": {
+  "checked": "2026-10-26T11:40:52+00:00",
+  "hash": "b7b1866c2d8e8a88047058737b6757eb5bf3c5d39fcaf0f93b4a32970cc3abe6",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/mexico/entry-requirements": {
+  "checked": "2026-10-31T10:57:26+00:00",
+  "hash": "63af44a17135136a75f5c4a68bf3a65a5c72725948a8f6610498a59b9a0511bb",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/morocco/entry-requirements": {
+  "checked": "2026-10-31T10:57:26+00:00",
+  "hash": "488001a1469ddd6e19533c012b056432dee5081357226dea6a286a82a3ebcdd5",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/namibia/entry-requirements": {
+  "checked": "2026-10-26T11:40:54+00:00",
+  "hash": "8f35b5948e571a8ff36fd3726d727aec41775a02c6cb0bb9ad2be2d12b2aeb8f",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/norway/entry-requirements": {
+  "checked": "2026-10-26T11:40:55+00:00",
+  "hash": "a96c31e9e1f910e23c6a3df31f7d535052b031d544d06ae4a407154ebb64d22d",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/panama/entry-requirements": {
+  "checked": "2026-10-26T11:40:57+00:00",
+  "hash": "7c527e26187c2c7baf1bf2dda56f5f7d981ea9201e5a0fa466f210900fe8c745",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/philippines/entry-requirements": {
+  "checked": "2026-10-31T10:57:28+00:00",
+  "hash": "fc51056ef3a730c74ad41d2debd00529d4002a7e99ecbb1ad6b026d921628257",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/poland/entry-requirements": {
+  "checked": "2026-10-26T11:40:58+00:00",
+  "hash": "874e92de207c906f4b00039c8ed47f4ff5a76956a0f954f71e7dd143ce431eca",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/portugal/entry-requirements": {
+  "checked": "2026-10-31T10:57:29+00:00",
+  "hash": "ff6caee1684308330e9a8611b26b08a2d65978e54e7b5aa6efc5ba970b56ec3f",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/romania/entry-requirements": {
+  "checked": "2026-10-26T11:41:00+00:00",
+  "hash": "08604ad441d4572f0103f3bafee2cb4f58622f49d57d32496539d30debffc88e",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/saudi-arabia/entry-requirements": {
+  "checked": "2026-10-31T10:57:30+00:00",
+  "hash": "7e2dc7b9c93cba01530ae29bf3ac6baac16803037ad686da373a34253591efa1",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/senegal/entry-requirements": {
+  "checked": "2026-10-26T11:41:01+00:00",
+  "hash": "d35662930a26448eaa77abbca8747335843d5a80a76d3606f68b19355cdbf427",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/singapore/entry-requirements": {
+  "checked": "2026-10-31T10:57:31+00:00",
+  "hash": "386163269a85aad2eb4be1ad2decec2d44c3779bdf2db468bba1392b68257403",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/slovakia/entry-requirements": {
+  "checked": "2026-10-26T11:41:02+00:00",
+  "hash": "d7f057a2d6775454bec69f91672bb5f8bdfd2d235adfcc03044773dda89cbfc0",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/slovenia/entry-requirements": {
+  "checked": "2026-10-26T11:41:03+00:00",
+  "hash": "6916e4e8186e7964f23fad3ec35322b4652591531215b229f84fb026a4ed5b32",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/south-korea/entry-requirements": {
+  "checked": "2026-10-31T10:57:33+00:00",
+  "hash": "d5d2c12289b89d0343ee506df278fa52ad63cfea9c8a5ff767a69027e7ad7f31",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/spain/entry-requirements": {
+  "checked": "2026-10-31T10:57:34+00:00",
+  "hash": "29db47e243bfae8b3ddfb6a2d726016ad2857d16b00b02dd390619d136d236f2",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/tunisia/entry-requirements": {
+  "checked": "2026-10-26T11:41:06+00:00",
+  "hash": "0c069ec724cc6f5eaddfbdf3c8331584eb0ed8d52e952470e975b9d84c68f395",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/turkey/entry-requirements": {
+  "checked": "2026-10-31T10:57:35+00:00",
+  "hash": "587ba2774e8c4f661b3f95a97069f7194111982a6e020b48f40edf4e394873b0",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/uganda/entry-requirements": {
+  "checked": "2026-10-26T11:41:08+00:00",
+  "hash": "072748a0ee10acc84bbff019e4e34c5f6d87f5368e12e8aff047893d42422a01",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/united-arab-emirates/entry-requirements": {
+  "checked": "2026-10-31T10:57:36+00:00",
+  "hash": "9eabb85696b4b6915ea1d91be44cd3a6c166b1f3a734d4559ffbd260bc9220b9",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/uruguay/entry-requirements": {
+  "checked": "2026-10-26T11:41:10+00:00",
+  "hash": "bc577b8a9515fb6bd3d036bb46fa710bd818cb81afcf6b26c9629b9888cb607c",
+  "status": "ok"
+ },
+ "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements": {
+  "checked": "2026-10-26T11:41:11+00:00",
+  "hash": "9da8a99506d7e1129af0fc856526d61a0e38fe392a01cd2a84d8c4d325cf2e10",
+  "status": "ok"
+ },
+ "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list": {
+  "checked": "2026-10-31T10:57:37+00:00",
+  "hash": "8dcc9dd6eba12cd21a6df382d1c3a016e76f8745730b80689ebba71156631488",
+  "status": "ok"
+ },
+ "https://www.gov.uk/standard-visitor": {
+  "checked": "2026-10-31T10:57:39+00:00",
+  "hash": "9f6d060158dc8d04e898d672090af0d646ff884b4d9bd1a94622b3c6bb6b8bd3",
+  "status": "ok"
+ },
+ "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/regimen-visas-admision": {
+  "checked": "2026-10-26T11:41:17+00:00",
+  "hash": "5ae24e8bebeb1ed3f805229eec7960b9e1f58c0050a95f75d9c5fe6c43823f5b",
+  "status": "ok"
+ },
+ "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements": {
+  "changed": "2026-10-29T11:33:02+00:00",
+  "checked": "2026-10-31T10:57:40+00:00",
+  "hash": "5b8dfc558648ea6cd078dd0377fac010a254195f9cc49e67a1bcfd852159e122",
+  "status": "ok"
+ },
+ "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/india": {
+  "changed": "2026-10-29T11:33:04+00:00",
+  "checked": "2026-10-31T10:57:42+00:00",
+  "hash": "17d7f18d544737b793e5472890de35957f3a450a1ec0f3542077c885c6314b03",
+  "status": "ok"
+ },
+ "https://www.icoder.go.cr/fileadmin/documentos/tramites/visas/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N_-216-17-11-2025.pdf": {
+  "checked": "2026-10-31T10:57:43+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.imi.gov.my/index.php/en/main-services/visa/visa-requirement-by-country/": {
+  "changed": "2026-10-30T11:25:49+00:00",
+  "checked": "2026-10-31T10:58:09+00:00",
+  "hash": "a109242643110f6672585051f58e27acfad75e520ea4e9806a54fea1d16134ab",
+  "status": "error URLError"
+ },
+ "https://www.imi.gov.my/index.php/en/visa-requirement-by-country/": {
+  "changed": "2026-10-30T11:26:05+00:00",
+  "checked": "2026-10-31T10:58:34+00:00",
+  "hash": "a109242643110f6672585051f58e27acfad75e520ea4e9806a54fea1d16134ab",
+  "status": "error URLError"
+ },
+ "https://www.imigrasi.go.id/berita/pemerintah-indonesia-terapkan-bebas-visa-kunjungan-bagi-warga-negara-brasil-dan-turki": {
+  "checked": "2026-10-31T10:58:34+00:00",
+  "status": "http 403"
+ },
+ "https://www.imigrasi.go.id/wna/bebas-visa-kunjungan": {
+  "checked": "2026-10-31T10:58:35+00:00",
+  "status": "http 403"
+ },
+ "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html": {
+  "checked": "2026-10-26T11:41:32+00:00",
+  "hash": "ca2cfa92bc4c9a21500b920b3f207e3394d10b4ed6bca65174dc6ba55796a869",
+  "status": "ok"
+ },
+ "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html": {
+  "checked": "2026-10-26T11:41:33+00:00",
+  "hash": "b2c4a559e5dee105a0150dcbd2d68cbc58deae10634c8fb35d412a7faca76ec5",
+  "status": "ok"
+ },
+ "https://www.immigration.go.tz/websiteportal/uploads/information_links/info_link_20260910_084204_a50ed70947.pdf": {
+  "checked": "2026-10-26T11:41:37+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.immigration.go.ug/services/tourist-visa": {
+  "checked": "2026-10-26T11:41:39+00:00",
+  "hash": "1ac5dfa762ad5bac13d112ab199de11605794bd2825ef48b97ea05f8cb4516dc",
+  "status": "ok"
+ },
+ "https://www.immigration.go.ug/services/visa-exempt-countries": {
+  "checked": "2026-10-26T11:41:41+00:00",
+  "hash": "a4279c889591d9ab45b3bd6d2757807dc89eae34a148010730a63bc682307ebd",
+  "status": "ok"
+ },
+ "https://www.immigration.gov.fj/visa-exempted-countries": {
+  "checked": "2026-10-26T11:41:45+00:00",
+  "hash": "776d49b3f150cde0e7a423fd8caf413a1c1bd4d383f0187491fca56d5becbf25",
+  "status": "ok"
+ },
+ "https://www.immigration.gov.la/en/visas": {
+  "checked": "2026-10-26T11:41:46+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://www.immigration.gov.lk/pages_e.php?id=60": {
+  "checked": "2026-10-31T10:58:46+00:00",
+  "hash": "deb02e33d6f4122b655e3c0df46f179fbadd6067f54e7b1495c515f3666c7e12",
+  "status": "ok"
+ },
+ "https://www.immigration.gov.mv/visa/tourist-visa": {
+  "checked": "2026-10-31T10:58:47+00:00",
+  "hash": "4516a3e3ec1d4a8a73a7d63c8036ef23f843bb708ac14632b58a738057f88cc0",
+  "status": "ok"
+ },
+ "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/": {
+  "changed": "2026-10-26T11:41:59+00:00",
+  "checked": "2026-10-26T11:41:59+00:00",
+  "hash": "25ef342fe6d5456f07925b766313400ed3cf8a1c39386f135074a8f0e8d2647c",
+  "status": "ok"
+ },
+ "https://www.immigration.govt.nz/visas/visitor-visa/": {
+  "changed": "2026-10-26T11:42:01+00:00",
+  "checked": "2026-10-26T11:42:01+00:00",
+  "hash": "8aa583a4690bfdacd2d14092c3286ba2e26ea112c9b419611be4e15a92695612",
+  "status": "ok"
+ },
+ "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/australian-citizens-and-permanent-residents-travelling-to-new-zealand/": {
+  "checked": "2026-10-26T11:42:02+00:00",
+  "hash": "76d0ceb3d83200ecbcec02dd1eee805f03a4ff907ce4763fd2507c7c6297ec14",
+  "status": "ok"
+ },
+ "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/visa-waiver-countries-and-territories/": {
+  "checked": "2026-10-26T11:42:02+00:00",
+  "hash": "236933aa05aeb10324aacad9f3725bb66662bb755f41e26b2f41c244026829fc",
+  "status": "ok"
+ },
+ "https://www.in.emb-japan.go.jp/itpr_en/Visa.html": {
+  "checked": "2026-10-31T10:58:48+00:00",
+  "hash": "82053bf928f1062c227ed9de2ced7bdf1f4709d11a739a80ccd11be9494fd2f3",
+  "status": "ok"
+ },
+ "https://www.inm.gob.mx/gobmx/word/index.php/paises-no-requieren-visa-para-mexico/": {
+  "checked": "2026-10-31T10:58:50+00:00",
+  "hash": "25124da407ea7614336b9dab3d09c0fed96a2d21195f5132379057ff77149fc2",
+  "status": "ok"
+ },
+ "https://www.inm.gob.mx/gobmx/word/index.php/paises-requieren-visa-para-mexico/": {
+  "checked": "2026-10-31T10:58:51+00:00",
+  "hash": "f0014139545fa9ac6ca118d6d9c29b5c81689c5fbc302020c87ba068102df0f8",
+  "status": "ok"
+ },
+ "https://www.kln.gov.my/web/bra_brasilia/other_information": {
+  "checked": "2026-10-31T10:58:52+00:00",
+  "status": "error URLError"
+ },
+ "https://www.kln.gov.my/web/usa_los-angeles/post/visa-application-for-refugee-and-re-entry-permit-travel-document": {
+  "checked": "2026-10-31T10:58:53+00:00",
+  "status": "error URLError"
+ },
+ "https://www.mea.gov.in/vffin": {
+  "checked": "2026-10-31T10:58:54+00:00",
+  "status": "http 403"
+ },
+ "https://www.mfa.am/en/invitation_only": {
+  "checked": "2026-10-26T11:42:09+00:00",
+  "hash": "98f81e93510ef14928c047bc5f78c39c15ff62ab746729c73151008fed55b8cf",
+  "status": "ok"
+ },
+ "https://www.mfa.am/en/visa/": {
+  "checked": "2026-10-26T11:42:11+00:00",
+  "hash": "fff2aa13c8a917d595ee8e3bc987d997b2baad598804f7225d437c440b95d257",
+  "status": "ok"
+ },
+ "https://www.mfa.am/filemanager/consular/visa/2025/2026-06-30-LIST-OF-COUNTRIES-TEMPORARY-VISA-EXEMPTION.pdf": {
+  "checked": "2026-10-26T11:42:13+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.mfa.bg/upload/715/VISA_C_en.pdf": {
+  "checked": "2026-10-26T11:42:14+00:00",
+  "status": "pdf (not diffed)"
+ },
+ "https://www.mfa.gov.lv/en/countries-and-territories-whose-citizens-may-enter-latvia-without-visa": {
+  "checked": "2026-10-26T11:42:40+00:00",
+  "hash": "32e41e7b6c1d47491df402dc6afe1944898fdf78a9c6cfe44e5f8707c759b70e",
+  "status": "error URLError"
+ },
+ "https://www.mfa.gov.rs/en/citizens/travel-serbia/visa-regime/brazil": {
+  "checked": "2026-10-26T11:42:42+00:00",
+  "hash": "6ecf62a499645fdcde83a1fe322b968a1cc86f24ddb066510f7fcff9bf2ed190",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.rs/en/citizens/travel-serbia/visa-regime/filipini": {
+  "checked": "2026-10-26T11:42:44+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://www.mfa.gov.rs/en/citizens/travel-serbia/visa-regime/pakistan": {
+  "checked": "2026-10-26T11:42:47+00:00",
+  "status": "unreadable (script-rendered or empty)"
+ },
+ "https://www.mfa.gov.sg/Countries-Regions/A/Armenia/Travel-Page": {
+  "changed": "2026-10-26T11:42:49+00:00",
+  "checked": "2026-10-26T11:42:49+00:00",
+  "hash": "4806e8d99b2de554b5fe8123fb51c3d01863d2e7072829f42a0a3852c93640ba",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/Countries-Regions/G/Georgia/Travel-Page": {
+  "changed": "2026-10-26T11:42:51+00:00",
+  "checked": "2026-10-26T11:42:51+00:00",
+  "hash": "1582d4d1355697f415ba50ba493cd392624a94ff013c51967af79ed9f35b1838",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/Countries-Regions/T/Tunisia/Travel-Page": {
+  "changed": "2026-10-26T11:42:54+00:00",
+  "checked": "2026-10-26T11:42:54+00:00",
+  "hash": "d04b66c18c77f301d966ab5ec11bba0a87beb3dc33fa8493d78da58fe3a40689",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/countries-regions/s/slovakia/travel-page": {
+  "changed": "2026-10-26T11:42:56+00:00",
+  "checked": "2026-10-26T11:42:56+00:00",
+  "hash": "e3c4bc14ae0a0197a59971f18ec674875d5434ec3a9edb27cf9d5cbd8d8e4cc3",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/bolivia/": {
+  "changed": "2026-10-26T11:42:58+00:00",
+  "checked": "2026-10-26T11:42:58+00:00",
+  "hash": "8346e5f1acc876b2909602821d7d73c21b15e47376054c73784c00050d615e64",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/cambodia/": {
+  "changed": "2026-10-30T11:26:26+00:00",
+  "checked": "2026-10-31T10:58:55+00:00",
+  "hash": "2be1226bc2684c6f886c50f9d7730b5836c54a947781385446b22e223a5b0bb5",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/cuba/": {
+  "changed": "2026-10-26T11:43:02+00:00",
+  "checked": "2026-10-26T11:43:02+00:00",
+  "hash": "8e520ff5dc2b12f4e33aa6c8351864c86e3efcda36e3ffbdb2c8136f608420cd",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/indonesia/": {
+  "changed": "2026-10-30T11:26:29+00:00",
+  "checked": "2026-10-31T10:58:56+00:00",
+  "hash": "e4238d3ea04bd59e3eed85f787087c066a8507fe79de873160441ab4cfd27f2b",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/malaysia/": {
+  "changed": "2026-10-30T11:26:31+00:00",
+  "checked": "2026-10-31T10:58:58+00:00",
+  "hash": "681f52a741ea2e147587a10af9e169d921321159a9b9cddd6ad3d15d19afb2c4",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/maldives/": {
+  "changed": "2026-10-23T10:06:11+00:00",
+  "checked": "2026-10-31T10:59:00+00:00",
+  "hash": "0fe4306633fa26c32b69176ad62fc09ebf5c051934ce61359e43d5f2e39b46a8",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/mexico/": {
+  "changed": "2026-10-30T11:26:37+00:00",
+  "checked": "2026-10-31T10:59:03+00:00",
+  "hash": "4e3703fdd16fc7eaafcf7ceea736d927455030c5500e3fc55415a4a5fd9655b3",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/morocco/": {
+  "changed": "2026-10-30T11:26:39+00:00",
+  "checked": "2026-10-31T10:59:06+00:00",
+  "hash": "3b0ba971157ee606939a2147377ac585a52329266cde0e42fe744b82adda8f44",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/namibia/": {
+  "changed": "2026-10-26T11:43:15+00:00",
+  "checked": "2026-10-26T11:43:15+00:00",
+  "hash": "b2dd1e97b63e1e63d5bd2eaa5c632f2954d2d490de67a6096810b6a3321a8f8a",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/panama/": {
+  "changed": "2026-10-26T11:43:17+00:00",
+  "checked": "2026-10-26T11:43:17+00:00",
+  "hash": "402e89752d0b50f8586fbfbec4409b0136dec852716202e8028b9d4f011519ad",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/turkiye/": {
+  "changed": "2026-10-23T10:06:18+00:00",
+  "checked": "2026-10-31T10:59:07+00:00",
+  "hash": "4ddea7808925f0cd8bfd948aee2cf38880d7f27db3476df96a57da599048eceb",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/united-arab-emirates/": {
+  "changed": "2026-10-30T11:26:44+00:00",
+  "checked": "2026-10-31T10:59:10+00:00",
+  "hash": "6f3612cb253717601dfd86be608198a27586b5abf3b259976074ec619b0dd260",
+  "status": "ok"
+ },
+ "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa": {
+  "checked": "2026-10-31T10:59:12+00:00",
+  "hash": "db299439a35deea38b137ffb7d72e1868226c7a6596b85ed3bae602d9701b758",
+  "status": "ok"
+ },
+ "https://www.migraciones.gob.ar/ave/": {
+  "checked": "2026-10-26T11:43:25+00:00",
+  "hash": "4568aeb11d3cbf549561edfbca3420c62ae20be671e0793365e0d71e2fd25b2b",
+  "status": "ok"
+ },
+ "https://www.migration.gov.rw/visa-on-arrival": {
+  "checked": "2026-10-26T11:43:30+00:00",
+  "hash": "715bf5cdd3bf634040221b8d11a9aab6d155d7dcce1e72ef89193fd0ab4a072d",
+  "status": "ok"
+ },
+ "https://www.migrationsverket.se/en/you-want-to-apply/citizens-of-the-eu-eea-or-nordic-countries/eu-eea-citizens.html": {
+  "checked": "2026-10-26T11:43:32+00:00",
+  "hash": "b2349541a2d2b664591c3022af77bce9a1f61bd423978f5197854ea885dfe2b2",
+  "status": "ok"
+ },
+ "https://www.migrationsverket.se/en/you-want-to-apply/visiting-sweden/visiting-sweden-for-up-to-90-days-entry-visa.html": {
+  "checked": "2026-10-26T11:43:34+00:00",
+  "hash": "88563f2ccaa7373b5b4a4acda1154246e772763eb9899fdf6e3bc9cf7078d2e3",
+  "status": "ok"
+ },
+ "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html": {
+  "checked": "2026-10-31T10:59:13+00:00",
+  "hash": "a98de44b455e0c11c54b114646fe74f0de1bbecde4526887ea84ef31fb87404b",
+  "status": "ok"
+ },
+ "https://www.mofa.go.kr/sg-en/brd/m_2435/view.do?seq=761395": {
+  "checked": "2026-10-31T10:59:16+00:00",
+  "hash": "3c9533f22b3eefc3b69cb7de32f37f091560114cf298405da74c775f5deb79e6",
+  "status": "ok"
+ },
+ "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen": {
+  "checked": "2026-10-31T10:59:21+00:00",
+  "hash": "afd9b52324584107fab86b64a7d0c341cf24da9ca9db837a5d353e1cfd76fd0b",
+  "status": "ok"
+ },
+ "https://www.mzv.sk/dilli-en": {
+  "checked": "2026-10-26T11:43:44+00:00",
+  "status": "http 403"
+ },
+ "https://www.mzv.sk/en/web/canberra-en/services/visa_information": {
+  "checked": "2026-10-26T11:43:44+00:00",
+  "status": "http 403"
+ },
+ "https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-australia": {
+  "changed": "2026-10-26T11:43:44+00:00",
+  "checked": "2026-10-26T11:43:44+00:00",
+  "hash": "528f06b65f0d703f73fcda2fb58c74afb4d4b88f5ab3639b93e7c2f37f50f88b",
+  "status": "ok"
+ },
+ "https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-brazil": {
+  "changed": "2026-10-26T11:43:46+00:00",
+  "checked": "2026-10-26T11:43:46+00:00",
+  "hash": "803933f0977434788333c57de5606be51e0e25ce1e7652bb1bd0c3091cf8518d",
+  "status": "ok"
+ },
+ "https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-canada": {
+  "changed": "2026-10-26T11:43:47+00:00",
+  "checked": "2026-10-26T11:43:47+00:00",
+  "hash": "9b74c517eb3023b6ea141d0a2ba8fb14c06cf20bcbb1b4c18b50a2e8b9e2a234",
+  "status": "ok"
+ },
+ "https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-india": {
+  "changed": "2026-10-26T11:43:48+00:00",
+  "checked": "2026-10-26T11:43:48+00:00",
+  "hash": "2b311eb5a9ed6865548f1e2fcf08c974b0fb4f0609a8f58bd6a4355d46d6b238",
+  "status": "ok"
+ },
+ "https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-singapore": {
+  "changed": "2026-10-26T11:43:49+00:00",
+  "checked": "2026-10-26T11:43:49+00:00",
+  "hash": "aecac958acf43bede8c7129f4430085ac23f2a4479eab58bc52d821d6bd38660",
+  "status": "ok"
+ },
+ "https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-united-kingdom": {
+  "changed": "2026-10-26T11:43:50+00:00",
+  "checked": "2026-10-26T11:43:50+00:00",
+  "hash": "5e0f879a3f128558151f533c81cef77379c0403677c94c52a6ec9ce32f9f3b05",
+  "status": "ok"
+ },
+ "https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-united-states": {
+  "changed": "2026-10-26T11:43:51+00:00",
+  "checked": "2026-10-26T11:43:51+00:00",
+  "hash": "cb5ae2e8911db428d3dfb5305731ad85c7f56545d21a70d4752b32438c7cd97b",
+  "status": "ok"
+ },
+ "https://www.normasbrasil.com.br/norma/decreto-5503-2005_55952.html": {
+  "checked": "2026-10-26T11:43:53+00:00",
+  "hash": "d2aacfb163b00f2ada41a9c4e48d5368235b22f90003889a422c591c75452fe3",
+  "status": "ok"
+ },
+ "https://www.norway.no/en/india/services-info/visitors-visa-res-permit/": {
+  "checked": "2026-10-26T11:43:54+00:00",
+  "hash": "b2a9eb2bb40dbd8099a024f9e057eb4b68a9a10570fe7de5471eee410564c48f",
+  "status": "ok"
+ },
+ "https://www.norway.no/en/pakistan/services-info/central-visa-handling/": {
+  "checked": "2026-10-26T11:43:54+00:00",
+  "hash": "26f792f3e2308c30d866386335adfcdf796a6683351fd475a44980885453c7c1",
+  "status": "ok"
+ },
+ "https://www.norway.no/en/philippines/services-info/visitors-visa-res-permit/": {
+  "checked": "2026-10-26T11:43:55+00:00",
+  "hash": "71453bc86e1322eea4116b3d929a62e1f50a9500074702e82c77ef3381f23b3f",
+  "status": "ok"
+ },
+ "https://www.norway.no/en/singapore/services-info/visitors-visa-res-permit/": {
+  "checked": "2026-10-26T11:43:56+00:00",
+  "hash": "01c09dc4782ebab4c2bb2121e2e1bc0d243058e8ae0750d13015e1fd39a79f30",
+  "status": "ok"
+ },
+ "https://www.norway.no/pt/brasil/servicos-info/visto-turismo-autorizacao-residencia/": {
+  "checked": "2026-10-26T11:43:57+00:00",
+  "hash": "65d1d10d00ae77d610771635dc6b2e2fd43ec10549147e5cd2d1d7ddadc550b0",
+  "status": "ok"
+ },
+ "https://www.pmlp.gov.lv/en/visas-and-invitations": {
+  "checked": "2026-10-26T11:44:23+00:00",
+  "hash": "8a72b9fd9a282b6aa44b82a790623da08bb4993dbb5b7b7b9817046311e65193",
+  "status": "error URLError"
+ },
+ "https://www.rwandainuk.gov.rw/services/service-details/visa-application": {
+  "changed": "2026-10-26T11:44:25+00:00",
+  "checked": "2026-10-26T11:44:25+00:00",
+  "hash": "0ecb711d4455c2a2f2721115704b96d9c02b1718cc3b362d9ef38087beded22b",
+  "status": "ok"
+ },
+ "https://www.rwandainusa.gov.rw/services/service-details/visa-1usa": {
+  "checked": "2026-10-26T11:44:28+00:00",
+  "hash": "3b75354584495152673b7977cb055c11d8e8fe52858f8a7d8f280ba25d59d4c1",
+  "status": "ok"
+ },
+ "https://www.sem.admin.ch/sem/en/home/overview-einreise.html": {
+  "checked": "2026-10-26T11:44:30+00:00",
+  "hash": "bfe3ae20b9f2721ebc709252ffe61909e80506ee1a52fa18da423c471f0de625",
+  "status": "ok"
+ },
+ "https://www.sem.admin.ch/sem/en/home/publiservice/weisungen-kreisschreiben/visa/liste1_staatsangehoerigkeit.html": {
+  "checked": "2026-10-26T11:44:32+00:00",
+  "hash": "1f78d9aa24c8f7d0a43e255abf33ca41d2e13291b860a722595266ccb6393c8e",
+  "status": "ok"
+ },
+ "https://www.sem.admin.ch/sem/en/home/publiservice/weisungen-kreisschreiben/visa/liste1_staatsangehoerigkeit/n.html": {
+  "checked": "2026-10-26T11:44:35+00:00",
+  "hash": "db3f2dea2a417e93bbc199cec75c3f1e559577c84884e7e1a518631e9d909f6d",
+  "status": "ok"
+ },
+ "https://www.sem.admin.ch/sem/en/home/publiservice/weisungen-kreisschreiben/visa/liste1_staatsangehoerigkeit/p.html": {
+  "checked": "2026-10-26T11:44:38+00:00",
+  "hash": "f4466a62890e9439864d63bf9a51bc8accb64ea944e442eb0e91b3ada06e7d1e",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/africa/mauritius": {
+  "changed": "2026-10-26T11:44:40+00:00",
+  "checked": "2026-10-26T11:44:40+00:00",
+  "hash": "793d43cfdbf690b0b8aab394e5eccc954a5212bf59b8f3adfe132b5a70997d70",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/africa/morocco": {
+  "changed": "2026-10-31T10:59:22+00:00",
+  "checked": "2026-10-31T10:59:22+00:00",
+  "hash": "d79a7eb09cd2668af88428b8195f1f56250d9745d1e1eb30b13e08fa451680d5",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/africa/tunisia": {
+  "changed": "2026-10-26T11:44:43+00:00",
+  "checked": "2026-10-26T11:44:43+00:00",
+  "hash": "73f7015eba46535eb9aa92ce965f5d7c888137026f0bd66d47448ff521f8c06c",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/americas/mexico": {
+  "changed": "2026-10-31T10:59:23+00:00",
+  "checked": "2026-10-31T10:59:23+00:00",
+  "hash": "8c3fdbf34f86f3600fb724dc3d931f8f4110fb519830009b549e9aea14c8edf0",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/americas/panama": {
+  "changed": "2026-10-26T11:44:46+00:00",
+  "checked": "2026-10-26T11:44:46+00:00",
+  "hash": "245b593b575edb338bb09f3c7aeda077a1c22215b6432342bc012c5b7d589be3",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/asia/japan": {
+  "changed": "2026-10-31T10:59:24+00:00",
+  "checked": "2026-10-31T10:59:24+00:00",
+  "hash": "e774c752d58bfe142eb17b9a4e0501f4765eb250b2be4a6040c36c56e9060539",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/asia/laos": {
+  "changed": "2026-10-26T11:44:48+00:00",
+  "checked": "2026-10-26T11:44:48+00:00",
+  "hash": "1d2013255dbabd647640a299dda053802c53f83f88f41d7c5ce7c6e3922c22ee",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/asia/malaysia": {
+  "changed": "2026-10-31T10:59:25+00:00",
+  "checked": "2026-10-31T10:59:25+00:00",
+  "hash": "dd7ae1cb28dc3b910aab4ebcb9078f6f120dec5569e56d6a856390f354341889",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/asia/singapore": {
+  "changed": "2026-10-31T10:59:26+00:00",
+  "checked": "2026-10-31T10:59:26+00:00",
+  "hash": "c63e91bda2228a4890a5565a0bdd5e895b0e19d872a18de5568a5f051ebe47df",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea": {
+  "changed": "2026-10-31T10:59:27+00:00",
+  "checked": "2026-10-31T10:59:27+00:00",
+  "hash": "02ceae8c129f303f68365a2188061e4aa6f28c1f1048c0b416bd6caacdbb570a",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/europe/albania": {
+  "changed": "2026-10-26T11:44:53+00:00",
+  "checked": "2026-10-26T11:44:53+00:00",
+  "hash": "86ddb0ad61cadf1fd61bc98079f205260df72ff5fa44cd3ef6877324208acd80",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/europe/armenia": {
+  "changed": "2026-10-26T11:44:54+00:00",
+  "checked": "2026-10-26T11:44:54+00:00",
+  "hash": "74172a5194f9b6e654ab879e5a8e8d79820ed804fe07f2f3fb4e29d7fdd3f3a0",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/europe/norway": {
+  "changed": "2026-10-26T11:44:55+00:00",
+  "checked": "2026-10-26T11:44:55+00:00",
+  "hash": "a99755c068b8dd4b9361648865f252cd42406aa392253f6e84db116316c053c2",
+  "status": "ok"
+ },
+ "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates": {
+  "changed": "2026-10-31T10:59:28+00:00",
+  "checked": "2026-10-31T10:59:28+00:00",
+  "hash": "1bc49655410c3c512ce09b967fac6e18d1da9bb4fbb19b16f3d9779709665c9c",
+  "status": "ok"
+ },
+ "https://www.zambiaimmigration.gov.zm/nationals-requiring-visa-prior-to-travel/": {
+  "checked": "2026-10-26T11:45:01+00:00",
+  "hash": "5318609a2a08ebee048971e8f2fefdfc19429e38f1f18ea06a80e38dab34c4c4",
+  "status": "ok"
+ },
+ "https://www.zambiaimmigration.gov.zm/nationals-who-dont-require-visa/": {
+  "checked": "2026-10-26T11:45:05+00:00",
+  "hash": "abf3f15e03b90cc7e4f9e31a4af396aad520676bc1ecc196a4ddd2c309c61038",
+  "status": "ok"
+ },
+ "https://www.zambiaimmigration.gov.zm/nationals-who-require-visa/": {
+  "checked": "2026-10-26T11:45:08+00:00",
+  "hash": "975361e636ea1d326315b8a20e3044a0b1a62a8977db970436888cc3681c83a5",
+  "status": "ok"
+ },
+ "https://www2.camara.leg.br/legin/fed/decret/2004/decreto-5169-4-agosto-2004-533210-publicacaooriginal-16479-pe.html": {
+  "checked": "2026-10-26T11:45:10+00:00",
+  "hash": "3cf4d2ac2b1bb195a5606aeb984d2878b50aab0f53430703ecd0e020b9a58d5e",
+  "status": "ok"
+ },
+ "https://www2.mfa.gov.lv/en/newdelhi/consular-section": {
+  "checked": "2026-10-26T11:45:36+00:00",
+  "hash": "db21ed00faaa9cae3ae25824741d84fcb04a25e4dff02853dcd894814b46ddb4",
+  "status": "error URLError"
+ }
+}
