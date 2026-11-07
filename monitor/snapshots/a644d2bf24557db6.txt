@@ -1,0 +1,59 @@
+Submit Electronic Travel Declaration
+The Electronic Travel Declaration is an online form that must be submitted by a citizen of any country, except a member state of the European Union, the North Atlantic Treaty Organization, the Organization for Economic Cooperation and Development, the European Economic Area, the Principality of Andorra, the Federative Republic of Brazil, the Principality of Monaco, the Republic of San Marino, or the Holy See (Vatican City State), who does not have a valid visa or residence permit issued by the Republic of Latvia.
+All non-exempt Foreign nationals planning to enter Latvia must submit Declaration at least 48 hours before entry.
+After submitting the Declaration, person will receive confirmation that the information has been received and that they have fulfilled their obligation to submit the declaration.
+48 hours after submitting the Declaration, the person will receive a repeated notification about the registration of the Declaration.
+The person will not be provided with and does not have to wait for a separate decision or permission to enter.
+The Declaration does not have to be submitted by:
+- Citizens of exempt countries (see the list below) are not required to submit a Declaration.
+- Foreign nationals holding a valid Visa or Residence permit issued by the Republic of Latvia - Taking into account the purpose of the activities of diplomatic and consular services and the immunity guaranteed to the relevant employees of these services, an exception is provided for persons who enjoy immunity and privileges in accordance with the norms of international law binding on Latvia or who are on a short-term trip (including in transit) to perform official functions or to provide technical support to a Latvian or foreign diplomatic or consular mission or international organization.
+Schengen Visa or Residence Permit Holders
+Foreign nationals of non-exempt countries holding a valid Schengen visa or residence permit card not issued by the Republic of Latvia must submit the Declaration before entering Latvia, unless other exemptions apply.
+Frequently Asked Questions
+What is the Electronic Travel Declaration?
+Electronic Travel Declaration (Declaration) is an online form that must be submitted by Foreign nationals starting from September 1, 2025 for planned entry and stay in the Republic of Latvia.
+Declaration must to be filled out by a person - a citizen of any country, except a member state of the European Union, the North Atlantic Treaty Organization, the Organization for Economic Cooperation and Development, the European Economic Area, the Principality of Andorra, the Federative Republic of Brazil, the Principality of Monaco, the Republic of San Marino, or the Holy See (Vatican City State), who does not have a visa or residence permit issued by the Republic of Latvia (hereafter referred to as a Foreign national).
+The Declaration must be submitted by a Foreign national at least 48 hours before entering the Republic of Latvia.
+Declaration is not considered an entry permit.
+What is the purpose of the Declaration?
+Requirement to submit the Declaration is outlined in Section one of Article 12 of the Immigration Law of the Republic of Latvia.
+The purpose of the obligation to submit the Declaration is to collect information on arriving Foreign nationals who have acquired the right to travel within the Schengen area in another country, as well as to support the capabilities of state security and law enforcement institutions to timely identify and prevent risks to state and public security.
+In cases where the aforementioned risks are identified, the competent state institutions will use the existing legal instruments to prevent the threat posed, including restricting the person's ability to enter Latvia.
+What kind of information is required?
+Foreign nationals will be required to declare following information
+personal information;
+information on passport used for travel;
+purpose of travel (entry);
+planned time and place of stay;
+elected positions held by the person or their relatives;
+candidacy in elections;
+current or former status of state or local government official;
+service in the armed forces, intelligence or security services, border guard, customs or internal affairs, justice or foreign affairs (including diplomatic) services.
+How are my data used?
+Access to the data provided in the Declaration is granted to the State Police and State Border Guard of Republic of Latvia to ensure compliance with the obligation to submit Declaration.
+State security institutions also have access to the data to perform functions specified in the regulatory enactments governing their activities.
+Who must submit the Declaration?
+Declaration must be submitted by all Foreign nationals, except citizens of the member states of European Union, the North Atlantic Treaty Organization, the Organization for Economic Cooperation and Development, the European Economic Area, the Principality of Andorra, the Federative Republic of Brazil, the Principality of Monaco, the Republic of San Marino, or the Holy See (Vatican City State), who enter the Republic of Latvia and who do not have a visa or residence permit issued by the Republic of Latvia.
+Which countries citizens are exempt from submitting the Declaration?
+The obligation to submit the Declaration does not apply to citizens of Albania, Andorra, Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, South Korea, Spain, Sweden, Switzerland, Turkey, United Kingdom, United States of America, Vatican City State.
+When should I submit the Declaration?
+The Declaration must be submitted no later than 48 hours before entering the Republic of Latvia.
+Does the Declaration guarantee entry?
+No, submitting the Declaration is a separate obligation of a Foreign national, which is not related to the right of entry.
+Submitting a Declaration does not replace the need for other entry prerequisites - the presence of an appropriate/valid travel document and the right to enter.
+Can I submit the Declaration on behalf of another person?
+Each Foreign national must provide the information required in the Declaration personally.
+As an exception, for example, in the case of minors or persons with legal incapacity, legal representatives - the minor’s parents, guardians or other duly authorized persons, may submit the information.
+What should I do if I want to make corrections to my Declaration?
+Correction of a submitted Declaration currently is not possible.
+If it is necessary to clarify the submitted data (for example, the type or time of entry has changed), a new Declaration must be submitted.
+Which web browser should be used to submit the Declaration?
+Google Chrome, Apple Safari, Microsoft Edge or Mozilla Firefox should be used to submit the Declaration.
+Sumbitting the Declaration in web browsers embedded within other applications (WebView), for example, Telegram, is not supported.
+Where to turn in case of further questions?
+For questions about entering Latvia, please refer to the Ministry of Foreign Affairs website: https://www.mfa.gov.lv/en/entry-latvia
+For questions about border crossing, please contact the State Border Guard via their website: https://www.rs.gov.lv/en/border-crossing or by phone: +371 67913300
+To report system operation issues, please contact the Digital Centre of the Interior by email at pd@idc.gov.lv
+Please note that the Digital Centre of the Interior does not provide consultations regarding entry requirements or the process of monitoring declaration submissions.
+If you agree to the use of these additional cookies, please make your selection:
+Cookies necessary for system operation
